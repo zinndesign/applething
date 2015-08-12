@@ -1,0 +1,29 @@
+[
+  {
+    "diagnosisType": {
+      "success": true,
+      "name": "INFO",
+      "value": "info"
+    },
+    "message": "Starting conversion at Aug 10, 2015 7:31:24 PM."
+  },
+  {
+    "diagnosisType": {
+      "success": true,
+      "name": "INFO",
+      "value": "info"
+    },
+    "message": "Conversion ended at Aug 10, 2015 7:31:25 PM and took 1374 milliseconds."
+  },
+  {
+    "diagnosisType": {
+      "success": true,
+      "name": "WARN",
+      "value": "warn"
+    },
+    "message": "factor\u003d0.4 is out of range and is being set to lower limit of 0.5.",
+    "keyPath": {
+      "stack": []
+    }
+  }
+]

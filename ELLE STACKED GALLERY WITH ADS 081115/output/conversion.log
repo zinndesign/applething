@@ -1,0 +1,44 @@
+2015-08-10 17:59:09,680 INFO  [Cli] Args: [/Users/cawilkes/Documents/ELLE NEWS/ELLE STACKED GALLERY WITH ADS, /Users/cawilkes/Documents/ELLE NEWS/ELLE STACKED GALLERY WITH ADS/output, --input-document, article.json, --output-document, article.json, --output-diagnostics, diag.json]
+2015-08-10 17:59:10,798 INFO  [DiagnosticsManager] Starting conversion at Aug 10, 2015 5:59:10 PM.
+2015-08-10 17:59:11,021 WARN  [DiagnosticsManager] factor=0.4 is out of range and is being set to lower limit of 0.5. Source: [{"type":"parallax","factor":0.4}] keyPath: [<empty>]
+2015-08-10 17:59:11,092 WARN  [DiagnosticsManager] exactLineHeight is deprecated and the value has been assigned to lineHeight. Source: [{"textAlignment":"left","fontName":"AvantGardeGothicITCW01XLt","textTransform":"uppercase","fontSize":52,"exactLineHeight":54,"textColor":"#000","identifier":"titleStyle"}] keyPath: [<empty>]
+2015-08-10 17:59:11,094 WARN  [DiagnosticsManager] exactLineHeight is deprecated and the value has been assigned to lineHeight. Source: [{"textAlignment":"left","fontName":"MTBaskervilleETW01-Roman","fontSize":16,"exactLineHeight":24,"textColor":"#777777","dropCapStyle":{"numberOfLines":2,"numberOfCharacters":1,"fontName":"MTBaskervilleETW01-Roman","textColor":"#777777"},"identifier":"dropcapBodyStyle"}] keyPath: [<empty>]
+2015-08-10 17:59:11,107 WARN  [DiagnosticsManager] exactLineHeight is deprecated and the value has been assigned to lineHeight. Source: [{"textAlignment":"left","fontName":"MTBaskervilleETW01-Roman","fontSize":16,"exactLineHeight":26,"textColor":"#000","identifier":"bodyStyle"}] keyPath: [<empty>]
+2015-08-10 17:59:11,646 INFO  [ResourceProcessor] Trying to get resource: ImageResource bundle://header.jpg
+2015-08-10 17:59:11,647 INFO  [ResourceProcessor] .......[OK]
+2015-08-10 17:59:11,647 INFO  [ResourceProcessor] Trying to get resource: ImageResource bundle://header.jpg
+2015-08-10 17:59:11,647 INFO  [ResourceProcessor] .......[OK]
+2015-08-10 17:59:11,647 INFO  [ResourceProcessor] Trying to get resource: ImageResource bundle://elm_arrow_header.png
+2015-08-10 17:59:11,647 INFO  [ResourceProcessor] .......[OK]
+2015-08-10 17:59:11,647 INFO  [ResourceProcessor] Trying to get resource: ImageResource bundle://bodyimage1.jpg
+2015-08-10 17:59:11,647 INFO  [ResourceProcessor] .......[OK]
+2015-08-10 17:59:11,648 INFO  [ResourceProcessor] Trying to get resource: ImageResource bundle://bodyimage2.jpg
+2015-08-10 17:59:11,648 INFO  [ResourceProcessor] .......[OK]
+2015-08-10 17:59:11,648 INFO  [ResourceProcessor] Trying to get resource: ImageResource bundle://bodyimage3.jpg
+2015-08-10 17:59:11,648 INFO  [ResourceProcessor] .......[OK]
+2015-08-10 17:59:11,648 INFO  [ResourceProcessor] Trying to get resource: ImageResource bundle://bodyimage4.jpg
+2015-08-10 17:59:11,648 INFO  [ResourceProcessor] .......[OK]
+2015-08-10 17:59:11,648 INFO  [ResourceProcessor] Trying to get resource: ImageResource bundle://bodyimage5.jpg
+2015-08-10 17:59:11,649 INFO  [ResourceProcessor] .......[OK]
+2015-08-10 17:59:11,649 INFO  [ResourceProcessor] Trying to get resource: ImageResource bundle://bodyimage6.jpg
+2015-08-10 17:59:11,653 INFO  [ResourceProcessor] .......[OK]
+2015-08-10 17:59:11,653 INFO  [ResourceProcessor] Trying to get resource: ImageResource bundle://cosmo_sub_ad.png
+2015-08-10 17:59:11,653 INFO  [ResourceProcessor] .......[OK]
+2015-08-10 17:59:11,708 WARN  [ComponentLayoutInheritanceProcessor] Layout span was out of parents bound; we adjusted it to fit in the parent
+2015-08-10 17:59:11,708 WARN  [ComponentLayoutInheritanceProcessor] Layout span was out of parents bound; we adjusted it to fit in the parent
+2015-08-10 17:59:11,708 WARN  [ComponentLayoutInheritanceProcessor] Layout span was out of parents bound; we adjusted it to fit in the parent
+2015-08-10 17:59:11,708 WARN  [ComponentLayoutInheritanceProcessor] Layout span was out of parents bound; we adjusted it to fit in the parent
+2015-08-10 17:59:11,708 WARN  [ComponentLayoutInheritanceProcessor] Layout span was out of parents bound; we adjusted it to fit in the parent
+2015-08-10 17:59:11,708 WARN  [ComponentLayoutInheritanceProcessor] Layout span was out of parents bound; we adjusted it to fit in the parent
+2015-08-10 17:59:11,708 WARN  [ComponentLayoutInheritanceProcessor] Layout span was out of parents bound; we adjusted it to fit in the parent
+2015-08-10 17:59:11,708 WARN  [ComponentLayoutInheritanceProcessor] Layout span was out of parents bound; we adjusted it to fit in the parent
+2015-08-10 17:59:11,708 WARN  [ComponentLayoutInheritanceProcessor] Layout span was out of parents bound; we adjusted it to fit in the parent
+2015-08-10 17:59:11,708 WARN  [ComponentLayoutInheritanceProcessor] Layout span was out of parents bound; we adjusted it to fit in the parent
+2015-08-10 17:59:11,709 WARN  [ComponentLayoutInheritanceProcessor] Layout span was out of parents bound; we adjusted it to fit in the parent
+2015-08-10 17:59:14,285 INFO  [DiagnosticsManager] Conversion ended at Aug 10, 2015 5:59:14 PM and took 3504 milliseconds.
+2015-08-10 17:59:14,358 INFO  [Cli] Copying font resource: 16e3b729-9cc0-490e-9de3-d678f36aba08.ttf
+2015-08-10 17:59:14,363 INFO  [Cli] Copying font resource: 2b2d2805-4f0f-4f00-9b9d-0bfdf44decc9.ttf
+2015-08-10 17:59:14,364 INFO  [Cli] Copying font resource: 44ccbb2b-0fbc-4d95-b1da-0aa73bd26fb0.ttf
+2015-08-10 17:59:14,370 INFO  [Cli] Copying font resource: 5c9c6048-4848-4567-b43d-8dc064665296.ttf
+2015-08-10 17:59:14,371 INFO  [Cli] Copying font resource: 7ca2dc9a-a574-4c52-82d2-90ac07ef71e0.ttf
+2015-08-10 17:59:14,372 INFO  [Cli] Copying font resource: fontello.ttf
