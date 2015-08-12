@@ -1,7 +1,7 @@
   {
   "version": "0.10",
   "identifier": "Apple_Demo",
-  "title": "Cory Stoll: Game ChangerMARGIN TEST",
+  "title": "Cory Stoll: Game Changer - JZ Tab fix",
   "language": "en",
   "layout": {
     "columns": 6,
@@ -18,12 +18,12 @@
           "type": "image",
           "URL": "bundle://landscape-1438717869-bfa-2673-289453.jpg",
           "fillMode": "cover",
-          "verticalAlignment": "center"
+          "verticalAlignment": "bottom"
         }
       },
       "behavior": {
         "type": "parallax",
-        "factor": 0.4
+        "factor": 0.5
       },
       "components": [
         {
@@ -33,9 +33,9 @@
             "fill": {
               "type": "image",
               "URL": "bundle://tab2.png",
-              "fillMode": "fit",
+              "fillMode": "cover",
               "verticalAlignment": "bottom",
-              "horizontalAlignment": "left"
+              "horizontalAlignment": "right"
             }
           },
           "anchor": {
@@ -75,13 +75,11 @@
                      "text": "Corey Stoll is at his onscreen best when he's playing it kind of crooked, but, as Mickey Rapkin learns, when it comes to real life and love, the House of Cards alum is a straight shooter.",
           "textStyle": "introStyle"
         },
-         {
+        {
           "role": "divider",
           "stroke": {
-            "color": "#cccccc",
-            "width": 1
-          },
-          "layout": "blackStrokeLayout1"
+            "color": "#CCC"
+          }
         },
         {
           "role": "author",
@@ -92,10 +90,8 @@
         {
           "role": "divider",
           "stroke": {
-            "color": "#cccccc",
-            "width": 1
-          },
-          "layout": "blackStrokeLayout1"
+            "color": "#CCC"
+          }
         },
         { 
            "role": "medium_rectangle_advertisement",
@@ -128,10 +124,14 @@
         {
           "role": "divider",
           "stroke": {
-            "color": "#cccccc",
-            "width": 1
+            "color": "#CCC"
           },
-          "layout": "blackStrokeLayout3"
+          "layout": {
+            "margin": {
+              "bottom": 0,
+              "top": 25
+            }
+          }
         },
         {
           "role": "pullquote",
@@ -218,6 +218,16 @@
   "componentStyles": {
     "bodyContainerStyle": {
       "backgroundColor": "#FFFFFF"
+    },
+    "dividerStyle": {
+      "border": {
+        "all": {
+          "width": 1,
+          "color": "#F00"
+        },
+        "left": false,
+        "right": false
+      }
     }
   },
   "componentTextStyles": {

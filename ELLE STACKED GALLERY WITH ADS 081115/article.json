@@ -1,687 +1,449 @@
 {
   "version": "0.10",
   "identifier": "Apple_Demo",
-  "title": "16 HOLLYWOOD COUPLES WHOSE BREAKUPS WOULD DEVASTATE US",
+  "title": "Example Graphics Story Article",
+  "subtitle": "Example Graphic Story Article Subtitle",
   "language": "en",
   "layout": {
-    "columns": 6,
+    "columns": 7,
     "width": 1024,
-    "margin": 120,
+    "margin": 70,
     "gutter": 40
   },
   "metadata": {
-    "datePublished": "2015-10-24T11:15:00+00:00",
-    "dateCreated": "2015-10-24T11:15:00+00:00",
-    "dateModified": "2015-10-24T11:15:00+00:00",
-    "authors": [
-      "Urna Semper"
-    ],
-    "generatorName": "Generator",
-    "generatorVersion": "1.0",
     "thumbnailURL": "bundle://header.jpg",
-    "keywords": [
-      "Elle",
-      "Fashion",
-      "Love",
-      "Couples"
-    ],
-    "excerpt": "Welcome To The World, Little Cumberbaby"
+    "excerpt": "It would be easy to pass off California’s epic drought as an issue for the Golden State alone."
   },
   "components": [
     {
       "role": "header",
-      "layout": "headerImageLayout",
+      "layout": "headerContainerLayout",
       "style": {
         "fill": {
           "type": "image",
           "URL": "bundle://header.jpg",
           "fillMode": "cover",
-          "verticalAlignment": "center"
+          "horizontalAlignment": "left"
         }
-      },
-      "behavior": {
-        "type": "parallax",
-        "factor": 0.4
       },
       "components": [
         {
-          "role": "container",
-          "layout": "tabLayout",
-          "style": {
-            "fill": {
-              "type": "image",
-              "URL": "bundle://elm_arrow_header.png",
-              "fillMode": "fit",
-              "verticalAlignment": "bottom",
-              "horizontalAlignment": "center"
-            }
-          },
+          "role": "title",
+          "text": "Five Pieces \nto the California \nDrought Puzzle",
+          "layout": "titleLayout",
+          "textStyle": "titleStyle"
+        }
+      ]
+    },
+    {
+      "role": "container",
+      "layout": "captionContainerLayout",
+      "style": "captionContainerStyle",
+      "components": [
+        {
+          "role": "caption",
+          "text": "California’s historic, four-year drought has the makings of an untenable natural disaster.   PHOTO: W. LEE",
+          "layout": "captionLayout",
+          "textStyle": "captionStyle",
           "anchor": {
-            "targetAnchorPosition": "bottom"
+            "targetAnchorPosition": "center",
+            "originAnchorPosition": "center"
           }
         }
       ]
     },
-            {
+    {
+      "role": "container",
+      "layout": {
+        "columnStart": 0,
+        "columnSpan": 7,
+        "ignoreDocumentMargin": true
+      },
+      "style": "whiteContainerStyle",
+      "components": [
+        {
           "role": "byline",
-          "text": "AUG 3, 2015 @ 4:44 PM",
+          "text": "by MICHAEL BURNS | October 25, 2015 | 11:15 AM",
           "layout": {
             "columnStart": 0,
-            "columnSpan": 6,
+            "columnSpan": 7,
             "margin": {
-              "bottom": 5,
-              "top": 20
+              "top": 20,
+              "bottom": 10
             }
           },
-          "textStyle": {
-            "textAlignment": "left",
-            "fontName": "MTBaskervilleETW01-Roman",
-            "fontSize": 12,
-            "textColor": "#000"
-          }
+          "textStyle": "authorStyle"
         },
-    {
-      "role": "title",
-      "text": "16 HOLLYWOOD COUPLES WHOSE BREAKUPS WOULD DEVASTATE US",
-      "layout": "titleLayout",
-      "textStyle": "titleStyle"
-    },
-
-         {
-          "role": "divider",
-          "stroke": {
-            "color": "#cccccc",
-            "width": 1
-          },
-          "layout": "blackStrokeLayout1"
-        },        {
-          "role": "byline",
-          "text": "BY SALLY HOLMES",
+        {
+          "role": "illustrator",
+          "text": "Illustrations by LOREM IPSUM",
           "layout": {
             "columnStart": 0,
-            "columnSpan": 6,
+            "columnSpan": 7,
             "margin": {
-              "bottom": 3,
-              "top":3
+              "bottom": 15
             }
           },
-          "textStyle": {
-            "textAlignment": "left",
-            "fontName": "AvantGardeGothicITCW01XLt",
-            "fontSize": 16,
-            "textTransform":"uppercase",
-            "textColor": "#000"
-          }
-        },
-         {
-          "role": "divider",
-          "stroke": {
-            "color": "#cccccc",
-            "width": 1
-          },
-          "layout": "blackStrokeLayout1"
-        },
-        {
-          "role": "body",
-          "text": "True love is dead—or at least, in mortal peril. On the heels of Ben Affleck and Jennifer Garner's split and Miranda Lambert and Blake Shelton confirming their divorcing, another of Hollywood's most famous couples is breaking up: Gwen Stefani and Gavin Rossdale. Make it stop! Here, 16 celeb couples whose love we love—and who would totally shatter us if they ever ended things.",
-          "format": "markdown",
-          "layout": "bodyLayout",
-          "textStyle": "bodyStyleFirst"
-        },
-        { 
-           "role": "medium_rectangle_advertisement",
-           "layout": "adLayout",
-           "bannerType": "standard"
-        },
-
-    {
-      "role": "body",
-      "text": "DAVID BOWIE AND IMAN",
-      "layout": "heading1Layout",
-      "textStyle": "heading1Style",
-      "format": "markdown"
-    },
-    {
-      "role": "container",
-      "style": {
-        "fill": {
-          "type": "linear_gradient",
-          "angle": 180,
-          "colorStops": [
-            {
-              "color": "#000000"
-            },
-            {
-              "color": "#000000"
-            }
-          ]
-        }
-      },
-      "layout": {
-        "minimumHeight": "100cw"
-      },
-      "components": [
-        {
-          "role": "container",
-          "style": {
-            "fill": {
-              "type": "image",
-              "URL": "bundle://bodyimage1.jpg"
-            }
-          },
-          "layout": {
-            "minimumHeight": "103cw"
-          },
-          "animation": {
-            "type": "fade_in",
-            "userControllable": true,
-            "initialAlpha": 0.1
-          }
-        }
-      ]
-    },
-    {
-      "role": "body",
-      "text": "Getty",
-      "layout": "creditLayout",
-      "textStyle": "creditStyle"
-    },      
-    {
-      "role": "body",
-      "text": "Because they are basically the coolest.",
-      "layout": "captionLayout",
-      "textStyle": "captionStyle",
-      "format": "markdown"
-    },
-    {
-      "role": "body",
-      "text": "SHANTE BROADUS AND SNOOP DOG",
-      "layout": "heading1Layout",
-      "textStyle": "heading1Style",
-      "format": "markdown"
-    },
-    {
-      "role": "container",
-      "style": {
-        "fill": {
-          "type": "linear_gradient",
-          "angle": 180,
-          "colorStops": [
-            {
-              "color": "#000000"
-            },
-            {
-              "color": "#000000"
-            }
-          ]
-        }
-      },
-      "layout": {
-        "minimumHeight": "69cw"
-      },
-      "components": [
-        {
-          "role": "container",
-          "style": {
-            "fill": {
-              "type": "image",
-              "URL": "bundle://bodyimage2.jpg"
-            }
-          },
-          "layout": {
-            "minimumHeight": "69cw"
-          },
-          "animation": {
-            "type": "fade_in",
-            "userControllable": true,
-            "initialAlpha": 0.1
-          }
-        }
-      ]
-    },
-     {
-      "role": "body",
-      "text": "Getty",
-      "layout": "creditLayout",
-      "textStyle": "creditStyle"
-    },     
-    {
-      "role": "body",
-      "text": "The have been married 16 years and were high school sweethearts. I mean Snoop Lion 3>",
-      "layout": "captionLayout",
-      "textStyle": "captionStyle",
-      "format": "markdown"
-    },
-    {
-      "role": "body",
-      "text": "FREDDIE PRINZE JR. AND SARAH MICHELLE GELLAR",
-      "layout": "heading1Layout",
-      "textStyle": "heading1Style",
-      "format": "markdown"
-    },
-    {
-      "role": "container",
-      "style": {
-        "fill": {
-          "type": "linear_gradient",
-          "angle": 180,
-          "colorStops": [
-            {
-              "color": "#000000"
-            },
-            {
-              "color": "#000000"
-            }
-          ]
-        }
-      },
-      "layout": {
-        "minimumHeight": "100cw"
-      },
-      "components": [
-        {
-          "role": "container",
-          "style": {
-            "fill": {
-              "type": "image",
-              "URL": "bundle://bodyimage3.jpg"
-            }
-          },
-          "layout": {
-            "minimumHeight": "100cw"
-          },
-          "animation": {
-            "type": "fade_in",
-            "userControllable": true,
-            "initialAlpha": 0.1
-          }
-        }
-      ]
-    },
-    {
-      "role": "body",
-      "text": "Getty",
-      "layout": "creditLayout",
-      "textStyle": "creditStyle"
-    },      
-    {
-      "role": "body",
-      "text": "They have been married 13 years in September and the best part about them is the way they talk about thier relationship with no ego.",
-      "layout": "captionLayout",
-      "textStyle": "captionStyle",
-      "format": "markdown"
-    },
-     { 
-      "role": "medium_rectangle_advertisement",
-      "layout": "adLayout",
-      "bannerType": "standard"
-    },
-    {
-      "role": "body",
-      "text": "Emily Blount and John Krasinski",
-      "layout": "heading1Layout",
-      "textStyle": "heading1Style",
-      "format": "markdown"
-    },
-    {
-      "role": "container",
-      "style": {
-        "fill": {
-          "type": "linear_gradient",
-          "angle": 180,
-          "colorStops": [
-            {
-              "color": "#000000"
-            },
-            {
-              "color": "#000000"
-            }
-          ]
-        }
-      },
-      "layout": {
-        "minimumHeight": "69cw"
-      },
-      "components": [
-        {
-          "role": "container",
-          "style": {
-            "fill": {
-              "type": "image",
-              "URL": "bundle://bodyimage4.jpg"
-            }
-          },
-          "layout": {
-            "minimumHeight": "100cw"
-          },
-          "animation": {
-            "type": "fade_in",
-            "userControllable": true,
-            "initialAlpha": 0.1
-          }
-        }
-      ]
-    },
-    {
-      "role": "body",
-      "text": "Getty",
-      "layout": "creditLayout",
-      "textStyle": "creditStyle"
-    },      
-    {
-      "role": "body",
-      "text": "These two would basically be your favorite funny couple to hang out with. Have you seen the video of them pranking Jimmy Kimmel? The most fun.",
-      "layout": "captionLayout",
-      "textStyle": "captionStyle",
-      "format": "markdown"
-    },
-      {
-      "role": "body",
-      "text": "Barak and Michelle Obama",
-      "layout": "heading1Layout",
-      "textStyle": "heading1Style",
-      "format": "markdown"
-    },
-    {
-      "role": "container",
-      "style": {
-        "fill": {
-          "type": "linear_gradient",
-          "angle": 180,
-          "colorStops": [
-            {
-              "color": "#000000"
-            },
-            {
-              "color": "#000000"
-            }
-          ]
-        }
-      },
-      "layout": {
-        "minimumHeight": "69cw"
-      },
-      "components": [
-        {
-          "role": "container",
-          "style": {
-            "fill": {
-              "type": "image",
-              "URL": "bundle://bodyimage5.jpg"
-            }
-          },
-          "layout": {
-            "minimumHeight": "100cw"
-          },
-          "animation": {
-            "type": "fade_in",
-            "userControllable": true,
-            "initialAlpha": 0.1
-          }
-        }
-      ]
-    },
-    {
-      "role": "body",
-      "text": "Getty",
-      "layout": "creditLayout",
-      "textStyle": "creditStyle"
-    },    
-    {
-      "role": "body",
-      "text": "Barack and Michelle breaking up would be like your mom and dad splitting.",
-      "layout": "captionLayout",
-      "textStyle": "captionStyle",
-      "format": "markdown"
-    },
-    {
-      "role": "body",
-      "text": "Jay-Z and Beyonce",
-      "layout": "heading1Layout",
-      "textStyle": "heading1Style",
-      "format": "markdown"
-    },
-    {
-      "role": "container",
-      "style": {
-        "fill": {
-          "type": "linear_gradient",
-          "angle": 180,
-          "colorStops": [
-            {
-              "color": "#000000"
-            },
-            {
-              "color": "#000000"
-            }
-          ]
-        }
-      },
-      "layout": {
-        "minimumHeight": "69cw"
-      },
-      "components": [
-        {
-          "role": "container",
-          "style": {
-            "fill": {
-              "type": "image",
-              "URL": "bundle://bodyimage6.jpg"
-            }
-          },
-          "layout": {
-            "minimumHeight": "69cw"
-          },
-          "animation": {
-            "type": "fade_in",
-            "userControllable": true,
-            "initialAlpha": 0.1
-          }
-        }
-      ]
-    },
-            {
-          "role": "body",
-          "text": "Getty",
-          "layout": "creditLayout",
-          "textStyle": "creditStyle"
-        },
-    {
-      "role": "body",
-      "text": "When the word goals was originally entered into the dictionary, the authors just put a photo of Jay Z and Beyoncé and a period. True story.",
-      "layout": "captionLayout",
-      "textStyle": "captionStyle",
-      "format": "markdown"
-    },
-
-        { "role": "image",
-          "layout": "adLayout",
-          "URL": "bundle://cosmo_sub_ad.png"
-        },
-
-        {
-          "role": "divider",
-          "stroke": {
-            "color": "#cccccc",
-            "width": 1
-          },
-          "layout": "blackStrokeLayout2"
-        },
-        {
-          "role": "body",
-          "text": "More from Elle.com",
-          "layout": "spacerLayout",
-          "textStyle": "spacerWord"
+          "textStyle": "authorStyle"
         },
         {
           "role": "divider",
-          "stroke": {
-            "color": "#cccccc",
-            "width": 1
-          },
-          "layout": "blackStrokeLayout2"
-        },
-{
-              "role": "text",
-              "identifier": "text-1",
-              "format": "markdown",
-              "text": "[13 Rarely Seen Photos of Marylin Monroe](http://cosmo.com/link)\n\n\n\n[8nRules for Dressing Like a New Yorker](http://cosmo.com/link) \n\n\n\n[The Olsens Endorse the F*ck it Flat](http://cosmo.com/link)",
-              "textStyle": "lowerListStyle",
-              "layout": {
-                "columnStart": 0,
-                "columnSpan": 6,
-                "margin": {
-                   "top": 20,
-                   "bottom":15
+          "layout": {
+            "columnStart": 0,
+            "columnSpan": 7,
+            "margin": {
+              "top": 0,
+              "bottom": 5
             }
+          },
+          "stroke": {
+            "color": "#85888D",
+            "width": 2
+          }
+        },
+        {
+          "role": "body",
+          "text": "It would be easy to pass off California’s epic drought as an issue for the Golden State alone. But to do so is to ignore the region’s agricultural significance to the rest of the nation—California provides more than one-third of our country's vegetables and two-thirds of its fruits and nuts. With fruit and vegetable prices up between 2.5% and 3.5% (1), the drought may continue to wreak economic havoc in the months to come. ",
+          "layout": "introLayout",
+          "textStyle": "dropcapBodyStyle",
+          "inlineTextStyles": [
+            {
+              "rangeStart": 350,
+              "rangeLength": 3,
+              "textStyle": {
+                "verticalAlignment": "superscript"
               }
-            },
-
-            {
-          "role": "divider",
-          "stroke": {
-            "color": "#cccccc",
-            "width": 1
-          },
-          "layout": "blackStrokeLayout3"
+            }
+          ]
         },
+        {
+          "role": "divider",
+          "layout": {
+            "columnStart": 0,
+            "columnSpan": 7,
+            "margin": {
+              "top": 5,
+              "bottom": 0
+            }
+          },
+          "stroke": {
+            "color": "#85888D",
+            "width": 1
+          }
+        }
+      ]
+    },
     {
-      "role": "banner_advertisement",
-      "bannerType": "standard"
+      "role": "container",
+      "layout": {
+        "columnStart": 0,
+        "columnSpan": 7,
+        "ignoreDocumentMargin": true,
+        "margin": {
+          "top": 20,
+          "bottom": 0
+        }
+      },
+      "style": "grayContainerStyle",
+      "components": [
+        {
+          "role": "heading1",
+          "text": "1. Four Years, Little Rain",
+          "layout": "heading1Layout",
+          "textStyle": "heading1Style"
+        },
+        {
+          "role": "figure",
+          "URL": "bundle://bodyGraphic1.png",
+          "layout": "bodyImageLayout",
+          "animation": {
+            "type": "fade_in",
+            "userControllable": true,
+            "initialAlpha": 0.0
+          }
+        },
+        {
+          "role": "body",
+          "text": "According to the National Weather Service, in 2015, the Sacramento region experienced its driest January since 1877, with no rain for over a month, while Central California—one of the world’s most productive agricultural areas—received even less rain than it had in the previous three Januaries. January is typically Northern California’s wettest month.\n",
+          "layout": "bodyLayout",
+          "textStyle": "bodyStyle"
+        }
+      ]
+    },
+    {
+      "role": "container",
+      "layout": {
+        "columnStart": 0,
+        "columnSpan": 7,
+        "ignoreDocumentMargin": true
+      },
+      "style": "whiteContainerStyle",
+      "components": [
+        {
+          "role": "heading1",
+          "text": "2. Unbeatable Heat",
+          "layout": "heading1Layout",
+          "textStyle": "heading1Style"
+        },
+        {
+          "role": "figure",
+          "URL": "bundle://bodyGraphic2.png",
+          "layout": "bodyImageLayout",
+          "animation": {
+            "type": "fade_in",
+            "userControllable": true,
+            "initialAlpha": 0.0
+          }
+        },
+        {
+          "role": "body",
+          "text": "While droughts have been a part of the California landscape for more than four centuries—tree-ring records show that the state experienced a severe water shortage in 1580 (2)—the destruction incurred by the current drought is worsened severely by the extreme heat. High temperatures have depleted the state’s reservoirs and melted the mountain snowpack that is crucial to keeping lakes and farmlands wet in the summer months.\n",
+          "layout": "bodyLayout",
+          "textStyle": "bodyStyle",
+          "inlineTextStyles": [
+            {
+              "rangeStart": 171,
+              "rangeLength": 3,
+              "textStyle": {
+                "verticalAlignment": "superscript"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "role": "container",
+      "layout": {
+        "columnStart": 0,
+        "columnSpan": 7,
+        "ignoreDocumentMargin": true
+      },
+      "style": "grayContainerStyle",
+      "components": [
+        {
+          "role": "heading1",
+          "text": "3. Where the Water Goes",
+          "layout": "heading1Layout",
+          "textStyle": "heading1Style"
+        },
+        {
+          "role": "figure",
+          "URL": "bundle://bodyGraphic3.png",
+          "layout": "bodyImageLayout",
+          "animation": {
+            "type": "fade_in",
+            "userControllable": true,
+            "initialAlpha": 0.0
+          }
+        },
+        {
+          "role": "body",
+          "text": "On average, California uses 196 gallons of water per capita each day, though that number varies, often wildly, according to region. Palm Springs soaks up 736 gallons a day because of dry, hot conditions, which necessitate greater need for watered lawns and filled pools. That’s five times as much as city of Los Angeles, which uses just 152 gallons per day. The highest usage in the state can be attributed to the tiny industrial city of Vernon, which has just 112 residents but houses 18,000 businesses. That dichotomy accounts for 94,111 gallons per capita every single day. (3) \n",
+          "layout": "bodyLayout",
+          "textStyle": "bodyStyle",
+
+
+          "inlineTextStyles": [
+            {
+              "rangeStart": 577,
+              "rangeLength": 3,
+              "textStyle": {
+                "verticalAlignment": "superscript"
+              }
+            }
+          ]
+
+        }
+      ]
+    },
+    {
+      "role": "container",
+      "layout": {
+        "columnStart": 0,
+        "columnSpan": 7,
+        "ignoreDocumentMargin": true
+      },
+      "style": "whiteContainerStyle",
+      "components": [
+        {
+          "role": "heading1",
+          "text": "4. The Fault of the Farmer?",
+          "layout": "heading1Layout",
+          "textStyle": "heading1Style"
+        },
+        {
+          "role": "figure",
+          "URL": "bundle://bodyGraphic4.png",
+          "layout": "bodyImageLayout",
+          "animation": {
+            "type": "fade_in",
+            "userControllable": true,
+            "initialAlpha": 0.0
+          }
+        },
+        {
+          "role": "body",
+          "text": "While California’s 9 million acres of farmland use a vast amount of the state's water, with some research indicating as much as 80%, that figure is based on water allocated for human use only, and doesn’t take into account environmental use, like protected wild rivers, recreational purposes, and keeping ocean water out of the San Joaquin River Delta, which is where the state gets most of its drinkable water. Taking that data into consideration, water use can be attributed as approximately 40 to 60% for agriculture, 10 to 16% for urban use, and other purposes—including environmental—at about 22%. (4)\n",
+          "layout": "bodyLayout",
+          "textStyle": "bodyStyle",
+          "inlineTextStyles": [
+            {
+              "rangeStart": 603,
+              "rangeLength": 3,
+              "textStyle": {
+                "verticalAlignment": "superscript"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "role": "container",
+      "layout": {
+        "columnStart": 0,
+        "columnSpan": 7,
+        "ignoreDocumentMargin": true
+      },
+      "style": "grayContainerStyle",
+      "components": [
+        {
+          "role": "heading1",
+          "text": "5. The Big Drop",
+          "layout": "heading1Layout",
+          "textStyle": "heading1Style"
+        },
+        {
+          "role": "figure",
+          "URL": "bundle://bodyGraphic5.png",
+          "layout": "bodyImageLayout",
+          "animation": {
+            "type": "fade_in",
+            "userControllable": true,
+            "initialAlpha": 0.0
+          }
+        },
+        {
+          "role": "body",
+          "text": "California gets its water supply from three main resources: the mountain snowpack, water stored in its reservoirs, and water drawn from underground aquifers. According to the California Department of Water Resources’ climatologist, 150% of all the precipitation that falls in 2015 would be needed to provide even a good chance of filling the reservoirs and ending the drought.\n",
+          "layout": "bodyLayout",
+          "textStyle": "bodyStyle"
+        }
+      ]
+    },
+    {
+      "role": "container",
+      "layout": {
+        "columnStart": 0,
+        "columnSpan": 7,
+        "ignoreDocumentMargin": true
+      },
+      "style": "whiteContainerStyle",
+      "components": [
+        {
+          "role": "heading1",
+          "text": "Sources:",
+          "layout": "heading1Layout",
+          "textStyle": "heading1Style"
+        },
+        {
+          "role": "body",
+          "text": "1. Michael Martinez and Alexandra Meeks (April 3, 2015) [How historic California drought affects rest of nation, often for the worse](http://www.cnn.com/2015/04/03/us/california-drought/) \n2. Bettina Boxall (February 23, 2014) [Severe drought? California has been here before](http://articles.latimes.com/2014/feb/23/local/la-me-drought-weakness-20140223) \n3. Paul Rogers and Nicholas St. Fleur (February 7, 2014)[California Drought: Database shows big difference between water guzzlers and sippers](http://www.mercurynews.com/science/ci_25090363/california-drought-water-use-varies-widely-around-state) \n4. Molly Peterson (April 15 2015). [Drought: 10 things to know about California water use](http://www.scpr.org/news/2015/04/15/50941/10-things-to-know-about-california-water-use/) \n",
+          "layout": "introLayout",
+          "format": "markdown",
+          "textStyle": "sourcesStyle"
+        }
+      ]
     }
   ],
-  "componentTextStyles": {
-    "introStyle": {
-      "textAlignment": "center",
-      "fontName": "AvantGardeGothicITCW01XLt",
-      "fontSize": 24,
-      "lineHeight":30,
-      "textColor": "#000"
+  "componentStyles": {
+    "whiteContainerStyle": {
+      "backgroundColor": "#FFF"
     },
+    "captionContainerStyle": {
+      "backgroundColor": "#000"
+    },
+    "grayContainerStyle": {
+      "backgroundColor": "#F5F5F5"
+    }
+  },
+  "componentTextStyles": {
     "titleStyle": {
       "textAlignment": "left",
-      "fontName": "AvantGardeGothicITCW01XLt",
-      "textTransform": "uppercase",
-      "fontSize": 52,
-      "exactLineHeight": 54,
-      "textColor": "#000"
+      "fontName": "HelveticaNeue-Bold",
+      "fontSize": 64,
+      "lineHeight": 61,
+      "textColor": "#FFF"
     },
-    "lowerListStyle": {
-      "textAlignment": "center",
-      "fontName": "MTBaskervilleETW01-Roman",
-      "fontSize": 18,
-      "lineHeight":20,
-      "textColor": "#000"
-    },
-    "bylineStyle": {
+    "authorStyle": {
       "textAlignment": "left",
-      "fontName": "AvantGardeGothicITCW01XLt",
-      "fontSize": 16,
-      "textColor": "#000"
-    },
-      "dateStyle": {
-      "identifier": "dateStyle",
-      "fontName": "MTBaskervilleETW01-Roman",
+      "fontName": "HelveticaNeue-Bold",
       "fontSize": 12,
-      "textColor": "#000",
-      "textTransform": "uppercase",
-      "textAlignment": "left"
+      "textColor": "#53585F"
     },
     "dropcapBodyStyle": {
       "textAlignment": "left",
-      "fontName": "MTBaskervilleETW01-Roman",
-      "fontSize": 16,
-      "exactLineHeight": 24,
-      "textColor": "#777777",
+      "fontName": "HelveticaNeue",
+      "fontSize": 22,
+      "lineHeight": 32,
+      "textColor": "#53585F",
       "dropCapStyle": {
         "numberOfLines": 2,
         "numberOfCharacters": 1,
-        "fontName": "MTBaskervilleETW01-Roman",
-        "textColor": "#777777"
+        "fontName": "HelveticaNeue-Bold",
+        "textColor": "#53585F",
+        "padding": 0
+      }
+    },
+    "sourcesStyle": {
+      "textAlignment": "left",
+      "fontName": "HelveticaNeue",
+      "fontSize": 16,
+      "lineHeight": 24,
+      "textColor": "#53585F",
+      "linkStyle": {
+        "textColor": "#0066CC"
       }
     },
     "bodyStyle": {
       "textAlignment": "left",
-      "fontName": "MTBaskervilleETW01-Roman",
-      "fontSize": 16,
-      "exactLineHeight": 26,
-      "textColor": "#000"
-    },
-        "bodyStyleFirst": {
-      "textAlignment": "left",
-      "fontName": "MTBaskervilleETW01-Roman",
+      "fontName": "HelveticaNeue",
       "fontSize": 18,
-      "lineHeight": 28,
-      "textColor": "#000",
-      "dropCapStyle": {
-        "fontName": "MTBaskervilleETW01-Roman",
-        "numberOfLines": 2,
-        "numberOfCharacters": 1,
-        "textColor": "#cccccc"
-      }
+      "lineHeight": 26,
+      "textColor": "#000"
     },
     "captionStyle": {
       "textAlignment": "left",
-      "fontName": "MTBaskervilleETW01-Roman",
-      "fontSize": 16,
-      "lineHeight": 20,
-      "textColor": "#000"
-    },
-    "creditStyle": {
-      "textAlignment": "right",
-      "fontName": "AvantGardeGothicITCW01XLt",
-      "fontSize": 11,
-      "lineHeight": 12,
-      "textTransform":"uppercase",
-      "textColor": "#444444"
+      "fontName": "HelveticaNeue-Medium",
+      "fontSize": 12,
+      "lineHeight": 18,
+      "textColor": "#FFF"
     },
     "heading1Style": {
       "textAlignment": "left",
-      "fontName": "AvantGardeGothicITCW01Dm",
-      "fontSize": 20,
-      "lineHeight": 22,
-      "textTransform":"uppercase",
-      "textColor": "#000"
-    },
-
-    "spacerWord":{
-      "textAlignment": "center",
-      "fontSize": 48,
-      "lineHeight": 48,
-      "textColor": "#000",
-      "textTransform": "uppercase",
-      "fontName": "AvantGardeGothicITCW01XLt"
-    },
-    "pullquoteStyle": {
-      "textAlignment": "center",
-      "fontName": "MTBaskervilleETW01-Roman",
+      "fontName": "HelveticaNeue-Bold",
       "fontSize": 22,
-      "lineHeight": 28,
-      "textTransform":"uppercase",
-      "textColor": "#000"
+      "lineHeight": 32,
+      "textColor": "#53585F"
     }
   },
   "componentLayouts": {
-    "headerImageLayout": {
+    "headerContainerLayout": {
       "columnStart": 0,
       "columnSpan": 7,
       "ignoreDocumentMargin": true,
-      "minimumHeight": "49vh"
+      "minimumHeight": "75vh",
+      "margin": {
+        "top": 0,
+        "bottom": 0
+      }
     },
-    "tabLayout": {
-      "columnStart": 0,
-      "columnSpan": 7,
+    "bodyImageLayout": {
+      "columnStart": 4,
+      "columnSpan": 3,
       "ignoreDocumentMargin": true,
-      "minimumHeight": 100
-    },
-    "bodyContainerLayout": {
-      "columnStart": 0,
-      "columnSpan": 7,
-      "ignoreDocumentMargin": true
-    },
-    "introLayout": {
-      "columnStart": 0,
-      "columnSpan": 7,
+      "minimumHeight": "30vh",
       "margin": {
         "top": 15,
         "bottom": 15
@@ -691,67 +453,10 @@
       "columnStart": 0,
       "columnSpan": 7,
       "margin": {
-        "top": 10,
-        "bottom": 30
+        "top": 180
       }
     },
-    "bylineLayout": {
-      "columnStart": 0,
-      "columnSpan": 7,
-      "margin": {
-        "top": 30,
-        "bottom": 30
-      }
-      },
-    "adLayout": {
-      "columnStart": 0,
-      "columnSpan": 7,
-      "margin": {
-        "top": 25,
-        "bottom": 25
-      }
-    },
-    "bodyLayout": {
-      "columnStart": 0,
-      "columnSpan": 7,
-      "margin": {
-        "top": 35,
-        "bottom": 25
-      }
-    },
-    "creditLayout": {
-      "columnStart": 0,
-      "columnSpan": 7,
-      "margin": {
-        "top": 4,
-        "bottom": 0
-      }   
-      },
-    "captionLayout": {
-      "columnStart": 0,
-      "columnSpan": 7,
-      "margin": {
-        "top": 10,
-        "bottom": 25
-      }   
-      },
-    "heading1Layout": {
-      "columnStart": 0,
-      "columnSpan": 7,
-      "margin": {
-        "top": 15,
-        "bottom": 10
-      }
-    },
-    "galleryLayout": {
-      "columnStart": 0,
-      "columnSpan": 7,
-      "margin": {
-        "top": 25,
-        "bottom": 25
-      }
-    },
-    "bodyImageLayout": {
+    "introLayout": {
       "columnStart": 0,
       "columnSpan": 7,
       "margin": {
@@ -759,7 +464,15 @@
         "bottom": 15
       }
     },
-    "pullquoteWrapLayout": {
+    "heading1Layout": {
+      "columnStart": 0,
+      "columnSpan": 4,
+      "margin": {
+        "top": 25,
+        "bottom": 0
+      }
+    },
+    "bodyLayout": {
       "columnStart": 0,
       "columnSpan": 4,
       "margin": {
@@ -767,62 +480,18 @@
         "bottom": 15
       }
     },
-    "Layout": {
-      "columnStart": 0,
-      "columnSpan": 7,
-      "margin": {
-        "top": 15,
-        "bottom": 15
-      }
-         },
-    "blackStrokeLayout1":{
-      "columnStart": 0,
-      "columnSpan": 7,
-      "margin":{
-        "top":0,
-        "bottom":0
-      }
-     },
-    "blackStrokeLayout2":{
-      "columnStart": 0,
-      "columnSpan": 7,
-      "margin":{
-        "top":5,
-        "bottom":5
-      }
-           },
-    "blackStrokeLayout3":{
-      "columnStart": 0,
-      "columnSpan": 7,
-      "margin":{
-        "top":10,
-        "bottom":35
-      }
-    },
-
-    "spacerLayout": {
-      "columnStart": 0,
-      "columnSpan": 6,
-      "margin": {
-        "top": 5,
-        "bottom": 0
-      }
-    },
-
-    "mosaicLayout": {
+    "captionContainerLayout": {
       "columnStart": 0,
       "columnSpan": 7,
       "ignoreDocumentMargin": true
     },
-    "footerLayout": {
+    "captionLayout": {
       "columnStart": 0,
       "columnSpan": 7,
-      "ignoreDocumentMargin": true
-    },
-    "followLayout": {
-      "columnStart": 0,
-      "columnSpan": 7,
-      "backgroundColor": "#000"
+      "margin": {
+        "top": 10,
+        "bottom": 10
+      }
     }
   }
 }
