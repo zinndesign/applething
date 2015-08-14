@@ -1,11 +1,13 @@
 {
   "version": "0.10",
   "identifier": "!!!DYNAMIC",
-  "title": "!!!DYNAMIC",
+  "title": "8 Chic Outfits to Try with What Remains of the Summer",
   "language": "en",
   "layout": {
     "columns": 6,
-    "width": 1024
+    "width": 1024,
+    "margin": 60,
+    "gutter": 30
   },
   "components": [
     {
@@ -14,7 +16,7 @@
       "style": {
         "fill": {
           "type": "image",
-          "URL": "bundle://header.jpg",
+          "URL": "http://mac.h-cdn.co/assets/15/32/980x490/landscape-1438895067-mcx-summer2.jpg",
           "fillMode": "cover",
           "verticalAlignment": "bottom"
         }
@@ -45,43 +47,50 @@
         {
           "role": "intro",
           "layout": "dateLayout",
-          "text": "!!!DATE",
-          "textStyle" : "dateStyle"
+          "text": "aug 5, 2015 @ 6:01 pm",
+          "textStyle": "dateStyle",
+          "style": "dateLayoutStyle"
         },
         {
           "role": "title",
-          "text": "!!!TITLE",
+          "text": "8 Chic Outfits to Try with What Remains of the Summer",
           "layout": "titleLayout",
           "textStyle": "titleStyle"
         },
         {
           "role": "divider",
           "stroke": {
-            "color": "#FFF0"
+            "color": "#FFF"
           },
-          "layout": "blackStrokeLayout1",
-          "style": "baseStrokeStyle"
+         "layout": "blackStrokeLayout1"
         },
         {
           "role": "author",
           "layout": "authorLayout",
-          "text": "!!!AUTHOR",
+          "text": "By Chelsea Peng",
           "textStyle": "authorStyle"
         },
         {
           "role": "divider",
           "stroke": {
-            "color": "#FFF0"
+           "color": "#FFF"
           },
-          "layout": "blackStrokeLayout1",
-          "style": "baseStrokeStyle"
+         "layout": "blackStrokeLayout1"
+        },
+        {
+          "role": "body",
+          "text": "We couldn't agree on the [Song of the Summer 2015](http://www.marieclaire.com/culture/news/a15035/song-of-the-summer-debate/) (#TeamUmlaut), but when it comes to outfits to cross off before Labor Day, Team MC is on the same page: \"Noootttt another sundressssss.\" Here, see eight just-as-easy ideas, none requiring more than three pieces of clothing. Because if wearing less isn't a great selling point, I don't know what is.",
+          "layout": "bodyLayout",
+          "textStyle": "bodyStyle",
+          "format": "markdown"
         },
         {
           "role": "section",
+          "layout": "slideLayout",
           "components": [
             {
               "role": "heading",
-              "text": "!!!SUBHEAD",
+              "text": "MOD cut-offs",
               "layout": "heading1Layout",
               "textStyle": "heading1Style",
               "format": "markdown"
@@ -96,7 +105,8 @@
                   "style": {
                     "fill": {
                       "type": "image",
-                      "URL": "bundle://bodyimage1.jpg"
+                      "URL": "http://mac.h-cdn.co/assets/15/32/1024x1536/gettyimages-483126336_master.jpg",
+                      "verticalAlignment": "top"
                     }
                   },
                   "layout": "photoLayout",
@@ -110,13 +120,66 @@
             },
             {
               "role": "photographer",
-              "text": "!!!PHOTO CREDIT",
+              "text": "Getty",
               "layout": "creditLayout",
               "textStyle": "creditStyle"
             },      
             {
               "role": "caption",
-              "text": "!!!CAPTION",
+              "text": "I lied--Anja Rubik is actually the best selling point. Here, she's made a denim diaper look nonchalant and even kind of grown-up by pairing them with a loose shirt, vest, and the accessory of the moment: the skinny scarf.",
+              "layout": "captionLayout",
+              "textStyle": "captionStyle",
+              "format": "markdown"
+            },
+            {
+              "role": "container",
+              "layout": "iconTestLayout",
+              "style": "iconLayoutStyle"
+            }
+          ]
+        },
+        {
+          "role": "section",
+          "components": [
+            {
+              "role": "heading",
+              "text": "The SFW bandeau",
+              "layout": "heading1Layout",
+              "textStyle": "heading1Style",
+              "format": "markdown"
+            },
+            {
+              "role": "container",
+              "style": "photoContainerStyle",
+              "layout": "photoLayout",
+              "components": [
+                {
+                  "role": "container",
+                  "style": {
+                    "fill": {
+                      "type": "image",
+                      "URL": "http://mac.h-cdn.co/assets/15/32/1024x1532/gettyimages-481036544_master.jpg",
+                      "verticalAlignment": "top"
+                    }
+                  },
+                  "layout": "photoLayout",
+                  "animation": {
+                    "type": "fade_in",
+                    "userControllable": true,
+                    "initialAlpha": 0.1
+                  }
+                }
+              ]
+            },
+            {
+              "role": "photographer",
+              "text": "Getty",
+              "layout": "creditLayout",
+              "textStyle": "creditStyle"
+            },      
+            {
+              "role": "caption",
+              "text": "Even though my office is the sort that doesn't bat an eye when [you wear \"Bad Blood\" bondage to work](http://www.marieclaire.com/fashion/news/a15194/bondage-workwear/), I still try to maintain some semblance of professionalism sometimes. Popping a leather jacket over an ultra-cropped top and covered-up bottom allows for ventilation--while wearing leather! in the summer!--and, you know, wearing leather in the summer.",
               "layout": "captionLayout",
               "textStyle": "captionStyle",
               "format": "markdown"
@@ -130,25 +193,39 @@
         }
       ]
     },
+    
     {
       "role": "banner_advertisement",
       "bannerType": "standard"
     }
   ],
   "componentStyles": {
-    "baseStrokeStyle": {
+    "bodyContainerStyle": {
+      "backgroundColor": "#FFF",
       "border": {
         "all": {
-          "width": 1,
-          "color": "#CCC"
+          "width": 18
+        },
+        "top": false
+      }
+    },
+    "dateLayoutStyle": {
+      "border": {
+        "all": {
+          "width": 2
         },
         "top": false,
         "left": false,
         "right": false
       }
     },
-    "bodyContainerStyle": {
-      "backgroundColor": "#FFF"
+    "iconLayoutStyle": {
+      "fill": {
+        "type": "image",
+        "URL": "bundle://mcx_divider_arrow.png",
+        "fillMode": "fit",
+        "horizontalAlignment": "center"
+      }
     },
     "photoContainerStyle": {
       "backgroundColor": "#000"
@@ -156,7 +233,7 @@
     "tabLayoutStyle": {
       "fill": {
         "type": "image",
-        "URL": "bundle://elm_arrow_header.png",
+        "URL": "bundle://mcx_header.png",
         "fillMode": "fit",
         "verticalAlignment": "bottom",
         "horizontalAlignment": "center"
@@ -165,16 +242,20 @@
   },
   "componentTextStyles": {
     "authorStyle": {
-      "fontName": "AvantGardeGothicITCW01XLt",
+      "fontName": "ITCModernNo216W01-Md",
       "fontSize": 16,
       "textAlignment": "left",
       "textTransform": "uppercase"
     },
     "bodyStyle": {
-      "fontName": "MTBaskervilleETW01-Roman",
-      "fontSize": 16,
-      "lineHeight": 26,
-      "textAlignment": "left"
+      "fontName": "Georgia",
+      "fontSize": 22,
+      "lineHeight": 34,
+      "textAlignment": "left",
+      "linkStyle": {
+        "textColor": "#00AAE3",
+        "underline": true
+      }
     },
     "bodyStyleFirst": {
       "fontName": "MTBaskervilleETW01-Roman",
@@ -189,29 +270,34 @@
       }
     },
     "captionStyle": {
-      "fontName": "MTBaskervilleETW01-Roman",
-      "fontSize": 16,
-      "lineHeight": 20,
-      "textAlignment": "left"
+      "fontName": "Georgia",
+      "fontSize": 20,
+      "lineHeight": 32,
+      "textAlignment": "left",
+      "linkStyle": {
+        "textColor": "#00AAE3",
+        "underline": true
+      }
     },
     "creditStyle": {
-      "fontName": "AvantGardeGothicITCW01XLt",
-      "fontSize": 10,
-      "lineHeight": 12,
+      "fontName": "ITCFranklinGothicW01-DmCm",
+      "fontSize": 18,
+      "lineHeight": 24,
       "textAlignment": "right",
-      "textColor": "#444",
+      "textColor": "#898989",
       "textTransform":"uppercase"
     },
     "dateStyle": {
-      "fontName": "MTBaskervilleETW01-Roman",
-      "fontSize": 12,
+      "fontName": "ITCFranklinGothicW01-DmCm",
+      "fontSize": 20,
       "textAlignment": "left",
+      "textColor": "#39CEFF",
       "textTransform": "uppercase"
     },
     "heading1Style": {
-      "fontName": "AvantGardeGothicITCW01Dm",
-      "fontSize": 20,
-      "lineHeight": 22,
+      "fontName": "ITCFranklinGothicW01-DmCm",
+      "fontSize": 40,
+      "lineHeight": 48,
       "textAlignment": "left",
       "textTransform":"uppercase"
     },
@@ -242,11 +328,10 @@
       "textTransform": "uppercase"
     },
     "titleStyle": {
-      "fontName": "AvantGardeGothicITCW01XLt",
-      "fontSize": 52,
-      "lineHeight": 54,
-      "textAlignment": "left",
-      "textTransform": "uppercase"
+      "fontName": "ITCModernNo216W01-Md",
+      "fontSize": 66,
+      "lineHeight": 72,
+      "textAlignment": "left"
     }
   },
   "componentLayouts": {
@@ -258,8 +343,8 @@
     },
     "authorLayout": {
       "margin": {
-        "top": 4,
-        "bottom": 4
+        "top": 16,
+        "bottom": 0
       }
     },
     "blackStrokeLayout1":{
@@ -309,13 +394,17 @@
     },
     "dateLayout": {
       "margin": {
-        "top": 20,
-        "bottom": 5
+        "top": 30,
+        "bottom": 0
       }
+    },
+    "iconTestLayout": {
+      "ignoreDocumentMargin": true,
+      "minimumHeight": 40
     },
     "headerImageLayout": {
       "ignoreDocumentMargin": true,
-      "minimumHeight": "50vh"
+      "minimumHeight": "40vh"
     },
     "heading1Layout": {
       "margin": {
@@ -337,6 +426,10 @@
         "top": 25,
         "bottom": 25
       }
+    },
+    "slideLayout": {
+      "ignoreDocumentMargin": true,
+      "minimumHeight": "100cw"
     },
     "spacerLayout": {
       "margin": {

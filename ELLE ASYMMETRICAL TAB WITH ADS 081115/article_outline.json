@@ -5,9 +5,7 @@
   "language": "en",
   "layout": {
     "columns": 6,
-    "width": 1024,
-    "margin": 100,
-    "gutter": 30
+    "width": 1024
   },
   "components": [
     {
@@ -115,7 +113,8 @@
           "stroke": {
             "color": "#CCC"
           },
-          "layout": "blackStrokeLayout3"
+          "layout": "blackStrokeLayout3",
+          "style": "baseStrokeStyle"
         },
         {
           "role": "pullquote",
@@ -129,7 +128,8 @@
           "stroke": {
             "color": "#CCC"
           },
-          "layout": "blackStrokeLayout4"
+          "layout": "blackStrokeLayout4",
+          "style": "baseStrokeStyle"
         },
         {
           "role": "body",
@@ -146,6 +146,17 @@
     }
   ],
   "componentStyles": {
+    "baseStrokeStyle": {
+      "border": {
+        "all": {
+          "width": 1,
+          "color": "#CCC"
+        },
+        "top": false,
+        "left": false,
+        "right": false
+      }
+    },
     "bodyContainerStyle": {
       "backgroundColor": "#FFF"
     },

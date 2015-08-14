@@ -5,9 +5,7 @@
   "language": "en",
   "layout": {
     "columns": 6,
-    "width": 1024,
-    "margin": 60,
-    "gutter": 30
+    "width": 1024
   },
   "components": [
     {
@@ -60,9 +58,10 @@
         {
           "role": "divider",
           "stroke": {
-            "color": "#FFF"
+            "color": "#FFF0"
           },
-         "layout": "blackStrokeLayout1"
+         "layout": "blackStrokeLayout1",
+         "style": "baseStrokeStyle"
         },
         {
           "role": "author",
@@ -73,9 +72,10 @@
         {
           "role": "divider",
           "stroke": {
-           "color": "#FFF"
+           "color": "#FFF0"
           },
-         "layout": "blackStrokeLayout1"
+         "layout": "blackStrokeLayout1",
+         "style": "baseStrokeStyle"
         },
         {
           "role": "body",
@@ -86,6 +86,7 @@
         },
         {
           "role": "section",
+          "layout": "slideLayout",
           "components": [
             {
               "role": "heading",
@@ -129,14 +130,6 @@
               "layout": "captionLayout",
               "textStyle": "captionStyle",
               "format": "markdown"
-            },
-            {
-              "role": "container",
-              "layout": "iconLayout",
-              "style": "iconLayoutStyle",
-              "anchor": {
-                "targetAnchorPosition": "bottom"
-              }
             }
           ]
         },
@@ -214,21 +207,14 @@
     "dateLayoutStyle": {
       "border": {
         "all": {
-          "width": 6
+          "width": 2
         },
         "top": false,
         "left": false,
         "right": false
       }
     },
-    "iconLayoutStyle": {
-      "fill": {
-        "type": "image",
-        "URL": "bundle://mcx_divider_arrow.png",
-        "fillMode": "fit",
-        "verticalAlignment": "bottom",
-        "horizontalAlignment": "center"
-      }
+    "baseStrokeStyle": {
     },
     "photoContainerStyle": {
       "backgroundColor": "#000"
@@ -401,10 +387,6 @@
         "bottom": 0
       }
     },
-    "iconLayout": {
-      "ignoreDocumentMargin": true,
-      "minimiumHeight": 60
-    },
     "headerImageLayout": {
       "ignoreDocumentMargin": true,
       "minimumHeight": "40vh"
@@ -429,6 +411,10 @@
         "top": 25,
         "bottom": 25
       }
+    },
+    "slideLayout": {
+      "ignoreDocumentMargin": true,
+      "minimumHeight": "100cw"
     },
     "spacerLayout": {
       "margin": {

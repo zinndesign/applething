@@ -5,9 +5,7 @@
   "language": "en",
   "layout": {
     "columns": 6,
-    "width": 1024,
-    "margin": 100,
-    "gutter": 30
+    "width": 1024
   },
   "components": [
     {
@@ -59,9 +57,10 @@
         {
           "role": "divider",
           "stroke": {
-            "color": "#CCC"
+            "color": "#FFF0"
           },
-         "layout": "blackStrokeLayout1"
+          "layout": "blackStrokeLayout1",
+          "style": "baseStrokeStyle"
         },
         {
           "role": "author",
@@ -72,9 +71,10 @@
         {
           "role": "divider",
           "stroke": {
-           "color": "#CCC"
+            "color": "#FFF0"
           },
-         "layout": "blackStrokeLayout1"
+          "layout": "blackStrokeLayout1",
+          "style": "baseStrokeStyle"
         },
         {
           "role": "section",
@@ -136,6 +136,17 @@
     }
   ],
   "componentStyles": {
+    "baseStrokeStyle": {
+      "border": {
+        "all": {
+          "width": 1,
+          "color": "#CCC"
+        },
+        "top": false,
+        "left": false,
+        "right": false
+      }
+    },
     "bodyContainerStyle": {
       "backgroundColor": "#FFF"
     },

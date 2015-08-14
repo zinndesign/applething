@@ -1,11 +1,13 @@
-  {
+{
   "version": "0.10",
   "identifier": "!!!DYNAMIC",
-  "title": "!!!DYNAMIC",
+  "title": "9 Things You Never Knew About Miley Cyrus, Courtesy of Her Marie Claire Cover Interview",
   "language": "en",
   "layout": {
     "columns": 6,
-    "width": 1024
+    "width": 1024,
+    "margin": 50,
+    "gutter": 40
   },
   "components": [
     {
@@ -14,7 +16,7 @@
       "style": {
         "fill": {
           "type": "image",
-          "URL": "bundle://landscape-1438717869-bfa-2673-289453.jpg",
+          "URL": "http://mac.h-cdn.co/assets/15/33/980x490/landscape-1439416462-miley-cyrus-marie-claire.jpg",
           "fillMode": "cover",
           "verticalAlignment": "bottom"
         }
@@ -45,19 +47,19 @@
         {
           "role": "intro",
           "layout": "dateLayout",
-          "text": "!!!DATE",
+          "text": "Aug 5, 2015 @ 6:01 PM",
           "textStyle": "dateStyle"
         },
         {
           "role": "title",
           "layout": "titleLayout",
-          "text": "!!!TITLE",
+          "text": "9 Things You Never Knew About Miley Cyrus, Courtesy of Her Marie Claire Cover Interview",
           "textStyle": "titleStyle"
         },
         {
           "role": "intro",
           "layout": "introLayout",
-          "text": "!!!SUBHEAD",
+          "text": "The star opens up about her grueling life on Hannah Montana--and how it gave her body image issues she's just now getting over.",
           "textStyle": "introStyle"
         },
         {
@@ -70,7 +72,7 @@
         {
           "role": "author",
           "layout": "authorLayout",
-          "text": "!!!AUTHOR",
+          "text": "Megan Friedman",
           "textStyle": "authorStyle"
         },
         {
@@ -87,7 +89,7 @@
         },
         {
           "role": "body",
-          "text": "1st PARAGRAPH!!!",
+          "text": "Miley Cyrus is Marie Claire's September cover girl, and she doesn't mince words in her candid interview with writer Allison Glock. Here, nine no-holds-barred moments from our September issue, on newsstands August 18.",
           "layout": "bodyLayout",
           "textStyle": "bodyStyleFirst",
           "format": "markdown"
@@ -121,7 +123,7 @@
         {
           "role": "pullquote",
           "layout": "pullquoteLayout",
-          "text": "!!!PULLQUOTE",
+          "text": "I would have anxiety attacks. I'd get hot flashes, feel like I was about to pass up or throw up. It would happen a lot before shows, and I'd have to cancel.",
           "textStyle": "pullquoteStyle",
           "format": "markdown"
         },
@@ -148,89 +150,115 @@
     }
   ],
   "componentStyles": {
-    "baseStrokeStyle": {
+    "bodyContainerStyle": {
+      "backgroundColor": "#FFF",
       "border": {
         "all": {
-          "width": 1,
-          "color": "#CCC"
+          "width": 10
+        },
+        "right": false,
+        "top": false,
+        "bottom": false
+      }
+    },
+    "dateLayoutStyle": {
+      "border": {
+        "all": {
+          "width": 2
         },
         "top": false,
         "left": false,
         "right": false
       }
     },
-    "bodyContainerStyle": {
-      "backgroundColor": "#FFF"
+    "baseStrokeStyle": {
     },
     "photoContainerStyle": {
       "backgroundColor": "#000"
     },
     "tabLayoutStyle": {
+      "backgroundColor": "#FFF",
       "fill": {
         "type": "image",
-        "URL": "bundle://tab2.png",
-        "fillMode": "cover",
-        "verticalAlignment": "bottom",
-        "horizontalAlignment": "right"
+        "URL": "bundle://mcx_header.png",
+        "fillMode": "fit",
+        "verticalAlignment": "top",
+        "horizontalAlignment": "left"
+      },
+      "border": {
+        "all": {
+          "width": 10,
+          "color": "#000"
+        },
+        "right": false,
+        "bottom": false
       }
     }
   },
   "componentTextStyles": {
     "authorStyle": {
-      "fontName": "AvantGardeGothicITCW01XLt",
-      "fontSize": 14,
+      "fontName": "ITCModernNo216W01-Md",
+      "fontSize": 16,
       "textAlignment": "left",
       "textTransform": "uppercase"
     },
     "bodyStyle": {
-      "fontName": "MTBaskervilleETW01-Roman",
-      "fontSize": 18,
-      "lineHeight": 28,
-      "textAlignment": "left"
+      "fontName": "Georgia",
+      "fontSize": 22,
+      "lineHeight": 34,
+      "textAlignment": "left",
+      "linkStyle": {
+        "textColor": "#00AAE3",
+        "underline": true
+      }
     },
     "bodyStyleFirst": {
-      "fontName": "MTBaskervilleETW01-Roman",
+      "fontName": "Georgia",
       "fontSize": 18,
       "lineHeight": 28,
       "textAlignment": "left",
       "dropCapStyle": {
-        "fontName": "MTBaskervilleETW01-Roman",
-        "numberOfLines": 2,
-        "numberOfCharacters": 1,
-        "textColor": "#CCC"
+        "fontName": "Georgia",
+        "numberOfLines": 3,
+        "numberOfCharacters": 1
       }
     },
     "captionStyle": {
-      "fontName": "MTBaskervilleETW01-BoldIt",
-      "fontSize": 18,
-      "lineHeight": 26,
-      "textAlignment": "left"
+      "fontName": "Georgia",
+      "fontSize": 20,
+      "lineHeight": 32,
+      "textAlignment": "left",
+      "linkStyle": {
+        "textColor": "#00AAE3",
+        "underline": true
+      }
     },
     "creditStyle": {
-      "fontName": "AvantGardeGothicITCW01XLt",
-      "fontSize": 10,
-      "lineHeight": 12,
+      "fontName": "ITCFranklinGothicW01-DmCm",
+      "fontSize": 18,
+      "lineHeight": 24,
       "textAlignment": "right",
-      "textColor": "#444",
+      "textColor": "#898989",
       "textTransform":"uppercase"
     },
     "dateStyle": {
-      "fontName": "MTBaskervilleETW01-Roman",
-      "fontSize": 12,
-      "textAlignment": "left",
+      "fontName": "ITCFranklinGothicW01-DmCm",
+      "fontSize": 20,
+      "textAlignment": "right",
+      "textColor": "#39CEFF",
       "textTransform": "uppercase"
     },
     "heading1Style": {
-      "fontName": "AvantGardeGothicITCW01XLt",
-      "fontSize": 42,
-      "lineHeight": 46,
+      "fontName": "ITCFranklinGothicW01-DmCm",
+      "fontSize": 40,
+      "lineHeight": 48,
       "textAlignment": "left",
       "textTransform":"uppercase"
     },
     "introStyle": {
-      "fontName": "AvantGardeGothicITCW01XLt",
-      "fontSize": 24,
-      "lineHeight": 32,
+      "fontName": "Georgia-Italic",
+      "fontSize": 18,
+      "lineHeight": 24,
       "textAlignment": "left"
     },
     "lowerListStyle": {
@@ -240,7 +268,7 @@
       "textAlignment": "center"
     },
     "pullquoteStyle": {
-      "fontName": "MTBaskervilleETW01-Roman",
+      "fontName": "Georgia",
       "fontSize": 22,
       "lineHeight": 28,
       "textAlignment": "center",
@@ -254,11 +282,10 @@
       "textTransform": "uppercase"
     },
     "titleStyle": {
-      "fontName": "AvantGardeGothicITCW01XLt",
-      "fontSize": 58,
-      "lineHeight": 64,
-      "textAlignment": "left",
-      "textTransform": "uppercase"
+      "fontName": "ITCModernNo216W01-Md",
+      "fontSize": 54,
+      "lineHeight": 60,
+      "textAlignment": "left"
     }
   },
   "componentLayouts": {
@@ -269,9 +296,13 @@
       }
     },
     "authorLayout": {
+      "contentInset": {
+        "left": true,
+        "right": true
+      },
       "margin": {
-        "top": 4,
-        "bottom": 4
+        "top": 16,
+        "bottom": 0
       }
     },
     "blackStrokeLayout1":{
@@ -288,8 +319,8 @@
     },
     "blackStrokeLayout3":{
       "margin":{
-        "top":25,
-        "bottom":0
+        "top":10,
+        "bottom":35
       }
     },
     "blackStrokeLayout4":{
@@ -299,19 +330,27 @@
       }
     },
     "bodyContainerLayout": {
-      "ignoreDocumentMargin": true
+      "ignoreDocumentMargin": false,
+      "contentInset": {
+        "left": true,
+        "right": true
+      }
     },
     "bodyLayout": {
+      "contentInset": {
+        "left": true,
+        "right": true
+      },
       "margin": {
-        "top": 25,
-        "bottom": 25
+        "top": 10,
+        "bottom": 15
       }
     },
     "captionLayout": {
       "margin": {
-        "top": 15,
-        "bottom": 30
-      }
+        "top": 10,
+        "bottom": 25
+      }   
     },
     "creditLayout": {
       "margin": {
@@ -321,34 +360,45 @@
     },
     "dateLayout": {
       "margin": {
-        "top": 5,
-        "bottom": 10
+        "top": 0,
+        "bottom": 20
       }
     },
     "headerImageLayout": {
       "ignoreDocumentMargin": true,
-      "minimumHeight": "50vh"
+      "minimumHeight": "40vh"
     },
     "heading1Layout": {
+      "contentInset": {
+        "left": true,
+        "right": true
+      },
       "margin": {
         "top": 15,
-        "bottom": 0
+        "bottom": 10
       }
     },
     "introLayout": {
+      "contentInset": {
+        "left": true,
+        "right": true
+      },
       "margin": {
-        "top": 5,
-        "bottom": 25
+        "top": 15,
+        "bottom": 15
       }
     },
     "photoLayout": {
       "minimumHeight": "100cw"
     },
     "pullquoteLayout": {
-      "margin": {
-        "top": 25,
-        "bottom": 25
-      }
+      "ignoreDocumentMargin": false,
+      "columnStart": 1,
+      "columnSpan": 4
+    },
+    "slideLayout": {
+      "ignoreDocumentMargin": true,
+      "minimumHeight": "100cw"
     },
     "spacerLayout": {
       "margin": {
@@ -357,13 +407,17 @@
       }
     },
     "tabLayout": {
-      "ignoreDocumentMargin": true,
-      "minimumHeight": "40vw"
+      "ignoreDocumentMargin": false,
+      "minimumHeight": 50,
+      "contentInset": {
+        "left": true,
+        "right": true
+      }
     },
     "titleLayout": {
-      "margin": {
-        "top": 15,
-        "bottom": 5
+      "contentInset": {
+        "left": true,
+        "right": true
       }
     }
   }
