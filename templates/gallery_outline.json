@@ -55,6 +55,12 @@
           "textStyle": "titleStyle"
         },
         {
+          "role": "intro",
+          "layout": "introLayout",
+          "text": "!!!SUBHEAD",
+          "textStyle": "introStyle"
+        },
+        {
           "role": "divider",
           "stroke": {
             "color": "#FFF0"
