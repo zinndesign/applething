@@ -1,13 +1,11 @@
-{
+  {
   "version": "0.10",
   "identifier": "!!!DYNAMIC",
-  "title": "9 Things You Never Knew About Miley Cyrus, Courtesy of Her Marie Claire Cover Interview",
+  "title": "!!!DYNAMIC",
   "language": "en",
   "layout": {
     "columns": 6,
-    "width": 1024,
-    "margin": 50,
-    "gutter": 40
+    "width": 1024
   },
   "components": [
     {
@@ -16,7 +14,7 @@
       "style": {
         "fill": {
           "type": "image",
-          "URL": "http://mac.h-cdn.co/assets/15/33/980x490/landscape-1439416462-miley-cyrus-marie-claire.jpg",
+          "URL": "bundle://landscape-1438717869-bfa-2673-289453.jpg",
           "fillMode": "cover",
           "verticalAlignment": "bottom"
         }
@@ -47,40 +45,38 @@
         {
           "role": "intro",
           "layout": "dateLayout",
-          "text": "Aug 5, 2015 @ 6:01 PM",
+          "text": "!!!DATE",
           "textStyle": "dateStyle"
         },
         {
           "role": "title",
           "layout": "titleLayout",
-          "text": "9 Things You Never Knew About Miley Cyrus, Courtesy of Her Marie Claire Cover Interview",
+          "text": "!!!TITLE",
           "textStyle": "titleStyle"
         },
         {
           "role": "intro",
           "layout": "introLayout",
-          "text": "The star opens up about her grueling life on Hannah Montana--and how it gave her body image issues she's just now getting over.",
+          "text": "!!!SUBHEAD",
           "textStyle": "introStyle"
         },
         {
           "role": "divider",
           "stroke": {
-            "color": "#FFF0"
-          },
-          "style": "baseStrokeStyle"
+            "color": "#CCC"
+          }
         },
         {
           "role": "author",
           "layout": "authorLayout",
-          "text": "Megan Friedman",
+          "text": "!!!AUTHOR",
           "textStyle": "authorStyle"
         },
         {
           "role": "divider",
           "stroke": {
-            "color": "#FFF0"
-          },
-          "style": "baseStrokeStyle"
+            "color": "#CCC"
+          }
         },
         { 
            "role": "medium_rectangle_advertisement",
@@ -89,7 +85,7 @@
         },
         {
           "role": "body",
-          "text": "Miley Cyrus is Marie Claire's September cover girl, and she doesn't mince words in her candid interview with writer Allison Glock. Here, nine no-holds-barred moments from our September issue, on newsstands August 18.",
+          "text": "1st PARAGRAPH!!!",
           "layout": "bodyLayout",
           "textStyle": "bodyStyleFirst",
           "format": "markdown"
@@ -102,12 +98,12 @@
         {
           "role": "heading1",
           "layout": "heading1Layout",
-          "text": "1. Growing up on 'Hannah Montana' gave her unrealistic beauty standards.",
+          "text": "!!!HEADING",
           "textStyle": "heading1Style"
         },
         {
           "role": "body",
-          "text": "\"From the time I was 11, it was, 'You're a pop star! That means you have to be blonde, and you have to have long hair, and you have to put on some glittery tight thing.' Meanwhile, I'm this fragile little girl playing a 16-year-old in a wig and a ton of makeup. It was like Toddlers & Tiaras. I had fucking flippers.\"",
+          "text": "!!!PARAGRAPH",
           "layout": "bodyLayout",
           "textStyle": "bodyStyle",
           "format": "markdown"
@@ -115,7 +111,7 @@
         {
           "role": "divider",
           "stroke": {
-            "color": "#FFF0"
+            "color": "#CCC"
           },
           "layout": "blackStrokeLayout3",
           "style": "baseStrokeStyle"
@@ -123,27 +119,21 @@
         {
           "role": "pullquote",
           "layout": "pullquoteLayout",
-          "text": "I would have anxiety attacks. I'd get hot flashes, feel like I was about to pass out or throw up. It would happen a lot before shows, and I'd have to cancel.",
+          "text": "!!!PULLQUOTE",
           "textStyle": "pullquoteStyle",
           "format": "markdown"
         },
         {
           "role": "divider",
           "stroke": {
-            "color": "#FFF0"
+            "color": "#CCC"
           },
           "layout": "blackStrokeLayout4",
           "style": "baseStrokeStyle"
         },
         {
-          "role": "heading1",
-          "layout": "heading1Layout",
-          "text": "2. And those beauty standards led to body-image issues.",
-          "textStyle": "heading1Style"
-        },
-        {
           "role": "body",
-          "text": "\"I was told for so long what a girl is supposed to be from being on that show. I was made to look like someone that I wasn't, which probably caused some body dysmorphia because I had been made pretty every day for so long, and then when I wasn't on that show, it was like, Who the fuck am I?\"",
+          "text": "!!!PARAGRAPH",
           "layout": "bodyLayout",
           "textStyle": "bodyStyle",
           "format": "markdown"
@@ -157,141 +147,116 @@
   ],
   "componentStyles": {
     "baseStrokeStyle": {
-    },
-    "bodyContainerStyle": {
-      "backgroundColor": "#FFF",
       "border": {
         "all": {
-          "width": 10
-        },
-        "right": false,
-        "top": false,
-        "bottom": false
-      }
-    },
-    "dateLayoutStyle": {
-      "border": {
-        "all": {
-          "width": 2
+          "width": 1,
+          "color": "#CCC"
         },
         "top": false,
         "left": false,
         "right": false
       }
     },
+    "bodyContainerStyle": {
+      "backgroundColor": "#FFF"
+    },
     "photoContainerStyle": {
       "backgroundColor": "#000"
     },
     "tabLayoutStyle": {
-      "backgroundColor": "#FFF",
       "fill": {
         "type": "image",
-        "URL": "bundle://mcx_header.png",
-        "fillMode": "fit",
-        "verticalAlignment": "top",
-        "horizontalAlignment": "left"
-      },
-      "border": {
-        "all": {
-          "width": 10,
-          "color": "#000"
-        },
-        "right": false,
-        "bottom": false
+        "URL": "bundle://tab2.png",
+        "fillMode": "cover",
+        "verticalAlignment": "bottom",
+        "horizontalAlignment": "right"
       }
     }
   },
   "componentTextStyles": {
     "authorStyle": {
-      "fontName": "ITCModernNo216W01-Md",
-      "fontSize": 16,
+      "fontName": "AvantGardeGothicITCW01XLt",
+      "fontSize": 14,
       "textAlignment": "left",
       "textTransform": "uppercase"
     },
     "bodyStyle": {
-      "fontName": "Georgia",
-      "fontSize": 20,
-      "lineHeight": 24,
-      "textAlignment": "left",
-      "linkStyle": {
-        "textColor": "#00AAE3",
-        "underline": true
-      }
+      "fontName": "MTBaskervilleETW01-Roman",
+      "fontSize": 18,
+      "lineHeight": 28,
+      "textAlignment": "left"
     },
     "bodyStyleFirst": {
-      "fontName": "Georgia",
-      "fontSize": 20,
-      "lineHeight": 24,
+      "fontName": "MTBaskervilleETW01-Roman",
+      "fontSize": 18,
+      "lineHeight": 28,
       "textAlignment": "left",
       "dropCapStyle": {
-        "fontName": "Georgia",
-        "numberOfLines": 3,
-        "numberOfCharacters": 1
+        "fontName": "MTBaskervilleETW01-Roman",
+        "numberOfLines": 2,
+        "numberOfCharacters": 1,
+        "textColor": "#CCC"
       }
     },
     "captionStyle": {
-      "fontName": "Georgia",
-      "fontSize": 20,
-      "lineHeight": 32,
-      "textAlignment": "left",
-      "linkStyle": {
-        "textColor": "#00AAE3",
-        "underline": true
-      }
+      "fontName": "MTBaskervilleETW01-BoldIt",
+      "fontSize": 18,
+      "lineHeight": 26,
+      "textAlignment": "left"
     },
     "creditStyle": {
-      "fontName": "ITCFranklinGothicW01-DmCm",
-      "fontSize": 18,
-      "lineHeight": 24,
+      "fontName": "AvantGardeGothicITCW01XLt",
+      "fontSize": 10,
+      "lineHeight": 12,
       "textAlignment": "right",
-      "textColor": "#898989",
+      "textColor": "#444",
       "textTransform":"uppercase"
     },
     "dateStyle": {
-      "fontName": "ITCFranklinGothicW01-DmCm",
-      "fontSize": 20,
-      "textAlignment": "right",
-      "textColor": "#39CEFF",
+      "fontName": "MTBaskervilleETW01-Roman",
+      "fontSize": 12,
+      "textAlignment": "left",
       "textTransform": "uppercase"
     },
     "heading1Style": {
-      "fontName": "ITCFranklinGothicW01-DmCm",
-      "fontSize": 32,
-      "lineHeight": 38,
+      "fontName": "AvantGardeGothicITCW01XLt",
+      "fontSize": 42,
+      "lineHeight": 46,
       "textAlignment": "left",
       "textTransform":"uppercase"
     },
     "introStyle": {
-      "fontName": "Georgia-Italic",
-      "fontSize": 18,
-      "lineHeight": 24,
+      "fontName": "AvantGardeGothicITCW01XLt",
+      "fontSize": 24,
+      "lineHeight": 32,
       "textAlignment": "left"
     },
     "lowerListStyle": {
-      "fontName": "Georgia",
+      "fontName": "MTBaskervilleETW01-Roman",
       "fontSize": 18,
       "lineHeight": 20,
       "textAlignment": "center"
     },
     "pullquoteStyle": {
-      "fontName": "Georgia",
+      "fontName": "MTBaskervilleETW01-Roman",
       "fontSize": 22,
       "lineHeight": 28,
       "textAlignment": "center",
       "textTransform":"uppercase"
     },
     "spacerWord":{
-      "fontName": "Georgia",
+      "fontName": "AvantGardeGothicITCW01XLt",
       "fontSize": 48,
       "lineHeight": 48,
       "textAlignment": "center",
       "textTransform": "uppercase"
     },
     "titleStyle": {
-      "fontName": "ITCModernNo216W01-Md",
-      "fontSize": 54,
-      "lineHeight": 60,
-      "textAlignment": "left"
+      "fontName": "AvantGardeGothicITCW01XLt",
+      "fontSize": 58,
+      "lineHeight": 64,
+      "textAlignment": "left",
+      "textTransform": "uppercase"
     }
   },
   "componentLayouts": {
@@ -302,13 +267,9 @@
       }
     },
     "authorLayout": {
-      "contentInset": {
-        "left": true,
-        "right": true
-      },
       "margin": {
-        "top": 16,
-        "bottom": 0
+        "top": 4,
+        "bottom": 4
       }
     },
     "blackStrokeLayout1":{
@@ -316,7 +277,7 @@
         "top":0,
         "bottom":0
       }
-    },
+     },
     "blackStrokeLayout2":{
       "margin":{
         "top":5,
@@ -325,8 +286,8 @@
     },
     "blackStrokeLayout3":{
       "margin":{
-        "top":10,
-        "bottom":35
+        "top":25,
+        "bottom":0
       }
     },
     "blackStrokeLayout4":{
@@ -336,27 +297,19 @@
       }
     },
     "bodyContainerLayout": {
-      "ignoreDocumentMargin": false,
-      "contentInset": {
-        "left": true,
-        "right": true
-      }
+      "ignoreDocumentMargin": true
     },
     "bodyLayout": {
-      "contentInset": {
-        "left": true,
-        "right": true
-      },
       "margin": {
-        "top": 10,
-        "bottom": 15
+        "top": 25,
+        "bottom": 25
       }
     },
     "captionLayout": {
       "margin": {
-        "top": 10,
-        "bottom": 25
-      }   
+        "top": 15,
+        "bottom": 30
+      }
     },
     "creditLayout": {
       "margin": {
@@ -366,44 +319,34 @@
     },
     "dateLayout": {
       "margin": {
-        "top": 0,
-        "bottom": 20
+        "top": 5,
+        "bottom": 10
       }
     },
     "headerImageLayout": {
       "ignoreDocumentMargin": true,
-      "minimumHeight": "40vh"
+      "minimumHeight": "50vh"
     },
     "heading1Layout": {
-      "contentInset": {
-        "left": true,
-        "right": true
-      },
       "margin": {
         "top": 15,
-        "bottom": 10
+        "bottom": 0
       }
     },
     "introLayout": {
-      "contentInset": {
-        "left": true,
-        "right": true
-      },
       "margin": {
-        "top": 15,
-        "bottom": 15
+        "top": 5,
+        "bottom": 25
       }
     },
     "photoLayout": {
       "minimumHeight": "100cw"
     },
     "pullquoteLayout": {
-      "columnStart": 1,
-      "columnSpan": 4
-    },
-    "slideLayout": {
-      "ignoreDocumentMargin": true,
-      "minimumHeight": "100cw"
+      "margin": {
+        "top": 25,
+        "bottom": 25
+      }
     },
     "spacerLayout": {
       "margin": {
@@ -412,17 +355,13 @@
       }
     },
     "tabLayout": {
-      "ignoreDocumentMargin": false,
-      "minimumHeight": 50,
-      "contentInset": {
-        "left": true,
-        "right": true
-      }
+      "ignoreDocumentMargin": true,
+      "minimumHeight": "40vw"
     },
     "titleLayout": {
-      "contentInset": {
-        "left": true,
-        "right": true
+      "margin": {
+        "top": 15,
+        "bottom": 5
       }
     }
   }

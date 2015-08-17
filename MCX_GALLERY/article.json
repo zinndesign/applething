@@ -247,12 +247,12 @@
       }
     },
     "bodyStyleFirst": {
-      "fontName": "MTBaskervilleETW01-Roman",
-      "fontSize": 18,
-      "lineHeight": 28,
+      "fontName": "Georgia",
+      "fontSize": 22,
+      "lineHeight": 34,
       "textAlignment": "left",
       "dropCapStyle": {
-        "fontName": "MTBaskervilleETW01-Roman",
+        "fontName": "Georgia",
         "numberOfLines": 2,
         "numberOfCharacters": 1,
         "textColor": "#CCC"
@@ -291,26 +291,26 @@
       "textTransform":"uppercase"
     },
     "introStyle": {
-      "fontName": "AvantGardeGothicITCW01XLt",
+      "fontName": "Georgia",
       "fontSize": 24,
       "lineHeight": 30,
       "textAlignment": "center"
     },
     "lowerListStyle": {
-      "fontName": "MTBaskervilleETW01-Roman",
+      "fontName": "Georgia",
       "fontSize": 18,
       "lineHeight": 20,
       "textAlignment": "center"
     },
     "pullquoteStyle": {
-      "fontName": "MTBaskervilleETW01-Roman",
+      "fontName": "Georgia",
       "fontSize": 22,
       "lineHeight": 28,
       "textAlignment": "center",
       "textTransform":"uppercase"
     },
     "spacerWord":{
-      "fontName": "AvantGardeGothicITCW01XLt",
+      "fontName": "Georgia",
       "fontSize": 48,
       "lineHeight": 48,
       "textAlignment": "center",
