@@ -102,12 +102,12 @@
         {
           "role": "heading1",
           "layout": "heading1Layout",
-          "text": "!!!HEADING",
+          "text": "1. Growing up on 'Hannah Montana' gave her unrealistic beauty standards.",
           "textStyle": "heading1Style"
         },
         {
           "role": "body",
-          "text": "!!!PARAGRAPH",
+          "text": "\"From the time I was 11, it was, 'You're a pop star! That means you have to be blonde, and you have to have long hair, and you have to put on some glittery tight thing.' Meanwhile, I'm this fragile little girl playing a 16-year-old in a wig and a ton of makeup. It was like Toddlers & Tiaras. I had fucking flippers.\"",
           "layout": "bodyLayout",
           "textStyle": "bodyStyle",
           "format": "markdown"
@@ -123,7 +123,8 @@
         {
           "role": "pullquote",
           "layout": "pullquoteLayout",
-          "text": "I would have anxiety attacks. I'd get hot flashes, feel like I was about to pass up or throw up. It would happen a lot before shows, and I'd have to cancel.",
+          "style": "pullquoteLayoutStyle",
+          "text": "I would have anxiety attacks. I'd get hot flashes, feel like I was about to pass out or throw up. It would happen a lot before shows, and I'd have to cancel.",
           "textStyle": "pullquoteStyle",
           "format": "markdown"
         },
@@ -136,8 +137,14 @@
           "style": "baseStrokeStyle"
         },
         {
+          "role": "heading1",
+          "layout": "heading1Layout",
+          "text": "2. And those beauty standards led to body-image issues.",
+          "textStyle": "heading1Style"
+        },
+        {
           "role": "body",
-          "text": "!!!PARAGRAPH",
+          "text": "\"I was told for so long what a girl is supposed to be from being on that show. I was made to look like someone that I wasn't, which probably caused some body dysmorphia because I had been made pretty every day for so long, and then when I wasn't on that show, it was like, Who the fuck am I?\"",
           "layout": "bodyLayout",
           "textStyle": "bodyStyle",
           "format": "markdown"
@@ -176,6 +183,23 @@
     "photoContainerStyle": {
       "backgroundColor": "#000"
     },
+    "pullquoteLayoutStyle": {
+      "fill": {
+        "type": "linear_gradient",
+        "angle": 90,
+        "colorStops": [
+          {
+            "color": "#EBEBEB"
+          },
+          {
+            "color": "#FFF"
+          },
+          {
+            "color": "#FFF"
+          }
+        ]
+      }
+    },
     "tabLayoutStyle": {
       "backgroundColor": "#FFF",
       "fill": {
@@ -204,8 +228,8 @@
     },
     "bodyStyle": {
       "fontName": "Georgia",
-      "fontSize": 22,
-      "lineHeight": 34,
+      "fontSize": 20,
+      "lineHeight": 24,
       "textAlignment": "left",
       "linkStyle": {
         "textColor": "#00AAE3",
@@ -214,8 +238,8 @@
     },
     "bodyStyleFirst": {
       "fontName": "Georgia",
-      "fontSize": 18,
-      "lineHeight": 28,
+      "fontSize": 20,
+      "lineHeight": 24,
       "textAlignment": "left",
       "dropCapStyle": {
         "fontName": "Georgia",
@@ -250,8 +274,8 @@
     },
     "heading1Style": {
       "fontName": "ITCFranklinGothicW01-DmCm",
-      "fontSize": 40,
-      "lineHeight": 48,
+      "fontSize": 32,
+      "lineHeight": 38,
       "textAlignment": "left",
       "textTransform":"uppercase"
     },
@@ -392,7 +416,6 @@
       "minimumHeight": "100cw"
     },
     "pullquoteLayout": {
-      "ignoreDocumentMargin": false,
       "columnStart": 1,
       "columnSpan": 4
     },
