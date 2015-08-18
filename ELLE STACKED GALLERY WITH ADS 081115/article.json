@@ -16,7 +16,7 @@
           "type": "image",
           "URL": "bundle://header.jpg",
           "fillMode": "cover",
-          "verticalAlignment": "bottom"
+          "verticalAlignment": "top"
         }
       },
       "behavior": {
