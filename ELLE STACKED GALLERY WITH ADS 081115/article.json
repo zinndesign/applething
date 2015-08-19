@@ -1,7 +1,7 @@
 {
   "version": "0.10",
   "identifier": "DYNAMIC",
-  "title": "DYNAMIC",
+  "title": "16 Hollywood Couples Whose Breakups Would Devastate Us",
   "language": "en",
   "layout": {
     "columns": 6,
@@ -39,20 +39,21 @@
       "layout": "bodyContainerLayout",
       "style": "bodyContainerStyle",
       "anchor": {
-        "targetAnchorPosition": "bottom"
+        "targetAnchorPosition": "top"
       },
       "components": [
         {
           "role": "intro",
           "layout": "dateLayout",
-          "text": "!!!DATE",
+          "text": "Aug 03 2015 1:18 PM",
           "textStyle" : "dateStyle"
         },
         {
           "role": "title",
-          "text": "!!!TITLE",
+          "text": "16 Hollywood Couples Whose Breakups Would Devastate Us",
           "layout": "titleLayout",
-          "textStyle": "titleStyle"
+          "textStyle": "titleStyle",
+          "format": "markdown"
         },
         {
           "role": "divider",
@@ -65,7 +66,7 @@
         {
           "role": "author",
           "layout": "authorLayout",
-          "text": "!!!AUTHOR",
+          "text": "By Sally Holmes",
           "textStyle": "authorStyle"
         },
         {
@@ -77,11 +78,18 @@
           "style": "baseStrokeStyle"
         },
         {
+          "role": "intro",
+          "layout": "introLayout",
+          "text": "True love is dead—or at least, in mortal peril. On the heels of Ben Affleck and Jennifer Garner's split  and Miranda Lambert and Blake Shelton confirming their divorcing, another of Hollywood's most famous couples is breaking up: Gwen Stefani and Gavin Rossdale. Make it stop! Here, 16 celeb couples whose love we love—and who would totally shatter us if they ever ended things.",
+          "textStyle": "introStyle",
+          "format": "markdown"
+        },
+        {
           "role": "section",
           "components": [
             {
               "role": "heading",
-              "text": "!!!SUBHEAD",
+              "text": "David Bowie and Iman",
               "layout": "heading1Layout",
               "textStyle": "heading1Style",
               "format": "markdown"
@@ -110,13 +118,60 @@
             },
             {
               "role": "photographer",
-              "text": "!!!PHOTO CREDIT",
+              "text": "Getty",
               "layout": "creditLayout",
               "textStyle": "creditStyle"
             },      
             {
               "role": "caption",
-              "text": "!!!CAPTION",
+              "text": "Because they are basically the _coolest_.",
+              "layout": "captionLayout",
+              "textStyle": "captionStyle",
+              "format": "markdown"
+            }
+          ]
+        },
+         {
+          "role": "section",
+          "components": [
+            {
+              "role": "heading",
+              "text": "Shante Broadus and Snoop Dogg",
+              "layout": "heading1Layout",
+              "textStyle": "heading1Style",
+              "format": "markdown"
+            },
+            {
+              "role": "container",
+              "style": "photoContainerStyle",
+              "layout": "photoLayout",
+              "components": [
+                {
+                  "role": "container",
+                  "style": {
+                    "fill": {
+                      "type": "image",
+                      "URL": "bundle://bodyimage2.jpg"
+                    }
+                  },
+                  "layout": "photoLayout",
+                  "animation": {
+                    "type": "fade_in",
+                    "userControllable": true,
+                    "initialAlpha": 0.1
+                  }
+                }
+              ]
+            },
+            {
+              "role": "photographer",
+              "text": "Getty",
+              "layout": "creditLayout",
+              "textStyle": "creditStyle"
+            },      
+            {
+              "role": "caption",
+              "text": "They've been married for 18 years and were high school sweethearts. I mean SNOOP LION </3.",
               "layout": "captionLayout",
               "textStyle": "captionStyle",
               "format": "markdown"
@@ -176,7 +231,7 @@
   },
   "componentTextStyles": {
     "introStyle": {
-      "textAlignment": "center",
+      "textAlignment": "left",
       "fontName": "AvantGardeGothicITCW01XLt",
       "fontSize": 24,
       "lineHeight":30,
@@ -256,7 +311,7 @@
     "creditStyle": {
       "textAlignment": "right",
       "fontName": "AvantGardeGothicITCW01XLt",
-      "fontSize": 11,
+      "fontSize": 9,
       "lineHeight": 12,
       "textTransform":"uppercase",
       "textColor": "#444444"
@@ -264,12 +319,11 @@
     "heading1Style": {
       "textAlignment": "left",
       "fontName": "AvantGardeGothicITCW01Dm",
-      "fontSize": 20,
-      "lineHeight": 22,
+      "fontSize": 24,
+      "lineHeight": 28,
       "textTransform":"uppercase",
       "textColor": "#000"
     },
-
     "spacerWord":{
       "textAlignment": "center",
       "fontSize": 48,
@@ -304,9 +358,11 @@
       "minimumHeight": "100cw"
     },
     "bodyContainerLayout": {
-      "columnStart": 0,
-      "columnSpan": 6,
-      "ignoreDocumentMargin": true
+      "ignoreDocumentMargin": true,
+      "margin": {
+        "top": 0,
+        "bottom": 40
+      }
     },
     "introLayout": {
       "columnStart": 0,
@@ -333,20 +389,12 @@
       }
     },
     "authorLayout": {
-      "columnStart": 0,
-      "columnSpan": 6,
       "margin": {
-        "top": 4,
+        "top": 6,
         "bottom": 4
       }
     },
     "adLayout": {
-      "columnStart": 0,
-      "columnSpan": 6,
-      "margin": {
-        "top": 25,
-        "bottom": 25
-      }
     },
     "bodyLayout": {
       "columnStart": 0,
