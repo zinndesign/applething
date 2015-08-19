@@ -170,14 +170,6 @@
       }
     },
     "dateLayoutStyle": {
-      "border": {
-        "all": {
-          "width": 2
-        },
-        "top": false,
-        "left": false,
-        "right": false
-      }
     },
     "photoContainerStyle": {
       "backgroundColor": "#000"
