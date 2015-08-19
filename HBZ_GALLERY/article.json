@@ -7,7 +7,7 @@
     "columns": 6,
     "width": 1024,
     "margin": 20,
-    "gutter": 100
+    "gutter": 60
   },
   "components": [
     {
@@ -41,7 +41,7 @@
       "layout": "bodyContainerLayout",
       "style": "bodyContainerStyle",
       "anchor": {
-        "targetAnchorPosition": "bottom"
+        "targetAnchorPosition": "top"
       },
       "components": [
         {
@@ -80,10 +80,10 @@
          "style": "baseStrokeStyle"
         },
         {
-          "role": "body",
+          "role": "intro",
           "text": "The approach to highlighting the female form in fashion is ever-changing. Sometimes it's about the decolletage, followed by a moment that's all derriere, and there's always the option of the full-on [naked dress](http://www.harpersbazaar.com/fashion/designers/a11157/carolina-herrera-challenges-the-naked-dress-trend/). This summer, the sensual body part to display is no doubt the leg. Thigh-high slits on skirts and dresses have been showcasing well-toned stems since May. See some well-heeled ladies give their best [Angelina Jolie](http://www.huffingtonpost.com/2012/02/27/angelina-jolie-right-leg-_n_1303865.html).",
-          "layout": "bodyLayout",
-          "textStyle": "bodyStyle",
+          "layout": "introLayout",
+          "textStyle": "introStyle",
           "format": "markdown"
         },
         {
@@ -247,7 +247,7 @@
     }
   ],
   "documentStyle": {
-    "backgroundColor": "#000"
+    "backgroundColor": "#FFF"
   },
   "componentStyles": {
     "bodyContainerStyle": {
@@ -272,7 +272,7 @@
   },
   "componentTextStyles": {
     "authorStyle": {
-      "fontName": "Gotham-Medium",
+      "fontName": "Gotham-Black",
       "fontSize": 14,
       "textAlignment": "center"
     },
@@ -298,7 +298,7 @@
       }
     },
     "captionStyle": {
-      "fontName": "TimesNewRomanPSMT",
+      "fontName": "GothamNarrow-Light",
       "fontSize": 20,
       "lineHeight": 32,
       "textAlignment": "left",
@@ -307,28 +307,29 @@
       }
     },
     "creditStyle": {
-      "fontName": "Gotham-Book",
-      "fontSize": 12,
+      "fontName": "GothamNarrow-Light",
+      "fontSize": 10,
       "lineHeight": 12,
       "textAlignment": "right",
-      "textColor": "#000"
+      "textColor": "#000",
+      "textTransform":"uppercase"
     },
     "dateStyle": {
-      "fontName": "Gotham-Medium",
+      "fontName": "GothamNarrow-Light",
       "fontSize": 13,
       "textAlignment": "center",
       "textColor": "#878787"
     },
     "heading1Style": {
-      "fontName": "Didot",
+      "fontName": "Didot-HTF-L42-Light",
       "fontSize": 40,
       "lineHeight": 42,
       "textAlignment": "left",
       "textTransform":"uppercase"
     },
     "introStyle": {
-      "fontName": "Didot-Italic",
-      "fontSize": 30,
+      "fontName": "Didot-HTF-L42-Light-Ital",
+      "fontSize": 22,
       "lineHeight": 36,
       "textAlignment": "center"
     },
@@ -352,7 +353,7 @@
       "textTransform": "uppercase"
     },
     "titleStyle": {
-      "fontName": "Didot",
+      "fontName": "GothamNarrow-XLight",
       "fontSize": 68,
       "lineHeight": 68,
       "textAlignment": "center",
@@ -369,7 +370,7 @@
     "authorLayout": {
       "margin": {
         "top": 0,
-        "bottom": 0
+        "bottom": 10
       }
     },
     "blackStrokeLayout1":{
@@ -397,7 +398,11 @@
       }
     },
     "bodyContainerLayout": {
-      "ignoreDocumentMargin": false
+      "ignoreDocumentMargin": false,
+      "margin": {
+        "top": 0,
+        "bottom": 20
+      }
     },
     "bodyLayout": {
       "contentInset": {
@@ -427,7 +432,7 @@
         "right": true
       },
       "margin": {
-        "top": 50,
+        "top": 20,
         "bottom": 10
       }
     },
@@ -442,6 +447,10 @@
       }
     },
     "introLayout": {
+      "contentInset": {
+        "left": true,
+        "right": true
+      },
       "margin": {
         "top": 15,
         "bottom": 15

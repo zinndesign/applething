@@ -39,7 +39,7 @@
       "layout": "bodyContainerLayout",
       "style": "bodyContainerStyle",
       "anchor": {
-        "targetAnchorPosition": "bottom"
+        "targetAnchorPosition": "top"
       },
       "components": [
         {
@@ -53,7 +53,8 @@
           "role": "title",
           "text": "8 Chic Outfits to Try with What Remains of the Summer",
           "layout": "titleLayout",
-          "textStyle": "titleStyle"
+          "textStyle": "titleStyle",
+          "format": "markdown"
         },
         {
           "role": "divider",
@@ -78,10 +79,10 @@
          "style": "baseStrokeStyle"
         },
         {
-          "role": "body",
+          "role": "intro",
           "text": "We couldn't agree on the [Song of the Summer 2015](http://www.marieclaire.com/culture/news/a15035/song-of-the-summer-debate/) (#TeamUmlaut), but when it comes to outfits to cross off before Labor Day, Team MC is on the same page: \"Noootttt another sundressssss.\" Here, see eight just-as-easy ideas, none requiring more than three pieces of clothing. Because if wearing less isn't a great selling point, I don't know what is.",
-          "layout": "bodyLayout",
-          "textStyle": "bodyStyle",
+          "layout": "introLayout",
+          "textStyle": "introStyle",
           "format": "markdown"
         },
         {
@@ -200,19 +201,10 @@
       "border": {
         "all": {
           "width": 18
-        },
-        "top": false
+        }
       }
     },
     "dateLayoutStyle": {
-      "border": {
-        "all": {
-          "width": 2
-        },
-        "top": false,
-        "left": false,
-        "right": false
-      }
     },
     "baseStrokeStyle": {
     },
@@ -220,20 +212,14 @@
       "backgroundColor": "#000"
     },
     "tabLayoutStyle": {
-      "fill": {
-        "type": "image",
-        "URL": "bundle://mcx_header.png",
-        "fillMode": "fit",
-        "verticalAlignment": "bottom",
-        "horizontalAlignment": "center"
-      }
     }
   },
   "componentTextStyles": {
     "authorStyle": {
       "fontName": "ITCModernNo216W01-Md",
-      "fontSize": 16,
-      "textAlignment": "left",
+      "fontSize": 15,
+      "lineHeight": 15,
+      "textAlignment": "center",
       "textTransform": "uppercase"
     },
     "bodyStyle": {
@@ -260,8 +246,8 @@
     },
     "captionStyle": {
       "fontName": "Georgia",
-      "fontSize": 20,
-      "lineHeight": 32,
+      "fontSize": 18,
+      "lineHeight": 30,
       "textAlignment": "left",
       "linkStyle": {
         "textColor": "#00AAE3",
@@ -270,18 +256,19 @@
     },
     "creditStyle": {
       "fontName": "ITCFranklinGothicW01-DmCm",
-      "fontSize": 18,
-      "lineHeight": 24,
+      "fontSize": 14,
+      "lineHeight": 14,
       "textAlignment": "right",
       "textColor": "#898989",
       "textTransform":"uppercase"
     },
     "dateStyle": {
       "fontName": "ITCFranklinGothicW01-DmCm",
-      "fontSize": 20,
-      "textAlignment": "left",
-      "textColor": "#39CEFF",
-      "textTransform": "uppercase"
+      "fontSize": 16,
+      "textAlignment": "center",
+      "textColor": "#CCC",
+      "textTransform": "uppercase",
+      "tracking": 0.05
     },
     "heading1Style": {
       "fontName": "ITCFranklinGothicW01-DmCm",
@@ -291,9 +278,9 @@
       "textTransform":"uppercase"
     },
     "introStyle": {
-      "fontName": "Georgia",
-      "fontSize": 24,
-      "lineHeight": 30,
+      "fontName": "MCModernTwoSxtn-LightItalic",
+      "fontSize": 22,
+      "lineHeight": 28,
       "textAlignment": "center"
     },
     "lowerListStyle": {
@@ -317,51 +304,49 @@
       "textTransform": "uppercase"
     },
     "titleStyle": {
-      "fontName": "ITCModernNo216W01-Md",
-      "fontSize": 66,
-      "lineHeight": 72,
-      "textAlignment": "left"
+      "fontName": "ITCFranklinGothicW01-DmCm",
+      "fontSize": 62,
+      "lineHeight": 58,
+      "textAlignment": "center",
+      "textTransform": "uppercase"
     }
   },
   "componentLayouts": {
     "adLayout": {
-      "margin": {
-        "top": 25,
-        "bottom": 25
-      }
     },
     "authorLayout": {
       "margin": {
-        "top": 16,
+        "top": 0,
         "bottom": 0
       }
     },
-    "blackStrokeLayout1":{
-      "margin":{
-        "top":0,
-        "bottom":0
+    "blackStrokeLayout1": {
+      "margin": {
+        "top": 0,
+        "bottom": 0
       }
     },
-    "blackStrokeLayout2":{
+    "blackStrokeLayout2": {
       "margin":{
         "top":5,
         "bottom":5
       }
     },
-    "blackStrokeLayout3":{
+    "blackStrokeLayout3": {
       "margin":{
         "top":10,
         "bottom":35
       }
     },
-    "blackStrokeLayout4":{
+    "blackStrokeLayout4": {
       "margin":{
         "top":0,
         "bottom":25
       }
     },
     "bodyContainerLayout": {
-      "ignoreDocumentMargin": true
+      "ignoreDocumentMargin": true,
+      "margin": 0
     },
     "bodyLayout": {
       "margin": {
@@ -398,10 +383,7 @@
       }
     },
     "introLayout": {
-      "margin": {
-        "top": 15,
-        "bottom": 15
-      }
+      "margin": 0
     },
     "photoLayout": {
       "minimumHeight": "100cw"
@@ -428,8 +410,8 @@
     },
     "titleLayout": {
       "margin": {
-        "top": 10,
-        "bottom": 30
+        "top": 0,
+        "bottom": 0
       }
     }
   }

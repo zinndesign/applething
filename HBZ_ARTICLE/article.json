@@ -18,7 +18,7 @@
           "type": "image",
           "URL": "http://hbz.h-cdn.co/assets/15/32/980x490/landscape-1438796061-hbz-louboutin-index.jpg",
           "fillMode": "cover",
-          "verticalAlignment": "bottom"
+          "verticalAlignment": "top"
         }
       },
       "behavior": {
@@ -41,7 +41,7 @@
       "layout": "bodyContainerLayout",
       "style": "bodyContainerStyle",
       "anchor": {
-        "targetAnchorPosition": "bottom"
+        "targetAnchorPosition": "top"
       },
       "components": [
         {
@@ -141,15 +141,6 @@
   ],
   "componentStyles": {
     "baseStrokeStyle": {
-      "border": {
-        "all": {
-          "width": 1,
-          "color": "#666"
-        },
-        "top":false,
-        "left": false,
-        "right": false
-      }
     },
     "bodyContainerStyle": {
       "backgroundColor": "#FFF"
@@ -179,14 +170,16 @@
   },
   "componentTextStyles": {
     "authorStyle": {
-      "fontName": "Gotham-Medium",
+      "fontName": "Didot-HTF-M42-Medium",
       "fontSize": 14,
-      "textAlignment": "center"
+      "textAlignment": "center",
+      "textTransform":"uppercase",
+      "tracking": 0.5
     },
     "bodyStyle": {
-      "fontName": "TimesNewRomanPSMT",
-      "fontSize": 24,
-      "lineHeight": 36,
+      "fontName": "BemboBookMTStd-Regular",
+      "fontSize": 18,
+      "lineHeight": 26,
       "textAlignment": "left",
       "linkStyle": {
         "textColor": "#00AAE3",
@@ -194,13 +187,13 @@
       }
     },
     "bodyStyleFirst": {
-      "fontName": "TimesNewRomanPSMT",
-      "fontSize": 24,
-      "lineHeight": 36,
+      "fontName": "BemboBookMTStd-Regular",
+      "fontSize": 18,
+      "lineHeight": 26,
       "textAlignment": "left",
       "dropCapStyle": {
-        "fontName": "TimesNewRomanPS-BoldMT",
-        "numberOfLines": 5,
+        "fontName": "Didot-HTF-L42-Light",
+        "numberOfLines": 6,
         "numberOfCharacters": 1
       }
     },
@@ -222,21 +215,22 @@
       "textTransform":"uppercase"
     },
     "dateStyle": {
-      "fontName": "Gotham-Medium",
+      "fontName": "GothamNarrow-Bold",
       "fontSize": 13,
       "textAlignment": "center",
-      "textColor": "#878787"
+      "textTransform":"uppercase"
     },
     "heading1Style": {
-      "fontName": "TimesNewRomanPS-BoldMT",
+      "fontName": "Didot-HTF-M42-Medium",
       "fontSize": 32,
       "lineHeight": 36,
-      "textAlignment": "left"
+      "textAlignment": "left",
+      "textTransform":"uppercase"
     },
     "introStyle": {
-      "fontName": "Didot-Italic",
+      "fontName": "Didot-HTF-L42-Light-Ital",
       "fontSize": 30,
-      "lineHeight": 36,
+      "lineHeight": 42,
       "textAlignment": "center"
     },
     "lowerListStyle": {
@@ -246,9 +240,9 @@
       "textAlignment": "center"
     },
     "pullquoteStyle": {
-      "fontName": "Didot-Italic",
-      "fontSize": 40,
-      "lineHeight": 52,
+      "fontName": "Didot-HTF-L42-Light-Ital",
+      "fontSize": 36,
+      "lineHeight": 46,
       "textAlignment": "center"
     },
     "spacerWord":{
@@ -259,9 +253,9 @@
       "textTransform": "uppercase"
     },
     "titleStyle": {
-      "fontName": "Didot",
-      "fontSize": 68,
-      "lineHeight": 68,
+      "fontName": "Didot-HTF-L42-Light",
+      "fontSize": 72,
+      "lineHeight": 64,
       "textAlignment": "center",
       "textTransform": "uppercase"
     }
@@ -274,37 +268,24 @@
       }
     },
     "authorLayout": {
-      "margin": 8
+      "margin": {
+        "top": 0
+      }
     },
     "blackStrokeLayout1":{
-      "margin": 0,
-      "columnStart": 2,
-      "columnSpan": 2
+      "margin": 0
     },
     "blackStrokeLayout2":{
       "margin": 5
     },
     "blackStrokeLayout3":{
-      "margin":{
-        "top":60,
-        "bottom":0
-      },
-      "columnStart": 2,
-      "columnSpan": 2
     },
     "blackStrokeLayout4":{
-      "margin":{
-        "top":0,
-        "bottom":60
-      },
-      "columnStart": 2,
-      "columnSpan": 2
     },
     "bodyContainerLayout": {
-      "ignoreDocumentMargin": true,
-      "contentInset": {
-        "left": true,
-        "right": true
+      "margin": {
+        "top": 0,
+        "bottom": 25
       }
     },
     "bodyLayout": {
@@ -327,13 +308,13 @@
     },
     "dateLayout": {
       "margin": {
-        "top": 60,
+        "top": 40,
         "bottom": 0
       }
     },
     "headerImageLayout": {
       "ignoreDocumentMargin": true,
-      "minimumHeight": "40vh"
+      "minimumHeight": "50vh"
     },
     "heading1Layout": {
       "margin": {
@@ -344,16 +325,17 @@
     "introLayout": {
       "margin": {
         "top": 0,
-        "bottom": 40
+        "bottom": 30
       }
     },
     "photoLayout": {
       "minimumHeight": "100cw"
     },
     "pullquoteLayout": {
-      "ignoreDocumentMargin": false,
-      "contentInset": true,
-      "margin": 25
+      "margin": {
+        "top": 15,
+        "bottom": 10
+      }
     },
     "slideLayout": {
       "ignoreDocumentMargin": true,
@@ -372,8 +354,8 @@
     },
     "titleLayout": {
       "margin": {
-        "top": 50,
-        "bottom": 30
+        "top": 20,
+        "bottom": 0
       }
     }
   }

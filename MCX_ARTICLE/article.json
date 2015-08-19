@@ -41,7 +41,7 @@
       "layout": "bodyContainerLayout",
       "style": "bodyContainerStyle",
       "anchor": {
-        "targetAnchorPosition": "bottom"
+        "targetAnchorPosition": "top"
       },
       "components": [
         {
@@ -67,12 +67,13 @@
           "stroke": {
             "color": "#FFF0"
           },
-          "style": "baseStrokeStyle"
+          "style": "baseStrokeStyle",
+          "layout": "blackStrokeLayout1"
         },
         {
           "role": "author",
           "layout": "authorLayout",
-          "text": "Megan Friedman",
+          "text": "By Megan Friedman",
           "textStyle": "authorStyle"
         },
         {
@@ -80,7 +81,8 @@
           "stroke": {
             "color": "#FFF0"
           },
-          "style": "baseStrokeStyle"
+          "style": "baseStrokeStyle",
+          "layout": "blackStrokeLayout1"
         },
         { 
            "role": "medium_rectangle_advertisement",
@@ -89,7 +91,7 @@
         },
         {
           "role": "body",
-          "text": "Miley Cyrus is Marie Claire's September cover girl, and she doesn't mince words in her candid interview with writer Allison Glock. Here, nine no-holds-barred moments from our September issue, on newsstands August 18.",
+          "text": "Miley Cyrus is Marie Claire's September cover girl, and she doesn't mince words in her candid interview with writer Allison Glock. Here, nine no-holds-barred moments from our September issue, on newsstands August 18. Miley Cyrus is Marie Claire's September cover girl, and she doesn't mince words in her candid interview with writer Allison Glock. Here, nine no-holds-barred moments from our September issue, on newsstands August 18.Miley Cyrus is Marie Claire's September cover girl, and she doesn't mince words in her candid interview with writer Allison Glock. Here, nine no-holds-barred moments from our September issue, on newsstands August 18.",
           "layout": "bodyLayout",
           "textStyle": "bodyStyleFirst",
           "format": "markdown"
@@ -104,6 +106,19 @@
           "layout": "heading1Layout",
           "text": "1. Growing up on 'Hannah Montana' gave her unrealistic beauty standards.",
           "textStyle": "heading1Style"
+        },
+        {
+          "role": "body",
+          "text": "\"From the time I was 11, it was, 'You're a pop star! That means you have to be blonde, and you have to have long hair, and you have to put on some glittery tight thing.' Meanwhile, I'm this fragile little girl playing a 16-year-old in a wig and a ton of makeup. It was like Toddlers & Tiaras. I had fucking flippers.\"",
+          "layout": "bodyLayout",
+          "textStyle": "bodyStyle",
+          "format": "markdown"
+        },
+        {
+          "role": "photo",
+          "URL": "http://mac.h-cdn.co/assets/15/33/980x490/landscape-1439416462-miley-cyrus-marie-claire.jpg",
+          "layout": "embedLayout",
+          "caption": "I would have anxiety attacks. I'd get hot flashes, feel like I was about to pass out or throw up. It would happen a lot before shows, and I'd have"
         },
         {
           "role": "body",
@@ -149,6 +164,11 @@
           "format": "markdown"
         },
         {
+          "role": "embedwebvideo",
+          "URL": "http://player.vimeo.com/video/53018096",
+          "layout": "embedLayout"
+        },
+        {
           "role": "banner_advertisement",
           "bannerType": "standard"
         }
@@ -159,15 +179,7 @@
     "baseStrokeStyle": {
     },
     "bodyContainerStyle": {
-      "backgroundColor": "#FFF",
-      "border": {
-        "all": {
-          "width": 10
-        },
-        "right": false,
-        "top": false,
-        "bottom": false
-      }
+      "backgroundColor": "#FFF"
     },
     "dateLayoutStyle": {
     },
@@ -176,18 +188,12 @@
     },
     "tabLayoutStyle": {
       "backgroundColor": "#FFF",
-      "fill": {
-        "type": "image",
-        "URL": "bundle://mcx_header.png",
-        "fillMode": "fit",
-        "verticalAlignment": "top",
-        "horizontalAlignment": "left"
-      },
       "border": {
         "all": {
           "width": 10,
           "color": "#000"
         },
+        "left": false,
         "right": false,
         "bottom": false
       }
@@ -196,14 +202,14 @@
   "componentTextStyles": {
     "authorStyle": {
       "fontName": "ITCModernNo216W01-Md",
-      "fontSize": 16,
+      "fontSize": 15,
       "textAlignment": "left",
       "textTransform": "uppercase"
     },
     "bodyStyle": {
       "fontName": "Georgia",
-      "fontSize": 20,
-      "lineHeight": 24,
+      "fontSize": 18,
+      "lineHeight": 26,
       "textAlignment": "left",
       "linkStyle": {
         "textColor": "#00AAE3",
@@ -212,11 +218,11 @@
     },
     "bodyStyleFirst": {
       "fontName": "Georgia",
-      "fontSize": 20,
-      "lineHeight": 24,
+      "fontSize": 18,
+      "lineHeight": 26,
       "textAlignment": "left",
       "dropCapStyle": {
-        "fontName": "Georgia",
+        "fontName": "ITCModernNo216W01-Md",
         "numberOfLines": 3,
         "numberOfCharacters": 1
       }
@@ -241,21 +247,22 @@
     },
     "dateStyle": {
       "fontName": "ITCFranklinGothicW01-DmCm",
-      "fontSize": 20,
-      "textAlignment": "right",
-      "textColor": "#39CEFF",
-      "textTransform": "uppercase"
+      "fontSize": 16,
+      "textAlignment": "left",
+      "textColor": "#CCC",
+      "textTransform": "uppercase",
+      "tracking": 0.05
     },
     "heading1Style": {
-      "fontName": "ITCFranklinGothicW01-DmCm",
-      "fontSize": 32,
-      "lineHeight": 38,
+      "fontName": "ITCModernNo216W01-Md",
+      "fontSize": 28,
+      "lineHeight": 32,
       "textAlignment": "left",
       "textTransform":"uppercase"
     },
     "introStyle": {
-      "fontName": "Georgia-Italic",
-      "fontSize": 18,
+      "fontName": "MCModernTwoSxtn-LightItalic",
+      "fontSize": 20,
       "lineHeight": 24,
       "textAlignment": "left"
     },
@@ -266,9 +273,9 @@
       "textAlignment": "center"
     },
     "pullquoteStyle": {
-      "fontName": "Georgia",
-      "fontSize": 22,
-      "lineHeight": 28,
+      "fontName": "ITCFranklinGothicW01-DmCm",
+      "fontSize": 40,
+      "lineHeight": 36,
       "textAlignment": "center",
       "textTransform":"uppercase"
     },
@@ -280,18 +287,15 @@
       "textTransform": "uppercase"
     },
     "titleStyle": {
-      "fontName": "ITCModernNo216W01-Md",
+      "fontName": "ITCFranklinGothicW01-DmCm",
       "fontSize": 54,
-      "lineHeight": 60,
-      "textAlignment": "left"
+      "lineHeight": 52,
+      "textAlignment": "left",
+      "textTransform": "uppercase"
     }
   },
   "componentLayouts": {
     "adLayout": {
-      "margin": {
-        "top": 25,
-        "bottom": 25
-      }
     },
     "authorLayout": {
       "contentInset": {
@@ -299,8 +303,8 @@
         "right": true
       },
       "margin": {
-        "top": 16,
-        "bottom": 0
+        "top": 10,
+        "bottom": 30
       }
     },
     "blackStrokeLayout1":{
@@ -332,6 +336,10 @@
       "contentInset": {
         "left": true,
         "right": true
+      },
+      "margin": {
+        "top": 0,
+        "bottom": 25
       }
     },
     "bodyLayout": {
@@ -357,9 +365,13 @@
       }   
     },
     "dateLayout": {
+      "contentInset": {
+        "left": true,
+        "right": true
+      },
       "margin": {
         "top": 0,
-        "bottom": 20
+        "bottom": 10
       }
     },
     "headerImageLayout": {
@@ -382,16 +394,18 @@
         "right": true
       },
       "margin": {
-        "top": 15,
-        "bottom": 15
+        "top": 5,
+        "bottom": 0
       }
     },
     "photoLayout": {
       "minimumHeight": "100cw"
     },
     "pullquoteLayout": {
-      "columnStart": 1,
-      "columnSpan": 4
+      "contentInset": {
+        "left": true,
+        "right": true
+      }
     },
     "slideLayout": {
       "ignoreDocumentMargin": true,
@@ -410,6 +424,13 @@
         "left": true,
         "right": true
       }
+    },
+    "embedLayout": {
+      "contentInset": {
+        "left": true,
+        "right": true
+      },
+      "margin": 10
     },
     "titleLayout": {
       "contentInset": {
