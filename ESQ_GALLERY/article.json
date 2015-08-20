@@ -1,7 +1,7 @@
 {
   "version": "0.10",
   "identifier": "!!!DYNAMIC",
-  "title": "Miles Teller Is Young, Talented, and Doesn't Give a Rat's Ass What You Think",
+  "title": "10 Stylish Items to Help You Unleash the Rebel Within",
   "language": "en",
   "layout": {
     "columns": 6,
@@ -16,7 +16,7 @@
       "style": {
         "fill": {
           "type": "image",
-          "URL": "http://esq.h-cdn.co/assets/15/32/980x490/landscape-1438705820-w-esq090115cover002s-teller-01.jpg",
+          "URL": "http://esq.h-cdn.co/assets/15/32/980x490/landscape-1438722543-gettyimages-468415240b.jpg",
           "fillMode": "cover",
           "verticalAlignment": "top"
         }
@@ -53,13 +53,13 @@
         {
           "role": "title",
           "layout": "titleLayout",
-          "text": "Miles Teller Is Young, Talented, and Doesn't Give a Rat's Ass What You Think",
+          "text": "10 Stylish Items to Help You Unleash the Rebel Within",
           "textStyle": "titleStyle"
         },
         {
           "role": "intro",
           "layout": "introLayout",
-          "text": "Our latest cover star is on a quest for greatness. Sometimes that can involve a bit of dickishness too.",
+          "text": "Add a little badass to your wardrobe.",
           "textStyle": "introStyle"
         },
         {
@@ -73,7 +73,7 @@
         {
           "role": "author",
           "layout": "authorLayout",
-          "text": "By Anna Peele",
+          "text": "By ESQ Editors",
           "textStyle": "authorStyle"
         },
         {
@@ -84,72 +84,103 @@
           "layout": "blackStrokeLayout1",
           "style": "baseStrokeStyle"
         },
-        { 
-           "role": "medium_rectangle_advertisement",
-           "layout": "adLayout",
-           "bannerType": "standard"
+        {
+          "role": "section",
+          "layout": "slideLayout",
+          "components": [
+            {
+              "role": "heading",
+              "text": "1\\. Black Shades",
+              "layout": "heading1Layout",
+              "textStyle": "heading1Style",
+              "format": "markdown"
+            },
+            {
+              "role": "container",
+              "style": "photoContainerStyle",
+              "layout": "photoLayout",
+              "components": [
+                {
+                  "role": "container",
+                  "style": {
+                    "fill": {
+                      "type": "image",
+                      "URL": "http://esq.h-cdn.co/assets/15/32/1024x1536/gallery-1438723003-55.jpg",
+                      "verticalAlignment": "top"
+                    }
+                  },
+                  "layout": "photoLayout",
+                  "animation": {
+                    "type": "fade_in",
+                    "userControllable": true,
+                    "initialAlpha": 0.1
+                  }
+                }
+              ]
+            },
+            {
+              "role": "photographer",
+              "text": "Getty",
+              "layout": "creditLayout",
+              "textStyle": "creditStyle"
+            },      
+            {
+              "role": "caption",
+              "text": "Black shades are always cool, but these big, square frames with metal details look just a bit meaner than average.\n\n_Polarized square sunglasses ($495) by Public School x Oliver People, [eastdane.com](https://www.eastdane.com/public-school-oliver-people-polarized/vp/v=1/1527618074.htm?folderID=19227&colorId=86561)_",
+              "layout": "captionLayout",
+              "textStyle": "captionStyle",
+              "format": "markdown"
+            }
+          ]
         },
         {
-          "role": "body",
-          "text": "**You're sitting across from Miles Teller** at the Luminary restaurant in Atlanta and trying to figure out if he's a dick. You've just told him, by way of making conversation, that according to legend the champagne coupe in your hand is shaped like Marie Antoinette's left breast, and he tells you the highball glass is modeled after his cock. Then he tells the waitress the same thing.",
-          "layout": "bodyLayout",
-          "textStyle": "bodyStyleFirst",
-          "format": "markdown"
-        },
-        {
-          "role": "body",
-          "text": "He is wearing a pool-blue V-neck that shows off the Roman-numeral tattoo on his arm, a reference to the thirty-two-ounce beers his high school friends were forced to buy because forties were not available in Florida. He explains that everyone in the \"32 Crew\" got this tattoo after a night at the High Octane Saloon from a man they bribed out of bed at 2:00 a.m. to needle crooked _X_'s and _I_'s onto their biceps.",
-          "layout": "bodyLayout",
-          "textStyle": "bodyStyle",
-          "format": "markdown"
-        },
-        {
-          "role": "heading1",
-          "layout": "heading1Layout",
-          "text": "Call them \u201Cobjects d'art\u201D",
-          "textStyle": "heading1Style"
-        },
-        {
-          "role": "body",
-          "text": "He recounts a direct message he\u2014a twenty-eight-year-old actor still trying to find his place in his profession\u2014sent to five-time NBA champion Kobe Bryant through Twitter: _Kobe, watched your Showtime documentary. Really related to what you're talking about and striving for greatness and how it can oftentimes be an isolated journey, and how relationships can be a weakness in a way, if you're really kind of going after it._",
-          "layout": "bodyLayout",
-          "textStyle": "bodyStyle",
-          "format": "markdown"
-        },
-        {
-          "role": "divider",
-          "stroke": {
-            "color": "#FFF0"
-          },
-          "layout": "blackStrokeLayout3",
-          "style": "baseStrokeStyle"
-        },
-        {
-          "role": "pullquote",
-          "layout": "pullquoteLayout",
-          "text": "\u201CI didn't wanna do it,\u201D he says. \u201CAnd I still think you shouldn't use acting as therapy. That was the closest I ever got to that.\u201D",
-          "textStyle": "pullquoteStyle",
-          "format": "markdown"
-        },
-        {
-          "role": "divider",
-          "stroke": {
-            "color": "#FFF0"
-          },
-          "layout": "blackStrokeLayout4",
-          "style": "baseStrokeStyle"
-        },
-        {
-          "role": "photo",
-          "URL": "http://esq.h-cdn.co/assets/15/32/980x980/square-1438706025-w-esq090115teller003-teller-04.jpg",
-          "layout": "embedLayout"
-        },
-        {
-          "role": "body",
-          "text": "He says he wants to contribute to the body of great acting in the world, to the\u2026 shit, he can't find the term\u2014 _cache? catalog? canon?_ Whatever, you know what he means. He thinks he has something to offer.",
-          "layout": "bodyLayout",
-          "textStyle": "bodyStyle",
-          "format": "markdown"
+          "role": "section",
+          "layout": "slideLayout",
+          "components": [
+            {
+              "role": "heading",
+              "text": "2\\. A Leather Jacket",
+              "layout": "heading1Layout",
+              "textStyle": "heading1Style",
+              "format": "markdown"
+            },
+            {
+              "role": "container",
+              "style": "photoContainerStyle",
+              "layout": "photoLayout",
+              "components": [
+                {
+                  "role": "container",
+                  "style": {
+                    "fill": {
+                      "type": "image",
+                      "URL": "http://esq.h-cdn.co/assets/15/32/dsc_2992.jpg",
+                      "verticalAlignment": "top"
+                    }
+                  },
+                  "layout": "photoLayout",
+                  "animation": {
+                    "type": "fade_in",
+                    "userControllable": true,
+                    "initialAlpha": 0.1
+                  }
+                }
+              ]
+            },
+            {
+              "role": "photographer",
+              "text": "Getty",
+              "layout": "creditLayout",
+              "textStyle": "creditStyle"
+            },      
+            {
+              "role": "caption",
+              "text": "A leather jacket might seem the obvious choice, but this one from Schott is unique. It combines the asymmetrical zipper of a Perfecto with the cropped collar of a cafe racer, which means it will stand out anywhere.\n\n_Steerhide hybrid motorcycle jacket ($595) by Schott, [schottnyc.com](https://www.schottnyc.com/products/cafe-racer-hybrid-leather-motorcycle-jacket.htm?catID=5)_",
+              "layout": "captionLayout",
+              "textStyle": "captionStyle",
+              "format": "markdown"
+            }
+          ]
         },
         {
           "role": "banner_advertisement",
@@ -217,20 +248,22 @@
       }
     },
     "captionStyle": {
-      "fontName": "Helvetica",
-      "fontSize": 20,
-      "lineHeight": 32,
+      "fontName": "Georgia",
+      "fontSize": 24,
+      "lineHeight": 28,
       "textAlignment": "left",
+      "textColor": "#666",
       "linkStyle": {
+        "textColor": "#00AAE3",
         "underline": true
       }
     },
     "creditStyle": {
-      "fontName": "Helvetica",
+      "fontName": "TradeGothicNextLTW01-BdCn",
       "fontSize": 18,
       "lineHeight": 24,
       "textAlignment": "right",
-      "textColor": "#898989",
+      "textColor": "#AAA",
       "textTransform":"uppercase"
     },
     "dateStyle": {
@@ -242,10 +275,10 @@
     },
     "heading1Style": {
       "fontName": "TradeGothicNextLTW01-HvCn",
-      "fontSize": 40,
-      "lineHeight": 42,
-      "textTransform":"uppercase",
-      "textAlignment": "left"
+      "fontSize": 36,
+      "lineHeight": 40,
+      "textAlignment": "left",
+      "textColor": "#666"
     },
     "introStyle": {
       "fontName": "Helvetica",
@@ -318,8 +351,8 @@
     },
     "captionLayout": {
       "margin": {
-        "top": 10,
-        "bottom": 25
+        "top": 20,
+        "bottom": 10
       }   
     },
     "creditLayout": {
@@ -347,7 +380,7 @@
     "heading1Layout": {
       "margin": {
         "top": 15,
-        "bottom": 5
+        "bottom": 15
       }
     },
     "introLayout": {
@@ -371,7 +404,11 @@
     },
     "slideLayout": {
       "ignoreDocumentMargin": true,
-      "minimumHeight": "100cw"
+      "minimumHeight": "100cw",
+      "margin": {
+        "top": 30,
+        "bottom": 10
+      }
     },
     "spacerLayout": {
       "margin": {
