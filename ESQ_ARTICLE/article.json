@@ -170,14 +170,14 @@
   },
   "componentTextStyles": {
     "authorStyle": {
-      "fontName": "Didot-HTF-M42-Medium",
+      "fontName": "Helvetica",
       "fontSize": 14,
       "textAlignment": "center",
       "textTransform":"uppercase",
       "tracking": 0.5
     },
     "bodyStyle": {
-      "fontName": "BemboBookMTStd-Regular",
+      "fontName": "Helvetica",
       "fontSize": 18,
       "lineHeight": 26,
       "textAlignment": "left",
@@ -187,18 +187,18 @@
       }
     },
     "bodyStyleFirst": {
-      "fontName": "BemboBookMTStd-Regular",
+      "fontName": "Helvetica",
       "fontSize": 18,
       "lineHeight": 26,
       "textAlignment": "left",
       "dropCapStyle": {
-        "fontName": "Didot-HTF-L42-Light",
+        "fontName": "Helvetica",
         "numberOfLines": 6,
         "numberOfCharacters": 1
       }
     },
     "captionStyle": {
-      "fontName": "TimesNewRomanPSMT",
+      "fontName": "Helvetica",
       "fontSize": 20,
       "lineHeight": 32,
       "textAlignment": "left",
@@ -207,7 +207,7 @@
       }
     },
     "creditStyle": {
-      "fontName": "Didot",
+      "fontName": "Helvetica",
       "fontSize": 18,
       "lineHeight": 24,
       "textAlignment": "right",
@@ -215,45 +215,45 @@
       "textTransform":"uppercase"
     },
     "dateStyle": {
-      "fontName": "GothamNarrow-Bold",
+      "fontName": "Helvetica",
       "fontSize": 13,
       "textAlignment": "center",
       "textTransform":"uppercase"
     },
     "heading1Style": {
-      "fontName": "Didot-HTF-M42-Medium",
+      "fontName": "Helvetica",
       "fontSize": 32,
       "lineHeight": 36,
       "textAlignment": "left",
       "textTransform":"uppercase"
     },
     "introStyle": {
-      "fontName": "Didot-HTF-L42-Light-Ital",
+      "fontName": "Helvetica",
       "fontSize": 30,
       "lineHeight": 42,
       "textAlignment": "center"
     },
     "lowerListStyle": {
-      "fontName": "TimesNewRomanPSMT",
+      "fontName": "Helvetica",
       "fontSize": 18,
       "lineHeight": 20,
       "textAlignment": "center"
     },
     "pullquoteStyle": {
-      "fontName": "Didot-HTF-L42-Light-Ital",
+      "fontName": "Helvetica",
       "fontSize": 36,
       "lineHeight": 46,
       "textAlignment": "center"
     },
     "spacerWord":{
-      "fontName": "TimesNewRomanPSMT",
+      "fontName": "Helvetica",
       "fontSize": 48,
       "lineHeight": 48,
       "textAlignment": "center",
       "textTransform": "uppercase"
     },
     "titleStyle": {
-      "fontName": "Didot-HTF-L42-Light",
+      "fontName": "Helvetica",
       "fontSize": 72,
       "lineHeight": 64,
       "textAlignment": "center",
