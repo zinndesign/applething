@@ -85,6 +85,13 @@
           "style": "baseStrokeStyle"
         },
         {
+          "role": "body",
+          "text": "He is wearing a pool-blue V-neck that shows off the Roman-numeral tattoo on his arm, a reference to the thirty-two-ounce beers his high school friends were forced to buy because forties were not available in Florida. He explains that everyone in the \"32 Crew\" got this tattoo after a night at the High Octane Saloon from a man they bribed out of bed at 2:00 a.m. to needle crooked _X_'s and _I_'s onto their biceps.",
+          "layout": "bodyLayout",
+          "textStyle": "bodyStyle",
+          "format": "markdown"
+        },
+        {
           "role": "section",
           "layout": "slideLayout",
           "components": [
@@ -221,16 +228,17 @@
   "componentTextStyles": {
     "authorStyle": {
       "fontName": "TradeGothicNextLTW01-HvCn",
-      "fontSize": 28,
+      "fontSize": 16,
       "textAlignment": "left",
       "textTransform":"uppercase",
       "textColor": "#AAA"
     },
     "bodyStyle": {
       "fontName": "Georgia",
-      "fontSize": 26,
-      "lineHeight": 34,
+      "fontSize": 21,
+      "lineHeight": 30,
       "textAlignment": "left",
+      "textColor": "#333",
       "linkStyle": {
         "textColor": "#00AAE3",
         "underline": true
@@ -238,19 +246,21 @@
     },
     "bodyStyleFirst": {
       "fontName": "Georgia",
-      "fontSize": 26,
-      "lineHeight": 34,
+      "fontSize": 21,
+      "lineHeight": 30,
       "textAlignment": "left",
+      "textColor": "#333",
       "dropCapStyle": {
         "fontName": "AktivGroteskW01-Black",
         "numberOfLines": 3,
-        "numberOfCharacters": 1
+        "numberOfCharacters": 1,
+        "textColor": "#000"
       }
     },
     "captionStyle": {
       "fontName": "Georgia",
-      "fontSize": 24,
-      "lineHeight": 28,
+      "fontSize": 21,
+      "lineHeight": 30,
       "textAlignment": "left",
       "textColor": "#666",
       "linkStyle": {
@@ -260,30 +270,31 @@
     },
     "creditStyle": {
       "fontName": "TradeGothicNextLTW01-BdCn",
-      "fontSize": 18,
-      "lineHeight": 24,
+      "fontSize": 12,
+      "lineHeight": 18,
       "textAlignment": "right",
       "textColor": "#AAA",
       "textTransform":"uppercase"
     },
     "dateStyle": {
       "fontName": "TradeGothicNextLTW01-HvCn",
-      "fontSize": 28,
+      "fontSize": 16,
       "textAlignment": "left",
       "textTransform":"uppercase",
       "textColor": "#AAA"
     },
     "heading1Style": {
       "fontName": "TradeGothicNextLTW01-HvCn",
-      "fontSize": 36,
-      "lineHeight": 40,
+      "fontSize": 32,
+      "lineHeight": 36,
+      "textTransform":"uppercase",
       "textAlignment": "left",
-      "textColor": "#666"
+      "tracking": 0.01
     },
     "introStyle": {
       "fontName": "Helvetica",
-      "fontSize": 36,
-      "lineHeight": 42,
+      "fontSize": 21,
+      "lineHeight": 28,
       "textAlignment": "left",
       "textColor": "#666"
     },
@@ -295,9 +306,9 @@
     },
     "pullquoteStyle": {
       "fontName": "AktivGroteskW01-Black",
-      "fontSize": 42,
-      "lineHeight": 42,
-      "textAlignment": "center",
+      "fontSize": 36,
+      "lineHeight": 38,
+      "textAlignment": "left",
       "textTransform": "uppercase"
     },
     "spacerWord":{
@@ -309,8 +320,8 @@
     },
     "titleStyle": {
       "fontName": "AktivGroteskW01-Black",
-      "fontSize": 72,
-      "lineHeight": 72,
+      "fontSize": 42,
+      "lineHeight": 42,
       "textAlignment": "left",
       "textColor": "#333"
     }
@@ -318,13 +329,12 @@
   "componentLayouts": {
     "adLayout": {
       "margin": {
-        "top": 25,
-        "bottom": 25
       }
     },
     "authorLayout": {
       "margin": {
-        "top": 0
+        "top": 0,
+        "bottom": 10
       }
     },
     "blackStrokeLayout1":{
@@ -340,19 +350,19 @@
     "bodyContainerLayout": {
       "margin": {
         "top": 0,
-        "bottom": 25
+        "bottom": 35
       }
     },
     "bodyLayout": {
       "margin": {
         "top": 10,
-        "bottom": 15
+        "bottom": 10
       }
     },
     "captionLayout": {
       "margin": {
-        "top": 20,
-        "bottom": 10
+        "top": 10,
+        "bottom": 25
       }   
     },
     "creditLayout": {
@@ -380,7 +390,7 @@
     "heading1Layout": {
       "margin": {
         "top": 15,
-        "bottom": 15
+        "bottom": 20
       }
     },
     "introLayout": {
@@ -394,21 +404,13 @@
     },
     "pullquoteLayout": {
       "margin": {
-        "top": 30,
-        "bottom": 30
-      },
-      "contentInset": {
-        "left": true,
-        "right": true
+        "top": 15,
+        "bottom": 15
       }
     },
     "slideLayout": {
       "ignoreDocumentMargin": true,
-      "minimumHeight": "100cw",
-      "margin": {
-        "top": 30,
-        "bottom": 10
-      }
+      "minimumHeight": "100cw"
     },
     "spacerLayout": {
       "margin": {
@@ -422,7 +424,7 @@
     },
     "titleLayout": {
       "margin": {
-        "top": 20,
+        "top": 12,
         "bottom": 0
       }
     }

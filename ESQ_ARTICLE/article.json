@@ -106,7 +106,7 @@
         {
           "role": "heading1",
           "layout": "heading1Layout",
-          "text": "Call them \u201Cobjects d'art\u201D",
+          "text": "Call them \u201Cobjects d'art\u201D talking about and striving for greatness and how it can oftentiy",
           "textStyle": "heading1Style"
         },
         {
@@ -127,7 +127,7 @@
         {
           "role": "pullquote",
           "layout": "pullquoteLayout",
-          "text": "\u201CI didn't wanna do it,\u201D he says. \u201CAnd I still think you shouldn't use acting as therapy. That was the closest I ever got to that.\u201D",
+          "text": "I didn't wanna do it, he says. And I still think you shouldn't use acting as therapy. That was the closest I ever got to that.",
           "textStyle": "pullquoteStyle",
           "format": "markdown"
         },
@@ -190,16 +190,17 @@
   "componentTextStyles": {
     "authorStyle": {
       "fontName": "TradeGothicNextLTW01-HvCn",
-      "fontSize": 28,
+      "fontSize": 16,
       "textAlignment": "left",
       "textTransform":"uppercase",
       "textColor": "#AAA"
     },
     "bodyStyle": {
       "fontName": "Georgia",
-      "fontSize": 26,
-      "lineHeight": 34,
+      "fontSize": 21,
+      "lineHeight": 30,
       "textAlignment": "left",
+      "textColor": "#333",
       "linkStyle": {
         "textColor": "#00AAE3",
         "underline": true
@@ -207,13 +208,15 @@
     },
     "bodyStyleFirst": {
       "fontName": "Georgia",
-      "fontSize": 26,
-      "lineHeight": 34,
+      "fontSize": 21,
+      "lineHeight": 30,
       "textAlignment": "left",
+      "textColor": "#333",
       "dropCapStyle": {
         "fontName": "AktivGroteskW01-Black",
         "numberOfLines": 3,
-        "numberOfCharacters": 1
+        "numberOfCharacters": 1,
+        "textColor": "#000"
       }
     },
     "captionStyle": {
@@ -235,22 +238,23 @@
     },
     "dateStyle": {
       "fontName": "TradeGothicNextLTW01-HvCn",
-      "fontSize": 28,
+      "fontSize": 16,
       "textAlignment": "left",
       "textTransform":"uppercase",
       "textColor": "#AAA"
     },
     "heading1Style": {
       "fontName": "TradeGothicNextLTW01-HvCn",
-      "fontSize": 40,
-      "lineHeight": 42,
+      "fontSize": 32,
+      "lineHeight": 36,
       "textTransform":"uppercase",
-      "textAlignment": "left"
+      "textAlignment": "left",
+      "tracking": 0.01
     },
     "introStyle": {
       "fontName": "Helvetica",
-      "fontSize": 36,
-      "lineHeight": 42,
+      "fontSize": 21,
+      "lineHeight": 28,
       "textAlignment": "left",
       "textColor": "#666"
     },
@@ -262,9 +266,9 @@
     },
     "pullquoteStyle": {
       "fontName": "AktivGroteskW01-Black",
-      "fontSize": 42,
-      "lineHeight": 42,
-      "textAlignment": "center",
+      "fontSize": 36,
+      "lineHeight": 38,
+      "textAlignment": "left",
       "textTransform": "uppercase"
     },
     "spacerWord":{
@@ -276,8 +280,8 @@
     },
     "titleStyle": {
       "fontName": "AktivGroteskW01-Black",
-      "fontSize": 72,
-      "lineHeight": 72,
+      "fontSize": 42,
+      "lineHeight": 42,
       "textAlignment": "left",
       "textColor": "#333"
     }
@@ -285,13 +289,12 @@
   "componentLayouts": {
     "adLayout": {
       "margin": {
-        "top": 25,
-        "bottom": 25
       }
     },
     "authorLayout": {
       "margin": {
-        "top": 0
+        "top": 0,
+        "bottom": 15
       }
     },
     "blackStrokeLayout1":{
@@ -307,13 +310,13 @@
     "bodyContainerLayout": {
       "margin": {
         "top": 0,
-        "bottom": 25
+        "bottom": 35
       }
     },
     "bodyLayout": {
       "margin": {
         "top": 10,
-        "bottom": 15
+        "bottom": 10
       }
     },
     "captionLayout": {
@@ -361,12 +364,8 @@
     },
     "pullquoteLayout": {
       "margin": {
-        "top": 30,
-        "bottom": 30
-      },
-      "contentInset": {
-        "left": true,
-        "right": true
+        "top": 15,
+        "bottom": 15
       }
     },
     "slideLayout": {
@@ -385,7 +384,7 @@
     },
     "titleLayout": {
       "margin": {
-        "top": 20,
+        "top": 12,
         "bottom": 0
       }
     }
