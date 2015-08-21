@@ -1,0 +1,391 @@
+{
+  "version": "0.10",
+  "identifier": "!!!DYNAMIC",
+  "title": "Internet Helps Twentysomething Woman Find Her Identical Twin Stranger",
+  "language": "en",
+  "layout": {
+    "columns": 6,
+    "width": 1024,
+    "margin": 80,
+    "gutter": 20
+  },
+  "components": [
+    {
+      "role": "header",
+      "layout": "headerImageLayout",
+      "style": {
+        "fill": {
+          "type": "image",
+          "URL": "http://cos.h-cdn.co/assets/15/33/980x490/landscape-1439325814-twins.jpg",
+          "fillMode": "cover",
+          "verticalAlignment": "top"
+        }
+      },
+      "behavior": {
+        "type": "parallax",
+        "factor": 0.5
+      },
+      "components": [
+        {
+          "role": "container",
+          "layout": "tabLayout",
+          "style": "tabLayoutStyle",
+          "anchor": {
+            "targetAnchorPosition": "bottom"
+          }
+        }
+      ]
+    },
+    {
+      "role": "section",
+      "layout": "bodyContainerLayout",
+      "style": "bodyContainerStyle",
+      "anchor": {
+        "targetAnchorPosition": "top"
+      },
+      "components": [
+        {
+          "role": "intro",
+          "layout": "dateLayout",
+          "text": "Aug 5, 2015 @ 6:01 PM",
+          "textStyle": "dateStyle"
+        },
+        {
+          "role": "title",
+          "layout": "titleLayout",
+          "text": "Internet Helps Twentysomething Woman Find Her Identical Twin Stranger",
+          "textStyle": "titleStyle"
+        },
+        {
+          "role": "intro",
+          "layout": "introLayout",
+          "text": "Whoa, this is just spooky.",
+          "textStyle": "introStyle"
+        },
+        {
+          "role": "divider",
+          "stroke": {
+            "color": "#FFF0"
+          },
+          "layout": "blackStrokeLayout1",
+          "style": "baseStrokeStyle"
+        },
+        {
+          "role": "author",
+          "layout": "authorLayout",
+          "text": "By Diana Bruk",
+          "textStyle": "authorStyle"
+        },
+        {
+          "role": "divider",
+          "stroke": {
+            "color": "#FFF0"
+          },
+          "layout": "blackStrokeLayout1",
+          "style": "baseStrokeStyle"
+        },
+        { 
+           "role": "medium_rectangle_advertisement",
+           "layout": "adLayout",
+           "bannerType": "standard"
+        },
+        {
+          "role": "body",
+          "text": "This year has been the year of finding stranger twins, the most famous case being the girl who went on a viral quest to find all seven of her clones around the world and has so far successfully located two of them. But while the resemblances in each story so far have been impressive, this latest tale of twin-searching is downright spine-tingling.",
+          "layout": "bodyLayout",
+          "textStyle": "bodyStyleFirst",
+          "format": "markdown"
+        },
+        {
+          "role": "body",
+          "text": "A few days ago, Amanda Fisher, 23, of Frisco, Texas, posted a photo of herself next to a photo of her alleged doppelg\u00E4nger on Imgur. In the caption, Fisher claimed that her friends found this identical stranger on Instagram, but couldn't get in touch with her because it seemed like she wasn't an active user, so she turned to Imgur for help.",
+          "layout": "bodyLayout",
+          "textStyle": "bodyStyle",
+          "format": "markdown"
+        },
+        {
+          "role": "heading1",
+          "layout": "heading1Layout",
+          "text": "Fisher claimed that her friends found this identical stranger",
+          "textStyle": "heading1Style"
+        },
+        {
+          "role": "body",
+          "text": "A few days later, a \"lovely Imgurian,\" recognized the lookalike as a 22-year-old woman named Meredith Pond of Indiana and directed Fisher to Pond's Facebook page, where the two finally connected.",
+          "layout": "bodyLayout",
+          "textStyle": "bodyStyle",
+          "format": "markdown"
+        },
+        {
+          "role": "divider",
+          "stroke": {
+            "color": "#FFF0"
+          },
+          "layout": "blackStrokeLayout3",
+          "style": "baseStrokeStyle"
+        },
+        {
+          "role": "pullquote",
+          "layout": "pullquoteLayout",
+          "text": "\u201CI read somewhere that everyone has at least 6 or 7 people in the world that look a lot like you. I always thought it would be strange to meet one of those people.\u201D",
+          "textStyle": "pullquoteStyle",
+          "format": "markdown"
+        },
+        {
+          "role": "divider",
+          "stroke": {
+            "color": "#FFF0"
+          },
+          "layout": "blackStrokeLayout4",
+          "style": "baseStrokeStyle"
+        },
+        {
+          "role": "instagram",
+          "URL": "https://instagram.com/p/5Pq-P2CvhQ/?taken-by=mere_dith",
+          "layout": "embedLayout"
+        },
+        {
+          "role": "body",
+          "text": "\"To be honest I was a little concerned at first, but then I realized there was just no way,\" she said. \"I read somewhere that everyone has at least six or seven people in the world that look a lot like you. I always thought it would be strange to meet one of those people.\"",
+          "layout": "bodyLayout",
+          "textStyle": "bodyStyle",
+          "format": "markdown"
+        },
+        {
+          "role": "banner_advertisement",
+          "bannerType": "standard"
+        }
+      ]
+    }
+  ],
+  "componentStyles": {
+    "baseStrokeStyle": {
+    },
+    "bodyContainerStyle": {
+      "backgroundColor": "#FFF"
+    },
+    "dateLayoutStyle": {
+      "border": {
+        "all": {
+          "width": 2
+        },
+        "top": false,
+        "left": false,
+        "right": false
+      }
+    },
+    "photoContainerStyle": {
+      "backgroundColor": "#000"
+    },
+    "tabLayoutStyle": {
+      "fill": {
+        "type": "image",
+        "URL": "bundle://cos_header.png",
+        "fillMode": "fit",
+        "verticalAlignment": "bottom",
+        "horizontalAlignment": "right"
+      }
+    }
+  },
+  "componentTextStyles": {
+    "authorStyle": {
+      "fontName": "Georgia-Italic",
+      "fontSize": 18,
+      "textAlignment": "left",
+      "textColor": "#959595"
+    },
+    "bodyStyle": {
+      "fontName": "Georgia",
+      "fontSize": 22,
+      "lineHeight": 30,
+      "textAlignment": "left",
+      "linkStyle": {
+        "textColor": "#00AAE3",
+        "underline": true
+      }
+    },
+    "bodyStyleFirst": {
+      "fontName": "Georgia",
+      "fontSize": 22,
+      "lineHeight": 30,
+      "textAlignment": "left",
+      "dropCapStyle": {
+        "fontName": "DINNextW01-CondensedMedium",
+        "numberOfLines": 5,
+        "numberOfCharacters": 1,
+        "textColor": "#EC008C"
+      }
+    },
+    "captionStyle": {
+      "fontName": "Georgia",
+      "fontSize": 20,
+      "lineHeight": 32,
+      "textAlignment": "left",
+      "linkStyle": {
+        "underline": true
+      }
+    },
+    "creditStyle": {
+      "fontName": "Georgia",
+      "fontSize": 18,
+      "lineHeight": 24,
+      "textAlignment": "right",
+      "textColor": "#898989",
+      "textTransform":"uppercase"
+    },
+    "dateStyle": {
+      "fontName": "DINNextW01-CondensedMedium",
+      "fontSize": 20,
+      "textAlignment": "left",
+      "textTransform":"uppercase",
+      "textColor": "#AAA"
+    },
+    "heading1Style": {
+      "fontName": "TiemposHeadline-Semibold",
+      "fontSize": 28,
+      "lineHeight": 40,
+      "textAlignment": "left"
+    },
+    "introStyle": {
+      "fontName": "DINNextW01-CondensedMedium",
+      "fontSize": 36,
+      "lineHeight": 42,
+      "textAlignment": "left",
+      "textColor": "#636363"
+    },
+    "lowerListStyle": {
+      "fontName": "Georgia",
+      "fontSize": 18,
+      "lineHeight": 20,
+      "textAlignment": "left"
+    },
+    "pullquoteStyle": {
+      "fontName": "TiemposHeadline-SemiboldItalic",
+      "fontSize": 38,
+      "lineHeight": 56,
+      "textAlignment": "center",
+      "textColor": "#EC008C"
+    },
+    "spacerWord":{
+      "fontName": "Georgia",
+      "fontSize": 48,
+      "lineHeight": 48,
+      "textAlignment": "left",
+      "textTransform": "uppercase"
+    },
+    "titleStyle": {
+      "fontName": "DINNextW01-CondensedMedium",
+      "fontSize": 64,
+      "lineHeight": 68,
+      "textAlignment": "left",
+      "textTransform": "uppercase",
+      "textColor": "#333",
+      "tracking": -0.02
+    }
+  },
+  "componentLayouts": {
+    "adLayout": {
+    },
+    "authorLayout": {
+      "margin": {
+        "top": 0,
+        "bottom": 30
+      }
+    },
+    "blackStrokeLayout1":{
+      "margin": 0
+    },
+    "blackStrokeLayout2":{
+      "margin": 5
+    },
+    "blackStrokeLayout3":{
+    },
+    "blackStrokeLayout4":{
+    },
+    "bodyContainerLayout": {
+      "margin": {
+        "top": 0,
+        "bottom": 25
+      }
+    },
+    "bodyLayout": {
+      "margin": {
+        "top": 10,
+        "bottom": 15
+      }
+    },
+    "captionLayout": {
+      "margin": {
+        "top": 10,
+        "bottom": 25
+      }   
+    },
+    "creditLayout": {
+      "margin": {
+        "top": 4,
+        "bottom": 0
+      }   
+    },
+    "dateLayout": {
+      "margin": {
+        "top": 20,
+        "bottom": 0
+      }
+    },
+    "embedLayout": {
+      "margin": {
+        "top": 5,
+        "bottom": 20
+      }
+    },
+    "headerImageLayout": {
+      "ignoreDocumentMargin": true,
+      "minimumHeight": "50vh"
+    },
+    "heading1Layout": {
+      "margin": {
+        "top": 15,
+        "bottom": 5
+      }
+    },
+    "introLayout": {
+      "margin": {
+        "top": 5,
+        "bottom": 10
+      }
+    },
+    "photoLayout": {
+      "minimumHeight": "100cw"
+    },
+    "pullquoteLayout": {
+      "margin": {
+        "top": 30,
+        "bottom": 30
+      },
+      "contentInset": {
+        "left": true,
+        "right": true
+      }
+    },
+    "slideLayout": {
+      "ignoreDocumentMargin": true,
+      "minimumHeight": "100cw"
+    },
+    "spacerLayout": {
+      "margin": {
+        "top": 5,
+        "bottom": 0
+      }
+    },
+    "tabLayout": {
+      "ignoreDocumentMargin": true,
+      "minimumHeight": 124
+    },
+    "titleLayout": {
+      "margin": {
+        "top": 20,
+        "bottom": 10
+      }
+    }
+  }
+}
