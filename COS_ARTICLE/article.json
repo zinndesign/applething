@@ -106,12 +106,12 @@
         {
           "role": "heading1",
           "layout": "heading1Layout",
-          "text": "Call them \u201Cobjects d'art\u201D",
+          "text": "Fisher claimed that her friends found this identical stranger",
           "textStyle": "heading1Style"
         },
         {
           "role": "body",
-          "text": "He recounts a direct message he\u2014a twenty-eight-year-old actor still trying to find his place in his profession\u2014sent to five-time NBA champion Kobe Bryant through Twitter: _Kobe, watched your Showtime documentary. Really related to what you're talking about and striving for greatness and how it can oftentimes be an isolated journey, and how relationships can be a weakness in a way, if you're really kind of going after it._",
+          "text": "A few days later, a \"lovely Imgurian,\" recognized the lookalike as a 22-year-old woman named Meredith Pond of Indiana and directed Fisher to Pond's Facebook page, where the two finally connected.",
           "layout": "bodyLayout",
           "textStyle": "bodyStyle",
           "format": "markdown"
@@ -127,7 +127,7 @@
         {
           "role": "pullquote",
           "layout": "pullquoteLayout",
-          "text": "\u201CI didn't wanna do it,\u201D he says. \u201CAnd I still think you shouldn't use acting as therapy. That was the closest I ever got to that.\u201D",
+          "text": "\u201CI read somewhere that everyone has at least 6 or 7 people in the world that look a lot like you. I always thought it would be strange to meet one of those people.\u201D",
           "textStyle": "pullquoteStyle",
           "format": "markdown"
         },
@@ -140,13 +140,13 @@
           "style": "baseStrokeStyle"
         },
         {
-          "role": "photo",
-          "URL": "http://esq.h-cdn.co/assets/15/32/980x980/square-1438706025-w-esq090115teller003-teller-04.jpg",
+          "role": "instagram",
+          "URL": "https://instagram.com/p/5Pq-P2CvhQ/?taken-by=mere_dith",
           "layout": "embedLayout"
         },
         {
           "role": "body",
-          "text": "He says he wants to contribute to the body of great acting in the world, to the\u2026 shit, he can't find the term\u2014 _cache? catalog? canon?_ Whatever, you know what he means. He thinks he has something to offer.",
+          "text": "\"To be honest I was a little concerned at first, but then I realized there was just no way,\" she said. \"I read somewhere that everyone has at least six or seven people in the world that look a lot like you. I always thought it would be strange to meet one of those people.\"",
           "layout": "bodyLayout",
           "textStyle": "bodyStyle",
           "format": "markdown"
@@ -190,14 +190,14 @@
   "componentTextStyles": {
     "authorStyle": {
       "fontName": "Georgia-Italic",
-      "fontSize": 28,
+      "fontSize": 18,
       "textAlignment": "left",
       "textColor": "#959595"
     },
     "bodyStyle": {
       "fontName": "Georgia",
-      "fontSize": 26,
-      "lineHeight": 34,
+      "fontSize": 22,
+      "lineHeight": 30,
       "textAlignment": "left",
       "linkStyle": {
         "textColor": "#00AAE3",
@@ -206,13 +206,14 @@
     },
     "bodyStyleFirst": {
       "fontName": "Georgia",
-      "fontSize": 26,
-      "lineHeight": 34,
+      "fontSize": 22,
+      "lineHeight": 30,
       "textAlignment": "left",
       "dropCapStyle": {
         "fontName": "DINNextW01-CondensedMedium",
-        "numberOfLines": 3,
-        "numberOfCharacters": 1
+        "numberOfLines": 5,
+        "numberOfCharacters": 1,
+        "textColor": "#EC008C"
       }
     },
     "captionStyle": {
@@ -234,16 +235,15 @@
     },
     "dateStyle": {
       "fontName": "DINNextW01-CondensedMedium",
-      "fontSize": 28,
+      "fontSize": 20,
       "textAlignment": "left",
       "textTransform":"uppercase",
       "textColor": "#AAA"
     },
     "heading1Style": {
-      "fontName": "Georgia",
-      "fontSize": 40,
-      "lineHeight": 42,
-      "textTransform":"uppercase",
+      "fontName": "TiemposHeadline-Semibold",
+      "fontSize": 28,
+      "lineHeight": 40,
       "textAlignment": "left"
     },
     "introStyle": {
@@ -260,11 +260,11 @@
       "textAlignment": "left"
     },
     "pullquoteStyle": {
-      "fontName": "Georgia",
-      "fontSize": 42,
-      "lineHeight": 42,
+      "fontName": "TiemposHeadline-SemiboldItalic",
+      "fontSize": 38,
+      "lineHeight": 56,
       "textAlignment": "center",
-      "textTransform": "uppercase"
+      "textColor": "#EC008C"
     },
     "spacerWord":{
       "fontName": "Georgia",
@@ -275,23 +275,21 @@
     },
     "titleStyle": {
       "fontName": "DINNextW01-CondensedMedium",
-      "fontSize": 72,
-      "lineHeight": 72,
+      "fontSize": 64,
+      "lineHeight": 68,
       "textAlignment": "left",
       "textTransform": "uppercase",
-      "textColor": "#333"
+      "textColor": "#333",
+      "tracking": -0.02
     }
   },
   "componentLayouts": {
     "adLayout": {
-      "margin": {
-        "top": 25,
-        "bottom": 25
-      }
     },
     "authorLayout": {
       "margin": {
-        "top": 0
+        "top": 0,
+        "bottom": 30
       }
     },
     "blackStrokeLayout1":{
@@ -353,7 +351,7 @@
     "introLayout": {
       "margin": {
         "top": 5,
-        "bottom": 15
+        "bottom": 10
       }
     },
     "photoLayout": {
@@ -386,7 +384,7 @@
     "titleLayout": {
       "margin": {
         "top": 20,
-        "bottom": 0
+        "bottom": 10
       }
     }
   }
