@@ -57,6 +57,13 @@
           "format": "markdown"
         },
         {
+          "role": "intro",
+          "text": "We couldn't agree on the [Song of the Summer 2015](http://www.marieclaire.com/culture/news/a15035/song-of-the-summer-debate/) (#TeamUmlaut), but when it comes to outfits to cross off before Labor Day, Team MC is on the same page: \"Noootttt another sundressssss.\" Here, see eight just-as-easy ideas, none requiring more than three pieces of clothing. Because if wearing less isn't a great selling point, I don't know what is.",
+          "layout": "introLayout",
+          "textStyle": "introStyle",
+          "format": "markdown"
+        },
+        {
           "role": "divider",
           "stroke": {
             "color": "#FFF0"
@@ -77,13 +84,6 @@
           },
          "layout": "blackStrokeLayout1",
          "style": "baseStrokeStyle"
-        },
-        {
-          "role": "intro",
-          "text": "We couldn't agree on the [Song of the Summer 2015](http://www.marieclaire.com/culture/news/a15035/song-of-the-summer-debate/) (#TeamUmlaut), but when it comes to outfits to cross off before Labor Day, Team MC is on the same page: \"Noootttt another sundressssss.\" Here, see eight just-as-easy ideas, none requiring more than three pieces of clothing. Because if wearing less isn't a great selling point, I don't know what is.",
-          "layout": "introLayout",
-          "textStyle": "introStyle",
-          "format": "markdown"
         },
         {
           "role": "section",
