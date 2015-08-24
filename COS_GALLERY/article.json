@@ -1,7 +1,7 @@
 {
   "version": "0.10",
   "identifier": "!!!DYNAMIC",
-  "title": "Internet Helps Twentysomething Woman Find Her Identical Twin Stranger",
+  "title": "31 Times Demi Lovato Looked Absolutely Flawless",
   "language": "en",
   "layout": {
     "columns": 6,
@@ -16,7 +16,7 @@
       "style": {
         "fill": {
           "type": "image",
-          "URL": "http://cos.h-cdn.co/assets/15/33/980x490/landscape-1439325814-twins.jpg",
+          "URL": "http://cos.h-cdn.co/assets/15/34/980x490/landscape-1440003086-gty-demi-lovato-150819.jpg",
           "fillMode": "cover",
           "verticalAlignment": "top"
         }
@@ -53,13 +53,13 @@
         {
           "role": "title",
           "layout": "titleLayout",
-          "text": "Internet Helps Twentysomething Woman Find Her Identical Twin Stranger",
+          "text": "31 Times Demi Lovato Looked Absolutely Flawless",
           "textStyle": "titleStyle"
         },
         {
           "role": "intro",
           "layout": "introLayout",
-          "text": "Whoa, this is just spooky.",
+          "text": "She has rocking style on- and off-stage.",
           "textStyle": "introStyle"
         },
         {
@@ -73,7 +73,7 @@
         {
           "role": "author",
           "layout": "authorLayout",
-          "text": "By Diana Bruk",
+          "text": "By Blair Sylvester",
           "textStyle": "authorStyle"
         },
         {
@@ -84,72 +84,152 @@
           "layout": "blackStrokeLayout1",
           "style": "baseStrokeStyle"
         },
-        { 
-           "role": "medium_rectangle_advertisement",
-           "layout": "adLayout",
-           "bannerType": "standard"
+        {
+          "role": "section",
+          "layout": "slideLayout",
+          "components": [
+            {
+              "role": "heading",
+              "text": "Times Demi Lovato Looked Flawless",
+              "layout": "heading1Layout",
+              "textStyle": "heading1Style",
+              "format": "markdown"
+            },
+            {
+              "role": "container",
+              "style": "photoContainerStyle",
+              "layout": "photoLayout",
+              "components": [
+                {
+                  "role": "container",
+                  "style": {
+                    "fill": {
+                      "type": "image",
+                      "URL": "http://cos.h-cdn.co/assets/15/34/1024x1536/gallery-1440003086-gty-demi-lovato-150819.jpg",
+                      "verticalAlignment": "top"
+                    }
+                  },
+                  "layout": "photoLayout",
+                  "animation": {
+                    "type": "fade_in",
+                    "userControllable": true,
+                    "initialAlpha": 0.1
+                  }
+                }
+              ]
+            },
+            {
+              "role": "photographer",
+              "text": "Getty",
+              "layout": "creditLayout",
+              "textStyle": "creditStyle"
+            },      
+            {
+              "role": "caption",
+              "text": "Demi Lovato attends the new Samsung Galaxy S6 edge+ and Galaxy Note5 at Launch Event in Los Angeles on Aug. 18, 2015.",
+              "layout": "captionLayout",
+              "textStyle": "captionStyle",
+              "format": "markdown"
+            }
+          ]
         },
         {
-          "role": "body",
-          "text": "This year has been the year of finding stranger twins, the most famous case being the girl who went on a viral quest to find all seven of her clones around the world and has so far successfully located two of them. But while the resemblances in each story so far have been impressive, this latest tale of twin-searching is downright spine-tingling.",
-          "layout": "bodyLayout",
-          "textStyle": "bodyStyleFirst",
-          "format": "markdown"
+          "role": "section",
+          "layout": "slideLayout",
+          "components": [
+            {
+              "role": "heading",
+              "text": "Times Demi Lovato Looked Flawless",
+              "layout": "heading1Layout",
+              "textStyle": "heading1Style",
+              "format": "markdown"
+            },
+            {
+              "role": "container",
+              "style": "photoContainerStyle",
+              "layout": "photoLayout",
+              "components": [
+                {
+                  "role": "container",
+                  "style": {
+                    "fill": {
+                      "type": "image",
+                      "URL": "http://cos.h-cdn.co/assets/15/27/1024x1535/gettyimages-479189156_1.jpg",
+                      "verticalAlignment": "top"
+                    }
+                  },
+                  "layout": "photoLayout",
+                  "animation": {
+                    "type": "fade_in",
+                    "userControllable": true,
+                    "initialAlpha": 0.1
+                  }
+                }
+              ]
+            },
+            {
+              "role": "photographer",
+              "text": "Getty",
+              "layout": "creditLayout",
+              "textStyle": "creditStyle"
+            },      
+            {
+              "role": "caption",
+              "text": "Demi Lovato gets dinner at Zuma Restaurant on July 1, 2015 in New York City.",
+              "layout": "captionLayout",
+              "textStyle": "captionStyle",
+              "format": "markdown"
+            }
+          ]
         },
         {
-          "role": "body",
-          "text": "A few days ago, Amanda Fisher, 23, of Frisco, Texas, posted a photo of herself next to a photo of her alleged doppelg\u00E4nger on Imgur. In the caption, Fisher claimed that her friends found this identical stranger on Instagram, but couldn't get in touch with her because it seemed like she wasn't an active user, so she turned to Imgur for help.",
-          "layout": "bodyLayout",
-          "textStyle": "bodyStyle",
-          "format": "markdown"
-        },
-        {
-          "role": "heading1",
-          "layout": "heading1Layout",
-          "text": "Fisher claimed that her friends found this identical stranger",
-          "textStyle": "heading1Style"
-        },
-        {
-          "role": "body",
-          "text": "A few days later, a \"lovely Imgurian,\" recognized the lookalike as a 22-year-old woman named Meredith Pond of Indiana and directed Fisher to Pond's Facebook page, where the two finally connected.",
-          "layout": "bodyLayout",
-          "textStyle": "bodyStyle",
-          "format": "markdown"
-        },
-        {
-          "role": "divider",
-          "stroke": {
-            "color": "#FFF0"
-          },
-          "layout": "blackStrokeLayout3",
-          "style": "baseStrokeStyle"
-        },
-        {
-          "role": "pullquote",
-          "layout": "pullquoteLayout",
-          "text": "\u201CI read somewhere that everyone has at least 6 or 7 people in the world that look a lot like you. I always thought it would be strange to meet one of those people.\u201D",
-          "textStyle": "pullquoteStyle",
-          "format": "markdown"
-        },
-        {
-          "role": "divider",
-          "stroke": {
-            "color": "#FFF0"
-          },
-          "layout": "blackStrokeLayout4",
-          "style": "baseStrokeStyle"
-        },
-        {
-          "role": "instagram",
-          "URL": "https://instagram.com/p/5Pq-P2CvhQ/?taken-by=mere_dith",
-          "layout": "embedLayout"
-        },
-        {
-          "role": "body",
-          "text": "\"To be honest I was a little concerned at first, but then I realized there was just no way,\" she said. \"I read somewhere that everyone has at least six or seven people in the world that look a lot like you. I always thought it would be strange to meet one of those people.\"",
-          "layout": "bodyLayout",
-          "textStyle": "bodyStyle",
-          "format": "markdown"
+          "role": "section",
+          "layout": "slideLayout",
+          "components": [
+            {
+              "role": "heading",
+              "text": "Times Demi Lovato Looked Flawless",
+              "layout": "heading1Layout",
+              "textStyle": "heading1Style",
+              "format": "markdown"
+            },
+            {
+              "role": "container",
+              "style": "photoContainerStyle",
+              "layout": "photoLayout",
+              "components": [
+                {
+                  "role": "container",
+                  "style": {
+                    "fill": {
+                      "type": "image",
+                      "URL": "http://cos.h-cdn.co/assets/15/27/1024x1536/gettyimages-479162958_1.jpg",
+                      "verticalAlignment": "top"
+                    }
+                  },
+                  "layout": "photoLayout",
+                  "animation": {
+                    "type": "fade_in",
+                    "userControllable": true,
+                    "initialAlpha": 0.1
+                  }
+                }
+              ]
+            },
+            {
+              "role": "photographer",
+              "text": "Getty",
+              "layout": "creditLayout",
+              "textStyle": "creditStyle"
+            },      
+            {
+              "role": "caption",
+              "text": "Demi Lovato visits Z100 to debut her new single, 'Cool for the Summer,' at Gansevoort Park Avenue on July 1, 2015 in New York City.",
+              "layout": "captionLayout",
+              "textStyle": "captionStyle",
+              "format": "markdown"
+            }
+          ]
         },
         {
           "role": "banner_advertisement",
@@ -219,18 +299,18 @@
     "captionStyle": {
       "fontName": "Georgia",
       "fontSize": 20,
-      "lineHeight": 32,
+      "lineHeight": 26,
       "textAlignment": "left",
       "linkStyle": {
         "underline": true
       }
     },
     "creditStyle": {
-      "fontName": "Georgia",
-      "fontSize": 18,
-      "lineHeight": 24,
+      "fontName": "DINNextW01-CondensedMedium",
+      "fontSize": 16,
+      "lineHeight": 20,
       "textAlignment": "right",
-      "textColor": "#898989",
+      "textColor": "#A1A1A1",
       "textTransform":"uppercase"
     },
     "dateStyle": {
@@ -241,10 +321,12 @@
       "textColor": "#AAA"
     },
     "heading1Style": {
-      "fontName": "TiemposHeadline-Semibold",
-      "fontSize": 28,
-      "lineHeight": 40,
-      "textAlignment": "left"
+      "fontName": "DINNextW01-CondensedMedium",
+      "fontSize": 36,
+      "lineHeight": 42,
+      "textAlignment": "left",
+      "textColor": "#EC008C",
+      "textTransform":"uppercase"
     },
     "introStyle": {
       "fontName": "DINNextW01-CondensedMedium",
@@ -289,7 +371,7 @@
     "authorLayout": {
       "margin": {
         "top": 0,
-        "bottom": 30
+        "bottom": 35
       }
     },
     "blackStrokeLayout1":{
@@ -316,7 +398,7 @@
     },
     "captionLayout": {
       "margin": {
-        "top": 10,
+        "top": 0,
         "bottom": 25
       }   
     },
@@ -350,7 +432,7 @@
     },
     "introLayout": {
       "margin": {
-        "top": 5,
+        "top": 0,
         "bottom": 10
       }
     },
@@ -369,7 +451,11 @@
     },
     "slideLayout": {
       "ignoreDocumentMargin": true,
-      "minimumHeight": "100cw"
+      "minimumHeight": "100cw",
+      "margin": {
+        "top": 0,
+        "bottom": 20
+      }
     },
     "spacerLayout": {
       "margin": {
@@ -384,7 +470,7 @@
     "titleLayout": {
       "margin": {
         "top": 20,
-        "bottom": 10
+        "bottom": 0
       }
     }
   }
