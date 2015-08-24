@@ -190,6 +190,9 @@
       "bannerType": "standard"
     }
   ],
+  "documentStyle": {
+    "backgroundColor": "#FFF"
+  },
   "componentStyles": {
     "baseStrokeStyle": {
       "border": {
@@ -343,14 +346,10 @@
   },
   "componentLayouts": {
     "headerImageLayout": {
-      "columnStart": 0,
-      "columnSpan": 6,
       "ignoreDocumentMargin": true,
       "minimumHeight": "49vh"
     },
     "tabLayout": {
-      "columnStart": 0,
-      "columnSpan": 6,
       "ignoreDocumentMargin": true,
       "minimumHeight": "40vw"
     },
@@ -365,24 +364,18 @@
       }
     },
     "introLayout": {
-      "columnStart": 0,
-      "columnSpan": 6,
       "margin": {
         "top": 0,
         "bottom": 15
       }
     },
     "dateLayout": {
-      "columnStart": 0,
-      "columnSpan": 6,
       "margin": {
         "top": 20,
         "bottom": 5
       }
     },
     "titleLayout": {
-      "columnStart": 0,
-      "columnSpan": 6,
       "margin": {
         "top": 10,
         "bottom": 10
@@ -397,48 +390,36 @@
     "adLayout": {
     },
     "bodyLayout": {
-      "columnStart": 0,
-      "columnSpan": 6,
       "margin": {
         "top": 35,
         "bottom": 25
       }
     },
     "creditLayout": {
-      "columnStart": 0,
-      "columnSpan": 6,
       "margin": {
         "top": 4,
         "bottom": 0
       }   
     },
     "captionLayout": {
-      "columnStart": 0,
-      "columnSpan": 6,
       "margin": {
         "top": 10,
         "bottom": 25
       }   
     },
     "heading1Layout": {
-      "columnStart": 0,
-      "columnSpan": 6,
       "margin": {
         "top": 25,
         "bottom": 10
       }
     },
     "galleryLayout": {
-      "columnStart": 0,
-      "columnSpan": 6,
       "margin": {
         "top": 25,
         "bottom": 25
       }
     },
     "bodyImageLayout": {
-      "columnStart": 0,
-      "columnSpan": 6,
       "margin": {
         "top": 15,
         "bottom": 15
@@ -453,51 +434,28 @@
       }
     },
     "blackStrokeLayout1":{
-      "columnStart": 0,
-      "columnSpan": 6,
       "margin":{
         "top":0,
         "bottom":0
       }
     },
     "blackStrokeLayout2":{
-      "columnStart": 0,
-      "columnSpan": 6,
       "margin":{
         "top":5,
         "bottom":5
       }
            },
     "blackStrokeLayout3":{
-      "columnStart": 0,
-      "columnSpan": 6,
       "margin":{
         "top":10,
         "bottom":35
       }
     },
-    "spacerLayout": {
-      "columnStart": 0,
-      "columnSpan": 6,
-      "margin": {
-        "top": 5,
-        "bottom": 0
+    "blackStrokeLayout4":{
+      "margin":{
+        "top":10,
+        "bottom":35
       }
-    },
-    "mosaicLayout": {
-      "columnStart": 0,
-      "columnSpan": 6,
-      "ignoreDocumentMargin": true
-    },
-    "footerLayout": {
-      "columnStart": 0,
-      "columnSpan": 6,
-      "ignoreDocumentMargin": true
-    },
-    "followLayout": {
-      "columnStart": 0,
-      "columnSpan": 6,
-      "backgroundColor": "#000"
     }
   }
 }
