@@ -60,7 +60,7 @@
         {
           "role": "intro",
           "layout": "introLayout",
-          "text": "Whoa, this is just spooky.",
+          "text": "Microgravity noms.",
           "textStyle": "introStyle"
         },
         {
@@ -74,7 +74,7 @@
         {
           "role": "author",
           "layout": "authorLayout",
-          "text": "By Diana Bruk",
+          "text": "By John Wenz",
           "textStyle": "authorStyle"
         },
         {
@@ -92,14 +92,28 @@
         },
         {
           "role": "body",
-          "text": "This year has been the year of finding stranger twins, the most famous case being the girl who went on a viral quest to find all seven of her clones around the world and has so far successfully located two of them. But while the resemblances in each story so far have been impressive, this latest tale of twin-searching is downright spine-tingling.",
+          "text": "ASS astronauts Scott Kelly and Kjell N. Lindgren will sample some out of this world food today, chowing down on a little lettuce grown entirely in space. The livestream begins at 11:15 a.m. EDT. The red romaine lettuce was planted in May 2014 by astronaut Steve Swanson, and was sprouted and grown in the Veg-1 module on the International Space Station.",
           "layout": "bodyLayout",
           "textStyle": "bodyStyleFirst",
           "format": "markdown"
         },
         {
           "role": "body",
-          "text": "A few days ago, Amanda Fisher, 23, of Frisco, Texas, posted a photo of herself next to a photo of her alleged doppelg\u00E4nger on Imgur. In the caption, Fisher claimed that her friends found this identical stranger on Instagram, but couldn't get in touch with her because it seemed like she wasn't an active user, so she turned to Imgur for help.",
+          "text": "It's a step toward long-term human exploration of deep space, where the weight of fully grown food would weigh down an already heavy launch and tax fuel supplies of the Space Launch System en route to Mars. By growing food, astronauts can eat fresh food alongside dry rations while testing out long-term survival strategies on Mars and the Moon.",
+          "layout": "bodyLayout",
+          "textStyle": "bodyStyle",
+          "format": "markdown"
+        },
+        {
+          "role": "body",
+          "text": "Since soil would float away in space, the seeds were placed in \"pillows\" and fed by water systems similar to hydroponics under a grow light. The lettuce not eaten will be sent back down to Earth for testing to see how it endured in the microgravity environment. Of course, just like on Earth, Kelly and Lindgren will rinse off their veggies first. But without a sink, they'll instead turn to a citrus acid-based produce wash before chowing down.",
+          "layout": "bodyLayout",
+          "textStyle": "bodyStyle",
+          "format": "markdown"
+        },
+        {
+          "role": "body",
+          "text": "You can watch the veggie feast at [NASA-TV](http://www.nasa.gov/multimedia/nasatv/index.html) or on the embed below.",
           "layout": "bodyLayout",
           "textStyle": "bodyStyle",
           "format": "markdown"
@@ -107,12 +121,12 @@
         {
           "role": "heading1",
           "layout": "heading1Layout",
-          "text": "Fisher claimed that her friends found this identical stranger",
+          "text": "Seeds and Soil",
           "textStyle": "heading1Style"
         },
         {
           "role": "body",
-          "text": "A few days later, a \"lovely Imgurian,\" recognized the lookalike as a 22-year-old woman named Meredith Pond of Indiana and directed Fisher to Pond's Facebook page, where the two finally connected.",
+          "text": "Since soil would float away in space, the seeds were placed in \"pillows\" and fed by water systems similar to hydroponics under a grow light. The lettuce not eaten will be sent back down to Earth for testing to see how it endured in the microgravity environment. Of course, just like on Earth, Kelly and Lindgren will rinse off their veggies first. But without a sink, they'll instead turn to a citrus acid-based produce wash before chowing down.",
           "layout": "bodyLayout",
           "textStyle": "bodyStyle",
           "format": "markdown"
@@ -128,7 +142,7 @@
         {
           "role": "pullquote",
           "layout": "pullquoteLayout",
-          "text": "\u201CI read somewhere that everyone has at least 6 or 7 people in the world that look a lot like you. I always thought it would be strange to meet one of those people.\u201D",
+          "text": "\u201CBy growing food, astronauts can eat fresh food alongside dry rations while testing out long-term survival strategies on Mars and the Moon.\u201D",
           "textStyle": "pullquoteStyle",
           "format": "markdown"
         },
@@ -141,13 +155,13 @@
           "style": "baseStrokeStyle"
         },
         {
-          "role": "instagram",
-          "URL": "https://instagram.com/p/5Pq-P2CvhQ/?taken-by=mere_dith",
+          "role": "embedwebvideo",
+          "URL": "https://www.youtube.com/watch?v=OX9I1KyNa8M",
           "layout": "embedLayout"
         },
         {
           "role": "body",
-          "text": "\"To be honest I was a little concerned at first, but then I realized there was just no way,\" she said. \"I read somewhere that everyone has at least six or seven people in the world that look a lot like you. I always thought it would be strange to meet one of those people.\"",
+          "text": "It's a step toward long-term human exploration of deep space, where the weight of fully grown food would weigh down an already heavy launch and tax fuel supplies of the Space Launch System en route to Mars. By growing food, astronauts can eat fresh food alongside dry rations while testing out long-term survival strategies on Mars and the Moon.",
           "layout": "bodyLayout",
           "textStyle": "bodyStyle",
           "format": "markdown"
@@ -182,25 +196,26 @@
       "backgroundColor": "#000"
     },
     "tabLayoutStyle": {
-      "fill": {
-        "type": "image",
-        "URL": "bundle://pmc_header.png",
-        "fillMode": "fit",
-        "verticalAlignment": "bottom",
-        "horizontalAlignment": "right"
+      "border": {
+        "all": {
+          "width": 28
+        },
+        "top": false,
+        "left": false,
+        "right": false
       }
     }
   },
   "componentTextStyles": {
     "authorStyle": {
-      "fontName": "Georgia-Italic",
-      "fontSize": 18,
+      "fontName": "TradeGothicNextLTW01-BdCn",
+      "fontSize": 20,
       "textAlignment": "left",
-      "textColor": "#959595"
+      "textColor": "#A1A1A1"
     },
     "bodyStyle": {
-      "fontName": "Georgia",
-      "fontSize": 22,
+      "fontName": "Helvetica",
+      "fontSize": 20,
       "lineHeight": 30,
       "textAlignment": "left",
       "linkStyle": {
@@ -209,19 +224,19 @@
       }
     },
     "bodyStyleFirst": {
-      "fontName": "Georgia",
-      "fontSize": 22,
+      "fontName": "Helvetica",
+      "fontSize": 20,
       "lineHeight": 30,
       "textAlignment": "left",
       "dropCapStyle": {
-        "fontName": "DINNextW01-CondensedMedium",
-        "numberOfLines": 5,
+        "fontName": "KlintLTW01-BoldCondensed",
+        "numberOfLines": 3,
         "numberOfCharacters": 1,
-        "textColor": "#EC008C"
+        "textColor": "#F47920"
       }
     },
     "captionStyle": {
-      "fontName": "Georgia",
+      "fontName": "Helvetica",
       "fontSize": 20,
       "lineHeight": 32,
       "textAlignment": "left",
@@ -230,7 +245,7 @@
       }
     },
     "creditStyle": {
-      "fontName": "Georgia",
+      "fontName": "Helvetica",
       "fontSize": 18,
       "lineHeight": 24,
       "textAlignment": "right",
@@ -238,53 +253,53 @@
       "textTransform":"uppercase"
     },
     "dateStyle": {
-      "fontName": "DINNextW01-CondensedMedium",
-      "fontSize": 20,
+      "fontName": "TradeGothicNextLTW01-BdCn",
+      "fontSize": 18,
       "textAlignment": "left",
       "textTransform":"uppercase",
-      "textColor": "#AAA"
+      "textColor": "#A1A1A1"
     },
     "heading1Style": {
-      "fontName": "TiemposHeadline-Semibold",
-      "fontSize": 28,
+      "fontName": "TradeGothicNextLTW01-BdCn",
+      "fontSize": 36,
       "lineHeight": 40,
-      "textAlignment": "left"
+      "textAlignment": "left",
+      "textColor": "#15b0de"
     },
     "introStyle": {
-      "fontName": "DINNextW01-CondensedMedium",
-      "fontSize": 36,
+      "fontName": "KlintLTW01-BoldCondensed",
+      "fontSize": 34,
       "lineHeight": 42,
       "textAlignment": "left",
       "textColor": "#636363"
     },
     "lowerListStyle": {
-      "fontName": "Georgia",
+      "fontName": "Helvetica",
       "fontSize": 18,
       "lineHeight": 20,
       "textAlignment": "left"
     },
     "pullquoteStyle": {
-      "fontName": "TiemposHeadline-SemiboldItalic",
-      "fontSize": 38,
+      "fontName": "TradeGothicNextLTW01-BdCn",
+      "fontSize": 40,
       "lineHeight": 56,
       "textAlignment": "center",
-      "textColor": "#EC008C"
+      "textTransform":"uppercase",
+      "textColor": "#F47920"
     },
     "spacerWord":{
-      "fontName": "Georgia",
+      "fontName": "Helvetica",
       "fontSize": 48,
       "lineHeight": 48,
       "textAlignment": "left",
       "textTransform": "uppercase"
     },
     "titleStyle": {
-      "fontName": "DINNextW01-CondensedMedium",
-      "fontSize": 64,
+      "fontName": "KlintLTW01-BoldCondensed",
+      "fontSize": 72,
       "lineHeight": 68,
       "textAlignment": "left",
-      "textTransform": "uppercase",
-      "textColor": "#333",
-      "tracking": -0.02
+      "textTransform": "uppercase"
     }
   },
   "componentLayouts": {
@@ -344,18 +359,18 @@
     },
     "headerImageLayout": {
       "ignoreDocumentMargin": true,
-      "minimumHeight": "40vh"
+      "minimumHeight": "50vh"
     },
     "heading1Layout": {
       "margin": {
         "top": 15,
-        "bottom": 5
+        "bottom": 0
       }
     },
     "introLayout": {
       "margin": {
         "top": 5,
-        "bottom": 10
+        "bottom": 15
       }
     },
     "photoLayout": {
@@ -387,8 +402,8 @@
     },
     "titleLayout": {
       "margin": {
-        "top": 20,
-        "bottom": 10
+        "top": 10,
+        "bottom": 5
       }
     }
   }
