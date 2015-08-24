@@ -186,7 +186,7 @@
     "tabLayoutStyle": {
       "fill": {
         "type": "image",
-        "URL": "bundle://ell_header.png",
+        "URL": "https://s3.amazonaws.com/sallyhdm/ell_header_article.png",
         "fillMode": "cover",
         "verticalAlignment": "bottom",
         "horizontalAlignment": "right"
@@ -378,6 +378,8 @@
         "top": false,
         "bottom": false
       }
+    },
+    "slideLayout": {
     },
     "spacerLayout": {
       "margin": {

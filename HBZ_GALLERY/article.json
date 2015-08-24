@@ -264,7 +264,7 @@
     "tabLayoutStyle": {
       "fill": {
         "type": "image",
-        "URL": "bundle://hbz_header.png",
+        "URL": "https://s3.amazonaws.com/sallyhdm/hbz_header_gallery.png",
         "fillMode": "fit",
         "verticalAlignment": "bottom",
         "horizontalAlignment": "center"

@@ -184,7 +184,7 @@
     "tabLayoutStyle": {
       "fill": {
         "type": "image",
-        "URL": "bundle://esq_header.png",
+        "URL": "https://s3.amazonaws.com/sallyhdm/esq_header_article.png",
         "fillMode": "fit",
         "verticalAlignment": "bottom",
         "horizontalAlignment": "right"

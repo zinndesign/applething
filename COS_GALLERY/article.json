@@ -264,7 +264,7 @@
     "tabLayoutStyle": {
       "fill": {
         "type": "image",
-        "URL": "bundle://cos_header.png",
+        "URL": "https://s3.amazonaws.com/sallyhdm/cos_header_gallery.png",
         "fillMode": "fit",
         "verticalAlignment": "bottom",
         "horizontalAlignment": "right"

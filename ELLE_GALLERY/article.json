@@ -217,7 +217,7 @@
     "tabLayoutStyle": {
       "fill": {
         "type": "image",
-        "URL": "bundle://ell_header.png",
+        "URL": "https://s3.amazonaws.com/sallyhdm/ell_header_gallery.png",
         "fillMode": "fit",
         "verticalAlignment": "bottom",
         "horizontalAlignment": "center"
