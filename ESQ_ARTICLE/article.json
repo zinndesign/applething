@@ -127,9 +127,9 @@
         },
         {
           "role": "pullquote",
-          "layout": "pullquoteLayout",
+          "layout": "pullQuoteLayout",
           "text": "I didn't wanna do it, he says. And I still think you shouldn't use acting as therapy. That was the closest I ever got to that.",
-          "textStyle": "pullquoteStyle",
+          "textStyle": "pullQuoteStyle",
           "format": "markdown"
         },
         {
@@ -268,7 +268,7 @@
       "lineHeight": 20,
       "textAlignment": "left"
     },
-    "pullquoteStyle": {
+    "pullQuoteStyle": {
       "fontName": "AktivGroteskW01-Black",
       "fontSize": 36,
       "lineHeight": 38,
@@ -366,7 +366,7 @@
     "photoLayout": {
       "minimumHeight": "100vmax"
     },
-    "pullquoteLayout": {
+    "pullQuoteLayout": {
       "margin": {
         "top": 15,
         "bottom": 15

@@ -293,7 +293,7 @@
       "lineHeight": 20,
       "textAlignment": "center"
     },
-    "pullquoteStyle": {
+    "pullQuoteStyle": {
       "fontName": "Georgia",
       "fontSize": 22,
       "lineHeight": 28,
@@ -397,7 +397,7 @@
     "photoLayout": {
       "minimumHeight": "100vmax"
     },
-    "pullquoteLayout": {
+    "pullQuoteLayout": {
       "margin": {
         "top": 25,
         "bottom": 25

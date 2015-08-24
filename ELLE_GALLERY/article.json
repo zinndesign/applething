@@ -296,7 +296,7 @@
       "lineHeight":20,
       "textColor": "#000"
     },
-    "pullquoteStyle": {
+    "pullQuoteStyle": {
       "textAlignment": "center",
       "fontName": "MTBaskervilleETW01-Roman",
       "fontSize": 22,
@@ -406,7 +406,7 @@
     "photoLayout": {
       "minimumHeight": "100vmax"
     },
-    "pullquoteLayout": {
+    "pullQuoteLayout": {
       "margin": {
         "top": 25,
         "bottom": 25

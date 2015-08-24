@@ -127,9 +127,9 @@
         },
         {
           "role": "pullquote",
-          "layout": "pullquoteLayout",
+          "layout": "pullQuoteLayout",
           "text": "\u201CI read somewhere that everyone has at least 6 or 7 people in the world that look a lot like you. I always thought it would be strange to meet one of those people.\u201D",
-          "textStyle": "pullquoteStyle",
+          "textStyle": "pullQuoteStyle",
           "format": "markdown"
         },
         {
@@ -263,7 +263,7 @@
       "lineHeight": 20,
       "textAlignment": "left"
     },
-    "pullquoteStyle": {
+    "pullQuoteStyle": {
       "fontName": "TiemposHeadline-SemiboldItalic",
       "fontSize": 38,
       "lineHeight": 56,
@@ -361,7 +361,7 @@
     "photoLayout": {
       "minimumHeight": "100vmax"
     },
-    "pullquoteLayout": {
+    "pullQuoteLayout": {
       "margin": {
         "top": 30,
         "bottom": 30

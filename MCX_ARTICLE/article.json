@@ -138,9 +138,9 @@
         },
         {
           "role": "pullquote",
-          "layout": "pullquoteLayout",
+          "layout": "pullQuoteLayout",
           "text": "I would have anxiety attacks. I'd get hot flashes, feel like I was about to pass out or throw up. It would happen a lot before shows, and I'd have to cancel.",
-          "textStyle": "pullquoteStyle",
+          "textStyle": "pullQuoteStyle",
           "format": "markdown"
         },
         {
@@ -276,7 +276,7 @@
       "lineHeight": 20,
       "textAlignment": "center"
     },
-    "pullquoteStyle": {
+    "pullQuoteStyle": {
       "fontName": "ITCFranklinGothicW01-DmCm",
       "fontSize": 40,
       "lineHeight": 36,
@@ -405,7 +405,7 @@
     "photoLayout": {
       "minimumHeight": "100vmax"
     },
-    "pullquoteLayout": {
+    "pullQuoteLayout": {
       "contentInset": {
         "left": true,
         "right": true

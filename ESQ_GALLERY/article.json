@@ -300,7 +300,7 @@
       "lineHeight": 20,
       "textAlignment": "left"
     },
-    "pullquoteStyle": {
+    "pullQuoteStyle": {
       "fontName": "AktivGroteskW01-Black",
       "fontSize": 36,
       "lineHeight": 38,
@@ -398,7 +398,7 @@
     "photoLayout": {
       "minimumHeight": "100vmax"
     },
-    "pullquoteLayout": {
+    "pullQuoteLayout": {
       "margin": {
         "top": 15,
         "bottom": 15

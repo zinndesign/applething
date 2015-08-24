@@ -342,7 +342,7 @@
       "lineHeight": 20,
       "textAlignment": "center"
     },
-    "pullquoteStyle": {
+    "pullQuoteStyle": {
       "fontName": "Didot-HTF-L42-Light-Ital",
       "fontSize": 40,
       "lineHeight": 52,
@@ -464,7 +464,7 @@
     "photoLayout": {
       "minimumHeight": "100vmax"
     },
-    "pullquoteLayout": {
+    "pullQuoteLayout": {
       "margin": {
         "top": 25,
         "bottom": 25

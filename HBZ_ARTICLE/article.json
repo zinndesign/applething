@@ -107,9 +107,9 @@
         },
         {
           "role": "pullquote",
-          "layout": "pullquoteLayout",
+          "layout": "pullQuoteLayout",
           "text": "\u201CHe\u2019s made women lust after his creations for decades: First, with his red soles, then with nail polish and now, with 38 shades of lipstick in the most dramatic metal bullets.\u201D",
-          "textStyle": "pullquoteStyle",
+          "textStyle": "pullQuoteStyle",
           "format": "markdown"
         },
         {
@@ -243,7 +243,7 @@
       "lineHeight": 20,
       "textAlignment": "center"
     },
-    "pullquoteStyle": {
+    "pullQuoteStyle": {
       "fontName": "Didot-HTF-L42-Light-Ital",
       "fontSize": 36,
       "lineHeight": 46,
@@ -337,7 +337,7 @@
     "photoLayout": {
       "minimumHeight": "100vmax"
     },
-    "pullquoteLayout": {
+    "pullQuoteLayout": {
       "margin": {
         "top": 15,
         "bottom": 10

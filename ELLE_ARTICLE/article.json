@@ -128,9 +128,9 @@
         },
         {
           "role": "pullquote",
-          "layout": "pullquoteLayout",
+          "layout": "pullQuoteLayout",
           "text": "You know, the fight was over. I never really knew what to do with my hair to begin with. When I was fat, I had incredibly long, unkempt hair. And there was kind of a poetic justice to losing something I was hiding behind.",
-          "textStyle": "pullquoteStyle",
+          "textStyle": "pullQuoteStyle",
           "format": "markdown"
         },
         {
@@ -256,7 +256,7 @@
       "lineHeight": 20,
       "textAlignment": "center"
     },
-    "pullquoteStyle": {
+    "pullQuoteStyle": {
       "fontName": "MTBaskervilleETW01-Roman",
       "fontSize": 24,
       "lineHeight": 30,
@@ -369,7 +369,7 @@
     "photoLayout": {
       "minimumHeight": "100vmax"
     },
-    "pullquoteLayout": {
+    "pullQuoteLayout": {
       "margin": {
         "top": 25,
         "bottom": 25

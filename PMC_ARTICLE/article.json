@@ -141,9 +141,9 @@
         },
         {
           "role": "pullquote",
-          "layout": "pullquoteLayout",
+          "layout": "pullQuoteLayout",
           "text": "\u201CBy growing food, astronauts can eat fresh food alongside dry rations while testing out long-term survival strategies on Mars and the Moon.\u201D",
-          "textStyle": "pullquoteStyle",
+          "textStyle": "pullQuoteStyle",
           "format": "markdown"
         },
         {
@@ -279,7 +279,7 @@
       "lineHeight": 20,
       "textAlignment": "left"
     },
-    "pullquoteStyle": {
+    "pullQuoteStyle": {
       "fontName": "TradeGothicNextLTW01-BdCn",
       "fontSize": 40,
       "lineHeight": 56,
@@ -376,7 +376,7 @@
     "photoLayout": {
       "minimumHeight": "100vmax"
     },
-    "pullquoteLayout": {
+    "pullQuoteLayout": {
       "margin": {
         "top": 30,
         "bottom": 30
