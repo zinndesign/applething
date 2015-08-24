@@ -3,6 +3,7 @@
   "identifier": "!!!DYNAMIC",
   "title": "The Summer of the Thigh-High Slit",
   "language": "en",
+  "blueprint": "basic",
   "layout": {
     "columns": 6,
     "width": 1024,
@@ -272,9 +273,11 @@
   },
   "componentTextStyles": {
     "authorStyle": {
-      "fontName": "Gotham-Black",
+      "fontName": "Didot-HTF-M42-Medium",
       "fontSize": 14,
-      "textAlignment": "center"
+      "textAlignment": "center",
+      "textTransform":"uppercase",
+      "tracking": 0.5
     },
     "bodyStyle": {
       "fontName": "TimesNewRomanPSMT",
@@ -330,7 +333,7 @@
     "introStyle": {
       "fontName": "Didot-HTF-L42-Light-Ital",
       "fontSize": 22,
-      "lineHeight": 36,
+      "lineHeight": 32,
       "textAlignment": "center"
     },
     "lowerListStyle": {
@@ -436,6 +439,8 @@
         "bottom": 10
       }
     },
+    "embedLayout":{
+    },
     "headerImageLayout": {
       "ignoreDocumentMargin": true,
       "minimumHeight": "40vh"
@@ -453,11 +458,11 @@
       },
       "margin": {
         "top": 0,
-        "bottom": 15
+        "bottom": 20
       }
     },
     "photoLayout": {
-      "minimumHeight": "100cw"
+      "minimumHeight": "100vmax"
     },
     "pullquoteLayout": {
       "margin": {

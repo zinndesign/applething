@@ -1,10 +1,10 @@
 {
   "version": "0.10",
   "identifier": "!!!DYNAMIC",
-  "title": "Miles Teller Is Young, Talented, and Doesn't Give a Rat's Ass What You Think",
+  "title": "Watch ISS Astronauts Sample Space Grown Lettuce",
   "language": "en",
   "blueprint": "basic",
-	"layout": {
+  "layout": {
     "columns": 6,
     "width": 1024,
     "margin": 80,
@@ -17,7 +17,7 @@
       "style": {
         "fill": {
           "type": "image",
-          "URL": "http://esq.h-cdn.co/assets/15/32/980x490/landscape-1438705820-w-esq090115cover002s-teller-01.jpg",
+          "URL": "http://pop.h-cdn.co/assets/15/33/980x490/landscape-1439215221-veggie-steveswanson.jpg",
           "fillMode": "cover",
           "verticalAlignment": "top"
         }
@@ -54,13 +54,13 @@
         {
           "role": "title",
           "layout": "titleLayout",
-          "text": "Miles Teller Is Young, Talented, and Doesn't Give a Rat's Ass What You Think",
+          "text": "Watch ISS Astronauts Sample Space Grown Lettuce",
           "textStyle": "titleStyle"
         },
         {
           "role": "intro",
           "layout": "introLayout",
-          "text": "Our latest cover star is on a quest for greatness. Sometimes that can involve a bit of dickishness too.",
+          "text": "Whoa, this is just spooky.",
           "textStyle": "introStyle"
         },
         {
@@ -74,7 +74,7 @@
         {
           "role": "author",
           "layout": "authorLayout",
-          "text": "By Anna Peele",
+          "text": "By Diana Bruk",
           "textStyle": "authorStyle"
         },
         {
@@ -92,14 +92,14 @@
         },
         {
           "role": "body",
-          "text": "**You're sitting across from Miles Teller** at the Luminary restaurant in Atlanta and trying to figure out if he's a dick. You've just told him, by way of making conversation, that according to legend the champagne coupe in your hand is shaped like Marie Antoinette's left breast, and he tells you the highball glass is modeled after his cock. Then he tells the waitress the same thing.",
+          "text": "This year has been the year of finding stranger twins, the most famous case being the girl who went on a viral quest to find all seven of her clones around the world and has so far successfully located two of them. But while the resemblances in each story so far have been impressive, this latest tale of twin-searching is downright spine-tingling.",
           "layout": "bodyLayout",
           "textStyle": "bodyStyleFirst",
           "format": "markdown"
         },
         {
           "role": "body",
-          "text": "He is wearing a pool-blue V-neck that shows off the Roman-numeral tattoo on his arm, a reference to the thirty-two-ounce beers his high school friends were forced to buy because forties were not available in Florida. He explains that everyone in the \"32 Crew\" got this tattoo after a night at the High Octane Saloon from a man they bribed out of bed at 2:00 a.m. to needle crooked _X_'s and _I_'s onto their biceps.",
+          "text": "A few days ago, Amanda Fisher, 23, of Frisco, Texas, posted a photo of herself next to a photo of her alleged doppelg\u00E4nger on Imgur. In the caption, Fisher claimed that her friends found this identical stranger on Instagram, but couldn't get in touch with her because it seemed like she wasn't an active user, so she turned to Imgur for help.",
           "layout": "bodyLayout",
           "textStyle": "bodyStyle",
           "format": "markdown"
@@ -107,12 +107,12 @@
         {
           "role": "heading1",
           "layout": "heading1Layout",
-          "text": "Call them \u201Cobjects d'art\u201D talking about and striving for greatness and how it can oftentiy",
+          "text": "Fisher claimed that her friends found this identical stranger",
           "textStyle": "heading1Style"
         },
         {
           "role": "body",
-          "text": "He recounts a direct message he\u2014a twenty-eight-year-old actor still trying to find his place in his profession\u2014sent to five-time NBA champion Kobe Bryant through Twitter: _Kobe, watched your Showtime documentary. Really related to what you're talking about and striving for greatness and how it can oftentimes be an isolated journey, and how relationships can be a weakness in a way, if you're really kind of going after it._",
+          "text": "A few days later, a \"lovely Imgurian,\" recognized the lookalike as a 22-year-old woman named Meredith Pond of Indiana and directed Fisher to Pond's Facebook page, where the two finally connected.",
           "layout": "bodyLayout",
           "textStyle": "bodyStyle",
           "format": "markdown"
@@ -128,7 +128,7 @@
         {
           "role": "pullquote",
           "layout": "pullquoteLayout",
-          "text": "I didn't wanna do it, he says. And I still think you shouldn't use acting as therapy. That was the closest I ever got to that.",
+          "text": "\u201CI read somewhere that everyone has at least 6 or 7 people in the world that look a lot like you. I always thought it would be strange to meet one of those people.\u201D",
           "textStyle": "pullquoteStyle",
           "format": "markdown"
         },
@@ -141,13 +141,13 @@
           "style": "baseStrokeStyle"
         },
         {
-          "role": "photo",
-          "URL": "http://esq.h-cdn.co/assets/15/32/980x980/square-1438706025-w-esq090115teller003-teller-04.jpg",
+          "role": "instagram",
+          "URL": "https://instagram.com/p/5Pq-P2CvhQ/?taken-by=mere_dith",
           "layout": "embedLayout"
         },
         {
           "role": "body",
-          "text": "He says he wants to contribute to the body of great acting in the world, to the\u2026 shit, he can't find the term\u2014 _cache? catalog? canon?_ Whatever, you know what he means. He thinks he has something to offer.",
+          "text": "\"To be honest I was a little concerned at first, but then I realized there was just no way,\" she said. \"I read somewhere that everyone has at least six or seven people in the world that look a lot like you. I always thought it would be strange to meet one of those people.\"",
           "layout": "bodyLayout",
           "textStyle": "bodyStyle",
           "format": "markdown"
@@ -184,7 +184,7 @@
     "tabLayoutStyle": {
       "fill": {
         "type": "image",
-        "URL": "bundle://esq_header.png",
+        "URL": "bundle://pmc_header.png",
         "fillMode": "fit",
         "verticalAlignment": "bottom",
         "horizontalAlignment": "right"
@@ -193,18 +193,16 @@
   },
   "componentTextStyles": {
     "authorStyle": {
-      "fontName": "TradeGothicNextLTW01-HvCn",
-      "fontSize": 16,
+      "fontName": "Georgia-Italic",
+      "fontSize": 18,
       "textAlignment": "left",
-      "textTransform":"uppercase",
-      "textColor": "#AAA"
+      "textColor": "#959595"
     },
     "bodyStyle": {
       "fontName": "Georgia",
-      "fontSize": 21,
+      "fontSize": 22,
       "lineHeight": 30,
       "textAlignment": "left",
-      "textColor": "#333",
       "linkStyle": {
         "textColor": "#00AAE3",
         "underline": true
@@ -212,19 +210,18 @@
     },
     "bodyStyleFirst": {
       "fontName": "Georgia",
-      "fontSize": 21,
+      "fontSize": 22,
       "lineHeight": 30,
       "textAlignment": "left",
-      "textColor": "#333",
       "dropCapStyle": {
-        "fontName": "AktivGroteskW01-Black",
-        "numberOfLines": 3,
+        "fontName": "DINNextW01-CondensedMedium",
+        "numberOfLines": 5,
         "numberOfCharacters": 1,
-        "textColor": "#000"
+        "textColor": "#EC008C"
       }
     },
     "captionStyle": {
-      "fontName": "Helvetica",
+      "fontName": "Georgia",
       "fontSize": 20,
       "lineHeight": 32,
       "textAlignment": "left",
@@ -233,7 +230,7 @@
       }
     },
     "creditStyle": {
-      "fontName": "Helvetica",
+      "fontName": "Georgia",
       "fontSize": 18,
       "lineHeight": 24,
       "textAlignment": "right",
@@ -241,64 +238,62 @@
       "textTransform":"uppercase"
     },
     "dateStyle": {
-      "fontName": "TradeGothicNextLTW01-HvCn",
-      "fontSize": 16,
+      "fontName": "DINNextW01-CondensedMedium",
+      "fontSize": 20,
       "textAlignment": "left",
       "textTransform":"uppercase",
       "textColor": "#AAA"
     },
     "heading1Style": {
-      "fontName": "TradeGothicNextLTW01-HvCn",
-      "fontSize": 32,
-      "lineHeight": 36,
-      "textTransform":"uppercase",
-      "textAlignment": "left",
-      "tracking": 0.01
+      "fontName": "TiemposHeadline-Semibold",
+      "fontSize": 28,
+      "lineHeight": 40,
+      "textAlignment": "left"
     },
     "introStyle": {
-      "fontName": "Helvetica",
-      "fontSize": 21,
-      "lineHeight": 28,
+      "fontName": "DINNextW01-CondensedMedium",
+      "fontSize": 36,
+      "lineHeight": 42,
       "textAlignment": "left",
-      "textColor": "#666"
+      "textColor": "#636363"
     },
     "lowerListStyle": {
-      "fontName": "Helvetica",
+      "fontName": "Georgia",
       "fontSize": 18,
       "lineHeight": 20,
       "textAlignment": "left"
     },
     "pullquoteStyle": {
-      "fontName": "AktivGroteskW01-Black",
-      "fontSize": 36,
-      "lineHeight": 38,
-      "textAlignment": "left",
-      "textTransform": "uppercase"
+      "fontName": "TiemposHeadline-SemiboldItalic",
+      "fontSize": 38,
+      "lineHeight": 56,
+      "textAlignment": "center",
+      "textColor": "#EC008C"
     },
     "spacerWord":{
-      "fontName": "Helvetica",
+      "fontName": "Georgia",
       "fontSize": 48,
       "lineHeight": 48,
       "textAlignment": "left",
       "textTransform": "uppercase"
     },
     "titleStyle": {
-      "fontName": "AktivGroteskW01-Black",
-      "fontSize": 42,
-      "lineHeight": 42,
+      "fontName": "DINNextW01-CondensedMedium",
+      "fontSize": 64,
+      "lineHeight": 68,
       "textAlignment": "left",
-      "textColor": "#333"
+      "textTransform": "uppercase",
+      "textColor": "#333",
+      "tracking": -0.02
     }
   },
   "componentLayouts": {
     "adLayout": {
-      "margin": {
-      }
     },
     "authorLayout": {
       "margin": {
         "top": 0,
-        "bottom": 15
+        "bottom": 30
       }
     },
     "blackStrokeLayout1":{
@@ -314,13 +309,13 @@
     "bodyContainerLayout": {
       "margin": {
         "top": 0,
-        "bottom": 35
+        "bottom": 25
       }
     },
     "bodyLayout": {
       "margin": {
         "top": 10,
-        "bottom": 10
+        "bottom": 15
       }
     },
     "captionLayout": {
@@ -349,7 +344,7 @@
     },
     "headerImageLayout": {
       "ignoreDocumentMargin": true,
-      "minimumHeight": "55vh"
+      "minimumHeight": "40vh"
     },
     "heading1Layout": {
       "margin": {
@@ -360,7 +355,7 @@
     "introLayout": {
       "margin": {
         "top": 5,
-        "bottom": 15
+        "bottom": 10
       }
     },
     "photoLayout": {
@@ -368,8 +363,12 @@
     },
     "pullquoteLayout": {
       "margin": {
-        "top": 15,
-        "bottom": 15
+        "top": 30,
+        "bottom": 30
+      },
+      "contentInset": {
+        "left": true,
+        "right": true
       }
     },
     "slideLayout": {
@@ -388,8 +387,8 @@
     },
     "titleLayout": {
       "margin": {
-        "top": 12,
-        "bottom": 0
+        "top": 20,
+        "bottom": 10
       }
     }
   }

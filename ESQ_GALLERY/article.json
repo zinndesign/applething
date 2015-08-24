@@ -3,6 +3,7 @@
   "identifier": "!!!DYNAMIC",
   "title": "10 Stylish Items to Help You Unleash the Rebel Within",
   "language": "en",
+  "blueprint": "basic",
   "layout": {
     "columns": 6,
     "width": 1024,
@@ -196,6 +197,9 @@
       ]
     }
   ],
+  "documentStyle": {
+    "backgroundColor": "#FFF"
+  },
   "componentStyles": {
     "baseStrokeStyle": {
     },
@@ -203,14 +207,6 @@
       "backgroundColor": "#FFF"
     },
     "dateLayoutStyle": {
-      "border": {
-        "all": {
-          "width": 2
-        },
-        "top": false,
-        "left": false,
-        "right": false
-      }
     },
     "photoContainerStyle": {
       "backgroundColor": "#000"
@@ -400,7 +396,7 @@
       }
     },
     "photoLayout": {
-      "minimumHeight": "100cw"
+      "minimumHeight": "100vmax"
     },
     "pullquoteLayout": {
       "margin": {
@@ -411,12 +407,6 @@
     "slideLayout": {
       "ignoreDocumentMargin": true,
       "minimumHeight": "100cw"
-    },
-    "spacerLayout": {
-      "margin": {
-        "top": 5,
-        "bottom": 0
-      }
     },
     "tabLayout": {
       "ignoreDocumentMargin": true,

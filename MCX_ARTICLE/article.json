@@ -3,6 +3,7 @@
   "identifier": "!!!DYNAMIC",
   "title": "9 Things You Never Knew About Miley Cyrus, Courtesy of Her Marie Claire Cover Interview",
   "language": "en",
+  "blueprint": "basic",
   "layout": {
     "columns": 6,
     "width": 1024,
@@ -175,6 +176,9 @@
       ]
     }
   ],
+  "documentStyle": {
+    "backgroundColor": "#FFF"
+  },
   "componentStyles": {
     "baseStrokeStyle": {
     },
@@ -399,7 +403,7 @@
       }
     },
     "photoLayout": {
-      "minimumHeight": "100cw"
+      "minimumHeight": "100vmax"
     },
     "pullquoteLayout": {
       "contentInset": {

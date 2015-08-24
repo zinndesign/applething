@@ -3,6 +3,7 @@
   "identifier": "!!!DYNAMIC",
   "title": "31 Times Demi Lovato Looked Absolutely Flawless",
   "language": "en",
+  "blueprint": "basic",
   "layout": {
     "columns": 6,
     "width": 1024,
@@ -238,6 +239,9 @@
       ]
     }
   ],
+  "documentStyle": {
+    "backgroundColor": "#FFF"
+  },
   "componentStyles": {
     "baseStrokeStyle": {
     },
@@ -276,8 +280,8 @@
     },
     "bodyStyle": {
       "fontName": "Georgia",
-      "fontSize": 22,
-      "lineHeight": 30,
+      "fontSize": 18,
+      "lineHeight": 24,
       "textAlignment": "left",
       "linkStyle": {
         "textColor": "#00AAE3",
@@ -286,8 +290,8 @@
     },
     "bodyStyleFirst": {
       "fontName": "Georgia",
-      "fontSize": 22,
-      "lineHeight": 30,
+      "fontSize": 18,
+      "lineHeight": 24,
       "textAlignment": "left",
       "dropCapStyle": {
         "fontName": "DINNextW01-CondensedMedium",
@@ -298,8 +302,8 @@
     },
     "captionStyle": {
       "fontName": "Georgia",
-      "fontSize": 20,
-      "lineHeight": 26,
+      "fontSize": 18,
+      "lineHeight": 24,
       "textAlignment": "left",
       "linkStyle": {
         "underline": true
@@ -307,8 +311,8 @@
     },
     "creditStyle": {
       "fontName": "DINNextW01-CondensedMedium",
-      "fontSize": 16,
-      "lineHeight": 20,
+      "fontSize": 12,
+      "lineHeight": 14,
       "textAlignment": "right",
       "textColor": "#A1A1A1",
       "textTransform":"uppercase"
@@ -331,7 +335,7 @@
     "introStyle": {
       "fontName": "DINNextW01-CondensedMedium",
       "fontSize": 36,
-      "lineHeight": 42,
+      "lineHeight": 38,
       "textAlignment": "left",
       "textColor": "#636363"
     },
@@ -358,7 +362,7 @@
     "titleStyle": {
       "fontName": "DINNextW01-CondensedMedium",
       "fontSize": 64,
-      "lineHeight": 68,
+      "lineHeight": 62,
       "textAlignment": "left",
       "textTransform": "uppercase",
       "textColor": "#333",
@@ -437,7 +441,7 @@
       }
     },
     "photoLayout": {
-      "minimumHeight": "100cw"
+      "minimumHeight": "100vmax"
     },
     "pullquoteLayout": {
       "margin": {
@@ -469,7 +473,7 @@
     },
     "titleLayout": {
       "margin": {
-        "top": 20,
+        "top": 10,
         "bottom": 0
       }
     }

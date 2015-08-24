@@ -1,0 +1,845 @@
+{
+  "version": "0.10",
+  "identifier": "Apple_Demo",
+  "title": "16 HOLLYWOOD COUPLES WHOSE BREAKUPS WOULD DEVASTATE US",
+  "language": "en",
+  "blueprint": "basic",
+	"layout": {
+    "columns": 6,
+    "width": 1024,
+    "margin": 120,
+    "gutter": 40
+  },
+  "metadata": {
+    "datePublished": "2015-10-24T11:15:00+00:00",
+    "dateCreated": "2015-10-24T11:15:00+00:00",
+    "dateModified": "2015-10-24T11:15:00+00:00",
+    "authors": [
+      "Urna Semper"
+    ],
+    "generatorName": "Generator",
+    "generatorVersion": "1.0",
+    "thumbnailURL": "bundle://header.jpg",
+    "keywords": [
+      "Elle",
+      "Fashion",
+      "Love",
+      "Couples"
+    ],
+    "excerpt": "Welcome To The World, Little Cumberbaby"
+  },
+  "components": [
+    {
+      "role": "header",
+      "layout": "headerImageLayout",
+      "style": {
+        "fill": {
+          "type": "image",
+          "URL": "bundle://header.jpg",
+          "fillMode": "cover",
+          "verticalAlignment": "center"
+        }
+      },
+      "behavior": {
+        "type": "parallax",
+        "factor": 0.4
+      },
+      "components": [
+        {
+          "role": "container",
+          "layout": "tabLayout",
+          "style": {
+            "fill": {
+              "type": "image",
+              "URL": "bundle://elm_arrow_header.png",
+              "fillMode": "fit",
+              "verticalAlignment": "bottom",
+              "horizontalAlignment": "center"
+            }
+          },
+          "anchor": {
+            "targetAnchorPosition": "bottom"
+          }
+        }
+      ]
+    },
+            {
+          "role": "byline",
+          "text": "AUG 3, 2015 @ 4:44 PM",
+          "blueprint": "basic",
+	"layout": {
+            "columnStart": 0,
+            "columnSpan": 6,
+            "margin": {
+              "bottom": 5,
+              "top": 20
+            }
+          },
+          "textStyle": {
+            "textAlignment": "left",
+            "fontName": "MTBaskervilleETW01-Roman",
+            "fontSize": 12,
+            "textColor": "#000"
+          }
+        },
+    {
+      "role": "title",
+      "text": "16 HOLLYWOOD COUPLES WHOSE BREAKUPS WOULD DEVASTATE US",
+      "layout": "titleLayout",
+      "textStyle": "titleStyle"
+    },
+
+         {
+          "role": "divider",
+          "stroke": {
+            "color": "#cccccc",
+            "width": 1
+          },
+          "layout": "blackStrokeLayout1"
+        },        {
+          "role": "byline",
+          "text": "BY SALLY HOLMES",
+          "blueprint": "basic",
+	"layout": {
+            "columnStart": 0,
+            "columnSpan": 6,
+            "margin": {
+              "bottom": 3,
+              "top":3
+            }
+          },
+          "textStyle": {
+            "textAlignment": "left",
+            "fontName": "AvantGardeGothicITCW01XLt",
+            "fontSize": 16,
+            "textTransform":"uppercase",
+            "textColor": "#000"
+          }
+        },
+         {
+          "role": "divider",
+          "stroke": {
+            "color": "#cccccc",
+            "width": 1
+          },
+          "layout": "blackStrokeLayout1"
+        },
+        {
+          "role": "body",
+          "text": "True love is dead—or at least, in mortal peril. On the heels of Ben Affleck and Jennifer Garner's split and Miranda Lambert and Blake Shelton confirming their divorcing, another of Hollywood's most famous couples is breaking up: Gwen Stefani and Gavin Rossdale. Make it stop! Here, 16 celeb couples whose love we love—and who would totally shatter us if they ever ended things.",
+          "format": "markdown",
+          "layout": "bodyLayout",
+          "textStyle": "bodyStyleFirst"
+        },
+        { 
+           "role": "medium_rectangle_advertisement",
+           "layout": "adLayout",
+           "bannerType": "standard"
+        },
+
+    {
+      "role": "body",
+      "text": "DAVID BOWIE AND IMAN",
+      "layout": "heading1Layout",
+      "textStyle": "heading1Style",
+      "format": "markdown"
+    },
+    {
+      "role": "container",
+      "style": {
+        "fill": {
+          "type": "linear_gradient",
+          "angle": 180,
+          "colorStops": [
+            {
+              "color": "#000000"
+            },
+            {
+              "color": "#000000"
+            }
+          ]
+        }
+      },
+      "blueprint": "basic",
+	"layout": {
+        "minimumHeight": "100cw"
+      },
+      "components": [
+        {
+          "role": "container",
+          "style": {
+            "fill": {
+              "type": "image",
+              "URL": "bundle://bodyimage1.jpg"
+            }
+          },
+          "blueprint": "basic",
+	"layout": {
+            "minimumHeight": "103cw"
+          },
+          "animation": {
+            "type": "fade_in",
+            "userControllable": true,
+            "initialAlpha": 0.1
+          }
+        }
+      ]
+    },
+    {
+      "role": "body",
+      "text": "Getty",
+      "layout": "creditLayout",
+      "textStyle": "creditStyle"
+    },      
+    {
+      "role": "body",
+      "text": "Because they are basically the coolest.",
+      "layout": "captionLayout",
+      "textStyle": "captionStyle",
+      "format": "markdown"
+    },
+    {
+      "role": "body",
+      "text": "SHANTE BROADUS AND SNOOP DOG",
+      "layout": "heading1Layout",
+      "textStyle": "heading1Style",
+      "format": "markdown"
+    },
+    {
+      "role": "container",
+      "style": {
+        "fill": {
+          "type": "linear_gradient",
+          "angle": 180,
+          "colorStops": [
+            {
+              "color": "#000000"
+            },
+            {
+              "color": "#000000"
+            }
+          ]
+        }
+      },
+      "blueprint": "basic",
+	"layout": {
+        "minimumHeight": "69cw"
+      },
+      "components": [
+        {
+          "role": "container",
+          "style": {
+            "fill": {
+              "type": "image",
+              "URL": "bundle://bodyimage2.jpg"
+            }
+          },
+          "blueprint": "basic",
+	"layout": {
+            "minimumHeight": "69cw"
+          },
+          "animation": {
+            "type": "fade_in",
+            "userControllable": true,
+            "initialAlpha": 0.1
+          }
+        }
+      ]
+    },
+     {
+      "role": "body",
+      "text": "Getty",
+      "layout": "creditLayout",
+      "textStyle": "creditStyle"
+    },     
+    {
+      "role": "body",
+      "text": "The have been married 16 years and were high school sweethearts. I mean Snoop Lion 3>",
+      "layout": "captionLayout",
+      "textStyle": "captionStyle",
+      "format": "markdown"
+    },
+    {
+      "role": "body",
+      "text": "FREDDIE PRINZE JR. AND SARAH MICHELLE GELLAR",
+      "layout": "heading1Layout",
+      "textStyle": "heading1Style",
+      "format": "markdown"
+    },
+    {
+      "role": "container",
+      "style": {
+        "fill": {
+          "type": "linear_gradient",
+          "angle": 180,
+          "colorStops": [
+            {
+              "color": "#000000"
+            },
+            {
+              "color": "#000000"
+            }
+          ]
+        }
+      },
+      "blueprint": "basic",
+	"layout": {
+        "minimumHeight": "100cw"
+      },
+      "components": [
+        {
+          "role": "container",
+          "style": {
+            "fill": {
+              "type": "image",
+              "URL": "bundle://bodyimage3.jpg"
+            }
+          },
+          "blueprint": "basic",
+	"layout": {
+            "minimumHeight": "100cw"
+          },
+          "animation": {
+            "type": "fade_in",
+            "userControllable": true,
+            "initialAlpha": 0.1
+          }
+        }
+      ]
+    },
+    {
+      "role": "body",
+      "text": "Getty",
+      "layout": "creditLayout",
+      "textStyle": "creditStyle"
+    },      
+    {
+      "role": "body",
+      "text": "They have been married 13 years in September and the best part about them is the way they talk about thier relationship with no ego.",
+      "layout": "captionLayout",
+      "textStyle": "captionStyle",
+      "format": "markdown"
+    },
+     { 
+      "role": "medium_rectangle_advertisement",
+      "layout": "adLayout",
+      "bannerType": "standard"
+    },
+    {
+      "role": "body",
+      "text": "Emily Blount and John Krasinski",
+      "layout": "heading1Layout",
+      "textStyle": "heading1Style",
+      "format": "markdown"
+    },
+    {
+      "role": "container",
+      "style": {
+        "fill": {
+          "type": "linear_gradient",
+          "angle": 180,
+          "colorStops": [
+            {
+              "color": "#000000"
+            },
+            {
+              "color": "#000000"
+            }
+          ]
+        }
+      },
+      "blueprint": "basic",
+	"layout": {
+        "minimumHeight": "69cw"
+      },
+      "components": [
+        {
+          "role": "container",
+          "style": {
+            "fill": {
+              "type": "image",
+              "URL": "bundle://bodyimage4.jpg"
+            }
+          },
+          "blueprint": "basic",
+	"layout": {
+            "minimumHeight": "100cw"
+          },
+          "animation": {
+            "type": "fade_in",
+            "userControllable": true,
+            "initialAlpha": 0.1
+          }
+        }
+      ]
+    },
+    {
+      "role": "body",
+      "text": "Getty",
+      "layout": "creditLayout",
+      "textStyle": "creditStyle"
+    },      
+    {
+      "role": "body",
+      "text": "These two would basically be your favorite funny couple to hang out with. Have you seen the video of them pranking Jimmy Kimmel? The most fun.",
+      "layout": "captionLayout",
+      "textStyle": "captionStyle",
+      "format": "markdown"
+    },
+      {
+      "role": "body",
+      "text": "Barak and Michelle Obama",
+      "layout": "heading1Layout",
+      "textStyle": "heading1Style",
+      "format": "markdown"
+    },
+    {
+      "role": "container",
+      "style": {
+        "fill": {
+          "type": "linear_gradient",
+          "angle": 180,
+          "colorStops": [
+            {
+              "color": "#000000"
+            },
+            {
+              "color": "#000000"
+            }
+          ]
+        }
+      },
+      "blueprint": "basic",
+	"layout": {
+        "minimumHeight": "69cw"
+      },
+      "components": [
+        {
+          "role": "container",
+          "style": {
+            "fill": {
+              "type": "image",
+              "URL": "bundle://bodyimage5.jpg"
+            }
+          },
+          "blueprint": "basic",
+	"layout": {
+            "minimumHeight": "100cw"
+          },
+          "animation": {
+            "type": "fade_in",
+            "userControllable": true,
+            "initialAlpha": 0.1
+          }
+        }
+      ]
+    },
+    {
+      "role": "body",
+      "text": "Getty",
+      "layout": "creditLayout",
+      "textStyle": "creditStyle"
+    },    
+    {
+      "role": "body",
+      "text": "Barack and Michelle breaking up would be like your mom and dad splitting.",
+      "layout": "captionLayout",
+      "textStyle": "captionStyle",
+      "format": "markdown"
+    },
+    {
+      "role": "body",
+      "text": "Jay-Z and Beyonce",
+      "layout": "heading1Layout",
+      "textStyle": "heading1Style",
+      "format": "markdown"
+    },
+    {
+      "role": "container",
+      "style": {
+        "fill": {
+          "type": "linear_gradient",
+          "angle": 180,
+          "colorStops": [
+            {
+              "color": "#000000"
+            },
+            {
+              "color": "#000000"
+            }
+          ]
+        }
+      },
+      "blueprint": "basic",
+	"layout": {
+        "minimumHeight": "69cw"
+      },
+      "components": [
+        {
+          "role": "container",
+          "style": {
+            "fill": {
+              "type": "image",
+              "URL": "bundle://bodyimage6.jpg"
+            }
+          },
+          "blueprint": "basic",
+	"layout": {
+            "minimumHeight": "69cw"
+          },
+          "animation": {
+            "type": "fade_in",
+            "userControllable": true,
+            "initialAlpha": 0.1
+          }
+        }
+      ]
+    },
+            {
+          "role": "body",
+          "text": "Getty",
+          "layout": "creditLayout",
+          "textStyle": "creditStyle"
+        },
+    {
+      "role": "body",
+      "text": "When the word goals was originally entered into the dictionary, the authors just put a photo of Jay Z and Beyoncé and a period. True story.",
+      "layout": "captionLayout",
+      "textStyle": "captionStyle",
+      "format": "markdown"
+    },
+
+        { "role": "image",
+          "layout": "adLayout",
+          "URL": "bundle://cosmo_sub_ad.png"
+        },
+
+        {
+          "role": "divider",
+          "stroke": {
+            "color": "#cccccc",
+            "width": 1
+          },
+          "layout": "blackStrokeLayout2"
+        },
+        {
+          "role": "body",
+          "text": "More from Elle.com",
+          "layout": "spacerLayout",
+          "textStyle": "spacerWord"
+        },
+        {
+          "role": "divider",
+          "stroke": {
+            "color": "#cccccc",
+            "width": 1
+          },
+          "layout": "blackStrokeLayout2"
+        },
+{
+              "role": "text",
+              "identifier": "text-1",
+              "format": "markdown",
+              "text": "[13 Rarely Seen Photos of Marylin Monroe](http://cosmo.com/link)\n\n\n\n[8nRules for Dressing Like a New Yorker](http://cosmo.com/link) \n\n\n\n[The Olsens Endorse the F*ck it Flat](http://cosmo.com/link)",
+              "textStyle": "lowerListStyle",
+              "blueprint": "basic",
+	"layout": {
+                "columnStart": 0,
+                "columnSpan": 6,
+                "margin": {
+                   "top": 20,
+                   "bottom":15
+            }
+              }
+            },
+
+            {
+          "role": "divider",
+          "stroke": {
+            "color": "#cccccc",
+            "width": 1
+          },
+          "layout": "blackStrokeLayout3"
+        },
+    {
+      "role": "banner_advertisement",
+      "bannerType": "standard"
+    }
+  ],
+  "componentTextStyles": {
+    "introStyle": {
+      "textAlignment": "center",
+      "fontName": "AvantGardeGothicITCW01XLt",
+      "fontSize": 24,
+      "lineHeight":30,
+      "textColor": "#000"
+    },
+    "titleStyle": {
+      "textAlignment": "left",
+      "fontName": "AvantGardeGothicITCW01XLt",
+      "textTransform": "uppercase",
+      "fontSize": 52,
+      "exactLineHeight": 54,
+      "textColor": "#000"
+    },
+    "lowerListStyle": {
+      "textAlignment": "center",
+      "fontName": "MTBaskervilleETW01-Roman",
+      "fontSize": 18,
+      "lineHeight":20,
+      "textColor": "#000"
+    },
+    "bylineStyle": {
+      "textAlignment": "left",
+      "fontName": "AvantGardeGothicITCW01XLt",
+      "fontSize": 16,
+      "textColor": "#000"
+    },
+      "dateStyle": {
+      "identifier": "dateStyle",
+      "fontName": "MTBaskervilleETW01-Roman",
+      "fontSize": 12,
+      "textColor": "#000",
+      "textTransform": "uppercase",
+      "textAlignment": "left"
+    },
+    "dropcapBodyStyle": {
+      "textAlignment": "left",
+      "fontName": "MTBaskervilleETW01-Roman",
+      "fontSize": 16,
+      "exactLineHeight": 24,
+      "textColor": "#777777",
+      "dropCapStyle": {
+        "numberOfLines": 2,
+        "numberOfCharacters": 1,
+        "fontName": "MTBaskervilleETW01-Roman",
+        "textColor": "#777777"
+      }
+    },
+    "bodyStyle": {
+      "textAlignment": "left",
+      "fontName": "MTBaskervilleETW01-Roman",
+      "fontSize": 16,
+      "exactLineHeight": 26,
+      "textColor": "#000"
+    },
+        "bodyStyleFirst": {
+      "textAlignment": "left",
+      "fontName": "MTBaskervilleETW01-Roman",
+      "fontSize": 18,
+      "lineHeight": 28,
+      "textColor": "#000",
+      "dropCapStyle": {
+        "fontName": "MTBaskervilleETW01-Roman",
+        "numberOfLines": 2,
+        "numberOfCharacters": 1,
+        "textColor": "#cccccc"
+      }
+    },
+    "captionStyle": {
+      "textAlignment": "left",
+      "fontName": "MTBaskervilleETW01-Roman",
+      "fontSize": 16,
+      "lineHeight": 20,
+      "textColor": "#000"
+    },
+    "creditStyle": {
+      "textAlignment": "right",
+      "fontName": "AvantGardeGothicITCW01XLt",
+      "fontSize": 11,
+      "lineHeight": 12,
+      "textTransform":"uppercase",
+      "textColor": "#444444"
+    },
+    "heading1Style": {
+      "textAlignment": "left",
+      "fontName": "AvantGardeGothicITCW01Dm",
+      "fontSize": 20,
+      "lineHeight": 22,
+      "textTransform":"uppercase",
+      "textColor": "#000"
+    },
+
+    "spacerWord":{
+      "textAlignment": "center",
+      "fontSize": 48,
+      "lineHeight": 48,
+      "textColor": "#000",
+      "textTransform": "uppercase",
+      "fontName": "AvantGardeGothicITCW01XLt"
+    },
+    "pullquoteStyle": {
+      "textAlignment": "center",
+      "fontName": "MTBaskervilleETW01-Roman",
+      "fontSize": 22,
+      "lineHeight": 28,
+      "textTransform":"uppercase",
+      "textColor": "#000"
+    }
+  },
+  "componentLayouts": {
+    "headerImageLayout": {
+      "columnStart": 0,
+      "columnSpan": 7,
+      "ignoreDocumentMargin": true,
+      "minimumHeight": "49vh"
+    },
+    "tabLayout": {
+      "columnStart": 0,
+      "columnSpan": 7,
+      "ignoreDocumentMargin": true,
+      "minimumHeight": 100
+    },
+    "bodyContainerLayout": {
+      "columnStart": 0,
+      "columnSpan": 7,
+      "ignoreDocumentMargin": true
+    },
+    "introLayout": {
+      "columnStart": 0,
+      "columnSpan": 7,
+      "margin": {
+        "top": 15,
+        "bottom": 15
+      }
+    },
+    "titleLayout": {
+      "columnStart": 0,
+      "columnSpan": 7,
+      "margin": {
+        "top": 10,
+        "bottom": 30
+      }
+    },
+    "bylineLayout": {
+      "columnStart": 0,
+      "columnSpan": 7,
+      "margin": {
+        "top": 30,
+        "bottom": 30
+      }
+      },
+    "adLayout": {
+      "columnStart": 0,
+      "columnSpan": 7,
+      "margin": {
+        "top": 25,
+        "bottom": 25
+      }
+    },
+    "bodyLayout": {
+      "columnStart": 0,
+      "columnSpan": 7,
+      "margin": {
+        "top": 35,
+        "bottom": 25
+      }
+    },
+    "creditLayout": {
+      "columnStart": 0,
+      "columnSpan": 7,
+      "margin": {
+        "top": 4,
+        "bottom": 0
+      }   
+      },
+    "captionLayout": {
+      "columnStart": 0,
+      "columnSpan": 7,
+      "margin": {
+        "top": 10,
+        "bottom": 25
+      }   
+      },
+    "heading1Layout": {
+      "columnStart": 0,
+      "columnSpan": 7,
+      "margin": {
+        "top": 15,
+        "bottom": 10
+      }
+    },
+    "galleryLayout": {
+      "columnStart": 0,
+      "columnSpan": 7,
+      "margin": {
+        "top": 25,
+        "bottom": 25
+      }
+    },
+    "bodyImageLayout": {
+      "columnStart": 0,
+      "columnSpan": 7,
+      "margin": {
+        "top": 15,
+        "bottom": 15
+      }
+    },
+    "pullquoteWrapLayout": {
+      "columnStart": 0,
+      "columnSpan": 4,
+      "margin": {
+        "top": 15,
+        "bottom": 15
+      }
+    },
+    "blueprint": "basic",
+	"layout": {
+      "columnStart": 0,
+      "columnSpan": 7,
+      "margin": {
+        "top": 15,
+        "bottom": 15
+      }
+         },
+    "blackStrokeLayout1":{
+      "columnStart": 0,
+      "columnSpan": 7,
+      "margin":{
+        "top":0,
+        "bottom":0
+      }
+     },
+    "blackStrokeLayout2":{
+      "columnStart": 0,
+      "columnSpan": 7,
+      "margin":{
+        "top":5,
+        "bottom":5
+      }
+           },
+    "blackStrokeLayout3":{
+      "columnStart": 0,
+      "columnSpan": 7,
+      "margin":{
+        "top":10,
+        "bottom":35
+      }
+    },
+
+    "spacerLayout": {
+      "columnStart": 0,
+      "columnSpan": 6,
+      "margin": {
+        "top": 5,
+        "bottom": 0
+      }
+    },
+
+    "mosaicLayout": {
+      "columnStart": 0,
+      "columnSpan": 7,
+      "ignoreDocumentMargin": true
+    },
+    "footerLayout": {
+      "columnStart": 0,
+      "columnSpan": 7,
+      "ignoreDocumentMargin": true
+    },
+    "followLayout": {
+      "columnStart": 0,
+      "columnSpan": 7,
+      "backgroundColor": "#000"
+    }
+  }
+}

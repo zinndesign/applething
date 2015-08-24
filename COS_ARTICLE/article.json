@@ -3,6 +3,7 @@
   "identifier": "!!!DYNAMIC",
   "title": "Internet Helps Twentysomething Woman Find Her Identical Twin Stranger",
   "language": "en",
+  "blueprint": "basic",
   "layout": {
     "columns": 6,
     "width": 1024,
@@ -158,6 +159,9 @@
       ]
     }
   ],
+  "documentStyle": {
+    "backgroundColor": "#FFF"
+  },
   "componentStyles": {
     "baseStrokeStyle": {
     },
@@ -196,8 +200,8 @@
     },
     "bodyStyle": {
       "fontName": "Georgia",
-      "fontSize": 22,
-      "lineHeight": 30,
+      "fontSize": 18,
+      "lineHeight": 24,
       "textAlignment": "left",
       "linkStyle": {
         "textColor": "#00AAE3",
@@ -206,8 +210,8 @@
     },
     "bodyStyleFirst": {
       "fontName": "Georgia",
-      "fontSize": 22,
-      "lineHeight": 30,
+      "fontSize": 18,
+      "lineHeight": 24,
       "textAlignment": "left",
       "dropCapStyle": {
         "fontName": "DINNextW01-CondensedMedium",
@@ -243,13 +247,13 @@
     "heading1Style": {
       "fontName": "TiemposHeadline-Semibold",
       "fontSize": 28,
-      "lineHeight": 40,
+      "lineHeight": 34,
       "textAlignment": "left"
     },
     "introStyle": {
       "fontName": "DINNextW01-CondensedMedium",
       "fontSize": 36,
-      "lineHeight": 42,
+      "lineHeight": 38,
       "textAlignment": "left",
       "textColor": "#636363"
     },
@@ -276,7 +280,7 @@
     "titleStyle": {
       "fontName": "DINNextW01-CondensedMedium",
       "fontSize": 64,
-      "lineHeight": 68,
+      "lineHeight": 62,
       "textAlignment": "left",
       "textTransform": "uppercase",
       "textColor": "#333",
@@ -350,7 +354,7 @@
     },
     "introLayout": {
       "margin": {
-        "top": 5,
+        "top": 0,
         "bottom": 10
       }
     },
@@ -383,8 +387,8 @@
     },
     "titleLayout": {
       "margin": {
-        "top": 20,
-        "bottom": 10
+        "top": 10,
+        "bottom": 0
       }
     }
   }

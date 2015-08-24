@@ -3,6 +3,7 @@
   "identifier": "!!!DYNAMIC",
   "title": "Christian Louboutin Created the Most Glamorous Lipstick Ever",
   "language": "en",
+  "blueprint": "basic",
   "layout": {
     "columns": 6,
     "width": 1024,
@@ -306,6 +307,8 @@
         "bottom": 0
       }   
     },
+    "embedLayout":{
+    },
     "dateLayout": {
       "margin": {
         "top": 40,
@@ -329,7 +332,7 @@
       }
     },
     "photoLayout": {
-      "minimumHeight": "100cw"
+      "minimumHeight": "100vmax"
     },
     "pullquoteLayout": {
       "margin": {

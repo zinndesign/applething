@@ -4,9 +4,11 @@
   "title": "8 Chic Outfits to Try with What Remains of the Summer",
   "language": "en",
   "blueprint": "basic",
-  "layout": {
+	"layout": {
     "columns": 6,
-    "width": 1024
+    "width": 1024,
+    "margin": 60,
+    "gutter": 30
   },
   "components": [
     {
@@ -40,7 +42,7 @@
       "layout": "bodyContainerLayout",
       "style": "bodyContainerStyle",
       "anchor": {
-        "targetAnchorPosition": "top"
+        "targetAnchorPosition": "bottom"
       },
       "components": [
         {
@@ -54,23 +56,14 @@
           "role": "title",
           "text": "8 Chic Outfits to Try with What Remains of the Summer",
           "layout": "titleLayout",
-          "textStyle": "titleStyle",
-          "format": "markdown"
-        },
-        {
-          "role": "intro",
-          "text": "We couldn't agree on the [Song of the Summer 2015](http://www.marieclaire.com/culture/news/a15035/song-of-the-summer-debate/) (#TeamUmlaut), but when it comes to outfits to cross off before Labor Day, Team MC is on the same page: \"Noootttt another sundressssss.\" Here, see eight just-as-easy ideas, none requiring more than three pieces of clothing. Because if wearing less isn't a great selling point, I don't know what is.",
-          "layout": "introLayout",
-          "textStyle": "introStyle",
-          "format": "markdown"
+          "textStyle": "titleStyle"
         },
         {
           "role": "divider",
           "stroke": {
-            "color": "#FFF0"
+            "color": "#FFF"
           },
-         "layout": "blackStrokeLayout1",
-         "style": "baseStrokeStyle"
+         "layout": "blackStrokeLayout1"
         },
         {
           "role": "author",
@@ -81,10 +74,16 @@
         {
           "role": "divider",
           "stroke": {
-           "color": "#FFF0"
+           "color": "#FFF"
           },
-         "layout": "blackStrokeLayout1",
-         "style": "baseStrokeStyle"
+         "layout": "blackStrokeLayout1"
+        },
+        {
+          "role": "body",
+          "text": "We couldn't agree on the [Song of the Summer 2015](http://www.marieclaire.com/culture/news/a15035/song-of-the-summer-debate/) (#TeamUmlaut), but when it comes to outfits to cross off before Labor Day, Team MC is on the same page: \"Noootttt another sundressssss.\" Here, see eight just-as-easy ideas, none requiring more than three pieces of clothing. Because if wearing less isn't a great selling point, I don't know what is.",
+          "layout": "bodyLayout",
+          "textStyle": "bodyStyle",
+          "format": "markdown"
         },
         {
           "role": "section",
@@ -132,6 +131,11 @@
               "layout": "captionLayout",
               "textStyle": "captionStyle",
               "format": "markdown"
+            },
+            {
+              "role": "container",
+              "layout": "iconTestLayout",
+              "style": "iconLayoutStyle"
             }
           ]
         },
@@ -196,34 +200,52 @@
       "bannerType": "standard"
     }
   ],
-  "documentStyle": {
-    "backgroundColor": "#FFF"
-  },
   "componentStyles": {
     "bodyContainerStyle": {
       "backgroundColor": "#FFF",
       "border": {
         "all": {
           "width": 18
-        }
+        },
+        "top": false
       }
     },
     "dateLayoutStyle": {
+      "border": {
+        "all": {
+          "width": 2
+        },
+        "top": false,
+        "left": false,
+        "right": false
+      }
     },
-    "baseStrokeStyle": {
+    "iconLayoutStyle": {
+      "fill": {
+        "type": "image",
+        "URL": "bundle://mcx_divider_arrow.png",
+        "fillMode": "fit",
+        "horizontalAlignment": "center"
+      }
     },
     "photoContainerStyle": {
       "backgroundColor": "#000"
     },
     "tabLayoutStyle": {
+      "fill": {
+        "type": "image",
+        "URL": "bundle://mcx_header.png",
+        "fillMode": "fit",
+        "verticalAlignment": "bottom",
+        "horizontalAlignment": "center"
+      }
     }
   },
   "componentTextStyles": {
     "authorStyle": {
       "fontName": "ITCModernNo216W01-Md",
-      "fontSize": 15,
-      "lineHeight": 15,
-      "textAlignment": "center",
+      "fontSize": 16,
+      "textAlignment": "left",
       "textTransform": "uppercase"
     },
     "bodyStyle": {
@@ -237,12 +259,12 @@
       }
     },
     "bodyStyleFirst": {
-      "fontName": "Georgia",
-      "fontSize": 22,
-      "lineHeight": 34,
+      "fontName": "MTBaskervilleETW01-Roman",
+      "fontSize": 18,
+      "lineHeight": 28,
       "textAlignment": "left",
       "dropCapStyle": {
-        "fontName": "Georgia",
+        "fontName": "MTBaskervilleETW01-Roman",
         "numberOfLines": 2,
         "numberOfCharacters": 1,
         "textColor": "#CCC"
@@ -250,8 +272,8 @@
     },
     "captionStyle": {
       "fontName": "Georgia",
-      "fontSize": 18,
-      "lineHeight": 30,
+      "fontSize": 20,
+      "lineHeight": 32,
       "textAlignment": "left",
       "linkStyle": {
         "textColor": "#00AAE3",
@@ -260,19 +282,18 @@
     },
     "creditStyle": {
       "fontName": "ITCFranklinGothicW01-DmCm",
-      "fontSize": 14,
-      "lineHeight": 14,
+      "fontSize": 18,
+      "lineHeight": 24,
       "textAlignment": "right",
       "textColor": "#898989",
       "textTransform":"uppercase"
     },
     "dateStyle": {
       "fontName": "ITCFranklinGothicW01-DmCm",
-      "fontSize": 16,
-      "textAlignment": "center",
-      "textColor": "#CCC",
-      "textTransform": "uppercase",
-      "tracking": 0.05
+      "fontSize": 20,
+      "textAlignment": "left",
+      "textColor": "#39CEFF",
+      "textTransform": "uppercase"
     },
     "heading1Style": {
       "fontName": "ITCFranklinGothicW01-DmCm",
@@ -282,75 +303,77 @@
       "textTransform":"uppercase"
     },
     "introStyle": {
-      "fontName": "MCModernTwoSxtn-LightItalic",
-      "fontSize": 22,
-      "lineHeight": 28,
+      "fontName": "AvantGardeGothicITCW01XLt",
+      "fontSize": 24,
+      "lineHeight": 30,
       "textAlignment": "center"
     },
     "lowerListStyle": {
-      "fontName": "Georgia",
+      "fontName": "MTBaskervilleETW01-Roman",
       "fontSize": 18,
       "lineHeight": 20,
       "textAlignment": "center"
     },
     "pullquoteStyle": {
-      "fontName": "Georgia",
+      "fontName": "MTBaskervilleETW01-Roman",
       "fontSize": 22,
       "lineHeight": 28,
       "textAlignment": "center",
       "textTransform":"uppercase"
     },
     "spacerWord":{
-      "fontName": "Georgia",
+      "fontName": "AvantGardeGothicITCW01XLt",
       "fontSize": 48,
       "lineHeight": 48,
       "textAlignment": "center",
       "textTransform": "uppercase"
     },
     "titleStyle": {
-      "fontName": "ITCFranklinGothicW01-DmCm",
-      "fontSize": 62,
-      "lineHeight": 58,
-      "textAlignment": "center",
-      "textTransform": "uppercase"
+      "fontName": "ITCModernNo216W01-Md",
+      "fontSize": 66,
+      "lineHeight": 72,
+      "textAlignment": "left"
     }
   },
   "componentLayouts": {
     "adLayout": {
+      "margin": {
+        "top": 25,
+        "bottom": 25
+      }
     },
     "authorLayout": {
       "margin": {
-        "top": 0,
+        "top": 16,
         "bottom": 0
       }
     },
-    "blackStrokeLayout1": {
-      "margin": {
-        "top": 0,
-        "bottom": 0
+    "blackStrokeLayout1":{
+      "margin":{
+        "top":0,
+        "bottom":0
       }
     },
-    "blackStrokeLayout2": {
+    "blackStrokeLayout2":{
       "margin":{
         "top":5,
         "bottom":5
       }
     },
-    "blackStrokeLayout3": {
+    "blackStrokeLayout3":{
       "margin":{
         "top":10,
         "bottom":35
       }
     },
-    "blackStrokeLayout4": {
+    "blackStrokeLayout4":{
       "margin":{
         "top":0,
         "bottom":25
       }
     },
     "bodyContainerLayout": {
-      "ignoreDocumentMargin": true,
-      "margin": 0
+      "ignoreDocumentMargin": true
     },
     "bodyLayout": {
       "margin": {
@@ -376,7 +399,9 @@
         "bottom": 0
       }
     },
-    "embedLayout": {
+    "iconTestLayout": {
+      "ignoreDocumentMargin": true,
+      "minimumHeight": 40
     },
     "headerImageLayout": {
       "ignoreDocumentMargin": true,
@@ -390,8 +415,8 @@
     },
     "introLayout": {
       "margin": {
-        "top": 0,
-        "bottom": 0
+        "top": 15,
+        "bottom": 15
       }
     },
     "photoLayout": {
@@ -419,8 +444,8 @@
     },
     "titleLayout": {
       "margin": {
-        "top": 0,
-        "bottom": 0
+        "top": 10,
+        "bottom": 30
       }
     }
   }
