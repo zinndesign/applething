@@ -292,8 +292,8 @@
     },
     "bodyStyle": {
       "fontName": "Helvetica",
-      "fontSize": 20,
-      "lineHeight": 30,
+      "fontSize": 18,
+      "lineHeight": 26,
       "textAlignment": "left",
       "linkStyle": {
         "textColor": "#00AAE3",
@@ -302,8 +302,8 @@
     },
     "bodyStyleFirst": {
       "fontName": "Helvetica",
-      "fontSize": 20,
-      "lineHeight": 30,
+      "fontSize": 18,
+      "lineHeight": 26,
       "textAlignment": "left",
       "dropCapStyle": {
         "fontName": "KlintLTW01-BoldCondensed",
@@ -323,8 +323,8 @@
     },
     "creditStyle": {
       "fontName": "Helvetica-Bold",
-      "fontSize": 12,
-      "lineHeight": 18,
+      "fontSize": 10,
+      "lineHeight": 16,
       "textAlignment": "right",
       "textColor": "#A1A1A1",
       "textTransform":"uppercase"
@@ -337,7 +337,7 @@
       "textColor": "#A1A1A1"
     },
     "heading1Style": {
-      "fontName": "TradeGothicNextLTW01-BdCn",
+      "fontName": "KlintLTW01-BoldCondensed",
       "fontSize": 36,
       "lineHeight": 40,
       "textAlignment": "left",
@@ -356,7 +356,7 @@
       "lineHeight": 20,
       "textAlignment": "left"
     },
-    "pullQuoteStyle": {
+    "pullquoteStyle": {
       "fontName": "TradeGothicNextLTW01-BdCn",
       "fontSize": 40,
       "lineHeight": 56,
@@ -424,7 +424,7 @@
     },
     "dateLayout": {
       "margin": {
-        "top": 20,
+        "top": 30,
         "bottom": 0
       }
     },
@@ -453,7 +453,7 @@
     "photoLayout": {
       "minimumHeight": "80vmax"
     },
-    "pullquoteLayout": {
+    "pullQuoteLayout": {
       "margin": {
         "top": 30,
         "bottom": 30

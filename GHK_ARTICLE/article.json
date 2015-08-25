@@ -1,13 +1,13 @@
 {
   "version": "0.10",
   "identifier": "!!!DYNAMIC",
-  "title": "Watch ISS Astronauts Sample Space Grown Lettuce",
+  "title": "11 Things I Wish I Knew Before I Had Daughters",
   "language": "en",
   "blueprint": "basic",
   "layout": {
     "columns": 6,
     "width": 1024,
-    "margin": 80,
+    "margin": 60,
     "gutter": 20
   },
   "components": [
@@ -17,7 +17,7 @@
       "style": {
         "fill": {
           "type": "image",
-          "URL": "http://pop.h-cdn.co/assets/15/33/980x490/landscape-1439215221-veggie-steveswanson.jpg",
+          "URL": "http://ghk.h-cdn.co/assets/15/32/980x490/gallery-1438796136-daughter-lessons.jpg",
           "fillMode": "cover",
           "verticalAlignment": "top"
         }
@@ -54,13 +54,13 @@
         {
           "role": "title",
           "layout": "titleLayout",
-          "text": "Watch ISS Astronauts Sample Space Grown Lettuce",
+          "text": "11 Things I Wish I Knew Before I Had Daughters",
           "textStyle": "titleStyle"
         },
         {
           "role": "intro",
           "layout": "introLayout",
-          "text": "Microgravity noms.",
+          "text": "Telling them they're beautiful is not enough.",
           "textStyle": "introStyle"
         },
         {
@@ -74,7 +74,7 @@
         {
           "role": "author",
           "layout": "authorLayout",
-          "text": "By John Wenz",
+          "text": "By Lindsey Gladstone",
           "textStyle": "authorStyle"
         },
         {
@@ -92,28 +92,14 @@
         },
         {
           "role": "body",
-          "text": "ASS astronauts Scott Kelly and Kjell N. Lindgren will sample some out of this world food today, chowing down on a little lettuce grown entirely in space. The livestream begins at 11:15 a.m. EDT. The red romaine lettuce was planted in May 2014 by astronaut Steve Swanson, and was sprouted and grown in the Veg-1 module on the International Space Station.",
+          "text": "Just after my 33rd birthday I gave birth to my first daughter. And a mere year and a half later, I delivered my second girl. Two little women in 18 months. \"Sisters!\" I thought to myself, \"how hard could mothering them be?\"",
           "layout": "bodyLayout",
           "textStyle": "bodyStyleFirst",
           "format": "markdown"
         },
         {
           "role": "body",
-          "text": "It's a step toward long-term human exploration of deep space, where the weight of fully grown food would weigh down an already heavy launch and tax fuel supplies of the Space Launch System en route to Mars. By growing food, astronauts can eat fresh food alongside dry rations while testing out long-term survival strategies on Mars and the Moon.",
-          "layout": "bodyLayout",
-          "textStyle": "bodyStyle",
-          "format": "markdown"
-        },
-        {
-          "role": "body",
-          "text": "Since soil would float away in space, the seeds were placed in \"pillows\" and fed by water systems similar to hydroponics under a grow light. The lettuce not eaten will be sent back down to Earth for testing to see how it endured in the microgravity environment. Of course, just like on Earth, Kelly and Lindgren will rinse off their veggies first. But without a sink, they'll instead turn to a citrus acid-based produce wash before chowing down.",
-          "layout": "bodyLayout",
-          "textStyle": "bodyStyle",
-          "format": "markdown"
-        },
-        {
-          "role": "body",
-          "text": "You can watch the veggie feast at [NASA-TV](http://www.nasa.gov/multimedia/nasatv/index.html) or on the embed below.",
+          "text": "But quickly I learned that being a girl and raising girls are not the same thing. And while I am certain their teenage years will provide challenges I cannot begin to imagine (is it just me or do you hear my mother snickering in the background?), here are 11 things I have learned in their first almost-decade of life \u2014 but really wish I had known before.",
           "layout": "bodyLayout",
           "textStyle": "bodyStyle",
           "format": "markdown"
@@ -121,12 +107,12 @@
         {
           "role": "heading1",
           "layout": "heading1Layout",
-          "text": "Seeds and Soil",
+          "text": "1. You cannot avoid the princesses.",
           "textStyle": "heading1Style"
         },
         {
           "role": "body",
-          "text": "Since soil would float away in space, the seeds were placed in \"pillows\" and fed by water systems similar to hydroponics under a grow light. The lettuce not eaten will be sent back down to Earth for testing to see how it endured in the microgravity environment. Of course, just like on Earth, Kelly and Lindgren will rinse off their veggies first. But without a sink, they'll instead turn to a citrus acid-based produce wash before chowing down.",
+          "text": "When they were born, I swore we would not have princess paraphernalia in our home. Fairy tales were just that \u2014 fairy tales. We would traffic in real role models. But somewhere around my first daughter's 3rd birthday, it happened. I'm not sure if it was a babysitter, a preschool friend, or just osmosis, but one day she didn't know who Cinderella was and the next day she did.\n\nSuddenly, everywhere we went we saw her: on the soup labels at the grocery store (conveniently positioned in the eyeline of a toddler sitting in a grocery cart), on diapers, on bouncing balls at the park. And when I refused her Cinderella, she only wanted her more. Long story short, we now have a dress-up drawer of costumes and crowns that I am pretty sure we are about to outgrow if anyone needs them.",
           "layout": "bodyLayout",
           "textStyle": "bodyStyle",
           "format": "markdown"
@@ -142,7 +128,7 @@
         {
           "role": "pullquote",
           "layout": "pullQuoteLayout",
-          "text": "\u201CBy growing food, astronauts can eat fresh food alongside dry rations while testing out long-term survival strategies on Mars and the Moon.\u201D",
+          "text": "\u201CLong story short, we now have a dress-up drawer of costumes and crowns that I am pretty sure we are about to outgrow if anyone needs them.\u201D",
           "textStyle": "pullQuoteStyle",
           "format": "markdown"
         },
@@ -155,13 +141,32 @@
           "style": "baseStrokeStyle"
         },
         {
-          "role": "embedwebvideo",
-          "URL": "https://www.youtube.com/watch?v=OX9I1KyNa8M",
-          "layout": "embedLayout"
+          "role": "heading1",
+          "layout": "heading1Layout",
+          "text": "2. Underwear Matters.",
+          "textStyle": "heading1Style"
         },
         {
           "role": "body",
-          "text": "It's a step toward long-term human exploration of deep space, where the weight of fully grown food would weigh down an already heavy launch and tax fuel supplies of the Space Launch System en route to Mars. By growing food, astronauts can eat fresh food alongside dry rations while testing out long-term survival strategies on Mars and the Moon.",
+          "text": "We've spent more time than I ever imagined focused on underwear. From allowing them to choose their own first pairs at the store to hearing commentary about the ones I put on, I have learned that they love underwear. Underwear matters. And because of this I am acutely aware of choosing undies, for them and for me, that are comfortable and beautiful. Good-bye thongs, hello seamless cotton boy shorts.",
+          "layout": "bodyLayout",
+          "textStyle": "bodyStyle",
+          "format": "markdown"
+        },
+        {
+          "role": "photo",
+          "URL": "http://ghk.h-cdn.co/assets/15/32/1438794390-syn-ghk-1438699315-img-1014.jpg",
+          "layout": "embedLayout"
+        },
+        {
+          "role": "heading1",
+          "layout": "heading1Layout",
+          "text": "3. So does your choice in bikini waxes.",
+          "textStyle": "heading1Style"
+        },
+        {
+          "role": "body",
+          "text": "Before kids, my monthly bikini wax ritual was a never missed, cancelled, or postponed appointment. The pain \u2014 not to mention the expense \u2014 was worth it. But after my girls were born, the barely-there-hair thing seemed weird. I am an adult woman with pubic hair. They are little girls. We should not look alike. And so now I have an extra $75 dollars for princess gear.",
           "layout": "bodyLayout",
           "textStyle": "bodyStyle",
           "format": "markdown"
@@ -198,7 +203,8 @@
     "tabLayoutStyle": {
       "border": {
         "all": {
-          "width": 28
+          "width": 3,
+          "color": "#ed0a71"
         },
         "top": false,
         "left": false,
@@ -208,15 +214,15 @@
   },
   "componentTextStyles": {
     "authorStyle": {
-      "fontName": "TradeGothicNextLTW01-BdCn",
+      "fontName": "AvenirNextLTW01-Medium",
       "fontSize": 20,
       "textAlignment": "left",
-      "textColor": "#A1A1A1"
+      "textColor": "#959595"
     },
     "bodyStyle": {
-      "fontName": "Helvetica",
-      "fontSize": 18,
-      "lineHeight": 26,
+      "fontName": "AvenirNextLTW01-Medium",
+      "fontSize": 20,
+      "lineHeight": 28,
       "textAlignment": "left",
       "linkStyle": {
         "textColor": "#00AAE3",
@@ -224,19 +230,13 @@
       }
     },
     "bodyStyleFirst": {
-      "fontName": "Helvetica",
-      "fontSize": 18,
-      "lineHeight": 26,
-      "textAlignment": "left",
-      "dropCapStyle": {
-        "fontName": "KlintLTW01-BoldCondensed",
-        "numberOfLines": 3,
-        "numberOfCharacters": 1,
-        "textColor": "#F47920"
-      }
+      "fontName": "AvenirNextLTW01-Medium",
+      "fontSize": 20,
+      "lineHeight": 28,
+      "textAlignment": "left"
     },
     "captionStyle": {
-      "fontName": "Helvetica",
+      "fontName": "AvenirNextLTW01-Medium",
       "fontSize": 20,
       "lineHeight": 32,
       "textAlignment": "left",
@@ -253,21 +253,20 @@
       "textTransform":"uppercase"
     },
     "dateStyle": {
-      "fontName": "TradeGothicNextLTW01-BdCn",
+      "fontName": "AvenirNextLTW01-Medium",
       "fontSize": 18,
       "textAlignment": "left",
-      "textTransform":"uppercase",
-      "textColor": "#A1A1A1"
+      "textColor": "#959595"
     },
     "heading1Style": {
       "fontName": "TradeGothicNextLTW01-BdCn",
       "fontSize": 36,
       "lineHeight": 40,
       "textAlignment": "left",
-      "textColor": "#15b0de"
+      "textTransform":"uppercase"
     },
     "introStyle": {
-      "fontName": "KlintLTW01-BoldCondensed",
+      "fontName": "TradeGothicNextLTW01-Cond",
       "fontSize": 34,
       "lineHeight": 42,
       "textAlignment": "left",
@@ -280,12 +279,10 @@
       "textAlignment": "left"
     },
     "pullQuoteStyle": {
-      "fontName": "TradeGothicNextLTW01-BdCn",
-      "fontSize": 40,
-      "lineHeight": 50,
-      "textAlignment": "center",
-      "textTransform":"uppercase",
-      "textColor": "#F47920"
+      "fontName": "Kettering105W00-Book",
+      "fontSize": 50,
+      "lineHeight": 60,
+      "textAlignment": "left"
     },
     "spacerWord":{
       "fontName": "Helvetica",
@@ -295,11 +292,10 @@
       "textTransform": "uppercase"
     },
     "titleStyle": {
-      "fontName": "KlintLTW01-BoldCondensed",
-      "fontSize": 72,
-      "lineHeight": 68,
-      "textAlignment": "left",
-      "textTransform": "uppercase"
+      "fontName": "Kettering105W00-Book",
+      "fontSize": 70,
+      "lineHeight": 78,
+      "textAlignment": "left"
     }
   },
   "componentLayouts": {
@@ -347,8 +343,8 @@
     },
     "dateLayout": {
       "margin": {
-        "top": 30,
-        "bottom": 0
+        "top": 80,
+        "bottom": 10
       }
     },
     "embedLayout": {
@@ -369,8 +365,8 @@
     },
     "introLayout": {
       "margin": {
-        "top": 5,
-        "bottom": 15
+        "top": 15,
+        "bottom": 20
       }
     },
     "photoLayout": {
@@ -380,10 +376,6 @@
       "margin": {
         "top": 30,
         "bottom": 30
-      },
-      "contentInset": {
-        "left": true,
-        "right": true
       }
     },
     "slideLayout": {
