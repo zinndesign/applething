@@ -1,368 +1,372 @@
 {
-  "version": "0.10",
-  "identifier": "!!!DYNAMIC",
-  "title": "Christian Louboutin Created the Most Glamorous Lipstick Ever",
-  "language": "en",
-  "blueprint": "basic",
-  "layout": {
-    "columns": 6,
-    "width": 1024,
-    "margin": 80,
-    "gutter": 20
-  },
-  "components": [
-    {
-      "role": "header",
-      "layout": "headerImageLayout",
-      "style": {
-        "fill": {
-          "type": "image",
-          "URL": "http://hbz.h-cdn.co/assets/15/32/980x490/landscape-1438796061-hbz-louboutin-index.jpg",
-          "fillMode": "cover",
-          "verticalAlignment": "top"
-        }
-      },
-      "behavior": {
-        "type": "parallax",
-        "factor": 0.5
-      },
-      "components": [
-        {
-          "role": "container",
-          "layout": "tabLayout",
-          "style": "tabLayoutStyle",
-          "anchor": {
-            "targetAnchorPosition": "bottom"
-          }
-        }
-      ]
-    },
-    {
-      "role": "section",
-      "layout": "bodyContainerLayout",
-      "style": "bodyContainerStyle",
-      "anchor": {
-        "targetAnchorPosition": "top"
-      },
-      "components": [
-        {
-          "role": "intro",
-          "layout": "dateLayout",
-          "text": "Aug 5, 2015 @ 6:01 PM",
-          "textStyle": "dateStyle"
-        },
-        {
-          "role": "title",
-          "layout": "titleLayout",
-          "text": "Christian Louboutin Created the Most Glamorous Lipstick Ever",
-          "textStyle": "titleStyle"
-        },
-        {
-          "role": "intro",
-          "layout": "introLayout",
-          "text": "Get ready to make room on your vanity.",
-          "textStyle": "introStyle"
-        },
-        {
-          "role": "divider",
-          "stroke": {
-            "color": "#FFF0"
-          },
-          "layout": "blackStrokeLayout1",
-          "style": "baseStrokeStyle"
-        },
-        {
-          "role": "author",
-          "layout": "authorLayout",
-          "text": "By Alexandra Tunell",
-          "textStyle": "authorStyle"
-        },
-        {
-          "role": "divider",
-          "stroke": {
-            "color": "#FFF0"
-          },
-          "layout": "blackStrokeLayout1",
-          "style": "baseStrokeStyle"
-        },
-        { 
-           "role": "medium_rectangle_advertisement",
-           "layout": "adLayout",
-           "bannerType": "standard"
-        },
-        {
-          "role": "body",
-          "text": "There's nothing sexy about the word 'products;' call them \"objets d'art,\" on the other hand, and we must have them immediately. Louboutin knows this\u2014after all, he's made women lust after his creations for decades: First, with his red soles, then with nail polish and now, with 38 shades of lipstick in the most dramatic metal bullets (that double as necklaces) we've ever seen. There are three textures to choose from\u2014Silky Satin, Velvet Matte and Sheer Voile\u2014and all the shades are inspired by the brand's iconic shoes and bags. At $90 each, they don't come cheap, but the best things rarely do. ",
-          "layout": "bodyLayout",
-          "textStyle": "bodyStyleFirst",
-          "format": "markdown"
-        },
-        {
-          "role": "divider",
-          "stroke": {
-            "color": "#FFF0"
-          },
-          "layout": "blackStrokeLayout3",
-          "style": "baseStrokeStyle"
-        },
-        {
-          "role": "pullquote",
-          "layout": "pullQuoteLayout",
-          "text": "\u201CHe\u2019s made women lust after his creations for decades: First, with his red soles, then with nail polish and now, with 38 shades of lipstick in the most dramatic metal bullets.\u201D",
-          "textStyle": "pullQuoteStyle",
-          "format": "markdown"
-        },
-        {
-          "role": "divider",
-          "stroke": {
-            "color": "#FFF0"
-          },
-          "layout": "blackStrokeLayout4",
-          "style": "baseStrokeStyle"
-        },
-        {
-          "role": "heading1",
-          "layout": "heading1Layout",
-          "text": "Call them \u201Cobjects d'art\u201D",
-          "textStyle": "heading1Style"
-        },
-        {
-          "role": "body",
-          "text": "Louboutin knows this\u2014after all, he's made women lust after his creations for decades: First, with his red soles, then with nail polish and now, with 38 shades of lipstick in the most dramatic metal bullets (that double as necklaces) we've ever seen. There are three textures to choose from\u2014Silky Satin, Velvet Matte and Sheer Voile\u2014and all the shades are inspired by the brand's iconic shoes and bags. At $90 each, they don't come cheap, but the best things rarely do. Louboutin knows this\u2014after all, he's made women lust after his creations for decades: First, with his red soles...",
-          "layout": "bodyLayout",
-          "textStyle": "bodyStyle",
-          "format": "markdown"
-        },
-        {
-          "role": "banner_advertisement",
-          "bannerType": "standard"
-        }
-      ]
-    }
-  ],
-  "documentStyle": {
-    "backgroundColor": "#FFF"
-  },
-  "componentStyles": {
-    "baseStrokeStyle": {
-    },
-    "bodyContainerStyle": {
-      "backgroundColor": "#FFF"
-    },
-    "dateLayoutStyle": {
-      "border": {
-        "all": {
-          "width": 2
-        },
-        "top": false,
-        "left": false,
-        "right": false
-      }
-    },
-    "photoContainerStyle": {
-      "backgroundColor": "#000"
-    },
-    "tabLayoutStyle": {
-      "fill": {
-        "type": "image",
-        "URL": "https://s3.amazonaws.com/sallyhdm/hbz_header_article.png",
-        "fillMode": "fit",
-        "verticalAlignment": "bottom",
-        "horizontalAlignment": "center"
-      }
-    }
-  },
-  "componentTextStyles": {
-    "authorStyle": {
-      "fontName": "Didot-HTF-M42-Medium",
-      "fontSize": 14,
-      "textAlignment": "center",
-      "textTransform":"uppercase",
-      "tracking": 0.5
-    },
-    "bodyStyle": {
-      "fontName": "BemboBookMTStd-Regular",
-      "fontSize": 18,
-      "lineHeight": 26,
-      "textAlignment": "left",
-      "linkStyle": {
-        "textColor": "#00AAE3",
-        "underline": true
-      }
-    },
-    "bodyStyleFirst": {
-      "fontName": "BemboBookMTStd-Regular",
-      "fontSize": 18,
-      "lineHeight": 26,
-      "textAlignment": "left",
-      "dropCapStyle": {
-        "fontName": "Didot-HTF-L42-Light",
-        "numberOfLines": 6,
-        "numberOfCharacters": 1
-      }
-    },
-    "captionStyle": {
-      "fontName": "TimesNewRomanPSMT",
-      "fontSize": 20,
-      "lineHeight": 32,
-      "textAlignment": "left",
-      "linkStyle": {
-        "underline": true
-      }
-    },
-    "creditStyle": {
-      "fontName": "Didot-HTF-M42-Medium",
-      "fontSize": 18,
-      "lineHeight": 24,
-      "textAlignment": "right",
-      "textColor": "#898989",
-      "textTransform":"uppercase"
-    },
-    "dateStyle": {
-      "fontName": "GothamNarrow-Bold",
-      "fontSize": 13,
-      "textAlignment": "center",
-      "textTransform":"uppercase"
-    },
-    "heading1Style": {
-      "fontName": "Didot-HTF-M42-Medium",
-      "fontSize": 32,
-      "lineHeight": 36,
-      "textAlignment": "left",
-      "textTransform":"uppercase"
-    },
-    "introStyle": {
-      "fontName": "Didot-HTF-L42-Light-Ital",
-      "fontSize": 30,
-      "lineHeight": 42,
-      "textAlignment": "center"
-    },
-    "lowerListStyle": {
-      "fontName": "TimesNewRomanPSMT",
-      "fontSize": 18,
-      "lineHeight": 20,
-      "textAlignment": "center"
-    },
-    "pullQuoteStyle": {
-      "fontName": "Didot-HTF-L42-Light-Ital",
-      "fontSize": 36,
-      "lineHeight": 46,
-      "textAlignment": "center"
-    },
-    "spacerWord":{
-      "fontName": "TimesNewRomanPSMT",
-      "fontSize": 48,
-      "lineHeight": 48,
-      "textAlignment": "center",
-      "textTransform": "uppercase"
-    },
-    "titleStyle": {
-      "fontName": "Didot-HTF-L42-Light",
-      "fontSize": 72,
-      "lineHeight": 64,
-      "textAlignment": "center",
-      "textTransform": "uppercase"
-    }
-  },
-  "componentLayouts": {
-    "adLayout": {
-      "margin": {
-        "top": 25,
-        "bottom": 25
-      }
-    },
-    "authorLayout": {
-      "margin": {
-        "top": 0
-      }
-    },
-    "blackStrokeLayout1":{
-      "margin": 0
-    },
-    "blackStrokeLayout2":{
-      "margin": 5
-    },
-    "blackStrokeLayout3":{
-    },
-    "blackStrokeLayout4":{
-    },
-    "bodyContainerLayout": {
-      "margin": {
-        "top": 0,
-        "bottom": 25
-      }
-    },
-    "bodyLayout": {
-      "margin": {
-        "top": 10,
-        "bottom": 15
-      }
-    },
-    "captionLayout": {
-      "margin": {
-        "top": 10,
-        "bottom": 25
-      }   
-    },
-    "creditLayout": {
-      "margin": {
-        "top": 4,
-        "bottom": 0
-      }   
-    },
-    "embedLayout":{
-    },
-    "dateLayout": {
-      "margin": {
-        "top": 40,
-        "bottom": 0
-      }
-    },
-    "headerImageLayout": {
-      "ignoreDocumentMargin": true,
-      "minimumHeight": "50vh"
-    },
-    "heading1Layout": {
-      "margin": {
-        "top": 15,
-        "bottom": 5
-      }
-    },
-    "introLayout": {
-      "margin": {
-        "top": 0,
-        "bottom": 30
-      }
-    },
-    "photoLayout": {
-      "minimumHeight": "100vmax"
-    },
-    "pullQuoteLayout": {
-      "margin": {
-        "top": 15,
-        "bottom": 10
-      }
-    },
-    "slideLayout": {
-      "ignoreDocumentMargin": true,
-      "minimumHeight": "100cw"
-    },
-    "spacerLayout": {
-      "margin": {
-        "top": 5,
-        "bottom": 0
-      }
-    },
-    "tabLayout": {
-      "ignoreDocumentMargin": true,
-      "minimumHeight": 80,
-      "contentInset": false
-    },
-    "titleLayout": {
-      "margin": {
-        "top": 20,
-        "bottom": 0
-      }
-    }
-  }
+	"version": "0.10",
+	"identifier": "!!!DYNAMIC",
+	"title": "Christian Louboutin Created the Most Glamorous Lipstick Ever",
+	"language": "en",
+	"blueprint": "basic",
+	"layout": {
+		"columns": 6,
+		"width": 1024,
+		"margin": 80,
+		"gutter": 20
+	},
+	"components": [
+		{
+			"role": "header",
+			"layout": "headerImageLayout",
+			"style": {
+				"fill": {
+					"type": "image",
+					"URL": "http://hbz.h-cdn.co/assets/15/32/980x490/landscape-1438796061-hbz-louboutin-index.jpg",
+					"fillMode": "cover",
+					"verticalAlignment": "top"
+				}
+			},
+			"behavior": {
+				"type": "parallax",
+				"factor": 0.5
+			},
+			"components": [
+				{
+					"role": "container",
+					"layout": "tabLayout",
+					"style": "tabLayoutStyle",
+					"anchor": {
+						"targetAnchorPosition": "bottom"
+					}
+				}
+			]
+		},
+		{
+			"role": "section",
+			"layout": "bodyContainerLayout",
+			"style": "bodyContainerStyle",
+			"anchor": {
+				"targetAnchorPosition": "top"
+			},
+			"components": [
+				{
+					"role": "intro",
+					"layout": "dateLayout",
+					"text": "Aug 5, 2015 @ 6:01 PM",
+					"textStyle": "dateStyle"
+				},
+				{
+					"role": "title",
+					"layout": "titleLayout",
+					"text": "Christian Louboutin Created the Most Glamorous Lipstick Ever",
+					"textStyle": "titleStyle"
+				},
+				{
+					"role": "intro",
+					"layout": "introLayout",
+					"text": "Get ready to make room on your vanity.",
+					"textStyle": "introStyle"
+				},
+				{
+					"role": "divider",
+					"stroke": {
+						"color": "#FFF0"
+					},
+					"layout": "blackStrokeLayout1",
+					"style": "baseStrokeStyle"
+				},
+				{
+					"role": "author",
+					"layout": "authorLayout",
+					"text": "By Alexandra Tunell",
+					"textStyle": "authorStyle"
+				},
+				{
+					"role": "divider",
+					"stroke": {
+						"color": "#FFF0"
+					},
+					"layout": "blackStrokeLayout1",
+					"style": "baseStrokeStyle"
+				},
+				{ 
+					 "role": "medium_rectangle_advertisement",
+					 "layout": "adLayout",
+					 "bannerType": "standard"
+				},
+				{
+					"role": "body",
+					"text": "There's nothing sexy about the word 'products;' call them \"objets d'art,\" on the other hand, and we must have them immediately. Louboutin knows this\u2014after all, he's made women lust after his creations for decades: First, with his red soles, then with nail polish and now, with 38 shades of lipstick in the most dramatic metal bullets (that double as necklaces) we've ever seen. There are three textures to choose from\u2014Silky Satin, Velvet Matte and Sheer Voile\u2014and all the shades are inspired by the brand's iconic shoes and bags. At $90 each, they don't come cheap, but the best things rarely do. ",
+					"layout": "bodyLayout",
+					"textStyle": "bodyStyleFirst",
+					"format": "markdown"
+				},
+				{
+					"role": "divider",
+					"stroke": {
+						"color": "#FFF0"
+					},
+					"layout": "blackStrokeLayout3",
+					"style": "baseStrokeStyle"
+				},
+				{
+					"role": "pullquote",
+					"layout": "pullQuoteLayout",
+					"text": "\u201CHe\u2019s made women lust after his creations for decades: First, with his red soles, then with nail polish and now, with 38 shades of lipstick in the most dramatic metal bullets.\u201D",
+					"textStyle": "pullQuoteStyle",
+					"format": "markdown"
+				},
+				{
+					"role": "divider",
+					"stroke": {
+						"color": "#FFF0"
+					},
+					"layout": "blackStrokeLayout4",
+					"style": "baseStrokeStyle"
+				},
+				{
+					"role": "heading1",
+					"layout": "heading1Layout",
+					"text": "Call them \u201Cobjects d'art\u201D",
+					"textStyle": "heading1Style"
+				},
+				{
+					"role": "body",
+					"text": "Louboutin knows this\u2014after all, he's made women lust after his creations for decades: First, with his red soles, then with nail polish and now, with 38 shades of lipstick in the most dramatic metal bullets (that double as necklaces) we've ever seen. There are three textures to choose from\u2014Silky Satin, Velvet Matte and Sheer Voile\u2014and all the shades are inspired by the brand's iconic shoes and bags. At $90 each, they don't come cheap, but the best things rarely do. Louboutin knows this\u2014after all, he's made women lust after his creations for decades: First, with his red soles...",
+					"layout": "bodyLayout",
+					"textStyle": "bodyStyle",
+					"format": "markdown"
+				},
+				{
+					"role": "banner_advertisement",
+					"bannerType": "standard"
+				}
+			]
+		}
+	],
+	"documentStyle": {
+		"backgroundColor": "#FFF"
+	},
+	"componentStyles": {
+		"baseStrokeStyle": {
+		},
+		"bodyContainerStyle": {
+			"backgroundColor": "#FFF"
+		},
+		"dateLayoutStyle": {
+			"border": {
+				"all": {
+					"width": 2
+				},
+				"top": false,
+				"left": false,
+				"right": false
+			}
+		},
+		"photoContainerStyle": {
+			"backgroundColor": "#000"
+		},
+		"tabLayoutStyle": {
+			"fill": {
+				"type": "image",
+				"URL": "https://s3.amazonaws.com/sallyhdm/hbz_header_article.png",
+				"fillMode": "fit",
+				"verticalAlignment": "bottom",
+				"horizontalAlignment": "center"
+			}
+		}
+	},
+	"componentTextStyles": {
+		"authorStyle": {
+			"fontName": "Didot-HTF-M42-Medium",
+			"fontSize": 14,
+			"textAlignment": "center",
+			"textTransform":"uppercase",
+			"tracking": 0.5
+		},
+		"bodyStyle": {
+			"fontName": "BemboBookMTStd-Regular",
+			"fontSize": 18,
+			"lineHeight": 26,
+			"textAlignment": "left",
+			"linkStyle": {
+				"textColor": "#00AAE3",
+				"underline": true
+			}
+		},
+		"bodyStyleFirst": {
+			"fontName": "BemboBookMTStd-Regular",
+			"fontSize": 18,
+			"lineHeight": 26,
+			"textAlignment": "left",
+			"dropCapStyle": {
+				"fontName": "Didot-HTF-L42-Light",
+				"numberOfLines": 6,
+				"numberOfCharacters": 1
+			}
+		},
+		"captionStyle": {
+			"fontName": "TimesNewRomanPSMT",
+			"fontSize": 20,
+			"lineHeight": 32,
+			"textAlignment": "left",
+			"linkStyle": {
+				"underline": true
+			}
+		},
+		"creditStyle": {
+			"fontName": "Didot-HTF-M42-Medium",
+			"fontSize": 18,
+			"lineHeight": 24,
+			"textAlignment": "right",
+			"textColor": "#898989",
+			"textTransform":"uppercase"
+		},
+		"dateStyle": {
+			"fontName": "GothamNarrow-Bold",
+			"fontSize": 13,
+			"textAlignment": "center",
+			"textTransform":"uppercase"
+		},
+		"heading1Style": {
+			"fontName": "Didot-HTF-M42-Medium",
+			"fontSize": 32,
+			"lineHeight": 36,
+			"textAlignment": "left",
+			"textTransform":"uppercase"
+		},
+		"introStyle": {
+			"fontName": "Didot-HTF-L42-Light-Ital",
+			"fontSize": 30,
+			"lineHeight": 42,
+			"textAlignment": "center"
+		},
+		"lowerListStyle": {
+			"fontName": "TimesNewRomanPSMT",
+			"fontSize": 18,
+			"lineHeight": 20,
+			"textAlignment": "center"
+		},
+		"pullQuoteStyle": {
+			"fontName": "Didot-HTF-L42-Light-Ital",
+			"fontSize": 36,
+			"lineHeight": 46,
+			"textAlignment": "center"
+		},
+		"spacerWord":{
+			"fontName": "TimesNewRomanPSMT",
+			"fontSize": 48,
+			"lineHeight": 48,
+			"textAlignment": "center",
+			"textTransform": "uppercase"
+		},
+		"titleStyle": {
+			"fontName": "Didot-HTF-L42-Light",
+			"fontSize": 72,
+			"lineHeight": 64,
+			"textAlignment": "center",
+			"textTransform": "uppercase"
+		}
+	},
+	"componentLayouts": {
+		"adLayout": {
+			"margin": {
+				"top": 25,
+				"bottom": 25
+			}
+		},
+		"authorLayout": {
+			"margin": {
+				"top": 0
+			}
+		},
+		"blackStrokeLayout1":{
+			"margin": 0
+		},
+		"blackStrokeLayout2":{
+			"margin": 5
+		},
+		"blackStrokeLayout3":{
+		},
+		"blackStrokeLayout4":{
+		},
+		"bodyContainerLayout": {
+			"margin": {
+				"top": 0,
+				"bottom": 25
+			}
+		},
+		"bodyLayout": {
+			"margin": {
+				"top": 10,
+				"bottom": 15
+			}
+		},
+		"captionLayout": {
+			"margin": {
+				"top": 10,
+				"bottom": 25
+			}	 
+		},
+		"creditLayout": {
+			"margin": {
+				"top": 4,
+				"bottom": 0
+			}	 
+		},
+		"embedLayout": {
+			"margin": {
+				"top": 10,
+				"bottom": 10
+			}
+		},
+		"dateLayout": {
+			"margin": {
+				"top": 40,
+				"bottom": 0
+			}
+		},
+		"headerImageLayout": {
+			"ignoreDocumentMargin": true,
+			"minimumHeight": "50vh"
+		},
+		"heading1Layout": {
+			"margin": {
+				"top": 15,
+				"bottom": 5
+			}
+		},
+		"introLayout": {
+			"margin": {
+				"top": 0,
+				"bottom": 30
+			}
+		},
+		"photoLayout": {
+			"minimumHeight": "100vmax"
+		},
+		"pullQuoteLayout": {
+			"margin": {
+				"top": 15,
+				"bottom": 10
+			}
+		},
+		"slideLayout": {
+			"ignoreDocumentMargin": true,
+			"minimumHeight": "100cw"
+		},
+		"spacerLayout": {
+			"margin": {
+				"top": 5,
+				"bottom": 0
+			}
+		},
+		"tabLayout": {
+			"ignoreDocumentMargin": true,
+			"minimumHeight": 80,
+			"contentInset": false
+		},
+		"titleLayout": {
+			"margin": {
+				"top": 20,
+				"bottom": 0
+			}
+		}
+	}
 }

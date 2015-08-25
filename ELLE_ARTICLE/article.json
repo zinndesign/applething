@@ -1,401 +1,401 @@
-  {
-  "version": "0.10",
-  "identifier": "!!!DYNAMIC",
-  "title": "Corey Stoll: Shaving My Head Was a Game Changer",
-  "language": "en",
-  "blueprint": "basic",
-  "layout": {
-    "columns": 6,
-    "width": 1024,
-    "margin": 60,
-    "gutter": 40
-  },
-  "components": [
-    {
-      "role": "header",
-      "layout": "headerImageLayout",
-      "style": {
-        "fill": {
-          "type": "image",
-          "URL": "bundle://landscape-1438717869-bfa-2673-289453.jpg",
-          "fillMode": "cover",
-          "verticalAlignment": "top"
-        }
-      },
-      "behavior": {
-        "type": "parallax",
-        "factor": 0.5
-      },
-      "components": [
-        {
-          "role": "container",
-          "layout": "tabLayout",
-          "style": "tabLayoutStyle",
-          "anchor": {
-            "targetAnchorPosition": "bottom"
-          }
-        }
-      ]
-    },
-    {
-      "role": "section",
-      "layout": "bodyContainerLayout",
-      "style": "bodyContainerStyle",
-      "anchor": {
-        "targetAnchorPosition": "top"
-      },
-      "components": [
-        {
-          "role": "intro",
-          "layout": "dateLayout",
-          "text": "Aug 4 2015 @ 3:30pm",
-          "textStyle": "dateStyle"
-        },
-        {
-          "role": "title",
-          "layout": "titleLayout",
-          "text": "Corey Stoll: Shaving My Head Was a Game Changer",
-          "textStyle": "titleStyle"
-        },
-        {
-          "role": "intro",
-          "layout": "introLayout",
-          "text": "Corey Stoll is at his onscreen best when he's playing it kind of crooked, but, as Mickey Rapkin learns, when it comes to real life and love, the House of Cards alum is a straight shooter.",
-          "textStyle": "introStyle",
-          "format": "markdown"
-        },
-        {
-          "role": "divider",
-          "stroke": {
-            "color": "#FFF0"
-          },
-          "layout": "blackStrokeLayout1",
-          "style": "baseStrokeStyle"
-        },
-        {
-          "role": "author",
-          "layout": "authorLayout",
-          "text": "By Mickey Rapkin",
-          "textStyle": "authorStyle"
-        },
-        {
-          "role": "divider",
-          "stroke": {
-            "color": "#FFF0"
-          },
-          "layout": "blackStrokeLayout1",
-          "style": "baseStrokeStyle"
-        },
-        { 
-           "role": "medium_rectangle_advertisement",
-           "layout": "adLayout",
-           "bannerType": "standard"
-        },
-        {
-          "role": "body",
-          "text": "Success never happens overnight, but one much-talked-about performance can certainly make it seem that way. Thanks to his turn as the drunk, philandering politician Peter Russo on the first season of Netflix's _House of Cards_, Corey Stoll went from journeyman stage actor to in-demand Hollywood talent—and a hero to follically challenged men everywhere. Whether appearing on _Homeland_ or in theaters in _This Is Where I Leave You_, he's the thinking man's Jason Statham. Stoll grew up in Manhattan before studying theater at Oberlin, and now he's bringing his classical skills to this month's _Ant Man_ as the villainous Yellowjacket opposite Paul Rudd. Stoll is more chivalrous offscreen, proposing to his longtime girlfriend, actress Nadia Bowers (season 3 of _Orange Is the New Black_), in 2014. The couple (now expecting their first child) are set to marry this year. Here, the 39-year-old actor talks about his changing attitude toward marriage and embracing baldness.",
-          "layout": "bodyLayout",
-          "textStyle": "bodyStyleFirst",
-          "format": "markdown"
-        },
-        {
-          "role": "heading1",
-          "layout": "heading1Layout",
-          "text": "The 'House of Cards' Alum",
-          "textStyle": "heading1Style"
-        },
-        {
-          "role": "body",
-          "text": "**You went to theater camp as a kid. Was that to meet girls?**",
-          "layout": "bodyLayout",
-          "textStyle": "bodyStyle",
-          "format": "markdown"
-        },
-        {
-          "role": "body",
-          "text": "Embarrassingly, I was a nerd who was there for the craft. I went to Long Lake Camp. It was a shockingly sophisticated place for misfit teens.",
-          "layout": "bodyLayout",
-          "textStyle": "bodyStyle",
-          "format": "markdown"
-        },
-        {
-          "role": "divider",
-          "stroke": {
-            "color": "#FFF0"
-          },
-          "layout": "blackStrokeLayout3",
-          "style": "baseStrokeStyle"
-        },
-        {
-          "role": "pullquote",
-          "layout": "pullQuoteLayout",
-          "text": "You know, the fight was over. I never really knew what to do with my hair to begin with. When I was fat, I had incredibly long, unkempt hair. And there was kind of a poetic justice to losing something I was hiding behind.",
-          "textStyle": "pullQuoteStyle",
-          "format": "markdown"
-        },
-        {
-          "role": "divider",
-          "stroke": {
-            "color": "#FFF0"
-          },
-          "layout": "blackStrokeLayout4",
-          "style": "baseStrokeStyle"
-        },
-        {
-          "role": "body",
-          "text": "**Did you learn anything about women from Woody Allen?**",
-          "layout": "bodyLayout",
-          "textStyle": "bodyStyle",
-          "format": "markdown"
-        },
-        {
-          "role": "body",
-          "text": "[_Laughs_] Woody paid no attention to me. Our interactions were all business. Every time I tried to chat him up, he would just nod and look back at his iPhone. Then, the last day of filming, my now-fiancée showed up. Suddenly, he really came alive. I could have lit myself on fire and still not gotten his attention.",
-          "layout": "bodyLayout",
-          "textStyle": "bodyStyle",
-          "format": "markdown"
-        },
-        {
-          "role": "banner_advertisement",
-          "bannerType": "standard"
-        }
-      ]
-    }
-  ],
-  "documentStyle": {
-    "backgroundColor": "#FFF"
-  },
-  "componentStyles": {
-    "baseStrokeStyle": {
-      "border": {
-        "all": {
-          "width": 1,
-          "color": "#CCC"
-        },
-        "top": false,
-        "left": false,
-        "right": false
-      }
-    },
-    "bodyContainerStyle": {
-      "backgroundColor": "#FFF"
-    },
-    "photoContainerStyle": {
-      "backgroundColor": "#000"
-    },
-    "tabLayoutStyle": {
-      "fill": {
-        "type": "image",
-        "URL": "https://s3.amazonaws.com/sallyhdm/ell_header_article.png",
-        "fillMode": "cover",
-        "verticalAlignment": "bottom",
-        "horizontalAlignment": "right"
-      }
-    }
-  },
-  "componentTextStyles": {
-    "authorStyle": {
-      "fontName": "AvantGardeGothicITCW01XLt",
-      "fontSize": 14,
-      "textAlignment": "left",
-      "textTransform": "uppercase"
-    },
-    "bodyStyle": {
-      "fontName": "MTBaskervilleETW01-Roman",
-      "fontSize": 16,
-      "lineHeight": 26,
-      "textAlignment": "left"
-    },
-    "bodyStyleFirst": {
-      "fontName": "MTBaskervilleETW01-Roman",
-      "fontSize": 16,
-      "lineHeight": 26,
-      "textAlignment": "left",
-      "dropCapStyle": {
-        "fontName": "AvantGardeGothicITCW01XLt",
-        "numberOfLines": 3,
-        "numberOfCharacters": 1
-      }
-    },
-    "captionStyle": {
-      "fontName": "MTBaskervilleETW01-BoldIt",
-      "fontSize": 18,
-      "lineHeight": 26,
-      "textAlignment": "left"
-    },
-    "creditStyle": {
-      "fontName": "AvantGardeGothicITCW01XLt",
-      "fontSize": 10,
-      "lineHeight": 12,
-      "textAlignment": "right",
-      "textColor": "#444",
-      "textTransform":"uppercase"
-    },
-    "dateStyle": {
-      "fontName": "MTBaskervilleETW01-Roman",
-      "fontSize": 12,
-      "textAlignment": "left",
-      "textTransform": "uppercase"
-    },
-    "heading1Style": {
-      "fontName": "AvantGardeGothicITCW01XLt",
-      "fontSize": 42,
-      "lineHeight": 46,
-      "textAlignment": "left",
-      "textTransform":"uppercase"
-    },
-    "introStyle": {
-      "fontName": "AvantGardeGothicITCW01XLt",
-      "fontSize": 24,
-      "lineHeight": 32,
-      "textAlignment": "left"
-    },
-    "lowerListStyle": {
-      "fontName": "MTBaskervilleETW01-Roman",
-      "fontSize": 18,
-      "lineHeight": 20,
-      "textAlignment": "center"
-    },
-    "pullQuoteStyle": {
-      "fontName": "MTBaskervilleETW01-Roman",
-      "fontSize": 24,
-      "lineHeight": 30,
-      "textAlignment": "center",
-      "textTransform":"uppercase"
-    },
-    "spacerWord":{
-      "fontName": "AvantGardeGothicITCW01XLt",
-      "fontSize": 48,
-      "lineHeight": 48,
-      "textAlignment": "center",
-      "textTransform": "uppercase"
-    },
-    "titleStyle": {
-      "fontName": "AvantGardeGothicITCW01XLt",
-      "fontSize": 58,
-      "lineHeight": 64,
-      "textAlignment": "left",
-      "textTransform": "uppercase"
-    }
-  },
-  "componentLayouts": {
-    "adLayout": {
-      "margin": {
-      }
-    },
-    "authorLayout": {
-      "margin": {
-        "top": 6,
-        "bottom": 4
-      }
-    },
-    "blackStrokeLayout1":{
-      "margin":{
-        "top":0,
-        "bottom":0
-      }
-    },
-    "blackStrokeLayout2":{
-      "margin":{
-        "top":5,
-        "bottom":5
-      }
-    },
-    "blackStrokeLayout3":{
-      "margin":{
-        "top":35,
-        "bottom":0
-      }
-    },
-    "blackStrokeLayout4":{
-      "margin":{
-        "top":0,
-        "bottom":15
-      }
-    },
-    "bodyContainerLayout": {
-      "ignoreDocumentMargin": false,
-      "margin": {
-        "top": 0,
-        "bottom": 40
-      }
-    },
-    "bodyLayout": {
-      "margin": {
-        "top": 25,
-        "bottom": 0
-      }
-    },
-    "captionLayout": {
-      "margin": {
-        "top": 15,
-        "bottom": 30
-      }
-    },
-    "creditLayout": {
-      "margin": {
-        "top": 4,
-        "bottom": 0
-      }   
-    },
-    "dateLayout": {
-      "margin": {
-        "top": 0,
-        "bottom": 10
-      }
-    },
-    "embedLayout": {
-      "margin": {
-        "top": 5,
-        "bottom": 20
-      }
-    },
-    "headerImageLayout": {
-      "ignoreDocumentMargin": true,
-      "minimumHeight": "60vh"
-    },
-    "heading1Layout": {
-      "margin": {
-        "top": 25,
-        "bottom": 0
-      }
-    },
-    "introLayout": {
-      "margin": {
-        "top": 5,
-        "bottom": 25
-      }
-    },
-    "photoLayout": {
-      "minimumHeight": "100vmax"
-    },
-    "pullQuoteLayout": {
-      "margin": {
-        "top": 25,
-        "bottom": 25
-      },
-      "contentInset": {
-        "top": false,
-        "bottom": false
-      }
-    },
-    "slideLayout": {
-    },
-    "spacerLayout": {
-      "margin": {
-        "top": 5,
-        "bottom": 0
-      }
-    },
-    "tabLayout": {
-      "ignoreDocumentMargin": true,
-      "minimumHeight": "40vw"
-    },
-    "titleLayout": {
-      "margin": {
-        "top": 15,
-        "bottom": 5
-      }
-    }
-  }
+	{
+	"version": "0.10",
+	"identifier": "!!!DYNAMIC",
+	"title": "Corey Stoll: Shaving My Head Was a Game Changer",
+	"language": "en",
+	"blueprint": "basic",
+	"layout": {
+		"columns": 6,
+		"width": 1024,
+		"margin": 60,
+		"gutter": 40
+	},
+	"components": [
+		{
+			"role": "header",
+			"layout": "headerImageLayout",
+			"style": {
+				"fill": {
+					"type": "image",
+					"URL": "bundle://landscape-1438717869-bfa-2673-289453.jpg",
+					"fillMode": "cover",
+					"verticalAlignment": "top"
+				}
+			},
+			"behavior": {
+				"type": "parallax",
+				"factor": 0.5
+			},
+			"components": [
+				{
+					"role": "container",
+					"layout": "tabLayout",
+					"style": "tabLayoutStyle",
+					"anchor": {
+						"targetAnchorPosition": "bottom"
+					}
+				}
+			]
+		},
+		{
+			"role": "section",
+			"layout": "bodyContainerLayout",
+			"style": "bodyContainerStyle",
+			"anchor": {
+				"targetAnchorPosition": "top"
+			},
+			"components": [
+				{
+					"role": "intro",
+					"layout": "dateLayout",
+					"text": "Aug 4 2015 @ 3:30pm",
+					"textStyle": "dateStyle"
+				},
+				{
+					"role": "title",
+					"layout": "titleLayout",
+					"text": "Corey Stoll: Shaving My Head Was a Game Changer",
+					"textStyle": "titleStyle"
+				},
+				{
+					"role": "intro",
+					"layout": "introLayout",
+					"text": "Corey Stoll is at his onscreen best when he's playing it kind of crooked, but, as Mickey Rapkin learns, when it comes to real life and love, the House of Cards alum is a straight shooter.",
+					"textStyle": "introStyle",
+					"format": "markdown"
+				},
+				{
+					"role": "divider",
+					"stroke": {
+						"color": "#FFF0"
+					},
+					"layout": "blackStrokeLayout1",
+					"style": "baseStrokeStyle"
+				},
+				{
+					"role": "author",
+					"layout": "authorLayout",
+					"text": "By Mickey Rapkin",
+					"textStyle": "authorStyle"
+				},
+				{
+					"role": "divider",
+					"stroke": {
+						"color": "#FFF0"
+					},
+					"layout": "blackStrokeLayout2",
+					"style": "baseStrokeStyle"
+				},
+				{ 
+					 "role": "medium_rectangle_advertisement",
+					 "layout": "adLayout",
+					 "bannerType": "standard"
+				},
+				{
+					"role": "body",
+					"text": "Success never happens overnight, but one much-talked-about performance can certainly make it seem that way. Thanks to his turn as the drunk, philandering politician Peter Russo on the first season of Netflix's _House of Cards_, Corey Stoll went from journeyman stage actor to in-demand Hollywood talent—and a hero to follically challenged men everywhere. Whether appearing on _Homeland_ or in theaters in _This Is Where I Leave You_, he's the thinking man's Jason Statham. Stoll grew up in Manhattan before studying theater at Oberlin, and now he's bringing his classical skills to this month's _Ant Man_ as the villainous Yellowjacket opposite Paul Rudd. Stoll is more chivalrous offscreen, proposing to his longtime girlfriend, actress Nadia Bowers (season 3 of _Orange Is the New Black_), in 2014. The couple (now expecting their first child) are set to marry this year. Here, the 39-year-old actor talks about his changing attitude toward marriage and embracing baldness.",
+					"layout": "bodyLayout",
+					"textStyle": "bodyStyleFirst",
+					"format": "markdown"
+				},
+				{
+					"role": "heading1",
+					"layout": "heading1Layout",
+					"text": "The 'House of Cards' Alum",
+					"textStyle": "heading1Style"
+				},
+				{
+					"role": "body",
+					"text": "**You went to theater camp as a kid. Was that to meet girls?**",
+					"layout": "bodyLayout",
+					"textStyle": "bodyStyle",
+					"format": "markdown"
+				},
+				{
+					"role": "body",
+					"text": "Embarrassingly, I was a nerd who was there for the craft. I went to Long Lake Camp. It was a shockingly sophisticated place for misfit teens.",
+					"layout": "bodyLayout",
+					"textStyle": "bodyStyle",
+					"format": "markdown"
+				},
+				{
+					"role": "divider",
+					"stroke": {
+						"color": "#FFF0"
+					},
+					"layout": "blackStrokeLayout3",
+					"style": "baseStrokeStyle"
+				},
+				{
+					"role": "pullquote",
+					"layout": "pullQuoteLayout",
+					"text": "You know, the fight was over. I never really knew what to do with my hair to begin with. When I was fat, I had incredibly long, unkempt hair. And there was kind of a poetic justice to losing something I was hiding behind.",
+					"textStyle": "pullQuoteStyle",
+					"format": "markdown"
+				},
+				{
+					"role": "divider",
+					"stroke": {
+						"color": "#FFF0"
+					},
+					"layout": "blackStrokeLayout4",
+					"style": "baseStrokeStyle"
+				},
+				{
+					"role": "body",
+					"text": "**Did you learn anything about women from Woody Allen?**",
+					"layout": "bodyLayout",
+					"textStyle": "bodyStyle",
+					"format": "markdown"
+				},
+				{
+					"role": "body",
+					"text": "[_Laughs_] Woody paid no attention to me. Our interactions were all business. Every time I tried to chat him up, he would just nod and look back at his iPhone. Then, the last day of filming, my now-fiancée showed up. Suddenly, he really came alive. I could have lit myself on fire and still not gotten his attention.",
+					"layout": "bodyLayout",
+					"textStyle": "bodyStyle",
+					"format": "markdown"
+				},
+				{
+					"role": "banner_advertisement",
+					"bannerType": "standard"
+				}
+			]
+		}
+	],
+	"documentStyle": {
+		"backgroundColor": "#FFF"
+	},
+	"componentStyles": {
+		"baseStrokeStyle": {
+			"border": {
+				"all": {
+					"width": 1,
+					"color": "#CCC"
+				},
+				"top": false,
+				"left": false,
+				"right": false
+			}
+		},
+		"bodyContainerStyle": {
+			"backgroundColor": "#FFF"
+		},
+		"photoContainerStyle": {
+			"backgroundColor": "#000"
+		},
+		"tabLayoutStyle": {
+			"fill": {
+				"type": "image",
+				"URL": "https://s3.amazonaws.com/sallyhdm/ell_header_article.png",
+				"fillMode": "cover",
+				"verticalAlignment": "bottom",
+				"horizontalAlignment": "right"
+			}
+		}
+	},
+	"componentTextStyles": {
+		"authorStyle": {
+			"fontName": "AvantGardeGothicITCW01XLt",
+			"fontSize": 14,
+			"textAlignment": "left",
+			"textTransform": "uppercase"
+		},
+		"bodyStyle": {
+			"fontName": "MTBaskervilleETW01-Roman",
+			"fontSize": 16,
+			"lineHeight": 26,
+			"textAlignment": "left"
+		},
+		"bodyStyleFirst": {
+			"fontName": "MTBaskervilleETW01-Roman",
+			"fontSize": 16,
+			"lineHeight": 26,
+			"textAlignment": "left",
+			"dropCapStyle": {
+				"fontName": "AvantGardeGothicITCW01XLt",
+				"numberOfLines": 3,
+				"numberOfCharacters": 1
+			}
+		},
+		"captionStyle": {
+			"fontName": "MTBaskervilleETW01-BoldIt",
+			"fontSize": 18,
+			"lineHeight": 26,
+			"textAlignment": "left"
+		},
+		"creditStyle": {
+			"fontName": "AvantGardeGothicITCW01XLt",
+			"fontSize": 10,
+			"lineHeight": 12,
+			"textAlignment": "right",
+			"textColor": "#444",
+			"textTransform":"uppercase"
+		},
+		"dateStyle": {
+			"fontName": "MTBaskervilleETW01-Roman",
+			"fontSize": 12,
+			"textAlignment": "left",
+			"textTransform": "uppercase"
+		},
+		"heading1Style": {
+			"fontName": "AvantGardeGothicITCW01XLt",
+			"fontSize": 42,
+			"lineHeight": 46,
+			"textAlignment": "left",
+			"textTransform":"uppercase"
+		},
+		"introStyle": {
+			"fontName": "AvantGardeGothicITCW01XLt",
+			"fontSize": 24,
+			"lineHeight": 32,
+			"textAlignment": "left"
+		},
+		"lowerListStyle": {
+			"fontName": "MTBaskervilleETW01-Roman",
+			"fontSize": 18,
+			"lineHeight": 20,
+			"textAlignment": "center"
+		},
+		"pullQuoteStyle": {
+			"fontName": "MTBaskervilleETW01-Roman",
+			"fontSize": 24,
+			"lineHeight": 30,
+			"textAlignment": "center",
+			"textTransform":"uppercase"
+		},
+		"spacerWord":{
+			"fontName": "AvantGardeGothicITCW01XLt",
+			"fontSize": 48,
+			"lineHeight": 48,
+			"textAlignment": "center",
+			"textTransform": "uppercase"
+		},
+		"titleStyle": {
+			"fontName": "AvantGardeGothicITCW01XLt",
+			"fontSize": 58,
+			"lineHeight": 64,
+			"textAlignment": "left",
+			"textTransform": "uppercase"
+		}
+	},
+	"componentLayouts": {
+		"adLayout": {
+			"margin": {
+			}
+		},
+		"authorLayout": {
+			"margin": {
+				"top": 6,
+				"bottom": 4
+			}
+		},
+		"blackStrokeLayout1":{
+			"margin":{
+				"top":0,
+				"bottom":0
+			}
+		},
+		"blackStrokeLayout2":{
+			"margin":{
+				"top":0,
+				"bottom":15
+			}
+		},
+		"blackStrokeLayout3":{
+			"margin":{
+				"top":35,
+				"bottom":0
+			}
+		},
+		"blackStrokeLayout4":{
+			"margin":{
+				"top":0,
+				"bottom":15
+			}
+		},
+		"bodyContainerLayout": {
+			"ignoreDocumentMargin": false,
+			"margin": {
+				"top": 0,
+				"bottom": 40
+			}
+		},
+		"bodyLayout": {
+			"margin": {
+				"top": 10,
+				"bottom": 10
+			}
+		},
+		"captionLayout": {
+			"margin": {
+				"top": 15,
+				"bottom": 30
+			}
+		},
+		"creditLayout": {
+			"margin": {
+				"top": 4,
+				"bottom": 0
+			}	 
+		},
+		"dateLayout": {
+			"margin": {
+				"top": 0,
+				"bottom": 10
+			}
+		},
+		"embedLayout": {
+			"margin": {
+				"top": 5,
+				"bottom": 20
+			}
+		},
+		"headerImageLayout": {
+			"ignoreDocumentMargin": true,
+			"minimumHeight": "60vh"
+		},
+		"heading1Layout": {
+			"margin": {
+				"top": 25,
+				"bottom": 0
+			}
+		},
+		"introLayout": {
+			"margin": {
+				"top": 5,
+				"bottom": 25
+			}
+		},
+		"photoLayout": {
+			"minimumHeight": "100vmax"
+		},
+		"pullQuoteLayout": {
+			"margin": {
+				"top": 25,
+				"bottom": 25
+			},
+			"contentInset": {
+				"top": false,
+				"bottom": false
+			}
+		},
+		"slideLayout": {
+		},
+		"spacerLayout": {
+			"margin": {
+				"top": 5,
+				"bottom": 0
+			}
+		},
+		"tabLayout": {
+			"ignoreDocumentMargin": true,
+			"minimumHeight": "40vw"
+		},
+		"titleLayout": {
+			"margin": {
+				"top": 15,
+				"bottom": 5
+			}
+		}
+	}
 }

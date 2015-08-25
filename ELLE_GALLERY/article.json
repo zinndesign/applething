@@ -1,434 +1,435 @@
 {
-  "version": "0.10",
-  "identifier": "DYNAMIC",
-  "title": "16 Hollywood Couples Whose Breakups Would Devastate Us",
-  "language": "en",
-  "blueprint": "basic",
-  "layout": {
-    "columns": 6,
-    "width": 1024
-  },
-  "components": [
-    {
-      "role": "header",
-      "layout": "headerImageLayout",
-      "style": {
-        "fill": {
-          "type": "image",
-          "URL": "bundle://header.jpg",
-          "fillMode": "cover",
-          "verticalAlignment": "top"
-        }
-      },
-      "behavior": {
-        "type": "parallax",
-        "factor": 0.5
-      },
-      "components": [
-        {
-          "role": "container",
-          "layout": "tabLayout",
-          "style": "tabLayoutStyle",
-          "anchor": {
-            "targetAnchorPosition": "bottom"
-          }
-        }
-      ]
-    },
-    {
-      "role": "section",
-      "layout": "bodyContainerLayout",
-      "style": "bodyContainerStyle",
-      "anchor": {
-        "targetAnchorPosition": "top"
-      },
-      "components": [
-        {
-          "role": "intro",
-          "layout": "dateLayout",
-          "text": "Aug 03 2015 1:18 PM",
-          "textStyle" : "dateStyle"
-        },
-        {
-          "role": "title",
-          "text": "16 Hollywood Couples Whose Breakups Would Devastate Us",
-          "layout": "titleLayout",
-          "textStyle": "titleStyle",
-          "format": "markdown"
-        },
-        {
-          "role": "intro",
-          "layout": "introLayout",
-          "text": "True love is dead—or at least, in mortal peril. On the heels of Ben Affleck and Jennifer Garner's split  and Miranda Lambert and Blake Shelton confirming their divorcing, another of Hollywood's most famous couples is breaking up: Gwen Stefani and Gavin Rossdale. Make it stop! Here, 16 celeb couples whose love we love—and who would totally shatter us if they ever ended things.",
-          "textStyle": "introStyle",
-          "format": "markdown"
-        },
-        {
-          "role": "divider",
-          "stroke": {
-            "color": "#FFF0"
-          },
-          "layout": "blackStrokeLayout1",
-          "style": "baseStrokeStyle"
-        },
-        {
-          "role": "author",
-          "layout": "authorLayout",
-          "text": "By Sally Holmes",
-          "textStyle": "authorStyle"
-        },
-        {
-          "role": "divider",
-          "stroke": {
-            "color": "#FFF0"
-        },
-          "layout": "blackStrokeLayout1",
-          "style": "baseStrokeStyle"
-        },
-        {
-          "role": "section",
-          "components": [
-            {
-              "role": "heading",
-              "text": "David Bowie and Iman",
-              "layout": "heading1Layout",
-              "textStyle": "heading1Style",
-              "format": "markdown"
-            },
-            {
-              "role": "container",
-              "style": "photoContainerStyle",
-              "layout": "photoLayout",
-              "components": [
-                {
-                  "role": "container",
-                  "style": {
-                    "fill": {
-                      "type": "image",
-                      "URL": "bundle://bodyimage1.jpg"
-                    }
-                  },
-                  "layout": "photoLayout",
-                  "animation": {
-                    "type": "fade_in",
-                    "userControllable": true,
-                    "initialAlpha": 0.1
-                  }
-                }
-              ]
-            },
-            {
-              "role": "photographer",
-              "text": "Getty",
-              "layout": "creditLayout",
-              "textStyle": "creditStyle"
-            },      
-            {
-              "role": "caption",
-              "text": "Because they are basically the _coolest_.",
-              "layout": "captionLayout",
-              "textStyle": "captionStyle",
-              "format": "markdown"
-            }
-          ]
-        },
-         {
-          "role": "section",
-          "components": [
-            {
-              "role": "heading",
-              "text": "Shante Broadus and Snoop Dogg",
-              "layout": "heading1Layout",
-              "textStyle": "heading1Style",
-              "format": "markdown"
-            },
-            {
-              "role": "container",
-              "style": "photoContainerStyle",
-              "layout": "photoLayout",
-              "components": [
-                {
-                  "role": "container",
-                  "style": {
-                    "fill": {
-                      "type": "image",
-                      "URL": "bundle://bodyimage2.jpg"
-                    }
-                  },
-                  "layout": "photoLayout",
-                  "animation": {
-                    "type": "fade_in",
-                    "userControllable": true,
-                    "initialAlpha": 0.1
-                  }
-                }
-              ]
-            },
-            {
-              "role": "photographer",
-              "text": "Getty",
-              "layout": "creditLayout",
-              "textStyle": "creditStyle"
-            },      
-            {
-              "role": "caption",
-              "text": "They've been married for 18 years and were high school sweethearts. I mean SNOOP LION </3.",
-              "layout": "captionLayout",
-              "textStyle": "captionStyle",
-              "format": "markdown"
-            }
-          ]
-        },
-        { 
-          "role": "medium_rectangle_advertisement",
-          "layout": "adLayout",
-          "bannerType": "standard"
-        }
-      ]
-    },
-    {
-      "role": "banner_advertisement",
-      "bannerType": "standard"
-    }
-  ],
-  "documentStyle": {
-    "backgroundColor": "#FFF"
-  },
-  "componentStyles": {
-    "baseStrokeStyle": {
-      "border": {
-        "all": {
-          "width": 1,
-          "color": "#CCC"
-        },
-        "top": false,
-        "left": false,
-        "right": false
-      }
-    },
-    "bodyContainerStyle": {
-      "backgroundColor": "#FFF"
-    },
-    "dateLayoutStyle": {
-    },
-    "photoContainerStyle": {
-      "backgroundColor": "#000"
-    },
-    "tabLayoutStyle": {
-      "fill": {
-        "type": "image",
-        "URL": "https://s3.amazonaws.com/sallyhdm/ell_header_gallery.png",
-        "fillMode": "fit",
-        "verticalAlignment": "bottom",
-        "horizontalAlignment": "center"
-      }
-    }
-  },
-  "componentTextStyles": {
-    "authorStyle": {
-      "identifier": "authorStyle",
-      "fontName": "AvantGardeGothicITCW01XLt",
-      "fontSize": 16,
-      "textColor": "#000",
-      "textTransform": "uppercase",
-      "textAlignment": "left"
-    },
-    "bodyStyle": {
-      "textAlignment": "left",
-      "fontName": "MTBaskervilleETW01-Roman",
-      "fontSize": 16,
-      "lineHeight": 26,
-      "textColor": "#000"
-    },
-    "bodyStyleFirst": {
-      "fontName": "MTBaskervilleETW01-Roman",
-      "fontSize": 16,
-      "lineHeight": 26,
-      "textAlignment": "left",
-      "dropCapStyle": {
-        "fontName": "AvantGardeGothicITCW01XLt",
-        "numberOfLines": 3,
-        "numberOfCharacters": 1
-      }
-    },
-    "captionStyle": {
-      "textAlignment": "left",
-      "fontName": "MTBaskervilleETW01-Roman",
-      "fontSize": 16,
-      "lineHeight": 20,
-      "textColor": "#000"
-    },
-    "creditStyle": {
-      "textAlignment": "right",
-      "fontName": "AvantGardeGothicITCW01XLt",
-      "fontSize": 9,
-      "lineHeight": 12,
-      "textTransform":"uppercase",
-      "textColor": "#444444"
-    },
-    "dateStyle": {
-      "identifier": "dateStyle",
-      "fontName": "MTBaskervilleETW01-Roman",
-      "fontSize": 12,
-      "textColor": "#000",
-      "textTransform": "uppercase",
-      "textAlignment": "left"
-    },
-    "heading1Style": {
-      "textAlignment": "left",
-      "fontName": "AvantGardeGothicITCW01Dm",
-      "fontSize": 24,
-      "lineHeight": 28,
-      "textTransform":"uppercase",
-      "textColor": "#000"
-    },
-    "introStyle": {
-      "textAlignment": "left",
-      "fontName": "AvantGardeGothicITCW01XLt",
-      "fontSize": 24,
-      "lineHeight":30,
-      "textColor": "#000"
-    },
-    "lowerListStyle": {
-      "textAlignment": "center",
-      "fontName": "MTBaskervilleETW01-Roman",
-      "fontSize": 18,
-      "lineHeight":20,
-      "textColor": "#000"
-    },
-    "pullQuoteStyle": {
-      "textAlignment": "center",
-      "fontName": "MTBaskervilleETW01-Roman",
-      "fontSize": 22,
-      "lineHeight": 28,
-      "textTransform":"uppercase",
-      "textColor": "#000"
-    },
-    "spacerWord":{
-      "textAlignment": "center",
-      "fontSize": 48,
-      "lineHeight": 48,
-      "textColor": "#000",
-      "textTransform": "uppercase",
-      "fontName": "AvantGardeGothicITCW01XLt"
-    },
-    "titleStyle": {
-      "textAlignment": "left",
-      "fontName": "AvantGardeGothicITCW01XLt",
-      "textTransform": "uppercase",
-      "fontSize": 52,
-      "lineHeight": 54,
-      "textColor": "#000"
-    }
-  },
-  "componentLayouts": {
-    "adLayout": {
-    },
-    "authorLayout": {
-      "margin": {
-        "top": 6,
-        "bottom": 4
-      }
-    },
-    "blackStrokeLayout1":{
-      "margin":{
-        "top":0,
-        "bottom":0
-      }
-    },
-    "blackStrokeLayout2":{
-      "margin":{
-        "top":5,
-        "bottom":5
-      }
-           },
-    "blackStrokeLayout3":{
-      "margin":{
-        "top":10,
-        "bottom":35
-      }
-    },
-    "blackStrokeLayout4":{
-      "margin":{
-        "top":10,
-        "bottom":35
-      }
-    },
-    "bodyContainerLayout": {
-      "ignoreDocumentMargin": true,
-      "margin": {
-        "top": 0,
-        "bottom": 40
-      }
-    },
-    "bodyLayout": {
-      "margin": {
-        "top": 35,
-        "bottom": 25
-      }
-    },
-    "captionLayout": {
-      "margin": {
-        "top": 10,
-        "bottom": 25
-      }   
-    },
-    "creditLayout": {
-      "margin": {
-        "top": 4,
-        "bottom": 0
-      }   
-    },
-    "dateLayout": {
-      "margin": {
-        "top": 20,
-        "bottom": 5
-      }
-    },
-    "embedLayout": {
-    },
-    "headerImageLayout": {
-      "ignoreDocumentMargin": true,
-      "minimumHeight": "49vh"
-    },
-    "heading1Layout": {
-      "margin": {
-        "top": 25,
-        "bottom": 10
-      }
-    },
-    "introLayout": {
-      "margin": {
-        "top": 0,
-        "bottom": 15
-      }
-    },
-    "photoLayout": {
-      "minimumHeight": "100vmax"
-    },
-    "pullQuoteLayout": {
-      "margin": {
-        "top": 25,
-        "bottom": 25
-      },
-      "contentInset": {
-        "top": false,
-        "bottom": false
-      }
-    },
-    "slideLayout": {
-      "ignoreDocumentMargin": true,
-      "minimumHeight": "100cw"
-    },
-    "tabLayout": {
-      "ignoreDocumentMargin": true,
-      "minimumHeight": "40vw"
-    },
-    "titleLayout": {
-      "margin": {
-        "top": 10,
-        "bottom": 10
-      }
-    }
-  }
+	"version": "0.10",
+	"identifier": "DYNAMIC",
+	"title": "16 Hollywood Couples Whose Breakups Would Devastate Us",
+	"language": "en",
+	"blueprint": "basic",
+	"layout": {
+		"columns": 6,
+		"width": 1024
+	},
+	"components": [
+		{
+			"role": "header",
+			"layout": "headerImageLayout",
+			"style": {
+				"fill": {
+					"type": "image",
+					"URL": "bundle://header.jpg",
+					"fillMode": "cover",
+					"verticalAlignment": "top"
+				}
+			},
+			"behavior": {
+				"type": "parallax",
+				"factor": 0.5
+			},
+			"components": [
+				{
+					"role": "container",
+					"layout": "tabLayout",
+					"style": "tabLayoutStyle",
+					"anchor": {
+						"targetAnchorPosition": "bottom"
+					}
+				}
+			]
+		},
+		{
+			"role": "section",
+			"layout": "bodyContainerLayout",
+			"style": "bodyContainerStyle",
+			"anchor": {
+				"targetAnchorPosition": "top"
+			},
+			"components": [
+				{
+					"role": "intro",
+					"layout": "dateLayout",
+					"text": "Aug 03 2015 1:18 PM",
+					"textStyle" : "dateStyle"
+				},
+				{
+					"role": "title",
+					"text": "16 Hollywood Couples Whose Breakups Would Devastate Us",
+					"layout": "titleLayout",
+					"textStyle": "titleStyle",
+					"format": "markdown"
+				},
+				{
+					"role": "intro",
+					"layout": "introLayout",
+					"text": "True love is dead—or at least, in mortal peril. On the heels of Ben Affleck and Jennifer Garner's split	and Miranda Lambert and Blake Shelton confirming their divorcing, another of Hollywood's most famous couples is breaking up: Gwen Stefani and Gavin Rossdale. Make it stop! Here, 16 celeb couples whose love we love—and who would totally shatter us if they ever ended things.",
+					"textStyle": "introStyle",
+					"format": "markdown"
+				},
+				{
+					"role": "divider",
+					"stroke": {
+						"color": "#FFF0"
+					},
+					"layout": "blackStrokeLayout1",
+					"style": "baseStrokeStyle"
+				},
+				{
+					"role": "author",
+					"layout": "authorLayout",
+					"text": "By Sally Holmes",
+					"textStyle": "authorStyle"
+				},
+				{
+					"role": "divider",
+					"stroke": {
+						"color": "#FFF0"
+				},
+					"layout": "blackStrokeLayout1",
+					"style": "baseStrokeStyle"
+				},
+				{
+					"role": "section",
+					"components": [
+						{
+							"role": "heading",
+							"text": "David Bowie and Iman",
+							"layout": "heading1Layout",
+							"textStyle": "heading1Style",
+							"format": "markdown"
+						},
+						{
+							"role": "container",
+							"style": "photoContainerStyle",
+							"layout": "photoLayout",
+							"components": [
+								{
+									"role": "container",
+									"style": {
+										"fill": {
+											"type": "image",
+											"URL": "bundle://bodyimage1.jpg",
+											"fillMode": "fit"
+										}
+									},
+									"layout": "photoLayout",
+									"animation": {
+										"type": "fade_in",
+										"userControllable": true,
+										"initialAlpha": 0.1
+									}
+								}
+							]
+						},
+						{
+							"role": "photographer",
+							"text": "Getty",
+							"layout": "creditLayout",
+							"textStyle": "creditStyle"
+						},			
+						{
+							"role": "caption",
+							"text": "Because they are basically the _coolest_.",
+							"layout": "captionLayout",
+							"textStyle": "captionStyle",
+							"format": "markdown"
+						}
+					]
+				},
+				 {
+					"role": "section",
+					"components": [
+						{
+							"role": "heading",
+							"text": "Shante Broadus and Snoop Dogg",
+							"layout": "heading1Layout",
+							"textStyle": "heading1Style",
+							"format": "markdown"
+						},
+						{
+							"role": "container",
+							"style": "photoContainerStyle",
+							"layout": "photoLayout",
+							"components": [
+								{
+									"role": "container",
+									"style": {
+										"fill": {
+											"type": "image",
+											"URL": "bundle://bodyimage2.jpg"
+										}
+									},
+									"layout": "photoLayout",
+									"animation": {
+										"type": "fade_in",
+										"userControllable": true,
+										"initialAlpha": 0.1
+									}
+								}
+							]
+						},
+						{
+							"role": "photographer",
+							"text": "Getty",
+							"layout": "creditLayout",
+							"textStyle": "creditStyle"
+						},			
+						{
+							"role": "caption",
+							"text": "They've been married for 18 years and were high school sweethearts. I mean SNOOP LION </3.",
+							"layout": "captionLayout",
+							"textStyle": "captionStyle",
+							"format": "markdown"
+						}
+					]
+				},
+				{ 
+					"role": "medium_rectangle_advertisement",
+					"layout": "adLayout",
+					"bannerType": "standard"
+				}
+			]
+		},
+		{
+			"role": "banner_advertisement",
+			"bannerType": "standard"
+		}
+	],
+	"documentStyle": {
+		"backgroundColor": "#FFF"
+	},
+	"componentStyles": {
+		"baseStrokeStyle": {
+			"border": {
+				"all": {
+					"width": 1,
+					"color": "#CCC"
+				},
+				"top": false,
+				"left": false,
+				"right": false
+			}
+		},
+		"bodyContainerStyle": {
+			"backgroundColor": "#FFF"
+		},
+		"dateLayoutStyle": {
+		},
+		"photoContainerStyle": {
+			"backgroundColor": "#000"
+		},
+		"tabLayoutStyle": {
+			"fill": {
+				"type": "image",
+				"URL": "https://s3.amazonaws.com/sallyhdm/ell_header_gallery.png",
+				"fillMode": "fit",
+				"verticalAlignment": "bottom",
+				"horizontalAlignment": "center"
+			}
+		}
+	},
+	"componentTextStyles": {
+		"authorStyle": {
+			"identifier": "authorStyle",
+			"fontName": "AvantGardeGothicITCW01XLt",
+			"fontSize": 16,
+			"textColor": "#000",
+			"textTransform": "uppercase",
+			"textAlignment": "left"
+		},
+		"bodyStyle": {
+			"textAlignment": "left",
+			"fontName": "MTBaskervilleETW01-Roman",
+			"fontSize": 16,
+			"lineHeight": 26,
+			"textColor": "#000"
+		},
+		"bodyStyleFirst": {
+			"fontName": "MTBaskervilleETW01-Roman",
+			"fontSize": 16,
+			"lineHeight": 26,
+			"textAlignment": "left",
+			"dropCapStyle": {
+				"fontName": "AvantGardeGothicITCW01XLt",
+				"numberOfLines": 3,
+				"numberOfCharacters": 1
+			}
+		},
+		"captionStyle": {
+			"textAlignment": "left",
+			"fontName": "MTBaskervilleETW01-Roman",
+			"fontSize": 16,
+			"lineHeight": 20,
+			"textColor": "#000"
+		},
+		"creditStyle": {
+			"textAlignment": "right",
+			"fontName": "AvantGardeGothicITCW01XLt",
+			"fontSize": 9,
+			"lineHeight": 12,
+			"textTransform":"uppercase",
+			"textColor": "#444444"
+		},
+		"dateStyle": {
+			"identifier": "dateStyle",
+			"fontName": "MTBaskervilleETW01-Roman",
+			"fontSize": 12,
+			"textColor": "#000",
+			"textTransform": "uppercase",
+			"textAlignment": "left"
+		},
+		"heading1Style": {
+			"textAlignment": "left",
+			"fontName": "AvantGardeGothicITCW01Dm",
+			"fontSize": 24,
+			"lineHeight": 28,
+			"textTransform":"uppercase",
+			"textColor": "#000"
+		},
+		"introStyle": {
+			"textAlignment": "left",
+			"fontName": "AvantGardeGothicITCW01XLt",
+			"fontSize": 24,
+			"lineHeight":30,
+			"textColor": "#000"
+		},
+		"lowerListStyle": {
+			"textAlignment": "center",
+			"fontName": "MTBaskervilleETW01-Roman",
+			"fontSize": 18,
+			"lineHeight":20,
+			"textColor": "#000"
+		},
+		"pullQuoteStyle": {
+			"textAlignment": "center",
+			"fontName": "MTBaskervilleETW01-Roman",
+			"fontSize": 22,
+			"lineHeight": 28,
+			"textTransform":"uppercase",
+			"textColor": "#000"
+		},
+		"spacerWord":{
+			"textAlignment": "center",
+			"fontSize": 48,
+			"lineHeight": 48,
+			"textColor": "#000",
+			"textTransform": "uppercase",
+			"fontName": "AvantGardeGothicITCW01XLt"
+		},
+		"titleStyle": {
+			"textAlignment": "left",
+			"fontName": "AvantGardeGothicITCW01XLt",
+			"textTransform": "uppercase",
+			"fontSize": 52,
+			"lineHeight": 54,
+			"textColor": "#000"
+		}
+	},
+	"componentLayouts": {
+		"adLayout": {
+		},
+		"authorLayout": {
+			"margin": {
+				"top": 6,
+				"bottom": 4
+			}
+		},
+		"blackStrokeLayout1":{
+			"margin":{
+				"top":0,
+				"bottom":0
+			}
+		},
+		"blackStrokeLayout2":{
+			"margin":{
+				"top":5,
+				"bottom":5
+			}
+					 },
+		"blackStrokeLayout3":{
+			"margin":{
+				"top":10,
+				"bottom":35
+			}
+		},
+		"blackStrokeLayout4":{
+			"margin":{
+				"top":10,
+				"bottom":35
+			}
+		},
+		"bodyContainerLayout": {
+			"ignoreDocumentMargin": true,
+			"margin": {
+				"top": 0,
+				"bottom": 40
+			}
+		},
+		"bodyLayout": {
+			"margin": {
+				"top": 35,
+				"bottom": 25
+			}
+		},
+		"captionLayout": {
+			"margin": {
+				"top": 10,
+				"bottom": 25
+			}	 
+		},
+		"creditLayout": {
+			"margin": {
+				"top": 4,
+				"bottom": 0
+			}	 
+		},
+		"dateLayout": {
+			"margin": {
+				"top": 20,
+				"bottom": 5
+			}
+		},
+		"embedLayout": {
+		},
+		"headerImageLayout": {
+			"ignoreDocumentMargin": true,
+			"minimumHeight": "49vh"
+		},
+		"heading1Layout": {
+			"margin": {
+				"top": 25,
+				"bottom": 10
+			}
+		},
+		"introLayout": {
+			"margin": {
+				"top": 0,
+				"bottom": 15
+			}
+		},
+		"photoLayout": {
+			"minimumHeight": "50vmax"
+		},
+		"pullQuoteLayout": {
+			"margin": {
+				"top": 25,
+				"bottom": 25
+			},
+			"contentInset": {
+				"top": false,
+				"bottom": false
+			}
+		},
+		"slideLayout": {
+			"ignoreDocumentMargin": true,
+			"minimumHeight": "100cw"
+		},
+		"tabLayout": {
+			"ignoreDocumentMargin": true,
+			"minimumHeight": "40vw"
+		},
+		"titleLayout": {
+			"margin": {
+				"top": 10,
+				"bottom": 10
+			}
+		}
+	}
 }
