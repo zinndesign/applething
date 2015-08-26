@@ -83,7 +83,7 @@
           "stroke": {
            "color": "#FFF0"
           },
-         "layout": "blackStrokeLayout1",
+         "layout": "blackStrokeLayout2",
          "style": "baseStrokeStyle"
         },
         {
@@ -332,20 +332,20 @@
     },
     "blackStrokeLayout2": {
       "margin":{
-        "top":5,
-        "bottom":5
+        "top": 0,
+        "bottom": 0
       }
     },
     "blackStrokeLayout3": {
       "margin":{
-        "top":10,
-        "bottom":35
+        "top": 0,
+        "bottom": 0
       }
     },
     "blackStrokeLayout4": {
       "margin":{
-        "top":0,
-        "bottom":25
+        "top": 0,
+        "bottom": 0
       }
     },
     "bodyContainerLayout": {
@@ -404,8 +404,7 @@
       }
     },
     "slideLayout": {
-      "ignoreDocumentMargin": true,
-      "minimumHeight": "100cw"
+      "ignoreDocumentMargin": true
     },
     "spacerLayout": {
       "margin": {

@@ -443,8 +443,7 @@
 			}
 		},
 		"slideLayout": {
-			"ignoreDocumentMargin": true,
-			"minimumHeight": "100cw"
+			"ignoreDocumentMargin": true
 		},
 		"spacerLayout": {
 			"margin": {

@@ -1,7 +1,7 @@
 {
 	"version": "0.10",
 	"identifier": "!!!DYNAMIC",
-	"title": "11 Things I Wish I Knew Before I Had Daughters",
+	"title": "Here's How To Get Free Starbucks For Life",
 	"language": "en",
 	"blueprint": "basic",
 	"layout": {
@@ -17,7 +17,7 @@
 			"style": {
 				"fill": {
 					"type": "image",
-					"URL": "http://ghk.h-cdn.co/assets/15/32/980x490/gallery-1438796136-daughter-lessons.jpg",
+					"URL": "http://del.h-cdn.co/assets/15/30/980x490/landscape-1437675013-landscape-1437023122-landscape-1436899547-delish-starbucks-drinks-flickr.jpg",
 					"fillMode": "cover",
 					"verticalAlignment": "top"
 				}
@@ -54,13 +54,13 @@
 				{
 					"role": "title",
 					"layout": "titleLayout",
-					"text": "11 Things I Wish I Knew Before I Had Daughters",
+					"text": "Here's How To Get Free Starbucks For Life",
 					"textStyle": "titleStyle"
 				},
 				{
 					"role": "intro",
 					"layout": "introLayout",
-					"text": "Telling them they're beautiful is not enough.",
+					"text": "Crazy, but true.",
 					"textStyle": "introStyle"
 				},
 				{
@@ -92,27 +92,28 @@
 				},
 				{
 					"role": "body",
-					"text": "Just after my 33rd birthday I gave birth to my first daughter. And a mere year and a half later, I delivered my second girl. Two little women in 18 months. \"Sisters!\" I thought to myself, \"how hard could mothering them be?\"",
+					"text": "While ranting on a [site for fast food employee](http://kitchenette.jezebel.com/stories-of-horrible-restaurant-customers-part-1-1724487937) horror stories, a barista just leaked the Starbucks hack of all Starbucks hacks. According to his post, one evil genius customer found a way to score a free drink, every single day of the year.",
 					"layout": "bodyLayout",
 					"textStyle": "bodyStyleFirst",
 					"format": "markdown"
 				},
+		 {
+					"role": "heading1",
+					"layout": "heading1Layout",
+					"text": "Simple Tactics",
+					"textStyle": "heading1Style",
+		"format": "markdown"
+				},
 				{
 					"role": "body",
-					"text": "But quickly I learned that being a girl and raising girls are not the same thing. And while I am certain their teenage years will provide challenges I cannot begin to imagine (is it just me or do you hear my mother snickering in the background?), here are 11 things I have learned in their first almost-decade of life \u2014 but really wish I had known before.",
+					"text": "His tactics, according to [Business Insider](http://www.businessinsider.com/heres-how-to-get-free-starbucks-for-life-2015-8),are simple: Buy 365 Starbucks cards, register each for a different birthday, and use the Starbucks app to score the free birthday drink everyday. Brad Halsey, the Starbucks employee who spilled the beans, says his least-favorite customer comes in every day asking for the drink, trying to cover up the fact that he has purchased and registered Starbucks card for every day of the year.",
 					"layout": "bodyLayout",
 					"textStyle": "bodyStyle",
 					"format": "markdown"
 				},
 				{
-					"role": "heading1",
-					"layout": "heading1Layout",
-					"text": "1. You cannot avoid the princesses.",
-					"textStyle": "heading1Style"
-				},
-				{
 					"role": "body",
-					"text": "When they were born, I swore we would not have princess paraphernalia in our home. Fairy tales were just that \u2014 fairy tales. We would traffic in real role models. But somewhere around my first daughter's 3rd birthday, it happened. I'm not sure if it was a babysitter, a preschool friend, or just osmosis, but one day she didn't know who Cinderella was and the next day she did.\n\nSuddenly, everywhere we went we saw her: on the soup labels at the grocery store (conveniently positioned in the eyeline of a toddler sitting in a grocery cart), on diapers, on bouncing balls at the park. And when I refused her Cinderella, she only wanted her more. Long story short, we now have a dress-up drawer of costumes and crowns that I am pretty sure we are about to outgrow if anyone needs them.",
+					"text": "\"Even though I know exactly how he 'beat the system' there, he pretends that his app is just malfunctioning and it magically gives him the same free birthday drink every day,?\" Halsey wrote.",
 					"layout": "bodyLayout",
 					"textStyle": "bodyStyle",
 					"format": "markdown"
@@ -128,7 +129,7 @@
 				{
 					"role": "pullquote",
 					"layout": "pullQuoteLayout",
-					"text": "\u201CLong story short, we now have a dress-up drawer of costumes and crowns that I am pretty sure we are about to outgrow if anyone needs them.\u201D",
+					"text": "\u201CFollow this guy's lead, and you'll save over $450. (And that's if you only get a tall...think about the venti possibilities!)\u201D",
 					"textStyle": "pullQuoteStyle",
 					"format": "markdown"
 				},
@@ -141,32 +142,29 @@
 					"style": "baseStrokeStyle"
 				},
 				{
-					"role": "heading1",
-					"layout": "heading1Layout",
-					"text": "2. Underwear Matters.",
-					"textStyle": "heading1Style"
-				},
-				{
 					"role": "body",
-					"text": "We've spent more time than I ever imagined focused on underwear. From allowing them to choose their own first pairs at the store to hearing commentary about the ones I put on, I have learned that they love underwear. Underwear matters. And because of this I am acutely aware of choosing undies, for them and for me, that are comfortable and beautiful. Good-bye thongs, hello seamless cotton boy shorts.",
+					"text": "The post went on to explain how this customer is extremely particular about his order, which makes his cheating of the system even more annoying\u2014but none of that matters. Bottom line: Free drinks for life is totally possible.",
 					"layout": "bodyLayout",
 					"textStyle": "bodyStyle",
 					"format": "markdown"
 				},
 				{
-					"role": "photo",
-					"URL": "http://ghk.h-cdn.co/assets/15/32/1438794390-syn-ghk-1438699315-img-1014.jpg",
-					"layout": "embedLayout"
-				},
-				{
-					"role": "heading1",
-					"layout": "heading1Layout",
-					"text": "3. So does your choice in bikini waxes.",
-					"textStyle": "heading1Style"
-				},
-				{
 					"role": "body",
-					"text": "Before kids, my monthly bikini wax ritual was a never missed, cancelled, or postponed appointment. The pain \u2014 not to mention the expense \u2014 was worth it. But after my girls were born, the barely-there-hair thing seemed weird. I am an adult woman with pubic hair. They are little girls. We should not look alike. And so now I have an extra $75 dollars for princess gear.",
+					"text": "Think about it this way: Let's say you sprint to Starbucks right now and purchase 365 one-dollar gift cards. That will set you back $365. However, if a tall iced coffee costs you $2.25 per day, by the end of the year you'd be out $821.25. Follow this guy's lead, and you'll save over $450. (And that's if you only get a tall...think about the venti possibilities!)",
+					"layout": "bodyLayout",
+					"textStyle": "bodyStyle",
+					"format": "markdown"
+				},
+		 {
+					"role": "body",
+					"text": "Insane? Or so insane, it's genius?",
+					"layout": "bodyLayout",
+					"textStyle": "bodyStyle",
+					"format": "markdown"
+				},
+		 {
+					"role": "body",
+					"text": "**Follow Delish on [Instagram](https://instagram.com/delishdotcom).**",
 					"layout": "bodyLayout",
 					"textStyle": "bodyStyle",
 					"format": "markdown"
@@ -201,46 +199,50 @@
 			"backgroundColor": "#000"
 		},
 		"tabLayoutStyle": {
-			"border": {
-				"all": {
-					"width": 3,
-					"color": "#ed0a71"
-				},
-				"top": false,
-				"left": false,
-				"right": false
+			"fill": {
+				"type": "image",
+				"URL": "bundle://del_header_article.png",
+				"fillMode": "fit",
+				"verticalAlignment": "bottom",
+				"horizontalAlignment": "right"
 			}
 		}
 	},
 	"componentTextStyles": {
 		"authorStyle": {
-			"fontName": "AvenirNextLTW01-Medium",
-			"fontSize": 16,
+			"fontName": "BrandonGrotW01-Black",
+			"fontSize": 18,
 			"textAlignment": "left",
-			"textColor": "#959595"
+			"textColor": "#959595",
+			"textTransform":"uppercase"
 		},
 		"bodyStyle": {
-			"fontName": "AvenirNextLTW01-Medium",
-			"fontSize": 20,
-			"lineHeight": 28,
+			"fontName": "DINNextW01-CondensedLight",
+			"fontSize": 28,
+			"lineHeight": 36,
 			"textAlignment": "left",
 			"linkStyle": {
-				"textColor": "#00AAE3",
+				"textColor": "#f26f26",
 				"underline": true
 			}
 		},
 		"bodyStyleFirst": {
-			"fontName": "AvenirNextLTW01-Medium",
-			"fontSize": 20,
-			"lineHeight": 28,
-			"textAlignment": "left"
-		},
-		"captionStyle": {
-			"fontName": "AvenirNextLTW01-Medium",
-			"fontSize": 20,
-			"lineHeight": 32,
+			"fontName": "DINNextW01-CondensedLight",
+			"fontSize": 28,
+			"lineHeight": 36,
 			"textAlignment": "left",
 			"linkStyle": {
+				"textColor": "#f26f26",
+				"underline": true
+			}
+		},
+		"captionStyle": {
+			"fontName": "DINNextW01-CondensedLight",
+			"fontSize": 28,
+			"lineHeight": 36,
+			"textAlignment": "left",
+			"linkStyle": {
+				"textColor": "#f26f26",
 				"underline": true
 			}
 		},
@@ -253,25 +255,23 @@
 			"textTransform":"uppercase"
 		},
 		"dateStyle": {
-			"fontName": "AvenirNextLTW01-Medium",
-			"fontSize": 16,
+			"fontName": "BrandonGrotW01-Black",
+			"fontSize": 18,
 			"textAlignment": "left",
-			"textColor": "#959595"
+			"textColor": "#959595",
+			"textTransform":"uppercase"
 		},
 		"heading1Style": {
-			"fontName": "TradeGothicNextLTW01-BdCn",
-			"fontSize": 36,
-			"lineHeight": 40,
-			"textAlignment": "left",
-			"textTransform":"uppercase",
-			"tracking": 0.05
+			"fontName": "DINNextSlabPro-Medium",
+			"fontSize": 40,
+			"lineHeight": 48,
+			"textAlignment": "left"
 		},
 		"introStyle": {
-			"fontName": "TradeGothicNextLTW01-Cond",
-			"fontSize": 30,
-			"lineHeight": 38,
-			"textAlignment": "left",
-			"textColor": "#636363"
+			"fontName": "DINNextW01-CondensedLight",
+			"fontSize": 44,
+			"lineHeight": 52,
+			"textAlignment": "left"
 		},
 		"lowerListStyle": {
 			"fontName": "Helvetica",
@@ -280,10 +280,12 @@
 			"textAlignment": "left"
 		},
 		"pullQuoteStyle": {
-			"fontName": "Kettering105W00-Book",
-			"fontSize": 50,
-			"lineHeight": 60,
-			"textAlignment": "left"
+			"fontName": "BrandonGrotW01-Black",
+			"fontSize": 40,
+			"lineHeight": 50,
+			"textAlignment": "left",
+			"textColor": "#f37026",
+			"textTransform":"uppercase"
 		},
 		"spacerWord":{
 			"fontName": "Helvetica",
@@ -293,10 +295,11 @@
 			"textTransform": "uppercase"
 		},
 		"titleStyle": {
-			"fontName": "Kettering105W00-Book",
-			"fontSize": 58,
-			"lineHeight": 64,
-			"textAlignment": "left"
+			"fontName": "DINNextSlabPro-Medium",
+			"fontSize": 74,
+			"lineHeight": 78,
+			"textAlignment": "left",
+			"tracking": -0.01
 		}
 	},
 	"componentLayouts": {
@@ -305,14 +308,14 @@
 		"authorLayout": {
 			"margin": {
 				"top": 0,
-				"bottom": 30
+				"bottom": 25
 			}
 		},
 		"blackStrokeLayout1":{
 			"margin": 0
 		},
 		"blackStrokeLayout2":{
-			"margin": 0
+			"margin": 5
 		},
 		"blackStrokeLayout3":{
 		},
@@ -326,8 +329,8 @@
 		},
 		"bodyLayout": {
 			"margin": {
-				"top": 10,
-				"bottom": 15
+				"top": 5,
+				"bottom": 20
 			}
 		},
 		"captionLayout": {
@@ -344,8 +347,8 @@
 		},
 		"dateLayout": {
 			"margin": {
-				"top": 30,
-				"bottom": 10
+				"top": 50,
+				"bottom": 0
 			}
 		},
 		"embedLayout": {
@@ -367,16 +370,16 @@
 		"introLayout": {
 			"margin": {
 				"top": 0,
-				"bottom": 20
+				"bottom": 10
 			}
 		},
 		"photoLayout": {
-			"maximumContentWidth": "100cw"
+			"minimumHeight": "100vmax"
 		},
 		"pullQuoteLayout": {
 			"margin": {
-				"top": 30,
-				"bottom": 30
+				"top": 10,
+				"bottom": 10
 			}
 		},
 		"slideLayout": {
@@ -394,7 +397,7 @@
 		},
 		"titleLayout": {
 			"margin": {
-				"top": 10,
+				"top": 0,
 				"bottom": 0
 			}
 		}

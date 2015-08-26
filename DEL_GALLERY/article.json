@@ -1,7 +1,7 @@
 {
 	"version": "0.10",
 	"identifier": "!!!DYNAMIC",
-	"title": "12 Stunning Photos That Reveal the Power of Makeup",
+	"title": "18 Crazy-Delicious Stuffed Vegetables",
 	"language": "en",
 	"blueprint": "basic",
 	"layout": {
@@ -17,7 +17,7 @@
 			"style": {
 				"fill": {
 					"type": "image",
-					"URL": "http://ghk.h-cdn.co/assets/15/32/980x490/gallery-1438878885-makeup-free.jpg",
+					"URL": "http://del.h-cdn.co/assets/15/31/980x490/landscape-1438312175-stuffedpicmonkey-collage.jpg",
 					"fillMode": "cover",
 					"verticalAlignment": "top"
 				}
@@ -54,13 +54,13 @@
 				{
 					"role": "title",
 					"layout": "titleLayout",
-					"text": "12 Stunning Photos That Reveal the Power of Makeup",
+					"text": "18 Crazy-Delicious Stuffed Vegetables",
 					"textStyle": "titleStyle"
 				},
 				{
 					"role": "intro",
 					"layout": "introLayout",
-					"text": "These women \u2014 some makeup junkies, some who never touch the stuff \u2014 were brave enough to be photographed with half their faces made up by a pro and half their faces totally bare.",
+					"text": "Get stuffed.",
 					"textStyle": "introStyle"
 				},
 				{
@@ -74,7 +74,7 @@
 				{
 					"role": "author",
 					"layout": "authorLayout",
-					"text": "By Carly Cardellino",
+					"text": "By Sienna Fantozzi",
 					"textStyle": "authorStyle"
 				},
 				{
@@ -82,7 +82,7 @@
 					"stroke": {
 						"color": "#FFF0"
 					},
-					"layout": "blackStrokeLayout1",
+					"layout": "blackStrokeLayout2",
 					"style": "baseStrokeStyle"
 				},
 				{ 
@@ -92,7 +92,7 @@
 				},
 				{
 					"role": "body",
-					"text": "Just after my 33rd birthday I gave birth to my first daughter. And a mere year and a half later, I delivered my second girl. Two little women in 18 months. \"Sisters!\" I thought to myself, \"how hard could mothering them be?\"",
+					"text": "While ranting on a [site for fast food employee](http://kitchenette.jezebel.com/stories-of-horrible-restaurant-customers-part-1-1724487937) horror stories, a barista just leaked the Starbucks hack of all Starbucks hacks. According to his post, one evil genius customer found a way to score a free drink, every single day of the year.",
 					"layout": "bodyLayout",
 					"textStyle": "bodyStyleFirst",
 					"format": "markdown"
@@ -103,7 +103,7 @@
 					"components": [
 						{
 							"role": "heading",
-							"text": "Heeseung, 24",
+							"text": "Three Cheese Macaroni Stuffed Peppers",
 							"layout": "heading1Layout",
 							"textStyle": "heading1Style",
 							"format": "markdown"
@@ -114,7 +114,7 @@
 							"components": [
 								{
 									"role": "image",
-									"URL": "http://ghk.h-cdn.co/assets/15/32/1438878604-1-edg_5689_1.jpg",
+									"URL": "http://del.h-cdn.co/assets/15/31/three-cheese-macaroni-stuffed-peppers-3.jpg",
 									"layout": "photoLayout",
 									"animation": {
 										"type": "fade_in",
@@ -126,13 +126,13 @@
 						},
 						{
 							"role": "photographer",
-							"text": "Elizabeth Griffin/Kathleen Kamphausen",
+							"text": "Courtesy of La Creme de la Crumb",
 							"layout": "creditLayout",
 							"textStyle": "creditStyle"
 						},			
 						{
 							"role": "caption",
-							"text": "\"Usually, I wear little to no makeup because that's how I feel most like myself. But with just half my face made up, you can really see the difference that using just a few products can make. Whether that's something you want to do every day or not, it's empowering to know you have the power to make yourself up as you want.\"",
+							"text": "Bell peppers, mac and cheese looks _so_ damn good on you.\n\nGet the recipe from [La Creme de la Crumb](http://lecremedelacrumb.com/2014/11/three-cheese-macaroni-stuffed-peppers.html).",
 							"layout": "captionLayout",
 							"textStyle": "captionStyle",
 							"format": "markdown"
@@ -145,7 +145,7 @@
 					"components": [
 						{
 							"role": "heading",
-							"text": "Lizzie, 28",
+							"text": "Chicken and Corn Stuffed Poblano Peppers",
 							"layout": "heading1Layout",
 							"textStyle": "heading1Style",
 							"format": "markdown"
@@ -156,7 +156,7 @@
 							"components": [
 								{
 									"role": "image",
-									"URL": "http://ghk.h-cdn.co/assets/15/32/1438878609-12-edg_5971.jpg",
+									"URL": "http://del.h-cdn.co/assets/15/31/232e041010213a47c9c98858bb4a9727.jpg",
 									"layout": "photoLayout",
 									"animation": {
 										"type": "fade_in",
@@ -168,13 +168,13 @@
 						},
 						{
 							"role": "photographer",
-							"text": "Elizabeth Griffin/Kathleen Kamphausen",
+							"text": "Courtesy of Bites of Bri",
 							"layout": "creditLayout",
 							"textStyle": "creditStyle"
 						},			
 						{
 							"role": "caption",
-							"text": "\"This look is so far from what I normally wear that it made me feel self-conscious, but it showed me how quickly my face can be transformed by bombshell makeup.\"",
+							"text": "The best kind of vegetables are Tex-Mex stuffed vegetables. Duh.\n\nGet the recipe from [Bites of Bri](http://bitesofbri.com/2014/09/chicken-corn-stuffed-poblano-peppers/).",
 							"layout": "captionLayout",
 							"textStyle": "captionStyle",
 							"format": "markdown"
@@ -187,7 +187,7 @@
 					"components": [
 						{
 							"role": "heading",
-							"text": "Kate, 20",
+							"text": "Chipotle Chicken Salad Stuffed Avocados",
 							"layout": "heading1Layout",
 							"textStyle": "heading1Style",
 							"format": "markdown"
@@ -198,7 +198,7 @@
 							"components": [
 								{
 									"role": "image",
-									"URL": "http://ghk.h-cdn.co/assets/15/32/1438878613-10-edg_5958.jpg",
+									"URL": "http://del.h-cdn.co/assets/15/31/chipotle-chicken-salad-stuffed-avocados-copy.jpg",
 									"layout": "photoLayout",
 									"animation": {
 										"type": "fade_in",
@@ -210,61 +210,20 @@
 						},
 						{
 							"role": "photographer",
-							"text": "Elizabeth Griffin/Kathleen Kamphausen",
+							"text": "Courtesy of The Creative Bite",
 							"layout": "creditLayout",
 							"textStyle": "creditStyle"
 						},			
 						{
 							"role": "caption",
-							"text": "\"Generally, I feel beautiful with or without makeup, but I usually wear makeup because it makes me feel put together \u2014 like I've put my best foot forward. With makeup on just half my face, the contrast between how I look [without makeup] and the Joan Smalls-inspired makeup was so stark, it felt like I was two different people: There was regular me and then there was a little bolder and more badass me!\"",
+							"text": "Avocado slices aren't enough. Just go full on and stuff it \u2014 you'll get avocado in every single bite.\n\nGet the recipe from [The Creative Bite](http://www.thecreativebite.com/chipotle-chicken-salad-stuffed-avocados/).",
 							"layout": "captionLayout",
 							"textStyle": "captionStyle",
 							"format": "markdown"
 						}
 					]
 				},
-				{
-					"role": "section",
-					"layout": "slideLayout",
-					"components": [
-						{
-							"role": "heading",
-							"text": "Brenda, 32",
-							"layout": "heading1Layout",
-							"textStyle": "heading1Style",
-							"format": "markdown"
-						},
-						{
-							"role": "container",
-							"style": "photoContainerStyle",
-							"components": [
-								{
-									"role": "image",
-									"URL": "http://ghk.h-cdn.co/assets/15/32/1438878620-9-edg_5725.jpg",
-									"layout": "photoLayout",
-									"animation": {
-										"type": "fade_in",
-										"userControllable": true,
-										"initialAlpha": 0.1
-									}
-								}
-							]
-						},
-						{
-							"role": "photographer",
-							"text": "Elizabeth Griffin/Kathleen Kamphausen",
-							"layout": "creditLayout",
-							"textStyle": "creditStyle"
-						},			
-						{
-							"role": "caption",
-							"text": "\"I feel glamorous and feminine when I wear makeup, but without it I feel totally undone. So the idea of shooting with a half-exposed face was nerve-racking for me! I ended up feeling so empowered by the half-face concept that I went back to work with a completely bare face. That's no small feat for a woman who wears false lashes to the swimming pool (don't judge).\"",
-							"layout": "captionLayout",
-							"textStyle": "captionStyle",
-							"format": "markdown"
-						}
-					]
-				},
+
 				{
 					"role": "banner_advertisement",
 					"bannerType": "standard"
@@ -295,77 +254,80 @@
 			"backgroundColor": "#000"
 		},
 		"tabLayoutStyle": {
-			"border": {
-				"all": {
-					"width": 3,
-					"color": "#ed0a71"
-				},
-				"top": false,
-				"left": false,
-				"right": false
-			}
+	 "fill": {
+		 "type": "image",
+		 "URL": "bundle://del_header_gallery.png",
+		 "fillMode": "fit",
+		 "verticalAlignment": "bottom",
+		 "horizontalAlignment": "right"
+	 }
 		}
 	},
 	"componentTextStyles": {
 		"authorStyle": {
-			"fontName": "AvenirNextLTW01-Medium",
-			"fontSize": 16,
+			"fontName": "BrandonGrotW01-Black",
+			"fontSize": 18,
 			"textAlignment": "left",
-			"textColor": "#959595"
+			"textColor": "#959595",
+			"textTransform":"uppercase"
 		},
 		"bodyStyle": {
-			"fontName": "AvenirNextLTW01-Medium",
-			"fontSize": 20,
-			"lineHeight": 28,
+			"fontName": "DINNextW01-CondensedLight",
+			"fontSize": 28,
+			"lineHeight": 36,
 			"textAlignment": "left",
 			"linkStyle": {
-				"textColor": "#00AAE3",
+				"textColor": "#f26f26",
 				"underline": true
 			}
 		},
 		"bodyStyleFirst": {
-			"fontName": "AvenirNextLTW01-Medium",
-			"fontSize": 20,
-			"lineHeight": 28,
-			"textAlignment": "left"
+			"fontName": "DINNextW01-CondensedLight",
+			"fontSize": 28,
+			"lineHeight": 36,
+			"textAlignment": "left",
+		"linkStyle": {
+				"textColor": "#f26f26",
+				"underline": true
+			}
 		},
 		"captionStyle": {
-			"fontName": "AvenirNextLTW01-Medium",
-			"fontSize": 20,
-			"lineHeight": 28,
+			"fontName": "DINNextW01-CondensedLight",
+			"fontSize": 28,
+			"lineHeight": 34,
 			"textAlignment": "left",
 			"linkStyle": {
+				"textColor": "#f26f26",
 				"underline": true
 			}
 		},
 		"creditStyle": {
-			"fontName": "AvenirNextLTW01-Medium",
-			"fontSize": 10,
-			"lineHeight": 12,
+			"fontName": "DINNextW01-CondensedMedium",
+			"fontSize": 13,
+			"lineHeight": 18,
 			"textAlignment": "right",
-			"textColor": "#898989",
+			"textColor": "#959595",
 			"textTransform":"uppercase"
 		},
 		"dateStyle": {
-			"fontName": "AvenirNextLTW01-Medium",
-			"fontSize": 16,
+			"fontName": "BrandonGrotW01-Black",
+			"fontSize": 18,
 			"textAlignment": "left",
-			"textColor": "#959595"
+			"textColor": "#959595",
+			"textTransform":"uppercase"
 		},
 		"heading1Style": {
-			"fontName": "TradeGothicNextLTW01-BdCn",
-			"fontSize": 34,
-			"lineHeight": 40,
+			"fontName": "BrandonGrotW01-Black",
+			"fontSize": 40,
+			"lineHeight": 48,
 			"textAlignment": "left",
-			"textTransform":"uppercase",
-			"tracking": 0.05
+			"textTransform":"uppercase"
 		},
 		"introStyle": {
-			"fontName": "TradeGothicNextLTW01-Cond",
-			"fontSize": 30,
-			"lineHeight": 38,
-			"textAlignment": "left",
-			"textColor": "#636363"
+			"fontName": "DINNextW01-CondensedLight",
+			"fontSize": 44,
+			"lineHeight": 52,
+			"textAlignment": "left"
 		},
 		"lowerListStyle": {
 			"fontName": "Helvetica",
@@ -374,10 +336,12 @@
 			"textAlignment": "left"
 		},
 		"pullQuoteStyle": {
-			"fontName": "Kettering105W00-Book",
-			"fontSize": 50,
-			"lineHeight": 60,
-			"textAlignment": "left"
+			"fontName": "BrandonGrotW01-Black",
+			"fontSize": 40,
+			"lineHeight": 50,
+			"textAlignment": "left",
+			"textColor": "#f37026",
+			"textTransform":"uppercase"
 		},
 		"spacerWord":{
 			"fontName": "Helvetica",
@@ -387,10 +351,11 @@
 			"textTransform": "uppercase"
 		},
 		"titleStyle": {
-			"fontName": "Kettering105W00-Book",
-			"fontSize": 58,
-			"lineHeight": 64,
-			"textAlignment": "left"
+			"fontName": "DINNextSlabPro-Medium",
+			"fontSize": 74,
+			"lineHeight": 78,
+			"textAlignment": "left",
+			"tracking": -0.01
 		}
 	},
 	"componentLayouts": {
@@ -399,7 +364,7 @@
 		"authorLayout": {
 			"margin": {
 				"top": 0,
-				"bottom": 30
+				"bottom": 25
 			}
 		},
 		"blackStrokeLayout1":{
@@ -420,14 +385,14 @@
 		},
 		"bodyLayout": {
 			"margin": {
-				"top": 10,
-				"bottom": 15
+				"top": 5,
+				"bottom": 20
 			}
 		},
 		"captionLayout": {
 			"margin": {
-				"top": 10,
-				"bottom": 25
+				"top": 5,
+				"bottom": 10
 			}	 
 		},
 		"creditLayout": {
@@ -439,7 +404,7 @@
 		"dateLayout": {
 			"margin": {
 				"top": 50,
-				"bottom": 10
+				"bottom": 0
 			}
 		},
 		"embedLayout": {
@@ -455,13 +420,13 @@
 		"heading1Layout": {
 			"margin": {
 				"top": 15,
-				"bottom": 5
+				"bottom": 10
 			}
 		},
 		"introLayout": {
 			"margin": {
 				"top": 0,
-				"bottom": 20
+				"bottom": 10
 			}
 		},
 		"photoLayout": {
@@ -469,12 +434,13 @@
 		},
 		"pullQuoteLayout": {
 			"margin": {
-				"top": 30,
-				"bottom": 30
+				"top": 10,
+				"bottom": 10
 			}
 		},
 		"slideLayout": {
-			"ignoreDocumentMargin": true
+			"ignoreDocumentMargin": true,
+			"margin": 10
 		},
 		"spacerLayout": {
 			"margin": {
@@ -488,7 +454,7 @@
 		},
 		"titleLayout": {
 			"margin": {
-				"top": 10,
+				"top": 0,
 				"bottom": 0
 			}
 		}
