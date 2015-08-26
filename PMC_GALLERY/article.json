@@ -1,487 +1,487 @@
 {
-  "version": "0.10",
-  "identifier": "!!!DYNAMIC",
-  "title": "The Rebuilding of the Panama Canal, in Pictures",
-  "language": "en",
-  "blueprint": "basic",
-  "layout": {
-    "columns": 6,
-    "width": 1024,
-    "margin": 80,
-    "gutter": 20
-  },
-  "components": [
-    {
-      "role": "header",
-      "layout": "headerImageLayout",
-      "style": {
-        "fill": {
-          "type": "image",
-          "URL": "http://pop.h-cdn.co/assets/15/32/1280x853/panama-18.jpg",
-          "fillMode": "cover",
-          "verticalAlignment": "top"
-        }
-      },
-      "behavior": {
-        "type": "parallax",
-        "factor": 0.5
-      },
-      "components": [
-        {
-          "role": "container",
-          "layout": "tabLayout",
-          "style": "tabLayoutStyle",
-          "anchor": {
-            "targetAnchorPosition": "bottom"
-          }
-        }
-      ]
-    },
-    {
-      "role": "section",
-      "layout": "bodyContainerLayout",
-      "style": "bodyContainerStyle",
-      "anchor": {
-        "targetAnchorPosition": "top"
-      },
-      "components": [
-        {
-          "role": "intro",
-          "layout": "dateLayout",
-          "text": "Aug 5, 2015 @ 6:01 PM",
-          "textStyle": "dateStyle"
-        },
-        {
-          "role": "title",
-          "layout": "titleLayout",
-          "text": "The Rebuilding of the Panama Canal, in Pictures",
-          "textStyle": "titleStyle"
-        },
-        {
-          "role": "intro",
-          "layout": "introLayout",
-          "text": "The great canal, now a century old, must be widened to fit today's megaships.",
-          "textStyle": "introStyle"
-        },
-        {
-          "role": "divider",
-          "stroke": {
-            "color": "#FFF0"
-          },
-          "layout": "blackStrokeLayout1",
-          "style": "baseStrokeStyle"
-        },
-        {
-          "role": "author",
-          "layout": "authorLayout",
-          "text": "By Kevin Dupzyk",
-          "textStyle": "authorStyle"
-        },
-        {
-          "role": "divider",
-          "stroke": {
-            "color": "#FFF0"
-          },
-          "layout": "blackStrokeLayout1",
-          "style": "baseStrokeStyle"
-        },
-        { 
-           "role": "medium_rectangle_advertisement",
-           "layout": "adLayout",
-           "bannerType": "standard"
-        },
-        {
-          "role": "body",
-          "text": "In 1984 about a million tons of cargo passed through the Suez Canal every day. Last year that number was up to 2.6 million. Over the same period, the number of ships traversing the canal every year dropped, from more than 21,000 to about 17,000. How? The ships got bigger. The highest-capacity container ship at sea today holds more than four times as much cargo as the record holder in 1984. With global demand for imported goods increasing, companies employ the cost-effective strategy of cramming everything on large vessels and making fewer trips.",
-          "layout": "bodyLayout",
-          "textStyle": "bodyStyleFirst",
-          "format": "markdown"
-        },
-        {
-          "role": "section",
-          "layout": "slideLayout",
-          "components": [
-            {
-              "role": "heading",
-              "text": "The Atlantic Locks",
-              "layout": "heading1Layout",
-              "textStyle": "heading1Style",
-              "format": "markdown"
-            },
-            {
-              "role": "container",
-              "style": "photoContainerStyle",
-              "layout": "photoLayout",
-              "components": [
-                {
-                  "role": "container",
-                  "style": {
-                    "fill": {
-                      "type": "image",
-                      "URL": "http://pop.h-cdn.co/assets/15/32/1024x1536/gallery-1438634014-panama-lede.jpg",
-                      "verticalAlignment": "top"
-                    }
-                  },
-                  "layout": "photoLayout",
-                  "animation": {
-                    "type": "fade_in",
-                    "userControllable": true,
-                    "initialAlpha": 0.1
-                  }
-                }
-              ]
-            },
-            {
-              "role": "photographer",
-              "text": "Tom Fowlks",
-              "layout": "creditLayout",
-              "textStyle": "creditStyle"
-            },      
-            {
-              "role": "caption",
-              "text": "The Atlantic locks, looking toward the ocean. When construction is complete, the plug of dirt at the bottom of the picture will be removed and water will flow through.",
-              "layout": "captionLayout",
-              "textStyle": "captionStyle",
-              "format": "markdown"
-            }
-          ]
-        },
-        {
-          "role": "section",
-          "layout": "slideLayout",
-          "components": [
-            {
-              "role": "heading",
-              "text": "The Pacific Lock Complex",
-              "layout": "heading1Layout",
-              "textStyle": "heading1Style",
-              "format": "markdown"
-            },
-            {
-              "role": "container",
-              "style": "photoContainerStyle",
-              "layout": "photoLayout",
-              "components": [
-                {
-                  "role": "container",
-                  "style": {
-                    "fill": {
-                      "type": "image",
-                      "URL": "http://pop.h-cdn.co/assets/15/32/1024x682/panama-01.jpg",
-                      "verticalAlignment": "top"
-                    }
-                  },
-                  "layout": "photoLayout",
-                  "animation": {
-                    "type": "fade_in",
-                    "userControllable": true,
-                    "initialAlpha": 0.1
-                  }
-                }
-              ]
-            },
-            {
-              "role": "photographer",
-              "text": "Tom Fowlks",
-              "layout": "creditLayout",
-              "textStyle": "creditStyle"
-            },      
-            {
-              "role": "caption",
-              "text": "The Pacific lock complex, looking into the interior of the isthmus. The camera is planted on the bit of dirt that keeps the ocean out of the canal-in-progress. Workers call it el tapon, which is Spanish for \"cork\" or \"stopper.\"",
-              "layout": "captionLayout",
-              "textStyle": "captionStyle",
-              "format": "markdown"
-            }
-          ]
-        },
-        {
-          "role": "section",
-          "layout": "slideLayout",
-          "components": [
-            {
-              "role": "heading",
-              "text": "Nearing Completion",
-              "layout": "heading1Layout",
-              "textStyle": "heading1Style",
-              "format": "markdown"
-            },
-            {
-              "role": "container",
-              "style": "photoContainerStyle",
-              "layout": "photoLayout",
-              "components": [
-                {
-                  "role": "container",
-                  "style": {
-                    "fill": {
-                      "type": "image",
-                      "URL": "http://pop.h-cdn.co/assets/15/32/1024x1303/panama-02.jpg",
-                      "verticalAlignment": "top"
-                    }
-                  },
-                  "layout": "photoLayout",
-                  "animation": {
-                    "type": "fade_in",
-                    "userControllable": true,
-                    "initialAlpha": 0.1
-                  }
-                }
-              ]
-            },
-            {
-              "role": "photographer",
-              "text": "Tom Fowlks",
-              "layout": "creditLayout",
-              "textStyle": "creditStyle"
-            },      
-            {
-              "role": "caption",
-              "text": "The Pacific lock complex under construction. With the work nearly complete, cranes have started to be dismantled.",
-              "layout": "captionLayout",
-              "textStyle": "captionStyle",
-              "format": "markdown"
-            }
-          ]
-        },
-        {
-          "role": "banner_advertisement",
-          "bannerType": "standard"
-        }
-      ]
-    }
-  ],
-  "documentStyle": {
-    "backgroundColor": "#FFF"
-  },
-  "componentStyles": {
-    "baseStrokeStyle": {
-    },
-    "bodyContainerStyle": {
-      "backgroundColor": "#FFF"
-    },
-    "dateLayoutStyle": {
-      "border": {
-        "all": {
-          "width": 2
-        },
-        "top": false,
-        "left": false,
-        "right": false
-      }
-    },
-    "photoContainerStyle": {
-      "backgroundColor": "#000"
-    },
-    "tabLayoutStyle": {
-      "fill": {
-        "type": "image",
-        "URL": "bundle://pmc_header_gallery.png",
-        "fillMode": "fit",
-        "verticalAlignment": "bottom",
-        "horizontalAlignment": "right"
-      }
-    }
-  },
-  "componentTextStyles": {
-    "authorStyle": {
-      "fontName": "TradeGothicNextLTW01-BdCn",
-      "fontSize": 20,
-      "textAlignment": "left",
-      "textColor": "#A1A1A1"
-    },
-    "bodyStyle": {
-      "fontName": "Helvetica",
-      "fontSize": 18,
-      "lineHeight": 26,
-      "textAlignment": "left",
-      "linkStyle": {
-        "textColor": "#00AAE3",
-        "underline": true
-      }
-    },
-    "bodyStyleFirst": {
-      "fontName": "Helvetica",
-      "fontSize": 18,
-      "lineHeight": 26,
-      "textAlignment": "left",
-      "dropCapStyle": {
-        "fontName": "KlintLTW01-BoldCondensed",
-        "numberOfLines": 3,
-        "numberOfCharacters": 1,
-        "textColor": "#15B0DE"
-      }
-    },
-    "captionStyle": {
-      "fontName": "Helvetica",
-      "fontSize": 18,
-      "lineHeight": 26,
-      "textAlignment": "left",
-      "linkStyle": {
-        "underline": true
-      }
-    },
-    "creditStyle": {
-      "fontName": "Helvetica-Bold",
-      "fontSize": 10,
-      "lineHeight": 16,
-      "textAlignment": "right",
-      "textColor": "#A1A1A1",
-      "textTransform":"uppercase"
-    },
-    "dateStyle": {
-      "fontName": "TradeGothicNextLTW01-BdCn",
-      "fontSize": 18,
-      "textAlignment": "left",
-      "textTransform":"uppercase",
-      "textColor": "#A1A1A1"
-    },
-    "heading1Style": {
-      "fontName": "KlintLTW01-BoldCondensed",
-      "fontSize": 36,
-      "lineHeight": 40,
-      "textAlignment": "left",
-      "textTransform":"uppercase"
-    },
-    "introStyle": {
-      "fontName": "KlintLTW01-BoldCondensed",
-      "fontSize": 32,
-      "lineHeight": 40,
-      "textAlignment": "left",
-      "textColor": "#636363"
-    },
-    "lowerListStyle": {
-      "fontName": "Helvetica",
-      "fontSize": 18,
-      "lineHeight": 20,
-      "textAlignment": "left"
-    },
-    "pullquoteStyle": {
-      "fontName": "TradeGothicNextLTW01-BdCn",
-      "fontSize": 40,
-      "lineHeight": 56,
-      "textAlignment": "center",
-      "textTransform":"uppercase",
-      "textColor": "#F47920"
-    },
-    "spacerWord":{
-      "fontName": "Helvetica",
-      "fontSize": 48,
-      "lineHeight": 48,
-      "textAlignment": "left",
-      "textTransform": "uppercase"
-    },
-    "titleStyle": {
-      "fontName": "KlintLTW01-BoldCondensed",
-      "fontSize": 72,
-      "lineHeight": 68,
-      "textAlignment": "left",
-      "textTransform": "uppercase"
-    }
-  },
-  "componentLayouts": {
-    "adLayout": {
-    },
-    "authorLayout": {
-      "margin": {
-        "top": 0,
-        "bottom": 30
-      }
-    },
-    "blackStrokeLayout1":{
-      "margin": 0
-    },
-    "blackStrokeLayout2":{
-      "margin": 5
-    },
-    "blackStrokeLayout3":{
-    },
-    "blackStrokeLayout4":{
-    },
-    "bodyContainerLayout": {
-      "margin": {
-        "top": 0,
-        "bottom": 25
-      }
-    },
-    "bodyLayout": {
-      "margin": {
-        "top": 10,
-        "bottom": 15
-      }
-    },
-    "captionLayout": {
-      "margin": {
-        "top": 10,
-        "bottom": 25
-      }   
-    },
-    "creditLayout": {
-      "margin": {
-        "top": 4,
-        "bottom": 0
-      }   
-    },
-    "dateLayout": {
-      "margin": {
-        "top": 30,
-        "bottom": 0
-      }
-    },
-    "embedLayout": {
-      "margin": {
-        "top": 5,
-        "bottom": 20
-      }
-    },
-    "headerImageLayout": {
-      "ignoreDocumentMargin": true,
-      "minimumHeight": "50vh"
-    },
-    "heading1Layout": {
-      "margin": {
-        "top": 15,
-        "bottom": 10
-      }
-    },
-    "introLayout": {
-      "margin": {
-        "top": 5,
-        "bottom": 15
-      }
-    },
-    "photoLayout": {
-      "minimumHeight": "80vmax"
-    },
-    "pullQuoteLayout": {
-      "margin": {
-        "top": 30,
-        "bottom": 30
-      },
-      "contentInset": {
-        "left": true,
-        "right": true
-      }
-    },
-    "slideLayout": {
-      "ignoreDocumentMargin": true,
-      "minimumHeight": "100cw"
-    },
-    "spacerLayout": {
-      "margin": {
-        "top": 5,
-        "bottom": 0
-      }
-    },
-    "tabLayout": {
-      "ignoreDocumentMargin": true,
-      "minimumHeight": 124
-    },
-    "titleLayout": {
-      "margin": {
-        "top": 10,
-        "bottom": 5
-      }
-    }
-  }
+	"version": "0.10",
+	"identifier": "!!!DYNAMIC",
+	"title": "The Rebuilding of the Panama Canal, in Pictures",
+	"language": "en",
+	"blueprint": "basic",
+	"layout": {
+		"columns": 6,
+		"width": 1024,
+		"margin": 80,
+		"gutter": 20
+	},
+	"components": [
+		{
+			"role": "header",
+			"layout": "headerImageLayout",
+			"style": {
+				"fill": {
+					"type": "image",
+					"URL": "http://pop.h-cdn.co/assets/15/32/1280x853/panama-18.jpg",
+					"fillMode": "cover",
+					"verticalAlignment": "top"
+				}
+			},
+			"behavior": {
+				"type": "parallax",
+				"factor": 0.5
+			},
+			"components": [
+				{
+					"role": "container",
+					"layout": "tabLayout",
+					"style": "tabLayoutStyle",
+					"anchor": {
+						"targetAnchorPosition": "bottom"
+					}
+				}
+			]
+		},
+		{
+			"role": "section",
+			"layout": "bodyContainerLayout",
+			"style": "bodyContainerStyle",
+			"anchor": {
+				"targetAnchorPosition": "top"
+			},
+			"components": [
+				{
+					"role": "intro",
+					"layout": "dateLayout",
+					"text": "Aug 5, 2015 @ 6:01 PM",
+					"textStyle": "dateStyle"
+				},
+				{
+					"role": "title",
+					"layout": "titleLayout",
+					"text": "The Rebuilding of the Panama Canal, in Pictures",
+					"textStyle": "titleStyle"
+				},
+				{
+					"role": "intro",
+					"layout": "introLayout",
+					"text": "The great canal, now a century old, must be widened to fit today's megaships.",
+					"textStyle": "introStyle"
+				},
+				{
+					"role": "divider",
+					"stroke": {
+						"color": "#FFF0"
+					},
+					"layout": "blackStrokeLayout1",
+					"style": "baseStrokeStyle"
+				},
+				{
+					"role": "author",
+					"layout": "authorLayout",
+					"text": "By Kevin Dupzyk",
+					"textStyle": "authorStyle"
+				},
+				{
+					"role": "divider",
+					"stroke": {
+						"color": "#FFF0"
+					},
+					"layout": "blackStrokeLayout1",
+					"style": "baseStrokeStyle"
+				},
+				{ 
+					 "role": "medium_rectangle_advertisement",
+					 "layout": "adLayout",
+					 "bannerType": "standard"
+				},
+				{
+					"role": "body",
+					"text": "In 1984 about a million tons of cargo passed through the Suez Canal every day. Last year that number was up to 2.6 million. Over the same period, the number of ships traversing the canal every year dropped, from more than 21,000 to about 17,000. How? The ships got bigger. The highest-capacity container ship at sea today holds more than four times as much cargo as the record holder in 1984. With global demand for imported goods increasing, companies employ the cost-effective strategy of cramming everything on large vessels and making fewer trips.",
+					"layout": "bodyLayout",
+					"textStyle": "bodyStyleFirst",
+					"format": "markdown"
+				},
+				{
+					"role": "section",
+					"layout": "slideLayout",
+					"components": [
+						{
+							"role": "heading",
+							"text": "The Atlantic Locks",
+							"layout": "heading1Layout",
+							"textStyle": "heading1Style",
+							"format": "markdown"
+						},
+						{
+							"role": "container",
+							"style": "photoContainerStyle",
+							"layout": "photoLayout",
+							"components": [
+								{
+									"role": "container",
+									"style": {
+										"fill": {
+											"type": "image",
+											"URL": "http://pop.h-cdn.co/assets/15/32/1024x1536/gallery-1438634014-panama-lede.jpg",
+											"verticalAlignment": "top"
+										}
+									},
+									"layout": "photoLayout",
+									"animation": {
+										"type": "fade_in",
+										"userControllable": true,
+										"initialAlpha": 0.1
+									}
+								}
+							]
+						},
+						{
+							"role": "photographer",
+							"text": "Tom Fowlks",
+							"layout": "creditLayout",
+							"textStyle": "creditStyle"
+						},			
+						{
+							"role": "caption",
+							"text": "The Atlantic locks, looking toward the ocean. When construction is complete, the plug of dirt at the bottom of the picture will be removed and water will flow through.",
+							"layout": "captionLayout",
+							"textStyle": "captionStyle",
+							"format": "markdown"
+						}
+					]
+				},
+				{
+					"role": "section",
+					"layout": "slideLayout",
+					"components": [
+						{
+							"role": "heading",
+							"text": "The Pacific Lock Complex",
+							"layout": "heading1Layout",
+							"textStyle": "heading1Style",
+							"format": "markdown"
+						},
+						{
+							"role": "container",
+							"style": "photoContainerStyle",
+							"layout": "photoLayout",
+							"components": [
+								{
+									"role": "container",
+									"style": {
+										"fill": {
+											"type": "image",
+											"URL": "http://pop.h-cdn.co/assets/15/32/1024x682/panama-01.jpg",
+											"verticalAlignment": "top"
+										}
+									},
+									"layout": "photoLayout",
+									"animation": {
+										"type": "fade_in",
+										"userControllable": true,
+										"initialAlpha": 0.1
+									}
+								}
+							]
+						},
+						{
+							"role": "photographer",
+							"text": "Tom Fowlks",
+							"layout": "creditLayout",
+							"textStyle": "creditStyle"
+						},			
+						{
+							"role": "caption",
+							"text": "The Pacific lock complex, looking into the interior of the isthmus. The camera is planted on the bit of dirt that keeps the ocean out of the canal-in-progress. Workers call it el tapon, which is Spanish for \"cork\" or \"stopper.\"",
+							"layout": "captionLayout",
+							"textStyle": "captionStyle",
+							"format": "markdown"
+						}
+					]
+				},
+				{
+					"role": "section",
+					"layout": "slideLayout",
+					"components": [
+						{
+							"role": "heading",
+							"text": "Nearing Completion",
+							"layout": "heading1Layout",
+							"textStyle": "heading1Style",
+							"format": "markdown"
+						},
+						{
+							"role": "container",
+							"style": "photoContainerStyle",
+							"layout": "photoLayout",
+							"components": [
+								{
+									"role": "container",
+									"style": {
+										"fill": {
+											"type": "image",
+											"URL": "http://pop.h-cdn.co/assets/15/32/1024x1303/panama-02.jpg",
+											"verticalAlignment": "top"
+										}
+									},
+									"layout": "photoLayout",
+									"animation": {
+										"type": "fade_in",
+										"userControllable": true,
+										"initialAlpha": 0.1
+									}
+								}
+							]
+						},
+						{
+							"role": "photographer",
+							"text": "Tom Fowlks",
+							"layout": "creditLayout",
+							"textStyle": "creditStyle"
+						},			
+						{
+							"role": "caption",
+							"text": "The Pacific lock complex under construction. With the work nearly complete, cranes have started to be dismantled.",
+							"layout": "captionLayout",
+							"textStyle": "captionStyle",
+							"format": "markdown"
+						}
+					]
+				},
+				{
+					"role": "banner_advertisement",
+					"bannerType": "standard"
+				}
+			]
+		}
+	],
+	"documentStyle": {
+		"backgroundColor": "#FFF"
+	},
+	"componentStyles": {
+		"baseStrokeStyle": {
+		},
+		"bodyContainerStyle": {
+			"backgroundColor": "#FFF"
+		},
+		"dateLayoutStyle": {
+			"border": {
+				"all": {
+					"width": 2
+				},
+				"top": false,
+				"left": false,
+				"right": false
+			}
+		},
+		"photoContainerStyle": {
+			"backgroundColor": "#000"
+		},
+		"tabLayoutStyle": {
+			"fill": {
+				"type": "image",
+				"URL": "bundle://pmc_header_gallery.png",
+				"fillMode": "fit",
+				"verticalAlignment": "bottom",
+				"horizontalAlignment": "right"
+			}
+		}
+	},
+	"componentTextStyles": {
+		"authorStyle": {
+			"fontName": "TradeGothicNextLTW01-BdCn",
+			"fontSize": 20,
+			"textAlignment": "left",
+			"textColor": "#A1A1A1"
+		},
+		"bodyStyle": {
+			"fontName": "Helvetica",
+			"fontSize": 18,
+			"lineHeight": 26,
+			"textAlignment": "left",
+			"linkStyle": {
+				"textColor": "#00AAE3",
+				"underline": true
+			}
+		},
+		"bodyStyleFirst": {
+			"fontName": "Helvetica",
+			"fontSize": 18,
+			"lineHeight": 26,
+			"textAlignment": "left",
+			"dropCapStyle": {
+				"fontName": "KlintLTW01-BoldCondensed",
+				"numberOfLines": 3,
+				"numberOfCharacters": 1,
+				"textColor": "#15B0DE"
+			}
+		},
+		"captionStyle": {
+			"fontName": "Helvetica",
+			"fontSize": 18,
+			"lineHeight": 26,
+			"textAlignment": "left",
+			"linkStyle": {
+				"underline": true
+			}
+		},
+		"creditStyle": {
+			"fontName": "Helvetica-Bold",
+			"fontSize": 10,
+			"lineHeight": 16,
+			"textAlignment": "right",
+			"textColor": "#A1A1A1",
+			"textTransform":"uppercase"
+		},
+		"dateStyle": {
+			"fontName": "TradeGothicNextLTW01-BdCn",
+			"fontSize": 18,
+			"textAlignment": "left",
+			"textTransform":"uppercase",
+			"textColor": "#A1A1A1"
+		},
+		"heading1Style": {
+			"fontName": "KlintLTW01-BoldCondensed",
+			"fontSize": 36,
+			"lineHeight": 40,
+			"textAlignment": "left",
+			"textTransform":"uppercase"
+		},
+		"introStyle": {
+			"fontName": "KlintLTW01-BoldCondensed",
+			"fontSize": 32,
+			"lineHeight": 40,
+			"textAlignment": "left",
+			"textColor": "#636363"
+		},
+		"lowerListStyle": {
+			"fontName": "Helvetica",
+			"fontSize": 18,
+			"lineHeight": 20,
+			"textAlignment": "left"
+		},
+		"pullquoteStyle": {
+			"fontName": "TradeGothicNextLTW01-BdCn",
+			"fontSize": 40,
+			"lineHeight": 56,
+			"textAlignment": "center",
+			"textTransform":"uppercase",
+			"textColor": "#F47920"
+		},
+		"spacerWord":{
+			"fontName": "Helvetica",
+			"fontSize": 48,
+			"lineHeight": 48,
+			"textAlignment": "left",
+			"textTransform": "uppercase"
+		},
+		"titleStyle": {
+			"fontName": "KlintLTW01-BoldCondensed",
+			"fontSize": 72,
+			"lineHeight": 68,
+			"textAlignment": "left",
+			"textTransform": "uppercase"
+		}
+	},
+	"componentLayouts": {
+		"adLayout": {
+		},
+		"authorLayout": {
+			"margin": {
+				"top": 0,
+				"bottom": 30
+			}
+		},
+		"blackStrokeLayout1":{
+			"margin": 0
+		},
+		"blackStrokeLayout2":{
+			"margin": 5
+		},
+		"blackStrokeLayout3":{
+		},
+		"blackStrokeLayout4":{
+		},
+		"bodyContainerLayout": {
+			"margin": {
+				"top": 0,
+				"bottom": 25
+			}
+		},
+		"bodyLayout": {
+			"margin": {
+				"top": 10,
+				"bottom": 15
+			}
+		},
+		"captionLayout": {
+			"margin": {
+				"top": 10,
+				"bottom": 25
+			}	 
+		},
+		"creditLayout": {
+			"margin": {
+				"top": 4,
+				"bottom": 0
+			}	 
+		},
+		"dateLayout": {
+			"margin": {
+				"top": 30,
+				"bottom": 0
+			}
+		},
+		"embedLayout": {
+			"margin": {
+				"top": 5,
+				"bottom": 20
+			}
+		},
+		"headerImageLayout": {
+			"ignoreDocumentMargin": true,
+			"minimumHeight": "50vh"
+		},
+		"heading1Layout": {
+			"margin": {
+				"top": 15,
+				"bottom": 10
+			}
+		},
+		"introLayout": {
+			"margin": {
+				"top": 5,
+				"bottom": 15
+			}
+		},
+		"photoLayout": {
+			"minimumHeight": "80vmax"
+		},
+		"pullQuoteLayout": {
+			"margin": {
+				"top": 30,
+				"bottom": 30
+			},
+			"contentInset": {
+				"left": true,
+				"right": true
+			}
+		},
+		"slideLayout": {
+			"ignoreDocumentMargin": true,
+			"minimumHeight": "100cw"
+		},
+		"spacerLayout": {
+			"margin": {
+				"top": 5,
+				"bottom": 0
+			}
+		},
+		"tabLayout": {
+			"ignoreDocumentMargin": true,
+			"minimumHeight": 124
+		},
+		"titleLayout": {
+			"margin": {
+				"top": 10,
+				"bottom": 5
+			}
+		}
+	}
 }
