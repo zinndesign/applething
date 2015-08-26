@@ -97,7 +97,7 @@
 					"textStyle": "bodyStyleFirst",
 					"format": "markdown"
 				},
-								{
+				{
 					"role": "section",
 					"layout": "slideLayout",
 					"components": [
