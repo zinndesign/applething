@@ -7,7 +7,7 @@
   "layout": {
     "columns": 6,
     "width": 1024,
-    "margin": 60,
+    "margin": 90,
     "gutter": 20
   },
   "components": [

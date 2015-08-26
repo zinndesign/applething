@@ -7,7 +7,7 @@
 	"layout": {
 		"columns": 6,
 		"width": 1024,
-		"margin": 60,
+		"margin": 90,
 		"gutter": 20
 	},
 	"components": [
@@ -74,7 +74,7 @@
 				{
 					"role": "author",
 					"layout": "authorLayout",
-					"text": "By Lindsey Gladstone",
+					"text": "By Carly Cardellino",
 					"textStyle": "authorStyle"
 				},
 				{
@@ -97,7 +97,7 @@
 					"textStyle": "bodyStyleFirst",
 					"format": "markdown"
 				},
-				{
+								{
 					"role": "section",
 					"layout": "slideLayout",
 					"components": [
@@ -114,7 +114,7 @@
 							"components": [
 								{
 									"role": "image",
-									"URL": "http://ghk.h-cdn.co/assets/15/32/1438878885-makeup-free.jpg",
+									"URL": "http://ghk.h-cdn.co/assets/15/32/1438878604-1-edg_5689_1.jpg",
 									"layout": "photoLayout",
 									"animation": {
 										"type": "fade_in",
@@ -156,7 +156,7 @@
 							"components": [
 								{
 									"role": "image",
-									"URL": "http://ghk.h-cdn.co/assets/15/32/1438878885-makeup-free.jpg",
+									"URL": "http://ghk.h-cdn.co/assets/15/32/1438878609-12-edg_5971.jpg",
 									"layout": "photoLayout",
 									"animation": {
 										"type": "fade_in",
@@ -198,7 +198,7 @@
 							"components": [
 								{
 									"role": "image",
-									"URL": "http://ghk.h-cdn.co/assets/15/32/1438878885-makeup-free.jpg",
+									"URL": "http://ghk.h-cdn.co/assets/15/32/1438878613-10-edg_5958.jpg",
 									"layout": "photoLayout",
 									"animation": {
 										"type": "fade_in",
@@ -216,49 +216,7 @@
 						},			
 						{
 							"role": "caption",
-							"text": "\"Generally, I feel beautiful with or without makeup, but I usually wear makeup because it makes me feel put together Ñ like I've put my best foot forward. With makeup on just half my face, the contrast between how I look [without makeup] and the Joan Smalls-inspired makeup was so stark, it felt like I was two different people: There was regular me and then there was a little bolder and more badass me!\"",
-							"layout": "captionLayout",
-							"textStyle": "captionStyle",
-							"format": "markdown"
-						}
-					]
-				},
-				{
-					"role": "section",
-					"layout": "slideLayout",
-					"components": [
-						{
-							"role": "heading",
-							"text": "Brooke, 24",
-							"layout": "heading1Layout",
-							"textStyle": "heading1Style",
-							"format": "markdown"
-						},
-						{
-							"role": "container",
-							"style": "photoContainerStyle",
-							"components": [
-								{
-									"role": "image",
-									"URL": "http://ghk.h-cdn.co/assets/15/32/1438878885-makeup-free.jpg",
-									"layout": "photoLayout",
-									"animation": {
-										"type": "fade_in",
-										"userControllable": true,
-										"initialAlpha": 0.1
-									}
-								}
-							]
-						},
-						{
-							"role": "photographer",
-							"text": "Elizabeth Griffin/Kathleen Kamphausen",
-							"layout": "creditLayout",
-							"textStyle": "creditStyle"
-						},			
-						{
-							"role": "caption",
-							"text": "\"Wearing a lot of makeup makes me feel dressed up, so on a regular basis I only use mascara and concealer. This look was definitely a dramatic change for me, especially compared to the other half of my bare face. But I was surprised that I could actually pull off that much eye makeup and my eyes didn't disappear like I thought they would!\"",
+							"text": "\"Generally, I feel beautiful with or without makeup, but I usually wear makeup because it makes me feel put together \u2014 like I've put my best foot forward. With makeup on just half my face, the contrast between how I look [without makeup] and the Joan Smalls-inspired makeup was so stark, it felt like I was two different people: There was regular me and then there was a little bolder and more badass me!\"",
 							"layout": "captionLayout",
 							"textStyle": "captionStyle",
 							"format": "markdown"
@@ -282,7 +240,7 @@
 							"components": [
 								{
 									"role": "image",
-									"URL": "http://ghk.h-cdn.co/assets/15/32/1438878885-makeup-free.jpg",
+									"URL": "http://ghk.h-cdn.co/assets/15/32/1438878620-9-edg_5725.jpg",
 									"layout": "photoLayout",
 									"animation": {
 										"type": "fade_in",
@@ -351,7 +309,7 @@
 	"componentTextStyles": {
 		"authorStyle": {
 			"fontName": "AvenirNextLTW01-Medium",
-			"fontSize": 20,
+			"fontSize": 18,
 			"textAlignment": "left",
 			"textColor": "#959595"
 		},
@@ -381,9 +339,9 @@
 			}
 		},
 		"creditStyle": {
-			"fontName": "Helvetica",
-			"fontSize": 18,
-			"lineHeight": 24,
+			"fontName": "AvenirNextLTW01-Medium",
+			"fontSize": 14,
+			"lineHeight": 18,
 			"textAlignment": "right",
 			"textColor": "#898989",
 			"textTransform":"uppercase"
@@ -396,7 +354,7 @@
 		},
 		"heading1Style": {
 			"fontName": "TradeGothicNextLTW01-BdCn",
-			"fontSize": 36,
+			"fontSize": 34,
 			"lineHeight": 40,
 			"textAlignment": "left",
 			"textTransform":"uppercase"
@@ -461,8 +419,8 @@
 		},
 		"bodyLayout": {
 			"margin": {
-				"top": 10,
-				"bottom": 15
+				"top": 0,
+				"bottom": 20
 			}
 		},
 		"captionLayout": {
@@ -479,7 +437,7 @@
 		},
 		"dateLayout": {
 			"margin": {
-				"top": 80,
+				"top": 50,
 				"bottom": 10
 			}
 		},
@@ -496,17 +454,17 @@
 		"heading1Layout": {
 			"margin": {
 				"top": 15,
-				"bottom": 0
+				"bottom": 5
 			}
 		},
 		"introLayout": {
 			"margin": {
-				"top": 15,
+				"top": 0,
 				"bottom": 20
 			}
 		},
 		"photoLayout": {
-			"minimumHeight": "100vmax"
+			"maximumContentWidth": "100cw"
 		},
 		"pullQuoteLayout": {
 			"margin": {
