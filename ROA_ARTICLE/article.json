@@ -1,0 +1,411 @@
+{
+	"version": "0.10",
+	"identifier": "!!!DYNAMIC",
+	"title": "Don Draper's \"Mad Men\" Cadillac Is For Sale Right Now",
+	"language": "en",
+	"blueprint": "basic",
+	"layout": {
+		"columns": 6,
+		"width": 1024,
+		"margin": 80,
+		"gutter": 20
+	},
+	"components": [
+		{
+			"role": "header",
+			"layout": "headerImageLayout",
+			"style": {
+				"fill": {
+					"type": "image",
+					"URL": "http://roa.h-cdn.co/assets/15/31/1600x800/landscape-1438366500-don.jpg",
+					"fillMode": "cover",
+					"verticalAlignment": "top"
+				}
+			},
+			"behavior": {
+				"type": "parallax",
+				"factor": 0.5
+			},
+			"components": [
+				{
+					"role": "container",
+					"layout": "tabLayout",
+					"style": "tabLayoutStyle",
+					"anchor": {
+						"targetAnchorPosition": "bottom"
+					}
+				}
+			]
+		},
+		{
+			"role": "section",
+			"layout": "bodyContainerLayout",
+			"style": "bodyContainerStyle",
+			"anchor": {
+				"targetAnchorPosition": "top"
+			},
+			"components": [
+				{
+					"role": "intro",
+					"layout": "dateLayout",
+					"text": "AUG 11, 2015 @ 5:33 PM",
+					"textStyle": "dateStyle"
+				},
+				{
+					"role": "title",
+					"layout": "titleLayout",
+					"text": "Don Draper's \"Mad Men\" Cadillac Is For Sale Right Now",
+					"textStyle": "titleStyle"
+				},
+				{
+					"role": "intro",
+					"layout": "introLayout",
+					"text": "The actual '65 Cadillac used on Mad Men\u2014along with more than [1,000 other vintage set pieces](http://google.com)\u2014will be up for bid until August 6th.",
+					"textStyle": "introStyle",
+					"format": "markdown"
+				},
+				{
+					"role": "divider",
+					"stroke": {
+						"color": "#FFF0"
+					},
+					"layout": "blackStrokeLayout1",
+					"style": "baseStrokeStyle"
+				},
+				{
+					"role": "author",
+					"layout": "authorLayout",
+					"text": "By Robert Sorokanich",
+					"textStyle": "authorStyle"
+				},
+				{
+					"role": "divider",
+					"stroke": {
+						"color": "#FFF0"
+					},
+					"layout": "blackStrokeLayout2",
+					"style": "baseStrokeStyle"
+				},
+				{ 
+					 "role": "medium_rectangle_advertisement",
+					 "layout": "adLayout",
+					 "bannerType": "standard"
+				},
+				{
+					"role": "body",
+					"text": "Don Draper's 1965 Cadillac Coupe DeVille was a silent but crucially important character in [the last few seasons of _Mad Men_](http://www.roadandtrack.com/car-culture/entertainment/news/a25758/in-the-end-mad-men-was-secretly-the-best-car-show-on-tv/). Now, the actual car used to shoot the critically acclaimed and wildly successful TV drama can be yours\u2014but you better get your bid in soon.",
+					"layout": "bodyLayout",
+					"textStyle": "bodyStyleFirst",
+					"format": "markdown"
+				},
+				{
+					"role": "heading1",
+					"layout": "heading1Layout",
+					"text": "Screenbid Audtion Opens Soon",
+					"textStyle": "heading1Style",
+					"format": "markdown"
+				},
+				{
+					"role": "body",
+					"text": "[As Mashable reports](http://mashable.com/2015/07/31/mad-men-prop-auction/?utm_cid=mash-com-Tw-main-link), more than 1,000 vintage items used on the Mad Men set are [going up for auction at Screenbid](http://auction.screenbid.com/view-auctions/catalog/id/38/). Most of the items are set dressing\u2014furniture, clothing, vintage radios, old magazines, and dozens of other items that helped make the authentic 1960s milieu that made the show so great to watch.",
+					"layout": "bodyLayout",
+					"textStyle": "bodyStyle",
+					"format": "markdown"
+				},
+				{
+					"role": "body",
+					"text": "But scroll down a bit, and you'll see what's bound to be the biggest-ticket item of them all: [Don Draper's 1965 Cadillac Coupe DeVille](http://auction.screenbid.com/view-auctions/catalog/id/38/lot/14426/?url=%2Fview-auctions%2Fcatalog%2Fid%2F38%3Fpage%3D4%26cat%3D527).",
+					"layout": "bodyLayout",
+					"textStyle": "bodyStyle",
+					"format": "markdown"
+				},
+				{
+					"role": "divider",
+					"stroke": {
+						"color": "#FFF0"
+					},
+					"layout": "blackStrokeLayout3",
+					"style": "baseStrokeStyle"
+				},
+				{
+					"role": "pullquote",
+					"layout": "pullQuoteLayout",
+					"text": "\u201CThe car always seemed to be relatively straight and clean, with a nice-looking red leather interior and power windows\u201D",
+					"textStyle": "pullQuoteStyle",
+					"format": "markdown"
+				},
+				{
+					"role": "divider",
+					"stroke": {
+						"color": "#FFF0"
+					},
+					"layout": "blackStrokeLayout4",
+					"style": "baseStrokeStyle"
+				},
+				{
+					"role": "body",
+					"text": "Offered up with an opening bid of just $1,500, we're certain that the bidding on this item will push the final price way, way higher. The mere three photos offered in the auction listing are hardly clear enough to judge by, but from our repeated re-watching of the past few seasons of _Mad Men_ the car always seemed to be relatively straight and clean, with a nice-looking red leather interior and power windows.",
+					"layout": "bodyLayout",
+					"textStyle": "bodyStyle",
+					"format": "markdown"
+				},
+				{
+					"role": "tweet",
+					"URL": "https://twitter.com/MadMen_AMC/status/627148233689702400",
+					"layout": "embedLayout"
+				},
+				{
+					"role": "body",
+					"text": "Bidding opens at 3 p.m. on July 31st, and closes on August 7th.",
+					"layout": "bodyLayout",
+					"textStyle": "bodyStyle",
+					"format": "markdown"
+				},
+				{
+					"role": "banner_advertisement",
+					"bannerType": "standard"
+				}
+			]
+		}
+	],
+	"documentStyle": {
+		"backgroundColor": "#FFF"
+	},
+	"componentStyles": {
+		"baseStrokeStyle": {
+		},
+		"bodyContainerStyle": {
+			"backgroundColor": "#FFF"
+		},
+		"dateLayoutStyle": {
+			"border": {
+				"all": {
+					"width": 2
+				},
+				"top": false,
+				"left": false,
+				"right": false
+			}
+		},
+		"photoContainerStyle": {
+			"backgroundColor": "#000"
+		},
+		"tabLayoutStyle": {
+			"border": {
+				"all": {
+					"width": 16,
+					"color": "#008bd0"
+				},
+				"top": false,
+				"left": false,
+				"right": false
+			}
+		}
+	},
+	"componentTextStyles": {
+		"authorStyle": {
+			"fontName": "LinotypeUniversW01-MediumCn",
+			"fontSize": 18,
+			"textAlignment": "left",
+			"textColor": "#AAA",
+			"textTransform":"uppercase"
+		},
+		"bodyStyle": {
+			"fontName": "Georgia",
+			"fontSize": 20,
+			"lineHeight": 30,
+			"textAlignment": "left",
+			"linkStyle": {
+				"textColor": "#018bd0"
+			}
+		},
+		"bodyStyleFirst": {
+			"fontName": "Georgia",
+			"fontSize": 20,
+			"lineHeight": 30,
+			"textAlignment": "left",
+			"dropCapStyle": {
+				"fontName": "MetaHeadlineWebW01-Black",
+				"textColor": "#AAA",
+				"numberOfLines": 5,
+				"numberOfCharacters": 1
+			},
+			"linkStyle": {
+				"textColor": "#018bd0"
+			}
+		},
+		"captionStyle": {
+			"fontName": "Georgia",
+			"fontSize": 20,
+			"lineHeight": 30,
+			"textAlignment": "left",
+			"linkStyle": {
+				"textColor": "#018bd0"
+			}
+		},
+		"creditStyle": {
+			"fontName": "Georgia",
+			"fontSize": 18,
+			"lineHeight": 24,
+			"textAlignment": "right",
+			"textColor": "#898989",
+			"textTransform":"uppercase"
+		},
+		"dateStyle": {
+			"fontName": "LinotypeUniversW01-MediumCn",
+			"fontSize": 14,
+			"textAlignment": "left",
+			"textColor": "#AAA",
+			"textTransform":"uppercase"
+		},
+		"heading1Style": {
+			"fontName": "MetaHeadlineWebW01-CnBold",
+			"fontSize": 32,
+			"lineHeight": 38,
+			"textAlignment": "left"
+		},
+		"introStyle": {
+			"fontName": "MetaHeadlineWebW01-CnBold",
+			"fontSize": 26,
+			"lineHeight": 32,
+			"textColor": "#666",
+			"textAlignment": "left",
+			"linkStyle": {
+				"textColor": "#018bd0"
+			}
+		},
+		"lowerListStyle": {
+			"fontName": "Georgia",
+			"fontSize": 18,
+			"lineHeight": 20,
+			"textAlignment": "left"
+		},
+		"pullQuoteStyle": {
+			"fontName": "MetaHeadlineWebW01-Black",
+			"fontSize": 40,
+			"lineHeight": 50,
+			"textAlignment": "left",
+			"textColor": "#008bd0"
+		},
+		"spacerWord":{
+			"fontName": "Georgia",
+			"fontSize": 48,
+			"lineHeight": 48,
+			"textAlignment": "left",
+			"textTransform": "uppercase"
+		},
+		"titleStyle": {
+			"fontName": "MetaHeadlineWebW01-Black",
+			"fontSize": 52,
+			"lineHeight": 58,
+			"textAlignment": "left",
+			"textColor": "#333"
+		}
+	},
+	"componentLayouts": {
+		"adLayout": {
+		},
+		"authorLayout": {
+			"margin": {
+				"top": 0,
+				"bottom": 0
+			}
+		},
+		"blackStrokeLayout1":{
+			"margin": 0
+		},
+		"blackStrokeLayout2":{
+			"margin": 0
+		},
+		"blackStrokeLayout3":{
+			"margin": 0
+		},
+		"blackStrokeLayout4":{
+			"margin": 0
+		},
+		"bodyContainerLayout": {
+			"margin": {
+				"top": 0,
+				"bottom": 25
+			}
+		},
+		"bodyLayout": {
+			"margin": {
+				"top": 5,
+				"bottom": 25
+			}
+		},
+		"captionLayout": {
+			"margin": {
+				"top": 10,
+				"bottom": 25
+			}	 
+		},
+		"creditLayout": {
+			"margin": {
+				"top": 4,
+				"bottom": 0
+			}	 
+		},
+		"dateLayout": {
+			"margin": {
+				"top": 30,
+				"bottom": 10
+			}
+		},
+		"embedLayout": {
+			"margin": {
+				"top": 10,
+				"bottom": 25
+			}
+		},
+		"headerImageLayout": {
+			"ignoreDocumentMargin": true,
+			"minimumHeight": "50vh"
+		},
+		"heading1Layout": {
+			"margin": {
+				"top": 15,
+				"bottom": 0
+			}
+		},
+		"introLayout": {
+			"margin": {
+				"top": 10,
+				"bottom": 10
+			}
+		},
+		"photoLayout": {
+			"maximumContentWidth": "100cw"
+		},
+		"pullQuoteLayout": {
+			"margin": {
+				"top": 15,
+				"bottom": 30
+			},
+			"contentInset": {
+				"top": false,
+				"bottom": false
+			}
+		},
+		"slideLayout": {
+			"ignoreDocumentMargin": true
+		},
+		"spacerLayout": {
+			"margin": {
+				"top": 5,
+				"bottom": 0
+			}
+		},
+		"tabLayout": {
+			"ignoreDocumentMargin": true,
+			"minimumHeight": 124
+		},
+		"titleLayout": {
+			"margin": {
+				"top": 0,
+				"bottom": 0
+			}
+		}
+	}
+}
