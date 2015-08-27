@@ -1,503 +1,495 @@
 {
-  "version": "0.10",
-  "identifier": "!!!DYNAMIC",
-  "title": "The Summer of the Thigh-High Slit",
-  "language": "en",
-  "blueprint": "basic",
-  "layout": {
-    "columns": 6,
-    "width": 1024,
-    "margin": 20,
-    "gutter": 60
-  },
-  "components": [
-    {
-      "role": "header",
-      "layout": "headerImageLayout",
-      "style": {
-        "fill": {
-          "type": "image",
-          "URL": "http://hbz.h-cdn.co/assets/15/33/980x490/landscape-1439234328-hbz-high-slits-00-index.jpg",
-          "fillMode": "cover",
-          "verticalAlignment": "top"
-        }
-      },
-      "behavior": {
-        "type": "parallax",
-        "factor": 0.5
-      },
-      "components": [
-        {
-          "role": "container",
-          "layout": "tabLayout",
-          "style": "tabLayoutStyle",
-          "anchor": {
-            "targetAnchorPosition": "bottom"
-          }
-        }
-      ]
-    },
-    {
-      "role": "section",
-      "layout": "bodyContainerLayout",
-      "style": "bodyContainerStyle",
-      "anchor": {
-        "targetAnchorPosition": "top"
-      },
-      "components": [
-        {
-          "role": "intro",
-          "layout": "dateLayout",
-          "text": "Aug 11, 2015 @ 6:01 pm",
-          "textStyle": "dateStyle",
-          "style": "dateLayoutStyle"
-        },
-        {
-          "role": "title",
-          "text": "The Summer of the Thigh-High Slit",
-          "layout": "titleLayout",
-          "textStyle": "titleStyle"
-        },
-        {
-          "role": "intro",
-          "text": "The approach to highlighting the female form in fashion is ever-changing. Sometimes it's about the decolletage, followed by a moment that's all derriere, and there's always the option of the full-on [naked dress](http://www.harpersbazaar.com/fashion/designers/a11157/carolina-herrera-challenges-the-naked-dress-trend/). This summer, the sensual body part to display is no doubt the leg. Thigh-high slits have been showcasing well-toned stems since May. See some well-heeled ladies give their best [Angelina Jolie](http://www.huffingtonpost.com/2012/02/27/angelina-jolie-right-leg-_n_1303865.html).",
-          "layout": "introLayout",
-          "textStyle": "introStyle",
-          "format": "markdown"
-        },
-        {
-          "role": "divider",
-          "stroke": {
-            "color": "#FFF0"
-          },
-         "layout": "blackStrokeLayout1",
-         "style": "baseStrokeStyle"
-        },
-        {
-          "role": "author",
-          "layout": "authorLayout",
-          "text": "By Katy Pieri",
-          "textStyle": "authorStyle"
-        },
-        {
-          "role": "divider",
-          "stroke": {
-           "color": "#FFF0"
-          },
-         "layout": "blackStrokeLayout1",
-         "style": "baseStrokeStyle"
-        },
-        {
-          "role": "section",
-          "layout": "slideLayout",
-          "components": [
-            {
-              "role": "heading",
-              "text": "Beyonce",
-              "layout": "heading1Layout",
-              "textStyle": "heading1Style",
-              "format": "markdown"
-            },
-            {
-              "role": "container",
-              "style": "photoContainerStyle",
-              "layout": "photoLayout",
-              "components": [
-                {
-                  "role": "container",
-                  "style": {
-                    "fill": {
-                      "type": "image",
-                      "URL": "http://hbz.h-cdn.co/assets/15/33/1024x1536/hbz-high-slits-beyonce.jpg",
-                      "verticalAlignment": "top"
-                    }
-                  },
-                  "layout": "photoLayout",
-                  "animation": {
-                    "type": "fade_in",
-                    "userControllable": true,
-                    "initialAlpha": 0.1
-                  }
-                }
-              ]
-            },
-            {
-              "role": "photographer",
-              "text": "Getty",
-              "layout": "creditLayout",
-              "textStyle": "creditStyle"
-            },      
-            {
-              "role": "caption",
-              "text": "In Self Portrait",
-              "layout": "captionLayout",
-              "textStyle": "captionStyle",
-              "format": "markdown"
-            }
-          ]
-        },
-        {
-          "role": "section",
-          "layout": "slideLayout",
-          "components": [
-            {
-              "role": "heading",
-              "text": "Gabrielle Union",
-              "layout": "heading1Layout",
-              "textStyle": "heading1Style",
-              "format": "markdown"
-            },
-            {
-              "role": "container",
-              "style": "photoContainerStyle",
-              "layout": "photoLayout",
-              "components": [
-                {
-                  "role": "container",
-                  "style": {
-                    "fill": {
-                      "type": "image",
-                      "URL": "http://hbz.h-cdn.co/assets/15/33/1024x1536/gallery-1439308721-hbz-high-slits-gabrielle-union.jpg",
-                      "verticalAlignment": "top"
-                    }
-                  },
-                  "layout": "photoLayout",
-                  "animation": {
-                    "type": "fade_in",
-                    "userControllable": true,
-                    "initialAlpha": 0.1
-                  }
-                }
-              ]
-            },
-            {
-              "role": "photographer",
-              "text": "Getty",
-              "layout": "creditLayout",
-              "textStyle": "creditStyle"
-            },      
-            {
-              "role": "caption",
-              "text": "In Akris",
-              "layout": "captionLayout",
-              "textStyle": "captionStyle",
-              "format": "markdown"
-            }
-          ]
-        },
-        {
-          "role": "section",
-          "layout": "slideLayout",
-          "components": [
-            {
-              "role": "heading",
-              "text": "Charlize Theron",
-              "layout": "heading1Layout",
-              "textStyle": "heading1Style",
-              "format": "markdown"
-            },
-            {
-              "role": "container",
-              "style": "photoContainerStyle",
-              "layout": "photoLayout",
-              "components": [
-                {
-                  "role": "container",
-                  "style": {
-                    "fill": {
-                      "type": "image",
-                      "URL": "http://hbz.h-cdn.co/assets/15/33/1024x1536/hbz-high-slits-charlize-theron.jpg",
-                      "verticalAlignment": "top"
-                    }
-                  },
-                  "layout": "photoLayout",
-                  "animation": {
-                    "type": "fade_in",
-                    "userControllable": true,
-                    "initialAlpha": 0.1
-                  }
-                }
-              ]
-            },
-            {
-              "role": "photographer",
-              "text": "Getty",
-              "layout": "creditLayout",
-              "textStyle": "creditStyle"
-            },      
-            {
-              "role": "caption",
-              "text": "In Cushnie et Ochs",
-              "layout": "captionLayout",
-              "textStyle": "captionStyle",
-              "format": "markdown"
-            }
-          ]
-        },
-        { 
-          "role": "medium_rectangle_advertisement",
-          "layout": "adLayout",
-          "bannerType": "standard"
-        }
-      ]
-    },
-    
-    {
-      "role": "banner_advertisement",
-      "bannerType": "standard"
-    }
-  ],
-  "documentStyle": {
-    "backgroundColor": "#FFF"
-  },
-  "componentStyles": {
-    "bodyContainerStyle": {
-      "backgroundColor": "#FFF"
-    },
-    "dateLayoutStyle": {
-    },
-    "baseStrokeStyle": {
-    },
-    "photoContainerStyle": {
-      "backgroundColor": "#000"
-    },
-    "tabLayoutStyle": {
-      "fill": {
-        "type": "image",
-        "URL": "https://s3.amazonaws.com/sallyhdm/hbz_header_gallery.png",
-        "fillMode": "fit",
-        "verticalAlignment": "bottom",
-        "horizontalAlignment": "center"
-      }
-    }
-  },
-  "componentTextStyles": {
-    "authorStyle": {
-      "fontName": "Didot-HTF-M42-Medium",
-      "fontSize": 14,
-      "textAlignment": "center",
-      "textTransform":"uppercase",
-      "tracking": 0.5
-    },
-    "bodyStyle": {
-      "fontName": "TimesNewRomanPSMT",
-      "fontSize": 24,
-      "lineHeight": 36,
-      "textAlignment": "left",
-      "linkStyle": {
-        "textColor": "#00AAE3",
-        "underline": true
-      }
-    },
-    "bodyStyleFirst": {
-      "fontName": "TimesNewRomanPSMT",
-      "fontSize": 24,
-      "lineHeight": 36,
-      "textAlignment": "left",
-      "dropCapStyle": {
-        "fontName": "TimesNewRomanPS-BoldMT",
-        "numberOfLines": 5,
-        "numberOfCharacters": 1
-      }
-    },
-    "captionStyle": {
-      "fontName": "GothamNarrow-Light",
-      "fontSize": 20,
-      "lineHeight": 32,
-      "textAlignment": "left",
-      "linkStyle": {
-        "underline": true
-      }
-    },
-    "creditStyle": {
-      "fontName": "GothamNarrow-Light",
-      "fontSize": 10,
-      "lineHeight": 12,
-      "textAlignment": "right",
-      "textColor": "#000",
-      "textTransform":"uppercase"
-    },
-    "dateStyle": {
-      "fontName": "GothamNarrow-Light",
-      "fontSize": 13,
-      "textAlignment": "center",
-      "textColor": "#878787"
-    },
-    "heading1Style": {
-      "fontName": "Didot-HTF-L42-Light",
-      "fontSize": 40,
-      "lineHeight": 42,
-      "textAlignment": "left",
-      "textTransform":"uppercase"
-    },
-    "introStyle": {
-      "fontName": "Didot-HTF-L42-Light-Ital",
-      "fontSize": 22,
-      "lineHeight": 32,
-      "textAlignment": "center"
-    },
-    "lowerListStyle": {
-      "fontName": "TimesNewRomanPSMT",
-      "fontSize": 18,
-      "lineHeight": 20,
-      "textAlignment": "center"
-    },
-    "pullQuoteStyle": {
-      "fontName": "Didot-HTF-L42-Light-Ital",
-      "fontSize": 40,
-      "lineHeight": 52,
-      "textAlignment": "center"
-    },
-    "spacerWord":{
-      "fontName": "TimesNewRomanPSMT",
-      "fontSize": 48,
-      "lineHeight": 48,
-      "textAlignment": "center",
-      "textTransform": "uppercase"
-    },
-    "titleStyle": {
-      "fontName": "GothamNarrow-XLight",
-      "fontSize": 68,
-      "lineHeight": 68,
-      "textAlignment": "center",
-      "textTransform": "uppercase"
-    }
-  },
-  "componentLayouts": {
-    "adLayout": {
-      "margin": {
-        "top": 10,
-        "bottom": 5
-      }
-    },
-    "authorLayout": {
-      "margin": {
-        "top": 0,
-        "bottom": 10
-      }
-    },
-    "blackStrokeLayout1":{
-      "margin":{
-        "top":0,
-        "bottom":0
-      }
-    },
-    "blackStrokeLayout2":{
-      "margin":{
-        "top":5,
-        "bottom":5
-      }
-    },
-    "blackStrokeLayout3":{
-      "margin":{
-        "top":10,
-        "bottom":35
-      }
-    },
-    "blackStrokeLayout4":{
-      "margin":{
-        "top":0,
-        "bottom":25
-      }
-    },
-    "bodyContainerLayout": {
-      "ignoreDocumentMargin": false,
-      "margin": {
-        "top": 0,
-        "bottom": 20
-      }
-    },
-    "bodyLayout": {
-      "contentInset": {
-        "left": true,
-        "right": true
-      },
-      "margin": {
-        "top": 35,
-        "bottom": 25
-      }
-    },
-    "captionLayout": {
-      "margin": {
-        "top": 10,
-        "bottom": 25
-      }   
-    },
-    "creditLayout": {
-      "margin": {
-        "top": 4,
-        "bottom": 0
-      }   
-    },
-    "dateLayout": {
-      "contentInset": {
-        "left": true,
-        "right": true
-      },
-      "margin": {
-        "top": 20,
-        "bottom": 10
-      }
-    },
-    "embedLayout":{
-    },
-    "headerImageLayout": {
-      "ignoreDocumentMargin": true,
-      "minimumHeight": "40vh"
-    },
-    "heading1Layout": {
-      "margin": {
-        "top": 15,
-        "bottom": 10
-      }
-    },
-    "introLayout": {
-      "contentInset": {
-        "left": true,
-        "right": true
-      },
-      "margin": {
-        "top": 0,
-        "bottom": 20
-      }
-    },
-    "photoLayout": {
-      "minimumHeight": "100vmax"
-    },
-    "pullQuoteLayout": {
-      "margin": {
-        "top": 25,
-        "bottom": 25
-      }
-    },
-    "slideLayout": {
-      "ignoreDocumentMargin": false,
-      "minimumHeight": "100cw",
-      "contentInset": {
-        "left": true,
-        "right": true
-      },
-      "margin": 20
-    },
-    "spacerLayout": {
-      "margin": {
-        "top": 5,
-        "bottom": 0
-      }
-    },
-    "tabLayout": {
-      "ignoreDocumentMargin": false,
-      "minimumHeight": "20vw"
-    },
-    "titleLayout": {
-      "contentInset": {
-        "left": true,
-        "right": true
-      },
-      "margin": {
-        "top": 10,
-        "bottom": 10
-      }
-    }
-  }
+	"version": "0.10",
+	"identifier": "!!!DYNAMIC",
+	"title": "The Summer of the Thigh-High Slit",
+	"language": "en",
+	"blueprint": "basic",
+	"layout": {
+		"columns": 6,
+		"width": 1024,
+		"margin": 20,
+		"gutter": 60
+	},
+	"components": [
+		{
+			"role": "header",
+			"layout": "headerImageLayout",
+			"style": {
+				"fill": {
+					"type": "image",
+					"URL": "http://hbz.h-cdn.co/assets/15/33/980x490/landscape-1439234328-hbz-high-slits-00-index.jpg",
+					"fillMode": "cover",
+					"verticalAlignment": "top"
+				}
+			},
+			"behavior": {
+				"type": "parallax",
+				"factor": 0.5
+			},
+			"components": [
+				{
+					"role": "container",
+					"layout": "tabLayout",
+					"style": "tabLayoutStyle",
+					"anchor": {
+						"targetAnchorPosition": "bottom"
+					}
+				}
+			]
+		},
+		{
+			"role": "section",
+			"layout": "bodyContainerLayout",
+			"style": "bodyContainerStyle",
+			"anchor": {
+				"targetAnchorPosition": "top"
+			},
+			"components": [
+				{
+					"role": "intro",
+					"layout": "dateLayout",
+					"text": "Aug 11, 2015 @ 6:01 pm",
+					"textStyle": "dateStyle",
+					"style": "dateLayoutStyle"
+				},
+				{
+					"role": "title",
+					"text": "The Summer of the Thigh-High Slit",
+					"layout": "titleLayout",
+					"textStyle": "titleStyle"
+				},
+				{
+					"role": "intro",
+					"text": "The approach to highlighting the female form in fashion is ever-changing. Sometimes it's about the decolletage, followed by a moment that's all derriere, and there's always the option of the full-on [naked dress](http://www.harpersbazaar.com/fashion/designers/a11157/carolina-herrera-challenges-the-naked-dress-trend/). This summer, the sensual body part to display is no doubt the leg. Thigh-high slits have been showcasing well-toned stems since May. See some well-heeled ladies give their best [Angelina Jolie](http://www.huffingtonpost.com/2012/02/27/angelina-jolie-right-leg-_n_1303865.html).",
+					"layout": "introLayout",
+					"textStyle": "introStyle",
+					"format": "markdown"
+				},
+				{
+					"role": "divider",
+					"stroke": {
+						"color": "#FFF0"
+					},
+				 "layout": "blackStrokeLayout1",
+				 "style": "baseStrokeStyle"
+				},
+				{
+					"role": "author",
+					"layout": "authorLayout",
+					"text": "By Katy Pieri",
+					"textStyle": "authorStyle"
+				},
+				{
+					"role": "divider",
+					"stroke": {
+					 "color": "#FFF0"
+					},
+				 "layout": "blackStrokeLayout1",
+				 "style": "baseStrokeStyle"
+				},
+				{
+					"role": "section",
+					"layout": "slideLayout",
+					"components": [
+						{
+							"role": "heading",
+							"text": "Beyonce",
+							"layout": "heading1Layout",
+							"textStyle": "heading1Style",
+							"format": "markdown"
+						},
+						{
+							"role": "container",
+							"style": "photoContainerStyle",
+							"components": [
+								{
+									"role": "image",
+									"URL": "http://hbz.h-cdn.co/assets/15/33/1024x1536/hbz-high-slits-beyonce.jpg",
+									"layout": "photoLayout",
+									"animation": {
+										"type": "fade_in",
+										"userControllable": true,
+										"initialAlpha": 0.1
+									}
+								}
+							]
+						},
+						{
+							"role": "photographer",
+							"text": "Getty",
+							"layout": "creditLayout",
+							"textStyle": "creditStyle"
+						},			
+						{
+							"role": "caption",
+							"text": "In [Self Portrait](http://www.google.com)",
+							"layout": "captionLayout",
+							"textStyle": "captionStyle",
+							"format": "markdown"
+						}
+					]
+				},
+				{
+					"role": "section",
+					"layout": "slideLayout",
+					"components": [
+						{
+							"role": "heading",
+							"text": "Gabrielle Union",
+							"layout": "heading1Layout",
+							"textStyle": "heading1Style",
+							"format": "markdown"
+						},
+						{
+							"role": "container",
+							"style": "photoContainerStyle",
+							"components": [
+								{
+									"role": "image",
+									"URL": "http://hbz.h-cdn.co/assets/15/33/1024x1536/gallery-1439308721-hbz-high-slits-gabrielle-union.jpg",
+									"layout": "photoLayout",
+									"animation": {
+										"type": "fade_in",
+										"userControllable": true,
+										"initialAlpha": 0.1
+									}
+								}
+							]
+						},
+						{
+							"role": "photographer",
+							"text": "Getty",
+							"layout": "creditLayout",
+							"textStyle": "creditStyle"
+						},			
+						{
+							"role": "caption",
+							"text": "In Akris",
+							"layout": "captionLayout",
+							"textStyle": "captionStyle",
+							"format": "markdown"
+						}
+					]
+				},
+				{
+					"role": "section",
+					"layout": "slideLayout",
+					"components": [
+						{
+							"role": "heading",
+							"text": "Charlize Theron",
+							"layout": "heading1Layout",
+							"textStyle": "heading1Style",
+							"format": "markdown"
+						},
+						{
+							"role": "container",
+							"style": "photoContainerStyle",
+							"components": [
+								{
+									"role": "image",
+									"URL": "http://hbz.h-cdn.co/assets/15/33/1024x1536/hbz-high-slits-charlize-theron.jpg",
+									"layout": "photoLayout",
+									"animation": {
+										"type": "fade_in",
+										"userControllable": true,
+										"initialAlpha": 0.1
+									}
+								}
+							]
+						},
+						{
+							"role": "photographer",
+							"text": "Getty",
+							"layout": "creditLayout",
+							"textStyle": "creditStyle"
+						},			
+						{
+							"role": "caption",
+							"text": "In Cushnie et Ochs",
+							"layout": "captionLayout",
+							"textStyle": "captionStyle",
+							"format": "markdown"
+						}
+					]
+				},
+				{ 
+					"role": "medium_rectangle_advertisement",
+					"layout": "adLayout",
+					"bannerType": "standard"
+				}
+			]
+		},
+		
+		{
+			"role": "banner_advertisement",
+			"bannerType": "standard"
+		}
+	],
+	"documentStyle": {
+		"backgroundColor": "#FFF"
+	},
+	"componentStyles": {
+		"bodyContainerStyle": {
+			"backgroundColor": "#FFF"
+		},
+		"dateLayoutStyle": {
+		},
+		"baseStrokeStyle": {
+		},
+		"photoContainerStyle": {
+			"backgroundColor": "#000"
+		},
+		"tabLayoutStyle": {
+			"fill": {
+				"type": "image",
+				"URL": "https://s3.amazonaws.com/sallyhdm/hbz_header_gallery.png",
+				"fillMode": "fit",
+				"verticalAlignment": "bottom",
+				"horizontalAlignment": "center"
+			}
+		}
+	},
+	"componentTextStyles": {
+		"authorStyle": {
+			"fontName": "Didot-HTF-M42-Medium",
+			"fontSize": 14,
+			"textAlignment": "center",
+			"textTransform":"uppercase",
+			"tracking": 0.5
+		},
+		"bodyStyle": {
+			"fontName": "TimesNewRomanPSMT",
+			"fontSize": 24,
+			"lineHeight": 36,
+			"textAlignment": "left",
+			"linkStyle": {
+				"fontName": "#TimesNewRomanPS-BoldMT",
+				"textColor": "#242424",
+				"underline": true
+			}
+		},
+		"bodyStyleFirst": {
+			"fontName": "TimesNewRomanPSMT",
+			"fontSize": 24,
+			"lineHeight": 36,
+			"textAlignment": "left",
+			"linkStyle": {
+				"fontName": "#TimesNewRomanPS-BoldMT",
+				"textColor": "#242424",
+				"underline": true
+			},
+			"dropCapStyle": {
+
+				"fontName": "TimesNewRomanPS-BoldMT",
+				"numberOfLines": 5,
+				"numberOfCharacters": 1
+			}
+		},
+		"captionStyle": {
+			"fontName": "GothamNarrow-Light",
+			"fontSize": 20,
+			"lineHeight": 32,
+			"textAlignment": "left",
+			"linkStyle": {
+				"fontName": "GothamNarrow-Bold",
+				"textColor": "#242424",
+				"underline": true
+			}
+		},
+		"creditStyle": {
+			"fontName": "GothamNarrow-Light",
+			"fontSize": 10,
+			"lineHeight": 12,
+			"textAlignment": "right",
+			"textColor": "#000",
+			"textTransform":"uppercase"
+		},
+		"dateStyle": {
+			"fontName": "GothamNarrow-Light",
+			"fontSize": 13,
+			"textAlignment": "center",
+			"textColor": "#878787"
+		},
+		"heading1Style": {
+			"fontName": "Didot-HTF-L42-Light",
+			"fontSize": 40,
+			"lineHeight": 42,
+			"textAlignment": "left",
+			"textTransform":"uppercase"
+		},
+		"introStyle": {
+			"fontName": "Didot-HTF-L42-Light-Ital",
+			"fontSize": 22,
+			"lineHeight": 32,
+			"textAlignment": "center",
+			"linkStyle": {
+				"fontName": "Didot-HTF-M42-Medium-Ital",
+				"textColor": "#242424",
+				"underline": true
+			}
+		},
+		"lowerListStyle": {
+			"fontName": "TimesNewRomanPSMT",
+			"fontSize": 18,
+			"lineHeight": 20,
+			"textAlignment": "center"
+		},
+		"pullQuoteStyle": {
+			"fontName": "Didot-HTF-L42-Light-Ital",
+			"fontSize": 40,
+			"lineHeight": 52,
+			"textAlignment": "center"
+		},
+		"spacerWord":{
+			"fontName": "TimesNewRomanPSMT",
+			"fontSize": 48,
+			"lineHeight": 48,
+			"textAlignment": "center",
+			"textTransform": "uppercase"
+		},
+		"titleStyle": {
+			"fontName": "GothamNarrow-XLight",
+			"fontSize": 68,
+			"lineHeight": 68,
+			"textAlignment": "center",
+			"textTransform": "uppercase"
+		}
+	},
+	"componentLayouts": {
+		"adLayout": {
+			"margin": {
+				"top": 10,
+				"bottom": 5
+			}
+		},
+		"authorLayout": {
+			"margin": {
+				"top": 0,
+				"bottom": 10
+			}
+		},
+		"blackStrokeLayout1":{
+			"margin":{
+				"top":0,
+				"bottom":0
+			}
+		},
+		"blackStrokeLayout2":{
+			"margin":{
+				"top":0,
+				"bottom":0
+			}
+		},
+		"blackStrokeLayout3":{
+			"margin":{
+				"top":10,
+				"bottom":35
+			}
+		},
+		"blackStrokeLayout4":{
+			"margin":{
+				"top":0,
+				"bottom":25
+			}
+		},
+		"bodyContainerLayout": {
+			"ignoreDocumentMargin": false,
+			"margin": {
+				"top": 0,
+				"bottom": 20
+			}
+		},
+		"bodyLayout": {
+			"contentInset": {
+				"left": true,
+				"right": true
+			},
+			"margin": {
+				"top": 35,
+				"bottom": 25
+			}
+		},
+		"captionLayout": {
+			"margin": {
+				"top": 10,
+				"bottom": 25
+			}
+		},
+		"creditLayout": {
+			"margin": {
+				"top": 4,
+				"bottom": 0
+			}
+		},
+		"dateLayout": {
+			"contentInset": {
+				"left": true,
+				"right": true
+			},
+			"margin": {
+				"top": 20,
+				"bottom": 10
+			}
+		},
+		"embedLayout":{
+		},
+		"headerImageLayout": {
+			"ignoreDocumentMargin": true,
+			"minimumHeight": "40vh"
+		},
+		"heading1Layout": {
+			"margin": {
+				"top": 15,
+				"bottom": 10
+			}
+		},
+		"introLayout": {
+			"contentInset": {
+				"left": true,
+				"right": true
+			},
+			"margin": {
+				"top": 0,
+				"bottom": 20
+			}
+		},
+		"photoLayout": {
+			"maximumContentWidth": "100cw"
+		},
+		"pullQuoteLayout": {
+			"margin": {
+				"top": 25,
+				"bottom": 25
+			}
+		},
+		"slideLayout": {
+			"ignoreDocumentMargin": false,
+			"contentInset": {
+				"left": true,
+				"right": true
+			},
+			"margin": 20
+		},
+		"spacerLayout": {
+			"margin": {
+				"top": 5,
+				"bottom": 0
+			}
+		},
+		"tabLayout": {
+			"ignoreDocumentMargin": false,
+			"minimumHeight": "20vw"
+		},
+		"titleLayout": {
+			"contentInset": {
+				"left": true,
+				"right": true
+			},
+			"margin": {
+				"top": 10,
+				"bottom": 10
+			}
+		}
+	}
 }

@@ -60,8 +60,9 @@
 				{
 					"role": "intro",
 					"layout": "introLayout",
-					"text": "Get stuffed.",
-					"textStyle": "introStyle"
+					"text": "Get stuffed. Here's a [link](http://google.com)!",
+					"textStyle": "introStyle",
+					"format": "markdown"
 				},
 				{
 					"role": "divider",
@@ -266,7 +267,7 @@
 	"componentTextStyles": {
 		"authorStyle": {
 			"fontName": "BrandonGrotW01-Black",
-			"fontSize": 18,
+			"fontSize": 16,
 			"textAlignment": "left",
 			"textColor": "#959595",
 			"textTransform":"uppercase"
@@ -286,7 +287,7 @@
 			"fontSize": 28,
 			"lineHeight": 36,
 			"textAlignment": "left",
-		"linkStyle": {
+			"linkStyle": {
 				"textColor": "#f26f26",
 				"underline": true
 			}
@@ -311,23 +312,27 @@
 		},
 		"dateStyle": {
 			"fontName": "BrandonGrotW01-Black",
-			"fontSize": 18,
+			"fontSize": 16,
 			"textAlignment": "left",
 			"textColor": "#959595",
 			"textTransform":"uppercase"
 		},
 		"heading1Style": {
 			"fontName": "BrandonGrotW01-Black",
-			"fontSize": 40,
-			"lineHeight": 48,
+			"fontSize": 36,
+			"lineHeight": 42,
 			"textAlignment": "left",
 			"textTransform":"uppercase"
 		},
 		"introStyle": {
 			"fontName": "DINNextW01-CondensedLight",
-			"fontSize": 44,
-			"lineHeight": 52,
-			"textAlignment": "left"
+			"fontSize": 40,
+			"lineHeight": 48,
+			"textAlignment": "left",
+			"linkStyle": {
+				"textColor": "#f26f26",
+				"underline": true
+			}
 		},
 		"lowerListStyle": {
 			"fontName": "Helvetica",
@@ -426,7 +431,7 @@
 		"introLayout": {
 			"margin": {
 				"top": 0,
-				"bottom": 10
+				"bottom": 5
 			}
 		},
 		"photoLayout": {

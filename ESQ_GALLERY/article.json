@@ -1,422 +1,431 @@
 {
-  "version": "0.10",
-  "identifier": "!!!DYNAMIC",
-  "title": "10 Stylish Items to Help You Unleash the Rebel Within",
-  "language": "en",
-  "blueprint": "basic",
-  "layout": {
-    "columns": 6,
-    "width": 1024,
-    "margin": 80,
-    "gutter": 20
-  },
-  "components": [
-    {
-      "role": "header",
-      "layout": "headerImageLayout",
-      "style": {
-        "fill": {
-          "type": "image",
-          "URL": "http://esq.h-cdn.co/assets/15/32/980x490/landscape-1438722543-gettyimages-468415240b.jpg",
-          "fillMode": "cover",
-          "verticalAlignment": "top"
-        }
-      },
-      "behavior": {
-        "type": "parallax",
-        "factor": 0.5
-      },
-      "components": [
-        {
-          "role": "container",
-          "layout": "tabLayout",
-          "style": "tabLayoutStyle",
-          "anchor": {
-            "targetAnchorPosition": "bottom"
-          }
-        }
-      ]
-    },
-    {
-      "role": "section",
-      "layout": "bodyContainerLayout",
-      "style": "bodyContainerStyle",
-      "anchor": {
-        "targetAnchorPosition": "top"
-      },
-      "components": [
-        {
-          "role": "intro",
-          "layout": "dateLayout",
-          "text": "Aug 5, 2015 @ 6:01 PM",
-          "textStyle": "dateStyle"
-        },
-        {
-          "role": "title",
-          "layout": "titleLayout",
-          "text": "10 Stylish Items to Help You Unleash the Rebel Within",
-          "textStyle": "titleStyle"
-        },
-        {
-          "role": "intro",
-          "layout": "introLayout",
-          "text": "Add a little badass to your wardrobe.",
-          "textStyle": "introStyle"
-        },
-        {
-          "role": "divider",
-          "stroke": {
-            "color": "#FFF0"
-          },
-          "layout": "blackStrokeLayout1",
-          "style": "baseStrokeStyle"
-        },
-        {
-          "role": "author",
-          "layout": "authorLayout",
-          "text": "By ESQ Editors",
-          "textStyle": "authorStyle"
-        },
-        {
-          "role": "divider",
-          "stroke": {
-            "color": "#FFF0"
-          },
-          "layout": "blackStrokeLayout1",
-          "style": "baseStrokeStyle"
-        },
-        {
-          "role": "body",
-          "text": "He is wearing a pool-blue V-neck that shows off the Roman-numeral tattoo on his arm, a reference to the thirty-two-ounce beers his high school friends were forced to buy because forties were not available in Florida. He explains that everyone in the \"32 Crew\" got this tattoo after a night at the High Octane Saloon from a man they bribed out of bed at 2:00 a.m. to needle crooked _X_'s and _I_'s onto their biceps.",
-          "layout": "bodyLayout",
-          "textStyle": "bodyStyle",
-          "format": "markdown"
-        },
-        {
-          "role": "section",
-          "layout": "slideLayout",
-          "components": [
-            {
-              "role": "heading",
-              "text": "1\\. Black Shades",
-              "layout": "heading1Layout",
-              "textStyle": "heading1Style",
-              "format": "markdown"
-            },
-            {
-              "role": "container",
-              "style": "photoContainerStyle",
-              "layout": "photoLayout",
-              "components": [
-                {
-                  "role": "container",
-                  "style": {
-                    "fill": {
-                      "type": "image",
-                      "URL": "http://esq.h-cdn.co/assets/15/32/1024x1536/gallery-1438723003-55.jpg",
-                      "verticalAlignment": "top"
-                    }
-                  },
-                  "layout": "photoLayout",
-                  "animation": {
-                    "type": "fade_in",
-                    "userControllable": true,
-                    "initialAlpha": 0.1
-                  }
-                }
-              ]
-            },
-            {
-              "role": "photographer",
-              "text": "Getty",
-              "layout": "creditLayout",
-              "textStyle": "creditStyle"
-            },      
-            {
-              "role": "caption",
-              "text": "Black shades are always cool, but these big, square frames with metal details look just a bit meaner than average.\n\n_Polarized square sunglasses ($495) by Public School x Oliver People, [eastdane.com](https://www.eastdane.com/public-school-oliver-people-polarized/vp/v=1/1527618074.htm?folderID=19227&colorId=86561)_",
-              "layout": "captionLayout",
-              "textStyle": "captionStyle",
-              "format": "markdown"
-            }
-          ]
-        },
-        {
-          "role": "section",
-          "layout": "slideLayout",
-          "components": [
-            {
-              "role": "heading",
-              "text": "2\\. A Leather Jacket",
-              "layout": "heading1Layout",
-              "textStyle": "heading1Style",
-              "format": "markdown"
-            },
-            {
-              "role": "container",
-              "style": "photoContainerStyle",
-              "layout": "photoLayout",
-              "components": [
-                {
-                  "role": "container",
-                  "style": {
-                    "fill": {
-                      "type": "image",
-                      "URL": "http://esq.h-cdn.co/assets/15/32/dsc_2992.jpg",
-                      "verticalAlignment": "top"
-                    }
-                  },
-                  "layout": "photoLayout",
-                  "animation": {
-                    "type": "fade_in",
-                    "userControllable": true,
-                    "initialAlpha": 0.1
-                  }
-                }
-              ]
-            },
-            {
-              "role": "photographer",
-              "text": "Getty",
-              "layout": "creditLayout",
-              "textStyle": "creditStyle"
-            },      
-            {
-              "role": "caption",
-              "text": "A leather jacket might seem the obvious choice, but this one from Schott is unique. It combines the asymmetrical zipper of a Perfecto with the cropped collar of a cafe racer, which means it will stand out anywhere.\n\n_Steerhide hybrid motorcycle jacket ($595) by Schott, [schottnyc.com](https://www.schottnyc.com/products/cafe-racer-hybrid-leather-motorcycle-jacket.htm?catID=5)_",
-              "layout": "captionLayout",
-              "textStyle": "captionStyle",
-              "format": "markdown"
-            }
-          ]
-        },
-        {
-          "role": "banner_advertisement",
-          "bannerType": "standard"
-        }
-      ]
-    }
-  ],
-  "documentStyle": {
-    "backgroundColor": "#FFF"
-  },
-  "componentStyles": {
-    "baseStrokeStyle": {
-    },
-    "bodyContainerStyle": {
-      "backgroundColor": "#FFF"
-    },
-    "dateLayoutStyle": {
-    },
-    "photoContainerStyle": {
-      "backgroundColor": "#000"
-    },
-    "tabLayoutStyle": {
-      "fill": {
-        "type": "image",
-        "URL": "https://s3.amazonaws.com/sallyhdm/esq_header_gallery.png",
-        "fillMode": "fit",
-        "verticalAlignment": "bottom",
-        "horizontalAlignment": "right"
-      }
-    }
-  },
-  "componentTextStyles": {
-    "authorStyle": {
-      "fontName": "TradeGothicNextLTW01-HvCn",
-      "fontSize": 16,
-      "textAlignment": "left",
-      "textTransform":"uppercase",
-      "textColor": "#AAA"
-    },
-    "bodyStyle": {
-      "fontName": "Georgia",
-      "fontSize": 21,
-      "lineHeight": 30,
-      "textAlignment": "left",
-      "textColor": "#333",
-      "linkStyle": {
-        "textColor": "#00AAE3",
-        "underline": true
-      }
-    },
-    "bodyStyleFirst": {
-      "fontName": "Georgia",
-      "fontSize": 21,
-      "lineHeight": 30,
-      "textAlignment": "left",
-      "textColor": "#333",
-      "dropCapStyle": {
-        "fontName": "AktivGroteskW01-Black",
-        "numberOfLines": 3,
-        "numberOfCharacters": 1,
-        "textColor": "#000"
-      }
-    },
-    "captionStyle": {
-      "fontName": "Georgia",
-      "fontSize": 21,
-      "lineHeight": 30,
-      "textAlignment": "left",
-      "textColor": "#666",
-      "linkStyle": {
-        "textColor": "#00AAE3",
-        "underline": true
-      }
-    },
-    "creditStyle": {
-      "fontName": "TradeGothicNextLTW01-BdCn",
-      "fontSize": 12,
-      "lineHeight": 18,
-      "textAlignment": "right",
-      "textColor": "#AAA",
-      "textTransform":"uppercase"
-    },
-    "dateStyle": {
-      "fontName": "TradeGothicNextLTW01-HvCn",
-      "fontSize": 16,
-      "textAlignment": "left",
-      "textTransform":"uppercase",
-      "textColor": "#AAA"
-    },
-    "heading1Style": {
-      "fontName": "TradeGothicNextLTW01-HvCn",
-      "fontSize": 32,
-      "lineHeight": 36,
-      "textTransform":"uppercase",
-      "textAlignment": "left",
-      "tracking": 0.01
-    },
-    "introStyle": {
-      "fontName": "Helvetica",
-      "fontSize": 21,
-      "lineHeight": 28,
-      "textAlignment": "left",
-      "textColor": "#666"
-    },
-    "lowerListStyle": {
-      "fontName": "Helvetica",
-      "fontSize": 18,
-      "lineHeight": 20,
-      "textAlignment": "left"
-    },
-    "pullQuoteStyle": {
-      "fontName": "AktivGroteskW01-Black",
-      "fontSize": 36,
-      "lineHeight": 38,
-      "textAlignment": "left",
-      "textTransform": "uppercase"
-    },
-    "spacerWord":{
-      "fontName": "Helvetica",
-      "fontSize": 48,
-      "lineHeight": 48,
-      "textAlignment": "left",
-      "textTransform": "uppercase"
-    },
-    "titleStyle": {
-      "fontName": "AktivGroteskW01-Black",
-      "fontSize": 42,
-      "lineHeight": 42,
-      "textAlignment": "left",
-      "textColor": "#333"
-    }
-  },
-  "componentLayouts": {
-    "adLayout": {
-      "margin": {
-      }
-    },
-    "authorLayout": {
-      "margin": {
-        "top": 0,
-        "bottom": 10
-      }
-    },
-    "blackStrokeLayout1":{
-      "margin": 0
-    },
-    "blackStrokeLayout2":{
-      "margin": 5
-    },
-    "blackStrokeLayout3":{
-    },
-    "blackStrokeLayout4":{
-    },
-    "bodyContainerLayout": {
-      "margin": {
-        "top": 0,
-        "bottom": 35
-      }
-    },
-    "bodyLayout": {
-      "margin": {
-        "top": 10,
-        "bottom": 10
-      }
-    },
-    "captionLayout": {
-      "margin": {
-        "top": 10,
-        "bottom": 25
-      }   
-    },
-    "creditLayout": {
-      "margin": {
-        "top": 4,
-        "bottom": 0
-      }   
-    },
-    "dateLayout": {
-      "margin": {
-        "top": 20,
-        "bottom": 0
-      }
-    },
-    "embedLayout": {
-      "margin": {
-        "top": 5,
-        "bottom": 20
-      }
-    },
-    "headerImageLayout": {
-      "ignoreDocumentMargin": true,
-      "minimumHeight": "55vh"
-    },
-    "heading1Layout": {
-      "margin": {
-        "top": 15,
-        "bottom": 20
-      }
-    },
-    "introLayout": {
-      "margin": {
-        "top": 5,
-        "bottom": 15
-      }
-    },
-    "photoLayout": {
-      "minimumHeight": "100vmax"
-    },
-    "pullQuoteLayout": {
-      "margin": {
-        "top": 15,
-        "bottom": 15
-      }
-    },
-    "slideLayout": {
-      "ignoreDocumentMargin": true,
-      "minimumHeight": "100cw"
-    },
-    "tabLayout": {
-      "ignoreDocumentMargin": true,
-      "minimumHeight": 124
-    },
-    "titleLayout": {
-      "margin": {
-        "top": 12,
-        "bottom": 0
-      }
-    }
-  }
+	"version": "0.10",
+	"identifier": "!!!DYNAMIC",
+	"title": "10 Stylish Items to Help You Unleash the Rebel Within",
+	"language": "en",
+	"blueprint": "basic",
+	"layout": {
+		"columns": 6,
+		"width": 1024,
+		"margin": 80,
+		"gutter": 20
+	},
+	"components": [
+		{
+			"role": "header",
+			"layout": "headerImageLayout",
+			"style": {
+				"fill": {
+					"type": "image",
+					"URL": "http://esq.h-cdn.co/assets/15/32/980x490/landscape-1438722543-gettyimages-468415240b.jpg",
+					"fillMode": "cover",
+					"verticalAlignment": "top"
+				}
+			},
+			"behavior": {
+				"type": "parallax",
+				"factor": 0.5
+			},
+			"components": [
+				{
+					"role": "container",
+					"layout": "tabLayout",
+					"style": "tabLayoutStyle",
+					"anchor": {
+						"targetAnchorPosition": "bottom"
+					}
+				}
+			]
+		},
+		{
+			"role": "section",
+			"layout": "bodyContainerLayout",
+			"style": "bodyContainerStyle",
+			"anchor": {
+				"targetAnchorPosition": "top"
+			},
+			"components": [
+				{
+					"role": "intro",
+					"layout": "dateLayout",
+					"text": "Aug 5, 2015 @ 6:01 PM",
+					"textStyle": "dateStyle"
+				},
+				{
+					"role": "title",
+					"layout": "titleLayout",
+					"text": "10 Stylish Items to Help You Unleash the Rebel Within",
+					"textStyle": "titleStyle"
+				},
+				{
+					"role": "intro",
+					"layout": "introLayout",
+					"text": "Add a little badass to your wardrobe.",
+					"textStyle": "introStyle"
+				},
+				{
+					"role": "divider",
+					"stroke": {
+						"color": "#FFF0"
+					},
+					"layout": "blackStrokeLayout1",
+					"style": "baseStrokeStyle"
+				},
+				{
+					"role": "author",
+					"layout": "authorLayout",
+					"text": "By ESQ Editors",
+					"textStyle": "authorStyle"
+				},
+				{
+					"role": "divider",
+					"stroke": {
+						"color": "#FFF0"
+					},
+					"layout": "blackStrokeLayout1",
+					"style": "baseStrokeStyle"
+				},
+				{
+					"role": "body",
+					"text": "He is wearing a pool-blue V-neck that shows off the Roman-numeral tattoo on his arm, a reference to the thirty-two-ounce beers his high school friends were forced to buy because forties were not available in Florida. He explains that everyone in the \"32 Crew\" got this tattoo after a night at the High Octane Saloon from a man they bribed out of bed at 2:00 a.m. to needle crooked _X_'s and _I_'s onto their biceps.",
+					"layout": "bodyLayout",
+					"textStyle": "bodyStyle",
+					"format": "markdown"
+				},
+				{
+					"role": "section",
+					"layout": "slideLayout",
+					"components": [
+						{
+							"role": "heading",
+							"text": "1\\. Black Shades",
+							"layout": "heading1Layout",
+							"textStyle": "heading1Style",
+							"format": "markdown"
+						},
+						{
+							"role": "container",
+							"style": "photoContainerStyle",
+							"layout": "photoLayout",
+							"components": [
+								{
+									"role": "container",
+									"layout": "photoLayout",
+									"animation": {
+										"type": "fade_in",
+										"userControllable": true,
+										"initialAlpha": 0.1
+									},
+									"style": {
+										"fill": {
+											"type": "image",
+											"URL": "http://esq.h-cdn.co/assets/15/32/1024x1536/gallery-1438723003-55.jpg",
+											"verticalAlignment": "top",
+											"fillMode": "fit"
+										}
+									}
+								}
+							]
+						},
+						{
+							"role": "photographer",
+							"text": "Getty",
+							"layout": "creditLayout",
+							"textStyle": "creditStyle"
+						},			
+						{
+							"role": "caption",
+							"text": "Black shades are always cool, but these big, square frames with metal details look just a bit meaner than average.\n\n_Polarized square sunglasses ($495) by Public School x Oliver People, [eastdane.com](https://www.eastdane.com/public-school-oliver-people-polarized/vp/v=1/1527618074.htm?folderID=19227&colorId=86561)_",
+							"layout": "captionLayout",
+							"textStyle": "captionStyle",
+							"format": "markdown"
+						}
+					]
+				},
+				{
+					"role": "section",
+					"layout": "slideLayout",
+					"components": [
+						{
+							"role": "heading",
+							"text": "2\\. A Leather Jacket",
+							"layout": "heading1Layout",
+							"textStyle": "heading1Style",
+							"format": "markdown"
+						},
+						{
+							"role": "image",
+							"URL": "http://esq.h-cdn.co/assets/15/32/dsc_2992.jpg",
+							"layout": "photoLayout",
+							"animation": {
+								"type": "fade_in",
+								"userControllable": true,
+								"initialAlpha": 0.1
+							},
+							"style": {
+								"backgroundColor": "#000"
+							}
+						},
+						{
+							"role": "container",
+							"backgroundColor": "#000",
+							"style": {
+								"fill": {
+									"type": "image",
+									"URL": "http://esq.h-cdn.co/assets/15/32/dsc_2992.jpg",
+									"verticalAlignment": "top",
+									"fillMode": "fit"
+								}
+							},
+							"layout": "photoLayout",
+							"animation": {
+								"type": "fade_in",
+								"userControllable": true,
+								"initialAlpha": 0.1
+							}
+						},
+						{
+							"role": "photographer",
+							"text": "Getty",
+							"layout": "creditLayout",
+							"textStyle": "creditStyle"
+						},			
+						{
+							"role": "caption",
+							"text": "A leather jacket might seem the obvious choice, but this one from Schott is unique. It combines the asymmetrical zipper of a Perfecto with the cropped collar of a cafe racer, which means it will stand out anywhere.\n\n_Steerhide hybrid motorcycle jacket ($595) by Schott, [schottnyc.com](https://www.schottnyc.com/products/cafe-racer-hybrid-leather-motorcycle-jacket.htm?catID=5)_",
+							"layout": "captionLayout",
+							"textStyle": "captionStyle",
+							"format": "markdown"
+						}
+					]
+				},
+				{
+					"role": "banner_advertisement",
+					"bannerType": "standard"
+				}
+			]
+		}
+	],
+	"documentStyle": {
+		"backgroundColor": "#FFF"
+	},
+	"componentStyles": {
+		"baseStrokeStyle": {
+		},
+		"bodyContainerStyle": {
+			"backgroundColor": "#FFF"
+		},
+		"dateLayoutStyle": {
+		},
+		"photoContainerStyle": {
+			"backgroundColor": "#000"
+		},
+		"tabLayoutStyle": {
+			"fill": {
+				"type": "image",
+				"URL": "https://s3.amazonaws.com/sallyhdm/esq_header_gallery.png",
+				"fillMode": "fit",
+				"verticalAlignment": "bottom",
+				"horizontalAlignment": "right"
+			}
+		}
+	},
+	"componentTextStyles": {
+		"authorStyle": {
+			"fontName": "TradeGothicNextLTW01-HvCn",
+			"fontSize": 16,
+			"textAlignment": "left",
+			"textTransform":"uppercase",
+			"textColor": "#AAA"
+		},
+		"bodyStyle": {
+			"fontName": "Georgia",
+			"fontSize": 21,
+			"lineHeight": 30,
+			"textAlignment": "left",
+			"textColor": "#333",
+			"linkStyle": {
+				"textColor": "#00AAE3",
+				"underline": true
+			}
+		},
+		"bodyStyleFirst": {
+			"fontName": "Georgia",
+			"fontSize": 21,
+			"lineHeight": 30,
+			"textAlignment": "left",
+			"textColor": "#333",
+			"dropCapStyle": {
+				"fontName": "AktivGroteskW01-Black",
+				"numberOfLines": 3,
+				"numberOfCharacters": 1,
+				"textColor": "#000"
+			}
+		},
+		"captionStyle": {
+			"fontName": "Georgia",
+			"fontSize": 21,
+			"lineHeight": 30,
+			"textAlignment": "left",
+			"textColor": "#666",
+			"linkStyle": {
+				"textColor": "#00AAE3",
+				"underline": true
+			}
+		},
+		"creditStyle": {
+			"fontName": "TradeGothicNextLTW01-BdCn",
+			"fontSize": 12,
+			"lineHeight": 18,
+			"textAlignment": "right",
+			"textColor": "#AAA",
+			"textTransform":"uppercase"
+		},
+		"dateStyle": {
+			"fontName": "TradeGothicNextLTW01-HvCn",
+			"fontSize": 16,
+			"textAlignment": "left",
+			"textTransform":"uppercase",
+			"textColor": "#AAA"
+		},
+		"heading1Style": {
+			"fontName": "TradeGothicNextLTW01-HvCn",
+			"fontSize": 32,
+			"lineHeight": 36,
+			"textTransform":"uppercase",
+			"textAlignment": "left",
+			"tracking": 0.01
+		},
+		"introStyle": {
+			"fontName": "Helvetica",
+			"fontSize": 21,
+			"lineHeight": 28,
+			"textAlignment": "left",
+			"textColor": "#666"
+		},
+		"lowerListStyle": {
+			"fontName": "Helvetica",
+			"fontSize": 18,
+			"lineHeight": 20,
+			"textAlignment": "left"
+		},
+		"pullQuoteStyle": {
+			"fontName": "AktivGroteskW01-Black",
+			"fontSize": 36,
+			"lineHeight": 38,
+			"textAlignment": "left",
+			"textTransform": "uppercase"
+		},
+		"spacerWord":{
+			"fontName": "Helvetica",
+			"fontSize": 48,
+			"lineHeight": 48,
+			"textAlignment": "left",
+			"textTransform": "uppercase"
+		},
+		"titleStyle": {
+			"fontName": "AktivGroteskW01-Black",
+			"fontSize": 42,
+			"lineHeight": 42,
+			"textAlignment": "left",
+			"textColor": "#333"
+		}
+	},
+	"componentLayouts": {
+		"adLayout": {
+			"margin": {
+			}
+		},
+		"authorLayout": {
+			"margin": {
+				"top": 0,
+				"bottom": 10
+			}
+		},
+		"blackStrokeLayout1":{
+			"margin": 0
+		},
+		"blackStrokeLayout2":{
+			"margin": 5
+		},
+		"blackStrokeLayout3":{
+		},
+		"blackStrokeLayout4":{
+		},
+		"bodyContainerLayout": {
+			"margin": {
+				"top": 0,
+				"bottom": 35
+			}
+		},
+		"bodyLayout": {
+			"margin": {
+				"top": 10,
+				"bottom": 10
+			}
+		},
+		"captionLayout": {
+			"margin": {
+				"top": 10,
+				"bottom": 25
+			}	 
+		},
+		"creditLayout": {
+			"margin": {
+				"top": 4,
+				"bottom": 0
+			}	 
+		},
+		"dateLayout": {
+			"margin": {
+				"top": 20,
+				"bottom": 0
+			}
+		},
+		"embedLayout": {
+			"margin": {
+				"top": 5,
+				"bottom": 20
+			}
+		},
+		"headerImageLayout": {
+			"ignoreDocumentMargin": true,
+			"minimumHeight": "55vh"
+		},
+		"heading1Layout": {
+			"margin": {
+				"top": 15,
+				"bottom": 20
+			}
+		},
+		"introLayout": {
+			"margin": {
+				"top": 5,
+				"bottom": 15
+			}
+		},
+		"photoLayout": {
+			"minimumHeight": "50vmax"
+		},
+		"pullQuoteLayout": {
+			"margin": {
+				"top": 15,
+				"bottom": 15
+			}
+		},
+		"slideLayout": {
+			"ignoreDocumentMargin": true,
+			"minimumHeight": "100cw"
+		},
+		"tabLayout": {
+			"ignoreDocumentMargin": true,
+			"minimumHeight": 124
+		},
+		"titleLayout": {
+			"margin": {
+				"top": 12,
+				"bottom": 0
+			}
+		}
+	}
 }

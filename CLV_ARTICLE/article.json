@@ -1,13 +1,13 @@
 {
 	"version": "0.10",
 	"identifier": "!!!DYNAMIC",
-	"title": "Here's How To Get Free Starbucks For Life",
+	"title": "This Vintage Airstream Will Take You Back to 1966",
 	"language": "en",
 	"blueprint": "basic",
 	"layout": {
 		"columns": 6,
 		"width": 1024,
-		"margin": 90,
+		"margin": 50,
 		"gutter": 20
 	},
 	"components": [
@@ -17,7 +17,7 @@
 			"style": {
 				"fill": {
 					"type": "image",
-					"URL": "http://del.h-cdn.co/assets/15/30/980x490/landscape-1437675013-landscape-1437023122-landscape-1436899547-delish-starbucks-drinks-flickr.jpg",
+					"URL": "http://clv.h-cdn.co/assets/15/33/980x490/landscape-1439328581-landscape-1437501429-airstream-photo-1.JPG",
 					"fillMode": "cover",
 					"verticalAlignment": "top"
 				}
@@ -48,20 +48,21 @@
 				{
 					"role": "intro",
 					"layout": "dateLayout",
-					"text": "Aug 5, 2015 @ 6:01 PM",
+					"text": "AUG 11, 2015 @ 5:33 PM",
 					"textStyle": "dateStyle"
 				},
 				{
 					"role": "title",
 					"layout": "titleLayout",
-					"text": "Here's How To Get Free Starbucks For Life",
+					"text": "This Vintage Airstream Will Take You Back to 1966",
 					"textStyle": "titleStyle"
 				},
 				{
 					"role": "intro",
 					"layout": "introLayout",
-					"text": "Crazy, but true.",
-					"textStyle": "introStyle"
+					"text": "Plus, it just might be the perfect way to [afford a vacation home](http://google.com).",
+					"textStyle": "introStyle",
+					"format": "markdown"
 				},
 				{
 					"role": "divider",
@@ -74,7 +75,7 @@
 				{
 					"role": "author",
 					"layout": "authorLayout",
-					"text": "By Lindsey Gladstone",
+					"text": "By Brie Dyas",
 					"textStyle": "authorStyle"
 				},
 				{
@@ -82,7 +83,7 @@
 					"stroke": {
 						"color": "#FFF0"
 					},
-					"layout": "blackStrokeLayout1",
+					"layout": "blackStrokeLayout2",
 					"style": "baseStrokeStyle"
 				},
 				{ 
@@ -92,28 +93,28 @@
 				},
 				{
 					"role": "body",
-					"text": "While ranting on a [site for fast food employee](http://kitchenette.jezebel.com/stories-of-horrible-restaurant-customers-part-1-1724487937) horror stories, a barista just leaked the Starbucks hack of all Starbucks hacks. According to his post, one evil genius customer found a way to score a free drink, every single day of the year.",
+					"text": "The only thing better than a Palm Springs vacation home might be one that you can take with you when wanderlust strikes. This charming 1966 Airstream Safari, which has been lovingly restored by realtor (and vintage expert) [Matthew Reader](http://www.paulkaplanrealtor.com/matthew-reader.php), offers a stylish getaway on wheels. Though you might think a trailer can't be as glam as a midcentury pad, the period-perfect details will make you reconsider your stance.",
 					"layout": "bodyLayout",
 					"textStyle": "bodyStyleFirst",
 					"format": "markdown"
 				},
-		 {
+				{
 					"role": "heading1",
 					"layout": "heading1Layout",
-					"text": "Simple Tactics",
+					"text": "Reader originally purchased\nthe Safari 18 months ago.",
 					"textStyle": "heading1Style",
-		"format": "markdown"
+					"format": "markdown"
 				},
 				{
 					"role": "body",
-					"text": "His tactics, according to [Business Insider](http://www.businessinsider.com/heres-how-to-get-free-starbucks-for-life-2015-8),are simple: Buy 365 Starbucks cards, register each for a different birthday, and use the Starbucks app to score the free birthday drink everyday. Brad Halsey, the Starbucks employee who spilled the beans, says his least-favorite customer comes in every day asking for the drink, trying to cover up the fact that he has purchased and registered Starbucks card for every day of the year.",
+					"text": "\"Airstreams represent so much to so many people,\" Reader says. \"For me, it's partly the nostalgia of youth and a passion for seeing the country. I've loved them since I was a little kid, trailer-camping with my parents.\"",
 					"layout": "bodyLayout",
 					"textStyle": "bodyStyle",
 					"format": "markdown"
 				},
 				{
 					"role": "body",
-					"text": "\"Even though I know exactly how he 'beat the system' there, he pretends that his app is just malfunctioning and it magically gives him the same free birthday drink every day,?\" Halsey wrote.",
+					"text": "Reader originally purchased the Safari 18 months ago. The living, sleeping, and dining area had been gutted, and it took about 14 months to get the trailer back into shape. \"The interior is bright and happy. I used panels with gold leaf squares in the cabinets for great indirect lighting \u2014 it's spectacular how it sparkles inside at night. The cabinets are walnut, and are a reconstruction of what was likely there when it was built,\" he says.",
 					"layout": "bodyLayout",
 					"textStyle": "bodyStyle",
 					"format": "markdown"
@@ -129,7 +130,7 @@
 				{
 					"role": "pullquote",
 					"layout": "pullQuoteLayout",
-					"text": "\u201CFollow this guy's lead, and you'll save over $450. (And that's if you only get a tall...think about the venti possibilities!)\u201D",
+					"text": "\u201CFor me, it's partly the nostalgia of youth and a passion for seeing the country.\u201D",
 					"textStyle": "pullQuoteStyle",
 					"format": "markdown"
 				},
@@ -143,28 +144,34 @@
 				},
 				{
 					"role": "body",
-					"text": "The post went on to explain how this customer is extremely particular about his order, which makes his cheating of the system even more annoying\u2014but none of that matters. Bottom line: Free drinks for life is totally possible.",
+					"text": "Modern-day additions include the fabulous Trina Turk fabrics, along with conveniences like the microwave, LED lighting, and a refrigerator.",
 					"layout": "bodyLayout",
 					"textStyle": "bodyStyle",
 					"format": "markdown"
 				},
 				{
-					"role": "body",
-					"text": "Think about it this way: Let's say you sprint to Starbucks right now and purchase 365 one-dollar gift cards. That will set you back $365. However, if a tall iced coffee costs you $2.25 per day, by the end of the year you'd be out $821.25. Follow this guy's lead, and you'll save over $450. (And that's if you only get a tall...think about the venti possibilities!)",
-					"layout": "bodyLayout",
-					"textStyle": "bodyStyle",
-					"format": "markdown"
+					"role": "photo",
+					"URL": "http://clv.h-cdn.co/assets/15/33/1439328552-syn-clg-1437503058-airstream-interior.jpg",
+					"layout": "embedLayout"
 				},
-		 {
-					"role": "body",
-					"text": "Insane? Or so insane, it's genius?",
-					"layout": "bodyLayout",
-					"textStyle": "bodyStyle",
-					"format": "markdown"
+				{
+					"role": "photo",
+					"URL": "http://clv.h-cdn.co/assets/15/33/1439328554-syn-clg-1437503114-airstream-interior-2.jpg",
+					"layout": "embedLayout"
 				},
-		 {
+				{
+					"role": "photo",
+					"URL": "http://clv.h-cdn.co/assets/15/33/1439328556-syn-clg-1437503234-airstream-interior-3.jpg",
+					"layout": "embedLayout"
+				},
+				{
+					"role": "photo",
+					"URL": "http://clv.h-cdn.co/assets/15/33/1439328558-syn-clg-1437503347-airstream-dining-area.jpg",
+					"layout": "embedLayout"
+				},
+				{
 					"role": "body",
-					"text": "**Follow Delish on [Instagram](https://instagram.com/delishdotcom).**",
+					"text": "For more on the design, visit the [Paul Kaplan Modern Real Estate Group](http://www.paulkaplanrealtor.com/blog/sexy-palm-springs-airstream-for-sale.html).",
 					"layout": "bodyLayout",
 					"textStyle": "bodyStyle",
 					"format": "markdown"
@@ -181,6 +188,16 @@
 	},
 	"componentStyles": {
 		"baseStrokeStyle": {
+			"border": {
+				"all": {
+					"width": 2,
+					"color": "#d6d6d6",
+					"style": "dashed"
+				},
+				"bottom": false,
+				"left": false,
+				"right": false
+			}
 		},
 		"bodyContainerStyle": {
 			"backgroundColor": "#FFF"
@@ -201,7 +218,7 @@
 		"tabLayoutStyle": {
 			"fill": {
 				"type": "image",
-				"URL": "bundle://del_header_article.png",
+				"URL": "bundle://clv_header_article.png",
 				"fillMode": "fit",
 				"verticalAlignment": "bottom",
 				"horizontalAlignment": "right"
@@ -210,44 +227,47 @@
 	},
 	"componentTextStyles": {
 		"authorStyle": {
-			"fontName": "BrandonGrotW01-Black",
-			"fontSize": 16,
-			"textAlignment": "left",
-			"textColor": "#959595",
-			"textTransform":"uppercase"
+			"fontName": "AvenirNextLTW01-Medium",
+			"fontSize": 20,
+			"textAlignment": "left"
 		},
 		"bodyStyle": {
-			"fontName": "DINNextW01-CondensedLight",
-			"fontSize": 28,
+			"fontName": "Avenir-Roman",
+			"fontSize": 22,
 			"lineHeight": 36,
 			"textAlignment": "left",
 			"linkStyle": {
-				"textColor": "#f26f26",
+				"textColor": "#05d7d6",
 				"underline": true
 			}
 		},
 		"bodyStyleFirst": {
-			"fontName": "DINNextW01-CondensedLight",
-			"fontSize": 28,
+			"fontName": "Avenir-Roman",
+			"fontSize": 22,
 			"lineHeight": 36,
 			"textAlignment": "left",
+			"dropCapStyle": {
+				"fontName": "MemphisLTW01-Bold",
+				"numberOfLines": 5,
+				"numberOfCharacters": 1
+			},
 			"linkStyle": {
-				"textColor": "#f26f26",
+				"textColor": "#05d7d6",
 				"underline": true
 			}
 		},
 		"captionStyle": {
-			"fontName": "DINNextW01-CondensedLight",
-			"fontSize": 28,
+			"fontName": "Avenir-Roman",
+			"fontSize": 22,
 			"lineHeight": 36,
 			"textAlignment": "left",
 			"linkStyle": {
-				"textColor": "#f26f26",
+				"textColor": "#05d7d6",
 				"underline": true
 			}
 		},
 		"creditStyle": {
-			"fontName": "Helvetica",
+			"fontName": "Georgia",
 			"fontSize": 18,
 			"lineHeight": 24,
 			"textAlignment": "right",
@@ -255,55 +275,56 @@
 			"textTransform":"uppercase"
 		},
 		"dateStyle": {
-			"fontName": "BrandonGrotW01-Black",
+			"fontName": "AvenirNextLTW01-Medium",
 			"fontSize": 16,
 			"textAlignment": "left",
 			"textColor": "#959595",
-			"textTransform":"uppercase"
+			"textTransform":"uppercase",
+			"tracking": 0.05
 		},
 		"heading1Style": {
-			"fontName": "DINNextSlabPro-Medium",
-			"fontSize": 40,
-			"lineHeight": 48,
-			"textAlignment": "left"
+			"fontName": "Avenir-Black",
+			"fontSize": 32,
+			"lineHeight": 38,
+			"textAlignment": "left",
+			"textTransform":"uppercase"
 		},
 		"introStyle": {
-			"fontName": "DINNextW01-CondensedLight",
-			"fontSize": 40,
-			"lineHeight": 48,
+			"fontName": "AvenirNextLTW01-Medium",
+			"fontSize": 30,
+			"lineHeight": 36,
 			"textAlignment": "left",
 			"linkStyle": {
-				"textColor": "#f26f26",
+				"textColor": "#05d7d6",
 				"underline": true
 			}
 		},
 		"lowerListStyle": {
-			"fontName": "Helvetica",
+			"fontName": "Georgia",
 			"fontSize": 18,
 			"lineHeight": 20,
 			"textAlignment": "left"
 		},
 		"pullQuoteStyle": {
-			"fontName": "BrandonGrotW01-Black",
+			"fontName": "MemphisLTW01-BoldItalic",
 			"fontSize": 40,
 			"lineHeight": 50,
-			"textAlignment": "left",
-			"textColor": "#f37026",
-			"textTransform":"uppercase"
+			"textAlignment": "center",
+			"textColor": "#ff663a"
 		},
 		"spacerWord":{
-			"fontName": "Helvetica",
+			"fontName": "Georgia",
 			"fontSize": 48,
 			"lineHeight": 48,
 			"textAlignment": "left",
 			"textTransform": "uppercase"
 		},
 		"titleStyle": {
-			"fontName": "DINNextSlabPro-Medium",
-			"fontSize": 74,
-			"lineHeight": 78,
+			"fontName": "MemphisLTW01-Bold",
+			"fontSize": 64,
+			"lineHeight": 70,
 			"textAlignment": "left",
-			"tracking": -0.01
+			"tracking": -0.02
 		}
 	},
 	"componentLayouts": {
@@ -312,18 +333,32 @@
 		"authorLayout": {
 			"margin": {
 				"top": 0,
-				"bottom": 25
+				"bottom": 0
 			}
 		},
 		"blackStrokeLayout1":{
-			"margin": 0
+			"margin": {
+				"top": 15,
+				"bottom": 10
+			}
 		},
 		"blackStrokeLayout2":{
-			"margin": 5
+			"margin": {
+				"top": 13,
+				"bottom": 25
+			}
 		},
 		"blackStrokeLayout3":{
+			"margin": {
+				"top": 10,
+				"bottom": 25
+			}
 		},
 		"blackStrokeLayout4":{
+			"margin": {
+				"top": 30,
+				"bottom": 15
+			}
 		},
 		"bodyContainerLayout": {
 			"margin": {
@@ -334,7 +369,7 @@
 		"bodyLayout": {
 			"margin": {
 				"top": 5,
-				"bottom": 20
+				"bottom": 25
 			}
 		},
 		"captionLayout": {
@@ -351,14 +386,14 @@
 		},
 		"dateLayout": {
 			"margin": {
-				"top": 50,
-				"bottom": 0
+				"top": 30,
+				"bottom": 10
 			}
 		},
 		"embedLayout": {
 			"margin": {
-				"top": 5,
-				"bottom": 20
+				"top": 10,
+				"bottom": 25
 			}
 		},
 		"headerImageLayout": {
@@ -374,16 +409,17 @@
 		"introLayout": {
 			"margin": {
 				"top": 0,
-				"bottom": 5
+				"bottom": 15
 			}
 		},
 		"photoLayout": {
 			"minimumHeight": "100vmax"
 		},
 		"pullQuoteLayout": {
-			"margin": {
-				"top": 10,
-				"bottom": 15
+			"margin": 0,
+			"contentInset": {
+				"top": false,
+				"bottom": false
 			}
 		},
 		"slideLayout": {

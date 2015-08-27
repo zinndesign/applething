@@ -60,8 +60,9 @@
 				{
 					"role": "intro",
 					"layout": "introLayout",
-					"text": "Get ready to make room on your vanity.",
-					"textStyle": "introStyle"
+					"text": "Get ready to make room [on your vanity](http://google.com).",
+					"textStyle": "introStyle",
+					"format": "markdown"
 				},
 				{
 					"role": "divider",
@@ -86,13 +87,13 @@
 					"style": "baseStrokeStyle"
 				},
 				{ 
-					 "role": "medium_rectangle_advertisement",
-					 "layout": "adLayout",
-					 "bannerType": "standard"
+					"role": "medium_rectangle_advertisement",
+					"layout": "adLayout",
+					"bannerType": "standard"
 				},
 				{
 					"role": "body",
-					"text": "There's nothing sexy about the word 'products;' call them \"objets d'art,\" on the other hand, and we must have them immediately. Louboutin knows this\u2014after all, he's made women lust after his creations for decades: First, with his red soles, then with nail polish and now, with 38 shades of lipstick in the most dramatic metal bullets (that double as necklaces) we've ever seen. There are three textures to choose from\u2014Silky Satin, Velvet Matte and Sheer Voile\u2014and all the shades are inspired by the brand's iconic shoes and bags. At $90 each, they don't come cheap, but the best things rarely do. ",
+					"text": "There's nothing sexy about the word 'products;' call them \"objets d'art,\" [on the other hand](http://google.com), and we must have them immediately. Louboutin knows this\u2014after all, he's made women lust after his creations for decades: First, with his red soles, then with nail polish and now, with 38 shades of lipstick in the most dramatic metal bullets (that double as necklaces) we've ever seen. There are three textures to choose from\u2014Silky Satin, Velvet Matte and Sheer Voile\u2014and all the shades are inspired by the brand's iconic shoes and bags. At $90 each, they don't come cheap, but the best things rarely do. ",
 					"layout": "bodyLayout",
 					"textStyle": "bodyStyleFirst",
 					"format": "markdown"
@@ -186,7 +187,8 @@
 			"lineHeight": 26,
 			"textAlignment": "left",
 			"linkStyle": {
-				"textColor": "#00AAE3",
+				"fontName": "#BemboBookMTStd-Bold",
+				"textColor": "#242424",
 				"underline": true
 			}
 		},
@@ -195,6 +197,11 @@
 			"fontSize": 18,
 			"lineHeight": 26,
 			"textAlignment": "left",
+			"linkStyle": {
+				"fontName": "BemboBookMTStd-Bold",
+				"textColor": "#242424",
+				"underline": true
+			},
 			"dropCapStyle": {
 				"fontName": "Didot-HTF-L42-Light",
 				"numberOfLines": 6,
@@ -207,6 +214,8 @@
 			"lineHeight": 32,
 			"textAlignment": "left",
 			"linkStyle": {
+				"fontName": "#BemboBookMTStd-Bold",
+				"textColor": "#242424",
 				"underline": true
 			}
 		},
@@ -235,7 +244,12 @@
 			"fontName": "Didot-HTF-L42-Light-Ital",
 			"fontSize": 30,
 			"lineHeight": 42,
-			"textAlignment": "center"
+			"textAlignment": "center",
+			"linkStyle": {
+				"fontName": "Didot-HTF-M42-Medium-Ital",
+				"textColor": "#242424",
+				"underline": true
+			}
 		},
 		"lowerListStyle": {
 			"fontName": "TimesNewRomanPSMT",
@@ -280,7 +294,7 @@
 			"margin": 0
 		},
 		"blackStrokeLayout2":{
-			"margin": 5
+			"margin": 0
 		},
 		"blackStrokeLayout3":{
 		},
@@ -310,7 +324,7 @@
 				"bottom": 0
 			}	 
 		},
-		"embedLayout": {
+		"embedLayout":{
 			"margin": {
 				"top": 10,
 				"bottom": 10
@@ -339,7 +353,7 @@
 			}
 		},
 		"photoLayout": {
-			"minimumHeight": "100vmax"
+			"maximumContentWidth": "100cw"
 		},
 		"pullQuoteLayout": {
 			"margin": {
@@ -348,8 +362,7 @@
 			}
 		},
 		"slideLayout": {
-			"ignoreDocumentMargin": true,
-			"minimumHeight": "100cw"
+			"ignoreDocumentMargin": true
 		},
 		"spacerLayout": {
 			"margin": {
