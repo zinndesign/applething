@@ -1,7 +1,7 @@
 {
 	"version": "0.10",
 	"identifier": "!!!DYNAMIC",
-	"title": "This Vintage Airstream Will Take You Back to 1966",
+	"title": "71 Delicious Summer Picnic Recipes to Eat Outside",
 	"language": "en",
 	"blueprint": "basic",
 	"layout": {
@@ -17,7 +17,7 @@
 			"style": {
 				"fill": {
 					"type": "image",
-					"URL": "http://clv.h-cdn.co/assets/15/33/980x490/landscape-1439328581-landscape-1437501429-airstream-photo-1.JPG",
+					"URL": "http://clv.h-cdn.co/assets/15/21/1600x800/landscape-1431966091-summers-hits-fried-chicken-0615.jpg",
 					"fillMode": "cover",
 					"verticalAlignment": "top"
 				}
@@ -54,13 +54,13 @@
 				{
 					"role": "title",
 					"layout": "titleLayout",
-					"text": "This Vintage Airstream Will Take You Back to 1966",
+					"text": "71 Delicious Summer Picnic Recipes to Eat Outside",
 					"textStyle": "titleStyle"
 				},
 				{
 					"role": "intro",
 					"layout": "introLayout",
-					"text": "Plus, it just might be the perfect way to [afford a vacation home](http://google.com).",
+					"text": "Pack up these delicious sandwiches, side salads, drinks, and desserts and [head outdoors](http://google.com) for a refreshing alfresco meal.",
 					"textStyle": "introStyle",
 					"format": "markdown"
 				},
@@ -75,7 +75,7 @@
 				{
 					"role": "author",
 					"layout": "authorLayout",
-					"text": "By Brie Dyas",
+					"text": "By Country Living Editors",
 					"textStyle": "authorStyle"
 				},
 				{
@@ -93,88 +93,136 @@
 				},
 				{
 					"role": "body",
-					"text": "The only thing better than a Palm Springs vacation home might be one that you can take with you when wanderlust strikes. This charming 1966 Airstream Safari, which has been lovingly restored by realtor (and vintage expert) [Matthew Reader](http://www.paulkaplanrealtor.com/matthew-reader.php), offers a stylish getaway on wheels. Though you might think a trailer can't be as glam as a midcentury pad, the period-perfect details will make you reconsider your stance.",
+					"text": "Lorem ipsum dolor sit amet, [consectetur adipiscing elit](http://google.com). Praesent non vestibulum dolor, sed laoreet ante. Maecenas auctor felis ut dolor placerat pellentesque. Quisque rhoncus lobortis egestas. Vestibulum dictum tincidunt enim. Praesent venenatis quis orci nec fermentum. Vivamus arcu libero, malesuada eu posuere in, convallis vel erat. Fusce gravida eu velit at efficitur. Donec mauris nulla, laoreet non orci a, tincidunt porttitor arcu.",
 					"layout": "bodyLayout",
 					"textStyle": "bodyStyleFirst",
 					"format": "markdown"
 				},
 				{
-					"role": "heading1",
-					"layout": "heading1Layout",
-					"text": "Reader originally purchased\nthe Safari 18 months ago.",
-					"textStyle": "heading1Style",
-					"format": "markdown"
+					"role": "section",
+					"layout": "slideLayout",
+					"components": [
+						{
+							"role": "heading",
+							"text": "Classic Buttermilk Fried Chicken",
+							"layout": "heading1Layout",
+							"textStyle": "heading1Style",
+							"format": "markdown"
+						},
+						{
+							"role": "container",
+							"style": "photoContainerStyle",
+							"components": [
+								{
+									"role": "image",
+									"URL": "http://clv.h-cdn.co/assets/15/24/1434068269-best-ever-fried-chicken-recipe.jpg",
+									"layout": "photoLayout",
+									"animation": {
+										"type": "fade_in",
+										"userControllable": true,
+										"initialAlpha": 0.1
+									}
+								}
+							]
+						},
+						{
+							"role": "photographer",
+							"text": "Brian Woodcock",
+							"layout": "creditLayout",
+							"textStyle": "creditStyle"
+						},			
+						{
+							"role": "caption",
+							"text": "As good as a fresh-from-the-fryer bird can be, there's nothing better than cold, day-after fried chicken enjoyed while picnicking! *Recipe:* [Classic Buttermilk Fried Chicken](http://www.countryliving.com/food-drinks/recipes/a35600/classic-buttermilk-fried-chicken/)",
+							"layout": "captionLayout",
+							"textStyle": "captionStyle",
+							"format": "markdown"
+						}
+					]
 				},
 				{
-					"role": "body",
-					"text": "\"Airstreams represent so much to so many people,\" Reader says. \"For me, it's partly the nostalgia of youth and a passion for seeing the country. I've loved them since I was a little kid, trailer-camping with my parents.\"",
-					"layout": "bodyLayout",
-					"textStyle": "bodyStyle",
-					"format": "markdown"
+					"role": "section",
+					"layout": "slideLayout",
+					"components": [
+						{
+							"role": "heading",
+							"text": "Sliced Tomatoes With Corn and Feta",
+							"layout": "heading1Layout",
+							"textStyle": "heading1Style",
+							"format": "markdown"
+						},
+						{
+							"role": "container",
+							"style": "photoContainerStyle",
+							"components": [
+								{
+									"role": "image",
+									"URL": "http://clv.h-cdn.co/assets/15/24/1434068099-summers-hits-one-dish-wonders-0615-sliced-tomatoes-with-corn-and-feta.jpg",
+									"layout": "photoLayout",
+									"animation": {
+										"type": "fade_in",
+										"userControllable": true,
+										"initialAlpha": 0.1
+									}
+								}
+							]
+						},
+						{
+							"role": "photographer",
+							"text": "Brian Woodcock",
+							"layout": "creditLayout",
+							"textStyle": "creditStyle"
+						},			
+						{
+							"role": "caption",
+							"text": "This salad brings together the summer's best produce with salty feta and peppery arugula. *Recipe:* [Sliced Tomatoes With Corn and Feta](http://www.countryliving.com/food-drinks/recipes/a35602/sliced-tomatoes-with-corn/)",
+							"layout": "captionLayout",
+							"textStyle": "captionStyle",
+							"format": "markdown"
+						}
+					]
 				},
 				{
-					"role": "body",
-					"text": "Reader originally purchased the Safari 18 months ago. The living, sleeping, and dining area had been gutted, and it took about 14 months to get the trailer back into shape. \"The interior is bright and happy. I used panels with gold leaf squares in the cabinets for great indirect lighting \u2014 it's spectacular how it sparkles inside at night. The cabinets are walnut, and are a reconstruction of what was likely there when it was built,\" he says.",
-					"layout": "bodyLayout",
-					"textStyle": "bodyStyle",
-					"format": "markdown"
-				},
-				{
-					"role": "divider",
-					"stroke": {
-						"color": "#FFF0"
-					},
-					"layout": "blackStrokeLayout3",
-					"style": "baseStrokeStyle"
-				},
-				{
-					"role": "pullquote",
-					"layout": "pullQuoteLayout",
-					"text": "\u201CFor me, it's partly the nostalgia of youth and a passion for seeing the country.\u201D",
-					"textStyle": "pullQuoteStyle",
-					"format": "markdown"
-				},
-				{
-					"role": "divider",
-					"stroke": {
-						"color": "#FFF0"
-					},
-					"layout": "blackStrokeLayout4",
-					"style": "baseStrokeStyle"
-				},
-				{
-					"role": "body",
-					"text": "Modern-day additions include the fabulous Trina Turk fabrics, along with conveniences like the microwave, LED lighting, and a refrigerator.",
-					"layout": "bodyLayout",
-					"textStyle": "bodyStyle",
-					"format": "markdown"
-				},
-				{
-					"role": "photo",
-					"URL": "http://clv.h-cdn.co/assets/15/33/1439328552-syn-clg-1437503058-airstream-interior.jpg",
-					"layout": "embedLayout"
-				},
-				{
-					"role": "photo",
-					"URL": "http://clv.h-cdn.co/assets/15/33/1439328554-syn-clg-1437503114-airstream-interior-2.jpg",
-					"layout": "embedLayout"
-				},
-				{
-					"role": "photo",
-					"URL": "http://clv.h-cdn.co/assets/15/33/1439328556-syn-clg-1437503234-airstream-interior-3.jpg",
-					"layout": "embedLayout"
-				},
-				{
-					"role": "photo",
-					"URL": "http://clv.h-cdn.co/assets/15/33/1439328558-syn-clg-1437503347-airstream-dining-area.jpg",
-					"layout": "embedLayout"
-				},
-				{
-					"role": "body",
-					"text": "For more on the design, visit the [Paul Kaplan Modern Real Estate Group](http://www.paulkaplanrealtor.com/blog/sexy-palm-springs-airstream-for-sale.html).",
-					"layout": "bodyLayout",
-					"textStyle": "bodyStyle",
-					"format": "markdown"
+					"role": "section",
+					"layout": "slideLayout",
+					"components": [
+						{
+							"role": "heading",
+							"text": "Fresh Fig Crostata with Ricotta and Honey",
+							"layout": "heading1Layout",
+							"textStyle": "heading1Style",
+							"format": "markdown"
+						},
+						{
+							"role": "container",
+							"style": "photoContainerStyle",
+							"components": [
+								{
+									"role": "image",
+									"URL": "http://clv.h-cdn.co/assets/cm/15/09/54eaf27654043_-_06-al-fresco-fig-crostata-0814-0igclf-xln.jpg",
+									"layout": "photoLayout",
+									"animation": {
+										"type": "fade_in",
+										"userControllable": true,
+										"initialAlpha": 0.1
+									}
+								}
+							]
+						},
+						{
+							"role": "photographer",
+							"text": "Brian Woodcock",
+							"layout": "creditLayout",
+							"textStyle": "creditStyle"
+						},			
+						{
+							"role": "caption",
+							"text": "Fresh, grassy figs, sweet honey, and creamy ricotta are a delightful combination of flavors in this free-form tart. *Recipe:* [Fresh Fig Crostata with Ricotta and Honey](http://www.countryliving.com/recipefinder/fresh-fig-crostata-ricotta-honey-recipe-clx0714)",
+							"layout": "captionLayout",
+							"textStyle": "captionStyle",
+							"format": "markdown"
+						}
+					]
 				},
 				{
 					"role": "banner_advertisement",
@@ -218,7 +266,7 @@
 		"tabLayoutStyle": {
 			"fill": {
 				"type": "image",
-				"URL": "bundle://clv_header_article.png",
+				"URL": "bundle://clv_header_gallery.png",
 				"fillMode": "fit",
 				"verticalAlignment": "bottom",
 				"horizontalAlignment": "right"
@@ -228,7 +276,7 @@
 	"componentTextStyles": {
 		"authorStyle": {
 			"fontName": "AvenirNextLTW01-Medium",
-			"fontSize": 18,
+			"fontSize": 20,
 			"textAlignment": "left"
 		},
 		"bodyStyle": {
@@ -267,12 +315,11 @@
 			}
 		},
 		"creditStyle": {
-			"fontName": "Georgia",
-			"fontSize": 18,
-			"lineHeight": 24,
+			"fontName": "AvenirNextLTW01-Medium",
+			"fontSize": 14,
+			"lineHeight": 20,
 			"textAlignment": "right",
-			"textColor": "#898989",
-			"textTransform":"uppercase"
+			"textColor": "#959595"
 		},
 		"dateStyle": {
 			"fontName": "AvenirNextLTW01-Medium",
@@ -282,7 +329,7 @@
 			"textTransform":"uppercase"
 		},
 		"heading1Style": {
-			"fontName": "Avenir-Black",
+			"fontName": "MemphisLTW01-Bold",
 			"fontSize": 32,
 			"lineHeight": 38,
 			"textAlignment": "left",
@@ -356,7 +403,7 @@
 		"blackStrokeLayout4":{
 			"margin": {
 				"top": 30,
-				"bottom": 20
+				"bottom": 15
 			}
 		},
 		"bodyContainerLayout": {
@@ -402,7 +449,7 @@
 		"heading1Layout": {
 			"margin": {
 				"top": 15,
-				"bottom": 0
+				"bottom": 10
 			}
 		},
 		"introLayout": {
@@ -412,7 +459,7 @@
 			}
 		},
 		"photoLayout": {
-			"minimumHeight": "100vmax"
+			"maximumContentWidth": "100cw"
 		},
 		"pullQuoteLayout": {
 			"margin": 0,
@@ -422,7 +469,10 @@
 			}
 		},
 		"slideLayout": {
-			"ignoreDocumentMargin": true
+			"margin": {
+				"top": 15,
+				"bottom": 5
+			}
 		},
 		"spacerLayout": {
 			"margin": {
