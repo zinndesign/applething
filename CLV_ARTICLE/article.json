@@ -397,7 +397,7 @@
 		},
 		"headerImageLayout": {
 			"ignoreDocumentMargin": true,
-			"minimumHeight": "50vh"
+			"minimumHeight": "75vmin"
 		},
 		"heading1Layout": {
 			"margin": {

@@ -1,13 +1,13 @@
 {
 	"version": "0.10",
 	"identifier": "!!!DYNAMIC",
-	"title": "11 Things I Wish I Knew Before I Had Daughters",
+	"title": "Simon Cowell Reveals the REAL Reason Behind One Direction's Break",
 	"language": "en",
 	"blueprint": "basic",
 	"layout": {
 		"columns": 6,
 		"width": 1024,
-		"margin": 90,
+		"margin": 80,
 		"gutter": 20
 	},
 	"components": [
@@ -17,7 +17,7 @@
 			"style": {
 				"fill": {
 					"type": "image",
-					"URL": "http://ghk.h-cdn.co/assets/15/32/980x490/gallery-1438796136-daughter-lessons.jpg",
+					"URL": "http://sev.h-cdn.co/assets/15/33/980x490/landscape-1439317210-1438347528-1d-s1-cmyk-originalimage-new.jpg",
 					"fillMode": "cover",
 					"verticalAlignment": "top"
 				}
@@ -48,20 +48,21 @@
 				{
 					"role": "intro",
 					"layout": "dateLayout",
-					"text": "Aug 5, 2015 @ 6:01 PM",
+					"text": "AUG 11, 2015 @ 5:33 PM",
 					"textStyle": "dateStyle"
 				},
 				{
 					"role": "title",
 					"layout": "titleLayout",
-					"text": "11 Things I Wish I Knew Before I Had Daughters",
+					"text": "Simon Cowell Reveals the REAL Reason Behind One Direction's Break",
 					"textStyle": "titleStyle"
 				},
 				{
 					"role": "intro",
 					"layout": "introLayout",
-					"text": "Telling them they're beautiful is not enough.",
-					"textStyle": "introStyle"
+					"text": "\"I hope they'll [come back](http://gooogle.com) together afterwards...\"",
+					"textStyle": "introStyle",
+					"format": "markdown"
 				},
 				{
 					"role": "divider",
@@ -74,7 +75,7 @@
 				{
 					"role": "author",
 					"layout": "authorLayout",
-					"text": "By Lindsey Gladstone",
+					"text": "By Robert Sorokanich",
 					"textStyle": "authorStyle"
 				},
 				{
@@ -82,7 +83,7 @@
 					"stroke": {
 						"color": "#FFF0"
 					},
-					"layout": "blackStrokeLayout1",
+					"layout": "blackStrokeLayout2",
 					"style": "baseStrokeStyle"
 				},
 				{ 
@@ -92,27 +93,28 @@
 				},
 				{
 					"role": "body",
-					"text": "Just after my 33rd birthday I gave birth to my first daughter. And a mere year and a half later, I delivered my second girl. Two little women in 18 months. \"Sisters!\" I thought to myself, \"how hard could mothering them be?\"",
+					"text": "Hearts broke 'round the world when, just five months after Zayn Malik's departure, the rest of One Direction announced they would take [a break in 2016](http://www.seventeen.com/celebrity/music/news/a33403/stop-everything-one-direction-is-taking-an-extended-break/). Even though [Louis Tomlinson and Liam Payne](http://www.seventeen.com/celebrity/music/news/a33442/one-direction-assures-fans-theyre-taking-a-break-not-splitting-up/) have assured fans that it's just a break, and not a breakup, Directioners can't help but wonder what lead to the decision. While the boys have yet to reveal the reason, the man who helped discover them, Simon Cowell, thinks he knows why.",
 					"layout": "bodyLayout",
 					"textStyle": "bodyStyleFirst",
 					"format": "markdown"
 				},
 				{
+					"role": "heading1",
+					"layout": "heading1Layout",
+					"text": "Simon Offers His Words of Wisdom",
+					"textStyle": "heading1Style",
+					"format": "markdown"
+				},
+				{
 					"role": "body",
-					"text": "But quickly I learned that being a girl and raising girls are not the same thing. And while I am certain their teenage years will provide challenges I cannot begin to imagine (is it just me or do you hear my mother snickering in the background?), here are 11 things I have learned in their first almost-decade of life \u2014 but really wish I had known before.",
+					"text": "When asked by [Yahoo UK](https://uk.celebrity.yahoo.com/post/127663286259/simon-cowell-one-direction-were-100-overworked) if he thinks they boys were overworked, Simon replied, \"100%. Even though they were young, that was a grueling schedule and after a while I could see they were exhausted, so when they asked how I felt about it, I said for them to do whatever they want.\" In fact, some believe their grueling schedule is what lead to Zayn's leaving the group.",
 					"layout": "bodyLayout",
 					"textStyle": "bodyStyle",
 					"format": "markdown"
 				},
 				{
-					"role": "heading1",
-					"layout": "heading1Layout",
-					"text": "1. You cannot avoid the princesses.",
-					"textStyle": "heading1Style"
-				},
-				{
 					"role": "body",
-					"text": "When they were born, I swore we would not have princess paraphernalia in our home. Fairy tales were just that \u2014 fairy tales. We would traffic in real role models. But somewhere around my first daughter's 3rd birthday, it happened. I'm not sure if it was a babysitter, a preschool friend, or just osmosis, but one day she didn't know who Cinderella was and the next day she did.\n\nSuddenly, everywhere we went we saw her: on the soup labels at the grocery store (conveniently positioned in the eyeline of a toddler sitting in a grocery cart), on diapers, on bouncing balls at the park. And when I refused her Cinderella, she only wanted her more. Long story short, we now have a dress-up drawer of costumes and crowns that I am pretty sure we are about to outgrow if anyone needs them.",
+					"text": "Simon went on to reveal that even though they're definitely taking a break next year, he wouldn't say they're splitting up just yet. \"I don't know if they're definitely going to split up to be honest with you,\" he said. \"I've known for a while that they were going to take 2016 off, and they had to on their workload.\"",
 					"layout": "bodyLayout",
 					"textStyle": "bodyStyle",
 					"format": "markdown"
@@ -128,7 +130,7 @@
 				{
 					"role": "pullquote",
 					"layout": "pullQuoteLayout",
-					"text": "\u201CLong story short, we now have a dress-up drawer of costumes and crowns that I am pretty sure we are about to outgrow if anyone needs them.\u201D",
+					"text": "\u201CI could see they were exhausted, so when they asked how I felt about it, I said for them to do whatever they want.\u201D",
 					"textStyle": "pullQuoteStyle",
 					"format": "markdown"
 				},
@@ -141,32 +143,15 @@
 					"style": "baseStrokeStyle"
 				},
 				{
-					"role": "heading1",
-					"layout": "heading1Layout",
-					"text": "2. Underwear Matters.",
-					"textStyle": "heading1Style"
-				},
-				{
 					"role": "body",
-					"text": "We've spent more time than I ever imagined focused on underwear. From allowing them to choose their own first pairs at the store to hearing commentary about the ones I put on, I have learned that they love underwear. Underwear matters. And because of this I am acutely aware of choosing undies, for them and for me, that are comfortable and beautiful. Good-bye thongs, hello seamless cotton boy shorts.",
+					"text": "In the long run, Simon does think a break is healthy for the boys, but just like everyone else, he hopes they can figure out a way to stay together. \"As I've always done with the guys, I said, 'Make your own decisions. I hope you stay together, but you've got to want to do it for yourselves.' But they're smart guys and they'll work it out.\"",
 					"layout": "bodyLayout",
 					"textStyle": "bodyStyle",
 					"format": "markdown"
 				},
 				{
-					"role": "photo",
-					"URL": "http://ghk.h-cdn.co/assets/15/32/1438794390-syn-ghk-1438699315-img-1014.jpg",
-					"layout": "embedLayout"
-				},
-				{
-					"role": "heading1",
-					"layout": "heading1Layout",
-					"text": "3. So does your choice in bikini waxes.",
-					"textStyle": "heading1Style"
-				},
-				{
 					"role": "body",
-					"text": "Before kids, my monthly bikini wax ritual was a never missed, cancelled, or postponed appointment. The pain \u2014 not to mention the expense \u2014 was worth it. But after my girls were born, the barely-there-hair thing seemed weird. I am an adult woman with pubic hair. They are little girls. We should not look alike. And so now I have an extra $75 dollars for princess gear.",
+					"text": "They better! No Direction would be the worst.",
 					"layout": "bodyLayout",
 					"textStyle": "bodyStyle",
 					"format": "markdown"
@@ -203,8 +188,7 @@
 		"tabLayoutStyle": {
 			"border": {
 				"all": {
-					"width": 3,
-					"color": "#ed0a71"
+					"width": 12
 				},
 				"top": false,
 				"left": false,
@@ -214,38 +198,48 @@
 	},
 	"componentTextStyles": {
 		"authorStyle": {
-			"fontName": "AvenirNextLTW01-Medium",
+			"fontName": "UniversLTW01-57CondensedObl",
 			"fontSize": 16,
 			"textAlignment": "left",
-			"textColor": "#959595"
+			"textColor": "#999",
+			"textTransform":"uppercase"
 		},
 		"bodyStyle": {
-			"fontName": "AvenirNextLTW01-Medium",
+			"fontName": "Georgia",
 			"fontSize": 20,
-			"lineHeight": 28,
+			"lineHeight": 30,
 			"textAlignment": "left",
+			"tracking": -0.02,
 			"linkStyle": {
-				"textColor": "#00AAE3",
-				"underline": true
+				"textColor": "#ff3593"
 			}
 		},
 		"bodyStyleFirst": {
-			"fontName": "AvenirNextLTW01-Medium",
+			"fontName": "Georgia",
 			"fontSize": 20,
-			"lineHeight": 28,
-			"textAlignment": "left"
+			"lineHeight": 30,
+			"textAlignment": "left",
+			"tracking": -0.02,
+			"dropCapStyle": {
+				"fontName": "Georgia",
+				"numberOfLines": 3,
+				"numberOfCharacters": 1
+			},
+			"linkStyle": {
+				"textColor": "#ff3593"
+			}
 		},
 		"captionStyle": {
-			"fontName": "AvenirNextLTW01-Medium",
+			"fontName": "Georgia",
 			"fontSize": 20,
-			"lineHeight": 32,
+			"lineHeight": 30,
 			"textAlignment": "left",
 			"linkStyle": {
-				"underline": true
+				"textColor": "#ff3593"
 			}
 		},
 		"creditStyle": {
-			"fontName": "Helvetica",
+			"fontName": "Georgia",
 			"fontSize": 18,
 			"lineHeight": 24,
 			"textAlignment": "right",
@@ -253,50 +247,56 @@
 			"textTransform":"uppercase"
 		},
 		"dateStyle": {
-			"fontName": "AvenirNextLTW01-Medium",
+			"fontName": "UniversLTW01-57CondensedObl",
 			"fontSize": 16,
 			"textAlignment": "left",
-			"textColor": "#959595"
+			"textColor": "#999",
+			"textTransform":"uppercase"
 		},
 		"heading1Style": {
-			"fontName": "TradeGothicNextLTW01-BdCn",
-			"fontSize": 36,
+			"fontName": "UniversLTW01-57Condensed",
+			"fontSize": 34,
 			"lineHeight": 40,
 			"textAlignment": "left",
-			"textTransform":"uppercase",
-			"tracking": 0.05
+			"textColor": "#ff3693",
+			"textTransform":"uppercase"
 		},
 		"introStyle": {
-			"fontName": "TradeGothicNextLTW01-Cond",
-			"fontSize": 30,
-			"lineHeight": 38,
+			"fontName": "UniversLTW01-67BoldCn",
+			"fontSize": 22,
+			"lineHeight": 30,
 			"textAlignment": "left",
-			"textColor": "#636363"
+			"linkStyle": {
+				"textColor": "#ff3593"
+			}
 		},
 		"lowerListStyle": {
-			"fontName": "Helvetica",
+			"fontName": "Georgia",
 			"fontSize": 18,
 			"lineHeight": 20,
 			"textAlignment": "left"
 		},
 		"pullQuoteStyle": {
-			"fontName": "Kettering105W00-Book",
-			"fontSize": 50,
-			"lineHeight": 60,
-			"textAlignment": "left"
+			"fontName": "SeventeenBrush",
+			"fontSize": 42,
+			"lineHeight": 52,
+			"textAlignment": "center",
+			"tracking": 0.02
 		},
 		"spacerWord":{
-			"fontName": "Helvetica",
+			"fontName": "Georgia",
 			"fontSize": 48,
 			"lineHeight": 48,
 			"textAlignment": "left",
 			"textTransform": "uppercase"
 		},
 		"titleStyle": {
-			"fontName": "Kettering105W00-Book",
-			"fontSize": 58,
-			"lineHeight": 64,
-			"textAlignment": "left"
+			"fontName": "UniversLTW01-67BoldCn",
+			"fontSize": 52,
+			"lineHeight": 58,
+			"textAlignment": "left",
+			"textColor": "#ff3693",
+			"textTransform": "uppercase"
 		}
 	},
 	"componentLayouts": {
@@ -304,7 +304,7 @@
 		},
 		"authorLayout": {
 			"margin": {
-				"top": 0,
+				"top": 5,
 				"bottom": 30
 			}
 		},
@@ -315,8 +315,10 @@
 			"margin": 0
 		},
 		"blackStrokeLayout3":{
+			"margin": 0
 		},
 		"blackStrokeLayout4":{
+			"margin": 0
 		},
 		"bodyContainerLayout": {
 			"margin": {
@@ -326,7 +328,7 @@
 		},
 		"bodyLayout": {
 			"margin": {
-				"top": 10,
+				"top": 5,
 				"bottom": 15
 			}
 		},
@@ -344,14 +346,14 @@
 		},
 		"dateLayout": {
 			"margin": {
-				"top": 30,
-				"bottom": 10
+				"top": 25,
+				"bottom": 0
 			}
 		},
 		"embedLayout": {
 			"margin": {
-				"top": 5,
-				"bottom": 20
+				"top": 10,
+				"bottom": 25
 			}
 		},
 		"headerImageLayout": {
@@ -360,14 +362,14 @@
 		},
 		"heading1Layout": {
 			"margin": {
-				"top": 15,
+				"top": 10,
 				"bottom": 0
 			}
 		},
 		"introLayout": {
 			"margin": {
-				"top": 0,
-				"bottom": 20
+				"top": 5,
+				"bottom": 10
 			}
 		},
 		"photoLayout": {
@@ -375,8 +377,12 @@
 		},
 		"pullQuoteLayout": {
 			"margin": {
-				"top": 30,
+				"top": 15,
 				"bottom": 30
+			},
+			"contentInset": {
+				"top": false,
+				"bottom": false
 			}
 		},
 		"slideLayout": {
@@ -394,7 +400,7 @@
 		},
 		"titleLayout": {
 			"margin": {
-				"top": 10,
+				"top": 0,
 				"bottom": 0
 			}
 		}
