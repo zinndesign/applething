@@ -1,0 +1,429 @@
+{
+	"version": "0.10",
+	"identifier": "!!!DYNAMIC",
+	"title": "Target Wants to Make You a Cocktail While You Shop",
+	"language": "en",
+	"blueprint": "basic",
+	"layout": {
+		"columns": 6,
+		"width": 1024,
+		"margin": 90,
+		"gutter": 40
+	},
+	"components": [
+		{
+			"role": "header",
+			"layout": "headerImageLayout",
+			"style": {
+				"fill": {
+					"type": "image",
+					"URL": "http://rbk.h-cdn.co/assets/15/35/980x490/landscape-1440854080-landscape-1440775272-screen-shot-2015-08-28-at-112048-am.png",
+					"fillMode": "cover",
+					"verticalAlignment": "top"
+				}
+			},
+			"behavior": {
+				"type": "parallax",
+				"factor": 0.5
+			},
+			"components": [
+				{
+					"role": "container",
+					"layout": "tabLayout",
+					"style": "tabLayoutStyle",
+					"anchor": {
+						"targetAnchorPosition": "bottom"
+					}
+				}
+			]
+		},
+		{
+			"role": "section",
+			"layout": "bodyContainerLayout",
+			"style": "bodyContainerStyle",
+			"anchor": {
+				"targetAnchorPosition": "top"
+			},
+			"components": [
+				{
+					"role": "intro",
+					"layout": "dateLayout",
+					"text": "Aug 11, 2015 @ 5:33 PM",
+					"textStyle": "dateStyle"
+				},
+				{
+					"role": "title",
+					"layout": "titleLayout",
+					"text": "Target Wants to Make You a Cocktail While You Shop",
+					"textStyle": "titleStyle"
+				},
+				{
+					"role": "intro",
+					"layout": "introLayout",
+					"text": "Say goodbye to your paycheck.",
+					"textStyle": "introStyle",
+					"format": "markdown"
+				},
+				{
+					"role": "divider",
+					"stroke": {
+						"color": "#FFF0"
+					},
+					"layout": "blackStrokeLayout1",
+					"style": "baseStrokeStyle"
+				},
+				{
+					"role": "author",
+					"layout": "authorLayout",
+					"text": "By Rheanna O'Neil Bellomo",
+					"textStyle": "authorStyle"
+				},
+				{
+					"role": "divider",
+					"stroke": {
+						"color": "#FFF0"
+					},
+					"layout": "blackStrokeLayout2",
+					"style": "baseStrokeStyle"
+				},
+				{ 
+					 "role": "medium_rectangle_advertisement",
+					 "layout": "adLayout",
+					 "bannerType": "standard"
+				},
+				{
+					"role": "body",
+					"text": "Target, the superstore that somehow makes everyone prone to impulse buys, just found a new way to get us to fork over more cash: serving cocktails and selling bottles of booze. So said Target, the superstore that somehow makes everyone prone to impulse buys, the superstore that somehow makes everyone prone to impulse buys.",
+					"layout": "bodyLayout",
+					"textStyle": "bodyStyleFirst",
+					"format": "markdown"
+				},
+				{
+					"role": "body",
+					"text": "At one store in Chicago, which is slated to open in October, customers could take a break from their shopping sprees and indulge in a drink (or three). According to Crain's Chicago, the new Windy City location applied for not one but two liquor licenses\u2014one to sell packaged booze on its shelves and the other to serve beer, wine, and spirits from a bar inside the 24,000-square-foot space.",
+					"layout": "bodyLayout",
+					"textStyle": "bodyStyle",
+					"format": "markdown"
+				},
+				{
+					"role": "body",
+					"text": "Once they tore down their kitchen island and started hammering away, they found the [mystery](http://www.womansday.com/relationships/family-friends/news/a51541/woman-finds-decades-old-mystery-letter-hidden-inside-picture-frame/) box.",
+					"layout": "bodyLayout",
+					"textStyle": "bodyStyle",
+					"format": "markdown"
+				},
+				{
+					"role": "heading1",
+					"layout": "heading1Layout",
+					"text": "Opening the \"Mystery Box\"",
+					"textStyle": "heading1Style",
+					"format": "markdown"
+				},
+				{
+					"role": "body",
+					"text": "Using the code that they luckily secreted away, they were able to get the safe open after a dozen attempts. And what did they find inside? $51,080, mostly in $100 notes and a bottle of bourbon dated 1960.",
+					"layout": "bodyLayout",
+					"textStyle": "bodyStyle",
+					"format": "markdown"
+				},
+				{
+					"role": "body",
+					"text": "\"We stared in disbelief. Time stood still. I started to reach in the safe and Eddie yelled, 'Wait it might be booby trapped!' I'm still laughing at that one,\" the woman writes on Imgur. Yet, nothing would stop her from having at that bourbon.",
+					"layout": "bodyLayout",
+					"textStyle": "bodyStyle",
+					"format": "markdown"
+				},
+				{
+					"role": "divider",
+					"stroke": {
+						"color": "#FFF0"
+					},
+					"layout": "blackStrokeLayout3",
+					"style": "baseStrokeStyle"
+				},
+				{
+					"role": "pullquote",
+					"layout": "pullQuoteLayout",
+					"text": "\u201CI started to reach in the safe and Eddie yelled, 'Wait it might be booby trapped!' I'm still laughing at that one...\u201D",
+					"textStyle": "pullQuoteStyle",
+					"format": "markdown"
+				},
+				{
+					"role": "divider",
+					"stroke": {
+						"color": "#FFF0"
+					},
+					"layout": "blackStrokeLayout4",
+					"style": "baseStrokeStyle"
+				},
+				{
+					"role": "body",
+					"text": "Besides the cash and the hooch, the safe also contained\u2014and this is where it gets interesting\u2014a book called _A Guide for the Perplexed_, published in 1977, that appears to contain clues. Inside, there was a black and white photo of a mystery (and, might we add, dapper) man. On the back of Mr. Handsome's pic, there was a note that reads:",
+					"layout": "bodyLayout",
+					"textStyle": "bodyStyle",
+					"format": "markdown"
+				},
+				{
+					"role": "body",
+					"text": ">Alan, I have a book you must read. I've underlined a few key passages. Your friend, Vincent",
+					"layout": "bodyLayout",
+					"textStyle": "bodyStyle",
+					"format": "markdown"
+				},
+				{
+					"role": "body",
+					"text": "There was one more poignant passage Vincent thoughtfully pointed out to Alan: \"Most Modern Readers will be reluctant to believe that perfect happiness is attainable by methods of which their modern world knows nothing.\" Was this, perhaps the 1977 equivalent of saying, 'stop coveting that iWatch and find joy in simple walks and stuff? Unclear, but it certainly gives you pause.",
+					"layout": "bodyLayout",
+					"textStyle": "bodyStyle",
+					"format": "markdown"
+				},
+				{
+					"role": "body",
+					"text": "_**UPDATE, 8/29:** Well, we thought it sounded too good to be true, and in fact, it was. The couple whose treasure hunt story took the Internet by storm this week have fessed up: They fabricated the whole thing. The Chive has more details on how they pulled off to the ruse. And while we feel chagrined, we're happy to see the money they \"discovered\" has found a good home: They donated it to a local no-kill animal shelter._",
+					"layout": "bodyLayout",
+					"textStyle": "bodyStyle",
+					"format": "markdown"
+				},
+				{
+					"role": "banner_advertisement",
+					"bannerType": "standard"
+				}
+			]
+		}
+	],
+	"documentStyle": {
+		"backgroundColor": "#FFF"
+	},
+	"componentStyles": {
+		"baseStrokeStyle": {
+		},
+		"bodyContainerStyle": {
+			"backgroundColor": "#FFF"
+		},
+		"dateLayoutStyle": {
+			"border": {
+				"all": {
+					"width": 2
+				},
+				"top": false,
+				"left": false,
+				"right": false
+			}
+		},
+		"photoContainerStyle": {
+			"backgroundColor": "#000"
+		},
+		"tabLayoutStyle": {
+			"fill": {
+				"type": "image",
+				"URL": "bundle://rbk_header_article.png",
+				"fillMode": "fit",
+				"verticalAlignment": "bottom",
+				"horizontalAlignment": "right"
+			}
+		}
+	},
+	"componentTextStyles": {
+		"authorStyle": {
+			"fontName": "BrushTipTerrenceW00-Reg",
+			"fontSize": 18,
+			"textAlignment": "left",
+			"textColor": "#999"
+		},
+		"bodyStyle": {
+			"fontName": "PraxisW01-Light",
+			"fontSize": 20,
+			"lineHeight": 30,
+			"textAlignment": "left",
+			"linkStyle": {
+				"textColor": "#d20c50"
+			}
+		},
+		"bodyStyleFirst": {
+			"fontName": "PraxisW01-Light",
+			"fontSize": 20,
+			"lineHeight": 30,
+			"textAlignment": "left",
+			"dropCapStyle": {
+				"fontName": "BrushTipTerrenceW00-Reg",
+				"numberOfLines": 5,
+				"numberOfCharacters": 1
+			},
+			"linkStyle": {
+				"textColor": "#d20c50"
+			}
+		},
+		"captionStyle": {
+			"fontName": "PraxisW01-Light",
+			"fontSize": 20,
+			"lineHeight": 30,
+			"textAlignment": "left",
+			"linkStyle": {
+				"textColor": "#d20c50"
+			}
+		},
+		"creditStyle": {
+			"fontName": "Georgia",
+			"fontSize": 18,
+			"lineHeight": 24,
+			"textAlignment": "right",
+			"textColor": "#898989",
+			"textTransform":"uppercase"
+		},
+		"dateStyle": {
+			"fontName": "BrushTipTerrenceW00-Reg",
+			"fontSize": 18,
+			"textAlignment": "left",
+			"textColor": "#999"
+		},
+		"heading1Style": {
+			"fontName": "Georgia",
+			"fontSize": 30,
+			"lineHeight": 36,
+			"textAlignment": "left"
+		},
+		"introStyle": {
+			"fontName": "PraxisW01-SemiBold",
+			"fontSize": 24,
+			"lineHeight": 30,
+			"textAlignment": "left",
+			"textColor": "#333",
+			"linkStyle": {
+				"textColor": "#d20c50"
+			}
+		},
+		"lowerListStyle": {
+			"fontName": "Georgia",
+			"fontSize": 18,
+			"lineHeight": 20,
+			"textAlignment": "left"
+		},
+		"pullQuoteStyle": {
+			"fontName": "Georgia",
+			"fontSize": 32,
+			"lineHeight": 42,
+			"textAlignment": "left",
+			"textColor": "#694589",
+			"textTransform":"uppercase"
+		},
+		"spacerWord":{
+			"fontName": "Georgia",
+			"fontSize": 48,
+			"lineHeight": 48,
+			"textAlignment": "left",
+			"textTransform": "uppercase"
+		},
+		"titleStyle": {
+			"fontName": "MentorW01-Bold",
+			"fontSize": 50,
+			"lineHeight": 58,
+			"textAlignment": "left"
+		}
+	},
+	"componentLayouts": {
+		"adLayout": {
+		},
+		"authorLayout": {
+			"margin": {
+				"top": 10,
+				"bottom": 30
+			}
+		},
+		"blackStrokeLayout1":{
+			"margin": 0
+		},
+		"blackStrokeLayout2":{
+			"margin": 0
+		},
+		"blackStrokeLayout3":{
+			"margin": 0
+		},
+		"blackStrokeLayout4":{
+			"margin": 0
+		},
+		"bodyContainerLayout": {
+			"margin": {
+				"top": 0,
+				"bottom": 25
+			}
+		},
+		"bodyLayout": {
+			"margin": {
+				"top": 10,
+				"bottom": 15
+			}
+		},
+		"captionLayout": {
+			"margin": {
+				"top": 10,
+				"bottom": 25
+			}	 
+		},
+		"creditLayout": {
+			"margin": {
+				"top": 4,
+				"bottom": 0
+			}	 
+		},
+		"dateLayout": {
+			"margin": {
+				"top": 40,
+				"bottom": 10
+			}
+		},
+		"embedLayout": {
+			"margin": {
+				"top": 10,
+				"bottom": 25
+			}
+		},
+		"headerImageLayout": {
+			"ignoreDocumentMargin": true,
+			"minimumHeight": "75vmin"
+		},
+		"heading1Layout": {
+			"margin": {
+				"top": 15,
+				"bottom": 0
+			}
+		},
+		"introLayout": {
+			"margin": {
+				"top": 10,
+				"bottom": 10
+			}
+		},
+		"photoLayout": {
+			"maximumContentWidth": "100cw"
+		},
+		"pullQuoteLayout": {
+			"margin": {
+				"top": 20,
+				"bottom": 25
+			},
+			"contentInset": {
+				"left": false,
+				"right": false
+			}
+		},
+		"slideLayout": {
+			"ignoreDocumentMargin": true
+		},
+		"spacerLayout": {
+			"margin": {
+				"top": 5,
+				"bottom": 0
+			}
+		},
+		"tabLayout": {
+			"ignoreDocumentMargin": true,
+			"minimumHeight": 124
+		},
+		"titleLayout": {
+			"margin": {
+				"top": 0,
+				"bottom": 0
+			}
+		}
+	}
+}
