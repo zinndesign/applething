@@ -1,0 +1,559 @@
+{
+	"version": "0.10",
+	"identifier": "!!!DYNAMIC",
+	"title": "All the Looks From the VMA After Parties",
+	"language": "en",
+	"blueprint": "basic",
+	"layout": {
+		"columns": 6,
+		"width": 1024,
+		"margin": 80,
+		"gutter": 20
+	},
+	"components": [
+		{
+			"role": "header",
+			"layout": "headerImageLayout",
+			"style": {
+				"fill": {
+					"type": "image",
+					"URL": "http://sev.h-cdn.co/assets/15/36/980x490/landscape-1441037629-landscape-1441026028-gettyimages-486057786-master.jpg",
+					"fillMode": "cover",
+					"verticalAlignment": "top"
+				}
+			},
+			"behavior": {
+				"type": "parallax",
+				"factor": 0.5
+			},
+			"components": [
+				{
+					"role": "container",
+					"layout": "tabLayout",
+					"style": "tabLayoutStyle",
+					"anchor": {
+						"targetAnchorPosition": "bottom"
+					}
+				}
+			]
+		},
+		{
+			"role": "section",
+			"layout": "bodyContainerLayout",
+			"style": "bodyContainerStyle",
+			"anchor": {
+				"targetAnchorPosition": "top"
+			},
+			"components": [
+				{
+					"role": "intro",
+					"layout": "dateLayout",
+					"text": "AUG 11, 2015 @ 5:33 PM",
+					"textStyle": "dateStyle"
+				},
+				{
+					"role": "title",
+					"layout": "titleLayout",
+					"text": "All the Looks From the VMA After Parties",
+					"textStyle": "titleStyle"
+				},
+				{
+					"role": "intro",
+					"layout": "introLayout",
+					"text": "The fashion at the [2015 MTV Video Music Awards](http://google.com) may have been wild, but the stars' after-party outfits were just as out there. See what everyone from Lorde to Kylie Jenner wore.",
+					"textStyle": "introStyle",
+					"format": "markdown"
+				},
+				{
+					"role": "divider",
+					"stroke": {
+						"color": "#FFF0"
+					},
+					"layout": "blackStrokeLayout1",
+					"style": "baseStrokeStyle"
+				},
+				{
+					"role": "author",
+					"layout": "authorLayout",
+					"text": "By ALyssa Bailey",
+					"textStyle": "authorStyle"
+				},
+				{
+					"role": "divider",
+					"stroke": {
+						"color": "#FFF0"
+					},
+					"layout": "blackStrokeLayout2",
+					"style": "baseStrokeStyle"
+				},
+				{
+					"role": "body",
+					"text": "Praesent rhoncus eros et velit consequat viverra. Phasellus nec pretium odio. Donec eget ex mi. Phasellus commodo, risus ut vulputate egestas, lectus mi scelerisque neque, a aliquam libero est ut elit.",
+					"layout": "bodyLayout",
+					"textStyle": "bodyStyleFirst",
+					"format": "markdown"
+				},
+				{
+					"role": "section",
+					"layout": "slideLayout",
+					"components": [
+						{
+							"role": "heading",
+							"text": "Kylie Jenner",
+							"layout": "heading1Layout",
+							"textStyle": "heading1Style",
+							"format": "markdown"
+						},
+						{
+							"role": "container",
+							"style": "photoContainerStyle",
+							"components": [
+								{
+									"role": "image",
+									"URL": "http://sev.h-cdn.co/assets/15/36/1441036772-spl1113020_021.jpg",
+									"layout": "photoLayout",
+									"animation": {
+										"type": "fade_in",
+										"userControllable": true,
+										"initialAlpha": 0.1
+									}
+								}
+							]
+						},
+						{
+							"role": "photographer",
+							"text": "Getty",
+							"layout": "creditLayout",
+							"textStyle": "creditStyle"
+						},			
+						{
+							"role": "caption",
+							"text": "In Balmain arriving at an after party.",
+							"layout": "captionLayout",
+							"textStyle": "captionStyle",
+							"format": "markdown"
+						}
+					]
+				},
+				{
+					"role": "section",
+					"layout": "slideLayout",
+					"components": [
+						{
+							"role": "heading",
+							"text": "Frankie J. Grande, Kylie Jenner, and Justine Skye",
+							"layout": "heading1Layout",
+							"textStyle": "heading1Style",
+							"format": "markdown"
+						},
+						{
+							"role": "container",
+							"style": "photoContainerStyle",
+							"components": [
+								{
+									"role": "image",
+									"URL": "http://sev.h-cdn.co/assets/15/36/1441036781-gettyimages-486057656_master.jpg",
+									"layout": "photoLayout",
+									"animation": {
+										"type": "fade_in",
+										"userControllable": true,
+										"initialAlpha": 0.1
+									}
+								}
+							]
+						},
+						{
+							"role": "photographer",
+							"text": "Getty",
+							"layout": "creditLayout",
+							"textStyle": "creditStyle"
+						},			
+						{
+							"role": "caption",
+							"text": "At the Republic Records 2015 VMA after party at Ysabel restaurant.",
+							"layout": "captionLayout",
+							"textStyle": "captionStyle",
+							"format": "markdown"
+						}
+					]
+				},
+				{
+					"role": "section",
+					"layout": "slideLayout",
+					"components": [
+						{
+							"role": "heading",
+							"text": "Martha Hunt, Lily Aldridge, Selena Gomez, Taylor Swift, Hailee Steinfeld, and Serayah McNeill",
+							"layout": "heading1Layout",
+							"textStyle": "heading1Style",
+							"format": "markdown"
+						},
+						{
+							"role": "container",
+							"style": "photoContainerStyle",
+							"components": [
+								{
+									"role": "image",
+									"URL": "http://sev.h-cdn.co/assets/15/36/1441036786-gettyimages-486057742_master.jpg",
+									"layout": "photoLayout",
+									"animation": {
+										"type": "fade_in",
+										"userControllable": true,
+										"initialAlpha": 0.1
+									}
+								}
+							]
+						},
+						{
+							"role": "photographer",
+							"text": "Getty",
+							"layout": "creditLayout",
+							"textStyle": "creditStyle"
+						},			
+						{
+							"role": "caption",
+							"text": "At the Republic Records 2015 VMA after party at Ysabel restaurant.",
+							"layout": "captionLayout",
+							"textStyle": "captionStyle",
+							"format": "markdown"
+						}
+					]
+				},
+				{
+					"role": "section",
+					"layout": "slideLayout",
+					"components": [
+						{
+							"role": "heading",
+							"text": "Selena Gomez",
+							"layout": "heading1Layout",
+							"textStyle": "heading1Style",
+							"format": "markdown"
+						},
+						{
+							"role": "container",
+							"style": "photoContainerStyle",
+							"components": [
+								{
+									"role": "image",
+									"URL": "http://sev.h-cdn.co/assets/15/36/1441036798-spl1113039_001.jpg",
+									"layout": "photoLayout",
+									"animation": {
+										"type": "fade_in",
+										"userControllable": true,
+										"initialAlpha": 0.1
+									}
+								}
+							]
+						},
+						{
+							"role": "photographer",
+							"text": "Getty",
+							"layout": "creditLayout",
+							"textStyle": "creditStyle"
+						},			
+						{
+							"role": "caption",
+							"text": "Leaving an after party.",
+							"layout": "captionLayout",
+							"textStyle": "captionStyle",
+							"format": "markdown"
+						}
+					]
+				},
+				{
+					"role": "section",
+					"layout": "slideLayout",
+					"components": [
+						{
+							"role": "heading",
+							"text": "Ariana Grande",
+							"layout": "heading1Layout",
+							"textStyle": "heading1Style",
+							"format": "markdown"
+						},
+						{
+							"role": "container",
+							"style": "photoContainerStyle",
+							"components": [
+								{
+									"role": "image",
+									"URL": "http://sev.h-cdn.co/assets/15/36/1441036803-gettyimages-486034454_master.jpg",
+									"layout": "photoLayout",
+									"animation": {
+										"type": "fade_in",
+										"userControllable": true,
+										"initialAlpha": 0.1
+									}
+								}
+							]
+						},
+						{
+							"role": "photographer",
+							"text": "Getty",
+							"layout": "creditLayout",
+							"textStyle": "creditStyle"
+						},			
+						{
+							"role": "caption",
+							"text": "In Moschino at the Republic Records 2015 VMA after party at Ysabel restaurant.",
+							"layout": "captionLayout",
+							"textStyle": "captionStyle",
+							"format": "markdown"
+						}
+					]
+				},
+				{
+					"role": "banner_advertisement",
+					"bannerType": "standard"
+				}
+			]
+		}
+	],
+	"documentStyle": {
+		"backgroundColor": "#FFF"
+	},
+	"componentStyles": {
+		"baseStrokeStyle": {
+		},
+		"bodyContainerStyle": {
+			"backgroundColor": "#FFF"
+		},
+		"dateLayoutStyle": {
+			"border": {
+				"all": {
+					"width": 2
+				},
+				"top": false,
+				"left": false,
+				"right": false
+			}
+		},
+		"photoContainerStyle": {
+			"backgroundColor": "#000"
+		},
+		"tabLayoutStyle": {
+			"border": {
+				"all": {
+					"width": 12
+				},
+				"top": false,
+				"left": false,
+				"right": false
+			}
+		}
+	},
+	"componentTextStyles": {
+		"authorStyle": {
+			"fontName": "UniversLTW01-57CondensedObl",
+			"fontSize": 16,
+			"textAlignment": "left",
+			"textColor": "#999",
+			"textTransform":"uppercase"
+		},
+		"bodyStyle": {
+			"fontName": "Georgia",
+			"fontSize": 20,
+			"lineHeight": 30,
+			"textAlignment": "left",
+			"tracking": -0.02,
+			"linkStyle": {
+				"textColor": "#ff3593"
+			}
+		},
+		"bodyStyleFirst": {
+			"fontName": "Georgia",
+			"fontSize": 20,
+			"lineHeight": 30,
+			"textAlignment": "left",
+			"tracking": -0.02,
+			"dropCapStyle": {
+				"fontName": "Georgia",
+				"numberOfLines": 3,
+				"numberOfCharacters": 1
+			},
+			"linkStyle": {
+				"textColor": "#ff3593"
+			}
+		},
+		"captionStyle": {
+			"fontName": "Georgia",
+			"fontSize": 20,
+			"lineHeight": 30,
+			"textAlignment": "left",
+			"linkStyle": {
+				"textColor": "#ff3593"
+			}
+		},
+		"creditStyle": {
+			"fontName": "UniversLTW01-57Condensed",
+			"fontSize": 14,
+			"lineHeight": 18,
+			"textAlignment": "right",
+			"textColor": "#999",
+			"textTransform":"uppercase"
+		},
+		"dateStyle": {
+			"fontName": "UniversLTW01-57CondensedObl",
+			"fontSize": 16,
+			"textAlignment": "left",
+			"textColor": "#999",
+			"textTransform":"uppercase"
+		},
+		"heading1Style": {
+			"fontName": "UniversLTW01-57Condensed",
+			"fontSize": 34,
+			"lineHeight": 40,
+			"textAlignment": "left",
+			"textColor": "#000",
+			"textTransform":"uppercase"
+		},
+		"introStyle": {
+			"fontName": "UniversLTW01-67BoldCn",
+			"fontSize": 24,
+			"lineHeight": 30,
+			"textAlignment": "left",
+			"linkStyle": {
+				"textColor": "#ff3593"
+			}
+		},
+		"lowerListStyle": {
+			"fontName": "Georgia",
+			"fontSize": 18,
+			"lineHeight": 20,
+			"textAlignment": "left"
+		},
+		"pullQuoteStyle": {
+			"fontName": "SeventeenBrush",
+			"fontSize": 42,
+			"lineHeight": 52,
+			"textAlignment": "center",
+			"tracking": 0.02
+		},
+		"spacerWord":{
+			"fontName": "Georgia",
+			"fontSize": 48,
+			"lineHeight": 48,
+			"textAlignment": "left",
+			"textTransform": "uppercase"
+		},
+		"titleStyle": {
+			"fontName": "UniversLTW01-67BoldCn",
+			"fontSize": 54,
+			"lineHeight": 56,
+			"textAlignment": "left",
+			"textColor": "#46d5ed",
+			"textTransform": "uppercase"
+		}
+	},
+	"componentLayouts": {
+		"adLayout": {
+		},
+		"authorLayout": {
+			"margin": {
+				"top": 10,
+				"bottom": 30
+			}
+		},
+		"blackStrokeLayout1":{
+			"margin": 0
+		},
+		"blackStrokeLayout2":{
+			"margin": 0
+		},
+		"blackStrokeLayout3":{
+			"margin": 0
+		},
+		"blackStrokeLayout4":{
+			"margin": 0
+		},
+		"bodyContainerLayout": {
+			"margin": {
+				"top": 0,
+				"bottom": 25
+			}
+		},
+		"bodyLayout": {
+			"margin": {
+				"top": 5,
+				"bottom": 15
+			}
+		},
+		"captionLayout": {
+			"margin": {
+				"top": 5,
+				"bottom": 25
+			}	 
+		},
+		"creditLayout": {
+			"margin": {
+				"top": 4,
+				"bottom": 0
+			}	 
+		},
+		"dateLayout": {
+			"margin": {
+				"top": 40,
+				"bottom": 10
+			}
+		},
+		"embedLayout": {
+			"margin": {
+				"top": 10,
+				"bottom": 25
+			}
+		},
+		"headerImageLayout": {
+			"ignoreDocumentMargin": true,
+			"minimumHeight": "75vmin"
+		},
+		"heading1Layout": {
+			"margin": {
+				"top": 10,
+				"bottom": 15
+			}
+		},
+		"introLayout": {
+			"margin": {
+				"top": 10,
+				"bottom": 10
+			}
+		},
+		"photoLayout": {
+			"maximumContentWidth": "100cw"
+		},
+		"pullQuoteLayout": {
+			"margin": {
+				"top": 15,
+				"bottom": 30
+			},
+			"contentInset": {
+				"top": false,
+				"bottom": false
+			}
+		},
+		"slideLayout": {
+			"ignoreDocumentMargin": true,
+			"margin": {
+				"top": 5,
+				"bottom": 5
+			}
+		},
+		"spacerLayout": {
+			"margin": {
+				"top": 5,
+				"bottom": 0
+			}
+		},
+		"tabLayout": {
+			"ignoreDocumentMargin": true,
+			"minimumHeight": 124
+		},
+		"titleLayout": {
+			"margin": {
+				"top": 0,
+				"bottom": 0
+			}
+		}
+	}
+}
