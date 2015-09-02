@@ -1,13 +1,13 @@
 {
 	"version": "0.10",
 	"identifier": "!!!DYNAMIC",
-	"title": "Simon Cowell Reveals the REAL Reason Behind One Direction's Break",
+	"title": "What This Couple Found Inside a 50-Year-Old Safe Hidden Behind Their Wall Is Straight Out of a Movie",
 	"language": "en",
 	"blueprint": "basic",
 	"layout": {
 		"columns": 6,
 		"width": 1024,
-		"margin": 80,
+		"margin": 90,
 		"gutter": 40
 	},
 	"components": [
@@ -17,7 +17,7 @@
 			"style": {
 				"fill": {
 					"type": "image",
-					"URL": "http://sev.h-cdn.co/assets/15/33/980x490/landscape-1439317210-1438347528-1d-s1-cmyk-originalimage-new.jpg",
+					"URL": "http://wdy.h-cdn.co/assets/15/35/1440780982-1440776126-3cpq2uy-1.jpg",
 					"fillMode": "cover",
 					"verticalAlignment": "top"
 				}
@@ -54,13 +54,13 @@
 				{
 					"role": "title",
 					"layout": "titleLayout",
-					"text": "Simon Cowell Reveals the REAL Reason Behind One Direction's Break",
+					"text": "What This Couple Found Inside a 50-Year-Old Safe Hidden Behind Their Wall Is Straight Out of a Movie",
 					"textStyle": "titleStyle"
 				},
 				{
 					"role": "intro",
 					"layout": "introLayout",
-					"text": "\"I hope they'll [come back](http://gooogle.com) together afterwards...\"",
+					"text": "See, it totally pays to DIY.",
 					"textStyle": "introStyle",
 					"format": "markdown"
 				},
@@ -75,7 +75,7 @@
 				{
 					"role": "author",
 					"layout": "authorLayout",
-					"text": "By Robert Sorokanich",
+					"text": "By Brie Schwartz",
 					"textStyle": "authorStyle"
 				},
 				{
@@ -93,28 +93,42 @@
 				},
 				{
 					"role": "body",
-					"text": "Hearts broke 'round the world when, just five months after Zayn Malik's departure, the rest of One Direction announced they would take [a break in 2016](http://www.seventeen.com/celebrity/music/news/a33403/stop-everything-one-direction-is-taking-an-extended-break/). Even though [Louis Tomlinson and Liam Payne](http://www.seventeen.com/celebrity/music/news/a33442/one-direction-assures-fans-theyre-taking-a-break-not-splitting-up/) have assured fans that it's just a break, and not a breakup, Directioners can't help but wonder what lead to the decision. While the boys have yet to reveal the reason, the man who helped discover them, Simon Cowell, thinks he knows why.",
+					"text": "A Phoenix couple kicking off some home renovations were shocked to find that inside their walls instead of rusty pipes or creepy crawlers, there was a 50-year-old safe, just waiting to be cracked.",
 					"layout": "bodyLayout",
 					"textStyle": "bodyStyleFirst",
 					"format": "markdown"
 				},
 				{
-					"role": "heading1",
-					"layout": "heading1Layout",
-					"text": "Simon Offers His Words of Wisdom",
-					"textStyle": "heading1Style",
-					"format": "markdown"
-				},
-				{
 					"role": "body",
-					"text": "When asked by [Yahoo UK](https://uk.celebrity.yahoo.com/post/127663286259/simon-cowell-one-direction-were-100-overworked) if he thinks they boys were overworked, Simon replied, \"100%. Even though they were young, that was a grueling schedule and after a while I could see they were exhausted, so when they asked how I felt about it, I said for them to do whatever they want.\" In fact, some believe their grueling schedule is what lead to Zayn's leaving the group.",
+					"text": "When they first moved into their home, which the couple, who posted their incredible story on [Imgur](http://imgur.com/gallery/ldW7B) describe as a \"fixer upper,\" they found a safe code in the back of a medicine cabinet but never knew where it led.",
 					"layout": "bodyLayout",
 					"textStyle": "bodyStyle",
 					"format": "markdown"
 				},
 				{
 					"role": "body",
-					"text": "Simon went on to reveal that even though they're definitely taking a break next year, he wouldn't say they're splitting up just yet. \"I don't know if they're definitely going to split up to be honest with you,\" he said. \"I've known for a while that they were going to take 2016 off, and they had to on their workload.\"",
+					"text": "Once they tore down their kitchen island and started hammering away, they found the [mystery](http://www.womansday.com/relationships/family-friends/news/a51541/woman-finds-decades-old-mystery-letter-hidden-inside-picture-frame/) box.",
+					"layout": "bodyLayout",
+					"textStyle": "bodyStyle",
+					"format": "markdown"
+				},
+				{
+					"role": "heading1",
+					"layout": "heading1Layout",
+					"text": "Opening the \"Mystery Box\"",
+					"textStyle": "heading1Style",
+					"format": "markdown"
+				},
+				{
+					"role": "body",
+					"text": "Using the code that they luckily secreted away, they were able to get the safe open after a dozen attempts. And what did they find inside? $51,080, mostly in $100 notes and a bottle of bourbon dated 1960.",
+					"layout": "bodyLayout",
+					"textStyle": "bodyStyle",
+					"format": "markdown"
+				},
+				{
+					"role": "body",
+					"text": "\"We stared in disbelief. Time stood still. I started to reach in the safe and Eddie yelled, 'Wait it might be booby trapped!' I'm still laughing at that one,\" the woman writes on Imgur. Yet, nothing would stop her from having at that bourbon.",
 					"layout": "bodyLayout",
 					"textStyle": "bodyStyle",
 					"format": "markdown"
@@ -130,7 +144,7 @@
 				{
 					"role": "pullquote",
 					"layout": "pullQuoteLayout",
-					"text": "\u201CI could see they were exhausted, so when they asked how I felt about it, I said for them to do whatever they want.\u201D",
+					"text": "\u201CI started to reach in the safe and Eddie yelled, 'Wait it might be booby trapped!' I'm still laughing at that one...\u201D",
 					"textStyle": "pullQuoteStyle",
 					"format": "markdown"
 				},
@@ -144,14 +158,28 @@
 				},
 				{
 					"role": "body",
-					"text": "In the long run, Simon does think a break is healthy for the boys, but just like everyone else, he hopes they can figure out a way to stay together. \"As I've always done with the guys, I said, 'Make your own decisions. I hope you stay together, but you've got to want to do it for yourselves.' But they're smart guys and they'll work it out.\"",
+					"text": "Besides the cash and the hooch, the safe also contained\u2014and this is where it gets interesting\u2014a book called _A Guide for the Perplexed_, published in 1977, that appears to contain clues. Inside, there was a black and white photo of a mystery (and, might we add, dapper) man. On the back of Mr. Handsome's pic, there was a note that reads:",
 					"layout": "bodyLayout",
 					"textStyle": "bodyStyle",
 					"format": "markdown"
 				},
 				{
 					"role": "body",
-					"text": "They better! No Direction would be the worst.",
+					"text": ">Alan, I have a book you must read. I've underlined a few key passages. Your friend, Vincent",
+					"layout": "bodyLayout",
+					"textStyle": "bodyStyle",
+					"format": "markdown"
+				},
+				{
+					"role": "body",
+					"text": "There was one more poignant passage Vincent thoughtfully pointed out to Alan: \"Most Modern Readers will be reluctant to believe that perfect happiness is attainable by methods of which their modern world knows nothing.\" Was this, perhaps the 1977 equivalent of saying, 'stop coveting that iWatch and find joy in simple walks and stuff? Unclear, but it certainly gives you pause.",
+					"layout": "bodyLayout",
+					"textStyle": "bodyStyle",
+					"format": "markdown"
+				},
+				{
+					"role": "body",
+					"text": "_**UPDATE, 8/29:** Well, we thought it sounded too good to be true, and in fact, it was. The couple whose treasure hunt story took the Internet by storm this week have fessed up: They fabricated the whole thing. The Chive has more details on how they pulled off to the ruse. And while we feel chagrined, we're happy to see the money they \"discovered\" has found a good home: They donated it to a local no-kill animal shelter._",
 					"layout": "bodyLayout",
 					"textStyle": "bodyStyle",
 					"format": "markdown"
@@ -186,20 +214,19 @@
 			"backgroundColor": "#000"
 		},
 		"tabLayoutStyle": {
-			"border": {
-				"all": {
-					"width": 12
-				},
-				"top": false,
-				"left": false,
-				"right": false
+			"fill": {
+				"type": "image",
+				"URL": "bundle://wdy_header_article.png",
+				"fillMode": "fit",
+				"verticalAlignment": "bottom",
+				"horizontalAlignment": "right"
 			}
 		}
 	},
 	"componentTextStyles": {
 		"authorStyle": {
-			"fontName": "UniversLTW01-57CondensedObl",
-			"fontSize": 16,
+			"fontName": "BodoniEgyptW01-Medium",
+			"fontSize": 14,
 			"textAlignment": "left",
 			"textColor": "#999",
 			"textTransform":"uppercase"
@@ -211,7 +238,7 @@
 			"textAlignment": "left",
 			"tracking": -0.02,
 			"linkStyle": {
-				"textColor": "#ff3593"
+				"textColor": "#684489"
 			}
 		},
 		"bodyStyleFirst": {
@@ -221,12 +248,13 @@
 			"textAlignment": "left",
 			"tracking": -0.02,
 			"dropCapStyle": {
-				"fontName": "SeventeenBrush",
+				"fontName": "BodoniEgyptW01-Medium",
+				"textColor":"#e25a9f",
 				"numberOfLines": 3,
 				"numberOfCharacters": 1
 			},
 			"linkStyle": {
-				"textColor": "#ff3593"
+				"textColor": "#684489"
 			}
 		},
 		"captionStyle": {
@@ -235,7 +263,7 @@
 			"lineHeight": 30,
 			"textAlignment": "left",
 			"linkStyle": {
-				"textColor": "#ff3593"
+				"textColor": "#684489"
 			}
 		},
 		"creditStyle": {
@@ -247,27 +275,27 @@
 			"textTransform":"uppercase"
 		},
 		"dateStyle": {
-			"fontName": "UniversLTW01-57CondensedObl",
-			"fontSize": 16,
+			"fontName": "AvenirNextLTW01-Demi",
+			"fontSize": 14,
 			"textAlignment": "left",
 			"textColor": "#999",
-			"textTransform":"uppercase"
+			"textTransform":"uppercase",
+			"tracking": -0.05
 		},
 		"heading1Style": {
-			"fontName": "UniversLTW01-57Condensed",
+			"fontName": "AvenirNextLTW01-Bold",
 			"fontSize": 30,
-			"lineHeight": 40,
-			"textAlignment": "left",
-			"textColor": "#ff3693",
-			"textTransform":"uppercase"
+			"lineHeight": 36,
+			"textAlignment": "left"
 		},
 		"introStyle": {
-			"fontName": "UniversLTW01-67BoldCn",
+			"fontName": "Georgia-Italic",
 			"fontSize": 24,
 			"lineHeight": 30,
 			"textAlignment": "left",
+			"textColor": "#999",
 			"linkStyle": {
-				"textColor": "#ff3593"
+				"textColor": "#684489"
 			}
 		},
 		"lowerListStyle": {
@@ -277,11 +305,12 @@
 			"textAlignment": "left"
 		},
 		"pullQuoteStyle": {
-			"fontName": "SeventeenBrush",
-			"fontSize": 42,
-			"lineHeight": 52,
-			"textAlignment": "center",
-			"tracking": 0.02
+			"fontName": "BodoniEgyptW01-Medium",
+			"fontSize": 32,
+			"lineHeight": 42,
+			"textAlignment": "left",
+			"textColor": "#694589",
+			"textTransform":"uppercase"
 		},
 		"spacerWord":{
 			"fontName": "Georgia",
@@ -291,12 +320,11 @@
 			"textTransform": "uppercase"
 		},
 		"titleStyle": {
-			"fontName": "UniversLTW01-67BoldCn",
-			"fontSize": 54,
-			"lineHeight": 56,
+			"fontName": "AvenirNextLTW01-Demi",
+			"fontSize": 50,
+			"lineHeight": 58,
 			"textAlignment": "left",
-			"textColor": "#ff3693",
-			"textTransform": "uppercase"
+			"textColor": "#333"
 		}
 	},
 	"componentLayouts": {
@@ -328,7 +356,7 @@
 		},
 		"bodyLayout": {
 			"margin": {
-				"top": 5,
+				"top": 10,
 				"bottom": 15
 			}
 		},
@@ -362,7 +390,7 @@
 		},
 		"heading1Layout": {
 			"margin": {
-				"top": 10,
+				"top": 15,
 				"bottom": 0
 			}
 		},
@@ -378,7 +406,7 @@
 		"pullQuoteLayout": {
 			"margin": {
 				"top": 20,
-				"bottom": 30
+				"bottom": 25
 			},
 			"contentInset": {
 				"left": false,

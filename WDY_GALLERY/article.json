@@ -1,14 +1,14 @@
 {
 	"version": "0.10",
 	"identifier": "!!!DYNAMIC",
-	"title": "All the Looks From the VMA After Parties",
+	"title": "30 Women Who Expertly Shut Down Their Body Shamers",
 	"language": "en",
 	"blueprint": "basic",
 	"layout": {
 		"columns": 6,
 		"width": 1024,
-		"margin": 80,
-		"gutter": 20
+		"margin": 90,
+		"gutter": 40
 	},
 	"components": [
 		{
@@ -17,7 +17,7 @@
 			"style": {
 				"fill": {
 					"type": "image",
-					"URL": "http://sev.h-cdn.co/assets/15/36/980x490/landscape-1441037629-landscape-1441026028-gettyimages-486057786-master.jpg",
+					"URL": "http://wdy.h-cdn.co/assets/15/35/1600x800/landscape-1440432442-gettyimages-467173985.jpg",
 					"fillMode": "cover",
 					"verticalAlignment": "top"
 				}
@@ -54,13 +54,13 @@
 				{
 					"role": "title",
 					"layout": "titleLayout",
-					"text": "All the Looks From the VMA After Parties",
+					"text": "30 Women Who Expertly Shut Down Their Body Shamers",
 					"textStyle": "titleStyle"
 				},
 				{
 					"role": "intro",
 					"layout": "introLayout",
-					"text": "The fashion at the [2015 MTV Video Music Awards](http://google.com) may have been wild, but the stars' after-party outfits were just as out there. See what everyone from Lorde to Kylie Jenner wore.",
+					"text": "\"I'm so proud to be different.\"",
 					"textStyle": "introStyle",
 					"format": "markdown"
 				},
@@ -75,7 +75,7 @@
 				{
 					"role": "author",
 					"layout": "authorLayout",
-					"text": "By ALyssa Bailey",
+					"text": "By Marie Claire Editors",
 					"textStyle": "authorStyle"
 				},
 				{
@@ -92,7 +92,7 @@
 					"components": [
 						{
 							"role": "heading",
-							"text": "Kylie Jenner",
+							"text": "Katie Fehlinger",
 							"layout": "heading1Layout",
 							"textStyle": "heading1Style",
 							"format": "markdown"
@@ -103,7 +103,7 @@
 							"components": [
 								{
 									"role": "image",
-									"URL": "http://sev.h-cdn.co/assets/15/36/1441036772-spl1113020_021.jpg",
+									"URL": "http://wdy.h-cdn.co/assets/15/35/1440431496-1440163188-11891150-1120572401305825-363160768315697295-n.jpg",
 									"layout": "photoLayout",
 									"animation": {
 										"type": "fade_in",
@@ -115,13 +115,13 @@
 						},
 						{
 							"role": "photographer",
-							"text": "Getty",
+							"text": "Facebook",
 							"layout": "creditLayout",
 							"textStyle": "creditStyle"
 						},			
 						{
 							"role": "caption",
-							"text": "In Balmain arriving at an after party.",
+							"text": "Notice anything off about CBS3 Philly's meteorologist? We don't, but trolls have been coming at her saying \"sticking your pregnant abdomen out like that is disgusting.\" So Fehlinger took to [Facebook](https://www.facebook.com/181473545215720/photos/a.272484609447946.85682.181473545215720/1120572401305825/?type=1) to acknowledge her haters and declare her pregnancy pride.\n\n\"Frankly, I don't care how 'terrible' or 'inappropriate' anyone thinks I look. I will gladly gain 50 pounds & suffer sleepless, uncomfortable nights if it means upping my chances to deliver 2 healthy baby girls. Now it's about more than aesthetics. I want these babies to have the best start possible. And that hopefully means my belly that 'looks like it's about to explode!' will continue to grow the next few weeks.\"\n\nBut she didn't stop there. The TV personality took this opportunity to applaud all mothers and soon-to-be moms for their courage and strength to endure labor.\n\n\"I say let's raise a Shirley Temple to swollen feet, stretch marks, nausea, all the extra pounds and the dark circles! They're [badges of motherhood](http://www.womansday.com/relationships/family-friends/a51416/husband-gives-pregnancy-announcement-before-wife-even-knows-shes-pregnant/). And for those of you who think that's 'disgusting', remember a woman went through the very same thing to bring YOU into the world.\"",
 							"layout": "captionLayout",
 							"textStyle": "captionStyle",
 							"format": "markdown"
@@ -134,7 +134,7 @@
 					"components": [
 						{
 							"role": "heading",
-							"text": "Frankie J. Grande, Kylie Jenner, and Justine Skye",
+							"text": "Ciera Swaringen",
 							"layout": "heading1Layout",
 							"textStyle": "heading1Style",
 							"format": "markdown"
@@ -145,7 +145,7 @@
 							"components": [
 								{
 									"role": "image",
-									"URL": "http://sev.h-cdn.co/assets/15/36/1441036781-gettyimages-486057656_master.jpg",
+									"URL": "http://wdy.h-cdn.co/assets/15/35/1440431498-1439932956-mcx-ciera-swaringen.jpg",
 									"layout": "photoLayout",
 									"animation": {
 										"type": "fade_in",
@@ -157,13 +157,13 @@
 						},
 						{
 							"role": "photographer",
-							"text": "Getty",
+							"text": "HotSpot/Landov",
 							"layout": "creditLayout",
 							"textStyle": "creditStyle"
 						},			
 						{
 							"role": "caption",
-							"text": "At the Republic Records 2015 VMA after party at Ysabel restaurant.",
+							"text": "The teen North Carolina suffers from Giant Congenital Melanocytic Nevus, which covers 70 percent of her body with marks. Teased since she was young, 19-year-old Swaringen recently posted a photo of herself in a bikini to shut down the haters. \"One day I remember being on the school bus and hearing a young boy laugh at me and call me a spotty dog,\" [she said](http://metro.co.uk/2015/08/17/teenager-with-hundreds-of-mole-like-birthmarks-sticks-it-to-bullies-by-posing-in-bikini-5347679/). \"But I'm so proud to be different and, at the end of the day, we all have something about us that's unusual, whether it's on the inside or the outside.\"",
 							"layout": "captionLayout",
 							"textStyle": "captionStyle",
 							"format": "markdown"
@@ -176,7 +176,7 @@
 					"components": [
 						{
 							"role": "heading",
-							"text": "Martha Hunt, Lily Aldridge, Selena Gomez, Taylor Swift, Hailee Steinfeld, and Serayah McNeill",
+							"text": "Chrissy Teigen",
 							"layout": "heading1Layout",
 							"textStyle": "heading1Style",
 							"format": "markdown"
@@ -187,7 +187,7 @@
 							"components": [
 								{
 									"role": "image",
-									"URL": "http://sev.h-cdn.co/assets/15/36/1441036786-gettyimages-486057742_master.jpg",
+									"URL": "http://wdy.h-cdn.co/assets/15/35/1440431507-1439673989-gettyimages-474149748.jpg",
 									"layout": "photoLayout",
 									"animation": {
 										"type": "fade_in",
@@ -198,14 +198,8 @@
 							]
 						},
 						{
-							"role": "photographer",
-							"text": "Getty",
-							"layout": "creditLayout",
-							"textStyle": "creditStyle"
-						},			
-						{
 							"role": "caption",
-							"text": "At the Republic Records 2015 VMA after party at Ysabel restaurant.",
+							"text": "Chrissy Teigen wants you to know that her outspokenness on social media doesn't call for mean comments on Instagram, especially not fat-shaming insults.\n\n\"It's almost like f**king walking up to somebody's house, knocking on the door and being like, 'You're fat,'\" the _Lip Sync Battle_ host told [Us Weekly](http://www.usmagazine.com/celebrity-news/news/chrissy-teigen-slams-mean-instagram-followers-theyre-the-wors-2015148). \"I don't know if they think they're ballsy or what. But if you're going to speak negatively about me, just do me a favor and don't tag me in it.\"\n\nBecause after all, there is indeed a real person on the receiving end of all those cruel remarks, as Teigen would like to remind her 3 million followers.\n\n\"I would like to say I read everything, because it's pretty damn close. Probably 99.5 percent of things I really do read. And if I'm not reading it, it just means that I missed it,\" the 29-year-old explained. \"I mean, I think that people think that when they send you things, it goes off into space and you don't care.\"",
 							"layout": "captionLayout",
 							"textStyle": "captionStyle",
 							"format": "markdown"
@@ -218,7 +212,7 @@
 					"components": [
 						{
 							"role": "heading",
-							"text": "Selena Gomez",
+							"text": "Lindsey Swift",
 							"layout": "heading1Layout",
 							"textStyle": "heading1Style",
 							"format": "markdown"
@@ -229,7 +223,7 @@
 							"components": [
 								{
 									"role": "image",
-									"URL": "http://sev.h-cdn.co/assets/15/36/1441036798-spl1113039_001.jpg",
+									"URL": "http://wdy.h-cdn.co/assets/15/35/1440431512-1439401021-11822306-10156025265115157-9133368021737941833-n.jpg",
 									"layout": "photoLayout",
 									"animation": {
 										"type": "fade_in",
@@ -241,13 +235,13 @@
 						},
 						{
 							"role": "photographer",
-							"text": "Getty",
+							"text": "Facebook",
 							"layout": "creditLayout",
 							"textStyle": "creditStyle"
 						},			
 						{
 							"role": "caption",
-							"text": "Leaving an after party.",
+							"text": "While training for a 10K with her boyfriend, 26-year-old Lindsey Swift from Barnsley, England was heckled by a stranger about her weight as he hung outside the window of his white van. But Lindsey wanted to make sure that others aren't discouraged from taking the step toward becoming healthier.\n\n\"Let me make one thing very clear, I am not ashamed of my body. It has never stopped me from doing anything I want. My fat body has done things that you, hanging out of the window of your babe-magnet white van could only ever dream of. My fat body has been swimming in crystal clear Thai seas that you have probably only ever seen on TV. It has lived in countries you wouldn't dream of visiting and been a part of cultures you are too small minded to appreciate. My fat legs have carried me up mountains on more than one occasion. My fat brain speaks languages you probably don't see the point of learning, which is why you spend your time hanging out of van windows since you have nothing better to occupy it with.\"\n\nRead the [rest of the amazing post here](https://www.facebook.com/lindsey.swift1/posts/10156043200800157). Keep doing you, Lindsey.",
 							"layout": "captionLayout",
 							"textStyle": "captionStyle",
 							"format": "markdown"
@@ -260,7 +254,7 @@
 					"components": [
 						{
 							"role": "heading",
-							"text": "Ariana Grande",
+							"text": "Jennifer Lawrence",
 							"layout": "heading1Layout",
 							"textStyle": "heading1Style",
 							"format": "markdown"
@@ -271,7 +265,7 @@
 							"components": [
 								{
 									"role": "image",
-									"URL": "http://sev.h-cdn.co/assets/15/36/1441036803-gettyimages-486034454_master.jpg",
+									"URL": "http://wdy.h-cdn.co/assets/15/35/1440431514-gallery-1429048677-477219193.jpg",
 									"layout": "photoLayout",
 									"animation": {
 										"type": "fade_in",
@@ -280,16 +274,10 @@
 									}
 								}
 							]
-						},
-						{
-							"role": "photographer",
-							"text": "Getty",
-							"layout": "creditLayout",
-							"textStyle": "creditStyle"
-						},			
+						},		
 						{
 							"role": "caption",
-							"text": "In Moschino at the Republic Records 2015 VMA after party at Ysabel restaurant.",
+							"text": "At the beginning of her career, Jennifer was told that she would be more successful if she were a smaller size. \"Somebody told me I was fat, that I was going to get fired if I didn't lose a certain amount of weight. They brought in pictures of me where I was basically naked, and told me to use them as [motivation for my diet](http://www.womansday.com/health-fitness/wellness/a8096/weight-loss-texting-good-housekeeping/),\" she [said](http://www.harpersbazaar.co.uk/fashion/fashion-news/jennifer-lawrence-for-bazaar-cover-november-2013-interview-hunger-games). She refused to change, and the Oscar winner no longer feels pressure to lose weight, adding, \"If anybody even tries to whisper the word 'diet,' I'm like, 'You can go fuck yourself.'\"",
 							"layout": "captionLayout",
 							"textStyle": "captionStyle",
 							"format": "markdown"
@@ -326,20 +314,19 @@
 			"backgroundColor": "#000"
 		},
 		"tabLayoutStyle": {
-			"border": {
-				"all": {
-					"width": 12
-				},
-				"top": false,
-				"left": false,
-				"right": false
+			"fill": {
+				"type": "image",
+				"URL": "bundle://wdy_header_gallery.png",
+				"fillMode": "fit",
+				"verticalAlignment": "bottom",
+				"horizontalAlignment": "right"
 			}
 		}
 	},
 	"componentTextStyles": {
 		"authorStyle": {
-			"fontName": "UniversLTW01-57CondensedObl",
-			"fontSize": 16,
+			"fontName": "BodoniEgyptW01-Medium",
+			"fontSize": 14,
 			"textAlignment": "left",
 			"textColor": "#999",
 			"textTransform":"uppercase"
@@ -351,7 +338,7 @@
 			"textAlignment": "left",
 			"tracking": -0.02,
 			"linkStyle": {
-				"textColor": "#ff3593"
+				"textColor": "#684489"
 			}
 		},
 		"bodyStyleFirst": {
@@ -361,53 +348,55 @@
 			"textAlignment": "left",
 			"tracking": -0.02,
 			"dropCapStyle": {
-				"fontName": "SeventeenBrush",
+				"fontName": "BodoniEgyptW01-Medium",
+				"textColor":"#e25a9f",
 				"numberOfLines": 3,
 				"numberOfCharacters": 1
 			},
 			"linkStyle": {
-				"textColor": "#ff3593"
+				"textColor": "#684489"
 			}
 		},
 		"captionStyle": {
 			"fontName": "Georgia",
-			"fontSize": 20,
-			"lineHeight": 30,
+			"fontSize": 18,
+			"lineHeight": 24,
 			"textAlignment": "left",
 			"linkStyle": {
-				"textColor": "#ff3593"
+				"textColor": "#684489"
 			}
 		},
 		"creditStyle": {
-			"fontName": "UniversLTW01-57Condensed",
-			"fontSize": 10,
-			"lineHeight": 14,
+			"fontName": "AvenirNextLTW01-Demi",
+			"fontSize": 12,
+			"lineHeight": 16,
 			"textAlignment": "right",
-			"textColor": "#999",
-			"textTransform":"uppercase"
+			"textColor": "#AAA",
+			"tracking": -0.05
 		},
 		"dateStyle": {
-			"fontName": "UniversLTW01-57CondensedObl",
-			"fontSize": 16,
+			"fontName": "AvenirNextLTW01-Demi",
+			"fontSize": 14,
 			"textAlignment": "left",
 			"textColor": "#999",
-			"textTransform":"uppercase"
+			"textTransform":"uppercase",
+			"tracking": -0.05
 		},
 		"heading1Style": {
-			"fontName": "UniversLTW01-57Condensed",
-			"fontSize": 34,
-			"lineHeight": 40,
+			"fontName": "AvenirNextLTW01-Bold",
+			"fontSize": 30,
+			"lineHeight": 36,
 			"textAlignment": "left",
-			"textColor": "#000",
-			"textTransform":"uppercase"
+			"textColor": "#333"
 		},
 		"introStyle": {
-			"fontName": "UniversLTW01-67BoldCn",
+			"fontName": "Georgia-Italic",
 			"fontSize": 24,
 			"lineHeight": 30,
 			"textAlignment": "left",
+			"textColor": "#999",
 			"linkStyle": {
-				"textColor": "#ff3593"
+				"textColor": "#684489"
 			}
 		},
 		"lowerListStyle": {
@@ -417,11 +406,12 @@
 			"textAlignment": "left"
 		},
 		"pullQuoteStyle": {
-			"fontName": "SeventeenBrush",
-			"fontSize": 42,
-			"lineHeight": 52,
-			"textAlignment": "center",
-			"tracking": 0.02
+			"fontName": "BodoniEgyptW01-Medium",
+			"fontSize": 32,
+			"lineHeight": 42,
+			"textAlignment": "left",
+			"textColor": "#694589",
+			"textTransform":"uppercase"
 		},
 		"spacerWord":{
 			"fontName": "Georgia",
@@ -431,12 +421,11 @@
 			"textTransform": "uppercase"
 		},
 		"titleStyle": {
-			"fontName": "UniversLTW01-67BoldCn",
-			"fontSize": 54,
-			"lineHeight": 56,
+			"fontName": "AvenirNextLTW01-Demi",
+			"fontSize": 50,
+			"lineHeight": 58,
 			"textAlignment": "left",
-			"textColor": "#46d5ed",
-			"textTransform": "uppercase"
+			"textColor": "#333"
 		}
 	},
 	"componentLayouts": {
@@ -468,13 +457,13 @@
 		},
 		"bodyLayout": {
 			"margin": {
-				"top": 5,
+				"top": 10,
 				"bottom": 15
 			}
 		},
 		"captionLayout": {
 			"margin": {
-				"top": 5,
+				"top": 10,
 				"bottom": 25
 			}	 
 		},
@@ -502,8 +491,8 @@
 		},
 		"heading1Layout": {
 			"margin": {
-				"top": 10,
-				"bottom": 15
+				"top": 15,
+				"bottom": 10
 			}
 		},
 		"introLayout": {
@@ -517,20 +506,16 @@
 		},
 		"pullQuoteLayout": {
 			"margin": {
-				"top": 15,
-				"bottom": 30
+				"top": 20,
+				"bottom": 25
 			},
 			"contentInset": {
-				"top": false,
-				"bottom": false
+				"left": false,
+				"right": false
 			}
 		},
 		"slideLayout": {
-			"ignoreDocumentMargin": true,
-			"margin": {
-				"top": 5,
-				"bottom": 5
-			}
+			"ignoreDocumentMargin": true
 		},
 		"spacerLayout": {
 			"margin": {
