@@ -325,7 +325,7 @@
 		},
 		"authorLayout": {
 			"margin": {
-				"top": 10,
+				"top": 0,
 				"bottom": 30
 			}
 		},
@@ -368,7 +368,7 @@
 		"dateLayout": {
 			"margin": {
 				"top": 40,
-				"bottom": 10
+				"bottom": 0
 			}
 		},
 		"embedLayout": {
@@ -389,7 +389,7 @@
 		},
 		"introLayout": {
 			"margin": {
-				"top": 10,
+				"top": 5,
 				"bottom": 10
 			}
 		},

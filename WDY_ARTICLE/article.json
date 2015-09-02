@@ -306,8 +306,8 @@
 		},
 		"pullQuoteStyle": {
 			"fontName": "BodoniEgyptW01-Medium",
-			"fontSize": 32,
-			"lineHeight": 42,
+			"fontSize": 42,
+			"lineHeight": 50,
 			"textAlignment": "left",
 			"textColor": "#694589",
 			"textTransform":"uppercase"
@@ -405,7 +405,7 @@
 		},
 		"pullQuoteLayout": {
 			"margin": {
-				"top": 20,
+				"top": 25,
 				"bottom": 25
 			},
 			"contentInset": {
