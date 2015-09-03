@@ -93,21 +93,18 @@
 				},
 				{
 					"role": "body",
-					"text": "Target, the superstore that somehow makes everyone prone to impulse buys, just found a new way to get us to fork over more cash: serving cocktails and selling bottles of booze. So said Target, the superstore that somehow makes everyone prone to impulse buys, the superstore that somehow makes everyone prone to impulse buys.",
+					"text": "[Target](http://www.delish.com/food-news/a43508/target-grocery-delivery/), the superstore that somehow makes _everyone_ prone to impulse buys, just found a new way to get us to fork over more cash: serving cocktails and selling bottles of booze. So said Target, the superstore that somehow makes everyone prone to impulse buys, the superstore that somehow makes everyone prone to impulse buys.",
 					"layout": "bodyLayout",
 					"textStyle": "bodyStyleFirst",
 					"format": "markdown"
 				},
 				{
-					"role": "body",
-					"text": "At one store in Chicago, which is slated to open in October, customers could take a break from their shopping sprees and indulge in a drink (or three). According to Crain's Chicago, the new Windy City location applied for not one but two liquor licenses\u2014one to sell packaged booze on its shelves and the other to serve beer, wine, and spirits from a bar inside the 24,000-square-foot space.",
-					"layout": "bodyLayout",
-					"textStyle": "bodyStyle",
-					"format": "markdown"
-				},
+					"role": "photo",
+					"URL": "http://rbk.h-cdn.co/assets/15/35/1440853519-syn-rbk-1440778958-gettyimages-150366300-1.jpg"
+				}
 				{
 					"role": "body",
-					"text": "Once they tore down their kitchen island and started hammering away, they found the [mystery](http://www.womansday.com/relationships/family-friends/news/a51541/woman-finds-decades-old-mystery-letter-hidden-inside-picture-frame/) box.",
+					"text": "At one store in Chicago, which is slated to open in October, customers could take a break from their shopping sprees and indulge in a drink (or three). According to [Crain's Chicago](http://www.chicagobusiness.com/article/20150825/BLOGS09/150829901/will-the-new-streeterville-target-have-a-bar), the new Windy City location applied for not one but two liquor licenses—one to sell packaged booze on its shelves and the other to serve beer, wine, and spirits from a bar inside the 24,000-square-foot space.",
 					"layout": "bodyLayout",
 					"textStyle": "bodyStyle",
 					"format": "markdown"
@@ -115,20 +112,27 @@
 				{
 					"role": "heading1",
 					"layout": "heading1Layout",
-					"text": "Opening the \"Mystery Box\"",
+					"text": "Target's Tipsy Shopping Plan",
 					"textStyle": "heading1Style",
 					"format": "markdown"
 				},
 				{
 					"role": "body",
-					"text": "Using the code that they luckily secreted away, they were able to get the safe open after a dozen attempts. And what did they find inside? $51,080, mostly in $100 notes and a bottle of bourbon dated 1960.",
+					"text": "If given approval, it will be the only Target store to serve alcohol on-site. We're crossing our fingers that there will be a few bright red signature cocktails (think [cosmopolitans](http://www.delish.com/entertaining/g2173/vodka-mixed-drinks-recipes/?slide=6), [spiked strawberry lemonade](http://www.delish.com/entertaining/a42848/thirsty-thursday-spiked-strawberry-lemonade/)) on the menu and, of course, a nationwide roll-out of this boozy concept. Because nothing else can improve a trip to the grocery store quite like a glass of rose, am I right?",
 					"layout": "bodyLayout",
 					"textStyle": "bodyStyle",
 					"format": "markdown"
 				},
 				{
 					"role": "body",
-					"text": "\"We stared in disbelief. Time stood still. I started to reach in the safe and Eddie yelled, 'Wait it might be booby trapped!' I'm still laughing at that one,\" the woman writes on Imgur. Yet, nothing would stop her from having at that bourbon.",
+					"text": "While this is absolutely amazing, it will also probably definitely lead to more bad decisions when it comes to spending more cash. You know, like picking up yet another adorable set of salt-and-pepper shakers just because you have zero willpower once you step inside. I mean, who could say no to [this cute little ceramic hedgehog](http://www.target.com/p/threshold-hedgehog-pepper-shaker/-/A-15363480#prodSlot=medium_1_20&term=salt+and+pepper+shakers)? Especially while tipsy...",
+					"layout": "bodyLayout",
+					"textStyle": "bodyStyle",
+					"format": "markdown"
+				},
+				{
+					"role": "body",
+					"text": "But I guess that's all part of the company's insanely genius (albeit evil) plan. Touche, Target.",
 					"layout": "bodyLayout",
 					"textStyle": "bodyStyle",
 					"format": "markdown"
