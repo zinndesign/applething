@@ -1,0 +1,536 @@
+{
+	"version": "0.10",
+	"identifier": "!!!DYNAMIC",
+	"title": "22 Celeb Costumes That Have Us Counting Down to Halloween",
+	"language": "en",
+	"blueprint": "basic",
+	"layout": {
+		"columns": 6,
+		"width": 1024,
+		"margin": 90,
+		"gutter": 40
+	},
+	"components": [
+		{
+			"role": "header",
+			"layout": "headerImageLayout",
+			"style": {
+				"fill": {
+					"type": "image",
+					"URL": "http://rbk.h-cdn.co/assets/14/51/1600x800/548f115b38509_-_rbk-celebrity-halloween-costumes-kim-kardashian-s2.jpg",
+					"fillMode": "cover",
+					"verticalAlignment": "top"
+				}
+			},
+			"behavior": {
+				"type": "parallax",
+				"factor": 0.5
+			},
+			"components": [
+				{
+					"role": "container",
+					"layout": "tabLayout",
+					"style": "tabLayoutStyle",
+					"anchor": {
+						"targetAnchorPosition": "bottom"
+					}
+				}
+			]
+		},
+		{
+			"role": "section",
+			"layout": "bodyContainerLayout",
+			"style": "bodyContainerStyle",
+			"anchor": {
+				"targetAnchorPosition": "top"
+			},
+			"components": [
+				{
+					"role": "intro",
+					"layout": "dateLayout",
+					"text": "Sep 2, 2015 @ 10:33 AM",
+					"textStyle": "dateStyle"
+				},
+				{
+					"role": "title",
+					"layout": "titleLayout",
+					"text": "22 Celeb Costumes That Have Us Counting Down to Halloween",
+					"textStyle": "titleStyle"
+				},
+				{
+					"role": "intro",
+					"layout": "introLayout",
+					"text": "It's fun to get dressed up, and no one does it better than these celebs. Get inspired to go all out this year with these looks from the red carpet.",
+					"textStyle": "introStyle",
+					"format": "markdown"
+				},
+				{
+					"role": "divider",
+					"stroke": {
+						"color": "#FFF0"
+					},
+					"layout": "blackStrokeLayout1",
+					"style": "baseStrokeStyle"
+				},
+				{
+					"role": "author",
+					"layout": "authorLayout",
+					"text": "By REDBOOK Editors",
+					"textStyle": "authorStyle"
+				},
+				{
+					"role": "divider",
+					"stroke": {
+						"color": "#FFF0"
+					},
+					"layout": "blackStrokeLayout2",
+					"style": "baseStrokeStyle"
+				},
+				{
+					"role": "section",
+					"layout": "slideLayout",
+					"components": [
+						{
+							"role": "heading",
+							"text": "Heidi Klum",
+							"layout": "heading1Layout",
+							"textStyle": "heading1Style",
+							"format": "markdown"
+						},
+						{
+							"role": "container",
+							"style": "photoContainerStyle",
+							"components": [
+								{
+									"role": "image",
+									"URL": "http://rbk.h-cdn.co/assets/15/35/1440613794-screen-shot-2015-08-26-at-22938-pm-1.png",
+									"layout": "photoLayout",
+									"animation": {
+										"type": "fade_in",
+										"userControllable": true,
+										"initialAlpha": 0.1
+									}
+								}
+							]
+						},
+						{
+							"role": "photographer",
+							"text": "Getty",
+							"layout": "creditLayout",
+							"textStyle": "creditStyle"
+						},			
+						{
+							"role": "caption",
+							"text": "As a butterfly in New York City, 2014.",
+							"layout": "captionLayout",
+							"textStyle": "captionStyle",
+							"format": "markdown"
+						}
+					]
+				},
+				{
+					"role": "section",
+					"layout": "slideLayout",
+					"components": [
+						{
+							"role": "heading",
+							"text": "Kelly Ripa And Michael Strahan",
+							"layout": "heading1Layout",
+							"textStyle": "heading1Style",
+							"format": "markdown"
+						},
+						{
+							"role": "container",
+							"style": "photoContainerStyle",
+							"components": [
+								{
+									"role": "image",
+									"URL": "http://rbk.h-cdn.co/assets/15/35/1440613305-screen-shot-2015-08-26-at-22121-pm.png",
+									"layout": "photoLayout",
+									"animation": {
+										"type": "fade_in",
+										"userControllable": true,
+										"initialAlpha": 0.1
+									}
+								}
+							]
+						},
+						{
+							"role": "photographer",
+							"text": "Getty",
+							"layout": "creditLayout",
+							"textStyle": "creditStyle"
+						},			
+						{
+							"role": "caption",
+							"text": "As zombies in New York City, 2014.",
+							"layout": "captionLayout",
+							"textStyle": "captionStyle",
+							"format": "markdown"
+						}
+					]
+				},
+				{
+					"role": "section",
+					"layout": "slideLayout",
+					"components": [
+						{
+							"role": "heading",
+							"text": "Adam Lambert",
+							"layout": "heading1Layout",
+							"textStyle": "heading1Style",
+							"format": "markdown"
+						},
+						{
+							"role": "container",
+							"style": "photoContainerStyle",
+							"components": [
+								{
+									"role": "image",
+									"URL": "http://rbk.h-cdn.co/assets/15/35/1440611916-screen-shot-2015-08-26-at-15816-pm.png",
+									"layout": "photoLayout",
+									"animation": {
+										"type": "fade_in",
+										"userControllable": true,
+										"initialAlpha": 0.1
+									}
+								}
+							]
+						},
+						{
+							"role": "photographer",
+							"text": "Getty",
+							"layout": "creditLayout",
+							"textStyle": "creditStyle"
+						},			
+						{
+							"role": "caption",
+							"text": "As Wolf Man in West Hollywood, 2014.",
+							"layout": "captionLayout",
+							"textStyle": "captionStyle",
+							"format": "markdown"
+						}
+					]
+				},
+				{
+					"role": "section",
+					"layout": "slideLayout",
+					"components": [
+						{
+							"role": "heading",
+							"text": "Kim Kardashian",
+							"layout": "heading1Layout",
+							"textStyle": "heading1Style",
+							"format": "markdown"
+						},
+						{
+							"role": "container",
+							"style": "photoContainerStyle",
+							"components": [
+								{
+									"role": "image",
+									"URL": "http://rbk.h-cdn.co/assets/cm/14/51/548f115b38509_-_rbk-celebrity-halloween-costumes-kim-kardashian-s2.jpg",
+									"layout": "photoLayout",
+									"animation": {
+										"type": "fade_in",
+										"userControllable": true,
+										"initialAlpha": 0.1
+									}
+								}
+							]
+						},
+						{
+							"role": "photographer",
+							"text": "Getty Images",
+							"layout": "creditLayout",
+							"textStyle": "creditStyle"
+						},			
+						{
+							"role": "caption",
+							"text": "As Little Red Riding Hood in New York City, 2010.",
+							"layout": "captionLayout",
+							"textStyle": "captionStyle",
+							"format": "markdown"
+						}
+					]
+				},
+				{
+					"role": "section",
+					"layout": "slideLayout",
+					"components": [
+						{
+							"role": "heading",
+							"text": "Cindy Crawford and Rande Gerber",
+							"layout": "heading1Layout",
+							"textStyle": "heading1Style",
+							"format": "markdown"
+						},
+						{
+							"role": "container",
+							"style": "photoContainerStyle",
+							"components": [
+								{
+									"role": "image",
+									"URL": "http://rbk.h-cdn.co/assets/15/35/1440613559-screen-shot-2015-08-26-at-22539-pm.png",
+									"layout": "photoLayout",
+									"animation": {
+										"type": "fade_in",
+										"userControllable": true,
+										"initialAlpha": 0.1
+									}
+								}
+							]
+						},		
+						{
+							"role": "caption",
+							"text": "As Cher and Greg Allman in Los Angeles, 2014.",
+							"layout": "captionLayout",
+							"textStyle": "captionStyle",
+							"format": "markdown"
+						}
+					]
+				},
+				{
+					"role": "banner_advertisement",
+					"bannerType": "standard"
+				}
+			]
+		}
+	],
+	"documentStyle": {
+		"backgroundColor": "#FFF"
+	},
+	"componentStyles": {
+		"baseStrokeStyle": {
+		},
+		"bodyContainerStyle": {
+			"backgroundColor": "#FFF"
+		},
+		"dateLayoutStyle": {
+			"border": {
+				"all": {
+					"width": 2
+				},
+				"top": false,
+				"left": false,
+				"right": false
+			}
+		},
+		"photoContainerStyle": {
+			"backgroundColor": "#000"
+		},
+		"tabLayoutStyle": {
+			"fill": {
+				"type": "image",
+				"URL": "bundle://rbk_header_gallery.png",
+				"fillMode": "fit",
+				"verticalAlignment": "bottom",
+				"horizontalAlignment": "right"
+			}
+		}
+	},
+	"componentTextStyles": {
+		"authorStyle": {
+			"fontName": "BrushTipTerrenceW00-Reg",
+			"fontSize": 18,
+			"textAlignment": "left",
+			"textColor": "#999"
+		},
+		"bodyStyle": {
+			"fontName": "PraxisW01-Light",
+			"fontSize": 20,
+			"lineHeight": 30,
+			"textAlignment": "left",
+			"linkStyle": {
+				"textColor": "#d20c50"
+			}
+		},
+		"bodyStyleFirst": {
+			"fontName": "PraxisW01-Light",
+			"fontSize": 20,
+			"lineHeight": 30,
+			"textAlignment": "left",
+			"dropCapStyle": {
+				"fontName": "BrushTipTerrenceW00-Reg",
+				"numberOfLines": 5,
+				"numberOfCharacters": 1
+			},
+			"linkStyle": {
+				"textColor": "#d20c50"
+			}
+		},
+		"captionStyle": {
+			"fontName": "PraxisW01-Light",
+			"fontSize": 20,
+			"lineHeight": 30,
+			"textAlignment": "left",
+			"linkStyle": {
+				"textColor": "#d20c50"
+			}
+		},
+		"creditStyle": {
+			"fontName": "PraxisW01-Light",
+			"fontSize": 12,
+			"lineHeight": 18,
+			"textAlignment": "right",
+			"textColor": "#999"
+		},
+		"dateStyle": {
+			"fontName": "BrushTipTerrenceW00-Reg",
+			"fontSize": 18,
+			"textAlignment": "left",
+			"textColor": "#999"
+		},
+		"heading1Style": {
+			"fontName": "MentorW01-Bold",
+			"fontSize": 30,
+			"lineHeight": 36,
+			"textAlignment": "left"
+		},
+		"introStyle": {
+			"fontName": "PraxisW01-SemiBold",
+			"fontSize": 24,
+			"lineHeight": 30,
+			"textAlignment": "left",
+			"textColor": "#333",
+			"linkStyle": {
+				"textColor": "#d20c50"
+			}
+		},
+		"lowerListStyle": {
+			"fontName": "Georgia",
+			"fontSize": 18,
+			"lineHeight": 20,
+			"textAlignment": "left"
+		},
+		"pullQuoteStyle": {
+			"fontName": "BrushTipTerrenceW00-Reg",
+			"fontSize": 42,
+			"lineHeight": 62,
+			"textAlignment": "center"
+		},
+		"spacerWord":{
+			"fontName": "Georgia",
+			"fontSize": 48,
+			"lineHeight": 48,
+			"textAlignment": "left",
+			"textTransform": "uppercase"
+		},
+		"titleStyle": {
+			"fontName": "MentorW01-Bold",
+			"fontSize": 50,
+			"lineHeight": 58,
+			"textAlignment": "left"
+		}
+	},
+	"componentLayouts": {
+		"adLayout": {
+		},
+		"authorLayout": {
+			"margin": {
+				"top": 0,
+				"bottom": 30
+			}
+		},
+		"blackStrokeLayout1":{
+			"margin": 0
+		},
+		"blackStrokeLayout2":{
+			"margin": 0
+		},
+		"blackStrokeLayout3":{
+			"margin": 0
+		},
+		"blackStrokeLayout4":{
+			"margin": 0
+		},
+		"bodyContainerLayout": {
+			"margin": {
+				"top": 0,
+				"bottom": 25
+			}
+		},
+		"bodyLayout": {
+			"margin": {
+				"top": 10,
+				"bottom": 15
+			}
+		},
+		"captionLayout": {
+			"margin": {
+				"top": 10,
+				"bottom": 25
+			}	 
+		},
+		"creditLayout": {
+			"margin": {
+				"top": 4,
+				"bottom": 0
+			}	 
+		},
+		"dateLayout": {
+			"margin": {
+				"top": 40,
+				"bottom": 0
+			}
+		},
+		"embedLayout": {
+			"margin": {
+				"top": 10,
+				"bottom": 25
+			}
+		},
+		"headerImageLayout": {
+			"ignoreDocumentMargin": true,
+			"minimumHeight": "75vmin"
+		},
+		"heading1Layout": {
+			"margin": {
+				"top": 15,
+				"bottom": 10
+			}
+		},
+		"introLayout": {
+			"margin": {
+				"top": 5,
+				"bottom": 10
+			}
+		},
+		"photoLayout": {
+			"maximumContentWidth": "100cw"
+		},
+		"pullQuoteLayout": {
+			"margin": {
+				"top": 20,
+				"bottom": 25
+			},
+			"contentInset": {
+				"left": false,
+				"right": false
+			}
+		},
+		"slideLayout": {
+			"ignoreDocumentMargin": true,
+			"margin": {
+				"top": 5,
+				"bottom": 5
+			}
+		},
+		"spacerLayout": {
+			"margin": {
+				"top": 5,
+				"bottom": 0
+			}
+		},
+		"tabLayout": {
+			"ignoreDocumentMargin": true,
+			"minimumHeight": 124
+		},
+		"titleLayout": {
+			"margin": {
+				"top": 0,
+				"bottom": 0
+			}
+		}
+	}
+}
