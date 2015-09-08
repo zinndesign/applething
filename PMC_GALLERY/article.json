@@ -275,7 +275,7 @@
 			"lineHeight": 26,
 			"textAlignment": "left",
 			"linkStyle": {
-				"textColor": "#00AAE3",
+				"textColor": "#357f9a",
 				"underline": true
 			}
 		},
@@ -284,7 +284,12 @@
 			"fontSize": 18,
 			"lineHeight": 26,
 			"textAlignment": "left",
+			"linkStyle": {
+				"textColor": "#357f9a",
+				"underline": true
+			},
 			"dropCapStyle": {
+
 				"fontName": "KlintStd-BoldCond",
 				"numberOfLines": 3,
 				"numberOfCharacters": 1,
@@ -297,6 +302,7 @@
 			"lineHeight": 26,
 			"textAlignment": "left",
 			"linkStyle": {
+				"textColor": "#357f9a",
 				"underline": true
 			}
 		},
@@ -327,7 +333,11 @@
 			"fontSize": 32,
 			"lineHeight": 40,
 			"textAlignment": "left",
-			"textColor": "#636363"
+			"textColor": "#636363",
+			"linkStyle": {
+				"textColor": "#357f9a",
+				"underline": true
+			}
 		},
 		"lowerListStyle": {
 			"fontName": "Helvetica",
@@ -371,7 +381,7 @@
 			"margin": 0
 		},
 		"blackStrokeLayout2":{
-			"margin": 5
+			"margin": 0
 		},
 		"blackStrokeLayout3":{
 		},
@@ -415,7 +425,7 @@
 		},
 		"headerImageLayout": {
 			"ignoreDocumentMargin": true,
-			"minimumHeight": "50vh"
+			"minimumHeight": "75vmin"
 		},
 		"heading1Layout": {
 			"margin": {

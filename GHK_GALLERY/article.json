@@ -319,7 +319,7 @@
 			"lineHeight": 28,
 			"textAlignment": "left",
 			"linkStyle": {
-				"textColor": "#00AAE3",
+				"textColor": "#f50082",
 				"underline": true
 			}
 		},
@@ -327,7 +327,11 @@
 			"fontName": "AvenirNextLTPro-Medium",
 			"fontSize": 20,
 			"lineHeight": 28,
-			"textAlignment": "left"
+			"textAlignment": "left",
+			"linkStyle": {
+				"textColor": "#f50082",
+				"underline": true
+			}
 		},
 		"captionStyle": {
 			"fontName": "AvenirNextLTPro-Medium",
@@ -335,6 +339,7 @@
 			"lineHeight": 28,
 			"textAlignment": "left",
 			"linkStyle": {
+				"textColor": "#f50082",
 				"underline": true
 			}
 		},
@@ -365,7 +370,11 @@
 			"fontSize": 30,
 			"lineHeight": 38,
 			"textAlignment": "left",
-			"textColor": "#636363"
+			"textColor": "#636363",
+			"linkStyle": {
+				"textColor": "#f50082",
+				"underline": true
+			}
 		},
 		"lowerListStyle": {
 			"fontName": "Helvetica",
