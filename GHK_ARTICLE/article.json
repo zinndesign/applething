@@ -214,13 +214,13 @@
 	},
 	"componentTextStyles": {
 		"authorStyle": {
-			"fontName": "AvenirNextLTW01-Medium",
+			"fontName": "AvenirNextLTPro-Medium",
 			"fontSize": 16,
 			"textAlignment": "left",
 			"textColor": "#959595"
 		},
 		"bodyStyle": {
-			"fontName": "AvenirNextLTW01-Medium",
+			"fontName": "AvenirNextLTPro-Medium",
 			"fontSize": 20,
 			"lineHeight": 28,
 			"textAlignment": "left",
@@ -230,13 +230,13 @@
 			}
 		},
 		"bodyStyleFirst": {
-			"fontName": "AvenirNextLTW01-Medium",
+			"fontName": "AvenirNextLTPro-Medium",
 			"fontSize": 20,
 			"lineHeight": 28,
 			"textAlignment": "left"
 		},
 		"captionStyle": {
-			"fontName": "AvenirNextLTW01-Medium",
+			"fontName": "AvenirNextLTPro-Medium",
 			"fontSize": 20,
 			"lineHeight": 32,
 			"textAlignment": "left",
@@ -253,13 +253,13 @@
 			"textTransform":"uppercase"
 		},
 		"dateStyle": {
-			"fontName": "AvenirNextLTW01-Medium",
+			"fontName": "AvenirNextLTPro-Medium",
 			"fontSize": 16,
 			"textAlignment": "left",
 			"textColor": "#959595"
 		},
 		"heading1Style": {
-			"fontName": "TradeGothicNextLTW01-BdCn",
+			"fontName": "TradeGothicNextLTPro-BdCn",
 			"fontSize": 36,
 			"lineHeight": 40,
 			"textAlignment": "left",
@@ -267,7 +267,7 @@
 			"tracking": 0.05
 		},
 		"introStyle": {
-			"fontName": "TradeGothicNextLTW01-Cond",
+			"fontName": "TradeGothicNextLTPro-Cn",
 			"fontSize": 30,
 			"lineHeight": 38,
 			"textAlignment": "left",
@@ -280,7 +280,7 @@
 			"textAlignment": "left"
 		},
 		"pullQuoteStyle": {
-			"fontName": "Kettering105W00-Book",
+			"fontName": "Kettering105-Book",
 			"fontSize": 50,
 			"lineHeight": 60,
 			"textAlignment": "left"
@@ -293,7 +293,7 @@
 			"textTransform": "uppercase"
 		},
 		"titleStyle": {
-			"fontName": "Kettering105W00-Book",
+			"fontName": "Kettering105-Book",
 			"fontSize": 58,
 			"lineHeight": 64,
 			"textAlignment": "left"

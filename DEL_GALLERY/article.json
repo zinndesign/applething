@@ -273,7 +273,7 @@
 			"textTransform":"uppercase"
 		},
 		"bodyStyle": {
-			"fontName": "DINNextW01-CondensedLight",
+			"fontName": "DINNextLTPro-LightCondensed",
 			"fontSize": 28,
 			"lineHeight": 36,
 			"textAlignment": "left",
@@ -283,7 +283,7 @@
 			}
 		},
 		"bodyStyleFirst": {
-			"fontName": "DINNextW01-CondensedLight",
+			"fontName": "DINNextLTPro-LightCondensed",
 			"fontSize": 28,
 			"lineHeight": 36,
 			"textAlignment": "left",
@@ -293,7 +293,7 @@
 			}
 		},
 		"captionStyle": {
-			"fontName": "DINNextW01-CondensedLight",
+			"fontName": "DINNextLTPro-LightCondensed",
 			"fontSize": 28,
 			"lineHeight": 34,
 			"textAlignment": "left",
@@ -303,7 +303,7 @@
 			}
 		},
 		"creditStyle": {
-			"fontName": "DINNextW01-CondensedMedium",
+			"fontName": "DINNextLTPro-MediumCond",
 			"fontSize": 13,
 			"lineHeight": 18,
 			"textAlignment": "right",
@@ -325,7 +325,7 @@
 			"textTransform":"uppercase"
 		},
 		"introStyle": {
-			"fontName": "DINNextW01-CondensedLight",
+			"fontName": "DINNextLTPro-LightCondensed",
 			"fontSize": 40,
 			"lineHeight": 48,
 			"textAlignment": "left",

@@ -275,7 +275,7 @@
 	},
 	"componentTextStyles": {
 		"authorStyle": {
-			"fontName": "AvenirNextLTW01-Medium",
+			"fontName": "AvenirNextLTPro-Medium",
 			"fontSize": 20,
 			"textAlignment": "left"
 		},
@@ -315,14 +315,14 @@
 			}
 		},
 		"creditStyle": {
-			"fontName": "AvenirNextLTW01-Medium",
+			"fontName": "AvenirNextLTPro-Medium",
 			"fontSize": 14,
 			"lineHeight": 20,
 			"textAlignment": "right",
 			"textColor": "#959595"
 		},
 		"dateStyle": {
-			"fontName": "AvenirNextLTW01-Medium",
+			"fontName": "AvenirNextLTPro-Medium",
 			"fontSize": 14,
 			"textAlignment": "left",
 			"textColor": "#959595",
@@ -336,7 +336,7 @@
 			"textTransform":"uppercase"
 		},
 		"introStyle": {
-			"fontName": "AvenirNextLTW01-Medium",
+			"fontName": "AvenirNextLTPro-Medium",
 			"fontSize": 26,
 			"lineHeight": 32,
 			"textAlignment": "left",

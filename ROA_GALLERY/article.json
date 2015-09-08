@@ -352,18 +352,19 @@
 			"textTransform":"uppercase"
 		},
 		"heading1Style": {
-			"fontName": "MetaHeadlineWebW01-CnBold",
-			"fontSize": 28,
-			"lineHeight": 36,
+			"fontName": "MetaOT-CondBold",
+			"fontSize": 32,
+			"lineHeight": 40,
 			"textAlignment": "left",
-			"tracking": 0.025
+			"tracking": -0.02
 		},
 		"introStyle": {
-			"fontName": "MetaHeadlineWebW01-CnBold",
-			"fontSize": 22,
-			"lineHeight": 30,
+			"fontName": "MetaOT-CondBold",
+			"fontSize": 24,
+			"lineHeight": 32,
 			"textColor": "#888",
 			"textAlignment": "left",
+			"tracking": -0.02,
 			"linkStyle": {
 				"textColor": "#018bd0"
 			}
@@ -375,7 +376,7 @@
 			"textAlignment": "left"
 		},
 		"pullQuoteStyle": {
-			"fontName": "MetaHeadlineWebW01-Black",
+			"fontName": "MetaOT-Black",
 			"fontSize": 40,
 			"lineHeight": 50,
 			"textAlignment": "left",
@@ -389,11 +390,12 @@
 			"textTransform": "uppercase"
 		},
 		"titleStyle": {
-			"fontName": "MetaHeadlineWebW01-Black",
+			"fontName": "MetaOT-Black",
 			"fontSize": 52,
 			"lineHeight": 58,
 			"textAlignment": "left",
-			"textColor": "#333"
+			"textColor": "#333",
+			"tracking": -0.02
 		}
 	},
 	"componentLayouts": {

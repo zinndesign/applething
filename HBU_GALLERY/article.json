@@ -1,0 +1,542 @@
+{
+	"version": "0.10",
+	"identifier": "!!!DYNAMIC",
+	"title": "Peek Inside Marilyn Monroe's Eclectic NYC Apartment",
+	"language": "en",
+	"blueprint": "basic",
+	"layout": {
+		"columns": 6,
+		"width": 1024,
+		"margin": 60,
+		"gutter": 30
+	},
+	"components": [
+		{
+			"role": "header",
+			"layout": "headerImageLayout",
+			"style": {
+				"fill": {
+					"type": "image",
+					"URL": "http://hbu.h-cdn.co/assets/15/34/980x490/landscape-1440091499-marilyn-monroe.jpg",
+					"fillMode": "cover",
+					"verticalAlignment": "top"
+				}
+			},
+			"behavior": {
+				"type": "parallax",
+				"factor": 0.5
+			},
+			"components": [
+				{
+					"role": "container",
+					"layout": "tabLayout",
+					"style": "tabLayoutStyle",
+					"anchor": {
+						"targetAnchorPosition": "bottom"
+					}
+				}
+			]
+		},
+		{
+			"role": "section",
+			"layout": "bodyContainerLayout",
+			"style": "bodyContainerStyle",
+			"anchor": {
+				"targetAnchorPosition": "top"
+			},
+			"components": [
+				{
+					"role": "intro",
+					"layout": "dateLayout",
+					"text": "AUG 11, 2015 @ 5:33 PM",
+					"textStyle": "dateStyle"
+				},
+				{
+					"role": "title",
+					"layout": "titleLayout",
+					"text": "Peek Inside Marilyn Monroe's Eclectic NYC Apartment",
+					"textStyle": "titleStyle"
+				},
+				{
+					"role": "intro",
+					"layout": "introLayout",
+					"text": "She called the Upper East Side townhouse her \"sanctuary.\"",
+					"textStyle": "introStyle",
+					"format": "markdown"
+				},
+				{
+					"role": "divider",
+					"stroke": {
+						"color": "#FFF0"
+					},
+					"layout": "blackStrokeLayout1",
+					"style": "baseStrokeStyle"
+				},
+				{
+					"role": "author",
+					"layout": "authorLayout",
+					"text": "By Julie Kosin",
+					"textStyle": "authorStyle"
+				},
+				{
+					"role": "divider",
+					"stroke": {
+						"color": "#FFF0"
+					},
+					"layout": "blackStrokeLayout2",
+					"style": "baseStrokeStyle"
+				},
+				{
+					"role": "section",
+					"layout": "slideLayout",
+					"components": [
+						{
+							"role": "heading",
+							"text": "Marilyn's Sanctuary",
+							"layout": "heading1Layout",
+							"textStyle": "heading1Style",
+							"format": "markdown"
+						},
+						{
+							"role": "container",
+							"style": "photoContainerStyle",
+							"components": [
+								{
+									"role": "image",
+									"URL": "http://hbu.h-cdn.co/assets/15/34/1440091267-hbz-marilyn-monroe-home-03.jpg",
+									"layout": "photoLayout",
+									"animation": {
+										"type": "fade_in",
+										"userControllable": true,
+										"initialAlpha": 0.1
+									}
+								}
+							]
+						},
+						{
+							"role": "photographer",
+							"text": "Cater News Agency",
+							"layout": "creditLayout",
+							"textStyle": "creditStyle"
+						},			
+						{
+							"role": "caption",
+							"text": "The newly-remodeled kitchen. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec efficitur nibh sit amet hendrerit sagittis. Etiam mattis tortor id eros posuere ultrices. Nam at quam cursus, ultricies magna sed, iaculis lacus. Duis quis nulla id nulla fringilla ultricies. Nam feugiat mollis massa, congue viverra lorem mattis sit amet. Maecenas vehicula tempor lectus nec viverra. Sed vitae purus vel lacus viverra ultrices. Vestibulum vitae diam quis sem laoreet blandit. Ut porttitor commodo ante vel aliquet. Nam porta efficitur odio vitae dictum. Integer tincidunt metus nisi, nec egestas nisi finibus nec. Suspendisse id felis egestas, rhoncus quam sit amet, feugiat lectus. Fusce posuere aliquet magna ac maximus.",
+							"layout": "captionLayout",
+							"textStyle": "captionStyle",
+							"format": "markdown"
+						}
+					]
+				},
+				{
+					"role": "section",
+					"layout": "slideLayout",
+					"components": [
+						{
+							"role": "heading",
+							"text": "Marilyn's Sanctuary",
+							"layout": "heading1Layout",
+							"textStyle": "heading1Style",
+							"format": "markdown"
+						},
+						{
+							"role": "container",
+							"style": "photoContainerStyle",
+							"components": [
+								{
+									"role": "image",
+									"URL": "http://hbu.h-cdn.co/assets/15/34/1440091273-hbz-marilyn-monroe-home-04.jpg",
+									"layout": "photoLayout",
+									"animation": {
+										"type": "fade_in",
+										"userControllable": true,
+										"initialAlpha": 0.1
+									}
+								}
+							]
+						},
+						{
+							"role": "photographer",
+							"text": "Cater News Agency",
+							"layout": "creditLayout",
+							"textStyle": "creditStyle"
+						},			
+						{
+							"role": "caption",
+							"text": "The townhouse features several fireplaces.",
+							"layout": "captionLayout",
+							"textStyle": "captionStyle",
+							"format": "markdown"
+						}
+					]
+				},
+				{
+					"role": "section",
+					"layout": "slideLayout",
+					"components": [
+						{
+							"role": "heading",
+							"text": "Marilyn's Sanctuary",
+							"layout": "heading1Layout",
+							"textStyle": "heading1Style",
+							"format": "markdown"
+						},
+						{
+							"role": "container",
+							"style": "photoContainerStyle",
+							"components": [
+								{
+									"role": "image",
+									"URL": "http://hbu.h-cdn.co/assets/15/34/1440091296-hbz-marilyn-monroe-home-07.jpg",
+									"layout": "photoLayout",
+									"animation": {
+										"type": "fade_in",
+										"userControllable": true,
+										"initialAlpha": 0.1
+									}
+								}
+							]
+						},
+						{
+							"role": "photographer",
+							"text": "Cater News Agency",
+							"layout": "creditLayout",
+							"textStyle": "creditStyle"
+						},			
+						{
+							"role": "caption",
+							"text": "The wooden deck sits at garden level.",
+							"layout": "captionLayout",
+							"textStyle": "captionStyle",
+							"format": "markdown"
+						}
+					]
+				},
+				{
+					"role": "section",
+					"layout": "slideLayout",
+					"components": [
+						{
+							"role": "heading",
+							"text": "Marilyn's Sanctuary",
+							"layout": "heading1Layout",
+							"textStyle": "heading1Style",
+							"format": "markdown"
+						},
+						{
+							"role": "container",
+							"style": "photoContainerStyle",
+							"components": [
+								{
+									"role": "image",
+									"URL": "http://hbu.h-cdn.co/assets/15/34/1440091284-hbz-marilyn-monroe-home-05.jpg",
+									"layout": "photoLayout",
+									"animation": {
+										"type": "fade_in",
+										"userControllable": true,
+										"initialAlpha": 0.1
+									}
+								}
+							]
+						},
+						{
+							"role": "photographer",
+							"text": "Cater News Agency",
+							"layout": "creditLayout",
+							"textStyle": "creditStyle"
+						},			
+						{
+							"role": "caption",
+							"text": "A view of the marble grand staircase.",
+							"layout": "captionLayout",
+							"textStyle": "captionStyle",
+							"format": "markdown"
+						}
+					]
+				},
+				{
+					"role": "section",
+					"layout": "slideLayout",
+					"components": [
+						{
+							"role": "heading",
+							"text": "Marilyn's Sanctuary",
+							"layout": "heading1Layout",
+							"textStyle": "heading1Style",
+							"format": "markdown"
+						},
+						{
+							"role": "container",
+							"style": "photoContainerStyle",
+							"components": [
+								{
+									"role": "image",
+									"URL": "http://hbu.h-cdn.co/assets/15/34/1440091261-hbz-marilyn-monroe-home-02.jpg",
+									"layout": "photoLayout",
+									"animation": {
+										"type": "fade_in",
+										"userControllable": true,
+										"initialAlpha": 0.1
+									}
+								}
+							]
+						},
+						{
+							"role": "photographer",
+							"text": "Cater News Agency",
+							"layout": "creditLayout",
+							"textStyle": "creditStyle"
+						},			
+						{
+							"role": "caption",
+							"text": "The exterior of 127 East 78th Street.",
+							"layout": "captionLayout",
+							"textStyle": "captionStyle",
+							"format": "markdown"
+						}
+					]
+				},
+				{
+					"role": "banner_advertisement",
+					"bannerType": "standard"
+				}
+			]
+		}
+	],
+	"documentStyle": {
+		"backgroundColor": "#FFF"
+	},
+	"componentStyles": {
+		"baseStrokeStyle": {
+		},
+		"bodyContainerStyle": {
+			"backgroundColor": "#FFF"
+		},
+		"dateLayoutStyle": {
+			"border": {
+				"all": {
+					"width": 2
+				},
+				"top": false,
+				"left": false,
+				"right": false
+			}
+		},
+		"photoContainerStyle": {
+			"backgroundColor": "#000"
+		},
+		"tabLayoutStyle": {
+		}
+	},
+	"componentTextStyles": {
+		"authorStyle": {
+			"fontName": "BrandonText-Bold",
+			"fontSize": 16,
+			"textAlignment": "left",
+			"textColor": "#999",
+			"textTransform":"uppercase"
+		},
+		"bodyStyle": {
+			"fontName": "Helvetica",
+			"fontSize": 22,
+			"lineHeight": 36,
+			"textAlignment": "left",
+			"textColor": "#666",
+			"linkStyle": {
+				"textColor": "#1788c0"
+			}
+		},
+		"bodyStyleFirst": {
+			"fontName": "Helvetica",
+			"fontSize": 22,
+			"lineHeight": 36,
+			"textAlignment": "left",
+			"textColor": "#666",
+			"dropCapStyle": {
+				"fontName": "StoneSerifITCW01-SmBd",
+				"numberOfLines": 5,
+				"numberOfCharacters": 1,
+				"textColor": "#bccc4f"
+			},
+			"linkStyle": {
+				"textColor": "#1788c0"
+			}
+		},
+		"captionStyle": {
+			"fontName": "Helvetica",
+			"fontSize": 16,
+			"lineHeight": 24,
+			"textAlignment": "left",
+			"textColor": "#666",
+			"linkStyle": {
+				"textColor": "#1788c0"
+			}
+		},
+		"creditStyle": {
+			"fontName": "BrandonText-Medium",
+			"fontSize": 10,
+			"lineHeight": 16,
+			"textAlignment": "left",
+			"textColor": "#aaa",
+			"textTransform":"uppercase"
+		},
+		"dateStyle": {
+			"fontName": "BrandonText-Bold",
+			"fontSize": 16,
+			"textAlignment": "left",
+			"textColor": "#999",
+			"textTransform":"uppercase"
+		},
+		"heading1Style": {
+			"fontName": "StoneSerifITCW01-SmBd",
+			"fontSize": 30,
+			"lineHeight": 40,
+			"tracking": -0.02,
+			"textAlignment": "left",
+			"textColor": "#3d4545"
+		},
+		"introStyle": {
+			"fontName": "BrandonText-Bold",
+			"fontSize": 24,
+			"lineHeight": 30,
+			"textAlignment": "left",
+			"textColor": "#3d4545",
+			"linkStyle": {
+				"textColor": "#1788c0"
+			}
+		},
+		"lowerListStyle": {
+			"fontName": "Helvetica",
+			"fontSize": 18,
+			"lineHeight": 20,
+			"textAlignment": "left"
+		},
+		"pullQuoteStyle": {
+			"fontName": "DidoteTextW01-Italic",
+			"fontSize": 36,
+			"lineHeight": 48,
+			"textAlignment": "left",
+			"textColor": "#3d4545"
+		},
+		"spacerWord":{
+			"fontName": "Helvetica",
+			"fontSize": 48,
+			"lineHeight": 48,
+			"textAlignment": "left",
+			"textTransform": "uppercase"
+		},
+		"titleStyle": {
+			"fontName": "StoneSerifITCW01-SmBd",
+			"fontSize": 48,
+			"lineHeight": 54,
+			"textAlignment": "left",
+			"textColor": "#3d4545",
+			"tracking": -0.01
+		}
+	},
+	"componentLayouts": {
+		"adLayout": {
+		},
+		"authorLayout": {
+			"margin": {
+				"top": 10,
+				"bottom": 20
+			}
+		},
+		"blackStrokeLayout1":{
+			"margin": 0
+		},
+		"blackStrokeLayout2":{
+			"margin": 0
+		},
+		"blackStrokeLayout3":{
+			"margin": 0
+		},
+		"blackStrokeLayout4":{
+			"margin": 0
+		},
+		"bodyContainerLayout": {
+			"margin": {
+				"top": 0,
+				"bottom": 25
+			}
+		},
+		"bodyLayout": {
+			"margin": {
+				"top": 5,
+				"bottom": 15
+			}
+		},
+		"captionLayout": {
+			"margin": {
+				"top": 5,
+				"bottom": 15
+			}	 
+		},
+		"creditLayout": {
+			"margin": {
+				"top": 4,
+				"bottom": 5
+			}	 
+		},
+		"dateLayout": {
+			"margin": {
+				"top": 40,
+				"bottom": 10
+			}
+		},
+		"embedLayout": {
+			"margin": {
+				"top": 10,
+				"bottom": 25
+			}
+		},
+		"headerImageLayout": {
+			"ignoreDocumentMargin": true,
+			"minimumHeight": "60vmin"
+		},
+		"heading1Layout": {
+			"margin": {
+				"top": 20,
+				"bottom": 10
+			}
+		},
+		"introLayout": {
+			"margin": {
+				"top": 10,
+				"bottom": 10
+			}
+		},
+		"photoLayout": {
+			"maximumContentWidth": "100cw"
+		},
+		"pullQuoteLayout": {
+			"margin": {
+				"top": 20,
+				"bottom": 30
+			},
+			"contentInset": {
+				"left": false,
+				"right": true
+			}
+		},
+		"slideLayout": {
+			"ignoreDocumentMargin": true
+		},
+		"spacerLayout": {
+			"margin": {
+				"top": 5,
+				"bottom": 0
+			}
+		},
+		"tabLayout": {
+			"ignoreDocumentMargin": true
+		},
+		"titleLayout": {
+			"margin": {
+				"top": 0,
+				"bottom": 0
+			}
+		}
+	}
+}

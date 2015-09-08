@@ -7,7 +7,7 @@
 	"layout": {
 		"columns": 6,
 		"width": 1024,
-		"margin": 80,
+		"margin": 90,
 		"gutter": 40
 	},
 	"components": [
@@ -86,11 +86,6 @@
 					"layout": "blackStrokeLayout2",
 					"style": "baseStrokeStyle"
 				},
-				{ 
-					 "role": "medium_rectangle_advertisement",
-					 "layout": "adLayout",
-					 "bannerType": "standard"
-				},
 				{
 					"role": "body",
 					"text": "Sometimes the most unlikely combinations end up being our favorites: Oreos and peanut butter, Cameron Diaz and Benji Madden, and now this stunning property that brings together a rustic farmhouse and ultra modern barn to stunning effect. [Located in Charlotteville, NY](http://www.realtor.com/realestateandhomes-detail/525-County-Highway-40_Charlotteville_NY_12036_M42934-17198#), the 5,873-square-foot main house was originally built in 1975, with the sleek addition coming along in 1992. It's now a certified organic farm known as the Charlotte Valley Farms and an example (at least in our opinion) of the right way to mix-and-match aesthetics.",
@@ -101,20 +96,25 @@
 				{
 					"role": "heading1",
 					"layout": "heading1Layout",
-					"text": "Simon Offers His Words of Wisdom",
+					"text": "Surprising Contemporary Touches",
 					"textStyle": "heading1Style",
 					"format": "markdown"
 				},
 				{
 					"role": "body",
-					"text": "When asked by [Yahoo UK](https://uk.celebrity.yahoo.com/post/127663286259/simon-cowell-one-direction-were-100-overworked) if he thinks they boys were overworked, Simon replied, \"100%. Even though they were young, that was a grueling schedule and after a while I could see they were exhausted, so when they asked how I felt about it, I said for them to do whatever they want.\" In fact, some believe their grueling schedule is what lead to Zayn's leaving the group.",
+					"text": "The six-bedroom, five-bath farmhouse features an abundance of vaulted ceilings that makes the space feel ginormous \u2014 including exposed wooden beams in the great room. A mix of wood, steel, and stone gives the home a natural, comfortable vibe. But a few contemporary touches in the form of a super luxe master bathroom with a Japanese soaking tub and a marble pool keeps it from feeling outdated.",
 					"layout": "bodyLayout",
 					"textStyle": "bodyStyle",
 					"format": "markdown"
 				},
 				{
+					"role": "photo",
+					"URL": "http://hbu.h-cdn.co/assets/15/35/1440697157-rustic-farmhouse-modern-barn-living-room.jpg",
+					"layout": "embedLayout"
+				},
+				{
 					"role": "body",
-					"text": "Simon went on to reveal that even though they're definitely taking a break next year, he wouldn't say they're splitting up just yet. \"I don't know if they're definitely going to split up to be honest with you,\" he said. \"I've known for a while that they were going to take 2016 off, and they had to on their workload.\"",
+					"text": "As soon as you walk out of the farmhouse and into the barn the rustic vibe vanishes. Steel siding and a neutral, grey color palette makes for a much more modern tone. The structure was designed by [acclaimed architect Peter Gluck](http://gluckplus.com/), who is known for his modernist aesthetic.",
 					"layout": "bodyLayout",
 					"textStyle": "bodyStyle",
 					"format": "markdown"
@@ -130,7 +130,7 @@
 				{
 					"role": "pullquote",
 					"layout": "pullQuoteLayout",
-					"text": "\u201CI could see they were exhausted, so when they asked how I felt about it, I said for them to do whatever they want.\u201D",
+					"text": "\u201CA mix of wood, steel, and stone gives the home a natural, comfortable vibe... As soon as you walk out of the farmhouse and into the barn the rustic vibe vanishes\u201D",
 					"textStyle": "pullQuoteStyle",
 					"format": "markdown"
 				},
@@ -144,14 +144,14 @@
 				},
 				{
 					"role": "body",
-					"text": "In the long run, Simon does think a break is healthy for the boys, but just like everyone else, he hopes they can figure out a way to stay together. \"As I've always done with the guys, I said, 'Make your own decisions. I hope you stay together, but you've got to want to do it for yourselves.' But they're smart guys and they'll work it out.\"",
+					"text": "If you're torn between wanting a cozy home or a sleek escape, you can have both for $1.75 million. Now excuse us as we try to hunt down our next favorite unlikely duo (dare us to try chocolate and onions?).",
 					"layout": "bodyLayout",
 					"textStyle": "bodyStyle",
 					"format": "markdown"
 				},
 				{
 					"role": "body",
-					"text": "They better! No Direction would be the worst.",
+					"text": "_[via [Realtor](http://www.realtor.com/realestateandhomes-detail/525-County-Highway-40_Charlotteville_NY_12036_M42934-17198)]_",
 					"layout": "bodyLayout",
 					"textStyle": "bodyStyle",
 					"format": "markdown"
@@ -190,28 +190,28 @@
 	},
 	"componentTextStyles": {
 		"authorStyle": {
-			"fontName": "BrandonGrotW01-Medium",
+			"fontName": "BrandonText-Bold",
 			"fontSize": 16,
 			"textAlignment": "left",
 			"textColor": "#999",
 			"textTransform":"uppercase"
 		},
 		"bodyStyle": {
-			"fontName": "Georgia",
-			"fontSize": 20,
-			"lineHeight": 30,
+			"fontName": "Helvetica",
+			"fontSize": 18,
+			"lineHeight": 28,
 			"textAlignment": "left",
-			"tracking": -0.02,
+			"textColor": "#666",
 			"linkStyle": {
 				"textColor": "#1788c0"
 			}
 		},
 		"bodyStyleFirst": {
-			"fontName": "Georgia",
-			"fontSize": 20,
-			"lineHeight": 30,
+			"fontName": "Helvetica",
+			"fontSize": 18,
+			"lineHeight": 28,
 			"textAlignment": "left",
-			"tracking": -0.02,
+			"textColor": "#666",
 			"dropCapStyle": {
 				"fontName": "StoneSerifITCW01-SmBd",
 				"numberOfLines": 5,
@@ -223,16 +223,16 @@
 			}
 		},
 		"captionStyle": {
-			"fontName": "Georgia",
-			"fontSize": 20,
-			"lineHeight": 30,
+			"fontName": "Helvetica",
+			"fontSize": 22,
+			"lineHeight": 36,
 			"textAlignment": "left",
 			"linkStyle": {
 				"textColor": "#1788c0"
 			}
 		},
 		"creditStyle": {
-			"fontName": "Georgia",
+			"fontName": "Helvetica",
 			"fontSize": 18,
 			"lineHeight": 24,
 			"textAlignment": "right",
@@ -240,45 +240,46 @@
 			"textTransform":"uppercase"
 		},
 		"dateStyle": {
-			"fontName": "BrandonGrotW01-Medium",
+			"fontName": "BrandonText-Bold",
 			"fontSize": 16,
 			"textAlignment": "left",
 			"textColor": "#999",
 			"textTransform":"uppercase"
 		},
 		"heading1Style": {
-			"fontName": "Georgia",
+			"fontName": "StoneSerifITCW01-SmBd",
 			"fontSize": 30,
 			"lineHeight": 40,
 			"textAlignment": "left",
-			"textColor": "#ff3693",
-			"textTransform":"uppercase"
+			"textColor": "#3d4545"
 		},
 		"introStyle": {
-			"fontName": "BrandonGrotW01-Medium",
-			"fontSize": 28,
-			"lineHeight": 36,
+			"fontName": "BrandonText-Bold",
+			"fontSize": 24,
+			"lineHeight": 30,
 			"textAlignment": "left",
 			"textColor": "#3d4545",
+			"tracking": -0.02,
 			"linkStyle": {
 				"textColor": "#1788c0"
 			}
 		},
 		"lowerListStyle": {
-			"fontName": "Georgia",
+			"fontName": "Helvetica",
 			"fontSize": 18,
 			"lineHeight": 20,
 			"textAlignment": "left"
 		},
 		"pullQuoteStyle": {
-			"fontName": "Georgia",
-			"fontSize": 42,
-			"lineHeight": 52,
-			"textAlignment": "center",
-			"tracking": 0.02
+			"fontName": "DidoteTextW01-Italic",
+			"fontSize": 32,
+			"lineHeight": 46,
+			"textAlignment": "left",
+			"textColor": "#3d4545",
+			"tracking": -0.02
 		},
 		"spacerWord":{
-			"fontName": "Georgia",
+			"fontName": "Helvetica",
 			"fontSize": 48,
 			"lineHeight": 48,
 			"textAlignment": "left",
@@ -289,7 +290,8 @@
 			"fontSize": 48,
 			"lineHeight": 54,
 			"textAlignment": "left",
-			"textColor": "#3d4545"
+			"textColor": "#3d4545",
+			"tracking": -0.01
 		}
 	},
 	"componentLayouts": {
@@ -298,7 +300,7 @@
 		"authorLayout": {
 			"margin": {
 				"top": 10,
-				"bottom": 30
+				"bottom": 20
 			}
 		},
 		"blackStrokeLayout1":{
@@ -351,11 +353,11 @@
 		},
 		"headerImageLayout": {
 			"ignoreDocumentMargin": true,
-			"minimumHeight": "75vmin"
+			"minimumHeight": "60vmin"
 		},
 		"heading1Layout": {
 			"margin": {
-				"top": 10,
+				"top": 20,
 				"bottom": 0
 			}
 		},
@@ -375,7 +377,7 @@
 			},
 			"contentInset": {
 				"left": false,
-				"right": false
+				"right": true
 			}
 		},
 		"slideLayout": {

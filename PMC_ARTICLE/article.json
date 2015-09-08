@@ -208,7 +208,7 @@
 	},
 	"componentTextStyles": {
 		"authorStyle": {
-			"fontName": "TradeGothicNextLTW01-BdCn",
+			"fontName": "TradeGothicNextLTPro-BdCn",
 			"fontSize": 20,
 			"textAlignment": "left",
 			"textColor": "#A1A1A1"
@@ -229,7 +229,7 @@
 			"lineHeight": 26,
 			"textAlignment": "left",
 			"dropCapStyle": {
-				"fontName": "KlintLTW01-BoldCondensed",
+				"fontName": "KlintStd-BoldCond",
 				"numberOfLines": 3,
 				"numberOfCharacters": 1,
 				"textColor": "#F47920"
@@ -253,21 +253,21 @@
 			"textTransform":"uppercase"
 		},
 		"dateStyle": {
-			"fontName": "TradeGothicNextLTW01-BdCn",
+			"fontName": "TradeGothicNextLTPro-BdCn",
 			"fontSize": 18,
 			"textAlignment": "left",
 			"textTransform":"uppercase",
 			"textColor": "#A1A1A1"
 		},
 		"heading1Style": {
-			"fontName": "TradeGothicNextLTW01-BdCn",
+			"fontName": "TradeGothicNextLTPro-BdCn",
 			"fontSize": 36,
 			"lineHeight": 40,
 			"textAlignment": "left",
 			"textColor": "#15b0de"
 		},
 		"introStyle": {
-			"fontName": "KlintLTW01-BoldCondensed",
+			"fontName": "KlintStd-BoldCond",
 			"fontSize": 34,
 			"lineHeight": 42,
 			"textAlignment": "left",
@@ -280,7 +280,7 @@
 			"textAlignment": "left"
 		},
 		"pullQuoteStyle": {
-			"fontName": "TradeGothicNextLTW01-BdCn",
+			"fontName": "TradeGothicNextLTPro-BdCn",
 			"fontSize": 40,
 			"lineHeight": 50,
 			"textAlignment": "center",
@@ -295,7 +295,7 @@
 			"textTransform": "uppercase"
 		},
 		"titleStyle": {
-			"fontName": "KlintLTW01-BoldCondensed",
+			"fontName": "KlintStd-BoldCond",
 			"fontSize": 72,
 			"lineHeight": 68,
 			"textAlignment": "left",
