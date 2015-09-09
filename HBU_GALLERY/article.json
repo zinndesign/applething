@@ -309,6 +309,17 @@
 	"componentStyles": {
 		"baseStrokeStyle": {
 		},
+		"blockQuoteContainerStyle": {
+			"border": {
+				"all": {
+					"width": 4,
+					"color": "#ddd"
+				},
+				"top": false,
+				"right": false,
+				"bottom": false
+			}
+		},
 		"bodyContainerStyle": {
 			"backgroundColor": "#FFF"
 		},
@@ -335,6 +346,16 @@
 			"textAlignment": "left",
 			"textColor": "#999",
 			"textTransform":"uppercase"
+		},
+		"blockQuoteStyle": {
+			"fontName": "Helvetica",
+			"fontSize": 18,
+			"lineHeight": 28,
+			"textAlignment": "left",
+			"textColor": "#777",
+			"linkStyle": {
+				"textColor": "#1788c0"
+			}
 		},
 		"bodyStyle": {
 			"fontName": "Helvetica",
@@ -454,6 +475,13 @@
 		},
 		"blackStrokeLayout4":{
 			"margin": 0
+		},
+		"blockQuoteLayout": {
+			"contentInset": {
+				"left": true,
+				"right": true
+			},
+			"margin": 15
 		},
 		"bodyContainerLayout": {
 			"margin": {

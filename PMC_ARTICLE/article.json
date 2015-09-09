@@ -60,8 +60,9 @@
 				{
 					"role": "intro",
 					"layout": "introLayout",
-					"text": "Microgravity noms.",
-					"textStyle": "introStyle"
+					"text": "Microgravity noms and some _emphasis_.",
+					"textStyle": "introStyle",
+					"format": "markdown"
 				},
 				{
 					"role": "divider",
@@ -234,7 +235,7 @@
 			},
 			"dropCapStyle": {
 
-				"fontName": "KlintStd-BoldCond",
+				"fontName": "KlintPro-BoldCond",
 				"numberOfLines": 3,
 				"numberOfCharacters": 1,
 				"textColor": "#F47920"
@@ -273,7 +274,7 @@
 			"textColor": "#15b0de"
 		},
 		"introStyle": {
-			"fontName": "KlintStd-BoldCond",
+			"fontName": "KlintPro-BoldCond",
 			"fontSize": 34,
 			"lineHeight": 42,
 			"textAlignment": "left",
@@ -305,7 +306,7 @@
 			"textTransform": "uppercase"
 		},
 		"titleStyle": {
-			"fontName": "KlintStd-BoldCond",
+			"fontName": "KlintPro-BoldCond",
 			"fontSize": 72,
 			"lineHeight": 68,
 			"textAlignment": "left",

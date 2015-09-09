@@ -54,8 +54,9 @@
 				{
 					"role": "title",
 					"layout": "titleLayout",
-					"text": "The Rebuilding of the Panama Canal, in Pictures",
-					"textStyle": "titleStyle"
+					"text": "The Rebuilding of the _Panama Canal_, in Pictures",
+					"textStyle": "titleStyle",
+					"format": "markdown"
 				},
 				{
 					"role": "intro",
@@ -255,7 +256,7 @@
 		"tabLayoutStyle": {
 			"fill": {
 				"type": "image",
-				"URL": "bundle://pmc_header_gallery.png",
+				"URL": "https://s3.amazonaws.com/sallyhdm/pop_header_gallery.png",
 				"fillMode": "fit",
 				"verticalAlignment": "bottom",
 				"horizontalAlignment": "right"
@@ -290,7 +291,7 @@
 			},
 			"dropCapStyle": {
 
-				"fontName": "KlintStd-BoldCond",
+				"fontName": "KlintPro-BoldCond",
 				"numberOfLines": 3,
 				"numberOfCharacters": 1,
 				"textColor": "#15B0DE"
@@ -322,14 +323,14 @@
 			"textColor": "#A1A1A1"
 		},
 		"heading1Style": {
-			"fontName": "KlintStd-BoldCond",
+			"fontName": "KlintPro-BoldCond",
 			"fontSize": 36,
 			"lineHeight": 40,
 			"textAlignment": "left",
 			"textTransform":"uppercase"
 		},
 		"introStyle": {
-			"fontName": "KlintStd-BoldCond",
+			"fontName": "KlintPro-BoldCond",
 			"fontSize": 32,
 			"lineHeight": 40,
 			"textAlignment": "left",
@@ -361,7 +362,7 @@
 			"textTransform": "uppercase"
 		},
 		"titleStyle": {
-			"fontName": "KlintStd-BoldCond",
+			"fontName": "KlintPro-BoldCond",
 			"fontSize": 72,
 			"lineHeight": 68,
 			"textAlignment": "left",
