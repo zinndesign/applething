@@ -1,396 +1,396 @@
 {
-  "version": "0.10",
-  "identifier": "!!!DYNAMIC",
-  "title": "Miles Teller Is Young, Talented, and Doesn't Give a Rat's Ass What You Think",
-  "language": "en",
-  "blueprint": "basic",
+	"version": "0.10",
+	"identifier": "!!!DYNAMIC",
+	"title": "Miles Teller Is Young, Talented, and Doesn't Give a Rat's Ass What You Think",
+	"language": "en",
+	"blueprint": "basic",
 	"layout": {
-    "columns": 6,
-    "width": 1024,
-    "margin": 80,
-    "gutter": 20
-  },
-  "components": [
-    {
-      "role": "header",
-      "layout": "headerImageLayout",
-      "style": {
-        "fill": {
-          "type": "image",
-          "URL": "http://esq.h-cdn.co/assets/15/32/980x490/landscape-1438705820-w-esq090115cover002s-teller-01.jpg",
-          "fillMode": "cover",
-          "verticalAlignment": "top"
-        }
-      },
-      "behavior": {
-        "type": "parallax",
-        "factor": 0.5
-      },
-      "components": [
-        {
-          "role": "container",
-          "layout": "tabLayout",
-          "style": "tabLayoutStyle",
-          "anchor": {
-            "targetAnchorPosition": "bottom"
-          }
-        }
-      ]
-    },
-    {
-      "role": "section",
-      "layout": "bodyContainerLayout",
-      "style": "bodyContainerStyle",
-      "anchor": {
-        "targetAnchorPosition": "top"
-      },
-      "components": [
-        {
-          "role": "intro",
-          "layout": "dateLayout",
-          "text": "Aug 5, 2015 @ 6:01 PM",
-          "textStyle": "dateStyle"
-        },
-        {
-          "role": "title",
-          "layout": "titleLayout",
-          "text": "Miles Teller Is Young, Talented, and Doesn't Give a Rat's Ass What You Think",
-          "textStyle": "titleStyle"
-        },
-        {
-          "role": "intro",
-          "layout": "introLayout",
-          "text": "Our latest cover star is on a quest for greatness. Sometimes that can involve a bit of dickishness too.",
-          "textStyle": "introStyle"
-        },
-        {
-          "role": "divider",
-          "stroke": {
-            "color": "#FFF0"
-          },
-          "layout": "blackStrokeLayout1",
-          "style": "baseStrokeStyle"
-        },
-        {
-          "role": "author",
-          "layout": "authorLayout",
-          "text": "By Anna Peele",
-          "textStyle": "authorStyle"
-        },
-        {
-          "role": "divider",
-          "stroke": {
-            "color": "#FFF0"
-          },
-          "layout": "blackStrokeLayout1",
-          "style": "baseStrokeStyle"
-        },
-        { 
-           "role": "medium_rectangle_advertisement",
-           "layout": "adLayout",
-           "bannerType": "standard"
-        },
-        {
-          "role": "body",
-          "text": "**You're sitting across from Miles Teller** at the Luminary restaurant in Atlanta and trying to figure out if he's a dick. You've just told him, by way of making conversation, that according to legend the champagne coupe in your hand is shaped like Marie Antoinette's left breast, and he tells you the highball glass is modeled after his cock. Then he tells the waitress the same thing.",
-          "layout": "bodyLayout",
-          "textStyle": "bodyStyleFirst",
-          "format": "markdown"
-        },
-        {
-          "role": "body",
-          "text": "He is wearing a pool-blue V-neck that shows off the Roman-numeral tattoo on his arm, a reference to the thirty-two-ounce beers his high school friends were forced to buy because forties were not available in Florida. He explains that everyone in the \"32 Crew\" got this tattoo after a night at the High Octane Saloon from a man they bribed out of bed at 2:00 a.m. to needle crooked _X_'s and _I_'s onto their biceps.",
-          "layout": "bodyLayout",
-          "textStyle": "bodyStyle",
-          "format": "markdown"
-        },
-        {
-          "role": "heading1",
-          "layout": "heading1Layout",
-          "text": "Call them \u201Cobjects d'art\u201D talking about and striving for greatness and how it can oftentiy",
-          "textStyle": "heading1Style"
-        },
-        {
-          "role": "body",
-          "text": "He recounts a direct message he\u2014a twenty-eight-year-old actor still trying to find his place in his profession\u2014sent to five-time NBA champion Kobe Bryant through Twitter: _Kobe, watched your Showtime documentary. Really related to what you're talking about and striving for greatness and how it can oftentimes be an isolated journey, and how relationships can be a weakness in a way, if you're really kind of going after it._",
-          "layout": "bodyLayout",
-          "textStyle": "bodyStyle",
-          "format": "markdown"
-        },
-        {
-          "role": "divider",
-          "stroke": {
-            "color": "#FFF0"
-          },
-          "layout": "blackStrokeLayout3",
-          "style": "baseStrokeStyle"
-        },
-        {
-          "role": "pullquote",
-          "layout": "pullQuoteLayout",
-          "text": "I didn't wanna do it, he says. And I still think you shouldn't use acting as therapy. That was the closest I ever got to that.",
-          "textStyle": "pullQuoteStyle",
-          "format": "markdown"
-        },
-        {
-          "role": "divider",
-          "stroke": {
-            "color": "#FFF0"
-          },
-          "layout": "blackStrokeLayout4",
-          "style": "baseStrokeStyle"
-        },
-        {
-          "role": "photo",
-          "URL": "http://esq.h-cdn.co/assets/15/32/980x980/square-1438706025-w-esq090115teller003-teller-04.jpg",
-          "layout": "embedLayout"
-        },
-        {
-          "role": "body",
-          "text": "He says he wants to contribute to the body of great acting in the world, to the\u2026 shit, he can't find the term\u2014 _cache? catalog? canon?_ Whatever, you know what he means. He thinks he has something to offer.",
-          "layout": "bodyLayout",
-          "textStyle": "bodyStyle",
-          "format": "markdown"
-        },
-        {
-          "role": "banner_advertisement",
-          "bannerType": "standard"
-        }
-      ]
-    }
-  ],
-  "documentStyle": {
-    "backgroundColor": "#FFF"
-  },
-  "componentStyles": {
-    "baseStrokeStyle": {
-    },
-    "bodyContainerStyle": {
-      "backgroundColor": "#FFF"
-    },
-    "dateLayoutStyle": {
-      "border": {
-        "all": {
-          "width": 2
-        },
-        "top": false,
-        "left": false,
-        "right": false
-      }
-    },
-    "photoContainerStyle": {
-      "backgroundColor": "#000"
-    },
-    "tabLayoutStyle": {
-      "fill": {
-        "type": "image",
-        "URL": "https://s3.amazonaws.com/sallyhdm/esq_header_article.png",
-        "fillMode": "fit",
-        "verticalAlignment": "bottom",
-        "horizontalAlignment": "right"
-      }
-    }
-  },
-  "componentTextStyles": {
-    "authorStyle": {
-      "fontName": "TradeGothicNextLTW01-HvCn",
-      "fontSize": 16,
-      "textAlignment": "left",
-      "textTransform":"uppercase",
-      "textColor": "#AAA"
-    },
-    "bodyStyle": {
-      "fontName": "Georgia",
-      "fontSize": 21,
-      "lineHeight": 30,
-      "textAlignment": "left",
-      "textColor": "#333",
-      "linkStyle": {
-        "textColor": "#00AAE3",
-        "underline": true
-      }
-    },
-    "bodyStyleFirst": {
-      "fontName": "Georgia",
-      "fontSize": 21,
-      "lineHeight": 30,
-      "textAlignment": "left",
-      "textColor": "#333",
-      "dropCapStyle": {
-        "fontName": "AktivGroteskW01-Black",
-        "numberOfLines": 3,
-        "numberOfCharacters": 1,
-        "textColor": "#000"
-      }
-    },
-    "captionStyle": {
-      "fontName": "Helvetica",
-      "fontSize": 20,
-      "lineHeight": 32,
-      "textAlignment": "left",
-      "linkStyle": {
-        "underline": true
-      }
-    },
-    "creditStyle": {
-      "fontName": "Helvetica",
-      "fontSize": 18,
-      "lineHeight": 24,
-      "textAlignment": "right",
-      "textColor": "#898989",
-      "textTransform":"uppercase"
-    },
-    "dateStyle": {
-      "fontName": "TradeGothicNextLTW01-HvCn",
-      "fontSize": 16,
-      "textAlignment": "left",
-      "textTransform":"uppercase",
-      "textColor": "#AAA"
-    },
-    "heading1Style": {
-      "fontName": "TradeGothicNextLTW01-HvCn",
-      "fontSize": 32,
-      "lineHeight": 36,
-      "textTransform":"uppercase",
-      "textAlignment": "left",
-      "tracking": 0.01
-    },
-    "introStyle": {
-      "fontName": "Helvetica",
-      "fontSize": 21,
-      "lineHeight": 28,
-      "textAlignment": "left",
-      "textColor": "#666"
-    },
-    "lowerListStyle": {
-      "fontName": "Helvetica",
-      "fontSize": 18,
-      "lineHeight": 20,
-      "textAlignment": "left"
-    },
-    "pullQuoteStyle": {
-      "fontName": "AktivGroteskW01-Black",
-      "fontSize": 36,
-      "lineHeight": 38,
-      "textAlignment": "left",
-      "textTransform": "uppercase"
-    },
-    "spacerWord":{
-      "fontName": "Helvetica",
-      "fontSize": 48,
-      "lineHeight": 48,
-      "textAlignment": "left",
-      "textTransform": "uppercase"
-    },
-    "titleStyle": {
-      "fontName": "AktivGroteskW01-Black",
-      "fontSize": 42,
-      "lineHeight": 42,
-      "textAlignment": "left",
-      "textColor": "#333"
-    }
-  },
-  "componentLayouts": {
-    "adLayout": {
-      "margin": {
-      }
-    },
-    "authorLayout": {
-      "margin": {
-        "top": 0,
-        "bottom": 15
-      }
-    },
-    "blackStrokeLayout1":{
-      "margin": 0
-    },
-    "blackStrokeLayout2":{
-      "margin": 5
-    },
-    "blackStrokeLayout3":{
-    },
-    "blackStrokeLayout4":{
-    },
-    "bodyContainerLayout": {
-      "margin": {
-        "top": 0,
-        "bottom": 35
-      }
-    },
-    "bodyLayout": {
-      "margin": {
-        "top": 10,
-        "bottom": 10
-      }
-    },
-    "captionLayout": {
-      "margin": {
-        "top": 10,
-        "bottom": 25
-      }   
-    },
-    "creditLayout": {
-      "margin": {
-        "top": 4,
-        "bottom": 0
-      }   
-    },
-    "dateLayout": {
-      "margin": {
-        "top": 20,
-        "bottom": 0
-      }
-    },
-    "embedLayout": {
-      "margin": {
-        "top": 5,
-        "bottom": 20
-      }
-    },
-    "headerImageLayout": {
-      "ignoreDocumentMargin": true,
-      "minimumHeight": "55vh"
-    },
-    "heading1Layout": {
-      "margin": {
-        "top": 15,
-        "bottom": 5
-      }
-    },
-    "introLayout": {
-      "margin": {
-        "top": 5,
-        "bottom": 15
-      }
-    },
-    "photoLayout": {
-      "minimumHeight": "100vmax"
-    },
-    "pullQuoteLayout": {
-      "margin": {
-        "top": 15,
-        "bottom": 15
-      }
-    },
-    "slideLayout": {
-      "ignoreDocumentMargin": true,
-      "minimumHeight": "100cw"
-    },
-    "spacerLayout": {
-      "margin": {
-        "top": 5,
-        "bottom": 0
-      }
-    },
-    "tabLayout": {
-      "ignoreDocumentMargin": true,
-      "minimumHeight": 124
-    },
-    "titleLayout": {
-      "margin": {
-        "top": 12,
-        "bottom": 0
-      }
-    }
-  }
+		"columns": 6,
+		"width": 1024,
+		"margin": 80,
+		"gutter": 20
+	},
+	"components": [
+		{
+			"role": "header",
+			"layout": "headerImageLayout",
+			"style": {
+				"fill": {
+					"type": "image",
+					"URL": "http://esq.h-cdn.co/assets/15/32/980x490/landscape-1438705820-w-esq090115cover002s-teller-01.jpg",
+					"fillMode": "cover",
+					"verticalAlignment": "top"
+				}
+			},
+			"behavior": {
+				"type": "parallax",
+				"factor": 0.5
+			},
+			"components": [
+				{
+					"role": "container",
+					"layout": "tabLayout",
+					"style": "tabLayoutStyle",
+					"anchor": {
+						"targetAnchorPosition": "bottom"
+					}
+				}
+			]
+		},
+		{
+			"role": "section",
+			"layout": "bodyContainerLayout",
+			"style": "bodyContainerStyle",
+			"anchor": {
+				"targetAnchorPosition": "top"
+			},
+			"components": [
+				{
+					"role": "intro",
+					"layout": "dateLayout",
+					"text": "Aug 5, 2015 @ 6:01 PM",
+					"textStyle": "dateStyle"
+				},
+				{
+					"role": "title",
+					"layout": "titleLayout",
+					"text": "Miles Teller Is Young, Talented, and Doesn't Give a Rat's Ass What You Think",
+					"textStyle": "titleStyle"
+				},
+				{
+					"role": "intro",
+					"layout": "introLayout",
+					"text": "Our latest cover star is on a quest for greatness. Sometimes that can involve a bit of dickishness too.",
+					"textStyle": "introStyle"
+				},
+				{
+					"role": "divider",
+					"stroke": {
+						"color": "#FFF0"
+					},
+					"layout": "blackStrokeLayout1",
+					"style": "baseStrokeStyle"
+				},
+				{
+					"role": "author",
+					"layout": "authorLayout",
+					"text": "By Anna Peele",
+					"textStyle": "authorStyle"
+				},
+				{
+					"role": "divider",
+					"stroke": {
+						"color": "#FFF0"
+					},
+					"layout": "blackStrokeLayout1",
+					"style": "baseStrokeStyle"
+				},
+				{ 
+					 "role": "medium_rectangle_advertisement",
+					 "layout": "adLayout",
+					 "bannerType": "standard"
+				},
+				{
+					"role": "body",
+					"text": "**You're sitting across from Miles Teller** at the Luminary restaurant in Atlanta and trying to figure out if he's a dick. You've just told him, by way of making conversation, that according to legend the champagne coupe in your hand is shaped like Marie Antoinette's left breast, and he tells you the highball glass is modeled after his cock. Then he tells the waitress the same thing.",
+					"layout": "bodyLayout",
+					"textStyle": "bodyStyleFirst",
+					"format": "markdown"
+				},
+				{
+					"role": "body",
+					"text": "He is wearing a pool-blue V-neck that shows off the Roman-numeral tattoo on his arm, a reference to the thirty-two-ounce beers his high school friends were forced to buy because forties were not available in Florida. He explains that everyone in the \"32 Crew\" got this tattoo after a night at the High Octane Saloon from a man they bribed out of bed at 2:00 a.m. to needle crooked _X_'s and _I_'s onto their biceps.",
+					"layout": "bodyLayout",
+					"textStyle": "bodyStyle",
+					"format": "markdown"
+				},
+				{
+					"role": "heading1",
+					"layout": "heading1Layout",
+					"text": "Call them \u201Cobjects d'art\u201D talking about and striving for greatness and how it can oftentiy",
+					"textStyle": "heading1Style"
+				},
+				{
+					"role": "body",
+					"text": "He recounts a direct message he\u2014a twenty-eight-year-old actor still trying to find his place in his profession\u2014sent to five-time NBA champion Kobe Bryant through Twitter: _Kobe, watched your Showtime documentary. Really related to what you're talking about and striving for greatness and how it can oftentimes be an isolated journey, and how relationships can be a weakness in a way, if you're really kind of going after it._",
+					"layout": "bodyLayout",
+					"textStyle": "bodyStyle",
+					"format": "markdown"
+				},
+				{
+					"role": "divider",
+					"stroke": {
+						"color": "#FFF0"
+					},
+					"layout": "blackStrokeLayout3",
+					"style": "baseStrokeStyle"
+				},
+				{
+					"role": "pullquote",
+					"layout": "pullQuoteLayout",
+					"text": "I didn't wanna do it, he says. And I still think you shouldn't use acting as therapy. That was the closest I ever got to that.",
+					"textStyle": "pullQuoteStyle",
+					"format": "markdown"
+				},
+				{
+					"role": "divider",
+					"stroke": {
+						"color": "#FFF0"
+					},
+					"layout": "blackStrokeLayout4",
+					"style": "baseStrokeStyle"
+				},
+				{
+					"role": "photo",
+					"URL": "http://esq.h-cdn.co/assets/15/32/980x980/square-1438706025-w-esq090115teller003-teller-04.jpg",
+					"layout": "embedLayout"
+				},
+				{
+					"role": "body",
+					"text": "He says he wants to contribute to the body of great acting in the world, to the\u2026 shit, he can't find the term\u2014 _cache? catalog? canon?_ Whatever, you know what he means. He thinks he has something to offer.",
+					"layout": "bodyLayout",
+					"textStyle": "bodyStyle",
+					"format": "markdown"
+				},
+				{
+					"role": "banner_advertisement",
+					"bannerType": "standard"
+				}
+			]
+		}
+	],
+	"documentStyle": {
+		"backgroundColor": "#FFF"
+	},
+	"componentStyles": {
+		"baseStrokeStyle": {
+		},
+		"bodyContainerStyle": {
+			"backgroundColor": "#FFF"
+		},
+		"dateLayoutStyle": {
+			"border": {
+				"all": {
+					"width": 2
+				},
+				"top": false,
+				"left": false,
+				"right": false
+			}
+		},
+		"photoContainerStyle": {
+			"backgroundColor": "#000"
+		},
+		"tabLayoutStyle": {
+			"fill": {
+				"type": "image",
+				"URL": "https://s3.amazonaws.com/sallyhdm/esq_header_article.png",
+				"fillMode": "fit",
+				"verticalAlignment": "bottom",
+				"horizontalAlignment": "right"
+			}
+		}
+	},
+	"componentTextStyles": {
+		"authorStyle": {
+			"fontName": "TradeGothicNextLTPro-HvCn",
+			"fontSize": 16,
+			"textAlignment": "left",
+			"textTransform":"uppercase",
+			"textColor": "#AAA"
+		},
+		"bodyStyle": {
+			"fontName": "Georgia",
+			"fontSize": 21,
+			"lineHeight": 30,
+			"textAlignment": "left",
+			"textColor": "#333",
+			"linkStyle": {
+				"textColor": "#00AAE3",
+				"underline": true
+			}
+		},
+		"bodyStyleFirst": {
+			"fontName": "Georgia",
+			"fontSize": 21,
+			"lineHeight": 30,
+			"textAlignment": "left",
+			"textColor": "#333",
+			"dropCapStyle": {
+				"fontName": "AktivGrotesk-Black",
+				"numberOfLines": 3,
+				"numberOfCharacters": 1,
+				"textColor": "#000"
+			}
+		},
+		"captionStyle": {
+			"fontName": "Helvetica",
+			"fontSize": 20,
+			"lineHeight": 32,
+			"textAlignment": "left",
+			"linkStyle": {
+				"underline": true
+			}
+		},
+		"creditStyle": {
+			"fontName": "Helvetica",
+			"fontSize": 18,
+			"lineHeight": 24,
+			"textAlignment": "right",
+			"textColor": "#898989",
+			"textTransform":"uppercase"
+		},
+		"dateStyle": {
+			"fontName": "TradeGothicNextLTPro-HvCn",
+			"fontSize": 16,
+			"textAlignment": "left",
+			"textTransform":"uppercase",
+			"textColor": "#AAA"
+		},
+		"heading1Style": {
+			"fontName": "TradeGothicNextLTPro-HvCn",
+			"fontSize": 32,
+			"lineHeight": 36,
+			"textTransform":"uppercase",
+			"textAlignment": "left",
+			"tracking": 0.01
+		},
+		"introStyle": {
+			"fontName": "Helvetica",
+			"fontSize": 21,
+			"lineHeight": 28,
+			"textAlignment": "left",
+			"textColor": "#666"
+		},
+		"lowerListStyle": {
+			"fontName": "Helvetica",
+			"fontSize": 18,
+			"lineHeight": 20,
+			"textAlignment": "left"
+		},
+		"pullQuoteStyle": {
+			"fontName": "AktivGrotesk-Black",
+			"fontSize": 36,
+			"lineHeight": 38,
+			"textAlignment": "left",
+			"textTransform": "uppercase"
+		},
+		"spacerWord":{
+			"fontName": "Helvetica",
+			"fontSize": 48,
+			"lineHeight": 48,
+			"textAlignment": "left",
+			"textTransform": "uppercase"
+		},
+		"titleStyle": {
+			"fontName": "AktivGrotesk-Black",
+			"fontSize": 42,
+			"lineHeight": 42,
+			"textAlignment": "left",
+			"textColor": "#333"
+		}
+	},
+	"componentLayouts": {
+		"adLayout": {
+			"margin": {
+			}
+		},
+		"authorLayout": {
+			"margin": {
+				"top": 0,
+				"bottom": 15
+			}
+		},
+		"blackStrokeLayout1":{
+			"margin": 0
+		},
+		"blackStrokeLayout2":{
+			"margin": 5
+		},
+		"blackStrokeLayout3":{
+		},
+		"blackStrokeLayout4":{
+		},
+		"bodyContainerLayout": {
+			"margin": {
+				"top": 0,
+				"bottom": 35
+			}
+		},
+		"bodyLayout": {
+			"margin": {
+				"top": 10,
+				"bottom": 10
+			}
+		},
+		"captionLayout": {
+			"margin": {
+				"top": 10,
+				"bottom": 25
+			}	 
+		},
+		"creditLayout": {
+			"margin": {
+				"top": 4,
+				"bottom": 0
+			}	 
+		},
+		"dateLayout": {
+			"margin": {
+				"top": 20,
+				"bottom": 0
+			}
+		},
+		"embedLayout": {
+			"margin": {
+				"top": 5,
+				"bottom": 20
+			}
+		},
+		"headerImageLayout": {
+			"ignoreDocumentMargin": true,
+			"minimumHeight": "55vh"
+		},
+		"heading1Layout": {
+			"margin": {
+				"top": 15,
+				"bottom": 5
+			}
+		},
+		"introLayout": {
+			"margin": {
+				"top": 5,
+				"bottom": 15
+			}
+		},
+		"photoLayout": {
+			"minimumHeight": "100vmax"
+		},
+		"pullQuoteLayout": {
+			"margin": {
+				"top": 15,
+				"bottom": 15
+			}
+		},
+		"slideLayout": {
+			"ignoreDocumentMargin": true,
+			"minimumHeight": "100cw"
+		},
+		"spacerLayout": {
+			"margin": {
+				"top": 5,
+				"bottom": 0
+			}
+		},
+		"tabLayout": {
+			"ignoreDocumentMargin": true,
+			"minimumHeight": 124
+		},
+		"titleLayout": {
+			"margin": {
+				"top": 12,
+				"bottom": 0
+			}
+		}
+	}
 }

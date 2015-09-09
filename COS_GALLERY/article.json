@@ -1,481 +1,481 @@
 {
-  "version": "0.10",
-  "identifier": "!!!DYNAMIC",
-  "title": "31 Times Demi Lovato Looked Absolutely Flawless",
-  "language": "en",
-  "blueprint": "basic",
-  "layout": {
-    "columns": 6,
-    "width": 1024,
-    "margin": 80,
-    "gutter": 20
-  },
-  "components": [
-    {
-      "role": "header",
-      "layout": "headerImageLayout",
-      "style": {
-        "fill": {
-          "type": "image",
-          "URL": "http://cos.h-cdn.co/assets/15/34/980x490/landscape-1440003086-gty-demi-lovato-150819.jpg",
-          "fillMode": "cover",
-          "verticalAlignment": "top"
-        }
-      },
-      "behavior": {
-        "type": "parallax",
-        "factor": 0.5
-      },
-      "components": [
-        {
-          "role": "container",
-          "layout": "tabLayout",
-          "style": "tabLayoutStyle",
-          "anchor": {
-            "targetAnchorPosition": "bottom"
-          }
-        }
-      ]
-    },
-    {
-      "role": "section",
-      "layout": "bodyContainerLayout",
-      "style": "bodyContainerStyle",
-      "anchor": {
-        "targetAnchorPosition": "top"
-      },
-      "components": [
-        {
-          "role": "intro",
-          "layout": "dateLayout",
-          "text": "Aug 5, 2015 @ 6:01 PM",
-          "textStyle": "dateStyle"
-        },
-        {
-          "role": "title",
-          "layout": "titleLayout",
-          "text": "31 Times Demi Lovato Looked Absolutely Flawless",
-          "textStyle": "titleStyle"
-        },
-        {
-          "role": "intro",
-          "layout": "introLayout",
-          "text": "She has rocking style on- and off-stage.",
-          "textStyle": "introStyle"
-        },
-        {
-          "role": "divider",
-          "stroke": {
-            "color": "#FFF0"
-          },
-          "layout": "blackStrokeLayout1",
-          "style": "baseStrokeStyle"
-        },
-        {
-          "role": "author",
-          "layout": "authorLayout",
-          "text": "By Blair Sylvester",
-          "textStyle": "authorStyle"
-        },
-        {
-          "role": "divider",
-          "stroke": {
-            "color": "#FFF0"
-          },
-          "layout": "blackStrokeLayout1",
-          "style": "baseStrokeStyle"
-        },
-        {
-          "role": "section",
-          "layout": "slideLayout",
-          "components": [
-            {
-              "role": "heading",
-              "text": "Times Demi Lovato Looked Flawless",
-              "layout": "heading1Layout",
-              "textStyle": "heading1Style",
-              "format": "markdown"
-            },
-            {
-              "role": "container",
-              "style": "photoContainerStyle",
-              "layout": "photoLayout",
-              "components": [
-                {
-                  "role": "container",
-                  "style": {
-                    "fill": {
-                      "type": "image",
-                      "URL": "http://cos.h-cdn.co/assets/15/34/1024x1536/gallery-1440003086-gty-demi-lovato-150819.jpg",
-                      "verticalAlignment": "top"
-                    }
-                  },
-                  "layout": "photoLayout",
-                  "animation": {
-                    "type": "fade_in",
-                    "userControllable": true,
-                    "initialAlpha": 0.1
-                  }
-                }
-              ]
-            },
-            {
-              "role": "photographer",
-              "text": "Getty",
-              "layout": "creditLayout",
-              "textStyle": "creditStyle"
-            },      
-            {
-              "role": "caption",
-              "text": "Demi Lovato attends the new Samsung Galaxy S6 edge+ and Galaxy Note5 at Launch Event in Los Angeles on Aug. 18, 2015.",
-              "layout": "captionLayout",
-              "textStyle": "captionStyle",
-              "format": "markdown"
-            }
-          ]
-        },
-        {
-          "role": "section",
-          "layout": "slideLayout",
-          "components": [
-            {
-              "role": "heading",
-              "text": "Times Demi Lovato Looked Flawless",
-              "layout": "heading1Layout",
-              "textStyle": "heading1Style",
-              "format": "markdown"
-            },
-            {
-              "role": "container",
-              "style": "photoContainerStyle",
-              "layout": "photoLayout",
-              "components": [
-                {
-                  "role": "container",
-                  "style": {
-                    "fill": {
-                      "type": "image",
-                      "URL": "http://cos.h-cdn.co/assets/15/27/1024x1535/gettyimages-479189156_1.jpg",
-                      "verticalAlignment": "top"
-                    }
-                  },
-                  "layout": "photoLayout",
-                  "animation": {
-                    "type": "fade_in",
-                    "userControllable": true,
-                    "initialAlpha": 0.1
-                  }
-                }
-              ]
-            },
-            {
-              "role": "photographer",
-              "text": "Getty",
-              "layout": "creditLayout",
-              "textStyle": "creditStyle"
-            },      
-            {
-              "role": "caption",
-              "text": "Demi Lovato gets dinner at Zuma Restaurant on July 1, 2015 in New York City.",
-              "layout": "captionLayout",
-              "textStyle": "captionStyle",
-              "format": "markdown"
-            }
-          ]
-        },
-        {
-          "role": "section",
-          "layout": "slideLayout",
-          "components": [
-            {
-              "role": "heading",
-              "text": "Times Demi Lovato Looked Flawless",
-              "layout": "heading1Layout",
-              "textStyle": "heading1Style",
-              "format": "markdown"
-            },
-            {
-              "role": "container",
-              "style": "photoContainerStyle",
-              "layout": "photoLayout",
-              "components": [
-                {
-                  "role": "container",
-                  "style": {
-                    "fill": {
-                      "type": "image",
-                      "URL": "http://cos.h-cdn.co/assets/15/27/1024x1536/gettyimages-479162958_1.jpg",
-                      "verticalAlignment": "top"
-                    }
-                  },
-                  "layout": "photoLayout",
-                  "animation": {
-                    "type": "fade_in",
-                    "userControllable": true,
-                    "initialAlpha": 0.1
-                  }
-                }
-              ]
-            },
-            {
-              "role": "photographer",
-              "text": "Getty",
-              "layout": "creditLayout",
-              "textStyle": "creditStyle"
-            },      
-            {
-              "role": "caption",
-              "text": "Demi Lovato visits Z100 to debut her new single, 'Cool for the Summer,' at Gansevoort Park Avenue on July 1, 2015 in New York City.",
-              "layout": "captionLayout",
-              "textStyle": "captionStyle",
-              "format": "markdown"
-            }
-          ]
-        },
-        {
-          "role": "banner_advertisement",
-          "bannerType": "standard"
-        }
-      ]
-    }
-  ],
-  "documentStyle": {
-    "backgroundColor": "#FFF"
-  },
-  "componentStyles": {
-    "baseStrokeStyle": {
-    },
-    "bodyContainerStyle": {
-      "backgroundColor": "#FFF"
-    },
-    "dateLayoutStyle": {
-      "border": {
-        "all": {
-          "width": 2
-        },
-        "top": false,
-        "left": false,
-        "right": false
-      }
-    },
-    "photoContainerStyle": {
-      "backgroundColor": "#000"
-    },
-    "tabLayoutStyle": {
-      "fill": {
-        "type": "image",
-        "URL": "https://s3.amazonaws.com/sallyhdm/cos_header_gallery.png",
-        "fillMode": "fit",
-        "verticalAlignment": "bottom",
-        "horizontalAlignment": "right"
-      }
-    }
-  },
-  "componentTextStyles": {
-    "authorStyle": {
-      "fontName": "Georgia-Italic",
-      "fontSize": 18,
-      "textAlignment": "left",
-      "textColor": "#959595"
-    },
-    "bodyStyle": {
-      "fontName": "Georgia",
-      "fontSize": 18,
-      "lineHeight": 24,
-      "textAlignment": "left",
-      "linkStyle": {
-        "textColor": "#00AAE3",
-        "underline": true
-      }
-    },
-    "bodyStyleFirst": {
-      "fontName": "Georgia",
-      "fontSize": 18,
-      "lineHeight": 24,
-      "textAlignment": "left",
-      "dropCapStyle": {
-        "fontName": "DINNextW01-CondensedMedium",
-        "numberOfLines": 5,
-        "numberOfCharacters": 1,
-        "textColor": "#EC008C"
-      }
-    },
-    "captionStyle": {
-      "fontName": "Georgia",
-      "fontSize": 18,
-      "lineHeight": 24,
-      "textAlignment": "left",
-      "linkStyle": {
-        "underline": true
-      }
-    },
-    "creditStyle": {
-      "fontName": "DINNextW01-CondensedMedium",
-      "fontSize": 12,
-      "lineHeight": 14,
-      "textAlignment": "right",
-      "textColor": "#A1A1A1",
-      "textTransform":"uppercase"
-    },
-    "dateStyle": {
-      "fontName": "DINNextW01-CondensedMedium",
-      "fontSize": 20,
-      "textAlignment": "left",
-      "textTransform":"uppercase",
-      "textColor": "#AAA"
-    },
-    "heading1Style": {
-      "fontName": "DINNextW01-CondensedMedium",
-      "fontSize": 36,
-      "lineHeight": 42,
-      "textAlignment": "left",
-      "textColor": "#EC008C",
-      "textTransform":"uppercase"
-    },
-    "introStyle": {
-      "fontName": "DINNextW01-CondensedMedium",
-      "fontSize": 36,
-      "lineHeight": 38,
-      "textAlignment": "left",
-      "textColor": "#636363"
-    },
-    "lowerListStyle": {
-      "fontName": "Georgia",
-      "fontSize": 18,
-      "lineHeight": 20,
-      "textAlignment": "left"
-    },
-    "pullQuoteStyle": {
-      "fontName": "TiemposHeadline-SemiboldItalic",
-      "fontSize": 38,
-      "lineHeight": 56,
-      "textAlignment": "center",
-      "textColor": "#EC008C"
-    },
-    "spacerWord":{
-      "fontName": "Georgia",
-      "fontSize": 48,
-      "lineHeight": 48,
-      "textAlignment": "left",
-      "textTransform": "uppercase"
-    },
-    "titleStyle": {
-      "fontName": "DINNextW01-CondensedMedium",
-      "fontSize": 64,
-      "lineHeight": 62,
-      "textAlignment": "left",
-      "textTransform": "uppercase",
-      "textColor": "#333",
-      "tracking": -0.02
-    }
-  },
-  "componentLayouts": {
-    "adLayout": {
-    },
-    "authorLayout": {
-      "margin": {
-        "top": 0,
-        "bottom": 35
-      }
-    },
-    "blackStrokeLayout1":{
-      "margin": 0
-    },
-    "blackStrokeLayout2":{
-      "margin": 5
-    },
-    "blackStrokeLayout3":{
-    },
-    "blackStrokeLayout4":{
-    },
-    "bodyContainerLayout": {
-      "margin": {
-        "top": 0,
-        "bottom": 25
-      }
-    },
-    "bodyLayout": {
-      "margin": {
-        "top": 10,
-        "bottom": 15
-      }
-    },
-    "captionLayout": {
-      "margin": {
-        "top": 0,
-        "bottom": 25
-      }   
-    },
-    "creditLayout": {
-      "margin": {
-        "top": 4,
-        "bottom": 0
-      }   
-    },
-    "dateLayout": {
-      "margin": {
-        "top": 20,
-        "bottom": 0
-      }
-    },
-    "embedLayout": {
-      "margin": {
-        "top": 5,
-        "bottom": 20
-      }
-    },
-    "headerImageLayout": {
-      "ignoreDocumentMargin": true,
-      "minimumHeight": "75vmin"
-    },
-    "heading1Layout": {
-      "margin": {
-        "top": 15,
-        "bottom": 5
-      }
-    },
-    "introLayout": {
-      "margin": {
-        "top": 0,
-        "bottom": 10
-      }
-    },
-    "photoLayout": {
-      "minimumHeight": "100vmax"
-    },
-    "pullQuoteLayout": {
-      "margin": {
-        "top": 30,
-        "bottom": 30
-      },
-      "contentInset": {
-        "left": true,
-        "right": true
-      }
-    },
-    "slideLayout": {
-      "ignoreDocumentMargin": true,
-      "minimumHeight": "100cw",
-      "margin": {
-        "top": 0,
-        "bottom": 20
-      }
-    },
-    "spacerLayout": {
-      "margin": {
-        "top": 5,
-        "bottom": 0
-      }
-    },
-    "tabLayout": {
-      "ignoreDocumentMargin": true,
-      "minimumHeight": 124
-    },
-    "titleLayout": {
-      "margin": {
-        "top": 10,
-        "bottom": 0
-      }
-    }
-  }
+	"version": "0.10",
+	"identifier": "!!!DYNAMIC",
+	"title": "31 Times Demi Lovato Looked Absolutely Flawless",
+	"language": "en",
+	"blueprint": "basic",
+	"layout": {
+		"columns": 6,
+		"width": 1024,
+		"margin": 80,
+		"gutter": 20
+	},
+	"components": [
+		{
+			"role": "header",
+			"layout": "headerImageLayout",
+			"style": {
+				"fill": {
+					"type": "image",
+					"URL": "http://cos.h-cdn.co/assets/15/34/980x490/landscape-1440003086-gty-demi-lovato-150819.jpg",
+					"fillMode": "cover",
+					"verticalAlignment": "top"
+				}
+			},
+			"behavior": {
+				"type": "parallax",
+				"factor": 0.5
+			},
+			"components": [
+				{
+					"role": "container",
+					"layout": "tabLayout",
+					"style": "tabLayoutStyle",
+					"anchor": {
+						"targetAnchorPosition": "bottom"
+					}
+				}
+			]
+		},
+		{
+			"role": "section",
+			"layout": "bodyContainerLayout",
+			"style": "bodyContainerStyle",
+			"anchor": {
+				"targetAnchorPosition": "top"
+			},
+			"components": [
+				{
+					"role": "intro",
+					"layout": "dateLayout",
+					"text": "Aug 5, 2015 @ 6:01 PM",
+					"textStyle": "dateStyle"
+				},
+				{
+					"role": "title",
+					"layout": "titleLayout",
+					"text": "31 Times Demi Lovato Looked Absolutely Flawless",
+					"textStyle": "titleStyle"
+				},
+				{
+					"role": "intro",
+					"layout": "introLayout",
+					"text": "She has rocking style on- and off-stage.",
+					"textStyle": "introStyle"
+				},
+				{
+					"role": "divider",
+					"stroke": {
+						"color": "#FFF0"
+					},
+					"layout": "blackStrokeLayout1",
+					"style": "baseStrokeStyle"
+				},
+				{
+					"role": "author",
+					"layout": "authorLayout",
+					"text": "By Blair Sylvester",
+					"textStyle": "authorStyle"
+				},
+				{
+					"role": "divider",
+					"stroke": {
+						"color": "#FFF0"
+					},
+					"layout": "blackStrokeLayout1",
+					"style": "baseStrokeStyle"
+				},
+				{
+					"role": "section",
+					"layout": "slideLayout",
+					"components": [
+						{
+							"role": "heading",
+							"text": "Times Demi Lovato Looked Flawless",
+							"layout": "heading1Layout",
+							"textStyle": "heading1Style",
+							"format": "markdown"
+						},
+						{
+							"role": "container",
+							"style": "photoContainerStyle",
+							"layout": "photoLayout",
+							"components": [
+								{
+									"role": "container",
+									"style": {
+										"fill": {
+											"type": "image",
+											"URL": "http://cos.h-cdn.co/assets/15/34/1024x1536/gallery-1440003086-gty-demi-lovato-150819.jpg",
+											"verticalAlignment": "top"
+										}
+									},
+									"layout": "photoLayout",
+									"animation": {
+										"type": "fade_in",
+										"userControllable": true,
+										"initialAlpha": 0.1
+									}
+								}
+							]
+						},
+						{
+							"role": "photographer",
+							"text": "Getty",
+							"layout": "creditLayout",
+							"textStyle": "creditStyle"
+						},			
+						{
+							"role": "caption",
+							"text": "Demi Lovato attends the new Samsung Galaxy S6 edge+ and Galaxy Note5 at Launch Event in Los Angeles on Aug. 18, 2015.",
+							"layout": "captionLayout",
+							"textStyle": "captionStyle",
+							"format": "markdown"
+						}
+					]
+				},
+				{
+					"role": "section",
+					"layout": "slideLayout",
+					"components": [
+						{
+							"role": "heading",
+							"text": "Times Demi Lovato Looked Flawless",
+							"layout": "heading1Layout",
+							"textStyle": "heading1Style",
+							"format": "markdown"
+						},
+						{
+							"role": "container",
+							"style": "photoContainerStyle",
+							"layout": "photoLayout",
+							"components": [
+								{
+									"role": "container",
+									"style": {
+										"fill": {
+											"type": "image",
+											"URL": "http://cos.h-cdn.co/assets/15/27/1024x1535/gettyimages-479189156_1.jpg",
+											"verticalAlignment": "top"
+										}
+									},
+									"layout": "photoLayout",
+									"animation": {
+										"type": "fade_in",
+										"userControllable": true,
+										"initialAlpha": 0.1
+									}
+								}
+							]
+						},
+						{
+							"role": "photographer",
+							"text": "Getty",
+							"layout": "creditLayout",
+							"textStyle": "creditStyle"
+						},			
+						{
+							"role": "caption",
+							"text": "Demi Lovato gets dinner at Zuma Restaurant on July 1, 2015 in New York City.",
+							"layout": "captionLayout",
+							"textStyle": "captionStyle",
+							"format": "markdown"
+						}
+					]
+				},
+				{
+					"role": "section",
+					"layout": "slideLayout",
+					"components": [
+						{
+							"role": "heading",
+							"text": "Times Demi Lovato Looked Flawless",
+							"layout": "heading1Layout",
+							"textStyle": "heading1Style",
+							"format": "markdown"
+						},
+						{
+							"role": "container",
+							"style": "photoContainerStyle",
+							"layout": "photoLayout",
+							"components": [
+								{
+									"role": "container",
+									"style": {
+										"fill": {
+											"type": "image",
+											"URL": "http://cos.h-cdn.co/assets/15/27/1024x1536/gettyimages-479162958_1.jpg",
+											"verticalAlignment": "top"
+										}
+									},
+									"layout": "photoLayout",
+									"animation": {
+										"type": "fade_in",
+										"userControllable": true,
+										"initialAlpha": 0.1
+									}
+								}
+							]
+						},
+						{
+							"role": "photographer",
+							"text": "Getty",
+							"layout": "creditLayout",
+							"textStyle": "creditStyle"
+						},			
+						{
+							"role": "caption",
+							"text": "Demi Lovato visits Z100 to debut her new single, 'Cool for the Summer,' at Gansevoort Park Avenue on July 1, 2015 in New York City.",
+							"layout": "captionLayout",
+							"textStyle": "captionStyle",
+							"format": "markdown"
+						}
+					]
+				},
+				{
+					"role": "banner_advertisement",
+					"bannerType": "standard"
+				}
+			]
+		}
+	],
+	"documentStyle": {
+		"backgroundColor": "#FFF"
+	},
+	"componentStyles": {
+		"baseStrokeStyle": {
+		},
+		"bodyContainerStyle": {
+			"backgroundColor": "#FFF"
+		},
+		"dateLayoutStyle": {
+			"border": {
+				"all": {
+					"width": 2
+				},
+				"top": false,
+				"left": false,
+				"right": false
+			}
+		},
+		"photoContainerStyle": {
+			"backgroundColor": "#000"
+		},
+		"tabLayoutStyle": {
+			"fill": {
+				"type": "image",
+				"URL": "https://s3.amazonaws.com/sallyhdm/cos_header_gallery.png",
+				"fillMode": "fit",
+				"verticalAlignment": "bottom",
+				"horizontalAlignment": "right"
+			}
+		}
+	},
+	"componentTextStyles": {
+		"authorStyle": {
+			"fontName": "Georgia-Italic",
+			"fontSize": 18,
+			"textAlignment": "left",
+			"textColor": "#959595"
+		},
+		"bodyStyle": {
+			"fontName": "Georgia",
+			"fontSize": 18,
+			"lineHeight": 24,
+			"textAlignment": "left",
+			"linkStyle": {
+				"textColor": "#00AAE3",
+				"underline": true
+			}
+		},
+		"bodyStyleFirst": {
+			"fontName": "Georgia",
+			"fontSize": 18,
+			"lineHeight": 24,
+			"textAlignment": "left",
+			"dropCapStyle": {
+				"fontName": "DINNextLTPro-MediumCond",
+				"numberOfLines": 5,
+				"numberOfCharacters": 1,
+				"textColor": "#EC008C"
+			}
+		},
+		"captionStyle": {
+			"fontName": "Georgia",
+			"fontSize": 18,
+			"lineHeight": 24,
+			"textAlignment": "left",
+			"linkStyle": {
+				"underline": true
+			}
+		},
+		"creditStyle": {
+			"fontName": "DINNextLTPro-MediumCond",
+			"fontSize": 12,
+			"lineHeight": 14,
+			"textAlignment": "right",
+			"textColor": "#A1A1A1",
+			"textTransform":"uppercase"
+		},
+		"dateStyle": {
+			"fontName": "DINNextLTPro-MediumCond",
+			"fontSize": 20,
+			"textAlignment": "left",
+			"textTransform":"uppercase",
+			"textColor": "#AAA"
+		},
+		"heading1Style": {
+			"fontName": "DINNextLTPro-MediumCond",
+			"fontSize": 36,
+			"lineHeight": 42,
+			"textAlignment": "left",
+			"textColor": "#EC008C",
+			"textTransform":"uppercase"
+		},
+		"introStyle": {
+			"fontName": "DINNextLTPro-MediumCond",
+			"fontSize": 36,
+			"lineHeight": 38,
+			"textAlignment": "left",
+			"textColor": "#636363"
+		},
+		"lowerListStyle": {
+			"fontName": "Georgia",
+			"fontSize": 18,
+			"lineHeight": 20,
+			"textAlignment": "left"
+		},
+		"pullQuoteStyle": {
+			"fontName": "TiemposHeadline-SemiboldItalic",
+			"fontSize": 38,
+			"lineHeight": 56,
+			"textAlignment": "center",
+			"textColor": "#EC008C"
+		},
+		"spacerWord":{
+			"fontName": "Georgia",
+			"fontSize": 48,
+			"lineHeight": 48,
+			"textAlignment": "left",
+			"textTransform": "uppercase"
+		},
+		"titleStyle": {
+			"fontName": "DINNextLTPro-MediumCond",
+			"fontSize": 64,
+			"lineHeight": 62,
+			"textAlignment": "left",
+			"textTransform": "uppercase",
+			"textColor": "#333",
+			"tracking": -0.02
+		}
+	},
+	"componentLayouts": {
+		"adLayout": {
+		},
+		"authorLayout": {
+			"margin": {
+				"top": 0,
+				"bottom": 35
+			}
+		},
+		"blackStrokeLayout1":{
+			"margin": 0
+		},
+		"blackStrokeLayout2":{
+			"margin": 5
+		},
+		"blackStrokeLayout3":{
+		},
+		"blackStrokeLayout4":{
+		},
+		"bodyContainerLayout": {
+			"margin": {
+				"top": 0,
+				"bottom": 25
+			}
+		},
+		"bodyLayout": {
+			"margin": {
+				"top": 10,
+				"bottom": 15
+			}
+		},
+		"captionLayout": {
+			"margin": {
+				"top": 0,
+				"bottom": 25
+			}	 
+		},
+		"creditLayout": {
+			"margin": {
+				"top": 4,
+				"bottom": 0
+			}	 
+		},
+		"dateLayout": {
+			"margin": {
+				"top": 20,
+				"bottom": 0
+			}
+		},
+		"embedLayout": {
+			"margin": {
+				"top": 5,
+				"bottom": 20
+			}
+		},
+		"headerImageLayout": {
+			"ignoreDocumentMargin": true,
+			"minimumHeight": "75vmin"
+		},
+		"heading1Layout": {
+			"margin": {
+				"top": 15,
+				"bottom": 5
+			}
+		},
+		"introLayout": {
+			"margin": {
+				"top": 0,
+				"bottom": 10
+			}
+		},
+		"photoLayout": {
+			"minimumHeight": "100vmax"
+		},
+		"pullQuoteLayout": {
+			"margin": {
+				"top": 30,
+				"bottom": 30
+			},
+			"contentInset": {
+				"left": true,
+				"right": true
+			}
+		},
+		"slideLayout": {
+			"ignoreDocumentMargin": true,
+			"minimumHeight": "100cw",
+			"margin": {
+				"top": 0,
+				"bottom": 20
+			}
+		},
+		"spacerLayout": {
+			"margin": {
+				"top": 5,
+				"bottom": 0
+			}
+		},
+		"tabLayout": {
+			"ignoreDocumentMargin": true,
+			"minimumHeight": 124
+		},
+		"titleLayout": {
+			"margin": {
+				"top": 10,
+				"bottom": 0
+			}
+		}
+	}
 }

@@ -205,7 +205,7 @@
   },
   "componentTextStyles": {
     "authorStyle": {
-      "fontName": "ITCModernNo216W01-Md",
+      "fontName": "ModernTwoSxtnITCStd-Medium",
       "fontSize": 15,
       "textAlignment": "left",
       "textTransform": "uppercase"
@@ -226,7 +226,7 @@
       "lineHeight": 26,
       "textAlignment": "left",
       "dropCapStyle": {
-        "fontName": "ITCModernNo216W01-Md",
+        "fontName": "ModernTwoSxtnITCStd-Medium",
         "numberOfLines": 3,
         "numberOfCharacters": 1
       }
@@ -258,14 +258,14 @@
       "tracking": 0.05
     },
     "heading1Style": {
-      "fontName": "ITCModernNo216W01-Md",
+      "fontName": "ModernTwoSxtnITCStd-Medium",
       "fontSize": 28,
       "lineHeight": 32,
       "textAlignment": "left",
       "textTransform":"uppercase"
     },
     "introStyle": {
-      "fontName": "MCModernTwoSxtn-LightItalic",
+      "fontName": "ModernTwoSxtnITCStd-LightItalic",
       "fontSize": 20,
       "lineHeight": 24,
       "textAlignment": "left"

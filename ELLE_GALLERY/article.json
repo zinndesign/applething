@@ -259,7 +259,7 @@
 	},
 	"componentTextStyles": {
 		"authorStyle": {
-			"fontName": "AvantGardeGothicITCW01XLt",
+			"fontName": "ITCAvantGardeStd-XLt",
 			"fontSize": 16,
 			"textColor": "#000",
 			"textTransform": "uppercase",
@@ -278,7 +278,7 @@
 			"lineHeight": 26,
 			"textAlignment": "left",
 			"dropCapStyle": {
-				"fontName": "AvantGardeGothicITCW01XLt",
+				"fontName": "ITCAvantGardeStd-XLt",
 				"numberOfLines": 3,
 				"numberOfCharacters": 1
 			}
@@ -292,7 +292,7 @@
 		},
 		"creditStyle": {
 			"textAlignment": "right",
-			"fontName": "AvantGardeGothicITCW01XLt",
+			"fontName": "ITCAvantGardeStd-XLt",
 			"fontSize": 9,
 			"lineHeight": 12,
 			"textTransform":"uppercase",
@@ -307,7 +307,7 @@
 		},
 		"heading1Style": {
 			"textAlignment": "left",
-			"fontName": "AvantGardeGothicITCW01Dm",
+			"fontName": "ITCAvantGardeStd-Demi",
 			"fontSize": 24,
 			"lineHeight": 28,
 			"textTransform":"uppercase",
@@ -315,7 +315,7 @@
 		},
 		"introStyle": {
 			"textAlignment": "left",
-			"fontName": "AvantGardeGothicITCW01XLt",
+			"fontName": "ITCAvantGardeStd-XLt",
 			"fontSize": 24,
 			"lineHeight":30,
 			"textColor": "#000"
@@ -341,11 +341,11 @@
 			"lineHeight": 48,
 			"textColor": "#000",
 			"textTransform": "uppercase",
-			"fontName": "AvantGardeGothicITCW01XLt"
+			"fontName": "ITCAvantGardeStd-XLt"
 		},
 		"titleStyle": {
 			"textAlignment": "left",
-			"fontName": "AvantGardeGothicITCW01XLt",
+			"fontName": "ITCAvantGardeStd-XLt",
 			"textTransform": "uppercase",
 			"fontSize": 52,
 			"lineHeight": 54,

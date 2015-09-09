@@ -220,7 +220,7 @@
   },
   "componentTextStyles": {
     "authorStyle": {
-      "fontName": "ITCModernNo216W01-Md",
+      "fontName": "ModernTwoSxtnITCStd-Medium",
       "fontSize": 15,
       "lineHeight": 15,
       "textAlignment": "center",
@@ -282,7 +282,7 @@
       "textTransform":"uppercase"
     },
     "introStyle": {
-      "fontName": "MCModernTwoSxtn-LightItalic",
+      "fontName": "ModernTwoSxtnITCStd-LightItalic",
       "fontSize": 22,
       "lineHeight": 28,
       "textAlignment": "center"

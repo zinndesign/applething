@@ -232,7 +232,7 @@
 	},
 	"componentTextStyles": {
 		"authorStyle": {
-			"fontName": "TradeGothicNextLTW01-HvCn",
+			"fontName": "TradeGothicNextLTPro-HvCn",
 			"fontSize": 16,
 			"textAlignment": "left",
 			"textTransform":"uppercase",
@@ -256,7 +256,7 @@
 			"textAlignment": "left",
 			"textColor": "#333",
 			"dropCapStyle": {
-				"fontName": "AktivGroteskW01-Black",
+				"fontName": "AktivGrotesk-Black",
 				"numberOfLines": 3,
 				"numberOfCharacters": 1,
 				"textColor": "#000"
@@ -274,7 +274,7 @@
 			}
 		},
 		"creditStyle": {
-			"fontName": "TradeGothicNextLTW01-BdCn",
+			"fontName": "TradeGothicNextLTPro-BdCn",
 			"fontSize": 12,
 			"lineHeight": 18,
 			"textAlignment": "right",
@@ -282,14 +282,14 @@
 			"textTransform":"uppercase"
 		},
 		"dateStyle": {
-			"fontName": "TradeGothicNextLTW01-HvCn",
+			"fontName": "TradeGothicNextLTPro-HvCn",
 			"fontSize": 16,
 			"textAlignment": "left",
 			"textTransform":"uppercase",
 			"textColor": "#AAA"
 		},
 		"heading1Style": {
-			"fontName": "TradeGothicNextLTW01-HvCn",
+			"fontName": "TradeGothicNextLTPro-HvCn",
 			"fontSize": 32,
 			"lineHeight": 36,
 			"textTransform":"uppercase",
@@ -310,7 +310,7 @@
 			"textAlignment": "left"
 		},
 		"pullQuoteStyle": {
-			"fontName": "AktivGroteskW01-Black",
+			"fontName": "AktivGrotesk-Black",
 			"fontSize": 36,
 			"lineHeight": 38,
 			"textAlignment": "left",
@@ -324,7 +324,7 @@
 			"textTransform": "uppercase"
 		},
 		"titleStyle": {
-			"fontName": "AktivGroteskW01-Black",
+			"fontName": "AktivGrotesk-Black",
 			"fontSize": 42,
 			"lineHeight": 42,
 			"textAlignment": "left",
