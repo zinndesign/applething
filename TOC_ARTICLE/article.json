@@ -1,7 +1,7 @@
 {
 	"version": "0.10",
 	"identifier": "!!!DYNAMIC",
-	"title": "Target Wants to Make You a Cocktail While You Shop",
+	"title": "How to Make the Most Popular Drink at the US Open",
 	"language": "en",
 	"blueprint": "basic",
 	"layout": {
@@ -17,7 +17,7 @@
 			"style": {
 				"fill": {
 					"type": "image",
-					"URL": "http://rbk.h-cdn.co/assets/15/35/980x490/landscape-1440854080-landscape-1440775272-screen-shot-2015-08-28-at-112048-am.png",
+					"URL": "http://toc.h-cdn.co/assets/15/36/980x490/landscape-1441131998-grey-goose-honey-deuce.gif",
 					"fillMode": "cover",
 					"verticalAlignment": "top"
 				}
@@ -48,19 +48,19 @@
 				{
 					"role": "intro",
 					"layout": "dateLayout",
-					"text": "Aug 11, 2015 @ 5:33 PM",
+					"text": "Sep 1, 2015 @ 3:00 PM",
 					"textStyle": "dateStyle"
 				},
 				{
 					"role": "title",
 					"layout": "titleLayout",
-					"text": "Target Wants to Make You a Cocktail While You Shop",
+					"text": "How to Make the Most Popular Drink at the US Open",
 					"textStyle": "titleStyle"
 				},
 				{
 					"role": "intro",
 					"layout": "introLayout",
-					"text": "Say goodbye to your paycheck.",
+					"text": "The Grey Goose and Chamboard-filled Honey Deuce has been the event's trademark drink for nine years running.",
 					"textStyle": "introStyle",
 					"format": "markdown"
 				},
@@ -75,7 +75,7 @@
 				{
 					"role": "author",
 					"layout": "authorLayout",
-					"text": "By Rheanna O'Neil Bellomo",
+					"text": "By Sam Dangremond",
 					"textStyle": "authorStyle"
 				},
 				{
@@ -86,25 +86,23 @@
 					"layout": "blackStrokeLayout2",
 					"style": "baseStrokeStyle"
 				},
-				{ 
-					 "role": "medium_rectangle_advertisement",
-					 "layout": "adLayout",
-					 "bannerType": "standard"
-				},
 				{
 					"role": "body",
-					"text": "[Target](http://www.delish.com/food-news/a43508/target-grocery-delivery/), the superstore that somehow makes _everyone_ prone to impulse buys, just found a new way to get us to fork over more cash: serving cocktails and selling bottles of booze. So said Target, the superstore that somehow makes everyone prone to impulse buys, the superstore that somehow makes everyone prone to impulse buys.",
+					"text": "A Phoenix couple kicking off some home renovations were shocked to find that inside their walls instead of rusty pipes or creepy crawlers, there was a 50-year-old safe, just waiting to be cracked.",
 					"layout": "bodyLayout",
 					"textStyle": "bodyStyleFirst",
 					"format": "markdown"
 				},
 				{
-					"role": "photo",
-					"URL": "http://rbk.h-cdn.co/assets/15/35/1440853519-syn-rbk-1440778958-gettyimages-150366300-1.jpg"
+					"role": "body",
+					"text": "When they first moved into their home, which the couple, who posted their incredible story on [Imgur](http://imgur.com/gallery/ldW7B) describe as a \"fixer upper,\" they found a safe code in the back of a medicine cabinet but never knew where it led.",
+					"layout": "bodyLayout",
+					"textStyle": "bodyStyle",
+					"format": "markdown"
 				},
 				{
 					"role": "body",
-					"text": "At one store in Chicago, which is slated to open in October, customers could take a break from their shopping sprees and indulge in a drink (or three). According to [Crain's Chicago](http://www.chicagobusiness.com/article/20150825/BLOGS09/150829901/will-the-new-streeterville-target-have-a-bar), the new Windy City location applied for not one but two liquor licenses\u2014one to sell packaged booze on its shelves and the other to serve beer, wine, and spirits from a bar inside the 24,000-square-foot space.",
+					"text": "Once they tore down their kitchen island and started hammering away, they found the [mystery](http://www.womansday.com/relationships/family-friends/news/a51541/woman-finds-decades-old-mystery-letter-hidden-inside-picture-frame/) box.",
 					"layout": "bodyLayout",
 					"textStyle": "bodyStyle",
 					"format": "markdown"
@@ -112,20 +110,20 @@
 				{
 					"role": "heading1",
 					"layout": "heading1Layout",
-					"text": "Target's Tipsy Shopping Plan",
+					"text": "Opening the \"Mystery Box\"",
 					"textStyle": "heading1Style",
 					"format": "markdown"
 				},
 				{
 					"role": "body",
-					"text": "If given approval, it will be the only Target store to serve alcohol on-site. We're crossing our fingers that there will be a few bright red signature cocktails (think [cosmopolitans](http://www.delish.com/entertaining/g2173/vodka-mixed-drinks-recipes/?slide=6), [spiked strawberry lemonade](http://www.delish.com/entertaining/a42848/thirsty-thursday-spiked-strawberry-lemonade/)) on the menu and, of course, a nationwide roll-out of this boozy concept. Because nothing else can improve a trip to the grocery store quite like a glass of ros\u00E9, am I right?",
+					"text": "Using the code that they luckily secreted away, they were able to get the safe open after a dozen attempts. And what did they find inside? $51,080, mostly in $100 notes and a bottle of bourbon dated 1960.",
 					"layout": "bodyLayout",
 					"textStyle": "bodyStyle",
 					"format": "markdown"
 				},
 				{
 					"role": "body",
-					"text": "While this is absolutely amazing, it will also definitely lead to more bad decisions when it comes to spending more cash. You know, like picking up yet another adorable set of salt-and-pepper shakers just because you have zero willpower once you step inside. I mean, who could say no to [this cute little ceramic hedgehog](http://www.target.com/p/threshold-hedgehog-pepper-shaker/-/A-15363480#prodSlot=medium_1_20&term=salt+and+pepper+shakers)? Especially while tipsy...",
+					"text": "\"We stared in disbelief. Time stood still. I started to reach in the safe and Eddie yelled, 'Wait it might be booby trapped!' I'm still laughing at that one,\" the woman writes on Imgur. Yet, nothing would stop her from having at that bourbon.",
 					"layout": "bodyLayout",
 					"textStyle": "bodyStyle",
 					"format": "markdown"
@@ -141,7 +139,7 @@
 				{
 					"role": "pullquote",
 					"layout": "pullQuoteLayout",
-					"text": "\u201CWhile this is absolutely amazing, it will also definitely lead to more bad decisions when it comes to spending more cash.\u201D",
+					"text": "\u201CI started to reach in the safe and Eddie yelled, 'Wait it might be booby trapped!' I'm still laughing at that one...\u201D",
 					"textStyle": "pullQuoteStyle",
 					"format": "markdown"
 				},
@@ -155,7 +153,28 @@
 				},
 				{
 					"role": "body",
-					"text": "But I guess that's all part of the company's insanely genius (albeit evil) plan. Touch\u00E9, Target.",
+					"text": "Besides the cash and the hooch, the safe also contained\u2014and this is where it gets interesting\u2014a book called _A Guide for the Perplexed_, published in 1977, that appears to contain clues. Inside, there was a black and white photo of a mystery (and, might we add, dapper) man. On the back of Mr. Handsome's pic, there was a note that reads:",
+					"layout": "bodyLayout",
+					"textStyle": "bodyStyle",
+					"format": "markdown"
+				},
+				{
+					"role": "body",
+					"text": ">Alan, I have a book you must read. I've underlined a few key passages. Your friend, Vincent",
+					"layout": "bodyLayout",
+					"textStyle": "bodyStyle",
+					"format": "markdown"
+				},
+				{
+					"role": "body",
+					"text": "There was one more poignant passage Vincent thoughtfully pointed out to Alan: \"Most Modern Readers will be reluctant to believe that perfect happiness is attainable by methods of which their modern world knows nothing.\" Was this, perhaps the 1977 equivalent of saying, 'stop coveting that iWatch and find joy in simple walks and stuff? Unclear, but it certainly gives you pause.",
+					"layout": "bodyLayout",
+					"textStyle": "bodyStyle",
+					"format": "markdown"
+				},
+				{
+					"role": "body",
+					"text": "_**UPDATE, 8/29:** Well, we thought it sounded too good to be true, and in fact, it was. The couple whose treasure hunt story took the Internet by storm this week have fessed up: They fabricated the whole thing. The Chive has more details on how they pulled off to the ruse. And while we feel chagrined, we're happy to see the money they \"discovered\" has found a good home: They donated it to a local no-kill animal shelter._",
 					"layout": "bodyLayout",
 					"textStyle": "bodyStyle",
 					"format": "markdown"
@@ -192,7 +211,7 @@
 		"tabLayoutStyle": {
 			"fill": {
 				"type": "image",
-				"URL": "bundle://rbk_header_article.png",
+				"URL": "bundle://toc_header_article.png",
 				"fillMode": "fit",
 				"verticalAlignment": "bottom",
 				"horizontalAlignment": "right"
@@ -201,41 +220,45 @@
 	},
 	"componentTextStyles": {
 		"authorStyle": {
-			"fontName": "BrushTipTerrenceW00-Reg",
-			"fontSize": 18,
+			"fontName": "Georgia",
+			"fontSize": 14,
 			"textAlignment": "left",
-			"textColor": "#999"
+			"textColor": "#999",
+			"textTransform":"uppercase"
 		},
 		"bodyStyle": {
-			"fontName": "PraxisLTPro-Light",
+			"fontName": "Georgia",
 			"fontSize": 20,
 			"lineHeight": 30,
 			"textAlignment": "left",
+			"tracking": -0.02,
 			"linkStyle": {
-				"textColor": "#d20c50"
+				"textColor": "#684489"
 			}
 		},
 		"bodyStyleFirst": {
-			"fontName": "PraxisLTPro-Light",
+			"fontName": "Georgia",
 			"fontSize": 20,
 			"lineHeight": 30,
 			"textAlignment": "left",
+			"tracking": -0.02,
 			"dropCapStyle": {
-				"fontName": "BrushTipTerrenceW00-Reg",
-				"numberOfLines": 5,
+				"fontName": "Georgia",
+				"textColor":"#e25a9f",
+				"numberOfLines": 3,
 				"numberOfCharacters": 1
 			},
 			"linkStyle": {
-				"textColor": "#d20c50"
+				"textColor": "#684489"
 			}
 		},
 		"captionStyle": {
-			"fontName": "PraxisLTPro-Light",
+			"fontName": "Georgia",
 			"fontSize": 20,
 			"lineHeight": 30,
 			"textAlignment": "left",
 			"linkStyle": {
-				"textColor": "#d20c50"
+				"textColor": "#684489"
 			}
 		},
 		"creditStyle": {
@@ -247,25 +270,27 @@
 			"textTransform":"uppercase"
 		},
 		"dateStyle": {
-			"fontName": "BrushTipTerrenceW00-Reg",
-			"fontSize": 18,
+			"fontName": "Georgia",
+			"fontSize": 14,
 			"textAlignment": "left",
-			"textColor": "#999"
+			"textColor": "#999",
+			"textTransform":"uppercase",
+			"tracking": -0.05
 		},
 		"heading1Style": {
-			"fontName": "MentorW01-Bold",
+			"fontName": "Georgia",
 			"fontSize": 30,
 			"lineHeight": 36,
 			"textAlignment": "left"
 		},
 		"introStyle": {
-			"fontName": "PraxisLTPro-Semibold",
+			"fontName": "Georgia",
 			"fontSize": 24,
 			"lineHeight": 30,
 			"textAlignment": "left",
-			"textColor": "#333",
+			"textColor": "#999",
 			"linkStyle": {
-				"textColor": "#d20c50"
+				"textColor": "#684489"
 			}
 		},
 		"lowerListStyle": {
@@ -275,10 +300,12 @@
 			"textAlignment": "left"
 		},
 		"pullQuoteStyle": {
-			"fontName": "BrushTipTerrenceW00-Reg",
+			"fontName": "Georgia",
 			"fontSize": 42,
-			"lineHeight": 62,
-			"textAlignment": "center"
+			"lineHeight": 50,
+			"textAlignment": "left",
+			"textColor": "#694589",
+			"textTransform":"uppercase"
 		},
 		"spacerWord":{
 			"fontName": "Georgia",
@@ -288,10 +315,11 @@
 			"textTransform": "uppercase"
 		},
 		"titleStyle": {
-			"fontName": "MentorW01-Bold",
+			"fontName": "Georgia",
 			"fontSize": 50,
 			"lineHeight": 58,
-			"textAlignment": "left"
+			"textAlignment": "left",
+			"textColor": "#333"
 		}
 	},
 	"componentLayouts": {
@@ -299,7 +327,7 @@
 		},
 		"authorLayout": {
 			"margin": {
-				"top": 0,
+				"top": 10,
 				"bottom": 30
 			}
 		},
@@ -342,7 +370,7 @@
 		"dateLayout": {
 			"margin": {
 				"top": 40,
-				"bottom": 0
+				"bottom": 10
 			}
 		},
 		"embedLayout": {
@@ -363,7 +391,7 @@
 		},
 		"introLayout": {
 			"margin": {
-				"top": 5,
+				"top": 10,
 				"bottom": 10
 			}
 		},
@@ -372,7 +400,7 @@
 		},
 		"pullQuoteLayout": {
 			"margin": {
-				"top": 20,
+				"top": 25,
 				"bottom": 25
 			},
 			"contentInset": {

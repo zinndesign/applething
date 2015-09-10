@@ -198,7 +198,7 @@
 	},
 	"componentTextStyles": {
 		"authorStyle": {
-			"fontName": "UniversLTW01-57CondensedObl",
+			"fontName": "UniversLTStd-CnObl",
 			"fontSize": 16,
 			"textAlignment": "left",
 			"textColor": "#999",
@@ -247,14 +247,14 @@
 			"textTransform":"uppercase"
 		},
 		"dateStyle": {
-			"fontName": "UniversLTW01-57CondensedObl",
+			"fontName": "UniversLTStd-CnObl",
 			"fontSize": 16,
 			"textAlignment": "left",
 			"textColor": "#999",
 			"textTransform":"uppercase"
 		},
 		"heading1Style": {
-			"fontName": "UniversLTW01-57Condensed",
+			"fontName": "UniversLTStd-Cn",
 			"fontSize": 30,
 			"lineHeight": 40,
 			"textAlignment": "left",
@@ -262,7 +262,7 @@
 			"textTransform":"uppercase"
 		},
 		"introStyle": {
-			"fontName": "UniversLTW01-67BoldCn",
+			"fontName": "UniversLTStd-BoldCn",
 			"fontSize": 24,
 			"lineHeight": 30,
 			"textAlignment": "left",
@@ -291,7 +291,7 @@
 			"textTransform": "uppercase"
 		},
 		"titleStyle": {
-			"fontName": "UniversLTW01-67BoldCn",
+			"fontName": "UniversLTStd-BoldCn",
 			"fontSize": 54,
 			"lineHeight": 56,
 			"textAlignment": "left",

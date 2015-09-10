@@ -235,7 +235,7 @@
 			"textAlignment": "left",
 			"textColor": "#666",
 			"dropCapStyle": {
-				"fontName": "StoneSerifITCW01-SmBd",
+				"fontName": "StoneSerifITCStd-SemiBold",
 				"numberOfLines": 5,
 				"numberOfCharacters": 1,
 				"textColor": "#bccc4f"
@@ -269,7 +269,7 @@
 			"textTransform":"uppercase"
 		},
 		"heading1Style": {
-			"fontName": "StoneSerifITCW01-SmBd",
+			"fontName": "StoneSerifITCStd-SemiBold",
 			"fontSize": 30,
 			"lineHeight": 40,
 			"textAlignment": "left",
@@ -308,7 +308,7 @@
 			"textTransform": "uppercase"
 		},
 		"titleStyle": {
-			"fontName": "StoneSerifITCW01-SmBd",
+			"fontName": "StoneSerifITCStd-SemiBold",
 			"fontSize": 48,
 			"lineHeight": 54,
 			"textAlignment": "left",

@@ -337,7 +337,7 @@
 			"textColor": "#999"
 		},
 		"bodyStyle": {
-			"fontName": "PraxisW01-Light",
+			"fontName": "PraxisLTPro-Light",
 			"fontSize": 20,
 			"lineHeight": 30,
 			"textAlignment": "left",
@@ -346,7 +346,7 @@
 			}
 		},
 		"bodyStyleFirst": {
-			"fontName": "PraxisW01-Light",
+			"fontName": "PraxisLTPro-Light",
 			"fontSize": 20,
 			"lineHeight": 30,
 			"textAlignment": "left",
@@ -360,7 +360,7 @@
 			}
 		},
 		"captionStyle": {
-			"fontName": "PraxisW01-Light",
+			"fontName": "PraxisLTPro-Light",
 			"fontSize": 20,
 			"lineHeight": 30,
 			"textAlignment": "left",
@@ -369,7 +369,7 @@
 			}
 		},
 		"creditStyle": {
-			"fontName": "PraxisW01-Light",
+			"fontName": "PraxisLTPro-Light",
 			"fontSize": 12,
 			"lineHeight": 18,
 			"textAlignment": "right",
@@ -388,7 +388,7 @@
 			"textAlignment": "left"
 		},
 		"introStyle": {
-			"fontName": "PraxisW01-SemiBold",
+			"fontName": "PraxisLTPro-Semibold",
 			"fontSize": 24,
 			"lineHeight": 30,
 			"textAlignment": "left",
