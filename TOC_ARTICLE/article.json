@@ -17,7 +17,7 @@
 			"style": {
 				"fill": {
 					"type": "image",
-					"URL": "http://toc.h-cdn.co/assets/15/36/980x490/landscape-1441131998-grey-goose-honey-deuce.gif",
+					"URL": "bundle://header_img.jpg",
 					"fillMode": "cover",
 					"verticalAlignment": "top"
 				}
@@ -192,6 +192,17 @@
 	"componentStyles": {
 		"baseStrokeStyle": {
 		},
+		"blockQuoteContainerStyle": {
+			"border": {
+				"all": {
+					"width": 4,
+					"color": "#ddd"
+				},
+				"top": false,
+				"right": false,
+				"bottom": false
+			}
+		},
 		"bodyContainerStyle": {
 			"backgroundColor": "#FFF"
 		},
@@ -220,49 +231,60 @@
 	},
 	"componentTextStyles": {
 		"authorStyle": {
-			"fontName": "Georgia",
+			"fontName": "DINComp-Bold",
 			"fontSize": 14,
 			"textAlignment": "left",
-			"textColor": "#999",
+			"textColor": "#8f807d",
 			"textTransform":"uppercase"
 		},
-		"bodyStyle": {
+		"blockQuoteStyle": {
 			"fontName": "Georgia",
+			"textColor": "#777",
+			"fontSize": 18,
+			"lineHeight": 24,
+			"textAlignment": "left",
+			"linkStyle": {
+				"textColor": "#ef008c"
+			}
+		},
+
+		"bodyStyle": {
+			"fontName": "PonaDisplay-Book",
 			"fontSize": 20,
 			"lineHeight": 30,
 			"textAlignment": "left",
-			"tracking": -0.02,
+			"tracking": -0.01,
 			"linkStyle": {
-				"textColor": "#684489"
+				"textColor": "#c03d09"
 			}
 		},
 		"bodyStyleFirst": {
-			"fontName": "Georgia",
+			"fontName": "PonaDisplay-Book",
 			"fontSize": 20,
 			"lineHeight": 30,
 			"textAlignment": "left",
-			"tracking": -0.02,
+			"tracking": -0.01,
 			"dropCapStyle": {
-				"fontName": "Georgia",
-				"textColor":"#e25a9f",
+				"fontName": "PonaDisplay-Book",
+				"textColor":"#be3e19",
 				"numberOfLines": 3,
 				"numberOfCharacters": 1
 			},
 			"linkStyle": {
-				"textColor": "#684489"
+				"textColor": "#c03d09"
 			}
 		},
 		"captionStyle": {
-			"fontName": "Georgia",
+			"fontName": "PonaDisplay-Book",
 			"fontSize": 20,
 			"lineHeight": 30,
 			"textAlignment": "left",
 			"linkStyle": {
-				"textColor": "#684489"
+				"textColor": "#c03d09"
 			}
 		},
 		"creditStyle": {
-			"fontName": "Georgia",
+			"fontName": "DINComp-Bold",
 			"fontSize": 18,
 			"lineHeight": 24,
 			"textAlignment": "right",
@@ -270,56 +292,56 @@
 			"textTransform":"uppercase"
 		},
 		"dateStyle": {
-			"fontName": "Georgia",
+			"fontName": "DINComp-Bold",
 			"fontSize": 14,
 			"textAlignment": "left",
-			"textColor": "#999",
+			"textColor": "#8f807d",
 			"textTransform":"uppercase",
 			"tracking": -0.05
 		},
 		"heading1Style": {
-			"fontName": "Georgia",
+			"fontName": "DINComp-Bold",
 			"fontSize": 30,
 			"lineHeight": 36,
-			"textAlignment": "left"
+			"textAlignment": "left",
+			"textTransform":"uppercase",
+			"tracking": 0.02
 		},
 		"introStyle": {
-			"fontName": "Georgia",
+			"fontName": "PonaDisplay-BookItalic",
 			"fontSize": 24,
 			"lineHeight": 30,
 			"textAlignment": "left",
-			"textColor": "#999",
 			"linkStyle": {
-				"textColor": "#684489"
+				"textColor": "#c03d09"
 			}
 		},
 		"lowerListStyle": {
-			"fontName": "Georgia",
+			"fontName": "PonaDisplay-Book",
 			"fontSize": 18,
 			"lineHeight": 20,
 			"textAlignment": "left"
 		},
 		"pullQuoteStyle": {
-			"fontName": "Georgia",
+			"fontName": "PonaDisplay-BookItalic",
 			"fontSize": 42,
 			"lineHeight": 50,
 			"textAlignment": "left",
-			"textColor": "#694589",
-			"textTransform":"uppercase"
+			"textColor": "#4b2402"
 		},
 		"spacerWord":{
-			"fontName": "Georgia",
+			"fontName": "PonaDisplay-Book",
 			"fontSize": 48,
 			"lineHeight": 48,
 			"textAlignment": "left",
 			"textTransform": "uppercase"
 		},
 		"titleStyle": {
-			"fontName": "Georgia",
+			"fontName": "PonaDisplay-Book",
 			"fontSize": 50,
 			"lineHeight": 58,
 			"textAlignment": "left",
-			"textColor": "#333"
+			"tracking": -0.01
 		}
 	},
 	"componentLayouts": {
@@ -342,6 +364,13 @@
 		},
 		"blackStrokeLayout4":{
 			"margin": 0
+		},
+		"blockQuoteLayout": {
+			"contentInset": {
+				"left": true,
+				"right": true
+			},
+			"margin": 15
 		},
 		"bodyContainerLayout": {
 			"margin": {
