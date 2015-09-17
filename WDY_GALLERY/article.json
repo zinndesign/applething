@@ -297,6 +297,17 @@
 	"componentStyles": {
 		"baseStrokeStyle": {
 		},
+		"blockQuoteContainerStyle": {
+			"border": {
+				"all": {
+					"width": 4,
+					"color": "#ddd"
+				},
+				"top": false,
+				"right": false,
+				"bottom": false
+			}
+		},
 		"bodyContainerStyle": {
 			"backgroundColor": "#FFF"
 		},
@@ -316,7 +327,7 @@
 		"tabLayoutStyle": {
 			"fill": {
 				"type": "image",
-				"URL": "bundle://wdy_header_gallery.png",
+				"URL": "https://s3.amazonaws.com/sallyhdm/wdy_header_gallery.png",
 				"fillMode": "fit",
 				"verticalAlignment": "bottom",
 				"horizontalAlignment": "right"
@@ -325,11 +336,22 @@
 	},
 	"componentTextStyles": {
 		"authorStyle": {
-			"fontName": "BodoniEgyptW01-Medium",
+			"fontName": "BodoniEgyptianPro-Medium",
 			"fontSize": 14,
 			"textAlignment": "left",
 			"textColor": "#999",
 			"textTransform":"uppercase"
+		},
+		"blockQuoteStyle": {
+			"fontName": "Georgia",
+			"textColor": "#777",
+			"fontSize": 20,
+			"lineHeight": 30,
+			"textAlignment": "left",
+			"tracking": -0.02,
+			"linkStyle": {
+				"textColor": "#684489"
+			}
 		},
 		"bodyStyle": {
 			"fontName": "Georgia",
@@ -348,7 +370,7 @@
 			"textAlignment": "left",
 			"tracking": -0.02,
 			"dropCapStyle": {
-				"fontName": "BodoniEgyptW01-Medium",
+				"fontName": "BodoniEgyptianPro-Medium",
 				"textColor":"#e25a9f",
 				"numberOfLines": 3,
 				"numberOfCharacters": 1
@@ -367,7 +389,7 @@
 			}
 		},
 		"creditStyle": {
-			"fontName": "AvenirNextLTW01-Demi",
+			"fontName": "AvenirNextLTPro-Demi",
 			"fontSize": 12,
 			"lineHeight": 16,
 			"textAlignment": "right",
@@ -375,7 +397,7 @@
 			"tracking": -0.05
 		},
 		"dateStyle": {
-			"fontName": "AvenirNextLTW01-Demi",
+			"fontName": "AvenirNextLTPro-Demi",
 			"fontSize": 14,
 			"textAlignment": "left",
 			"textColor": "#999",
@@ -383,7 +405,7 @@
 			"tracking": -0.05
 		},
 		"heading1Style": {
-			"fontName": "BodoniEgyptW01-Medium",
+			"fontName": "BodoniEgyptianPro-Medium",
 			"fontSize": 30,
 			"lineHeight": 36,
 			"textAlignment": "left",
@@ -406,14 +428,14 @@
 			"textAlignment": "left"
 		},
 		"pullQuoteStyle": {
-			"fontName": "BodoniEgyptW01-Medium",
+			"fontName": "BodoniEgyptianPro-Medium",
 			"fontSize": 32,
 			"lineHeight": 42,
 			"textAlignment": "left",
 			"textColor": "#694589",
 			"textTransform":"uppercase"
 		},
-		"spacerWord":{
+		"spacerWord": {
 			"fontName": "Georgia",
 			"fontSize": 48,
 			"lineHeight": 48,
@@ -421,7 +443,7 @@
 			"textTransform": "uppercase"
 		},
 		"titleStyle": {
-			"fontName": "AvenirNextLTW01-Demi",
+			"fontName": "AvenirNextLTPro-Demi",
 			"fontSize": 50,
 			"lineHeight": 58,
 			"textAlignment": "left",
@@ -437,17 +459,24 @@
 				"bottom": 30
 			}
 		},
-		"blackStrokeLayout1":{
+		"blackStrokeLayout1": {
 			"margin": 0
 		},
-		"blackStrokeLayout2":{
+		"blackStrokeLayout2": {
 			"margin": 0
 		},
-		"blackStrokeLayout3":{
+		"blackStrokeLayout3": {
 			"margin": 0
 		},
-		"blackStrokeLayout4":{
+		"blackStrokeLayout4": {
 			"margin": 0
+		},
+		"blockQuoteLayout": {
+			"contentInset": {
+				"left": true,
+				"right": true
+			},
+			"margin": 15
 		},
 		"bodyContainerLayout": {
 			"margin": {
@@ -515,7 +544,8 @@
 			}
 		},
 		"slideLayout": {
-			"ignoreDocumentMargin": true
+			"ignoreDocumentMargin": true,
+			"margin": 15
 		},
 		"spacerLayout": {
 			"margin": {

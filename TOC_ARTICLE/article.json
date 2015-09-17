@@ -17,7 +17,7 @@
 			"style": {
 				"fill": {
 					"type": "image",
-					"URL": "bundle://header_img.jpg",
+					"URL": "http://toc.h-cdn.co/assets/15/35/1600x800/landscape-1440610279-grey-goose-honey-deuce-high-res.jpg",
 					"fillMode": "cover",
 					"verticalAlignment": "top"
 				}
@@ -101,6 +101,29 @@
 					"format": "markdown"
 				},
 				{
+					"role": "divider",
+					"stroke": {
+						"color": "#FFF0"
+					},
+					"layout": "blackStrokeLayout3",
+					"style": "baseStrokeStyle"
+				},
+				{
+					"role": "pullquote",
+					"layout": "pullQuoteLayout",
+					"text": "\u201CMautone, Grey Goose says, decided to combine the vodka with lemonade to quench spectators' thirst in the late summer heat\u201D",
+					"textStyle": "pullQuoteStyle",
+					"format": "markdown"
+				},
+				{
+					"role": "divider",
+					"stroke": {
+						"color": "#FFF0"
+					},
+					"layout": "blackStrokeLayout4",
+					"style": "baseStrokeStyle"
+				},
+				{
 					"role": "body",
 					"text": "Mautone, Grey Goose says, decided to combine the vodka with lemonade to quench spectators' thirst in the late summer heat. The Chambord adds a raspberry kick. In addition, since honeydew melons are at their peak in summer months, the melon balls are an appropriate finishing touch.",
 					"layout": "bodyLayout",
@@ -123,59 +146,28 @@
 				},
 				{
 					"role": "body",
-					"text": "\"We stared in disbelief. Time stood still. I started to reach in the safe and Eddie yelled, 'Wait it might be booby trapped!' I'm still laughing at that one,\" the woman writes on Imgur. Yet, nothing would stop her from having at that bourbon.",
+					"text": "\n* 1.25 parts Grey Goose vodka\n* Fresh squeezed lemonade\n * .5 part Chambord or premium raspberry liqueur\n* Crushed ice\n* Honeydew melons for garnish",
 					"layout": "bodyLayout",
 					"textStyle": "bodyStyle",
 					"format": "markdown"
 				},
 				{
-					"role": "divider",
-					"stroke": {
-						"color": "#FFF0"
-					},
-					"layout": "blackStrokeLayout3",
-					"style": "baseStrokeStyle"
-				},
-				{
-					"role": "pullquote",
-					"layout": "pullQuoteLayout",
-					"text": "\u201CI started to reach in the safe and Eddie yelled, 'Wait it might be booby trapped!' I'm still laughing at that one...\u201D",
-					"textStyle": "pullQuoteStyle",
+					"role": "heading1",
+					"layout": "heading1Layout",
+					"text": "Instructions",
+					"textStyle": "heading1Style",
 					"format": "markdown"
 				},
 				{
-					"role": "divider",
-					"stroke": {
-						"color": "#FFF0"
-					},
-					"layout": "blackStrokeLayout4",
-					"style": "baseStrokeStyle"
+					"role": "body",
+					"text": "\n1. Fill a chilled highball glass with crushed ice and add Grey Goose vodka.\n2. Top with lemonade to just below the rim and then add Chambord.\n3. Garnish with honeydew melon balls.",
+					"layout": "bodyLayout",
+					"textStyle": "bodyStyle",
+					"format": "markdown"
 				},
 				{
 					"role": "body",
 					"text": "Besides the cash and the hooch, the safe also contained\u2014and this is where it gets interesting\u2014a book called _A Guide for the Perplexed_, published in 1977, that appears to contain clues. Inside, there was a black and white photo of a mystery (and, might we add, dapper) man. On the back of Mr. Handsome's pic, there was a note that reads:",
-					"layout": "bodyLayout",
-					"textStyle": "bodyStyle",
-					"format": "markdown"
-				},
-				{
-					"role": "quote",
-					"text": "Alan, I have a book you must read. I've underlined a few key passages. Your friend, Vincent",
-					"layout": "blockQuoteLayout",
-					"textStyle": "blockQuoteStyle",
-					"style": "blockQuoteContainerStyle",
-					"format": "markdown"
-				},
-				{
-					"role": "body",
-					"text": "There was one more poignant passage Vincent thoughtfully pointed out to Alan: \"Most Modern Readers will be reluctant to believe that perfect happiness is attainable by methods of which their modern world knows nothing.\" Was this, perhaps the 1977 equivalent of saying, 'stop coveting that iWatch and find joy in simple walks and stuff? Unclear, but it certainly gives you pause.",
-					"layout": "bodyLayout",
-					"textStyle": "bodyStyle",
-					"format": "markdown"
-				},
-				{
-					"role": "body",
-					"text": "_**UPDATE, 8/29:** Well, we thought it sounded too good to be true, and in fact, it was. The couple whose treasure hunt story took the Internet by storm this week have fessed up: They fabricated the whole thing. The Chive has more details on how they pulled off to the ruse. And while we feel chagrined, we're happy to see the money they \"discovered\" has found a good home: They donated it to a local no-kill animal shelter._",
 					"layout": "bodyLayout",
 					"textStyle": "bodyStyle",
 					"format": "markdown"
@@ -239,7 +231,7 @@
 			"textTransform":"uppercase"
 		},
 		"blockQuoteStyle": {
-			"fontName": "PonaDisplay-Book",
+			"fontName": "Georgia",
 			"textColor": "#777",
 			"fontSize": 18,
 			"lineHeight": 24,
@@ -250,23 +242,25 @@
 		},
 
 		"bodyStyle": {
-			"fontName": "PonaDisplay-Book",
+			"fontName": "Georgia",
 			"fontSize": 20,
 			"lineHeight": 30,
 			"textAlignment": "left",
+			"textColor":"#333",
 			"tracking": -0.01,
 			"linkStyle": {
 				"textColor": "#c03d09"
 			}
 		},
 		"bodyStyleFirst": {
-			"fontName": "PonaDisplay-Book",
+			"fontName": "Georgia",
 			"fontSize": 20,
 			"lineHeight": 30,
 			"textAlignment": "left",
+			"textColor":"#333",
 			"tracking": -0.01,
 			"dropCapStyle": {
-				"fontName": "PonaDisplay-Book",
+				"fontName": "Georgia",
 				"textColor":"#be3e19",
 				"numberOfLines": 3,
 				"numberOfCharacters": 1
@@ -302,16 +296,17 @@
 		},
 		"heading1Style": {
 			"fontName": "DINComp-Bold",
-			"fontSize": 30,
-			"lineHeight": 36,
+			"fontSize": 28,
+			"lineHeight": 34,
 			"textAlignment": "left",
+			"textColor": "#4b2402",
 			"textTransform":"uppercase",
-			"tracking": 0.02
+			"tracking": 0.03
 		},
 		"introStyle": {
 			"fontName": "PonaDisplay-BookItalic",
-			"fontSize": 24,
-			"lineHeight": 30,
+			"fontSize": 22,
+			"lineHeight": 28,
 			"textAlignment": "left",
 			"linkStyle": {
 				"textColor": "#c03d09"
@@ -400,7 +395,7 @@
 		"dateLayout": {
 			"margin": {
 				"top": 40,
-				"bottom": 10
+				"bottom": 5
 			}
 		},
 		"embedLayout": {
@@ -411,7 +406,7 @@
 		},
 		"headerImageLayout": {
 			"ignoreDocumentMargin": true,
-			"minimumHeight": "75vmin"
+			"minimumHeight": "55vmin"
 		},
 		"heading1Layout": {
 			"margin": {
@@ -449,7 +444,7 @@
 		},
 		"tabLayout": {
 			"ignoreDocumentMargin": true,
-			"minimumHeight": 124
+			"minimumHeight": "5vmin"
 		},
 		"titleLayout": {
 			"margin": {

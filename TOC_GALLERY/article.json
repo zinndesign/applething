@@ -1,7 +1,7 @@
 {
 	"version": "0.10",
 	"identifier": "!!!DYNAMIC",
-	"title": "What This Couple Found Inside a 50-Year-Old Safe Hidden Behind Their Wall Is Straight Out of a Movie",
+	"title": "The 17 Fall Finds We Can't Stop Raving About",
 	"language": "en",
 	"blueprint": "basic",
 	"layout": {
@@ -17,7 +17,7 @@
 			"style": {
 				"fill": {
 					"type": "image",
-					"URL": "http://wdy.h-cdn.co/assets/15/35/1440780982-1440776126-3cpq2uy-1.jpg",
+					"URL": "http://toc.h-cdn.co/assets/15/37/1600x800/landscape-1441998199-gettyimages-200452457-001.jpg",
 					"fillMode": "cover",
 					"verticalAlignment": "top"
 				}
@@ -48,19 +48,19 @@
 				{
 					"role": "intro",
 					"layout": "dateLayout",
-					"text": "AUG 11, 2015 @ 5:33 PM",
+					"text": "Sep 1, 2015 @ 3:00 PM",
 					"textStyle": "dateStyle"
 				},
 				{
 					"role": "title",
 					"layout": "titleLayout",
-					"text": "What This Couple Found Inside a 50-Year-Old Safe Hidden Behind Their Wall Is Straight Out of a Movie",
+					"text": "The 17 Fall Finds We Can't Stop Raving About",
 					"textStyle": "titleStyle"
 				},
 				{
 					"role": "intro",
 					"layout": "introLayout",
-					"text": "See, it totally pays to DIY.",
+					"text": "A lesson in back to school beauty.",
 					"textStyle": "introStyle",
 					"format": "markdown"
 				},
@@ -75,7 +75,7 @@
 				{
 					"role": "author",
 					"layout": "authorLayout",
-					"text": "By Brie Schwartz",
+					"text": "By Jamie Rosen & Meg Storm",
 					"textStyle": "authorStyle"
 				},
 				{
@@ -86,49 +86,16 @@
 					"layout": "blackStrokeLayout2",
 					"style": "baseStrokeStyle"
 				},
-				{ 
-					 "role": "medium_rectangle_advertisement",
-					 "layout": "adLayout",
-					 "bannerType": "standard"
-				},
 				{
 					"role": "body",
-					"text": "A Phoenix couple kicking off some home renovations were shocked to find that inside their walls instead of rusty pipes or creepy crawlers, there was a 50-year-old safe, just waiting to be cracked.",
+					"text": "The Kentucky Derby has the [mint julep](http://google.com). The US Open has the Honey Deuce. Created by Grey Goose mixologist Nick Mautone in 2007, the tasty combination of vodka, lemonade, and raspberry liqueur has become the signature beverage of the tennis tournament.",
 					"layout": "bodyLayout",
 					"textStyle": "bodyStyleFirst",
 					"format": "markdown"
 				},
 				{
 					"role": "body",
-					"text": "When they first moved into their home, which the couple, who posted their incredible story on [Imgur](http://imgur.com/gallery/ldW7B) describe as a \"fixer upper,\" they found a safe code in the back of a medicine cabinet but never knew where it led.",
-					"layout": "bodyLayout",
-					"textStyle": "bodyStyle",
-					"format": "markdown"
-				},
-				{
-					"role": "body",
-					"text": "Once they tore down their kitchen island and started hammering away, they found the [mystery](http://www.womansday.com/relationships/family-friends/news/a51541/woman-finds-decades-old-mystery-letter-hidden-inside-picture-frame/) box.",
-					"layout": "bodyLayout",
-					"textStyle": "bodyStyle",
-					"format": "markdown"
-				},
-				{
-					"role": "heading1",
-					"layout": "heading1Layout",
-					"text": "Opening the \"Mystery Box\"",
-					"textStyle": "heading1Style",
-					"format": "markdown"
-				},
-				{
-					"role": "body",
-					"text": "Using the code that they luckily secreted away, they were able to get the safe open after a dozen attempts. And what did they find inside? $51,080, mostly in $100 notes and a bottle of bourbon dated 1960.",
-					"layout": "bodyLayout",
-					"textStyle": "bodyStyle",
-					"format": "markdown"
-				},
-				{
-					"role": "body",
-					"text": "\"We stared in disbelief. Time stood still. I started to reach in the safe and Eddie yelled, 'Wait it might be booby trapped!' I'm still laughing at that one,\" the woman writes on Imgur. Yet, nothing would stop her from having at that bourbon.",
+					"text": "The best part? The frozen honeydew melon balls used a garnish. Resembling tennis balls, they remind imbibers what the US Open is really about (not that the drinks and food at the USTA Billie Jean King National Tennis Center aren't great on their own).",
 					"layout": "bodyLayout",
 					"textStyle": "bodyStyle",
 					"format": "markdown"
@@ -144,7 +111,7 @@
 				{
 					"role": "pullquote",
 					"layout": "pullQuoteLayout",
-					"text": "\u201CI started to reach in the safe and Eddie yelled, 'Wait it might be booby trapped!' I'm still laughing at that one...\u201D",
+					"text": "\u201CMautone, Grey Goose says, decided to combine the vodka with lemonade to quench spectators' thirst in the late summer heat\u201D",
 					"textStyle": "pullQuoteStyle",
 					"format": "markdown"
 				},
@@ -158,29 +125,49 @@
 				},
 				{
 					"role": "body",
+					"text": "Mautone, Grey Goose says, decided to combine the vodka with lemonade to quench spectators' thirst in the late summer heat. The Chambord adds a raspberry kick. In addition, since honeydew melons are at their peak in summer months, the melon balls are an appropriate finishing touch.",
+					"layout": "bodyLayout",
+					"textStyle": "bodyStyle",
+					"format": "markdown"
+				},
+				{
+					"role": "body",
+					"text": "More than 150,000 Honey Deuces have been sold since its inception. Here's how to make the drink at home.",
+					"layout": "bodyLayout",
+					"textStyle": "bodyStyle",
+					"format": "markdown"
+				},
+				{
+					"role": "heading1",
+					"layout": "heading1Layout",
+					"text": "Ingredients",
+					"textStyle": "heading1Style",
+					"format": "markdown"
+				},
+				{
+					"role": "body",
+					"text": "\n* 1.25 parts Grey Goose vodka\n* Fresh squeezed lemonade\n * .5 part Chambord or premium raspberry liqueur\n* Crushed ice\n* Honeydew melons for garnish",
+					"layout": "bodyLayout",
+					"textStyle": "bodyStyle",
+					"format": "markdown"
+				},
+				{
+					"role": "heading1",
+					"layout": "heading1Layout",
+					"text": "Instructions",
+					"textStyle": "heading1Style",
+					"format": "markdown"
+				},
+				{
+					"role": "body",
+					"text": "\n1. Fill a chilled highball glass with crushed ice and add Grey Goose vodka.\n2. Top with lemonade to just below the rim and then add Chambord.\n3. Garnish with honeydew melon balls.",
+					"layout": "bodyLayout",
+					"textStyle": "bodyStyle",
+					"format": "markdown"
+				},
+				{
+					"role": "body",
 					"text": "Besides the cash and the hooch, the safe also contained\u2014and this is where it gets interesting\u2014a book called _A Guide for the Perplexed_, published in 1977, that appears to contain clues. Inside, there was a black and white photo of a mystery (and, might we add, dapper) man. On the back of Mr. Handsome's pic, there was a note that reads:",
-					"layout": "bodyLayout",
-					"textStyle": "bodyStyle",
-					"format": "markdown"
-				},
-				{
-					"role": "quote",
-					"text": "Alan, I have a book you must read. I've underlined a few key passages. Your friend, Vincent",
-					"layout": "blockQuoteLayout",
-					"textStyle": "blockQuoteStyle",
-					"style": "blockQuoteContainerStyle",
-					"format": "markdown"
-				},
-				{
-					"role": "body",
-					"text": "There was one more poignant passage Vincent thoughtfully pointed out to Alan: \"Most Modern Readers will be reluctant to believe that perfect happiness is attainable by methods of which their modern world knows nothing.\" Was this, perhaps the 1977 equivalent of saying, 'stop coveting that iWatch and find joy in simple walks and stuff? Unclear, but it certainly gives you pause.",
-					"layout": "bodyLayout",
-					"textStyle": "bodyStyle",
-					"format": "markdown"
-				},
-				{
-					"role": "body",
-					"text": "_**UPDATE, 8/29:** Well, we thought it sounded too good to be true, and in fact, it was. The couple whose treasure hunt story took the Internet by storm this week have fessed up: They fabricated the whole thing. The Chive has more details on how they pulled off to the ruse. And while we feel chagrined, we're happy to see the money they \"discovered\" has found a good home: They donated it to a local no-kill animal shelter._",
 					"layout": "bodyLayout",
 					"textStyle": "bodyStyle",
 					"format": "markdown"
@@ -228,7 +215,7 @@
 		"tabLayoutStyle": {
 			"fill": {
 				"type": "image",
-				"URL": "https://s3.amazonaws.com/sallyhdm/wdy_header_article.png",
+				"URL": "bundle://toc_header_article.png",
 				"fillMode": "fit",
 				"verticalAlignment": "bottom",
 				"horizontalAlignment": "right"
@@ -237,10 +224,10 @@
 	},
 	"componentTextStyles": {
 		"authorStyle": {
-			"fontName": "BodoniEgyptianPro-Medium",
+			"fontName": "DINComp-Bold",
 			"fontSize": 14,
 			"textAlignment": "left",
-			"textColor": "#999",
+			"textColor": "#8f807d",
 			"textTransform":"uppercase"
 		},
 		"blockQuoteStyle": {
@@ -249,48 +236,43 @@
 			"fontSize": 18,
 			"lineHeight": 24,
 			"textAlignment": "left",
-			"tracking": -0.02,
 			"linkStyle": {
-				"textColor": "#684489"
+				"textColor": "#c03d09"
 			}
 		},
 		"bodyStyle": {
-			"fontName": "Georgia",
+			"fontName": "PonaDisplay-Book",
 			"fontSize": 20,
 			"lineHeight": 30,
 			"textAlignment": "left",
-			"tracking": -0.02,
+			"textColor":"#333",
+			"tracking": -0.01,
 			"linkStyle": {
-				"textColor": "#684489"
+				"textColor": "#c03d09"
 			}
 		},
 		"bodyStyleFirst": {
-			"fontName": "Georgia",
+			"fontName": "PonaDisplay-Book",
 			"fontSize": 20,
 			"lineHeight": 30,
 			"textAlignment": "left",
-			"tracking": -0.02,
-			"dropCapStyle": {
-				"fontName": "BodoniEgyptianPro-Medium",
-				"textColor":"#e25a9f",
-				"numberOfLines": 3,
-				"numberOfCharacters": 1
-			},
+			"textColor":"#333",
+			"tracking": -0.01,
 			"linkStyle": {
-				"textColor": "#684489"
+				"textColor": "#c03d09"
 			}
 		},
 		"captionStyle": {
-			"fontName": "Georgia",
+			"fontName": "PonaDisplay-Book",
 			"fontSize": 20,
 			"lineHeight": 30,
 			"textAlignment": "left",
 			"linkStyle": {
-				"textColor": "#684489"
+				"textColor": "#c03d09"
 			}
 		},
 		"creditStyle": {
-			"fontName": "Georgia",
+			"fontName": "DINComp-Bold",
 			"fontSize": 18,
 			"lineHeight": 24,
 			"textAlignment": "right",
@@ -298,56 +280,57 @@
 			"textTransform":"uppercase"
 		},
 		"dateStyle": {
-			"fontName": "AvenirNextLTPro-Demi",
+			"fontName": "DINComp-Bold",
 			"fontSize": 14,
 			"textAlignment": "left",
-			"textColor": "#999",
+			"textColor": "#8f807d",
 			"textTransform":"uppercase",
 			"tracking": -0.05
 		},
 		"heading1Style": {
-			"fontName": "AvenirNextLTPro-Bold",
-			"fontSize": 30,
-			"lineHeight": 36,
-			"textAlignment": "left"
+			"fontName": "DINComp-Bold",
+			"fontSize": 28,
+			"lineHeight": 34,
+			"textAlignment": "left",
+			"textColor": "#4b2402",
+			"textTransform":"uppercase",
+			"tracking": 0.03
 		},
 		"introStyle": {
-			"fontName": "Georgia-Italic",
-			"fontSize": 24,
-			"lineHeight": 30,
+			"fontName": "PonaDisplay-BookItalic",
+			"fontSize": 22,
+			"lineHeight": 28,
 			"textAlignment": "left",
-			"textColor": "#999",
 			"linkStyle": {
-				"textColor": "#684489"
+				"textColor": "#c03d09"
 			}
 		},
 		"lowerListStyle": {
-			"fontName": "Georgia",
+			"fontName": "PonaDisplay-Book",
 			"fontSize": 18,
 			"lineHeight": 20,
 			"textAlignment": "left"
 		},
 		"pullQuoteStyle": {
-			"fontName": "BodoniEgyptianPro-Medium",
+			"fontName": "PonaDisplay-BookItalic",
 			"fontSize": 42,
 			"lineHeight": 50,
 			"textAlignment": "left",
-			"textColor": "#694589",
-			"textTransform":"uppercase"
+			"textColor": "#4b2402"
 		},
-		"spacerWord": {
-			"fontName": "Georgia",
+		"spacerWord":{
+			"fontName": "PonaDisplay-Book",
 			"fontSize": 48,
 			"lineHeight": 48,
 			"textAlignment": "left",
 			"textTransform": "uppercase"
 		},
 		"titleStyle": {
-			"fontName": "AvenirNextLTPro-Demi",
+			"fontName": "PonaDisplay-Book",
 			"fontSize": 50,
 			"lineHeight": 58,
 			"textAlignment": "left",
-			"textColor": "#333"
+			"tracking": -0.01
 		}
 	},
 	"componentLayouts": {
@@ -359,16 +342,16 @@
 				"bottom": 30
 			}
 		},
-		"blackStrokeLayout1": {
+		"blackStrokeLayout1":{
 			"margin": 0
 		},
-		"blackStrokeLayout2": {
+		"blackStrokeLayout2":{
 			"margin": 0
 		},
-		"blackStrokeLayout3": {
+		"blackStrokeLayout3":{
 			"margin": 0
 		},
-		"blackStrokeLayout4": {
+		"blackStrokeLayout4":{
 			"margin": 0
 		},
 		"blockQuoteLayout": {
@@ -405,7 +388,7 @@
 		"dateLayout": {
 			"margin": {
 				"top": 40,
-				"bottom": 10
+				"bottom": 5
 			}
 		},
 		"embedLayout": {
@@ -416,7 +399,7 @@
 		},
 		"headerImageLayout": {
 			"ignoreDocumentMargin": true,
-			"minimumHeight": "75vmin"
+			"minimumHeight": "55vmin"
 		},
 		"heading1Layout": {
 			"margin": {
@@ -444,8 +427,7 @@
 			}
 		},
 		"slideLayout": {
-			"ignoreDocumentMargin": true,
-			"margin": 15
+			"ignoreDocumentMargin": true
 		},
 		"spacerLayout": {
 			"margin": {
@@ -455,7 +437,7 @@
 		},
 		"tabLayout": {
 			"ignoreDocumentMargin": true,
-			"minimumHeight": 124
+			"minimumHeight": "5vmin"
 		},
 		"titleLayout": {
 			"margin": {
