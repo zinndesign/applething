@@ -86,11 +86,6 @@
 					"layout": "blackStrokeLayout2",
 					"style": "baseStrokeStyle"
 				},
-				{ 
-					 "role": "medium_rectangle_advertisement",
-					 "layout": "adLayout",
-					 "bannerType": "standard"
-				},
 				{
 					"role": "body",
 					"text": "Lorem ipsum dolor sit amet, [consectetur adipiscing elit](http://google.com). Praesent non vestibulum dolor, sed laoreet ante. Maecenas auctor felis ut dolor placerat pellentesque. Quisque rhoncus lobortis egestas. Vestibulum dictum tincidunt enim. Praesent venenatis quis orci nec fermentum. Vivamus arcu libero, malesuada eu posuere in, convallis vel erat. Fusce gravida eu velit at efficitur. Donec mauris nulla, laoreet non orci a, tincidunt porttitor arcu.",

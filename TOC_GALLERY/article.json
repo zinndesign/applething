@@ -88,89 +88,172 @@
 				},
 				{
 					"role": "body",
-					"text": "The Kentucky Derby has the [mint julep](http://google.com). The US Open has the Honey Deuce. Created by Grey Goose mixologist Nick Mautone in 2007, the tasty combination of vodka, lemonade, and raspberry liqueur has become the signature beverage of the tennis tournament.",
+					"text": "Lorem ipsum dolor sit amet, [consectetur adipiscing elit](http://google.com). Praesent non vestibulum dolor, sed laoreet ante. Maecenas auctor felis ut dolor placerat pellentesque. Quisque rhoncus lobortis egestas. Vestibulum dictum tincidunt enim. Praesent venenatis quis orci nec fermentum. Vivamus arcu libero, malesuada eu posuere in, convallis vel erat. Fusce gravida eu velit at efficitur. Donec mauris nulla, laoreet non orci a, tincidunt porttitor arcu.",
 					"layout": "bodyLayout",
 					"textStyle": "bodyStyleFirst",
 					"format": "markdown"
 				},
 				{
-					"role": "body",
-					"text": "The best part? The frozen honeydew melon balls used a garnish. Resembling tennis balls, they remind imbibers what the US Open is really about (not that the drinks and food at the USTA Billie Jean King National Tennis Center aren't great on their own).",
-					"layout": "bodyLayout",
-					"textStyle": "bodyStyle",
-					"format": "markdown"
+					"role": "section",
+					"layout": "slideLayout",
+					"components": [
+						{
+							"role": "heading",
+							"text": "The Innovator",
+							"layout": "heading1Layout",
+							"textStyle": "heading1Style",
+							"format": "markdown"
+						},
+						{
+							"role": "container",
+							"style": "photoContainerStyle",
+							"components": [
+								{
+									"role": "image",
+									"URL": "http://toc.h-cdn.co/assets/15/37/badlands-dry-shampoo-paste-final-2-copy.jpg",
+									"layout": "photoLayout",
+									"animation": {
+										"type": "fade_in",
+										"userControllable": true,
+										"initialAlpha": 0.1
+									}
+								}
+							]
+						},			
+						{
+							"role": "caption",
+							"text": "As a dry hair shampoo devotee, I am always on the lookout for a product that will extend my blowout and give my fine, straight hair body. The residue-free **R+Co** Badlands Dry Shampoo Paste ($28, [randco.com](http://randco.com)) is the high-tech answer to my prayers. The paste, which includes volcanic ash for oil absorption, turns to a matte powder upon application and can be used from root to tip for added volume and texture. *Meg Storm, Beauty Assistant*",
+							"layout": "captionLayout",
+							"textStyle": "captionStyle",
+							"format": "markdown"
+						}
+					]
 				},
 				{
-					"role": "divider",
-					"stroke": {
-						"color": "#FFF0"
-					},
-					"layout": "blackStrokeLayout3",
-					"style": "baseStrokeStyle"
+					"role": "section",
+					"layout": "slideLayout",
+					"components": [
+						{
+							"role": "heading",
+							"text": "The Wonder Brow",
+							"layout": "heading1Layout",
+							"textStyle": "heading1Style",
+							"format": "markdown"
+						},
+						{
+							"role": "container",
+							"style": "photoContainerStyle",
+							"components": [
+								{
+									"role": "image",
+									"URL": "http://toc.h-cdn.co/assets/15/37/1442007615-combine-images-1.jpg",
+									"layout": "photoLayout",
+									"animation": {
+										"type": "fade_in",
+										"userControllable": true,
+										"initialAlpha": 0.1
+									}
+								}
+							]
+						},
+						{
+							"role": "photographer",
+							"text": "Sephora",
+							"layout": "creditLayout",
+							"textStyle": "creditStyle"
+						},			
+						{
+							"role": "caption",
+							"text": "As brow products go, a brush-on tint is among the easiest to apply. But it doesn't address spotty areas where there is no hair for the mascara-brush-like applicator to grab on to. The **Chosungah 22** Dong Gong Minn Brow Maker ($22, [sephora.com](http://sephora.com)) has solved this issue: The sponge tip at its end allows you deposit color on and around the brow first (admittedly, it can be a little messy), then brush it through, in and around brows, for a full, filled-in look. *J.R.*",
+							"layout": "captionLayout",
+							"textStyle": "captionStyle",
+							"format": "markdown"
+						}
+					]
 				},
 				{
-					"role": "pullquote",
-					"layout": "pullQuoteLayout",
-					"text": "\u201CMautone, Grey Goose says, decided to combine the vodka with lemonade to quench spectators' thirst in the late summer heat\u201D",
-					"textStyle": "pullQuoteStyle",
-					"format": "markdown"
+					"role": "section",
+					"layout": "slideLayout",
+					"components": [
+						{
+							"role": "heading",
+							"text": "The Skin Savior",
+							"layout": "heading1Layout",
+							"textStyle": "heading1Style",
+							"format": "markdown"
+						},
+						{
+							"role": "container",
+							"style": "photoContainerStyle",
+							"components": [
+								{
+									"role": "image",
+									"URL": "http://toc.h-cdn.co/assets/15/37/bd_geranium_productpage-copy-2.jpg",
+									"layout": "photoLayout",
+									"animation": {
+										"type": "fade_in",
+										"userControllable": true,
+										"initialAlpha": 0.1
+									}
+								}
+							]
+						},
+						{
+							"role": "photographer",
+							"text": "SkinOwl",
+							"layout": "creditLayout",
+							"textStyle": "creditStyle"
+						},			
+						{
+							"role": "caption",
+							"text": "After years of struggling with acne and eczema, makeup artist Annie Tevelin decided it was time to learn more about what she was putting on her skin via a crash course in cosmetic chemistry at UCLA. She subsequently created **SkinOwl**\u2014a line of oils and eye creams that contain only a handful of natural ingredients. The Geranium Beauty Drops ($30, [skinowl.com](http://skinowl.com)), which is the product Tevelin credits with clearing her now glowing skin, have become a mainstay in my skincare routine. With just two ingredients\u2014raw, organic, unrefined argania spinosa extract and organic rose geranium oil\u2014the oil is light enough to be worn under makeup and hydrating enough to replace my daily moisturizer. *M.S.*",
+							"layout": "captionLayout",
+							"textStyle": "captionStyle",
+							"format": "markdown"
+						}
+					]
 				},
-				{
-					"role": "divider",
-					"stroke": {
-						"color": "#FFF0"
-					},
-					"layout": "blackStrokeLayout4",
-					"style": "baseStrokeStyle"
-				},
-				{
-					"role": "body",
-					"text": "Mautone, Grey Goose says, decided to combine the vodka with lemonade to quench spectators' thirst in the late summer heat. The Chambord adds a raspberry kick. In addition, since honeydew melons are at their peak in summer months, the melon balls are an appropriate finishing touch.",
-					"layout": "bodyLayout",
-					"textStyle": "bodyStyle",
-					"format": "markdown"
-				},
-				{
-					"role": "body",
-					"text": "More than 150,000 Honey Deuces have been sold since its inception. Here's how to make the drink at home.",
-					"layout": "bodyLayout",
-					"textStyle": "bodyStyle",
-					"format": "markdown"
-				},
-				{
-					"role": "heading1",
-					"layout": "heading1Layout",
-					"text": "Ingredients",
-					"textStyle": "heading1Style",
-					"format": "markdown"
-				},
-				{
-					"role": "body",
-					"text": "\n* 1.25 parts Grey Goose vodka\n* Fresh squeezed lemonade\n * .5 part Chambord or premium raspberry liqueur\n* Crushed ice\n* Honeydew melons for garnish",
-					"layout": "bodyLayout",
-					"textStyle": "bodyStyle",
-					"format": "markdown"
-				},
-				{
-					"role": "heading1",
-					"layout": "heading1Layout",
-					"text": "Instructions",
-					"textStyle": "heading1Style",
-					"format": "markdown"
-				},
-				{
-					"role": "body",
-					"text": "\n1. Fill a chilled highball glass with crushed ice and add Grey Goose vodka.\n2. Top with lemonade to just below the rim and then add Chambord.\n3. Garnish with honeydew melon balls.",
-					"layout": "bodyLayout",
-					"textStyle": "bodyStyle",
-					"format": "markdown"
-				},
-				{
-					"role": "body",
-					"text": "Besides the cash and the hooch, the safe also contained\u2014and this is where it gets interesting\u2014a book called _A Guide for the Perplexed_, published in 1977, that appears to contain clues. Inside, there was a black and white photo of a mystery (and, might we add, dapper) man. On the back of Mr. Handsome's pic, there was a note that reads:",
-					"layout": "bodyLayout",
-					"textStyle": "bodyStyle",
-					"format": "markdown"
+								{
+					"role": "section",
+					"layout": "slideLayout",
+					"components": [
+						{
+							"role": "heading",
+							"text": "The Lengthener",
+							"layout": "heading1Layout",
+							"textStyle": "heading1Style",
+							"format": "markdown"
+						},
+						{
+							"role": "container",
+							"style": "photoContainerStyle",
+							"components": [
+								{
+									"role": "image",
+									"URL": "http://toc.h-cdn.co/assets/15/37/bd_geranium_productpage-copy-2.jpg",
+									"layout": "photoLayout",
+									"animation": {
+										"type": "fade_in",
+										"userControllable": true,
+										"initialAlpha": 0.1
+									}
+								}
+							]
+						},
+						{
+							"role": "photographer",
+							"text": "Gucci",
+							"layout": "creditLayout",
+							"textStyle": "creditStyle"
+						},			
+						{
+							"role": "caption",
+							"text": "With Twiggyesque lashes ruling the fall 2015 runways, tis the season to try a new mascara. The **Gucci** Infinite Length Mascara ($34, [saks.com](http://saks.com)) is a standout. Its slender, densely packed wand lifts and separates lashes, while the formula's malleable filmflex polymers ensure maximum extension. I love the richness of the Iconic Black shade, but the mascara also comes in Cocoa, a soft brown, and Midnight Blue. *M.S.*",
+							"layout": "captionLayout",
+							"textStyle": "captionStyle",
+							"format": "markdown"
+						}
+					]
 				},
 				{
 					"role": "banner_advertisement",
@@ -273,10 +356,10 @@
 		},
 		"creditStyle": {
 			"fontName": "DINComp-Bold",
-			"fontSize": 18,
-			"lineHeight": 24,
+			"fontSize": 14,
+			"lineHeight": 18,
 			"textAlignment": "right",
-			"textColor": "#898989",
+			"textColor": "#AAA",
 			"textTransform":"uppercase"
 		},
 		"dateStyle": {
@@ -376,7 +459,7 @@
 		"captionLayout": {
 			"margin": {
 				"top": 10,
-				"bottom": 25
+				"bottom": 10
 			}	 
 		},
 		"creditLayout": {
@@ -403,8 +486,8 @@
 		},
 		"heading1Layout": {
 			"margin": {
-				"top": 15,
-				"bottom": 0
+				"top": 5,
+				"bottom": 10
 			}
 		},
 		"introLayout": {
@@ -427,7 +510,8 @@
 			}
 		},
 		"slideLayout": {
-			"ignoreDocumentMargin": true
+			"ignoreDocumentMargin": true,
+			"margin": 15
 		},
 		"spacerLayout": {
 			"margin": {
