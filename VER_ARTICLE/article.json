@@ -1,14 +1,14 @@
 {
 	"version": "0.10",
 	"identifier": "!!!DYNAMIC",
-	"title": "How to Make the Most Popular Drink at the US Open",
+	"title": "The Marchesa And St. Regis Capsule Collection Is A Jet Setting Bride's Dream Come True",
 	"language": "en",
 	"blueprint": "basic",
 	"layout": {
 		"columns": 6,
 		"width": 1024,
-		"margin": 90,
-		"gutter": 40
+		"margin": 80,
+		"gutter": 20
 	},
 	"components": [
 		{
@@ -17,7 +17,7 @@
 			"style": {
 				"fill": {
 					"type": "image",
-					"URL": "http://toc.h-cdn.co/assets/15/35/1600x800/landscape-1440610279-grey-goose-honey-deuce-high-res.jpg",
+					"URL": "http://ver.h-cdn.co/assets/15/38/1024x512/landscape-1442509997-marchesa-st-regis-gowns.jpg",
 					"fillMode": "cover",
 					"verticalAlignment": "top"
 				}
@@ -48,19 +48,19 @@
 				{
 					"role": "intro",
 					"layout": "dateLayout",
-					"text": "Sep 1, 2015 @ 3:00 PM",
+					"text": "Sep 20, 2015 @ 3:00 PM",
 					"textStyle": "dateStyle"
 				},
 				{
 					"role": "title",
 					"layout": "titleLayout",
-					"text": "How to Make the Most Popular Drink at the US Open",
+					"text": "The Marchesa And St. Regis Capsule Collection Is A Jet Setting Bride's Dream Come True",
 					"textStyle": "titleStyle"
 				},
 				{
 					"role": "intro",
 					"layout": "introLayout",
-					"text": "The Grey Goose and Chamboard-filled Honey Deuce has been the event's trademark drink for nine years running.",
+					"text": "The design team created four couture gowns inspired by the hotel brand's most iconic locations.",
 					"textStyle": "introStyle",
 					"format": "markdown"
 				},
@@ -75,7 +75,7 @@
 				{
 					"role": "author",
 					"layout": "authorLayout",
-					"text": "By Sam Dangremond",
+					"text": "By Lindsey DeSimone",
 					"textStyle": "authorStyle"
 				},
 				{
@@ -88,14 +88,27 @@
 				},
 				{
 					"role": "body",
-					"text": "The Kentucky Derby has the [mint julep](http://google.com). The US Open has the Honey Deuce. Created by Grey Goose mixologist Nick Mautone in 2007, the tasty combination of vodka, lemonade, and raspberry liqueur has become the signature beverage of the tennis tournament.",
+					"text": "The St. Regis hotel is one of the most well-known luxury brands in the world, so teaming up with Georgina Chapman and Keren Craig \u2014 the designers behind luxury fashion brand Marchesa \u2014 was a no brainer. As the first-ever female St. Regis Connoisseurs (essentially brand ambassadors who work on special projects with the hotel), Chapman and Craig have presented several fashion shows at the St. Regis in New York City, hosted one of the hotel's famous [Midnight Suppers](http://google.com), and now, they've designed a stunning capsule collection of bridal gowns for St. Regis Hotels & Resorts.",
 					"layout": "bodyLayout",
 					"textStyle": "bodyStyleFirst",
 					"format": "markdown"
 				},
 				{
 					"role": "body",
-					"text": "The best part? The frozen honeydew melon balls used a garnish. Resembling tennis balls, they remind imbibers what the US Open is really about (not that the drinks and food at the USTA Billie Jean King National Tennis Center aren't great on their own).",
+					"text": "The collection features four one-of-a-kind gowns created exclusively for St. Regis, and each one is inspired by the location of one of the iconic hotels \u2014 New York, Mumbai, Dubai, and Punta Mita.",
+					"layout": "bodyLayout",
+					"textStyle": "bodyStyle",
+					"format": "markdown"
+				},
+				{
+					"role": "photo",
+					"URL": "http://ver.h-cdn.co/assets/15/38/1442516916-marchesa-red-room-final.jpg",
+					"caption": "The Dubai Gown, and New York City Gown",
+					"layout": "embedLayout"
+				},
+				{
+					"role": "body",
+					"text": "The New York gown is the most sculptural of the bunch, with a stunning peplum-style top and a decidedly '50s vibe, while the Dubai option features a fitted silhouette and a glamorous long-sleeve beaded bodice.",
 					"layout": "bodyLayout",
 					"textStyle": "bodyStyle",
 					"format": "markdown"
@@ -111,7 +124,7 @@
 				{
 					"role": "pullquote",
 					"layout": "pullQuoteLayout",
-					"text": "\u201CMautone, Grey Goose says, decided to combine the vodka with lemonade to quench spectators' thirst in the late summer heat\u201D",
+					"text": "\u201CThe collection features four one-of-a-kind gowns created exclusively for St. Regis, and each one is inspired by the location of one of the iconic hotels.\u201D",
 					"textStyle": "pullQuoteStyle",
 					"format": "markdown"
 				},
@@ -125,14 +138,21 @@
 				},
 				{
 					"role": "body",
-					"text": "Mautone, Grey Goose says, decided to combine the vodka with lemonade to quench spectators' thirst in the late summer heat. The Chambord adds a raspberry kick. In addition, since honeydew melons are at their peak in summer months, the melon balls are an appropriate finishing touch.",
+					"text": "The other two options have a more ethereal quality \u2014  Mumbai, for instance, pairs an airy tulle skirt with intricate Indian beading, while the Punta Mita style features lace flowers and a softly flowing shape, making it the perfect choice for a beach wedding.",
 					"layout": "bodyLayout",
 					"textStyle": "bodyStyle",
 					"format": "markdown"
 				},
 				{
 					"role": "body",
-					"text": "More than 150,000 Honey Deuces have been sold since its inception. Here's how to make the drink at home.",
+					"text": "Interested brides can place an order for one of the gowns \u2014 which range in price from $20,000 to $50,000 depending on customization \u2014 on the St. Regis website, with shipping available all over the world. Customers who are able to visit New York City for a fitting with Chapman and/or Craig at the Marchesa showroom are also treated to a complimentary one-night stay at the St. Regis in NYC.",
+					"layout": "bodyLayout",
+					"textStyle": "bodyStyle",
+					"format": "markdown"
+				},
+				{
+					"role": "body",
+					"text": "Take a closer look at the gowns in the photos below.",
 					"layout": "bodyLayout",
 					"textStyle": "bodyStyle",
 					"format": "markdown"
@@ -140,37 +160,54 @@
 				{
 					"role": "heading1",
 					"layout": "heading1Layout",
-					"text": "Ingredients",
+					"text": "New York",
 					"textStyle": "heading1Style",
 					"format": "markdown"
 				},
 				{
-					"role": "body",
-					"text": "\n* 1.25 parts Grey Goose vodka\n* Fresh squeezed lemonade\n * .5 part Chambord or premium raspberry liqueur\n* Crushed ice\n* Honeydew melons for garnish",
-					"layout": "bodyLayout",
-					"textStyle": "bodyStyle",
-					"format": "markdown"
+					"role": "photo",
+					"URL": "http://ver.h-cdn.co/assets/15/38/1442517025-new-york-2.jpg",
+					"caption": "The Dubai Gown, and New York City Gown",
+					"layout": "embedLayout"
 				},
 				{
 					"role": "heading1",
 					"layout": "heading1Layout",
-					"text": "Instructions",
+					"text": "Dubai",
 					"textStyle": "heading1Style",
 					"format": "markdown"
 				},
 				{
-					"role": "body",
-					"text": "\n1. Fill a chilled highball glass with crushed ice and add Grey Goose vodka.\n2. Top with lemonade to just below the rim and then add Chambord.\n3. Garnish with honeydew melon balls.",
-					"layout": "bodyLayout",
-					"textStyle": "bodyStyle",
+					"role": "photo",
+					"URL": "http://ver.h-cdn.co/assets/15/38/1442517158-dubai-1.jpg",
+					"caption": "The Dubai Gown, and New York City Gown",
+					"layout": "embedLayout"
+				},
+				{
+					"role": "heading1",
+					"layout": "heading1Layout",
+					"text": "Mumbai",
+					"textStyle": "heading1Style",
 					"format": "markdown"
 				},
 				{
-					"role": "body",
-					"text": "Besides the cash and the hooch, the safe also contained\u2014and this is where it gets interesting\u2014a book called _A Guide for the Perplexed_, published in 1977, that appears to contain clues. Inside, there was a black and white photo of a mystery (and, might we add, dapper) man.",
-					"layout": "bodyLayout",
-					"textStyle": "bodyStyle",
+					"role": "photo",
+					"URL": "http://ver.h-cdn.co/assets/15/38/1442517264-mumbai-1.jpg",
+					"caption": "The Dubai Gown, and New York City Gown",
+					"layout": "embedLayout"
+				},
+				{
+					"role": "heading1",
+					"layout": "heading1Layout",
+					"text": "Punta Mita",
+					"textStyle": "heading1Style",
 					"format": "markdown"
+				},
+				{
+					"role": "photo",
+					"URL": "http://ver.h-cdn.co/assets/15/38/1442517391-punta-mita-3.jpg",
+					"caption": "The Dubai Gown, and New York City Gown",
+					"layout": "embedLayout"
 				},
 				{
 					"role": "banner_advertisement",
@@ -213,72 +250,72 @@
 			"backgroundColor": "#000"
 		},
 		"tabLayoutStyle": {
-			"fill": {
-				"type": "image",
-				"URL": "bundle://toc_header_article.png",
-				"fillMode": "fit",
-				"verticalAlignment": "bottom",
-				"horizontalAlignment": "right"
+			"border": {
+				"all": {
+					"width": 10,
+					"color": "#d8d4d0"
+				},
+				"top": false,
+				"left": false,
+				"right": false
 			}
 		}
 	},
 	"componentTextStyles": {
 		"authorStyle": {
-			"fontName": "GothamNarrow-Bold",
+			"fontName": "Helvetica-Light",
 			"fontSize": 14,
 			"textAlignment": "left",
-			"textColor": "#8f807d",
+			"textColor": "#959086",
 			"textTransform":"uppercase"
 		},
 		"blockQuoteStyle": {
-			"fontName": "PonaDisplay-Regular",
+			"fontName": "Georgia",
 			"textColor": "#777",
 			"fontSize": 18,
 			"lineHeight": 24,
 			"textAlignment": "left",
 			"linkStyle": {
-				"textColor": "#c03d09"
+				"textColor": "#458de4"
 			}
 		},
 		"bodyStyle": {
-			"fontName": "PonaDisplay-Regular",
+			"fontName": "Georgia",
 			"fontSize": 20,
-			"lineHeight": 30,
+			"lineHeight": 34,
 			"textAlignment": "left",
-			"textColor":"#333",
-			"tracking": -0.01,
+			"textColor": "#333",
 			"linkStyle": {
-				"textColor": "#c03d09"
+				"textColor": "#458de4"
 			}
 		},
 		"bodyStyleFirst": {
-			"fontName": "PonaDisplay-Regular",
+			"fontName": "Georgia",
 			"fontSize": 20,
-			"lineHeight": 30,
+			"lineHeight": 34,
 			"textAlignment": "left",
-			"textColor":"#333",
-			"tracking": -0.01,
+			"textColor": "#333",
 			"dropCapStyle": {
-				"fontName": "PonaDisplay-Regular",
-				"textColor":"#be3e19",
-				"numberOfLines": 3,
+				"fontName": "BauerBodoniStd-Roman",
+				"textColor":"#c9daf4",
+				"numberOfLines": 6,
 				"numberOfCharacters": 1
 			},
 			"linkStyle": {
-				"textColor": "#c03d09"
+				"textColor": "#458de4"
 			}
 		},
 		"captionStyle": {
-			"fontName": "PonaDisplay-Regular",
+			"fontName": "Georgia",
 			"fontSize": 20,
-			"lineHeight": 30,
+			"lineHeight": 28,
 			"textAlignment": "left",
 			"linkStyle": {
-				"textColor": "#c03d09"
+				"textColor": "#458de4"
 			}
 		},
 		"creditStyle": {
-			"fontName": "GothamNarrow-Bold",
+			"fontName": "Helvetica",
 			"fontSize": 18,
 			"lineHeight": 24,
 			"textAlignment": "right",
@@ -286,57 +323,55 @@
 			"textTransform":"uppercase"
 		},
 		"dateStyle": {
-			"fontName": "GothamNarrow-Bold",
+			"fontName": "Helvetica-Light",
 			"fontSize": 14,
 			"textAlignment": "left",
-			"textColor": "#8f807d",
-			"textTransform":"uppercase",
-			"tracking": -0.05
+			"textColor": "#959086",
+			"textTransform":"uppercase"
 		},
 		"heading1Style": {
-			"fontName": "GothamNarrow-Bold",
-			"fontSize": 28,
-			"lineHeight": 34,
+			"fontName": "BauerBodoniStd-BoldItalic",
+			"fontSize": 30,
+			"lineHeight": 36,
 			"textAlignment": "left",
-			"textColor": "#4b2402",
-			"textTransform":"uppercase",
-			"tracking": 0.03
+			"textColor": "#5e5952"
 		},
 		"introStyle": {
-			"fontName": "PonaDisplay-RegularItalic",
-			"fontSize": 22,
-			"lineHeight": 28,
+			"fontName": "Helvetica-Light",
+			"fontSize": 20,
+			"lineHeight": 24,
 			"textAlignment": "left",
+			"textColor": "#222",
+			"textTransform":"uppercase",
 			"linkStyle": {
 				"textColor": "#c03d09"
 			}
 		},
 		"lowerListStyle": {
-			"fontName": "PonaDisplay-Regular",
+			"fontName": "Helvetica",
 			"fontSize": 18,
 			"lineHeight": 20,
 			"textAlignment": "left"
 		},
 		"pullQuoteStyle": {
-			"fontName": "PonaDisplay-RegularItalic",
-			"fontSize": 42,
-			"lineHeight": 50,
+			"fontName": "BauerBodoniStd-BoldItalic",
+			"fontSize": 36,
+			"lineHeight": 42,
 			"textAlignment": "left",
-			"textColor": "#4b2402"
+			"textColor": "#458de4"
 		},
 		"spacerWord":{
-			"fontName": "PonaDisplay-Regular",
+			"fontName": "Georgia",
 			"fontSize": 48,
 			"lineHeight": 48,
 			"textAlignment": "left",
 			"textTransform": "uppercase"
 		},
 		"titleStyle": {
-			"fontName": "PonaDisplay-Regular",
-			"fontSize": 50,
-			"lineHeight": 54,
-			"textAlignment": "left",
-			"tracking": -0.01
+			"fontName": "BauerBodoniStd-Roman",
+			"fontSize": 48,
+			"lineHeight": 52,
+			"textAlignment": "left"
 		}
 	},
 	"componentLayouts": {
@@ -344,8 +379,8 @@
 		},
 		"authorLayout": {
 			"margin": {
-				"top": 10,
-				"bottom": 30
+				"top": 5,
+				"bottom": 40
 			}
 		},
 		"blackStrokeLayout1":{
@@ -375,7 +410,7 @@
 		},
 		"bodyLayout": {
 			"margin": {
-				"top": 10,
+				"top": 5,
 				"bottom": 15
 			}
 		},
@@ -394,7 +429,7 @@
 		"dateLayout": {
 			"margin": {
 				"top": 40,
-				"bottom": 5
+				"bottom": 10
 			}
 		},
 		"embedLayout": {
@@ -405,7 +440,7 @@
 		},
 		"headerImageLayout": {
 			"ignoreDocumentMargin": true,
-			"minimumHeight": "55vmin"
+			"minimumHeight": "50vmin"
 		},
 		"heading1Layout": {
 			"margin": {
@@ -415,7 +450,7 @@
 		},
 		"introLayout": {
 			"margin": {
-				"top": 10,
+				"top": 0,
 				"bottom": 10
 			}
 		},
@@ -442,13 +477,12 @@
 			}
 		},
 		"tabLayout": {
-			"ignoreDocumentMargin": true,
-			"minimumHeight": "5vmin"
+			"ignoreDocumentMargin": true
 		},
 		"titleLayout": {
 			"margin": {
 				"top": 0,
-				"bottom": 0
+				"bottom": 10
 			}
 		}
 	}

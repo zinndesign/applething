@@ -1,14 +1,14 @@
 {
 	"version": "0.10",
 	"identifier": "!!!DYNAMIC",
-	"title": "The 17 Fall Finds We Can't Stop Raving About",
+	"title": "Designer Jean-Louis Deniot's Secrets To Timeless Style",
 	"language": "en",
 	"blueprint": "basic",
 	"layout": {
 		"columns": 6,
 		"width": 1024,
-		"margin": 90,
-		"gutter": 40
+		"margin": 80,
+		"gutter": 20
 	},
 	"components": [
 		{
@@ -17,7 +17,7 @@
 			"style": {
 				"fill": {
 					"type": "image",
-					"URL": "http://toc.h-cdn.co/assets/15/37/1600x800/landscape-1441998199-gettyimages-200452457-001.jpg",
+					"URL": "http://ver.h-cdn.co/assets/15/37/1600x800/gallery-1441814286-jean-louis-deniots-timeless-interior-design-001.jpg",
 					"fillMode": "cover",
 					"verticalAlignment": "top"
 				}
@@ -48,19 +48,19 @@
 				{
 					"role": "intro",
 					"layout": "dateLayout",
-					"text": "Sep 1, 2015 @ 3:00 PM",
+					"text": "Sep 20, 2015 @ 3:00 PM",
 					"textStyle": "dateStyle"
 				},
 				{
 					"role": "title",
 					"layout": "titleLayout",
-					"text": "The 17 Fall Finds We Can't Stop Raving About",
+					"text": "Designer Jean-Louis Deniot's Secrets To Timeless Style",
 					"textStyle": "titleStyle"
 				},
 				{
 					"role": "intro",
 					"layout": "introLayout",
-					"text": "A lesson in back to school beauty.",
+					"text": "Jean-Louis Deniot's sexy, sensuous interiors are the epitome of cool.",
 					"textStyle": "introStyle",
 					"format": "markdown"
 				},
@@ -75,7 +75,7 @@
 				{
 					"role": "author",
 					"layout": "authorLayout",
-					"text": "By Jamie Rosen & Meg Storm",
+					"text": "By Lindsey DeSimone",
 					"textStyle": "authorStyle"
 				},
 				{
@@ -88,7 +88,7 @@
 				},
 				{
 					"role": "body",
-					"text": "Lorem ipsum dolor sit amet, [consectetur adipiscing elit](http://google.com). Praesent non vestibulum dolor, sed laoreet ante. Maecenas auctor felis ut dolor placerat pellentesque. Quisque rhoncus lobortis egestas. Vestibulum dictum tincidunt enim. Praesent venenatis quis orci nec fermentum. Vivamus arcu libero, malesuada eu posuere in, convallis vel erat. Fusce gravida eu velit at efficitur. Donec mauris nulla, laoreet non orci a, tincidunt porttitor arcu.",
+					"text": "He pulls together spaces that are sophisticated, seductive, and indelibly French\u2014intricate assemblages of plush fabrics, just-so vintage pieces, and one-off custom work that make you feel as if you're sitting in the chicest room in the world. \"I'm so attentive to atmosphere and the way you are going to live in a place,\" says Paris-based designer Jean-Louis Deniot, whose Left Bank studio serves clients from New York to New Delhi.\n\nThe approach is intensely layered\u2014hammered metal, veined marble, inlaid wood\u2014with no detail overlooked. Deniot has commissioned painted embellishments on the hems of curtains from a couture *petite main* for a client and trompe l'oeil skies on the walls of his own 7th arrondissement apartment. \"I've never used a plain fabric in my life, and a bare wall puts me into a panic.",
 					"layout": "bodyLayout",
 					"textStyle": "bodyStyleFirst",
 					"format": "markdown"
@@ -99,7 +99,7 @@
 					"components": [
 						{
 							"role": "heading",
-							"text": "The Innovator",
+							"text": "1\\. Try to balance comfort and aesthetics",
 							"layout": "heading1Layout",
 							"textStyle": "heading1Style",
 							"format": "markdown"
@@ -110,7 +110,7 @@
 							"components": [
 								{
 									"role": "image",
-									"URL": "http://toc.h-cdn.co/assets/15/37/badlands-dry-shampoo-paste-final-2-copy.jpg",
+									"URL": "http://ver.h-cdn.co/assets/15/37/1441814490-jean-louis-deniots-timeless-interior-design-03-no-wm.jpg",
 									"layout": "photoLayout",
 									"animation": {
 										"type": "fade_in",
@@ -119,10 +119,16 @@
 									}
 								}
 							]
-						},			
+						},
+						{
+							"role": "photographer",
+							"text": "Simon Upton",
+							"layout": "creditLayout",
+							"textStyle": "creditStyle"
+						},
 						{
 							"role": "caption",
-							"text": "As a dry hair shampoo devotee, I am always on the lookout for a product that will extend my blowout and give my fine, straight hair body. The residue-free **R+Co** Badlands Dry Shampoo Paste ($28, [randco.com](http://randco.com)) is the high-tech answer to my prayers. The paste, which includes volcanic ash for oil absorption, turns to a matte powder upon application and can be used from root to tip for added volume and texture. *Meg Storm, Beauty Assistant*",
+							"text": "\"When you place a sofa in the center of the room, the back has to be as attractive as the front\u2014otherwise it's like the Berlin Wall. It shouldn't be too deep either, so it doesn't dwarf a side table. **Try to balance comfort and aesthetics.**\"",
 							"layout": "captionLayout",
 							"textStyle": "captionStyle",
 							"format": "markdown"
@@ -135,7 +141,7 @@
 					"components": [
 						{
 							"role": "heading",
-							"text": "The Wonder Brow",
+							"text": "2\\. Don't start with furniture and finishes",
 							"layout": "heading1Layout",
 							"textStyle": "heading1Style",
 							"format": "markdown"
@@ -146,7 +152,7 @@
 							"components": [
 								{
 									"role": "image",
-									"URL": "http://toc.h-cdn.co/assets/15/37/1442007615-combine-images-1.jpg",
+									"URL": "http://ver.h-cdn.co/assets/15/37/1441814519-jean-louis-deniots-timeless-interior-design-01-no-wm.jpg",
 									"layout": "photoLayout",
 									"animation": {
 										"type": "fade_in",
@@ -158,13 +164,13 @@
 						},
 						{
 							"role": "photographer",
-							"text": "Sephora",
+							"text": "Richard Powers",
 							"layout": "creditLayout",
 							"textStyle": "creditStyle"
-						},			
+						},
 						{
 							"role": "caption",
-							"text": "As brow products go, a brush-on tint is among the easiest to apply. But it doesn't address spotty areas where there is no hair for the mascara-brush-like applicator to grab on to. The **Chosungah 22** Dong Gong Minn Brow Maker ($22, [sephora.com](http://sephora.com)) has solved this issue: The sponge tip at its end allows you deposit color on and around the brow first (admittedly, it can be a little messy), then brush it through, in and around brows, for a full, filled-in look. *J.R.*",
+							"text": "\"We **don't start with furniture and finishes**\u2014our method of attack is through the interior architecture. We compose a feeling with the envelope before we define the color of the dishes.\"",
 							"layout": "captionLayout",
 							"textStyle": "captionStyle",
 							"format": "markdown"
@@ -177,7 +183,7 @@
 					"components": [
 						{
 							"role": "heading",
-							"text": "The Skin Savior",
+							"text": "3\\. A third vintage, contemporary, custom",
 							"layout": "heading1Layout",
 							"textStyle": "heading1Style",
 							"format": "markdown"
@@ -188,7 +194,7 @@
 							"components": [
 								{
 									"role": "image",
-									"URL": "http://toc.h-cdn.co/assets/15/37/bd_geranium_productpage-copy-2.jpg",
+									"URL": "http://ver.h-cdn.co/assets/15/37/1441813301-jean-louis-deniots-timeless-interior-design-00.jpg",
 									"layout": "photoLayout",
 									"animation": {
 										"type": "fade_in",
@@ -200,55 +206,13 @@
 						},
 						{
 							"role": "photographer",
-							"text": "SkinOwl",
+							"text": "Richard Powers",
 							"layout": "creditLayout",
 							"textStyle": "creditStyle"
-						},			
-						{
-							"role": "caption",
-							"text": "After years of struggling with acne and eczema, makeup artist Annie Tevelin decided it was time to learn more about what she was putting on her skin via a crash course in cosmetic chemistry at UCLA. She subsequently created **SkinOwl**\u2014a line of oils and eye creams that contain only a handful of natural ingredients. The Geranium Beauty Drops ($30, [skinowl.com](http://skinowl.com)), which is the product Tevelin credits with clearing her now glowing skin, have become a mainstay in my skincare routine. With just two ingredients\u2014raw, organic, unrefined argania spinosa extract and organic rose geranium oil\u2014the oil is light enough to be worn under makeup and hydrating enough to replace my daily moisturizer. *M.S.*",
-							"layout": "captionLayout",
-							"textStyle": "captionStyle",
-							"format": "markdown"
-						}
-					]
-				},
-								{
-					"role": "section",
-					"layout": "slideLayout",
-					"components": [
-						{
-							"role": "heading",
-							"text": "The Lengthener",
-							"layout": "heading1Layout",
-							"textStyle": "heading1Style",
-							"format": "markdown"
 						},
 						{
-							"role": "container",
-							"style": "photoContainerStyle",
-							"components": [
-								{
-									"role": "image",
-									"URL": "http://toc.h-cdn.co/assets/15/37/bd_geranium_productpage-copy-2.jpg",
-									"layout": "photoLayout",
-									"animation": {
-										"type": "fade_in",
-										"userControllable": true,
-										"initialAlpha": 0.1
-									}
-								}
-							]
-						},
-						{
-							"role": "photographer",
-							"text": "Gucci",
-							"layout": "creditLayout",
-							"textStyle": "creditStyle"
-						},			
-						{
 							"role": "caption",
-							"text": "With Twiggyesque lashes ruling the fall 2015 runways, tis the season to try a new mascara. The **Gucci** Infinite Length Mascara ($34, [saks.com](http://saks.com)) is a standout. Its slender, densely packed wand lifts and separates lashes, while the formula's malleable filmflex polymers ensure maximum extension. I love the richness of the Iconic Black shade, but the mascara also comes in Cocoa, a soft brown, and Midnight Blue. *M.S.*",
+							"text": "\"My formula for furnishings is **a third vintage, a third contemporary, and a third custom** to create a link between the first two, so that it all blends together and you can't tell what's old and what's new.\"",
 							"layout": "captionLayout",
 							"textStyle": "captionStyle",
 							"format": "markdown"
@@ -296,124 +260,122 @@
 			"backgroundColor": "#000"
 		},
 		"tabLayoutStyle": {
-			"fill": {
-				"type": "image",
-				"URL": "bundle://toc_header_article.png",
-				"fillMode": "fit",
-				"verticalAlignment": "bottom",
-				"horizontalAlignment": "right"
+			"border": {
+				"all": {
+					"width": 10,
+					"color": "#d8d4d0"
+				},
+				"top": false,
+				"left": false,
+				"right": false
 			}
 		}
 	},
 	"componentTextStyles": {
 		"authorStyle": {
-			"fontName": "GothamNarrow-Bold",
+			"fontName": "Helvetica-Light",
 			"fontSize": 14,
 			"textAlignment": "left",
-			"textColor": "#8f807d",
+			"textColor": "#959086",
 			"textTransform":"uppercase"
 		},
 		"blockQuoteStyle": {
-			"fontName": "PonaDisplay-Regular",
+			"fontName": "Georgia",
 			"textColor": "#777",
 			"fontSize": 18,
 			"lineHeight": 24,
 			"textAlignment": "left",
 			"linkStyle": {
-				"textColor": "#c03d09"
+				"textColor": "#458de4"
 			}
 		},
 		"bodyStyle": {
-			"fontName": "PonaDisplay-Regular",
+			"fontName": "Georgia",
 			"fontSize": 20,
-			"lineHeight": 30,
+			"lineHeight": 34,
 			"textAlignment": "left",
-			"textColor":"#333",
-			"tracking": -0.01,
+			"textColor": "#333",
 			"linkStyle": {
-				"textColor": "#c03d09"
+				"textColor": "#458de4"
 			}
 		},
 		"bodyStyleFirst": {
-			"fontName": "PonaDisplay-Regular",
+			"fontName": "Georgia",
 			"fontSize": 20,
-			"lineHeight": 30,
+			"lineHeight": 34,
 			"textAlignment": "left",
-			"textColor":"#333",
-			"tracking": -0.01,
+			"textColor": "#333",
 			"linkStyle": {
-				"textColor": "#c03d09"
+				"textColor": "#458de4"
 			}
 		},
 		"captionStyle": {
-			"fontName": "PonaDisplay-Regular",
-			"fontSize": 20,
-			"lineHeight": 30,
+			"fontName": "Georgia",
+			"fontSize": 18,
+			"lineHeight": 28,
 			"textAlignment": "left",
+			"textColor": "#333",
 			"linkStyle": {
-				"textColor": "#c03d09"
+				"textColor": "#458de4"
 			}
 		},
 		"creditStyle": {
-			"fontName": "GothamNarrow-Bold",
-			"fontSize": 14,
+			"fontName": "Helvetica-Light",
+			"fontSize": 12,
 			"lineHeight": 18,
 			"textAlignment": "right",
-			"textColor": "#AAA",
-			"textTransform":"uppercase"
+			"textColor": "#AAA"
 		},
 		"dateStyle": {
-			"fontName": "GothamNarrow-Bold",
+			"fontName": "Helvetica-Light",
 			"fontSize": 14,
 			"textAlignment": "left",
-			"textColor": "#8f807d",
-			"textTransform":"uppercase",
-			"tracking": -0.05
+			"textColor": "#959086",
+			"textTransform":"uppercase"
 		},
 		"heading1Style": {
-			"fontName": "GothamNarrow-Bold",
-			"fontSize": 28,
-			"lineHeight": 34,
+			"fontName": "BauerBodoniStd-Roman",
+			"fontSize": 32,
+			"lineHeight": 38,
 			"textAlignment": "left",
-			"textColor": "#4b2402",
-			"textTransform":"uppercase",
-			"tracking": 0.03
+			"textColor": "#393631"
 		},
 		"introStyle": {
-			"fontName": "PonaDisplay-RegularItalic",
-			"fontSize": 22,
-			"lineHeight": 28,
+			"fontName": "Helvetica-Light",
+			"fontSize": 20,
+			"lineHeight": 24,
 			"textAlignment": "left",
+			"textColor": "#222",
+			"textTransform":"uppercase",
 			"linkStyle": {
 				"textColor": "#c03d09"
 			}
 		},
 		"lowerListStyle": {
-			"fontName": "PonaDisplay-Regular",
+			"fontName": "Helvetica",
 			"fontSize": 18,
 			"lineHeight": 20,
 			"textAlignment": "left"
 		},
 		"pullQuoteStyle": {
-			"fontName": "PonaDisplay-RegularItalic",
-			"fontSize": 42,
-			"lineHeight": 50,
+			"fontName": "BauerBodoniStd-BoldItalic",
+			"fontSize": 36,
+			"lineHeight": 42,
 			"textAlignment": "left",
-			"textColor": "#4b2402"
+			"textColor": "#458de4"
 		},
 		"spacerWord":{
-			"fontName": "PonaDisplay-Regular",
+			"fontName": "Georgia",
 			"fontSize": 48,
 			"lineHeight": 48,
 			"textAlignment": "left",
 			"textTransform": "uppercase"
 		},
 		"titleStyle": {
-			"fontName": "PonaDisplay-Regular",
-			"fontSize": 50,
-			"lineHeight": 54,
-			"textAlignment": "left",
-			"tracking": -0.01
+			"fontName": "BauerBodoniStd-Roman",
+			"fontSize": 48,
+			"lineHeight": 52,
+			"textAlignment": "left"
 		}
 	},
 	"componentLayouts": {
@@ -421,8 +383,8 @@
 		},
 		"authorLayout": {
 			"margin": {
-				"top": 10,
-				"bottom": 30
+				"top": 5,
+				"bottom": 40
 			}
 		},
 		"blackStrokeLayout1":{
@@ -452,26 +414,26 @@
 		},
 		"bodyLayout": {
 			"margin": {
-				"top": 10,
+				"top": 5,
 				"bottom": 15
 			}
 		},
 		"captionLayout": {
 			"margin": {
-				"top": 10,
+				"top": 5,
 				"bottom": 10
 			}	 
 		},
 		"creditLayout": {
 			"margin": {
-				"top": 4,
+				"top": 2,
 				"bottom": 0
 			}	 
 		},
 		"dateLayout": {
 			"margin": {
 				"top": 40,
-				"bottom": 5
+				"bottom": 10
 			}
 		},
 		"embedLayout": {
@@ -482,17 +444,17 @@
 		},
 		"headerImageLayout": {
 			"ignoreDocumentMargin": true,
-			"minimumHeight": "55vmin"
+			"minimumHeight": "50vmin"
 		},
 		"heading1Layout": {
 			"margin": {
-				"top": 5,
-				"bottom": 10
+				"top": 15,
+				"bottom": 15
 			}
 		},
 		"introLayout": {
 			"margin": {
-				"top": 10,
+				"top": 0,
 				"bottom": 10
 			}
 		},
@@ -520,13 +482,12 @@
 			}
 		},
 		"tabLayout": {
-			"ignoreDocumentMargin": true,
-			"minimumHeight": "5vmin"
+			"ignoreDocumentMargin": true
 		},
 		"titleLayout": {
 			"margin": {
 				"top": 0,
-				"bottom": 0
+				"bottom": 10
 			}
 		}
 	}
