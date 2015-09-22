@@ -1,0 +1,451 @@
+{
+	"version": "0.10",
+	"identifier": "!!!DYNAMIC",
+	"title": "Up at 4 A.M.? Fall Back Asleep the Natural Way",
+	"language": "en",
+	"blueprint": "basic",
+	"layout": {
+		"columns": 6,
+		"width": 1024,
+		"margin": 80,
+		"gutter": 20
+	},
+	"components": [
+		{
+			"role": "header",
+			"layout": "headerImageLayout",
+			"style": {
+				"fill": {
+					"type": "image",
+					"URL": "http://doz.h-cdn.co/assets/15/33/1600x800/landscape-1439412972-ozm010115sleep-002.jpg",
+					"fillMode": "cover",
+					"verticalAlignment": "top"
+				}
+			},
+			"behavior": {
+				"type": "parallax",
+				"factor": 0.5
+			},
+			"components": [
+				{
+					"role": "container",
+					"layout": "tabLayout",
+					"style": "tabLayoutStyle",
+					"anchor": {
+						"targetAnchorPosition": "bottom"
+					}
+				}
+			]
+		},
+		{
+			"role": "section",
+			"layout": "bodyContainerLayout",
+			"style": "bodyContainerStyle",
+			"anchor": {
+				"targetAnchorPosition": "top"
+			},
+			"components": [
+				{
+					"role": "intro",
+					"layout": "dateLayout",
+					"text": "Sep 20, 2015 @ 3:00 PM",
+					"textStyle": "dateStyle"
+				},
+				{
+					"role": "title",
+					"layout": "titleLayout",
+					"text": "Up at 4 A.M.? Fall Back Asleep the Natural Way",
+					"textStyle": "titleStyle"
+				},
+				{
+					"role": "intro",
+					"layout": "introLayout",
+					"text": "All you did was get out of bed to pee. And now you're tossing, turning, and stressing your way toward dawn. Figure out what's up with middle-of-the-night insomnia so you can finally get the rest you need.",
+					"textStyle": "introStyle",
+					"format": "markdown"
+				},
+				{
+					"role": "divider",
+					"stroke": {
+						"color": "#FFF0"
+					},
+					"layout": "blackStrokeLayout1",
+					"style": "baseStrokeStyle"
+				},
+				{
+					"role": "author",
+					"layout": "authorLayout",
+					"text": "By Amy Spencer",
+					"textStyle": "authorStyle"
+				},
+				{
+					"role": "divider",
+					"stroke": {
+						"color": "#FFF0"
+					},
+					"layout": "blackStrokeLayout2",
+					"style": "baseStrokeStyle"
+				},
+				{
+					"role": "body",
+					"text": "Forget sheep\u2014what I should count instead are all the hours I've been up in the middle of the night. There's nothing worse than lying in bed and watching the sky turn from black to shoot-me-why-can't-I-sleep blue. But that's what happens when I pop awake at 3 or 4 A.M. and my mind gets on the worry hamster wheel: *When did the tax guy need me to fax him the W-2 form? Did I lock the back door? Why hasn't my client replied to my email yet? Oh, God, did my email to the client even go through?!*",
+					"layout": "bodyLayout",
+					"textStyle": "bodyStyleFirst",
+					"format": "markdown"
+				},
+				{
+					"role": "body",
+					"text": "To be clear, falling asleep when I first slip into bed around midnight has never been a problem. Show me a pillow and I'll show you a conked-out woman\u2014at least for the first few hours. But once a week or so, an innocuous wake-up in the middle of the night\u2014you know, getting up to grab the blanket that I accidentally kicked off the bed, or hearing a random noise\u2014leaves my mind switched on for hours. As my husband lies next to me, practically grinning in his sleep from all the delightful rest he's getting, I stare wide-eyed at the clock. By morning when the alarm goes off, I'm a groggy, foggy mess. Moreover, in the light of day I realize that the problems I lost so much sleep over are mostly really big nothings.",
+					"layout": "bodyLayout",
+					"textStyle": "bodyStyle",
+					"format": "markdown"
+				},
+				{
+					"role": "body",
+					"text": "Experts call this \"sleep maintenance insomnia,\" which they define as regularly taking more than 30 minutes to return to sleep, associated with distress\u2014and it's very common, explains John Winkelman, M.D., Ph.D., associate professor of psychiatry at Harvard Medical School. \"You wake up to use the bathroom, for example, and can't return to sleep because you are mentally and emotionally stimulated,\" he says.",
+					"layout": "bodyLayout",
+					"textStyle": "bodyStyle",
+					"format": "markdown"
+				},
+				{
+					"role": "divider",
+					"stroke": {
+						"color": "#FFF0"
+					},
+					"layout": "blackStrokeLayout3",
+					"style": "baseStrokeStyle"
+				},
+				{
+					"role": "pullquote",
+					"layout": "pullQuoteLayout",
+					"text": "\u201CThere are many of us in Sleep Maintenance Insomnia Camp\u2014nearly a third of the population reports trouble falling back asleep in the middle of the night\u201D",
+					"textStyle": "pullQuoteStyle",
+					"format": "markdown"
+				},
+				{
+					"role": "divider",
+					"stroke": {
+						"color": "#FFF0"
+					},
+					"layout": "blackStrokeLayout4",
+					"style": "baseStrokeStyle"
+				},
+				{
+					"role": "body",
+					"text": "Bottom line: Through-the-night sleep isn't a luxury\u2014it's a basic need. Below, experts not only demystify how a worry wakes you up but also offer smart solutions to help you drift off again easily. The best part about the sleep aids you'll find here? They're all pill-free. Read on to get your sleep on.",
+					"layout": "bodyLayout",
+					"textStyle": "bodyStyle",
+					"format": "markdown"
+				},
+				{
+					"role": "photo",
+					"URL": "http://doz.h-cdn.co/assets/15/33/1439412977-ozm010115sleep-006.jpg",
+					"caption": "Reading a few paragraphs of a book (just enough to distract you from your worried thoughts) may help you doze off again.",
+					"layout": "embedLayout"
+				},
+				{
+					"role": "body",
+					"text": "**The Problem with Popping a Pill at 4 A.M:** \"Sleeping pills do not usually treat the cause of the insomnia,\" says Meir H. Kryger, M.D., a physician and professor of medicine at the Yale School of Medicine. And there are all sorts of problems with pills. Over time, your body can adapt to the medication so that you'll need a higher dosage. Plus, there's the risk of \"rebound insomnia\"\u2014the insomnia returns the second you stop taking the pills. The safest solution is to get the help you need to address the anxiety that's keeping you awake, but if you must reach for a pill, don't grab an OTC sleep aid. Popping one at 3 or 4 A.M. doesn't allow enough time for it to wear off before you wake up in the morning. Instead, talk to your doctor about Rx options with a very short half-life so that if you take a pill, it's gone from your system in three or four hours.",
+					"layout": "bodyLayout",
+					"textStyle": "bodyStyle",
+					"format": "markdown"
+				},
+				{
+					"role": "heading1",
+					"layout": "heading1Layout",
+					"text": "How Worrying Flips Your \"On\" Switch",
+					"textStyle": "heading1Style",
+					"format": "markdown"
+				},
+				{
+					"role": "body",
+					"text": "Even if you haven't been jolted out of sleep by a noise or a kick by your bedmate, waking briefly a few times a night could happen naturally at the end of any 90-to 120-minute sleep cycle, before you reenter lighter stages of sleep. But when the worrywart within joins the party, that momentary wake-up turns into hours of lost sleep.",
+					"layout": "bodyLayout",
+					"textStyle": "bodyStyle",
+					"format": "markdown"
+				},
+				{
+					"role": "body",
+					"text": "\n1. A concern surfaces. If we're not sure how something will play out at work tomorrow or what we'll do if the school event gets rained out, our primitive mind prepares us for the worst possible outcome. That's because, back in our cavemen days, there was survival value in assuming things would end badly\u2014it allowed us to be prepared in case we needed to flee for our lives.\n2. The brain triggers a little freak-out. The primitive part of the brain\u2014the amygdala\u2014thinks your idle ruminations are urgent matters that need to be dealt with right away. In a process called cognitive fusion, it treats worried thoughts as if they're real emergencies.\n3. The body becomes very alert. Your amygdala has just initiated a fight-or-flight response to get you ready to take on whatever's coming. Your brain releases adrenaline and cortisol, and your body reacts: Your heart rate and blood pressure rise, and your muscles may even start to tighten.\n4. You're wide awake on the worry treadmill. People tend to catastrophize in the middle of the night\u2014in other words, your brain makes a big deal out of everything. The larger our problems seem, the more alert the body becomes (again, that's adrenaline at work) to try to solve those problems.",
+					"layout": "bodyLayout",
+					"textStyle": "bodyStyle",
+					"format": "markdown"
+				},
+				{
+					"role": "banner_advertisement",
+					"bannerType": "standard"
+				}
+			]
+		}
+	],
+	"documentStyle": {
+		"backgroundColor": "#FFF"
+	},
+	"componentStyles": {
+		"baseStrokeStyle": {
+		},
+		"blockQuoteContainerStyle": {
+			"border": {
+				"all": {
+					"width": 4,
+					"color": "#ddd"
+				},
+				"top": false,
+				"right": false,
+				"bottom": false
+			}
+		},
+		"bodyContainerStyle": {
+			"backgroundColor": "#FFF"
+		},
+		"dateLayoutStyle": {
+			"border": {
+				"all": {
+					"width": 2
+				},
+				"top": false,
+				"left": false,
+				"right": false
+			}
+		},
+		"photoContainerStyle": {
+			"backgroundColor": "#000"
+		},
+		"tabLayoutStyle": {
+			"border": {
+				"all": {
+					"width": 10,
+					"color": "#4bb049"
+				},
+				"top": false,
+				"left": false,
+				"right": false
+			}
+		}
+	},
+	"componentTextStyles": {
+		"authorStyle": {
+			"fontName": "BrandonText-Bold",
+			"fontSize": 12,
+			"textAlignment": "left",
+			"textColor": "#AAA",
+			"textTransform":"uppercase"
+		},
+		"blockQuoteStyle": {
+			"fontName": "Sirba-Regular",
+			"textColor": "#777",
+			"fontSize": 18,
+			"lineHeight": 24,
+			"textAlignment": "left",
+			"linkStyle": {
+				"textColor": "#8e4f82"
+			}
+		},
+		"bodyStyle": {
+			"fontName": "Sirba-Regular",
+			"fontSize": 20,
+			"lineHeight": 30,
+			"textAlignment": "left",
+			"textColor": "#333",
+			"linkStyle": {
+				"textColor": "#8e4f82"
+			}
+		},
+		"bodyStyleFirst": {
+			"fontName": "Sirba-Regular",
+			"fontSize": 20,
+			"lineHeight": 30,
+			"textAlignment": "left",
+			"textColor": "#333",
+			"dropCapStyle": {
+				"fontName": "BrandonText-Black",
+				"textColor":"#4bb049",
+				"numberOfLines": 4,
+				"numberOfCharacters": 1
+			},
+			"linkStyle": {
+				"textColor": "#8e4f82"
+			}
+		},
+		"captionStyle": {
+			"fontName": "Sirba-Regular",
+			"fontSize": 20,
+			"lineHeight": 28,
+			"textAlignment": "left",
+			"linkStyle": {
+				"textColor": "#8e4f82"
+			}
+		},
+		"creditStyle": {
+			"fontName": "Sirba-Regular",
+			"fontSize": 18,
+			"lineHeight": 24,
+			"textAlignment": "right",
+			"textColor": "#898989",
+			"textTransform":"uppercase"
+		},
+		"dateStyle": {
+			"fontName": "BrandonText-Bold",
+			"fontSize": 12,
+			"textAlignment": "left",
+			"textColor": "#AAA",
+			"textTransform":"uppercase"
+		},
+		"heading1Style": {
+			"fontName": "BrandonText-Black",
+			"fontSize": 32,
+			"lineHeight": 38,
+			"textAlignment": "left",
+			"textColor": "#333"
+		},
+		"introStyle": {
+			"fontName": "Sirba-Regular",
+			"fontSize": 22,
+			"lineHeight": 28,
+			"textAlignment": "left",
+			"textColor": "#999",
+			"linkStyle": {
+				"textColor": "#8e4f82"
+			}
+		},
+		"lowerListStyle": {
+			"fontName": "Sirba-Regular",
+			"fontSize": 18,
+			"lineHeight": 20,
+			"textAlignment": "left"
+		},
+		"pullQuoteStyle": {
+			"fontName": "BrandonText-Black",
+			"fontSize": 36,
+			"lineHeight": 42,
+			"textAlignment": "left",
+			"textColor": "#333"
+		},
+		"spacerWord":{
+			"fontName": "Sirba-Regular",
+			"fontSize": 48,
+			"lineHeight": 48,
+			"textAlignment": "left",
+			"textTransform": "uppercase"
+		},
+		"titleStyle": {
+			"fontName": "BrandonText-Black",
+			"fontSize": 48,
+			"lineHeight": 52,
+			"textAlignment": "left",
+			"textColor": "#333"
+		}
+	},
+	"componentLayouts": {
+		"adLayout": {
+		},
+		"authorLayout": {
+			"margin": {
+				"top": 5,
+				"bottom": 20
+			}
+		},
+		"blackStrokeLayout1":{
+			"margin": 0
+		},
+		"blackStrokeLayout2":{
+			"margin": 0
+		},
+		"blackStrokeLayout3":{
+			"margin": 0
+		},
+		"blackStrokeLayout4":{
+			"margin": 0
+		},
+		"blockQuoteLayout": {
+			"contentInset": {
+				"left": true,
+				"right": true
+			},
+			"margin": 15
+		},
+		"bodyContainerLayout": {
+			"margin": {
+				"top": 0,
+				"bottom": 25
+			}
+		},
+		"bodyLayout": {
+			"margin": {
+				"top": 10,
+				"bottom": 15
+			}
+		},
+		"captionLayout": {
+			"margin": {
+				"top": 10,
+				"bottom": 25
+			}	 
+		},
+		"creditLayout": {
+			"margin": {
+				"top": 4,
+				"bottom": 0
+			}	 
+		},
+		"dateLayout": {
+			"margin": {
+				"top": 30,
+				"bottom": 10
+			}
+		},
+		"embedLayout": {
+			"margin": {
+				"top": 10,
+				"bottom": 25
+			}
+		},
+		"headerImageLayout": {
+			"ignoreDocumentMargin": true,
+			"minimumHeight": "50vmin"
+		},
+		"heading1Layout": {
+			"margin": {
+				"top": 15,
+				"bottom": 0
+			}
+		},
+		"introLayout": {
+			"margin": {
+				"top": 0,
+				"bottom": 10
+			}
+		},
+		"photoLayout": {
+			"maximumContentWidth": "100cw"
+		},
+		"pullQuoteLayout": {
+			"margin": {
+				"top": 25,
+				"bottom": 25
+			},
+			"contentInset": {
+				"left": false,
+				"right": false
+			}
+		},
+		"slideLayout": {
+			"ignoreDocumentMargin": true
+		},
+		"spacerLayout": {
+			"margin": {
+				"top": 5,
+				"bottom": 0
+			}
+		},
+		"tabLayout": {
+			"ignoreDocumentMargin": true
+		},
+		"titleLayout": {
+			"margin": {
+				"top": 0,
+				"bottom": 10
+			}
+		}
+	}
+}

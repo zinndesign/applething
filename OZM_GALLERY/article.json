@@ -1,0 +1,496 @@
+{
+	"version": "0.10",
+	"identifier": "!!!DYNAMIC",
+	"title": "5 Foods for Fighting Depression",
+	"language": "en",
+	"blueprint": "basic",
+	"layout": {
+		"columns": 6,
+		"width": 1024,
+		"margin": 80,
+		"gutter": 20
+	},
+	"components": [
+		{
+			"role": "header",
+			"layout": "headerImageLayout",
+			"style": {
+				"fill": {
+					"type": "image",
+					"URL": "http://doz.h-cdn.co/assets/15/38/1600x800/landscape-1442618576-depression-intro.jpg",
+					"fillMode": "cover",
+					"verticalAlignment": "top"
+				}
+			},
+			"behavior": {
+				"type": "parallax",
+				"factor": 0.5
+			},
+			"components": [
+				{
+					"role": "container",
+					"layout": "tabLayout",
+					"style": "tabLayoutStyle",
+					"anchor": {
+						"targetAnchorPosition": "bottom"
+					}
+				}
+			]
+		},
+		{
+			"role": "section",
+			"layout": "bodyContainerLayout",
+			"style": "bodyContainerStyle",
+			"anchor": {
+				"targetAnchorPosition": "top"
+			},
+			"components": [
+				{
+					"role": "intro",
+					"layout": "dateLayout",
+					"text": "Sep 20, 2015 @ 3:00 PM",
+					"textStyle": "dateStyle"
+				},
+				{
+					"role": "title",
+					"layout": "titleLayout",
+					"text": "5 Foods for Fighting Depression",
+					"textStyle": "titleStyle"
+				},
+				{
+					"role": "intro",
+					"layout": "introLayout",
+					"text": "It's no secret that you are what you eat \u2014 but did you know you might feel what you eat, too?",
+					"textStyle": "introStyle",
+					"format": "markdown"
+				},
+				{
+					"role": "divider",
+					"stroke": {
+						"color": "#FFF0"
+					},
+					"layout": "blackStrokeLayout1",
+					"style": "baseStrokeStyle"
+				},
+				{
+					"role": "author",
+					"layout": "authorLayout",
+					"text": "By Tori Rodriguez",
+					"textStyle": "authorStyle"
+				},
+				{
+					"role": "divider",
+					"stroke": {
+						"color": "#FFF0"
+					},
+					"layout": "blackStrokeLayout2",
+					"style": "baseStrokeStyle"
+				},
+				{
+					"role": "body",
+					"text": "A [September 2015 study published in BMC Medicine](http://www.biomedcentral.com/1741-7015/13/197) is just one of many to find a link between nutrition and mental health. After looking at the eating habits of more than 15,000 people for 10 years, researchers found that people who ate a lot of fruits, veggies, nuts and fish had a lower depression risk. And it gets better: Those eaters weren't perfect. Even eating moderately healthily appeared to reduce the risk of developing depression.",
+					"layout": "bodyLayout",
+					"textStyle": "bodyStyleFirst",
+					"format": "markdown"
+				},
+				{
+					"role": "section",
+					"layout": "slideLayout",
+					"components": [
+						{
+							"role": "heading",
+							"text": "Salmon",
+							"layout": "heading1Layout",
+							"textStyle": "heading1Style",
+							"format": "markdown"
+						},
+						{
+							"role": "container",
+							"style": "photoContainerStyle",
+							"components": [
+								{
+									"role": "image",
+									"URL": "http://doz.h-cdn.co/assets/15/35/1600x1179/salmon-for-depression.jpg",
+									"layout": "photoLayout",
+									"animation": {
+										"type": "fade_in",
+										"userControllable": true,
+										"initialAlpha": 0.1
+									}
+								}
+							]
+						},
+						{
+							"role": "photographer",
+							"text": "Tetra images RF",
+							"layout": "creditLayout",
+							"textStyle": "creditStyle"
+						},
+						{
+							"role": "caption",
+							"text": "\"A major nutritional deficiency of people with depression is in omega-3 fats, which help decrease inflammation and improve mood regulation,\" says [Taz Bhatia, MD](http://google.com), integrative health expert at the Atlanta Center for Holistic and Integrative Medicine.\n\nIn a [May 2014 study in the American Journal of Epidemiology](http://google.com), researchers found those who ate fish two or more times per week had a 25 percent lower chance of developing depression.\n\n\"We think omega-3 fatty acids found in fish such as fresh salmon, tuna and sardines might be what are protecting women against depression,\" says study co-author Kylie Smith, post-doctoral research fellow at the University of Tasmania in Australia. \"It's been suggested that the omega-3s may change the composition of cell membranes or the function of their proteins.\"",
+							"layout": "captionLayout",
+							"textStyle": "captionStyle",
+							"format": "markdown"
+						}
+					]
+				},
+				{
+					"role": "section",
+					"layout": "slideLayout",
+					"components": [
+						{
+							"role": "heading",
+							"text": "Tomatoes",
+							"layout": "heading1Layout",
+							"textStyle": "heading1Style",
+							"format": "markdown"
+						},
+						{
+							"role": "container",
+							"style": "photoContainerStyle",
+							"components": [
+								{
+									"role": "image",
+									"URL": "http://doz.h-cdn.co/assets/15/38/1600x1120/gallery-1442616267-85429729.jpg",
+									"layout": "photoLayout",
+									"animation": {
+										"type": "fade_in",
+										"userControllable": true,
+										"initialAlpha": 0.1
+									}
+								}
+							]
+						},
+						{
+							"role": "photographer",
+							"text": "Rosemary Calvert",
+							"layout": "creditLayout",
+							"textStyle": "creditStyle"
+						},
+						{
+							"role": "caption",
+							"text": "Researchers in a [January 2013 study](http://google.com) investigated the relationship between symptoms of depression and eating tomatoes and tomato-based products. The results, which were reported in the Journal of Affective Disorders, show participants who regularly consumed tomatoes had nearly half the odds of depression as those who didn't get a consistent tomato fix.\n\n\"Tomatoes contain lycopene, an antioxidant that's a powerhouse in [preventing heart disease](http://google.com), stroke and now depression,\" Dr. Bhatia says.\n\nIt's not clear whether the prevention of depression is indirect due to lycopene's positive effect on overall health, but either way, \"include tomatoes in your diet at least four times per week \u2014 think tomato soup, salads or homemade pasta sauce,\" Bhatia says.",
+							"layout": "captionLayout",
+							"textStyle": "captionStyle",
+							"format": "markdown"
+						}
+					]
+				},
+				{
+					"role": "section",
+					"layout": "slideLayout",
+					"components": [
+						{
+							"role": "heading",
+							"text": "Chickpeas",
+							"layout": "heading1Layout",
+							"textStyle": "heading1Style",
+							"format": "markdown"
+						},
+						{
+							"role": "container",
+							"style": "photoContainerStyle",
+							"components": [
+								{
+									"role": "image",
+									"URL": "http://doz.h-cdn.co/assets/15/35/1600x1200/gallery-1440623731-chickpeas-for-depression.jpg",
+									"layout": "photoLayout",
+									"animation": {
+										"type": "fade_in",
+										"userControllable": true,
+										"initialAlpha": 0.1
+									}
+								}
+							]
+						},
+						{
+							"role": "photographer",
+							"text": "Alexandra Grablewski",
+							"layout": "creditLayout",
+							"textStyle": "creditStyle"
+						},
+						{
+							"role": "caption",
+							"text": "\"The biggest micronutrient deficiency in depression are the B vitamins, specifically vitamin B-6, which regulates the metabolism and breakdown of all neurotransmitters, including serotonin and dopamine,\" Bhatia says.\n\nResearchers in a [February 2013 review in Neurochemistry International](http://me.com) revealed the importance of vitamin B in regulating mood, reporting it can even boost serotonin (a key mood-regulating brain chemical) levels in people with depression. Chickpeas are a major source of vitamin B, so \"add them to your salad, pack hummus for lunch or make a falafel sandwich,\" she says.",
+							"layout": "captionLayout",
+							"textStyle": "captionStyle",
+							"format": "markdown"
+						}
+					]
+				},
+
+				{
+					"role": "banner_advertisement",
+					"bannerType": "standard"
+				}
+			]
+		}
+	],
+	"documentStyle": {
+		"backgroundColor": "#FFF"
+	},
+	"componentStyles": {
+		"baseStrokeStyle": {
+		},
+		"blockQuoteContainerStyle": {
+			"border": {
+				"all": {
+					"width": 4,
+					"color": "#ddd"
+				},
+				"top": false,
+				"right": false,
+				"bottom": false
+			}
+		},
+		"bodyContainerStyle": {
+			"backgroundColor": "#FFF"
+		},
+		"dateLayoutStyle": {
+			"border": {
+				"all": {
+					"width": 2
+				},
+				"top": false,
+				"left": false,
+				"right": false
+			}
+		},
+		"photoContainerStyle": {
+			"backgroundColor": "#000"
+		},
+		"tabLayoutStyle": {
+			"border": {
+				"all": {
+					"width": 10,
+					"color": "#4bb049"
+				},
+				"top": false,
+				"left": false,
+				"right": false
+			}
+		}
+	},
+	"componentTextStyles": {
+		"authorStyle": {
+			"fontName": "BrandonText-Bold",
+			"fontSize": 12,
+			"textAlignment": "left",
+			"textColor": "#AAA",
+			"textTransform":"uppercase"
+		},
+		"blockQuoteStyle": {
+			"fontName": "Sirba-Regular",
+			"textColor": "#777",
+			"fontSize": 18,
+			"lineHeight": 24,
+			"textAlignment": "left",
+			"linkStyle": {
+				"textColor": "#8e4f82"
+			}
+		},
+		"bodyStyle": {
+			"fontName": "Sirba-Regular",
+			"fontSize": 20,
+			"lineHeight": 30,
+			"textAlignment": "left",
+			"textColor": "#333",
+			"linkStyle": {
+				"textColor": "#8e4f82"
+			}
+		},
+		"bodyStyleFirst": {
+			"fontName": "Sirba-Regular",
+			"fontSize": 20,
+			"lineHeight": 30,
+			"textAlignment": "left",
+			"textColor": "#333",
+			"linkStyle": {
+				"textColor": "#8e4f82"
+			}
+		},
+		"captionStyle": {
+			"fontName": "Sirba-Regular",
+			"fontSize": 18,
+			"lineHeight": 24,
+			"textAlignment": "left",
+			"textColor": "#333",
+			"linkStyle": {
+				"textColor": "#8e4f82"
+			}
+		},
+		"creditStyle": {
+			"fontName": "BrandonText-Bold",
+			"fontSize": 12,
+			"lineHeight": 18,
+			"textAlignment": "right",
+			"textColor": "#AAA",
+			"textTransform":"uppercase"
+		},
+		"dateStyle": {
+			"fontName": "BrandonText-Bold",
+			"fontSize": 12,
+			"textAlignment": "left",
+			"textColor": "#AAA",
+			"textTransform":"uppercase"
+		},
+		"heading1Style": {
+			"fontName": "BrandonText-Black",
+			"fontSize": 32,
+			"lineHeight": 38,
+			"textAlignment": "left",
+			"textColor": "#333"
+		},
+		"introStyle": {
+			"fontName": "Sirba-Regular",
+			"fontSize": 22,
+			"lineHeight": 28,
+			"textAlignment": "left",
+			"textColor": "#999",
+			"linkStyle": {
+				"textColor": "#8e4f82"
+			}
+		},
+		"lowerListStyle": {
+			"fontName": "Sirba-Regular",
+			"fontSize": 18,
+			"lineHeight": 20,
+			"textAlignment": "left"
+		},
+		"pullQuoteStyle": {
+			"fontName": "BrandonText-Black",
+			"fontSize": 36,
+			"lineHeight": 42,
+			"textAlignment": "left",
+			"textColor": "#333"
+		},
+		"spacerWord":{
+			"fontName": "Sirba-Regular",
+			"fontSize": 48,
+			"lineHeight": 48,
+			"textAlignment": "left",
+			"textTransform": "uppercase"
+		},
+		"titleStyle": {
+			"fontName": "BrandonText-Black",
+			"fontSize": 48,
+			"lineHeight": 52,
+			"textAlignment": "left",
+			"textColor": "#333"
+		}
+	},
+	"componentLayouts": {
+		"adLayout": {
+		},
+		"authorLayout": {
+			"margin": {
+				"top": 5,
+				"bottom": 20
+			}
+		},
+		"blackStrokeLayout1":{
+			"margin": 0
+		},
+		"blackStrokeLayout2":{
+			"margin": 0
+		},
+		"blackStrokeLayout3":{
+			"margin": 0
+		},
+		"blackStrokeLayout4":{
+			"margin": 0
+		},
+		"blockQuoteLayout": {
+			"contentInset": {
+				"left": true,
+				"right": true
+			},
+			"margin": 15
+		},
+		"bodyContainerLayout": {
+			"margin": {
+				"top": 0,
+				"bottom": 25
+			}
+		},
+		"bodyLayout": {
+			"margin": {
+				"top": 10,
+				"bottom": 15
+			}
+		},
+		"captionLayout": {
+			"margin": {
+				"top": 15,
+				"bottom": 5
+			}	 
+		},
+		"creditLayout": {
+			"margin": {
+				"top": 2,
+				"bottom": 0
+			}	 
+		},
+		"dateLayout": {
+			"margin": {
+				"top": 30,
+				"bottom": 10
+			}
+		},
+		"embedLayout": {
+			"margin": {
+				"top": 10,
+				"bottom": 25
+			}
+		},
+		"headerImageLayout": {
+			"ignoreDocumentMargin": true,
+			"minimumHeight": "50vmin"
+		},
+		"heading1Layout": {
+			"margin": {
+				"top": 15,
+				"bottom": 10
+			}
+		},
+		"introLayout": {
+			"margin": {
+				"top": 0,
+				"bottom": 10
+			}
+		},
+		"photoLayout": {
+			"maximumContentWidth": "100cw"
+		},
+		"pullQuoteLayout": {
+			"margin": {
+				"top": 25,
+				"bottom": 25
+			},
+			"contentInset": {
+				"left": false,
+				"right": false
+			}
+		},
+		"slideLayout": {
+			"ignoreDocumentMargin": true,
+			"margin": 15
+		},
+		"spacerLayout": {
+			"margin": {
+				"top": 5,
+				"bottom": 0
+			}
+		},
+		"tabLayout": {
+			"ignoreDocumentMargin": true
+		},
+		"titleLayout": {
+			"margin": {
+				"top": 0,
+				"bottom": 10
+			}
+		}
+	}
+}
