@@ -349,7 +349,7 @@
 	"componentTextStyles": {
 		"authorStyle": {
 			"fontName": "CentraleSans-Medium",
-			"fontSize": 14,
+			"fontSize": 12,
 			"textAlignment": "left",
 			"textColor": "#AAA",
 			"textTransform":"uppercase"
@@ -361,7 +361,7 @@
 			"lineHeight": 24,
 			"textAlignment": "left",
 			"linkStyle": {
-				"textColor": "#666"
+				"textColor": "#3777bc"
 			}
 		},
 		"bodyStyle": {
@@ -370,7 +370,7 @@
 			"lineHeight": 28,
 			"textAlignment": "left",
 			"linkStyle": {
-				"textColor": "#666"
+				"textColor": "#3777bc"
 			}
 		},
 		"bodyStyleFirst": {
@@ -379,7 +379,7 @@
 			"lineHeight": 28,
 			"textAlignment": "left",
 			"linkStyle": {
-				"textColor": "#666"
+				"textColor": "#3777bc"
 			}
 		},
 		"captionStyle": {
@@ -388,20 +388,19 @@
 			"lineHeight": 28,
 			"textAlignment": "left",
 			"linkStyle": {
-				"textColor": "#666"
+				"textColor": "#3777bc"
 			}
 		},
 		"creditStyle": {
 			"fontName": "CentraleSans-Medium",
 			"fontSize": 12,
-			"lineHeight": 12,
-			"textAlignment": "right",
-			"textColor": "#AAA",
-			"textTransform":"uppercase"
+			"lineHeight": 18,
+			"textAlignment": "left",
+			"textColor": "#AAA"
 		},
 		"dateStyle": {
 			"fontName": "CentraleSans-Medium",
-			"fontSize": 14,
+			"fontSize": 12,
 			"textAlignment": "left",
 			"textColor": "#AAA",
 			"textTransform":"uppercase"
@@ -415,12 +414,12 @@
 		},
 		"introStyle": {
 			"fontName": "SabonNextLTPro-Italic",
-			"fontSize": 26,
-			"lineHeight": 34,
+			"fontSize": 18,
+			"lineHeight": 24,
 			"textAlignment": "left",
 			"textColor": "#666",
 			"linkStyle": {
-				"textColor": "#c03d09"
+				"textColor": "#3777bc"
 			}
 		},
 		"lowerListStyle": {
@@ -434,7 +433,7 @@
 			"fontSize": 42,
 			"lineHeight": 50,
 			"textAlignment": "left",
-			"textColor": "#666"
+			"textColor": "#3777bc"
 		},
 		"spacerWord":{
 			"fontName": "SabonNextLTPro-Regular",
@@ -445,8 +444,8 @@
 		},
 		"titleStyle": {
 			"fontName": "CentraleSans-Bold",
-			"fontSize": 48,
-			"lineHeight": 48,
+			"fontSize": 42,
+			"lineHeight": 42,
 			"textAlignment": "left",
 			"textTransform":"uppercase"
 		}
@@ -499,8 +498,8 @@
 		},
 		"creditLayout": {
 			"margin": {
-				"top": 4,
-				"bottom": 0
+				"top": 5,
+				"bottom": 5
 			}	 
 		},
 		"dateLayout": {
@@ -527,7 +526,7 @@
 		},
 		"introLayout": {
 			"margin": {
-				"top": 0,
+				"top": 5,
 				"bottom": 10
 			}
 		},

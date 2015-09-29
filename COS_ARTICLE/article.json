@@ -98,10 +98,11 @@
 					"format": "markdown"
 				},
 				{
-					"role": "body",
+					"role": "quote",
 					"text": "A few days ago, Amanda Fisher, 23, of Frisco, Texas, posted a photo of herself next to a photo of her alleged doppelg\u00E4nger on Imgur. In the caption, Fisher claimed that her friends found this identical stranger on Instagram, but couldn't get in touch with her because it seemed like she wasn't an active user, so she turned to Imgur for help.",
-					"layout": "bodyLayout",
-					"textStyle": "bodyStyle",
+					"layout": "blockQuoteLayout",
+					"style": "blockQuoteContainerStyle",
+					"textStyle": "blockQuoteStyle",
 					"format": "markdown"
 				},
 				{
@@ -165,6 +166,17 @@
 	"componentStyles": {
 		"baseStrokeStyle": {
 		},
+		"blockQuoteContainerStyle": {
+			"border": {
+				"all": {
+					"width": 4,
+					"color": "#ddd"
+				},
+				"top": false,
+				"right": false,
+				"bottom": false
+			}
+		},
 		"bodyContainerStyle": {
 			"backgroundColor": "#FFF"
 		},
@@ -194,25 +206,38 @@
 	"componentTextStyles": {
 		"authorStyle": {
 			"fontName": "Georgia-Italic",
-			"fontSize": 18,
+			"fontSize": 16,
+			"lineHeight": 21,
 			"textAlignment": "left",
 			"textColor": "#959595"
 		},
+		"blockQuoteStyle": {
+			"fontName": "Georgia",
+			"textColor": "#777",
+			"fontSize": 15,
+			"lineHeight": 20,
+			"textAlignment": "left",
+			"linkStyle": {
+				"textColor": "#ef008c"
+			}
+		},
 		"bodyStyle": {
 			"fontName": "Georgia",
-			"fontSize": 18,
+			"fontSize": 16,
 			"lineHeight": 24,
 			"textAlignment": "left",
 			"linkStyle": {
-				"textColor": "#00AAE3",
-				"underline": true
+				"textColor": "#ef008c"
 			}
 		},
 		"bodyStyleFirst": {
 			"fontName": "Georgia",
-			"fontSize": 18,
+			"fontSize": 16,
 			"lineHeight": 24,
 			"textAlignment": "left",
+			"linkStyle": {
+				"textColor": "#ef008c"
+			},
 			"dropCapStyle": {
 				"fontName": "DINNextLTPro-MediumCond",
 				"numberOfLines": 5,
@@ -226,11 +251,11 @@
 			"lineHeight": 32,
 			"textAlignment": "left",
 			"linkStyle": {
-				"underline": true
+				"textColor": "#ef008c"
 			}
 		},
 		"creditStyle": {
-			"fontName": "Georgia",
+			"fontName": "DINNextLTPro-MediumCond",
 			"fontSize": 18,
 			"lineHeight": 24,
 			"textAlignment": "right",
@@ -252,10 +277,13 @@
 		},
 		"introStyle": {
 			"fontName": "DINNextLTPro-MediumCond",
-			"fontSize": 36,
-			"lineHeight": 38,
+			"fontSize": 28,
+			"lineHeight": 34,
 			"textAlignment": "left",
-			"textColor": "#636363"
+			"textColor": "#636363",
+			"linkStyle": {
+				"textColor": "#ef008c"
+			}
 		},
 		"lowerListStyle": {
 			"fontName": "Georgia",
@@ -270,7 +298,7 @@
 			"textAlignment": "center",
 			"textColor": "#EC008C"
 		},
-		"spacerWord":{
+		"spacerWord": {
 			"fontName": "Georgia",
 			"fontSize": 48,
 			"lineHeight": 48,
@@ -282,7 +310,6 @@
 			"fontSize": 64,
 			"lineHeight": 62,
 			"textAlignment": "left",
-			"textTransform": "uppercase",
 			"textColor": "#333",
 			"tracking": -0.02
 		}
@@ -296,15 +323,22 @@
 				"bottom": 30
 			}
 		},
-		"blackStrokeLayout1":{
+		"blackStrokeLayout1": {
 			"margin": 0
 		},
-		"blackStrokeLayout2":{
-			"margin": 5
+		"blackStrokeLayout2": {
+			"margin": 0
 		},
-		"blackStrokeLayout3":{
+		"blackStrokeLayout3": {
 		},
-		"blackStrokeLayout4":{
+		"blackStrokeLayout4": {
+		},
+		"blockQuoteLayout": {
+			"contentInset": {
+				"left": true,
+				"right": true
+			},
+			"margin": 15
 		},
 		"bodyContainerLayout": {
 			"margin": {
@@ -322,13 +356,13 @@
 			"margin": {
 				"top": 10,
 				"bottom": 25
-			}	 
+			}
 		},
 		"creditLayout": {
 			"margin": {
 				"top": 4,
 				"bottom": 0
-			}	 
+			}
 		},
 		"dateLayout": {
 			"margin": {
@@ -359,7 +393,7 @@
 			}
 		},
 		"photoLayout": {
-			"minimumHeight": "100vmax"
+			"maximumContentWidth": "100cw"
 		},
 		"pullQuoteLayout": {
 			"margin": {
@@ -373,7 +407,7 @@
 		},
 		"slideLayout": {
 			"ignoreDocumentMargin": true,
-			"minimumHeight": "100cw"
+			"margin": 15
 		},
 		"spacerLayout": {
 			"margin": {
@@ -383,7 +417,7 @@
 		},
 		"tabLayout": {
 			"ignoreDocumentMargin": true,
-			"minimumHeight": 124
+			"minimumHeight": "5vmin"
 		},
 		"titleLayout": {
 			"margin": {

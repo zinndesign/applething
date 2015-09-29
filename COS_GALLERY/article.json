@@ -10,240 +10,1811 @@
 		"margin": 80,
 		"gutter": 20
 	},
-	"components": [
-		{
-			"role": "header",
-			"layout": "headerImageLayout",
-			"style": {
-				"fill": {
-					"type": "image",
-					"URL": "http://cos.h-cdn.co/assets/15/34/980x490/landscape-1440003086-gty-demi-lovato-150819.jpg",
-					"fillMode": "cover",
-					"verticalAlignment": "top"
-				}
-			},
-			"behavior": {
-				"type": "parallax",
-				"factor": 0.5
-			},
-			"components": [
-				{
-					"role": "container",
-					"layout": "tabLayout",
-					"style": "tabLayoutStyle",
-					"anchor": {
-						"targetAnchorPosition": "bottom"
-					}
-				}
-			]
-		},
-		{
-			"role": "section",
-			"layout": "bodyContainerLayout",
-			"style": "bodyContainerStyle",
-			"anchor": {
-				"targetAnchorPosition": "top"
-			},
-			"components": [
-				{
-					"role": "intro",
-					"layout": "dateLayout",
-					"text": "Aug 5, 2015 @ 6:01 PM",
-					"textStyle": "dateStyle"
-				},
-				{
-					"role": "title",
-					"layout": "titleLayout",
-					"text": "31 Times Demi Lovato Looked Absolutely Flawless",
-					"textStyle": "titleStyle"
-				},
-				{
-					"role": "intro",
-					"layout": "introLayout",
-					"text": "She has rocking style on- and off-stage.",
-					"textStyle": "introStyle"
-				},
-				{
-					"role": "divider",
-					"stroke": {
-						"color": "#FFF0"
-					},
-					"layout": "blackStrokeLayout1",
-					"style": "baseStrokeStyle"
-				},
-				{
-					"role": "author",
-					"layout": "authorLayout",
-					"text": "By Blair Sylvester",
-					"textStyle": "authorStyle"
-				},
-				{
-					"role": "divider",
-					"stroke": {
-						"color": "#FFF0"
-					},
-					"layout": "blackStrokeLayout1",
-					"style": "baseStrokeStyle"
-				},
-				{
-					"role": "section",
-					"layout": "slideLayout",
-					"components": [
-						{
-							"role": "heading",
-							"text": "Times Demi Lovato Looked Flawless",
-							"layout": "heading1Layout",
-							"textStyle": "heading1Style",
-							"format": "markdown"
-						},
-						{
-							"role": "container",
-							"style": "photoContainerStyle",
-							"layout": "photoLayout",
-							"components": [
-								{
-									"role": "container",
-									"style": {
-										"fill": {
-											"type": "image",
-											"URL": "http://cos.h-cdn.co/assets/15/34/1024x1536/gallery-1440003086-gty-demi-lovato-150819.jpg",
-											"verticalAlignment": "top"
-										}
-									},
-									"layout": "photoLayout",
-									"animation": {
-										"type": "fade_in",
-										"userControllable": true,
-										"initialAlpha": 0.1
-									}
-								}
-							]
-						},
-						{
-							"role": "photographer",
-							"text": "Getty",
-							"layout": "creditLayout",
-							"textStyle": "creditStyle"
-						},			
-						{
-							"role": "caption",
-							"text": "Demi Lovato attends the new Samsung Galaxy S6 edge+ and Galaxy Note5 at Launch Event in Los Angeles on Aug. 18, 2015.",
-							"layout": "captionLayout",
-							"textStyle": "captionStyle",
-							"format": "markdown"
-						}
-					]
-				},
-				{
-					"role": "section",
-					"layout": "slideLayout",
-					"components": [
-						{
-							"role": "heading",
-							"text": "Times Demi Lovato Looked Flawless",
-							"layout": "heading1Layout",
-							"textStyle": "heading1Style",
-							"format": "markdown"
-						},
-						{
-							"role": "container",
-							"style": "photoContainerStyle",
-							"layout": "photoLayout",
-							"components": [
-								{
-									"role": "container",
-									"style": {
-										"fill": {
-											"type": "image",
-											"URL": "http://cos.h-cdn.co/assets/15/27/1024x1535/gettyimages-479189156_1.jpg",
-											"verticalAlignment": "top"
-										}
-									},
-									"layout": "photoLayout",
-									"animation": {
-										"type": "fade_in",
-										"userControllable": true,
-										"initialAlpha": 0.1
-									}
-								}
-							]
-						},
-						{
-							"role": "photographer",
-							"text": "Getty",
-							"layout": "creditLayout",
-							"textStyle": "creditStyle"
-						},			
-						{
-							"role": "caption",
-							"text": "Demi Lovato gets dinner at Zuma Restaurant on July 1, 2015 in New York City.",
-							"layout": "captionLayout",
-							"textStyle": "captionStyle",
-							"format": "markdown"
-						}
-					]
-				},
-				{
-					"role": "section",
-					"layout": "slideLayout",
-					"components": [
-						{
-							"role": "heading",
-							"text": "Times Demi Lovato Looked Flawless",
-							"layout": "heading1Layout",
-							"textStyle": "heading1Style",
-							"format": "markdown"
-						},
-						{
-							"role": "container",
-							"style": "photoContainerStyle",
-							"layout": "photoLayout",
-							"components": [
-								{
-									"role": "container",
-									"style": {
-										"fill": {
-											"type": "image",
-											"URL": "http://cos.h-cdn.co/assets/15/27/1024x1536/gettyimages-479162958_1.jpg",
-											"verticalAlignment": "top"
-										}
-									},
-									"layout": "photoLayout",
-									"animation": {
-										"type": "fade_in",
-										"userControllable": true,
-										"initialAlpha": 0.1
-									}
-								}
-							]
-						},
-						{
-							"role": "photographer",
-							"text": "Getty",
-							"layout": "creditLayout",
-							"textStyle": "creditStyle"
-						},			
-						{
-							"role": "caption",
-							"text": "Demi Lovato visits Z100 to debut her new single, 'Cool for the Summer,' at Gansevoort Park Avenue on July 1, 2015 in New York City.",
-							"layout": "captionLayout",
-							"textStyle": "captionStyle",
-							"format": "markdown"
-						}
-					]
-				},
-				{
-					"role": "banner_advertisement",
-					"bannerType": "standard"
-				}
-			]
-		}
-	],
+    "components":[
+        {
+            "role":"header",
+            "layout":"headerImageLayout",
+            "style":{
+                "fill":{
+                    "type":"image",
+                    "URL":"bundle://1441989263-gty-demi-lovato-150911.jpg",
+                    "fillMode":"cover",
+                    "verticalAlignment":"top"
+                }
+            },
+            "behavior":{
+                "type":"parallax",
+                "factor":0.5
+            },
+            "components":[
+                {
+                    "role":"container",
+                    "layout":"tabLayout",
+                    "style":"tabLayoutStyle",
+                    "anchor":{
+                        "targetAnchorPosition":"bottom"
+                    }
+                }
+            ]
+        },
+        {
+            "role":"section",
+            "layout":"bodyContainerLayout",
+            "style":"bodyContainerStyle",
+            "anchor":{
+                "targetAnchorPosition":"top"
+            },
+            "components":[
+                {
+                    "role":"intro",
+                    "text":"Fri Mar 06 2015",
+                    "format":"markdown",
+                    "layout":"dateLayout",
+                    "textStyle":"dateStyle"
+                },
+                {
+                    "role":"title",
+                    "text":"38 Times Demi Lovato Looked Absolutely Flawless",
+                    "format":"markdown",
+                    "layout":"titleLayout",
+                    "textStyle":"titleStyle"
+                },
+                {
+                    "role":"intro",
+                    "text":"She has rocking style on and off stage.",
+                    "format":"markdown",
+                    "layout":"introLayout",
+                    "textStyle":"introStyle"
+                },
+                {
+                    "role":"divider",
+                    "stroke":{
+                        "color":"#FFF0"
+                    },
+                    "layout":"blackStrokeLayout1",
+                    "style":"baseStrokeStyle"
+                },
+                {
+                    "role":"author",
+                    "text":"By Blair Sylvester",
+                    "layout":"authorLayout",
+                    "textStyle":"authorStyle"
+                },
+                {
+                    "role":"divider",
+                    "stroke":{
+                        "color":"#FFF0"
+                    },
+                    "layout":"blackStrokeLayout2",
+                    "style":"baseStrokeStyle"
+                },
+                {
+                    "role":"section",
+                    "components":[
+                        {
+                            "role":"heading3",
+                            "text":"Times Demi Lovato Looked Flawless",
+                            "format":"markdown",
+                            "layout":"heading1Layout",
+                            "textStyle":"heading1Style"
+                        },
+                        {
+                            "role":"container",
+                            "style":"photoContainerStyle",
+                            "components":[
+                                {
+                                    "role":"photo",
+                                    "URL":"bundle://1441989263-gty-demi-lovato-150911.jpg",
+                                    "caption":"",
+                                    "layout":"photoLayout",
+                                    "animation":{
+                                        "type":"fade_in",
+                                        "userControllable":true,
+                                        "initialAlpha":0.1
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "role":"photographer",
+                            "text":"Getty",
+                            "format":"markdown",
+                            "layout":"creditLayout",
+                            "textStyle":"creditStyle"
+                        },
+                        {
+                            "role":"caption",
+                            "text":"Demi Lovato leaves the Waldorf Astoria Hotel in Berlin on Sept. 11, 2015.",
+                            "format":"markdown",
+                            "layout":"captionLayout",
+                            "textStyle":"captionStyle"
+                        }
+                    ],
+                    "layout":"slideLayout"
+                },
+                {
+                    "role":"section",
+                    "components":[
+                        {
+                            "role":"heading3",
+                            "text":"Times Demi Lovato Looked Flawless",
+                            "format":"markdown",
+                            "layout":"heading1Layout",
+                            "textStyle":"heading1Style"
+                        },
+                        {
+                            "role":"container",
+                            "style":"photoContainerStyle",
+                            "components":[
+                                {
+                                    "role":"photo",
+                                    "URL":"bundle://1441899554-gty-demi-lovato-150910.jpg",
+                                    "caption":"",
+                                    "layout":"photoLayout",
+                                    "animation":{
+                                        "type":"fade_in",
+                                        "userControllable":true,
+                                        "initialAlpha":0.1
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "role":"photographer",
+                            "text":"Getty",
+                            "format":"markdown",
+                            "layout":"creditLayout",
+                            "textStyle":"creditStyle"
+                        },
+                        {
+                            "role":"caption",
+                            "text":"Demi Lovato leaves Capital Radio Studios in London on Sept. 10, 2015.",
+                            "format":"markdown",
+                            "layout":"captionLayout",
+                            "textStyle":"captionStyle"
+                        }
+                    ],
+                    "layout":"slideLayout"
+                },
+                {
+                    "role":"section",
+                    "components":[
+                        {
+                            "role":"heading3",
+                            "text":"Times Demi Lovato Looked Flawless",
+                            "format":"markdown",
+                            "layout":"heading1Layout",
+                            "textStyle":"heading1Style"
+                        },
+                        {
+                            "role":"container",
+                            "style":"photoContainerStyle",
+                            "components":[
+                                {
+                                    "role":"photo",
+                                    "URL":"bundle://gty_demi_lovato_01_150909.jpg",
+                                    "caption":"",
+                                    "layout":"photoLayout",
+                                    "animation":{
+                                        "type":"fade_in",
+                                        "userControllable":true,
+                                        "initialAlpha":0.1
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "role":"photographer",
+                            "text":"Getty",
+                            "format":"markdown",
+                            "layout":"creditLayout",
+                            "textStyle":"creditStyle"
+                        },
+                        {
+                            "role":"caption",
+                            "text":"Demi Lovato arrives at BBC Radio One in London on Sept. 9, 2015.",
+                            "format":"markdown",
+                            "layout":"captionLayout",
+                            "textStyle":"captionStyle"
+                        }
+                    ],
+                    "layout":"slideLayout"
+                },
+                {
+                    "role":"medium_rectangle_advertisement"
+                },
+                {
+                    "role":"section",
+                    "components":[
+                        {
+                            "role":"heading3",
+                            "text":"Times Demi Lovato Looked Flawless",
+                            "format":"markdown",
+                            "layout":"heading1Layout",
+                            "textStyle":"heading1Style"
+                        },
+                        {
+                            "role":"container",
+                            "style":"photoContainerStyle",
+                            "components":[
+                                {
+                                    "role":"photo",
+                                    "URL":"bundle://1441825764-pcn-demi-lovato-02-150909.jpg",
+                                    "caption":"",
+                                    "layout":"photoLayout",
+                                    "animation":{
+                                        "type":"fade_in",
+                                        "userControllable":true,
+                                        "initialAlpha":0.1
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "role":"photographer",
+                            "text":"Pacific Coast News",
+                            "format":"markdown",
+                            "layout":"creditLayout",
+                            "textStyle":"creditStyle"
+                        },
+                        {
+                            "role":"caption",
+                            "text":"Demi Lovato in London on Sept. 8, 2015.",
+                            "format":"markdown",
+                            "layout":"captionLayout",
+                            "textStyle":"captionStyle"
+                        }
+                    ],
+                    "layout":"slideLayout"
+                },
+                {
+                    "role":"section",
+                    "components":[
+                        {
+                            "role":"heading3",
+                            "text":"Times Demi Lovato Looked Flawless",
+                            "format":"markdown",
+                            "layout":"heading1Layout",
+                            "textStyle":"heading1Style"
+                        },
+                        {
+                            "role":"container",
+                            "style":"photoContainerStyle",
+                            "components":[
+                                {
+                                    "role":"photo",
+                                    "URL":"bundle://1441743642-pcn-demi-lovato-150908.jpg",
+                                    "caption":"",
+                                    "layout":"photoLayout",
+                                    "animation":{
+                                        "type":"fade_in",
+                                        "userControllable":true,
+                                        "initialAlpha":0.1
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "role":"photographer",
+                            "text":"Pacific Coast News",
+                            "format":"markdown",
+                            "layout":"creditLayout",
+                            "textStyle":"creditStyle"
+                        },
+                        {
+                            "role":"caption",
+                            "text":"Demi Lovato leaves NRJ radio in Paris on Sept. 7, 2015.",
+                            "format":"markdown",
+                            "layout":"captionLayout",
+                            "textStyle":"captionStyle"
+                        }
+                    ],
+                    "layout":"slideLayout"
+                },
+                {
+                    "role":"section",
+                    "components":[
+                        {
+                            "role":"heading3",
+                            "text":"Times Demi Lovato Looked Flawless",
+                            "format":"markdown",
+                            "layout":"heading1Layout",
+                            "textStyle":"heading1Style"
+                        },
+                        {
+                            "role":"container",
+                            "style":"photoContainerStyle",
+                            "components":[
+                                {
+                                    "role":"photo",
+                                    "URL":"bundle://1441125317-gty-demi-lovato-01-150901.jpg",
+                                    "caption":"",
+                                    "layout":"photoLayout",
+                                    "animation":{
+                                        "type":"fade_in",
+                                        "userControllable":true,
+                                        "initialAlpha":0.1
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "role":"photographer",
+                            "text":"Getty",
+                            "format":"markdown",
+                            "layout":"creditLayout",
+                            "textStyle":"creditStyle"
+                        },
+                        {
+                            "role":"caption",
+                            "text":"Demi Lovato arrives at *Jimmy Kimmel Live* in Los Angeles on Aug. 31, 2015.",
+                            "format":"markdown",
+                            "layout":"captionLayout",
+                            "textStyle":"captionStyle"
+                        }
+                    ],
+                    "layout":"slideLayout"
+                },
+                {
+                    "role":"medium_rectangle_advertisement"
+                },
+                {
+                    "role":"section",
+                    "components":[
+                        {
+                            "role":"heading3",
+                            "text":"Times Demi Lovato Looked Flawless",
+                            "format":"markdown",
+                            "layout":"heading1Layout",
+                            "textStyle":"heading1Style"
+                        },
+                        {
+                            "role":"container",
+                            "style":"photoContainerStyle",
+                            "components":[
+                                {
+                                    "role":"photo",
+                                    "URL":"bundle://gty_demi_lovato_02_150901.jpg",
+                                    "caption":"",
+                                    "layout":"photoLayout",
+                                    "animation":{
+                                        "type":"fade_in",
+                                        "userControllable":true,
+                                        "initialAlpha":0.1
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "role":"photographer",
+                            "text":"Getty",
+                            "format":"markdown",
+                            "layout":"creditLayout",
+                            "textStyle":"creditStyle"
+                        },
+                        {
+                            "role":"caption",
+                            "text":"Demi Lovato attends the MTV Video Music Awards at Microsoft Theater in Los Angeles on Aug. 30, 2015.",
+                            "format":"markdown",
+                            "layout":"captionLayout",
+                            "textStyle":"captionStyle"
+                        }
+                    ],
+                    "layout":"slideLayout"
+                },
+                {
+                    "role":"section",
+                    "components":[
+                        {
+                            "role":"heading3",
+                            "text":"Times Demi Lovato Looked Flawless",
+                            "format":"markdown",
+                            "layout":"heading1Layout",
+                            "textStyle":"heading1Style"
+                        },
+                        {
+                            "role":"container",
+                            "style":"photoContainerStyle",
+                            "components":[
+                                {
+                                    "role":"photo",
+                                    "URL":"bundle://1440003086-gty-demi-lovato-150819.jpg",
+                                    "caption":"",
+                                    "layout":"photoLayout",
+                                    "animation":{
+                                        "type":"fade_in",
+                                        "userControllable":true,
+                                        "initialAlpha":0.1
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "role":"photographer",
+                            "text":"Getty",
+                            "format":"markdown",
+                            "layout":"creditLayout",
+                            "textStyle":"creditStyle"
+                        },
+                        {
+                            "role":"caption",
+                            "text":"Demi Lovato attends the new Samsung Galaxy S6 edge+ and Galaxy Note5 launch event in Los Angeles on Aug. 18, 2015.",
+                            "format":"markdown",
+                            "layout":"captionLayout",
+                            "textStyle":"captionStyle"
+                        }
+                    ],
+                    "layout":"slideLayout"
+                },
+                {
+                    "role":"section",
+                    "components":[
+                        {
+                            "role":"heading3",
+                            "text":"Times Demi Lovato Looked Flawless",
+                            "format":"markdown",
+                            "layout":"heading1Layout",
+                            "textStyle":"heading1Style"
+                        },
+                        {
+                            "role":"container",
+                            "style":"photoContainerStyle",
+                            "components":[
+                                {
+                                    "role":"photo",
+                                    "URL":"bundle://gettyimages-479189156_1.jpg",
+                                    "caption":"",
+                                    "layout":"photoLayout",
+                                    "animation":{
+                                        "type":"fade_in",
+                                        "userControllable":true,
+                                        "initialAlpha":0.1
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "role":"photographer",
+                            "text":"Getty",
+                            "format":"markdown",
+                            "layout":"creditLayout",
+                            "textStyle":"creditStyle"
+                        },
+                        {
+                            "role":"caption",
+                            "text":"Demi Lovato gets dinner at Zuma on July 1, 2015, in New York City.",
+                            "format":"markdown",
+                            "layout":"captionLayout",
+                            "textStyle":"captionStyle"
+                        }
+                    ],
+                    "layout":"slideLayout"
+                },
+                {
+                    "role":"medium_rectangle_advertisement"
+                },
+                {
+                    "role":"section",
+                    "components":[
+                        {
+                            "role":"heading3",
+                            "text":"Times Demi Lovato Looked Flawless",
+                            "format":"markdown",
+                            "layout":"heading1Layout",
+                            "textStyle":"heading1Style"
+                        },
+                        {
+                            "role":"container",
+                            "style":"photoContainerStyle",
+                            "components":[
+                                {
+                                    "role":"photo",
+                                    "URL":"bundle://gettyimages-479162958_1.jpg",
+                                    "caption":"",
+                                    "layout":"photoLayout",
+                                    "animation":{
+                                        "type":"fade_in",
+                                        "userControllable":true,
+                                        "initialAlpha":0.1
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "role":"photographer",
+                            "text":"Getty",
+                            "format":"markdown",
+                            "layout":"creditLayout",
+                            "textStyle":"creditStyle"
+                        },
+                        {
+                            "role":"caption",
+                            "text":"Demi Lovato visits Z100 to debut her new single, \"Cool for the Summer,\" at Gansevoort Park Avenue on July 1, 2015, in New York City.",
+                            "format":"markdown",
+                            "layout":"captionLayout",
+                            "textStyle":"captionStyle"
+                        }
+                    ],
+                    "layout":"slideLayout"
+                },
+                {
+                    "role":"section",
+                    "components":[
+                        {
+                            "role":"heading3",
+                            "text":"Times Demi Lovato Looked Flawless",
+                            "format":"markdown",
+                            "layout":"heading1Layout",
+                            "textStyle":"heading1Style"
+                        },
+                        {
+                            "role":"container",
+                            "style":"photoContainerStyle",
+                            "components":[
+                                {
+                                    "role":"photo",
+                                    "URL":"bundle://1435786973-gty-demi-lovato-01-150701.jpg",
+                                    "caption":"",
+                                    "layout":"photoLayout",
+                                    "animation":{
+                                        "type":"fade_in",
+                                        "userControllable":true,
+                                        "initialAlpha":0.1
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "role":"photographer",
+                            "text":"Getty",
+                            "format":"markdown",
+                            "layout":"creditLayout",
+                            "textStyle":"creditStyle"
+                        },
+                        {
+                            "role":"caption",
+                            "text":"Demi Lovato visits SiriusXM Studios in New York City on July 1, 2015.",
+                            "format":"markdown",
+                            "layout":"captionLayout",
+                            "textStyle":"captionStyle"
+                        }
+                    ],
+                    "layout":"slideLayout"
+                },
+                {
+                    "role":"section",
+                    "components":[
+                        {
+                            "role":"heading3",
+                            "text":"Times Demi Lovato Looked Flawless",
+                            "format":"markdown",
+                            "layout":"heading1Layout",
+                            "textStyle":"heading1Style"
+                        },
+                        {
+                            "role":"container",
+                            "style":"photoContainerStyle",
+                            "components":[
+                                {
+                                    "role":"photo",
+                                    "URL":"bundle://gty_demi_lovato_02_150701.jpg",
+                                    "caption":"",
+                                    "layout":"photoLayout",
+                                    "animation":{
+                                        "type":"fade_in",
+                                        "userControllable":true,
+                                        "initialAlpha":0.1
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "role":"photographer",
+                            "text":"Getty",
+                            "format":"markdown",
+                            "layout":"creditLayout",
+                            "textStyle":"creditStyle"
+                        },
+                        {
+                            "role":"caption",
+                            "text":"Demi Lovato visits SiriusXM Studios in New York City on June 25, 2015.",
+                            "format":"markdown",
+                            "layout":"captionLayout",
+                            "textStyle":"captionStyle"
+                        }
+                    ],
+                    "layout":"slideLayout"
+                },
+                {
+                    "role":"medium_rectangle_advertisement"
+                },
+                {
+                    "role":"section",
+                    "components":[
+                        {
+                            "role":"heading3",
+                            "text":"Times Demi Lovato Looked Flawless",
+                            "format":"markdown",
+                            "layout":"heading1Layout",
+                            "textStyle":"heading1Style"
+                        },
+                        {
+                            "role":"container",
+                            "style":"photoContainerStyle",
+                            "components":[
+                                {
+                                    "role":"photo",
+                                    "URL":"bundle://1434653350-gty-demi-lovato-01-150618.jpg",
+                                    "caption":"",
+                                    "layout":"photoLayout",
+                                    "animation":{
+                                        "type":"fade_in",
+                                        "userControllable":true,
+                                        "initialAlpha":0.1
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "role":"photographer",
+                            "text":"Getty",
+                            "format":"markdown",
+                            "layout":"creditLayout",
+                            "textStyle":"creditStyle"
+                        },
+                        {
+                            "role":"caption",
+                            "text":"Demi Lovato leaves Katsuya in Hollywood in Los Angeles on June 17, 2015.",
+                            "format":"markdown",
+                            "layout":"captionLayout",
+                            "textStyle":"captionStyle"
+                        }
+                    ],
+                    "layout":"slideLayout"
+                },
+                {
+                    "role":"section",
+                    "components":[
+                        {
+                            "role":"heading3",
+                            "text":"Times Demi Lovato Looked Flawless",
+                            "format":"markdown",
+                            "layout":"heading1Layout",
+                            "textStyle":"heading1Style"
+                        },
+                        {
+                            "role":"container",
+                            "style":"photoContainerStyle",
+                            "components":[
+                                {
+                                    "role":"photo",
+                                    "URL":"bundle://gty_demi_lovato_02_150618.jpg",
+                                    "caption":"",
+                                    "layout":"photoLayout",
+                                    "animation":{
+                                        "type":"fade_in",
+                                        "userControllable":true,
+                                        "initialAlpha":0.1
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "role":"photographer",
+                            "text":"Getty",
+                            "format":"markdown",
+                            "layout":"creditLayout",
+                            "textStyle":"creditStyle"
+                        },
+                        {
+                            "role":"caption",
+                            "text":"Demi Lovato attends DigiFest NYC 2015 in New York City on June 6, 2015.",
+                            "format":"markdown",
+                            "layout":"captionLayout",
+                            "textStyle":"captionStyle"
+                        }
+                    ],
+                    "layout":"slideLayout"
+                },
+                {
+                    "role":"section",
+                    "components":[
+                        {
+                            "role":"heading3",
+                            "text":"Times Demi Lovato Looked Flawless",
+                            "format":"markdown",
+                            "layout":"heading1Layout",
+                            "textStyle":"heading1Style"
+                        },
+                        {
+                            "role":"container",
+                            "style":"photoContainerStyle",
+                            "components":[
+                                {
+                                    "role":"photo",
+                                    "URL":"bundle://gty_demi_lovato_03_150618.jpg",
+                                    "caption":"",
+                                    "layout":"photoLayout",
+                                    "animation":{
+                                        "type":"fade_in",
+                                        "userControllable":true,
+                                        "initialAlpha":0.1
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "role":"photographer",
+                            "text":"Getty",
+                            "format":"markdown",
+                            "layout":"creditLayout",
+                            "textStyle":"creditStyle"
+                        },
+                        {
+                            "role":"caption",
+                            "text":"Demi Lovato leaves her hotel in New York City on May 28, 2015.",
+                            "format":"markdown",
+                            "layout":"captionLayout",
+                            "textStyle":"captionStyle"
+                        }
+                    ],
+                    "layout":"slideLayout"
+                },
+                {
+                    "role":"medium_rectangle_advertisement"
+                },
+                {
+                    "role":"section",
+                    "components":[
+                        {
+                            "role":"heading3",
+                            "text":"Times Demi Lovato Looked Flawless",
+                            "format":"markdown",
+                            "layout":"heading1Layout",
+                            "textStyle":"heading1Style"
+                        },
+                        {
+                            "role":"container",
+                            "style":"photoContainerStyle",
+                            "components":[
+                                {
+                                    "role":"photo",
+                                    "URL":"bundle://1429470410-screen-shot-2015-04-19-at-30604-pm.png",
+                                    "caption":"",
+                                    "layout":"photoLayout",
+                                    "animation":{
+                                        "type":"fade_in",
+                                        "userControllable":true,
+                                        "initialAlpha":0.1
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "role":"photographer",
+                            "text":"Instagram",
+                            "format":"markdown",
+                            "layout":"creditLayout",
+                            "textStyle":"creditStyle"
+                        },
+                        {
+                            "role":"caption",
+                            "text":"Demi Lovato posts [this photo](https://instagram.com/p/1nINpgOKir/) to Instagram on April 18, 2015, with the caption, \"Phuckkk yo thigh gap.... ?????? #latinacurves.\"",
+                            "format":"markdown",
+                            "layout":"captionLayout",
+                            "textStyle":"captionStyle"
+                        }
+                    ],
+                    "layout":"slideLayout"
+                },
+                {
+                    "role":"section",
+                    "components":[
+                        {
+                            "role":"heading3",
+                            "text":"Times Demi Lovato Looked Flawless",
+                            "format":"markdown",
+                            "layout":"heading1Layout",
+                            "textStyle":"heading1Style"
+                        },
+                        {
+                            "role":"container",
+                            "style":"photoContainerStyle",
+                            "components":[
+                                {
+                                    "role":"photo",
+                                    "URL":"bundle://1426179317-gty-demi-lovato-150312.jpg",
+                                    "caption":"",
+                                    "layout":"photoLayout",
+                                    "animation":{
+                                        "type":"fade_in",
+                                        "userControllable":true,
+                                        "initialAlpha":0.1
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "role":"photographer",
+                            "text":"Getty",
+                            "format":"markdown",
+                            "layout":"creditLayout",
+                            "textStyle":"creditStyle"
+                        },
+                        {
+                            "role":"caption",
+                            "text":"Demi Lovato on *Good Morning America* in New York City on March 12, 2015.",
+                            "format":"markdown",
+                            "layout":"captionLayout",
+                            "textStyle":"captionStyle"
+                        }
+                    ],
+                    "layout":"slideLayout"
+                },
+                {
+                    "role":"section",
+                    "components":[
+                        {
+                            "role":"heading3",
+                            "text":"Times Demi Lovato Looked Flawless",
+                            "format":"markdown",
+                            "layout":"heading1Layout",
+                            "textStyle":"heading1Style"
+                        },
+                        {
+                            "role":"container",
+                            "style":"photoContainerStyle",
+                            "components":[
+                                {
+                                    "role":"photo",
+                                    "URL":"bundle://nrm_1425657470-465177170.jpg",
+                                    "caption":"",
+                                    "layout":"photoLayout",
+                                    "animation":{
+                                        "type":"fade_in",
+                                        "userControllable":true,
+                                        "initialAlpha":0.1
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "role":"photographer",
+                            "text":"Getty",
+                            "format":"markdown",
+                            "layout":"creditLayout",
+                            "textStyle":"creditStyle"
+                        },
+                        {
+                            "role":"caption",
+                            "text":"Demi and her fuzzy friend Buddy visit *Extra* at Universal Studios Hollywood on March 3, 2015, in Universal City, California.",
+                            "format":"markdown",
+                            "layout":"captionLayout",
+                            "textStyle":"captionStyle"
+                        }
+                    ],
+                    "layout":"slideLayout"
+                },
+                {
+                    "role":"medium_rectangle_advertisement"
+                },
+                {
+                    "role":"section",
+                    "components":[
+                        {
+                            "role":"heading3",
+                            "text":"Times Demi Lovato Looked Flawless",
+                            "format":"markdown",
+                            "layout":"heading1Layout",
+                            "textStyle":"heading1Style"
+                        },
+                        {
+                            "role":"container",
+                            "style":"photoContainerStyle",
+                            "components":[
+                                {
+                                    "role":"photo",
+                                    "URL":"bundle://nrm_1425657830-dlsl2.jpg",
+                                    "caption":"",
+                                    "layout":"photoLayout",
+                                    "animation":{
+                                        "type":"fade_in",
+                                        "userControllable":true,
+                                        "initialAlpha":0.1
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "role":"photographer",
+                            "text":"Getty",
+                            "format":"markdown",
+                            "layout":"creditLayout",
+                            "textStyle":"creditStyle"
+                        },
+                        {
+                            "role":"caption",
+                            "text":"Demi rocks a little red dress at the second annual unite4:humanity at the Beverly Hilton Hotel on Feb. 19, 2015, in Los Angeles, California.",
+                            "format":"markdown",
+                            "layout":"captionLayout",
+                            "textStyle":"captionStyle"
+                        }
+                    ],
+                    "layout":"slideLayout"
+                },
+                {
+                    "role":"section",
+                    "components":[
+                        {
+                            "role":"heading3",
+                            "text":"Times Demi Lovato Looked Flawless",
+                            "format":"markdown",
+                            "layout":"heading1Layout",
+                            "textStyle":"heading1Style"
+                        },
+                        {
+                            "role":"container",
+                            "style":"photoContainerStyle",
+                            "components":[
+                                {
+                                    "role":"photo",
+                                    "URL":"bundle://nrm_1425658016-dlsl3.jpg",
+                                    "caption":"",
+                                    "layout":"photoLayout",
+                                    "animation":{
+                                        "type":"fade_in",
+                                        "userControllable":true,
+                                        "initialAlpha":0.1
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "role":"photographer",
+                            "text":"Getty",
+                            "format":"markdown",
+                            "layout":"creditLayout",
+                            "textStyle":"creditStyle"
+                        },
+                        {
+                            "role":"caption",
+                            "text":"Demi arrives at the Roc Nation Grammy brunch on Feb. 7, 2015, in Beverly Hills, California.",
+                            "format":"markdown",
+                            "layout":"captionLayout",
+                            "textStyle":"captionStyle"
+                        }
+                    ],
+                    "layout":"slideLayout"
+                },
+                {
+                    "role":"section",
+                    "components":[
+                        {
+                            "role":"heading3",
+                            "text":"Times Demi Lovato Looked Flawless",
+                            "format":"markdown",
+                            "layout":"heading1Layout",
+                            "textStyle":"heading1Style"
+                        },
+                        {
+                            "role":"container",
+                            "style":"photoContainerStyle",
+                            "components":[
+                                {
+                                    "role":"photo",
+                                    "URL":"bundle://nrm_1425658247-dlsl4.jpg",
+                                    "caption":"",
+                                    "layout":"photoLayout",
+                                    "animation":{
+                                        "type":"fade_in",
+                                        "userControllable":true,
+                                        "initialAlpha":0.1
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "role":"photographer",
+                            "text":"Getty",
+                            "format":"markdown",
+                            "layout":"creditLayout",
+                            "textStyle":"creditStyle"
+                        },
+                        {
+                            "role":"caption",
+                            "text":"Demi performs at the 93.3 FLZ's Jingle Ball 2014 at Amalie Arena on Dec. 22, 2014, in Tampa, Florida.",
+                            "format":"markdown",
+                            "layout":"captionLayout",
+                            "textStyle":"captionStyle"
+                        }
+                    ],
+                    "layout":"slideLayout"
+                },
+                {
+                    "role":"medium_rectangle_advertisement"
+                },
+                {
+                    "role":"section",
+                    "components":[
+                        {
+                            "role":"heading3",
+                            "text":"Times Demi Lovato Looked Flawless",
+                            "format":"markdown",
+                            "layout":"heading1Layout",
+                            "textStyle":"heading1Style"
+                        },
+                        {
+                            "role":"container",
+                            "style":"photoContainerStyle",
+                            "components":[
+                                {
+                                    "role":"photo",
+                                    "URL":"bundle://nrm_1425658510-dlsl5.jpg",
+                                    "caption":"",
+                                    "layout":"photoLayout",
+                                    "animation":{
+                                        "type":"fade_in",
+                                        "userControllable":true,
+                                        "initialAlpha":0.1
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "role":"photographer",
+                            "text":"Getty",
+                            "format":"markdown",
+                            "layout":"creditLayout",
+                            "textStyle":"creditStyle"
+                        },
+                        {
+                            "role":"caption",
+                            "text":"Demi rocks tartan on the red carpet before at 93.3 FLZ's Jingle Ball 2014 at Amalie Arena on Dec. 22, 2014, in Tampa, Florida.",
+                            "format":"markdown",
+                            "layout":"captionLayout",
+                            "textStyle":"captionStyle"
+                        }
+                    ],
+                    "layout":"slideLayout"
+                },
+                {
+                    "role":"section",
+                    "components":[
+                        {
+                            "role":"heading3",
+                            "text":"Times Demi Lovato Looked Flawless",
+                            "format":"markdown",
+                            "layout":"heading1Layout",
+                            "textStyle":"heading1Style"
+                        },
+                        {
+                            "role":"container",
+                            "style":"photoContainerStyle",
+                            "components":[
+                                {
+                                    "role":"photo",
+                                    "URL":"bundle://nrm_1425658740-dlsl6.jpg",
+                                    "caption":"",
+                                    "layout":"photoLayout",
+                                    "animation":{
+                                        "type":"fade_in",
+                                        "userControllable":true,
+                                        "initialAlpha":0.1
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "role":"photographer",
+                            "text":"Getty",
+                            "format":"markdown",
+                            "layout":"creditLayout",
+                            "textStyle":"creditStyle"
+                        },
+                        {
+                            "role":"caption",
+                            "text":"Demi performs during 103.5 KISS FM's Jingle Ball 2014 at Allstate Arena on Dec. 18, 2014, in Chicago, Illinois.",
+                            "format":"markdown",
+                            "layout":"captionLayout",
+                            "textStyle":"captionStyle"
+                        }
+                    ],
+                    "layout":"slideLayout"
+                },
+                {
+                    "role":"section",
+                    "components":[
+                        {
+                            "role":"heading3",
+                            "text":"Times Demi Lovato Looked Flawless",
+                            "format":"markdown",
+                            "layout":"heading1Layout",
+                            "textStyle":"heading1Style"
+                        },
+                        {
+                            "role":"container",
+                            "style":"photoContainerStyle",
+                            "components":[
+                                {
+                                    "role":"photo",
+                                    "URL":"bundle://nrm_1425659213-dlsl7.jpg",
+                                    "caption":"",
+                                    "layout":"photoLayout",
+                                    "animation":{
+                                        "type":"fade_in",
+                                        "userControllable":true,
+                                        "initialAlpha":0.1
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "role":"photographer",
+                            "text":"Getty",
+                            "format":"markdown",
+                            "layout":"creditLayout",
+                            "textStyle":"creditStyle"
+                        },
+                        {
+                            "role":"caption",
+                            "text":"Demi shines in a shimmery dress at the 103.5 KISS FM's Jingle Ball on Dec. 18, 2014, in Chicago, Illinois.",
+                            "format":"markdown",
+                            "layout":"captionLayout",
+                            "textStyle":"captionStyle"
+                        }
+                    ],
+                    "layout":"slideLayout"
+                },
+                {
+                    "role":"medium_rectangle_advertisement"
+                },
+                {
+                    "role":"section",
+                    "components":[
+                        {
+                            "role":"heading3",
+                            "text":"Times Demi Lovato Looked Flawless",
+                            "format":"markdown",
+                            "layout":"heading1Layout",
+                            "textStyle":"heading1Style"
+                        },
+                        {
+                            "role":"container",
+                            "style":"photoContainerStyle",
+                            "components":[
+                                {
+                                    "role":"photo",
+                                    "URL":"bundle://nrm_1425659537-dlsl8.jpg",
+                                    "caption":"",
+                                    "layout":"photoLayout",
+                                    "animation":{
+                                        "type":"fade_in",
+                                        "userControllable":true,
+                                        "initialAlpha":0.1
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "role":"photographer",
+                            "text":"Getty",
+                            "format":"markdown",
+                            "layout":"creditLayout",
+                            "textStyle":"creditStyle"
+                        },
+                        {
+                            "role":"caption",
+                            "text":"Demi attends the 2014 Hot 99.5 Jingle Ball at Verizon Center on Dec. 15, 2014, in Washington, DC.",
+                            "format":"markdown",
+                            "layout":"captionLayout",
+                            "textStyle":"captionStyle"
+                        }
+                    ],
+                    "layout":"slideLayout"
+                },
+                {
+                    "role":"section",
+                    "components":[
+                        {
+                            "role":"heading3",
+                            "text":"Times Demi Lovato Looked Flawless",
+                            "format":"markdown",
+                            "layout":"heading1Layout",
+                            "textStyle":"heading1Style"
+                        },
+                        {
+                            "role":"container",
+                            "style":"photoContainerStyle",
+                            "components":[
+                                {
+                                    "role":"photo",
+                                    "URL":"bundle://nrm_1425659813-dlsl9.jpg",
+                                    "caption":"",
+                                    "layout":"photoLayout",
+                                    "animation":{
+                                        "type":"fade_in",
+                                        "userControllable":true,
+                                        "initialAlpha":0.1
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "role":"photographer",
+                            "text":"Getty",
+                            "format":"markdown",
+                            "layout":"creditLayout",
+                            "textStyle":"creditStyle"
+                        },
+                        {
+                            "role":"caption",
+                            "text":"Demi performs onstage during HOT 99.5's Jingle Ball 2014 at the Verizon Center on Dec. 15, 2014, in Washington, D.C.",
+                            "format":"markdown",
+                            "layout":"captionLayout",
+                            "textStyle":"captionStyle"
+                        }
+                    ],
+                    "layout":"slideLayout"
+                },
+                {
+                    "role":"section",
+                    "components":[
+                        {
+                            "role":"heading3",
+                            "text":"Times Demi Lovato Looked Flawless",
+                            "format":"markdown",
+                            "layout":"heading1Layout",
+                            "textStyle":"heading1Style"
+                        },
+                        {
+                            "role":"container",
+                            "style":"photoContainerStyle",
+                            "components":[
+                                {
+                                    "role":"photo",
+                                    "URL":"bundle://nrm_1425660086-dlsl10.jpg",
+                                    "caption":"",
+                                    "layout":"photoLayout",
+                                    "animation":{
+                                        "type":"fade_in",
+                                        "userControllable":true,
+                                        "initialAlpha":0.1
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "role":"photographer",
+                            "text":"Getty",
+                            "format":"markdown",
+                            "layout":"creditLayout",
+                            "textStyle":"creditStyle"
+                        },
+                        {
+                            "role":"caption",
+                            "text":"Demi slays in sequins onstage at 101.3 KDWB's Jingle Ball 2014 at Xcel Energy Center on Dec. 8, 2014, in St Paul, Minnesota.",
+                            "format":"markdown",
+                            "layout":"captionLayout",
+                            "textStyle":"captionStyle"
+                        }
+                    ],
+                    "layout":"slideLayout"
+                },
+                {
+                    "role":"medium_rectangle_advertisement"
+                },
+                {
+                    "role":"section",
+                    "components":[
+                        {
+                            "role":"heading3",
+                            "text":"Times Demi Lovato Looked Flawless",
+                            "format":"markdown",
+                            "layout":"heading1Layout",
+                            "textStyle":"heading1Style"
+                        },
+                        {
+                            "role":"container",
+                            "style":"photoContainerStyle",
+                            "components":[
+                                {
+                                    "role":"photo",
+                                    "URL":"bundle://nrm_1425660445-dlsl11.jpg",
+                                    "caption":"",
+                                    "layout":"photoLayout",
+                                    "animation":{
+                                        "type":"fade_in",
+                                        "userControllable":true,
+                                        "initialAlpha":0.1
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "role":"photographer",
+                            "text":"Getty",
+                            "format":"markdown",
+                            "layout":"creditLayout",
+                            "textStyle":"creditStyle"
+                        },
+                        {
+                            "role":"caption",
+                            "text":"Demi pops in at KIIS FM's Jingle Ball 2014 at the Staples Center on Dec. 5, 2014, in Los Angeles, California.",
+                            "format":"markdown",
+                            "layout":"captionLayout",
+                            "textStyle":"captionStyle"
+                        }
+                    ],
+                    "layout":"slideLayout"
+                },
+                {
+                    "role":"section",
+                    "components":[
+                        {
+                            "role":"heading3",
+                            "text":"Times Demi Lovato Looked Flawless",
+                            "format":"markdown",
+                            "layout":"heading1Layout",
+                            "textStyle":"heading1Style"
+                        },
+                        {
+                            "role":"container",
+                            "style":"photoContainerStyle",
+                            "components":[
+                                {
+                                    "role":"photo",
+                                    "URL":"bundle://nrm_1425661176-dlsl12.jpg",
+                                    "caption":"",
+                                    "layout":"photoLayout",
+                                    "animation":{
+                                        "type":"fade_in",
+                                        "userControllable":true,
+                                        "initialAlpha":0.1
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "role":"photographer",
+                            "text":"Getty",
+                            "format":"markdown",
+                            "layout":"creditLayout",
+                            "textStyle":"creditStyle"
+                        },
+                        {
+                            "role":"caption",
+                            "text":"Demi looks tough during her performance at Now! 99.7's Triple Ho Show at SAP Center on Dec. 3, 2014, in San Jose, California.",
+                            "format":"markdown",
+                            "layout":"captionLayout",
+                            "textStyle":"captionStyle"
+                        }
+                    ],
+                    "layout":"slideLayout"
+                },
+                {
+                    "role":"section",
+                    "components":[
+                        {
+                            "role":"heading3",
+                            "text":"Times Demi Lovato Looked Flawless",
+                            "format":"markdown",
+                            "layout":"heading1Layout",
+                            "textStyle":"heading1Style"
+                        },
+                        {
+                            "role":"container",
+                            "style":"photoContainerStyle",
+                            "components":[
+                                {
+                                    "role":"photo",
+                                    "URL":"bundle://nrm_1425661384-dlsl13.jpg",
+                                    "caption":"",
+                                    "layout":"photoLayout",
+                                    "animation":{
+                                        "type":"fade_in",
+                                        "userControllable":true,
+                                        "initialAlpha":0.1
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "role":"photographer",
+                            "text":"Getty",
+                            "format":"markdown",
+                            "layout":"creditLayout",
+                            "textStyle":"creditStyle"
+                        },
+                        {
+                            "role":"caption",
+                            "text":"Demi at LAX on Nov. 30, 2014.",
+                            "format":"markdown",
+                            "layout":"captionLayout",
+                            "textStyle":"captionStyle"
+                        }
+                    ],
+                    "layout":"slideLayout"
+                },
+                {
+                    "role":"medium_rectangle_advertisement"
+                },
+                {
+                    "role":"section",
+                    "components":[
+                        {
+                            "role":"heading3",
+                            "text":"Times Demi Lovato Looked Flawless",
+                            "format":"markdown",
+                            "layout":"heading1Layout",
+                            "textStyle":"heading1Style"
+                        },
+                        {
+                            "role":"container",
+                            "style":"photoContainerStyle",
+                            "components":[
+                                {
+                                    "role":"photo",
+                                    "URL":"bundle://nrm_1425661501-dlsl14.jpg",
+                                    "caption":"",
+                                    "layout":"photoLayout",
+                                    "animation":{
+                                        "type":"fade_in",
+                                        "userControllable":true,
+                                        "initialAlpha":0.1
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "role":"photographer",
+                            "text":"Getty",
+                            "format":"markdown",
+                            "layout":"creditLayout",
+                            "textStyle":"creditStyle"
+                        },
+                        {
+                            "role":"caption",
+                            "text":"Demi whips her hair onstage at O2 Arena on Nov. 28, 2014, in London, United Kingdom",
+                            "format":"markdown",
+                            "layout":"captionLayout",
+                            "textStyle":"captionStyle"
+                        }
+                    ],
+                    "layout":"slideLayout"
+                },
+                {
+                    "role":"section",
+                    "components":[
+                        {
+                            "role":"heading3",
+                            "text":"Times Demi Lovato Looked Flawless",
+                            "format":"markdown",
+                            "layout":"heading1Layout",
+                            "textStyle":"heading1Style"
+                        },
+                        {
+                            "role":"container",
+                            "style":"photoContainerStyle",
+                            "components":[
+                                {
+                                    "role":"photo",
+                                    "URL":"bundle://nrm_1425661631-dlsl15.jpg",
+                                    "caption":"",
+                                    "layout":"photoLayout",
+                                    "animation":{
+                                        "type":"fade_in",
+                                        "userControllable":true,
+                                        "initialAlpha":0.1
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "role":"photographer",
+                            "text":"Getty",
+                            "format":"markdown",
+                            "layout":"creditLayout",
+                            "textStyle":"creditStyle"
+                        },
+                        {
+                            "role":"caption",
+                            "text":"Demi looking chic near the Eiffel Tower on Nov. 22, 2014, in Paris, France.",
+                            "format":"markdown",
+                            "layout":"captionLayout",
+                            "textStyle":"captionStyle"
+                        }
+                    ],
+                    "layout":"slideLayout"
+                },
+                {
+                    "role":"section",
+                    "components":[
+                        {
+                            "role":"heading3",
+                            "text":"Times Demi Lovato Looked Flawless",
+                            "format":"markdown",
+                            "layout":"heading1Layout",
+                            "textStyle":"heading1Style"
+                        },
+                        {
+                            "role":"container",
+                            "style":"photoContainerStyle",
+                            "components":[
+                                {
+                                    "role":"photo",
+                                    "URL":"bundle://nrm_1425661850-dlsl16.jpg",
+                                    "caption":"",
+                                    "layout":"photoLayout",
+                                    "animation":{
+                                        "type":"fade_in",
+                                        "userControllable":true,
+                                        "initialAlpha":0.1
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "role":"photographer",
+                            "text":"Getty",
+                            "format":"markdown",
+                            "layout":"creditLayout",
+                            "textStyle":"creditStyle"
+                        },
+                        {
+                            "role":"caption",
+                            "text":"Demi carries out goodies from the Chanel Rue Cambon store on Nov. 22, 2014, in Paris, France.",
+                            "format":"markdown",
+                            "layout":"captionLayout",
+                            "textStyle":"captionStyle"
+                        }
+                    ],
+                    "layout":"slideLayout"
+                },
+                {
+                    "role":"medium_rectangle_advertisement"
+                },
+                {
+                    "role":"section",
+                    "components":[
+                        {
+                            "role":"heading3",
+                            "text":"Times Demi Lovato Looked Flawless",
+                            "format":"markdown",
+                            "layout":"heading1Layout",
+                            "textStyle":"heading1Style"
+                        },
+                        {
+                            "role":"container",
+                            "style":"photoContainerStyle",
+                            "components":[
+                                {
+                                    "role":"photo",
+                                    "URL":"bundle://nrm_1425662222-dlsl17.jpg",
+                                    "caption":"",
+                                    "layout":"photoLayout",
+                                    "animation":{
+                                        "type":"fade_in",
+                                        "userControllable":true,
+                                        "initialAlpha":0.1
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "role":"photographer",
+                            "text":"Getty",
+                            "format":"markdown",
+                            "layout":"creditLayout",
+                            "textStyle":"creditStyle"
+                        },
+                        {
+                            "role":"caption",
+                            "text":"Demi opens for Enrique Iglesias at Palais Omnisports de Bercy on Nov. 21, 2014, in Paris, France.",
+                            "format":"markdown",
+                            "layout":"captionLayout",
+                            "textStyle":"captionStyle"
+                        }
+                    ],
+                    "layout":"slideLayout"
+                },
+                {
+                    "role":"section",
+                    "components":[
+                        {
+                            "role":"heading3",
+                            "text":"Times Demi Lovato Looked Flawless",
+                            "format":"markdown",
+                            "layout":"heading1Layout",
+                            "textStyle":"heading1Style"
+                        },
+                        {
+                            "role":"container",
+                            "style":"photoContainerStyle",
+                            "components":[
+                                {
+                                    "role":"photo",
+                                    "URL":"bundle://nrm_1425662602-dlsl18.jpg",
+                                    "caption":"",
+                                    "layout":"photoLayout",
+                                    "animation":{
+                                        "type":"fade_in",
+                                        "userControllable":true,
+                                        "initialAlpha":0.1
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "role":"photographer",
+                            "text":"Getty",
+                            "format":"markdown",
+                            "layout":"creditLayout",
+                            "textStyle":"creditStyle"
+                        },
+                        {
+                            "role":"caption",
+                            "text":"Demi arrives at NRJ radio station on Nov. 21, 2014, in Paris, France.",
+                            "format":"markdown",
+                            "layout":"captionLayout",
+                            "textStyle":"captionStyle"
+                        }
+                    ],
+                    "layout":"slideLayout"
+                },
+                {
+                    "role":"section",
+                    "components":[
+                        {
+                            "role":"heading3",
+                            "text":"Times Demi Lovato Looked Flawless",
+                            "format":"markdown",
+                            "layout":"heading1Layout",
+                            "textStyle":"heading1Style"
+                        },
+                        {
+                            "role":"container",
+                            "style":"photoContainerStyle",
+                            "components":[
+                                {
+                                    "role":"photo",
+                                    "URL":"bundle://nrm_1425663125-dlsl19.jpg",
+                                    "caption":"",
+                                    "layout":"photoLayout",
+                                    "animation":{
+                                        "type":"fade_in",
+                                        "userControllable":true,
+                                        "initialAlpha":0.1
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "role":"photographer",
+                            "text":"Getty",
+                            "format":"markdown",
+                            "layout":"creditLayout",
+                            "textStyle":"creditStyle"
+                        },
+                        {
+                            "role":"caption",
+                            "text":"Demi Lovato makes a dramatic exit from the Royal Variety Performance at the Palladium Theatre on Nov.13, 2014, in London, England.",
+                            "format":"markdown",
+                            "layout":"captionLayout",
+                            "textStyle":"captionStyle"
+                        }
+                    ],
+                    "layout":"slideLayout"
+                },
+                {
+                    "role":"medium_rectangle_advertisement"
+                },
+                {
+                    "role":"section",
+                    "components":[
+                        {
+                            "role":"heading3",
+                            "text":"Times Demi Lovato Looked Flawless",
+                            "format":"markdown",
+                            "layout":"heading1Layout",
+                            "textStyle":"heading1Style"
+                        },
+                        {
+                            "role":"container",
+                            "style":"photoContainerStyle",
+                            "components":[
+                                {
+                                    "role":"photo",
+                                    "URL":"bundle://nrm_1425663286-dlsl20.jpg",
+                                    "caption":"",
+                                    "layout":"photoLayout",
+                                    "animation":{
+                                        "type":"fade_in",
+                                        "userControllable":true,
+                                        "initialAlpha":0.1
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "role":"photographer",
+                            "text":"Getty",
+                            "format":"markdown",
+                            "layout":"creditLayout",
+                            "textStyle":"creditStyle"
+                        },
+                        {
+                            "role":"caption",
+                            "text":"Demi Lovato looks hot in pink at the Vevo CERTIFIED SuperFanFest held at Barker Hangar on Oct. 8, 2014, in Santa Monica, California.",
+                            "format":"markdown",
+                            "layout":"captionLayout",
+                            "textStyle":"captionStyle"
+                        }
+                    ],
+                    "layout":"slideLayout"
+                },
+                {
+                    "role":"section",
+                    "components":[
+                        {
+                            "role":"heading3",
+                            "text":"Times Demi Lovato Looked Flawless",
+                            "format":"markdown",
+                            "layout":"heading1Layout",
+                            "textStyle":"heading1Style"
+                        },
+                        {
+                            "role":"container",
+                            "style":"photoContainerStyle",
+                            "components":[
+                                {
+                                    "role":"photo",
+                                    "URL":"bundle://nrm_1425668427-454099830.jpg",
+                                    "caption":"",
+                                    "layout":"photoLayout",
+                                    "animation":{
+                                        "type":"fade_in",
+                                        "userControllable":true,
+                                        "initialAlpha":0.1
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "role":"photographer",
+                            "text":"Getty",
+                            "format":"markdown",
+                            "layout":"creditLayout",
+                            "textStyle":"creditStyle"
+                        },
+                        {
+                            "role":"caption",
+                            "text":"Demi stuns on the red carpet at the 2014 MTV Video Music Awards on Aug. 24, 2014, in Inglewood, California.",
+                            "format":"markdown",
+                            "layout":"captionLayout",
+                            "textStyle":"captionStyle"
+                        }
+                    ],
+                    "layout":"slideLayout"
+                }
+            ]
+        }
+    ],
 	"documentStyle": {
 		"backgroundColor": "#FFF"
 	},
 	"componentStyles": {
 		"baseStrokeStyle": {
+		},
+		"blockQuoteContainerStyle": {
+			"border": {
+				"all": {
+					"width": 4,
+					"color": "#ddd"
+				},
+				"top": false,
+				"right": false,
+				"bottom": false
+			}
 		},
 		"bodyContainerStyle": {
 			"backgroundColor": "#FFF"
@@ -274,39 +1845,46 @@
 	"componentTextStyles": {
 		"authorStyle": {
 			"fontName": "Georgia-Italic",
-			"fontSize": 18,
+			"fontSize": 16,
+			"lineHeight": 21,
 			"textAlignment": "left",
 			"textColor": "#959595"
 		},
+		"blockQuoteStyle": {
+			"fontName": "Georgia",
+			"textColor": "#777",
+			"fontSize": 15,
+			"lineHeight": 20,
+			"textAlignment": "left",
+			"linkStyle": {
+				"textColor": "#ef008c"
+			}
+		},
 		"bodyStyle": {
 			"fontName": "Georgia",
-			"fontSize": 18,
+			"fontSize": 16,
 			"lineHeight": 24,
 			"textAlignment": "left",
 			"linkStyle": {
-				"textColor": "#00AAE3",
-				"underline": true
+				"textColor": "#ef008c"
 			}
 		},
 		"bodyStyleFirst": {
 			"fontName": "Georgia",
-			"fontSize": 18,
+			"fontSize": 16,
 			"lineHeight": 24,
 			"textAlignment": "left",
-			"dropCapStyle": {
-				"fontName": "DINNextLTPro-MediumCond",
-				"numberOfLines": 5,
-				"numberOfCharacters": 1,
-				"textColor": "#EC008C"
+			"linkStyle": {
+				"textColor": "#ef008c"
 			}
 		},
 		"captionStyle": {
 			"fontName": "Georgia",
-			"fontSize": 18,
+			"fontSize": 16,
 			"lineHeight": 24,
 			"textAlignment": "left",
 			"linkStyle": {
-				"underline": true
+				"textColor": "#ef008c"
 			}
 		},
 		"creditStyle": {
@@ -334,10 +1912,13 @@
 		},
 		"introStyle": {
 			"fontName": "DINNextLTPro-MediumCond",
-			"fontSize": 36,
-			"lineHeight": 38,
+			"fontSize": 28,
+			"lineHeight": 34,
 			"textAlignment": "left",
-			"textColor": "#636363"
+			"textColor": "#636363",
+			"linkStyle": {
+				"textColor": "#ef008c"
+			}
 		},
 		"lowerListStyle": {
 			"fontName": "Georgia",
@@ -364,7 +1945,6 @@
 			"fontSize": 64,
 			"lineHeight": 62,
 			"textAlignment": "left",
-			"textTransform": "uppercase",
 			"textColor": "#333",
 			"tracking": -0.02
 		}
@@ -378,15 +1958,22 @@
 				"bottom": 35
 			}
 		},
-		"blackStrokeLayout1":{
+		"blackStrokeLayout1": {
 			"margin": 0
 		},
-		"blackStrokeLayout2":{
-			"margin": 5
+		"blackStrokeLayout2": {
+			"margin": 0
 		},
-		"blackStrokeLayout3":{
+		"blackStrokeLayout3": {
 		},
-		"blackStrokeLayout4":{
+		"blackStrokeLayout4": {
+		},
+		"blockQuoteLayout": {
+			"contentInset": {
+				"left": true,
+				"right": true
+			},
+			"margin": 15
 		},
 		"bodyContainerLayout": {
 			"margin": {
@@ -404,13 +1991,13 @@
 			"margin": {
 				"top": 0,
 				"bottom": 25
-			}	 
+			}
 		},
 		"creditLayout": {
 			"margin": {
 				"top": 4,
 				"bottom": 0
-			}	 
+			}
 		},
 		"dateLayout": {
 			"margin": {
@@ -441,7 +2028,7 @@
 			}
 		},
 		"photoLayout": {
-			"minimumHeight": "100vmax"
+			"maximumContentWidth": "100cw"
 		},
 		"pullQuoteLayout": {
 			"margin": {
@@ -455,7 +2042,6 @@
 		},
 		"slideLayout": {
 			"ignoreDocumentMargin": true,
-			"minimumHeight": "100cw",
 			"margin": {
 				"top": 0,
 				"bottom": 20
@@ -469,7 +2055,7 @@
 		},
 		"tabLayout": {
 			"ignoreDocumentMargin": true,
-			"minimumHeight": 124
+			"minimumHeight": "5vmin"
 		},
 		"titleLayout": {
 			"margin": {

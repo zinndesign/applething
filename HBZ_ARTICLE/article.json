@@ -147,6 +147,17 @@
 	"componentStyles": {
 		"baseStrokeStyle": {
 		},
+		"blockQuoteContainerStyle": {
+			"border": {
+				"all": {
+					"width": 4,
+					"color": "#ddd"
+				},
+				"top": false,
+				"right": false,
+				"bottom": false
+			}
+		},
 		"bodyContainerStyle": {
 			"backgroundColor": "#FFF"
 		},
@@ -175,79 +186,86 @@
 	},
 	"componentTextStyles": {
 		"authorStyle": {
-			"fontName": "Didot-HTF-M42-Medium",
+			"fontName": "DidotLTStd-Bold",
 			"fontSize": 14,
 			"textAlignment": "center",
-			"textTransform":"uppercase",
-			"tracking": 0.5
+			"textTransform": "uppercase",
+			"tracking": 0.25
+		},
+		"blockQuoteStyle": {
+			"fontName": "TimesNewRomanPSMT",
+			"textColor": "#777",
+			"fontSize": 16,
+			"lineHeight": 24,
+			"textAlignment": "left",
+			"linkStyle": {
+				"fontName": "HelveticaNeue-Bold",
+				"textColor": "#999"
+			}
 		},
 		"bodyStyle": {
-			"fontName": "BemboBookMTStd-Regular",
+			"fontName": "TimesNewRomanPSMT",
 			"fontSize": 18,
 			"lineHeight": 26,
 			"textAlignment": "left",
 			"linkStyle": {
-				"fontName": "#BemboBookMTStd-Bold",
-				"textColor": "#242424",
-				"underline": true
+				"fontName": "HelveticaNeue-Bold",
+				"fontSize": 16
 			}
 		},
 		"bodyStyleFirst": {
-			"fontName": "BemboBookMTStd-Regular",
+			"fontName": "TimesNewRomanPSMT",
 			"fontSize": 18,
 			"lineHeight": 26,
 			"textAlignment": "left",
 			"linkStyle": {
-				"fontName": "BemboBookMTStd-Bold",
-				"textColor": "#242424",
-				"underline": true
+				"fontName": "HelveticaNeue-Bold",
+				"fontSize": 16
 			},
 			"dropCapStyle": {
-				"fontName": "Didot-HTF-L42-Light",
+				"fontName": "DidotLTStd-Roman",
 				"numberOfLines": 6,
 				"numberOfCharacters": 1
 			}
 		},
 		"captionStyle": {
-			"fontName": "TimesNewRomanPSMT",
-			"fontSize": 20,
-			"lineHeight": 32,
+			"fontName": "HelveticaNeue-Thin",
+			"fontSize": 16,
+			"lineHeight": 24,
 			"textAlignment": "left",
 			"linkStyle": {
-				"fontName": "#BemboBookMTStd-Bold",
-				"textColor": "#242424",
-				"underline": true
+				"fontName": "HelveticaNeue"
 			}
 		},
 		"creditStyle": {
-			"fontName": "Didot-HTF-M42-Medium",
+			"fontName": "DidotLTStd-Bold",
 			"fontSize": 18,
 			"lineHeight": 24,
 			"textAlignment": "right",
 			"textColor": "#898989",
-			"textTransform":"uppercase"
+			"textTransform": "uppercase"
 		},
 		"dateStyle": {
-			"fontName": "GothamNarrow-Bold",
+			"fontName": "HelveticaNeue-Bold",
 			"fontSize": 13,
 			"textAlignment": "center",
-			"textTransform":"uppercase"
+			"textTransform": "uppercase"
 		},
 		"heading1Style": {
-			"fontName": "Didot-HTF-M42-Medium",
+			"fontName": "DidotLTStd-Bold",
 			"fontSize": 32,
 			"lineHeight": 36,
 			"textAlignment": "left",
-			"textTransform":"uppercase"
+			"textTransform": "uppercase"
 		},
 		"introStyle": {
-			"fontName": "Didot-HTF-L42-Light-Ital",
-			"fontSize": 30,
-			"lineHeight": 42,
+			"fontName": "DidotLTStd-Italic",
+			"fontSize": 24,
+			"lineHeight": 36,
 			"textAlignment": "center",
 			"linkStyle": {
-				"fontName": "Didot-HTF-M42-Medium-Ital",
-				"textColor": "#242424",
+				"fontName": "DidotLTStd-BoldItalic",
+				"textColor": "#666",
 				"underline": true
 			}
 		},
@@ -258,12 +276,12 @@
 			"textAlignment": "center"
 		},
 		"pullQuoteStyle": {
-			"fontName": "Didot-HTF-L42-Light-Ital",
+			"fontName": "DidotLTStd-Italic",
 			"fontSize": 36,
 			"lineHeight": 46,
 			"textAlignment": "center"
 		},
-		"spacerWord":{
+		"spacerWord": {
 			"fontName": "TimesNewRomanPSMT",
 			"fontSize": 48,
 			"lineHeight": 48,
@@ -271,9 +289,9 @@
 			"textTransform": "uppercase"
 		},
 		"titleStyle": {
-			"fontName": "Didot-HTF-L42-Light",
-			"fontSize": 72,
-			"lineHeight": 64,
+			"fontName": "DidotLTStd-Roman",
+			"fontSize": 56,
+			"lineHeight": 54,
 			"textAlignment": "center",
 			"textTransform": "uppercase"
 		}
@@ -290,15 +308,22 @@
 				"top": 0
 			}
 		},
-		"blackStrokeLayout1":{
+		"blackStrokeLayout1": {
 			"margin": 0
 		},
-		"blackStrokeLayout2":{
+		"blackStrokeLayout2": {
 			"margin": 0
 		},
-		"blackStrokeLayout3":{
+		"blackStrokeLayout3": {
 		},
-		"blackStrokeLayout4":{
+		"blackStrokeLayout4": {
+		},
+		"blockQuoteLayout": {
+			"contentInset": {
+				"left": true,
+				"right": true
+			},
+			"margin": 15
 		},
 		"bodyContainerLayout": {
 			"margin": {
@@ -324,7 +349,7 @@
 				"bottom": 0
 			}	 
 		},
-		"embedLayout":{
+		"embedLayout": {
 			"margin": {
 				"top": 10,
 				"bottom": 10
@@ -338,7 +363,7 @@
 		},
 		"headerImageLayout": {
 			"ignoreDocumentMargin": true,
-			"minimumHeight": "50vh"
+			"minimumHeight": "50vmin"
 		},
 		"heading1Layout": {
 			"margin": {
@@ -362,7 +387,8 @@
 			}
 		},
 		"slideLayout": {
-			"ignoreDocumentMargin": true
+			"ignoreDocumentMargin": true,
+			"margin": 15
 		},
 		"spacerLayout": {
 			"margin": {
@@ -372,8 +398,7 @@
 		},
 		"tabLayout": {
 			"ignoreDocumentMargin": true,
-			"minimumHeight": 80,
-			"contentInset": false
+			"minimumHeight": "20vmin"
 		},
 		"titleLayout": {
 			"margin": {

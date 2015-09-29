@@ -217,7 +217,7 @@
 	"componentTextStyles": {
 		"authorStyle": {
 			"fontName": "CentraleSans-Medium",
-			"fontSize": 14,
+			"fontSize": 12,
 			"textAlignment": "left",
 			"textColor": "#AAA",
 			"textTransform":"uppercase"
@@ -229,7 +229,7 @@
 			"lineHeight": 24,
 			"textAlignment": "left",
 			"linkStyle": {
-				"textColor": "#666"
+				"textColor": "#3777bc"
 			}
 		},
 		"bodyStyle": {
@@ -238,7 +238,7 @@
 			"lineHeight": 28,
 			"textAlignment": "left",
 			"linkStyle": {
-				"textColor": "#666"
+				"textColor": "#3777bc"
 			}
 		},
 		"bodyStyleFirst": {
@@ -248,12 +248,12 @@
 			"textAlignment": "left",
 			"dropCapStyle": {
 				"fontName": "CentraleSans-Bold",
-				"textColor":"#3777bc",
+				"textColor":"#000",
 				"numberOfLines": 3,
 				"numberOfCharacters": 1
 			},
 			"linkStyle": {
-				"textColor": "#666"
+				"textColor": "#3777bc"
 			}
 		},
 		"captionStyle": {
@@ -262,7 +262,7 @@
 			"lineHeight": 28,
 			"textAlignment": "left",
 			"linkStyle": {
-				"textColor": "#666"
+				"textColor": "#3777bc"
 			}
 		},
 		"creditStyle": {
@@ -275,7 +275,7 @@
 		},
 		"dateStyle": {
 			"fontName": "CentraleSans-Medium",
-			"fontSize": 14,
+			"fontSize": 12,
 			"textAlignment": "left",
 			"textColor": "#AAA",
 			"textTransform":"uppercase"
@@ -289,12 +289,12 @@
 		},
 		"introStyle": {
 			"fontName": "SabonNextLTPro-Italic",
-			"fontSize": 26,
-			"lineHeight": 34,
+			"fontSize": 18,
+			"lineHeight": 24,
 			"textAlignment": "left",
 			"textColor": "#666",
 			"linkStyle": {
-				"textColor": "#c03d09"
+				"textColor": "#3777bc"
 			}
 		},
 		"lowerListStyle": {
@@ -305,10 +305,11 @@
 		},
 		"pullQuoteStyle": {
 			"fontName": "SabonNextLTPro-Italic",
-			"fontSize": 42,
-			"lineHeight": 50,
+			"fontSize": 36,
+			"lineHeight": 42,
 			"textAlignment": "left",
-			"textColor": "#666"
+			"textColor": "#000",
+			"textTransform":"uppercase"
 		},
 		"spacerWord":{
 			"fontName": "SabonNextLTPro-Regular",
@@ -319,8 +320,8 @@
 		},
 		"titleStyle": {
 			"fontName": "CentraleSans-Bold",
-			"fontSize": 48,
-			"lineHeight": 48,
+			"fontSize": 42,
+			"lineHeight": 42,
 			"textAlignment": "left",
 			"textTransform":"uppercase"
 		}
@@ -401,7 +402,7 @@
 		},
 		"introLayout": {
 			"margin": {
-				"top": 0,
+				"top": 5,
 				"bottom": 10
 			}
 		},

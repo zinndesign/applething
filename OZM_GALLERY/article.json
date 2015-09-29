@@ -295,7 +295,7 @@
 			"fontSize": 20,
 			"lineHeight": 30,
 			"textAlignment": "left",
-			"textColor": "#333",
+			"textColor": "#444",
 			"linkStyle": {
 				"textColor": "#8e4f82"
 			}
@@ -305,7 +305,7 @@
 			"fontSize": 20,
 			"lineHeight": 30,
 			"textAlignment": "left",
-			"textColor": "#333",
+			"textColor": "#444",
 			"linkStyle": {
 				"textColor": "#8e4f82"
 			}
@@ -315,18 +315,17 @@
 			"fontSize": 18,
 			"lineHeight": 24,
 			"textAlignment": "left",
-			"textColor": "#333",
+			"textColor": "#444",
 			"linkStyle": {
 				"textColor": "#8e4f82"
 			}
 		},
 		"creditStyle": {
-			"fontName": "BrandonText-Bold",
+			"fontName": "Sirba-Regular",
 			"fontSize": 12,
 			"lineHeight": 18,
-			"textAlignment": "right",
-			"textColor": "#AAA",
-			"textTransform":"uppercase"
+			"textAlignment": "left",
+			"textColor": "#AAA"
 		},
 		"dateStyle": {
 			"fontName": "BrandonText-Bold",
@@ -344,10 +343,10 @@
 		},
 		"introStyle": {
 			"fontName": "Sirba-Regular",
-			"fontSize": 22,
-			"lineHeight": 28,
+			"fontSize": 18,
+			"lineHeight": 24,
 			"textAlignment": "left",
-			"textColor": "#999",
+			"textColor": "#666",
 			"linkStyle": {
 				"textColor": "#8e4f82"
 			}
@@ -375,7 +374,7 @@
 		"titleStyle": {
 			"fontName": "BrandonText-Black",
 			"fontSize": 48,
-			"lineHeight": 52,
+			"lineHeight": 50,
 			"textAlignment": "left",
 			"textColor": "#333"
 		}
@@ -386,7 +385,7 @@
 		"authorLayout": {
 			"margin": {
 				"top": 5,
-				"bottom": 20
+				"bottom": 15
 			}
 		},
 		"blackStrokeLayout1":{
@@ -457,7 +456,7 @@
 		"introLayout": {
 			"margin": {
 				"top": 0,
-				"bottom": 10
+				"bottom": 15
 			}
 		},
 		"photoLayout": {

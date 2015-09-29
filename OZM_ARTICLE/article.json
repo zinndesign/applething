@@ -88,7 +88,7 @@
 				},
 				{
 					"role": "body",
-					"text": "Forget sheep\u2014what I should count instead are all the hours I've been up in the middle of the night. There's nothing worse than lying in bed and watching the sky turn from black to shoot-me-why-can't-I-sleep blue. But that's what happens when I pop awake at 3 or 4 A.M. and my mind gets on the worry hamster wheel: *When did the tax guy need me to fax him the W-2 form? Did I lock the back door? Why hasn't my client replied to my email yet? Oh, God, did my email to the client even go through?!*",
+					"text": "Forget sheep\u2014what I should count instead are all the hours I've been up in the middle of the night. There's nothing worse than lying in bed and watching the sky turn from black to shoot-me-why-can't-I-sleep blue. [But that's what happens](http://me.com) when I pop awake at 3 or 4 A.M. and my mind gets on the worry hamster wheel: *When did the tax guy need me to fax him the W-2 form? Did I lock the back door? Why hasn't my client replied to my email yet? Oh, God, did my email to the client even go through?!*",
 					"layout": "bodyLayout",
 					"textStyle": "bodyStyleFirst",
 					"format": "markdown"
@@ -246,7 +246,7 @@
 			"fontSize": 20,
 			"lineHeight": 30,
 			"textAlignment": "left",
-			"textColor": "#333",
+			"textColor": "#444",
 			"linkStyle": {
 				"textColor": "#8e4f82"
 			}
@@ -256,7 +256,7 @@
 			"fontSize": 20,
 			"lineHeight": 30,
 			"textAlignment": "left",
-			"textColor": "#333",
+			"textColor": "#444",
 			"dropCapStyle": {
 				"fontName": "BrandonText-Black",
 				"textColor":"#4bb049",
@@ -272,6 +272,7 @@
 			"fontSize": 20,
 			"lineHeight": 28,
 			"textAlignment": "left",
+			"textColor": "#444",
 			"linkStyle": {
 				"textColor": "#8e4f82"
 			}
@@ -300,10 +301,10 @@
 		},
 		"introStyle": {
 			"fontName": "Sirba-Regular",
-			"fontSize": 22,
-			"lineHeight": 28,
+			"fontSize": 18,
+			"lineHeight": 24,
 			"textAlignment": "left",
-			"textColor": "#999",
+			"textColor": "#666",
 			"linkStyle": {
 				"textColor": "#8e4f82"
 			}
@@ -315,11 +316,11 @@
 			"textAlignment": "left"
 		},
 		"pullQuoteStyle": {
-			"fontName": "BrandonText-Black",
+			"fontName": "Sirba-Bold",
 			"fontSize": 36,
 			"lineHeight": 42,
 			"textAlignment": "left",
-			"textColor": "#333"
+			"textColor": "#000"
 		},
 		"spacerWord":{
 			"fontName": "Sirba-Regular",
@@ -331,7 +332,7 @@
 		"titleStyle": {
 			"fontName": "BrandonText-Black",
 			"fontSize": 48,
-			"lineHeight": 52,
+			"lineHeight": 50,
 			"textAlignment": "left",
 			"textColor": "#333"
 		}
@@ -413,7 +414,7 @@
 		"introLayout": {
 			"margin": {
 				"top": 0,
-				"bottom": 10
+				"bottom": 15
 			}
 		},
 		"photoLayout": {

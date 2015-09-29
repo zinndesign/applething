@@ -215,7 +215,7 @@
 		"tabLayoutStyle": {
 			"fill": {
 				"type": "image",
-				"URL": "bundle://toc_header_article.png",
+				"URL": "https://s3.amazonaws.com/sallyhdm/toc_header_article.png",
 				"fillMode": "fit",
 				"verticalAlignment": "bottom",
 				"horizontalAlignment": "right"
@@ -224,11 +224,12 @@
 	},
 	"componentTextStyles": {
 		"authorStyle": {
-			"fontName": "GothamNarrow-Bold",
-			"fontSize": 14,
+			"fontName": "DINAlternate-Bold",
+			"fontSize": 12,
 			"textAlignment": "left",
 			"textColor": "#8f807d",
-			"textTransform":"uppercase"
+			"textTransform":"uppercase",
+			"tracking": 0.04
 		},
 		"blockQuoteStyle": {
 			"fontName": "PonaDisplay-Regular",
@@ -278,29 +279,30 @@
 			}
 		},
 		"creditStyle": {
-			"fontName": "GothamNarrow-Bold",
+			"fontName": "DINAlternate-Bold",
 			"fontSize": 18,
 			"lineHeight": 24,
 			"textAlignment": "right",
 			"textColor": "#898989",
-			"textTransform":"uppercase"
+			"textTransform":"uppercase",
+			"tracking": 0.04
 		},
 		"dateStyle": {
-			"fontName": "GothamNarrow-Bold",
-			"fontSize": 14,
+			"fontName": "DINAlternate-Bold",
+			"fontSize": 12,
 			"textAlignment": "left",
 			"textColor": "#8f807d",
 			"textTransform":"uppercase",
-			"tracking": -0.05
+			"tracking": 0.04
 		},
 		"heading1Style": {
-			"fontName": "GothamNarrow-Bold",
+			"fontName": "DINAlternate-Bold",
 			"fontSize": 28,
 			"lineHeight": 34,
 			"textAlignment": "left",
 			"textColor": "#4b2402",
 			"textTransform":"uppercase",
-			"tracking": 0.03
+			"tracking": 0.04
 		},
 		"introStyle": {
 			"fontName": "PonaDisplay-RegularItalic",
@@ -319,10 +321,9 @@
 		},
 		"pullQuoteStyle": {
 			"fontName": "PonaDisplay-RegularItalic",
-			"fontSize": 42,
-			"lineHeight": 50,
-			"textAlignment": "left",
-			"textColor": "#4b2402"
+			"fontSize": 38,
+			"lineHeight": 48,
+			"textAlignment": "left"
 		},
 		"spacerWord":{
 			"fontName": "PonaDisplay-Regular",

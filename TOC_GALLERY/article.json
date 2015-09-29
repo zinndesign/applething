@@ -88,7 +88,7 @@
 				},
 				{
 					"role": "body",
-					"text": "Lorem ipsum dolor sit amet, [consectetur adipiscing elit](http://google.com). Praesent non vestibulum dolor, sed laoreet ante. Maecenas auctor felis ut dolor placerat pellentesque. Quisque rhoncus lobortis egestas. Vestibulum dictum tincidunt enim. Praesent venenatis quis orci nec fermentum. Vivamus arcu libero, malesuada eu posuere in, convallis vel erat. Fusce gravida eu velit at efficitur. Donec mauris nulla, laoreet non orci a, tincidunt porttitor arcu.",
+					"text": "As a dry hair shampoo devotee, I am always on the lookout for a product that will extend my blowout and give my fine, straight hair body. The residue-free **R+Co** Badlands Dry Shampoo Paste ($28, [randco.com](http://randco.com)) is the high-tech answer to my prayers.",
 					"layout": "bodyLayout",
 					"textStyle": "bodyStyleFirst",
 					"format": "markdown"
@@ -119,7 +119,13 @@
 									}
 								}
 							]
-						},			
+						},
+						{
+							"role": "photographer",
+							"text": "Sephora",
+							"layout": "creditLayout",
+							"textStyle": "creditStyle"
+						},
 						{
 							"role": "caption",
 							"text": "As a dry hair shampoo devotee, I am always on the lookout for a product that will extend my blowout and give my fine, straight hair body. The residue-free **R+Co** Badlands Dry Shampoo Paste ($28, [randco.com](http://randco.com)) is the high-tech answer to my prayers. The paste, which includes volcanic ash for oil absorption, turns to a matte powder upon application and can be used from root to tip for added volume and texture. *Meg Storm, Beauty Assistant*",
@@ -298,7 +304,7 @@
 		"tabLayoutStyle": {
 			"fill": {
 				"type": "image",
-				"URL": "bundle://toc_header_article.png",
+				"URL": "https://s3.amazonaws.com/sallyhdm/toc_header_article.png",
 				"fillMode": "fit",
 				"verticalAlignment": "bottom",
 				"horizontalAlignment": "right"
@@ -307,11 +313,12 @@
 	},
 	"componentTextStyles": {
 		"authorStyle": {
-			"fontName": "GothamNarrow-Bold",
-			"fontSize": 14,
+			"fontName": "DINAlternate-Bold",
+			"fontSize": 12,
 			"textAlignment": "left",
 			"textColor": "#8f807d",
-			"textTransform":"uppercase"
+			"textTransform":"uppercase",
+			"tracking": 0.04
 		},
 		"blockQuoteStyle": {
 			"fontName": "PonaDisplay-Regular",
@@ -350,34 +357,37 @@
 			"fontSize": 20,
 			"lineHeight": 30,
 			"textAlignment": "left",
+			"textColor":"#333",
+			"tracking": -0.01,
 			"linkStyle": {
 				"textColor": "#c03d09"
 			}
 		},
 		"creditStyle": {
-			"fontName": "GothamNarrow-Bold",
-			"fontSize": 14,
+			"fontName": "DINAlternate-Bold",
+			"fontSize": 12,
 			"lineHeight": 18,
-			"textAlignment": "right",
+			"textAlignment": "left",
 			"textColor": "#AAA",
-			"textTransform":"uppercase"
+			"textTransform":"uppercase",
+			"tracking": 0.04
 		},
 		"dateStyle": {
-			"fontName": "GothamNarrow-Bold",
-			"fontSize": 14,
+			"fontName": "DINAlternate-Bold",
+			"fontSize": 12,
 			"textAlignment": "left",
 			"textColor": "#8f807d",
 			"textTransform":"uppercase",
-			"tracking": -0.05
+			"tracking": 0.04
 		},
 		"heading1Style": {
-			"fontName": "GothamNarrow-Bold",
+			"fontName": "DINAlternate-Bold",
 			"fontSize": 28,
 			"lineHeight": 34,
 			"textAlignment": "left",
 			"textColor": "#4b2402",
 			"textTransform":"uppercase",
-			"tracking": 0.03
+			"tracking": 0.04
 		},
 		"introStyle": {
 			"fontName": "PonaDisplay-RegularItalic",
@@ -422,7 +432,7 @@
 		"authorLayout": {
 			"margin": {
 				"top": 10,
-				"bottom": 30
+				"bottom": 15
 			}
 		},
 		"blackStrokeLayout1":{

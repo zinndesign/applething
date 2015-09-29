@@ -99,10 +99,11 @@
 					"format": "markdown"
 				},
 				{
-					"role": "body",
+					"role": "quote",
 					"text": "It's a step toward long-term human exploration of deep space, where the weight of fully grown food would weigh down an already heavy launch and tax fuel supplies of the Space Launch System en route to Mars. By growing food, astronauts can eat fresh food alongside dry rations while testing out long-term survival strategies on Mars and the Moon.",
-					"layout": "bodyLayout",
-					"textStyle": "bodyStyle",
+					"layout": "blockQuoteLayout",
+					"style": "blockQuoteContainerStyle",
+					"textStyle": "blockQuoteStyle",
 					"format": "markdown"
 				},
 				{
@@ -180,6 +181,17 @@
 	"componentStyles": {
 		"baseStrokeStyle": {
 		},
+		"blockQuoteContainerStyle": {
+			"border": {
+				"all": {
+					"width": 4,
+					"color": "#ddd"
+				},
+				"top": false,
+				"right": false,
+				"bottom": false
+			}
+		},
 		"bodyContainerStyle": {
 			"backgroundColor": "#FFF"
 		},
@@ -214,29 +226,36 @@
 			"textAlignment": "left",
 			"textColor": "#A1A1A1"
 		},
+		"blockQuoteStyle": {
+			"fontName": "Helvetica",
+			"textColor": "#777",
+			"fontSize": 16,
+			"lineHeight": 24,
+			"textAlignment": "left",
+			"linkStyle": {
+				"textColor": "#357f9a"
+			}
+		},
 		"bodyStyle": {
 			"fontName": "Helvetica",
 			"fontSize": 18,
-			"lineHeight": 26,
+			"lineHeight": 28,
 			"textAlignment": "left",
 			"linkStyle": {
-				"textColor": "#357f9a",
-				"underline": true
+				"textColor": "#357f9a"
 			}
 		},
 		"bodyStyleFirst": {
 			"fontName": "Helvetica",
 			"fontSize": 18,
-			"lineHeight": 26,
+			"lineHeight": 28,
 			"textAlignment": "left",
 			"linkStyle": {
-				"textColor": "#357f9a",
-				"underline": true
+				"textColor": "#357f9a"
 			},
 			"dropCapStyle": {
-
 				"fontName": "KlintPro-BoldCond",
-				"numberOfLines": 3,
+				"numberOfLines": 4,
 				"numberOfCharacters": 1,
 				"textColor": "#F47920"
 			}
@@ -247,8 +266,7 @@
 			"lineHeight": 32,
 			"textAlignment": "left",
 			"linkStyle": {
-				"textColor": "#357f9a",
-				"underline": true
+				"textColor": "#357f9a"
 			}
 		},
 		"creditStyle": {
@@ -275,13 +293,12 @@
 		},
 		"introStyle": {
 			"fontName": "KlintPro-BoldCond",
-			"fontSize": 34,
-			"lineHeight": 42,
+			"fontSize": 28,
+			"lineHeight": 32,
 			"textAlignment": "left",
 			"textColor": "#636363",
 			"linkStyle": {
-				"textColor": "#357f9a",
-				"underline": true
+				"textColor": "#357f9a"
 			}
 		},
 		"lowerListStyle": {
@@ -307,10 +324,9 @@
 		},
 		"titleStyle": {
 			"fontName": "KlintPro-BoldCond",
-			"fontSize": 72,
-			"lineHeight": 68,
-			"textAlignment": "left",
-			"textTransform": "uppercase"
+			"fontSize": 64,
+			"lineHeight": 60,
+			"textAlignment": "left"
 		}
 	},
 	"componentLayouts": {
@@ -322,15 +338,22 @@
 				"bottom": 30
 			}
 		},
-		"blackStrokeLayout1":{
+		"blackStrokeLayout1": {
 			"margin": 0
 		},
-		"blackStrokeLayout2":{
+		"blackStrokeLayout2": {
 			"margin": 0
 		},
-		"blackStrokeLayout3":{
+		"blackStrokeLayout3": {
 		},
-		"blackStrokeLayout4":{
+		"blackStrokeLayout4": {
+		},
+		"blockQuoteLayout": {
+			"contentInset": {
+				"left": true,
+				"right": true
+			},
+			"margin": 15
 		},
 		"bodyContainerLayout": {
 			"margin": {
@@ -370,7 +393,7 @@
 		},
 		"headerImageLayout": {
 			"ignoreDocumentMargin": true,
-			"minimumHeight": "75vmin"
+			"minimumHeight":"50vmin"
 		},
 		"heading1Layout": {
 			"margin": {
@@ -398,7 +421,8 @@
 			}
 		},
 		"slideLayout": {
-			"ignoreDocumentMargin": true
+			"ignoreDocumentMargin": true,
+			"margin": 15
 		},
 		"spacerLayout": {
 			"margin": {
@@ -407,8 +431,7 @@
 			}
 		},
 		"tabLayout": {
-			"ignoreDocumentMargin": true,
-			"minimumHeight": 124
+			"ignoreDocumentMargin": true
 		},
 		"titleLayout": {
 			"margin": {

@@ -75,7 +75,7 @@
 				{
 					"role": "author",
 					"layout": "authorLayout",
-					"text": "By Lindsey DeSimone",
+					"text": "By Bridget Mallon",
 					"textStyle": "authorStyle"
 				},
 				{
@@ -263,14 +263,14 @@
 	},
 	"componentTextStyles": {
 		"authorStyle": {
-			"fontName": "Helvetica-Light",
+			"fontName": "AvenirNext-Medium",
 			"fontSize": 14,
 			"textAlignment": "left",
-			"textColor": "#959086",
+			"textColor": "#b3ada0",
 			"textTransform":"uppercase"
 		},
 		"blockQuoteStyle": {
-			"fontName": "Georgia",
+			"fontName": "AvenirNext-Regular",
 			"textColor": "#777",
 			"fontSize": 18,
 			"lineHeight": 24,
@@ -280,21 +280,21 @@
 			}
 		},
 		"bodyStyle": {
-			"fontName": "Georgia",
+			"fontName": "AvenirNext-Regular",
 			"fontSize": 20,
-			"lineHeight": 34,
+			"lineHeight": 28,
 			"textAlignment": "left",
-			"textColor": "#333",
+			"textColor": "#383530",
 			"linkStyle": {
 				"textColor": "#458de4"
 			}
 		},
 		"bodyStyleFirst": {
-			"fontName": "Georgia",
+			"fontName": "AvenirNext-Regular",
 			"fontSize": 20,
-			"lineHeight": 34,
+			"lineHeight": 28,
 			"textAlignment": "left",
-			"textColor": "#333",
+			"textColor": "#383530",
 			"dropCapStyle": {
 				"fontName": "BauerBodoniStd-Roman",
 				"textColor":"#c9daf4",
@@ -306,7 +306,7 @@
 			}
 		},
 		"captionStyle": {
-			"fontName": "Georgia",
+			"fontName": "AvenirNext-Regular",
 			"fontSize": 20,
 			"lineHeight": 28,
 			"textAlignment": "left",
@@ -319,30 +319,30 @@
 			"fontSize": 18,
 			"lineHeight": 24,
 			"textAlignment": "right",
-			"textColor": "#898989",
+			"textColor": "#b3ada0",
 			"textTransform":"uppercase"
 		},
 		"dateStyle": {
-			"fontName": "Helvetica-Light",
+			"fontName": "AvenirNext-Bold",
 			"fontSize": 14,
 			"textAlignment": "left",
-			"textColor": "#959086",
-			"textTransform":"uppercase"
+			"textColor": "#b3ada0",
+			"textTransform":"uppercase",
+			"tracking": 0.02
 		},
 		"heading1Style": {
-			"fontName": "BauerBodoniStd-BoldItalic",
+			"fontName": "AvenirNext-Bold",
 			"fontSize": 30,
 			"lineHeight": 36,
 			"textAlignment": "left",
 			"textColor": "#5e5952"
 		},
 		"introStyle": {
-			"fontName": "Helvetica-Light",
+			"fontName": "AvenirNext-Medium",
 			"fontSize": 20,
 			"lineHeight": 24,
 			"textAlignment": "left",
-			"textColor": "#222",
-			"textTransform":"uppercase",
+			"textColor": "#5e5952",
 			"linkStyle": {
 				"textColor": "#c03d09"
 			}
@@ -354,14 +354,14 @@
 			"textAlignment": "left"
 		},
 		"pullQuoteStyle": {
-			"fontName": "BauerBodoniStd-BoldItalic",
+			"fontName": "BodoniSvtyTwoITCTT-Book",
 			"fontSize": 36,
 			"lineHeight": 42,
 			"textAlignment": "left",
-			"textColor": "#458de4"
+			"textColor": "#0F0A55"
 		},
 		"spacerWord":{
-			"fontName": "Georgia",
+			"fontName": "AvenirNext-Regular",
 			"fontSize": 48,
 			"lineHeight": 48,
 			"textAlignment": "left",
@@ -371,7 +371,8 @@
 			"fontName": "BauerBodoniStd-Roman",
 			"fontSize": 48,
 			"lineHeight": 52,
-			"textAlignment": "left"
+			"textAlignment": "left",
+			"textColor": "#0F0A55"
 		}
 	},
 	"componentLayouts": {
@@ -459,12 +460,8 @@
 		},
 		"pullQuoteLayout": {
 			"margin": {
-				"top": 25,
-				"bottom": 25
-			},
-			"contentInset": {
-				"left": false,
-				"right": false
+				"top": 10,
+				"bottom": 15
 			}
 		},
 		"slideLayout": {

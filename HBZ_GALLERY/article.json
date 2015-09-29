@@ -48,7 +48,7 @@
 				{
 					"role": "intro",
 					"layout": "dateLayout",
-					"text": "Aug 11, 2015 @ 6:01 pm",
+					"text": "Sun Sep 20 2015",
 					"textStyle": "dateStyle",
 					"style": "dateLayoutStyle"
 				},
@@ -122,7 +122,7 @@
 						},			
 						{
 							"role": "caption",
-							"text": "In [Self Portrait](http://www.google.com)",
+							"text": "In [Self Portrait](http://www.google.com). Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non dictum sapien, vel gravida lorem. Vivamus enim orci, euismod vitae dictum posuere, faucibus in nibh. Donec porta molestie congue. Maecenas fringilla maximus libero, quis vulputate elit tempor ut. In ullamcorper sem ac purus pulvinar bibendum. Vivamus in turpis risus. Pellentesque luctus non nisl eu finibus. Praesent vestibulum erat eu lacinia aliquam. Sed malesuada mollis urna id dignissim. In hac habitasse platea dictumst. Cras in dui vitae leo elementum sagittis ut ac massa. Mauris quis volutpat nisl, non sollicitudin mi. Sed facilisis consequat nisl non rhoncus. Integer diam nisl, sagittis eget tellus a, pulvinar volutpat sem.",
 							"layout": "captionLayout",
 							"textStyle": "captionStyle",
 							"format": "markdown"
@@ -230,6 +230,17 @@
 		"backgroundColor": "#FFF"
 	},
 	"componentStyles": {
+		"blockQuoteContainerStyle": {
+			"border": {
+				"all": {
+					"width": 4,
+					"color": "#ddd"
+				},
+				"top": false,
+				"right": false,
+				"bottom": false
+			}
+		},
 		"bodyContainerStyle": {
 			"backgroundColor": "#FFF"
 		},
@@ -252,81 +263,81 @@
 	},
 	"componentTextStyles": {
 		"authorStyle": {
-			"fontName": "Didot-HTF-M42-Medium",
-			"fontSize": 14,
+			"fontName": "DidotLTStd-Bold",
+			"fontSize": 13,
 			"textAlignment": "center",
-			"textTransform":"uppercase",
-			"tracking": 0.5
+			"textTransform": "uppercase",
+			"tracking": 0.25
+		},
+		"blockQuoteStyle": {
+			"fontName": "BemboBookMTStd-Regular",
+			"textColor": "#777",
+			"fontSize": 18,
+			"lineHeight": 26,
+			"textAlignment": "left",
+			"linkStyle": {
+				"fontName": "BemboBookMTStd-Bold",
+				"textColor": "#999"
+			}
 		},
 		"bodyStyle": {
 			"fontName": "TimesNewRomanPSMT",
-			"fontSize": 24,
-			"lineHeight": 36,
+			"fontSize": 18,
+			"lineHeight": 26,
 			"textAlignment": "left",
 			"linkStyle": {
-				"fontName": "#TimesNewRomanPS-BoldMT",
-				"textColor": "#242424",
-				"underline": true
+				"fontName": "HelveticaNeue",
+				"fontSize": 17
 			}
 		},
 		"bodyStyleFirst": {
 			"fontName": "TimesNewRomanPSMT",
-			"fontSize": 24,
-			"lineHeight": 36,
+			"fontSize": 18,
+			"lineHeight": 26,
 			"textAlignment": "left",
 			"linkStyle": {
-				"fontName": "#TimesNewRomanPS-BoldMT",
-				"textColor": "#242424",
-				"underline": true
-			},
-			"dropCapStyle": {
-
-				"fontName": "TimesNewRomanPS-BoldMT",
-				"numberOfLines": 5,
-				"numberOfCharacters": 1
+				"fontName": "HelveticaNeue",
+				"fontSize": 17
 			}
 		},
 		"captionStyle": {
-			"fontName": "GothamNarrow-Light",
-			"fontSize": 20,
-			"lineHeight": 32,
+			"fontName": "HelveticaNeue-Thin",
+			"fontSize": 16,
+			"lineHeight": 24,
 			"textAlignment": "left",
 			"linkStyle": {
-				"fontName": "GothamNarrow-Bold",
-				"textColor": "#242424",
-				"underline": true
+				"fontName": "HelveticaNeue"
 			}
 		},
 		"creditStyle": {
-			"fontName": "GothamNarrow-Light",
+			"fontName": "HelveticaNeue-Thin",
 			"fontSize": 10,
 			"lineHeight": 12,
 			"textAlignment": "right",
 			"textColor": "#000",
-			"textTransform":"uppercase"
+			"textTransform": "uppercase",
+			"tracking": 0.05
 		},
 		"dateStyle": {
-			"fontName": "GothamNarrow-Light",
+			"fontName": "HelveticaNeue-Bold",
 			"fontSize": 13,
 			"textAlignment": "center",
-			"textColor": "#878787"
+			"textTransform": "uppercase"
 		},
 		"heading1Style": {
-			"fontName": "Didot-HTF-L42-Light",
+			"fontName": "DidotLTStd-Roman",
 			"fontSize": 40,
 			"lineHeight": 42,
 			"textAlignment": "left",
-			"textTransform":"uppercase"
+			"textTransform": "uppercase"
 		},
 		"introStyle": {
-			"fontName": "Didot-HTF-L42-Light-Ital",
-			"fontSize": 22,
-			"lineHeight": 32,
+			"fontName": "HelveticaNeue-Thin",
+			"fontSize": 20,
+			"lineHeight": 28,
 			"textAlignment": "center",
 			"linkStyle": {
-				"fontName": "Didot-HTF-M42-Medium-Ital",
-				"textColor": "#242424",
-				"underline": true
+				"fontName": "HelveticaNeue"
 			}
 		},
 		"lowerListStyle": {
@@ -336,12 +347,12 @@
 			"textAlignment": "center"
 		},
 		"pullQuoteStyle": {
-			"fontName": "Didot-HTF-L42-Light-Ital",
+			"fontName": "DidotLTStd-Italic",
 			"fontSize": 40,
 			"lineHeight": 52,
 			"textAlignment": "center"
 		},
-		"spacerWord":{
+		"spacerWord": {
 			"fontName": "TimesNewRomanPSMT",
 			"fontSize": 48,
 			"lineHeight": 48,
@@ -349,9 +360,9 @@
 			"textTransform": "uppercase"
 		},
 		"titleStyle": {
-			"fontName": "GothamNarrow-XLight",
-			"fontSize": 68,
-			"lineHeight": 68,
+			"fontName": "DidotLTStd-Roman",
+			"fontSize": 56,
+			"lineHeight": 54,
 			"textAlignment": "center",
 			"textTransform": "uppercase"
 		}
@@ -369,29 +380,36 @@
 				"bottom": 10
 			}
 		},
-		"blackStrokeLayout1":{
-			"margin":{
-				"top":0,
-				"bottom":0
+		"blackStrokeLayout1": {
+			"margin": {
+				"top": 0,
+				"bottom": 0
 			}
 		},
-		"blackStrokeLayout2":{
-			"margin":{
-				"top":0,
-				"bottom":0
+		"blackStrokeLayout2": {
+			"margin": {
+				"top": 0,
+				"bottom": 0
 			}
 		},
-		"blackStrokeLayout3":{
-			"margin":{
-				"top":10,
-				"bottom":35
+		"blackStrokeLayout3": {
+			"margin": {
+				"top": 10,
+				"bottom": 35
 			}
 		},
-		"blackStrokeLayout4":{
-			"margin":{
-				"top":0,
-				"bottom":25
+		"blackStrokeLayout4": {
+			"margin": {
+				"top": 0,
+				"bottom": 25
 			}
+		},
+		"blockQuoteLayout": {
+			"contentInset": {
+				"left": true,
+				"right": true
+			},
+			"margin": 15
 		},
 		"bodyContainerLayout": {
 			"ignoreDocumentMargin": false,
@@ -432,11 +450,11 @@
 				"bottom": 10
 			}
 		},
-		"embedLayout":{
+		"embedLayout": {
 		},
 		"headerImageLayout": {
 			"ignoreDocumentMargin": true,
-			"minimumHeight": "40vh"
+			"minimumHeight": "50vmin"
 		},
 		"heading1Layout": {
 			"margin": {
@@ -479,7 +497,7 @@
 		},
 		"tabLayout": {
 			"ignoreDocumentMargin": false,
-			"minimumHeight": "20vw"
+			"minimumHeight": "20vmin"
 		},
 		"titleLayout": {
 			"contentInset": {
