@@ -98,17 +98,16 @@
 					"format": "markdown"
 				},
 				{
-					"role": "quote",
+					"role": "body",
 					"text": "A few days ago, Amanda Fisher, 23, of Frisco, Texas, posted a photo of herself next to a photo of her alleged doppelg\u00E4nger on Imgur. In the caption, Fisher claimed that her friends found this identical stranger on Instagram, but couldn't get in touch with her because it seemed like she wasn't an active user, so she turned to Imgur for help.",
-					"layout": "blockQuoteLayout",
-					"style": "blockQuoteContainerStyle",
-					"textStyle": "blockQuoteStyle",
+					"layout": "bodyLayout",
+					"textStyle": "bodyStyle",
 					"format": "markdown"
 				},
 				{
 					"role": "heading1",
 					"layout": "heading1Layout",
-					"text": "Fisher claimed that her friends found this identical stranger",
+					"text": "An Identical Stranger?",
 					"textStyle": "heading1Style"
 				},
 				{
@@ -270,7 +269,7 @@
 			"textColor": "#AAA"
 		},
 		"heading1Style": {
-			"fontName": "TiemposHeadline-Semibold",
+			"fontName": "Georgia-Bold",
 			"fontSize": 28,
 			"lineHeight": 34,
 			"textAlignment": "left"
@@ -292,9 +291,9 @@
 			"textAlignment": "left"
 		},
 		"pullQuoteStyle": {
-			"fontName": "TiemposHeadline-SemiboldItalic",
+			"fontName": "Georgia-BoldItalic",
 			"fontSize": 38,
-			"lineHeight": 56,
+			"lineHeight": 48,
 			"textAlignment": "center",
 			"textColor": "#EC008C"
 		},
@@ -348,7 +347,7 @@
 		},
 		"bodyLayout": {
 			"margin": {
-				"top": 10,
+				"top": 5,
 				"bottom": 15
 			}
 		},
@@ -397,8 +396,8 @@
 		},
 		"pullQuoteLayout": {
 			"margin": {
-				"top": 30,
-				"bottom": 30
+				"top": 15,
+				"bottom": 25
 			},
 			"contentInset": {
 				"left": true,

@@ -1927,9 +1927,9 @@
 			"textAlignment": "left"
 		},
 		"pullQuoteStyle": {
-			"fontName": "TiemposHeadline-SemiboldItalic",
+			"fontName": "Georgia-BoldItalic",
 			"fontSize": 38,
-			"lineHeight": 56,
+			"lineHeight": 48,
 			"textAlignment": "center",
 			"textColor": "#EC008C"
 		},
