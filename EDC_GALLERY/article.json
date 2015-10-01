@@ -46,12 +46,6 @@
 			},
 			"components": [
 				{
-					"role": "intro",
-					"layout": "dateLayout",
-					"text": "Sep 16, 2015 @ 10:00 AM",
-					"textStyle": "dateStyle"
-				},
-				{
 					"role": "title",
 					"layout": "titleLayout",
 					"text": "11 Tastemaker-Approved Trends To Get You Ready For Fall",

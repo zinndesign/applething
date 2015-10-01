@@ -46,13 +46,6 @@
             },
             "components":[
                 {
-                    "role":"intro",
-                    "text":"Fri Mar 06 2015",
-                    "format":"markdown",
-                    "layout":"dateLayout",
-                    "textStyle":"dateStyle"
-                },
-                {
                     "role":"title",
                     "text":"38 Times Demi Lovato Looked Absolutely Flawless",
                     "format":"markdown",

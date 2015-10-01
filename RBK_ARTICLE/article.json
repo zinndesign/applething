@@ -46,12 +46,6 @@
 			},
 			"components": [
 				{
-					"role": "intro",
-					"layout": "dateLayout",
-					"text": "Aug 11, 2015 @ 5:33 PM",
-					"textStyle": "dateStyle"
-				},
-				{
 					"role": "title",
 					"layout": "titleLayout",
 					"text": "Target Wants to Make You a Cocktail While You Shop",

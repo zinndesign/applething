@@ -46,12 +46,6 @@
 			},
 			"components": [
 				{
-					"role": "intro",
-					"layout": "dateLayout",
-					"text": "Sep 2, 2015 @ 10:33 AM",
-					"textStyle": "dateStyle"
-				},
-				{
 					"role": "title",
 					"layout": "titleLayout",
 					"text": "22 Celeb Costumes That Have Us Counting Down to Halloween",

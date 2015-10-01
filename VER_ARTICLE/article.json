@@ -46,12 +46,6 @@
 			},
 			"components": [
 				{
-					"role": "intro",
-					"layout": "dateLayout",
-					"text": "Sep 20, 2015 @ 3:00 PM",
-					"textStyle": "dateStyle"
-				},
-				{
 					"role": "title",
 					"layout": "titleLayout",
 					"text": "The Marchesa And St. Regis Capsule Collection Is A Jet Setting Bride's Dream Come True",

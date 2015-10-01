@@ -46,12 +46,6 @@
 			},
 			"components": [
 				{
-					"role": "intro",
-					"layout": "dateLayout",
-					"text": "Sep 20, 2015 @ 3:00 PM",
-					"textStyle": "dateStyle"
-				},
-				{
 					"role": "title",
 					"layout": "titleLayout",
 					"text": "You Won't Believe What These Lamps Are Made Of",

@@ -46,12 +46,6 @@
 			},
 			"components": [
 				{
-					"role": "intro",
-					"layout": "dateLayout",
-					"text": "Aug 5, 2015 @ 6:01 PM",
-					"textStyle": "dateStyle"
-				},
-				{
 					"role": "title",
 					"layout": "titleLayout",
 					"text": "Miles Teller Is Young, Talented, and Doesn't Give a Rat's Ass What You Think",

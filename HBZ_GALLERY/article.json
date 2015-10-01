@@ -46,13 +46,6 @@
 			},
 			"components": [
 				{
-					"role": "intro",
-					"layout": "dateLayout",
-					"text": "Sun Sep 20 2015",
-					"textStyle": "dateStyle",
-					"style": "dateLayoutStyle"
-				},
-				{
 					"role": "title",
 					"text": "The Summer of the Thigh-High Slit",
 					"layout": "titleLayout",

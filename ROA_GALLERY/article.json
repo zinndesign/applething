@@ -46,12 +46,6 @@
 			},
 			"components": [
 				{
-					"role": "intro",
-					"layout": "dateLayout",
-					"text": "AUG 11, 2015 @ 5:33 PM",
-					"textStyle": "dateStyle"
-				},
-				{
 					"role": "title",
 					"layout": "titleLayout",
 					"text": "Meet the Luxury Car That's Beautiful (and Functional) Enough for Noah Mostkoff",

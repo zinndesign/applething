@@ -61,13 +61,6 @@
 		   },
 		   "components":[
 			  {
-				 "role":"intro",
-				 "text":"Mon Sep 21 2015",
-				 "format":"markdown",
-				 "layout":"dateLayout",
-				 "textStyle":"dateStyle"
-			  },
-			  {
 				 "role":"title",
 				 "text":"15 Style Lessons You Can Learn from the Men of the Emmys",
 				 "format":"markdown",
