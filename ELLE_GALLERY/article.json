@@ -127,7 +127,7 @@
 					"components": [
 						{
 							"role": "heading",
-							"text": " Shante Broadus and Snoop Dogg",
+							"text": "Shante Broadus and Snoop Dogg",
 							"layout": "heading1Layout",
 							"textStyle": "heading1Style",
 							"format": "markdown"
@@ -169,7 +169,7 @@
 					"components": [
 						{
 							"role": "heading",
-							"text": " Freddie Prinze Jr. and Sarah Michelle Gellar",
+							"text": "Freddie Prinze Jr. and Sarah Michelle Gellar",
 							"layout": "heading1Layout",
 							"textStyle": "heading1Style",
 							"format": "markdown"
@@ -446,11 +446,11 @@
 		},
 		"tabLayout": {
 			"ignoreDocumentMargin": true,
-			"minimumHeight": "40vw"
+			"minimumHeight": "20vmin"
 		},
 		"titleLayout": {
 			"margin": {
-				"top": 10,
+				"top": 25,
 				"bottom": 10
 			}
 		}

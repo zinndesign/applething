@@ -54,7 +54,7 @@
 				{
 					"role": "intro",
 					"layout": "introLayout",
-					"text": "Say goodbye to your paycheck.",
+					"text": "Say goodbye to your paycheck. Cocktail While You Shop!",
 					"textStyle": "introStyle",
 					"format": "markdown"
 				},
@@ -225,8 +225,8 @@
 		},
 		"captionStyle": {
 			"fontName": "PraxisLTPro-Light",
-			"fontSize": 20,
-			"lineHeight": 30,
+			"fontSize": 16,
+			"lineHeight": 24,
 			"textAlignment": "left",
 			"linkStyle": {
 				"textColor": "#d20c50"
@@ -247,15 +247,15 @@
 			"textColor": "#999"
 		},
 		"heading1Style": {
-			"fontName": "MentorW01-Bold",
+			"fontName": "MentorStd-Bold",
 			"fontSize": 30,
 			"lineHeight": 36,
 			"textAlignment": "left"
 		},
 		"introStyle": {
 			"fontName": "PraxisLTPro-Semibold",
-			"fontSize": 24,
-			"lineHeight": 30,
+			"fontSize": 21,
+			"lineHeight": 28,
 			"textAlignment": "left",
 			"textColor": "#333",
 			"linkStyle": {
@@ -282,9 +282,9 @@
 			"textTransform": "uppercase"
 		},
 		"titleStyle": {
-			"fontName": "MentorW01-Bold",
-			"fontSize": 50,
-			"lineHeight": 58,
+			"fontName": "MentorStd-Bold",
+			"fontSize": 42,
+			"lineHeight": 50,
 			"textAlignment": "left"
 		}
 	},
@@ -294,7 +294,7 @@
 		"authorLayout": {
 			"margin": {
 				"top": 0,
-				"bottom": 30
+				"bottom": 20
 			}
 		},
 		"blackStrokeLayout1":{
@@ -347,7 +347,11 @@
 		},
 		"headerImageLayout": {
 			"ignoreDocumentMargin": true,
-			"minimumHeight": "75vmin"
+			"minimumHeight": "65vmin",
+			"margin": {
+				"top": 0,
+				"bottom": 25
+			}
 		},
 		"heading1Layout": {
 			"margin": {
@@ -358,7 +362,7 @@
 		"introLayout": {
 			"margin": {
 				"top": 5,
-				"bottom": 10
+				"bottom": 15
 			}
 		},
 		"photoLayout": {
@@ -385,7 +389,7 @@
 		},
 		"tabLayout": {
 			"ignoreDocumentMargin": true,
-			"minimumHeight": 124
+			"minimumHeight": "5vmin"
 		},
 		"titleLayout": {
 			"margin": {

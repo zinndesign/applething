@@ -203,7 +203,6 @@
 			"fontSize": 20,
 			"lineHeight": 30,
 			"textAlignment": "left",
-			"tracking": -0.02,
 			"linkStyle": {
 				"textColor": "#ff3593"
 			}
@@ -213,7 +212,6 @@
 			"fontSize": 20,
 			"lineHeight": 30,
 			"textAlignment": "left",
-			"tracking": -0.02,
 			"dropCapStyle": {
 				"fontName": "SeventeenBrush",
 				"numberOfLines": 3,
@@ -352,7 +350,11 @@
 		},
 		"headerImageLayout": {
 			"ignoreDocumentMargin": true,
-			"minimumHeight": "75vmin"
+			"minimumHeight": "65vmin",
+			"margin": {
+				"top": 0,
+				"bottom": 35
+			}
 		},
 		"heading1Layout": {
 			"margin": {
@@ -390,7 +392,7 @@
 		},
 		"tabLayout": {
 			"ignoreDocumentMargin": true,
-			"minimumHeight": 124
+			"minimumHeight": "5vmin"
 		},
 		"titleLayout": {
 			"margin": {

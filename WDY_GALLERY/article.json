@@ -352,7 +352,7 @@
 			"fontSize": 20,
 			"lineHeight": 30,
 			"textAlignment": "left",
-			"tracking": -0.02,
+			"textColor": "#333",
 			"linkStyle": {
 				"textColor": "#684489"
 			}
@@ -362,7 +362,7 @@
 			"fontSize": 20,
 			"lineHeight": 30,
 			"textAlignment": "left",
-			"tracking": -0.02,
+			"textColor": "#333",
 			"dropCapStyle": {
 				"fontName": "BodoniEgyptianPro-Medium",
 				"textColor":"#e25a9f",
@@ -375,9 +375,10 @@
 		},
 		"captionStyle": {
 			"fontName": "Georgia",
-			"fontSize": 18,
-			"lineHeight": 24,
+			"fontSize": 17,
+			"lineHeight": 25,
 			"textAlignment": "left",
+			"textColor": "#333",
 			"linkStyle": {
 				"textColor": "#684489"
 			}
@@ -407,8 +408,8 @@
 		},
 		"introStyle": {
 			"fontName": "Georgia-Italic",
-			"fontSize": 24,
-			"lineHeight": 30,
+			"fontSize": 18,
+			"lineHeight": 25,
 			"textAlignment": "left",
 			"textColor": "#999",
 			"linkStyle": {
@@ -438,8 +439,8 @@
 		},
 		"titleStyle": {
 			"fontName": "AvenirNextLTPro-Demi",
-			"fontSize": 50,
-			"lineHeight": 58,
+			"fontSize": 42,
+			"lineHeight": 48,
 			"textAlignment": "left",
 			"textColor": "#333"
 		}
@@ -450,7 +451,7 @@
 		"authorLayout": {
 			"margin": {
 				"top": 10,
-				"bottom": 30
+				"bottom": 20
 			}
 		},
 		"blackStrokeLayout1": {
@@ -510,11 +511,15 @@
 		},
 		"headerImageLayout": {
 			"ignoreDocumentMargin": true,
-			"minimumHeight": "75vmin"
+			"minimumHeight": "65vmin",
+			"margin": {
+				"top": 0,
+				"bottom": 35
+			}
 		},
 		"heading1Layout": {
 			"margin": {
-				"top": 15,
+				"top": 10,
 				"bottom": 10
 			}
 		},
@@ -539,7 +544,7 @@
 		},
 		"slideLayout": {
 			"ignoreDocumentMargin": true,
-			"margin": 15
+			"margin": 10
 		},
 		"spacerLayout": {
 			"margin": {
@@ -549,7 +554,7 @@
 		},
 		"tabLayout": {
 			"ignoreDocumentMargin": true,
-			"minimumHeight": 124
+			"minimumHeight": "5vmin"
 		},
 		"titleLayout": {
 			"margin": {

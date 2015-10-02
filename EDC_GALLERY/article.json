@@ -360,18 +360,20 @@
 		},
 		"bodyStyle": {
 			"fontName": "SabonNextLTPro-Regular",
-			"fontSize": 20,
-			"lineHeight": 28,
+			"fontSize": 21,
+			"lineHeight": 30,
 			"textAlignment": "left",
+			"textColor": "#333",
 			"linkStyle": {
 				"textColor": "#3777bc"
 			}
 		},
 		"bodyStyleFirst": {
 			"fontName": "SabonNextLTPro-Regular",
-			"fontSize": 20,
-			"lineHeight": 28,
+			"fontSize": 21,
+			"lineHeight": 30,
 			"textAlignment": "left",
+			"textColor": "#333",
 			"linkStyle": {
 				"textColor": "#3777bc"
 			}
@@ -381,6 +383,7 @@
 			"fontSize": 18,
 			"lineHeight": 28,
 			"textAlignment": "left",
+			"textColor": "#333",
 			"linkStyle": {
 				"textColor": "#3777bc"
 			}
@@ -449,8 +452,8 @@
 		},
 		"authorLayout": {
 			"margin": {
-				"top": 5,
-				"bottom": 30
+				"top": 10,
+				"bottom": 20
 			}
 		},
 		"blackStrokeLayout1":{
@@ -510,7 +513,11 @@
 		},
 		"headerImageLayout": {
 			"ignoreDocumentMargin": true,
-			"minimumHeight": "50vmin"
+			"minimumHeight": "55vmin",
+			"margin": {
+				"top": 0,
+				"bottom": 45
+			}
 		},
 		"heading1Layout": {
 			"margin": {

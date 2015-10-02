@@ -305,8 +305,8 @@
 		},
 		"captionStyle": {
 			"fontName": "AvenirNext-Regular",
-			"fontSize": 18,
-			"lineHeight": 28,
+			"fontSize": 17,
+			"lineHeight": 25,
 			"textAlignment": "left",
 			"textColor": "#383530",
 			"linkStyle": {
@@ -356,7 +356,8 @@
 			"fontSize": 36,
 			"lineHeight": 42,
 			"textAlignment": "left",
-			"textColor": "#458de4"
+			"textColor": "#458de4",
+			"tracking": 0.01
 		},
 		"spacerWord":{
 			"fontName": "AvenirNext-Regular",
@@ -379,7 +380,7 @@
 		"authorLayout": {
 			"margin": {
 				"top": 5,
-				"bottom": 20
+				"bottom": 15
 			}
 		},
 		"blackStrokeLayout1":{
@@ -439,7 +440,11 @@
 		},
 		"headerImageLayout": {
 			"ignoreDocumentMargin": true,
-			"minimumHeight": "50vmin"
+			"minimumHeight": "50vmin",
+			"margin": {
+				"top": 0,
+				"bottom": 35
+			}
 		},
 		"heading1Layout": {
 			"margin": {

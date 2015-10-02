@@ -348,8 +348,8 @@
 		},
 		"captionStyle": {
 			"fontName": "PonaDisplay-Regular",
-			"fontSize": 20,
-			"lineHeight": 30,
+			"fontSize": 18,
+			"lineHeight": 27,
 			"textAlignment": "left",
 			"textColor":"#333",
 			"tracking": -0.01,
@@ -486,7 +486,11 @@
 		},
 		"headerImageLayout": {
 			"ignoreDocumentMargin": true,
-			"minimumHeight": "55vmin"
+			"minimumHeight": "55vmin",
+			"margin": {
+				"top": 0,
+				"bottom": 35
+			}
 		},
 		"heading1Layout": {
 			"margin": {

@@ -400,7 +400,11 @@
 		},
 		"headerImageLayout": {
 			"ignoreDocumentMargin": true,
-			"minimumHeight": "55vmin"
+			"minimumHeight": "55vmin",
+			"margin": {
+				"top": 0,
+				"bottom": 35
+			}
 		},
 		"heading1Layout": {
 			"margin": {
@@ -419,8 +423,8 @@
 		},
 		"pullQuoteLayout": {
 			"margin": {
-				"top": 25,
-				"bottom": 25
+				"top": 10,
+				"bottom": 10
 			},
 			"contentInset": {
 				"left": false,

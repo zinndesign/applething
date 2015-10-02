@@ -115,7 +115,7 @@
 						},			
 						{
 							"role": "caption",
-							"text": "As a butterfly in New York City, 2014.",
+							"text": "As a butterfly in New York City, 2014. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin aliquam ac enim vitae elementum. Donec sit amet odio non sem ullamcorper dictum in id risus. Suspendisse non ligula mi. Curabitur feugiat sit amet enim vel condimentum. Integer ligula magna, imperdiet eget egestas a, lobortis a dolor. Cras rhoncus venenatis mi, nec commodo felis tincidunt vitae. Quisque vitae mauris sit amet.",
 							"layout": "captionLayout",
 							"textStyle": "captionStyle",
 							"format": "markdown"
@@ -355,8 +355,8 @@
 		},
 		"captionStyle": {
 			"fontName": "PraxisLTPro-Light",
-			"fontSize": 20,
-			"lineHeight": 30,
+			"fontSize": 17,
+			"lineHeight": 24,
 			"textAlignment": "left",
 			"linkStyle": {
 				"textColor": "#d20c50"
@@ -376,15 +376,15 @@
 			"textColor": "#999"
 		},
 		"heading1Style": {
-			"fontName": "MentorW01-Bold",
+			"fontName": "MentorStd-Bold",
 			"fontSize": 30,
 			"lineHeight": 36,
 			"textAlignment": "left"
 		},
 		"introStyle": {
 			"fontName": "PraxisLTPro-Semibold",
-			"fontSize": 24,
-			"lineHeight": 30,
+			"fontSize": 21,
+			"lineHeight": 28,
 			"textAlignment": "left",
 			"textColor": "#333",
 			"linkStyle": {
@@ -411,9 +411,9 @@
 			"textTransform": "uppercase"
 		},
 		"titleStyle": {
-			"fontName": "MentorW01-Bold",
-			"fontSize": 50,
-			"lineHeight": 58,
+			"fontName": "MentorStd-Bold",
+			"fontSize": 42,
+			"lineHeight": 50,
 			"textAlignment": "left"
 		}
 	},
@@ -423,7 +423,7 @@
 		"authorLayout": {
 			"margin": {
 				"top": 0,
-				"bottom": 30
+				"bottom": 20
 			}
 		},
 		"blackStrokeLayout1":{
@@ -476,7 +476,11 @@
 		},
 		"headerImageLayout": {
 			"ignoreDocumentMargin": true,
-			"minimumHeight": "75vmin"
+			"minimumHeight": "65vmin",
+			"margin": {
+				"top": 0,
+				"bottom": 25
+			}
 		},
 		"heading1Layout": {
 			"margin": {
@@ -487,7 +491,7 @@
 		"introLayout": {
 			"margin": {
 				"top": 5,
-				"bottom": 10
+				"bottom": 15
 			}
 		},
 		"photoLayout": {
@@ -518,7 +522,7 @@
 		},
 		"tabLayout": {
 			"ignoreDocumentMargin": true,
-			"minimumHeight": 124
+			"minimumHeight": "5vmin"
 		},
 		"titleLayout": {
 			"margin": {

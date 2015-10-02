@@ -265,7 +265,7 @@
 	"componentTextStyles": {
 		"authorStyle": {
 			"fontName": "AvenirNextLTPro-Medium",
-			"fontSize": 20,
+			"fontSize": 16,
 			"textAlignment": "left"
 		},
 		"bodyStyle": {
@@ -326,8 +326,8 @@
 		},
 		"introStyle": {
 			"fontName": "AvenirNextLTPro-Medium",
-			"fontSize": 26,
-			"lineHeight": 32,
+			"fontSize": 21,
+			"lineHeight": 28,
 			"textAlignment": "left",
 			"linkStyle": {
 				"textColor": "#05d7d6",
@@ -433,7 +433,11 @@
 		},
 		"headerImageLayout": {
 			"ignoreDocumentMargin": true,
-			"minimumHeight": "75vmin"
+			"minimumHeight": "65vmin",
+			"margin": {
+				"top": 0,
+				"bottom": 20
+			}
 		},
 		"heading1Layout": {
 			"margin": {
@@ -471,7 +475,7 @@
 		},
 		"tabLayout": {
 			"ignoreDocumentMargin": true,
-			"minimumHeight": 124
+			"minimumHeight": "20vmin"
 		},
 		"titleLayout": {
 			"margin": {

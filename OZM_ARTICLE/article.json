@@ -220,7 +220,7 @@
 	"componentTextStyles": {
 		"authorStyle": {
 			"fontName": "BrandonText-Bold",
-			"fontSize": 12,
+			"fontSize": 14,
 			"textAlignment": "left",
 			"textColor": "#AAA",
 			"textTransform":"uppercase"
@@ -312,7 +312,7 @@
 		"pullQuoteStyle": {
 			"fontName": "Sirba-Bold",
 			"fontSize": 36,
-			"lineHeight": 42,
+			"lineHeight": 44,
 			"textAlignment": "left",
 			"textColor": "#000"
 		},
@@ -397,7 +397,11 @@
 		},
 		"headerImageLayout": {
 			"ignoreDocumentMargin": true,
-			"minimumHeight": "50vmin"
+			"minimumHeight": "50vmin",
+			"margin": {
+				"top": 0,
+				"bottom": 30
+			}
 		},
 		"heading1Layout": {
 			"margin": {
@@ -416,8 +420,8 @@
 		},
 		"pullQuoteLayout": {
 			"margin": {
-				"top": 25,
-				"bottom": 25
+				"top": 10,
+				"bottom": 10
 			},
 			"contentInset": {
 				"left": false,

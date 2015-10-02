@@ -267,8 +267,8 @@
 		},
 		"introStyle": {
 			"fontName": "TradeGothicNextLTPro-Cn",
-			"fontSize": 30,
-			"lineHeight": 38,
+			"fontSize": 28,
+			"lineHeight": 34,
 			"textAlignment": "left",
 			"textColor": "#636363",
 			"linkStyle": {
@@ -297,8 +297,8 @@
 		},
 		"titleStyle": {
 			"fontName": "Kettering105-Book",
-			"fontSize": 58,
-			"lineHeight": 64,
+			"fontSize": 50,
+			"lineHeight": 58,
 			"textAlignment": "left"
 		}
 	},
@@ -359,7 +359,11 @@
 		},
 		"headerImageLayout": {
 			"ignoreDocumentMargin": true,
-			"minimumHeight": "75vmin"
+			"minimumHeight": "60vmin",
+			"margin": {
+				"top": 0,
+				"bottom": 20
+			}
 		},
 		"heading1Layout": {
 			"margin": {
@@ -393,12 +397,12 @@
 		},
 		"tabLayout": {
 			"ignoreDocumentMargin": true,
-			"minimumHeight": 124
+			"minimumHeight": "10vmin"
 		},
 		"titleLayout": {
 			"margin": {
 				"top": 10,
-				"bottom": 0
+				"bottom": 10
 			}
 		}
 	}

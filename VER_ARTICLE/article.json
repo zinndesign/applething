@@ -352,7 +352,8 @@
 			"fontSize": 36,
 			"lineHeight": 42,
 			"textAlignment": "left",
-			"textColor": "#0F0A55"
+			"textColor": "#0F0A55",
+			"tracking": 0.01
 		},
 		"spacerWord":{
 			"fontName": "AvenirNext-Regular",
@@ -375,7 +376,7 @@
 		"authorLayout": {
 			"margin": {
 				"top": 5,
-				"bottom": 40
+				"bottom": 30
 			}
 		},
 		"blackStrokeLayout1":{
@@ -435,7 +436,11 @@
 		},
 		"headerImageLayout": {
 			"ignoreDocumentMargin": true,
-			"minimumHeight": "50vmin"
+			"minimumHeight": "50vmin",
+			"margin": {
+				"top": 0,
+				"bottom": 35
+			}
 		},
 		"heading1Layout": {
 			"margin": {

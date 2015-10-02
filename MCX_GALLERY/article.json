@@ -411,7 +411,7 @@
     },
     "titleLayout": {
       "margin": {
-        "top": 0,
+        "top": 30,
         "bottom": 0
       }
     }

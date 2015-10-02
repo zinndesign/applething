@@ -205,26 +205,28 @@
 	"componentTextStyles": {
 		"authorStyle": {
 			"fontName": "BrandonGrotW01-Black",
-			"fontSize": 16,
+			"fontSize": 15,
 			"textAlignment": "left",
 			"textColor": "#959595",
 			"textTransform":"uppercase"
 		},
 		"bodyStyle": {
-			"fontName": "DINNextLTPro-LightCondensed",
-			"fontSize": 28,
-			"lineHeight": 36,
+			"fontName": "ArialMT",
+			"fontSize": 18,
+			"lineHeight": 28,
 			"textAlignment": "left",
+			"textColor": "#333",
 			"linkStyle": {
 				"textColor": "#f26f26",
 				"underline": true
 			}
 		},
 		"bodyStyleFirst": {
-			"fontName": "DINNextLTPro-LightCondensed",
-			"fontSize": 28,
-			"lineHeight": 36,
+			"fontName": "ArialMT",
+			"fontSize": 18,
+			"lineHeight": 28,
 			"textAlignment": "left",
+			"textColor": "#333",
 			"linkStyle": {
 				"textColor": "#f26f26",
 				"underline": true
@@ -263,8 +265,8 @@
 		},
 		"introStyle": {
 			"fontName": "DINNextLTPro-LightCondensed",
-			"fontSize": 40,
-			"lineHeight": 48,
+			"fontSize": 30,
+			"lineHeight": 38,
 			"textAlignment": "left",
 			"linkStyle": {
 				"textColor": "#f26f26",
@@ -294,8 +296,8 @@
 		},
 		"titleStyle": {
 			"fontName": "DINNextSlabPro-Medium",
-			"fontSize": 74,
-			"lineHeight": 78,
+			"fontSize": 54,
+			"lineHeight": 58,
 			"textAlignment": "left",
 			"tracking": -0.01
 		}
@@ -306,7 +308,7 @@
 		"authorLayout": {
 			"margin": {
 				"top": 0,
-				"bottom": 25
+				"bottom": 15
 			}
 		},
 		"blackStrokeLayout1":{
@@ -357,7 +359,11 @@
 		},
 		"headerImageLayout": {
 			"ignoreDocumentMargin": true,
-			"minimumHeight": "75vmin"
+			"minimumHeight": "65vmin",
+			"margin": {
+				"top": 0,
+				"bottom": 25
+			}
 		},
 		"heading1Layout": {
 			"margin": {
@@ -368,7 +374,7 @@
 		"introLayout": {
 			"margin": {
 				"top": 0,
-				"bottom": 5
+				"bottom": 10
 			}
 		},
 		"photoLayout": {

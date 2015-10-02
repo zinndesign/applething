@@ -376,7 +376,11 @@
 		},
 		"headerImageLayout": {
 			"ignoreDocumentMargin": true,
-			"minimumHeight": "60vmin"
+			"minimumHeight": "60vmin",
+			"margin": {
+				"top": 0,
+				"bottom": 35
+			}
 		},
 		"heading1Layout": {
 			"margin": {
@@ -413,8 +417,7 @@
 			}
 		},
 		"tabLayout": {
-			"ignoreDocumentMargin": true,
-			"minimumHeight": 124
+			"ignoreDocumentMargin": true
 		},
 		"titleLayout": {
 			"margin": {
