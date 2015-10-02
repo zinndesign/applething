@@ -1,440 +1,473 @@
 {
-  "version": "0.10",
-  "identifier": "!!!DYNAMIC",
-  "title": "9 Things You Never Knew About Miley Cyrus, Courtesy of Her Marie Claire Cover Interview",
-  "language": "en",
-  "blueprint": "basic",
-  "layout": {
-    "columns": 6,
-    "width": 1024,
-    "margin": 50,
-    "gutter": 40
-  },
-  "components": [
-    {
-      "role": "header",
-      "layout": "headerImageLayout",
-      "style": {
-        "fill": {
-          "type": "image",
-          "URL": "http://mac.h-cdn.co/assets/15/33/980x490/landscape-1439416462-miley-cyrus-marie-claire.jpg",
-          "fillMode": "cover",
-          "verticalAlignment": "bottom"
-        }
-      },
-      "behavior": {
-        "type": "parallax",
-        "factor": 0.5
-      },
-      "components": [
-        {
-          "role": "container",
-          "layout": "tabLayout",
-          "style": "tabLayoutStyle",
-          "anchor": {
-            "targetAnchorPosition": "bottom"
-          }
-        }
-      ]
-    },
-    {
-      "role": "section",
-      "layout": "bodyContainerLayout",
-      "style": "bodyContainerStyle",
-      "anchor": {
-        "targetAnchorPosition": "top"
-      },
-      "components": [
-        {
-          "role": "title",
-          "layout": "titleLayout",
-          "text": "9 Things You Never Knew About Miley Cyrus, Courtesy of Her Marie Claire Cover Interview",
-          "textStyle": "titleStyle"
-        },
-        {
-          "role": "intro",
-          "layout": "introLayout",
-          "text": "The star opens up about her grueling life on Hannah Montana--and how it gave her body image issues she's just now getting over.",
-          "textStyle": "introStyle"
-        },
-        {
-          "role": "divider",
-          "stroke": {
-            "color": "#FFF0"
-          },
-          "style": "baseStrokeStyle",
-          "layout": "blackStrokeLayout1"
-        },
-        {
-          "role": "author",
-          "layout": "authorLayout",
-          "text": "By Megan Friedman",
-          "textStyle": "authorStyle"
-        },
-        {
-          "role": "divider",
-          "stroke": {
-            "color": "#FFF0"
-          },
-          "style": "baseStrokeStyle",
-          "layout": "blackStrokeLayout1"
-        },
-        { 
-           "role": "medium_rectangle_advertisement",
-           "layout": "adLayout",
-           "bannerType": "standard"
-        },
-        {
-          "role": "body",
-          "text": "Miley Cyrus is Marie Claire's September cover girl, and she doesn't mince words in her candid interview with writer Allison Glock. Here, nine no-holds-barred moments from our September issue, on newsstands August 18. Miley Cyrus is Marie Claire's September cover girl, and she doesn't mince words in her candid interview with writer Allison Glock. Here, nine no-holds-barred moments from our September issue, on newsstands August 18.Miley Cyrus is Marie Claire's September cover girl, and she doesn't mince words in her candid interview with writer Allison Glock. Here, nine no-holds-barred moments from our September issue, on newsstands August 18.",
-          "layout": "bodyLayout",
-          "textStyle": "bodyStyleFirst",
-          "format": "markdown"
-        },
-        { 
-           "role": "medium_rectangle_advertisement",
-           "layout": "adLayout",
-           "bannerType": "standard"
-        },
-        {
-          "role": "heading1",
-          "layout": "heading1Layout",
-          "text": "1. Growing up on 'Hannah Montana' gave her unrealistic beauty standards.",
-          "textStyle": "heading1Style"
-        },
-        {
-          "role": "body",
-          "text": "\"From the time I was 11, it was, 'You're a pop star! That means you have to be blonde, and you have to have long hair, and you have to put on some glittery tight thing.' Meanwhile, I'm this fragile little girl playing a 16-year-old in a wig and a ton of makeup. It was like Toddlers & Tiaras. I had fucking flippers.\"",
-          "layout": "bodyLayout",
-          "textStyle": "bodyStyle",
-          "format": "markdown"
-        },
-        {
-          "role": "photo",
-          "URL": "http://mac.h-cdn.co/assets/15/33/980x490/landscape-1439416462-miley-cyrus-marie-claire.jpg",
-          "layout": "embedLayout",
-          "caption": "I would have anxiety attacks. I'd get hot flashes, feel like I was about to pass out or throw up. It would happen a lot before shows, and I'd have"
-        },
-        {
-          "role": "body",
-          "text": "\"From the time I was 11, it was, 'You're a pop star! That means you have to be blonde, and you have to have long hair, and you have to put on some glittery tight thing.' Meanwhile, I'm this fragile little girl playing a 16-year-old in a wig and a ton of makeup. It was like Toddlers & Tiaras. I had fucking flippers.\"",
-          "layout": "bodyLayout",
-          "textStyle": "bodyStyle",
-          "format": "markdown"
-        },
-        {
-          "role": "divider",
-          "stroke": {
-            "color": "#FFF0"
-          },
-          "layout": "blackStrokeLayout3",
-          "style": "baseStrokeStyle"
-        },
-        {
-          "role": "pullquote",
-          "layout": "pullQuoteLayout",
-          "text": "I would have anxiety attacks. I'd get hot flashes, feel like I was about to pass out or throw up. It would happen a lot before shows, and I'd have to cancel.",
-          "textStyle": "pullQuoteStyle",
-          "format": "markdown"
-        },
-        {
-          "role": "divider",
-          "stroke": {
-            "color": "#FFF0"
-          },
-          "layout": "blackStrokeLayout4",
-          "style": "baseStrokeStyle"
-        },
-        {
-          "role": "heading1",
-          "layout": "heading1Layout",
-          "text": "2. And those beauty standards led to body-image issues.",
-          "textStyle": "heading1Style"
-        },
-        {
-          "role": "body",
-          "text": "\"I was told for so long what a girl is supposed to be from being on that show. I was made to look like someone that I wasn't, which probably caused some body dysmorphia because I had been made pretty every day for so long, and then when I wasn't on that show, it was like, Who the fuck am I?\"",
-          "layout": "bodyLayout",
-          "textStyle": "bodyStyle",
-          "format": "markdown"
-        },
-        {
-          "role": "embedwebvideo",
-          "URL": "http://player.vimeo.com/video/53018096",
-          "layout": "embedLayout"
-        },
-        {
-          "role": "banner_advertisement",
-          "bannerType": "standard"
-        }
-      ]
-    }
-  ],
-  "documentStyle": {
-    "backgroundColor": "#FFF"
-  },
-  "componentStyles": {
-    "baseStrokeStyle": {
-    },
-    "bodyContainerStyle": {
-      "backgroundColor": "#FFF"
-    },
-    "dateLayoutStyle": {
-    },
-    "photoContainerStyle": {
-      "backgroundColor": "#000"
-    },
-    "tabLayoutStyle": {
-      "backgroundColor": "#FFF",
-      "border": {
-        "all": {
-          "width": 10,
-          "color": "#000"
-        },
-        "left": false,
-        "right": false,
-        "bottom": false
-      }
-    }
-  },
-  "componentTextStyles": {
-    "authorStyle": {
-      "fontName": "ModernTwoSxtnITCStd-Medium",
-      "fontSize": 15,
-      "textAlignment": "left",
-      "textTransform": "uppercase"
-    },
-    "bodyStyle": {
-      "fontName": "Georgia",
-      "fontSize": 18,
-      "lineHeight": 26,
-      "textAlignment": "left",
-      "linkStyle": {
-        "textColor": "#00AAE3",
-        "underline": true
-      }
-    },
-    "bodyStyleFirst": {
-      "fontName": "Georgia",
-      "fontSize": 18,
-      "lineHeight": 26,
-      "textAlignment": "left",
-      "dropCapStyle": {
-        "fontName": "ModernTwoSxtnITCStd-Medium",
-        "numberOfLines": 3,
-        "numberOfCharacters": 1
-      }
-    },
-    "captionStyle": {
-      "fontName": "Georgia",
-      "fontSize": 20,
-      "lineHeight": 32,
-      "textAlignment": "left",
-      "linkStyle": {
-        "textColor": "#00AAE3",
-        "underline": true
-      }
-    },
-    "creditStyle": {
-      "fontName": "ITCFranklinGothicW01-DmCm",
-      "fontSize": 18,
-      "lineHeight": 24,
-      "textAlignment": "right",
-      "textColor": "#898989",
-      "textTransform":"uppercase"
-    },
-    "dateStyle": {
-      "fontName": "ITCFranklinGothicW01-DmCm",
-      "fontSize": 16,
-      "textAlignment": "left",
-      "textColor": "#CCC",
-      "textTransform": "uppercase",
-      "tracking": 0.05
-    },
-    "heading1Style": {
-      "fontName": "ModernTwoSxtnITCStd-Medium",
-      "fontSize": 28,
-      "lineHeight": 32,
-      "textAlignment": "left",
-      "textTransform":"uppercase"
-    },
-    "introStyle": {
-      "fontName": "ModernTwoSxtnITCStd-LightItalic",
-      "fontSize": 20,
-      "lineHeight": 24,
-      "textAlignment": "left"
-    },
-    "lowerListStyle": {
-      "fontName": "Georgia",
-      "fontSize": 18,
-      "lineHeight": 20,
-      "textAlignment": "center"
-    },
-    "pullQuoteStyle": {
-      "fontName": "ITCFranklinGothicW01-DmCm",
-      "fontSize": 40,
-      "lineHeight": 36,
-      "textAlignment": "center",
-      "textTransform":"uppercase"
-    },
-    "spacerWord":{
-      "fontName": "Georgia",
-      "fontSize": 48,
-      "lineHeight": 48,
-      "textAlignment": "center",
-      "textTransform": "uppercase"
-    },
-    "titleStyle": {
-      "fontName": "ITCFranklinGothicW01-DmCm",
-      "fontSize": 54,
-      "lineHeight": 52,
-      "textAlignment": "left",
-      "textTransform": "uppercase"
-    }
-  },
-  "componentLayouts": {
-    "adLayout": {
-    },
-    "authorLayout": {
-      "contentInset": {
-        "left": true,
-        "right": true
-      },
-      "margin": {
-        "top": 20,
-        "bottom": 30
-      }
-    },
-    "blackStrokeLayout1":{
-      "margin":{
-        "top":0,
-        "bottom":0
-      }
-    },
-    "blackStrokeLayout2":{
-      "margin":{
-        "top":5,
-        "bottom":5
-      }
-    },
-    "blackStrokeLayout3":{
-      "margin":{
-        "top":10,
-        "bottom":35
-      }
-    },
-    "blackStrokeLayout4":{
-      "margin":{
-        "top":0,
-        "bottom":25
-      }
-    },
-    "bodyContainerLayout": {
-      "ignoreDocumentMargin": false,
-      "contentInset": {
-        "left": true,
-        "right": true
-      },
-      "margin": {
-        "top": 0,
-        "bottom": 25
-      }
-    },
-    "bodyLayout": {
-      "contentInset": {
-        "left": true,
-        "right": true
-      },
-      "margin": {
-        "top": 10,
-        "bottom": 15
-      }
-    },
-    "captionLayout": {
-      "margin": {
-        "top": 10,
-        "bottom": 25
-      }   
-    },
-    "creditLayout": {
-      "margin": {
-        "top": 4,
-        "bottom": 0
-      }   
-    },
-    "dateLayout": {
-      "contentInset": {
-        "left": true,
-        "right": true
-      },
-      "margin": {
-        "top": 0,
-        "bottom": 10
-      }
-    },
-    "headerImageLayout": {
-      "ignoreDocumentMargin": true,
-      "minimumHeight": "40vh"
-    },
-    "heading1Layout": {
-      "contentInset": {
-        "left": true,
-        "right": true
-      },
-      "margin": {
-        "top": 15,
-        "bottom": 10
-      }
-    },
-    "introLayout": {
-      "contentInset": {
-        "left": true,
-        "right": true
-      },
-      "margin": {
-        "top": 5,
-        "bottom": 0
-      }
-    },
-    "photoLayout": {
-      "minimumHeight": "100vmax"
-    },
-    "pullQuoteLayout": {
-      "contentInset": {
-        "left": true,
-        "right": true
-      }
-    },
-    "slideLayout": {
-      "ignoreDocumentMargin": true,
-      "minimumHeight": "100cw"
-    },
-    "spacerLayout": {
-      "margin": {
-        "top": 5,
-        "bottom": 0
-      }
-    },
-    "tabLayout": {
-      "ignoreDocumentMargin": false,
-      "minimumHeight": 50,
-      "contentInset": {
-        "left": true,
-        "right": true
-      }
-    },
-    "embedLayout": {
-      "contentInset": {
-        "left": true,
-        "right": true
-      },
-      "margin": 10
-    },
-    "titleLayout": {
-      "contentInset": {
-        "left": true,
-        "right": true
-      }
-    }
-  }
+	"version": "0.10",
+	"identifier": "!!!DYNAMIC",
+	"title": "9 Things You Never Knew About Miley Cyrus, Courtesy of Her Marie Claire Cover Interview",
+	"language": "en",
+	"blueprint": "basic",
+	"layout": {
+		"columns": 6,
+		"width": 1024,
+		"margin": 50,
+		"gutter": 30
+	},
+	"components": [
+		{
+			"role": "header",
+			"layout": "headerImageLayout",
+			"style": {
+				"fill": {
+					"type": "image",
+					"URL": "http://mac.h-cdn.co/assets/15/33/980x490/landscape-1439416462-miley-cyrus-marie-claire.jpg",
+					"fillMode": "cover",
+					"verticalAlignment": "bottom"
+				}
+			},
+			"behavior": {
+				"type": "parallax",
+				"factor": 0.5
+			},
+			"components": [
+				{
+					"role": "container",
+					"layout": "tabLayout",
+					"style": "tabLayoutStyle",
+					"anchor": {
+						"targetAnchorPosition": "bottom"
+					}
+				}
+			]
+		},
+		{
+			"role": "section",
+			"layout": "bodyContainerLayout",
+			"style": "bodyContainerStyle",
+			"anchor": {
+				"targetAnchorPosition": "top"
+			},
+			"components": [
+				{
+					"role": "title",
+					"layout": "titleLayout",
+					"text": "9 Things You Never Knew About Miley Cyrus, Courtesy of Her Marie Claire Cover Interview",
+					"textStyle": "titleStyle"
+				},
+				{
+					"role": "intro",
+					"layout": "introLayout",
+					"text": "The star opens up about her grueling life on Hannah Montana--and how it gave her body image issues she's just now getting over.",
+					"textStyle": "introStyle"
+				},
+				{
+					"role": "divider",
+					"stroke": {
+						"color": "#FFF0"
+					},
+					"style": "baseStrokeStyle",
+					"layout": "blackStrokeLayout1"
+				},
+				{
+					"role": "author",
+					"layout": "authorLayout",
+					"text": "By Megan Friedman",
+					"textStyle": "authorStyle"
+				},
+				{
+					"role": "divider",
+					"stroke": {
+						"color": "#FFF0"
+					},
+					"style": "baseStrokeStyle",
+					"layout": "blackStrokeLayout1"
+				},
+				{ 
+					 "role": "medium_rectangle_advertisement",
+					 "layout": "adLayout",
+					 "bannerType": "standard"
+				},
+				{
+					"role": "body",
+					"text": "Miley Cyrus is Marie Claire's September cover girl, and she doesn't mince words in her candid interview with writer Allison Glock. Here, nine no-holds-barred moments from our September issue, on newsstands August 18. Miley Cyrus is Marie Claire's September cover girl, and she doesn't mince words in her candid interview with writer Allison Glock. Here, nine no-holds-barred moments from our September issue, on newsstands August 18.Miley Cyrus is Marie Claire's September cover girl, and she doesn't mince words in her candid interview with writer Allison Glock. Here, nine no-holds-barred moments from our September issue, on newsstands August 18.",
+					"layout": "bodyLayout",
+					"textStyle": "bodyStyleFirst",
+					"format": "markdown"
+				},
+				{ 
+					 "role": "medium_rectangle_advertisement",
+					 "layout": "adLayout",
+					 "bannerType": "standard"
+				},
+				{
+					"role": "heading1",
+					"layout": "heading1Layout",
+					"text": "1. Growing up on 'Hannah Montana' gave her unrealistic beauty standards.",
+					"textStyle": "heading1Style"
+				},
+				{
+					"role": "body",
+					"text": "\"From the time I was 11, it was, 'You're a pop star! That means you have to be blonde, and you have to have long hair, and you have to put on some glittery tight thing.' Meanwhile, I'm this fragile little girl playing a 16-year-old in a wig and a ton of makeup. It was like Toddlers & Tiaras. I had fucking flippers.\"",
+					"layout": "bodyLayout",
+					"textStyle": "bodyStyle",
+					"format": "markdown"
+				},
+				{
+					"role": "photo",
+					"URL": "http://mac.h-cdn.co/assets/15/33/980x490/landscape-1439416462-miley-cyrus-marie-claire.jpg",
+					"layout": "embedLayout",
+					"caption": "I would have anxiety attacks. I'd get hot flashes, feel like I was about to pass out or throw up. It would happen a lot before shows, and I'd have"
+				},
+				{
+					"role": "body",
+					"text": "\"From the time I was 11, it was, 'You're a pop star! That means you have to be blonde, and you have to have long hair, and you have to put on some glittery tight thing.' Meanwhile, I'm this fragile little girl playing a 16-year-old in a wig and a ton of makeup. It was like Toddlers & Tiaras. I had fucking flippers.\"",
+					"layout": "bodyLayout",
+					"textStyle": "bodyStyle",
+					"format": "markdown"
+				},
+				{
+					"role": "divider",
+					"stroke": {
+						"color": "#FFF0"
+					},
+					"layout": "blackStrokeLayout3",
+					"style": "baseStrokeStyle"
+				},
+				{
+					"role": "pullquote",
+					"layout": "pullQuoteLayout",
+					"text": "I would have anxiety attacks. I'd get hot flashes, feel like I was about to pass out or throw up. It would happen a lot before shows, and I'd have to cancel.",
+					"textStyle": "pullQuoteStyle",
+					"format": "markdown"
+				},
+				{
+					"role": "divider",
+					"stroke": {
+						"color": "#FFF0"
+					},
+					"layout": "blackStrokeLayout4",
+					"style": "baseStrokeStyle"
+				},
+				{
+					"role": "heading1",
+					"layout": "heading1Layout",
+					"text": "2. And those beauty standards led to body-image issues.",
+					"textStyle": "heading1Style"
+				},
+				{
+					"role": "body",
+					"text": "\"I was told for so long what a girl is supposed to be from being on that show. I was made to look like someone that I wasn't, which probably caused some body dysmorphia because I had been made pretty every day for so long, and then when I wasn't on that show, it was like, Who the fuck am I?\"",
+					"layout": "bodyLayout",
+					"textStyle": "bodyStyle",
+					"format": "markdown"
+				},
+				{
+					"role": "embedwebvideo",
+					"URL": "http://player.vimeo.com/video/53018096",
+					"layout": "embedLayout"
+				},
+				{
+					"role": "banner_advertisement",
+					"bannerType": "standard"
+				}
+			]
+		}
+	],
+	"documentStyle": {
+		"backgroundColor": "#FFF"
+	},
+	"componentStyles": {
+		"baseStrokeStyle": {
+		},
+		"blockQuoteContainerStyle": {
+			"border": {
+				"all": {
+					"width": 4,
+					"color": "#ddd"
+				},
+				"top": false,
+				"right": false,
+				"bottom": false
+			}
+		},
+		"bodyContainerStyle": {
+			"backgroundColor": "#FFF"
+		},
+		"dateLayoutStyle": {
+		},
+		"photoContainerStyle": {
+			"backgroundColor": "#000"
+		},
+		"tabLayoutStyle": {
+			"backgroundColor": "#FFF",
+			"border": {
+				"all": {
+					"width": 10,
+					"color": "#000"
+				},
+				"left": false,
+				"right": false,
+				"bottom": false
+			}
+		}
+	},
+	"componentTextStyles": {
+		"authorStyle": {
+			"fontName": "ModernTwoSxtnITCStd-Medium",
+			"fontSize": 15,
+			"textAlignment": "left",
+			"textTransform": "uppercase"
+		},
+		"blockQuoteStyle": {
+			"fontName": "Georgia",
+			"textColor": "#777",
+			"fontSize": 18,
+			"lineHeight": 26,
+			"textAlignment": "left",
+			"linkStyle": {
+				"textColor": "#666"
+			}
+		},
+		"bodyStyle": {
+			"fontName": "Georgia",
+			"fontSize": 18,
+			"lineHeight": 26,
+			"textAlignment": "left",
+			"linkStyle": {
+				"textColor": "#666"
+			}
+		},
+		"bodyStyleFirst": {
+			"fontName": "Georgia",
+			"fontSize": 18,
+			"lineHeight": 26,
+			"textAlignment": "left",
+			"linkStyle": {
+				"textColor": "#666"
+			},
+			"dropCapStyle": {
+
+				"fontName": "ModernTwoSxtnITCStd-Medium",
+				"numberOfLines": 3,
+				"numberOfCharacters": 1
+			}
+		},
+		"captionStyle": {
+			"fontName": "Georgia",
+			"fontSize": 20,
+			"lineHeight": 32,
+			"textAlignment": "left",
+			"linkStyle": {
+				"textColor": "#666"
+			}
+		},
+		"creditStyle": {
+			"fontName": "ITCFranklinGothicW01-DmCm",
+			"fontSize": 18,
+			"lineHeight": 24,
+			"textAlignment": "right",
+			"textColor": "#898989",
+			"textTransform":"uppercase"
+		},
+		"dateStyle": {
+			"fontName": "ITCFranklinGothicW01-DmCm",
+			"fontSize": 16,
+			"textAlignment": "left",
+			"textColor": "#CCC",
+			"textTransform": "uppercase",
+			"tracking": 0.05
+		},
+		"heading1Style": {
+			"fontName": "ModernTwoSxtnITCStd-Medium",
+			"fontSize": 28,
+			"lineHeight": 32,
+			"textAlignment": "left",
+			"textTransform":"uppercase"
+		},
+		"introStyle": {
+			"fontName": "ModernTwoSxtnITCStd-LightItalic",
+			"fontSize": 20,
+			"lineHeight": 24,
+			"textAlignment": "left",
+			"linkStyle": {
+				"textColor": "#666"
+			}
+		},
+		"lowerListStyle": {
+			"fontName": "Georgia",
+			"fontSize": 18,
+			"lineHeight": 20,
+			"textAlignment": "center"
+		},
+		"pullQuoteStyle": {
+			"fontName": "ITCFranklinGothicW01-DmCm",
+			"fontSize": 40,
+			"lineHeight": 36,
+			"textAlignment": "center",
+			"textTransform":"uppercase"
+		},
+		"spacerWord": {
+			"fontName": "Georgia",
+			"fontSize": 48,
+			"lineHeight": 48,
+			"textAlignment": "center",
+			"textTransform": "uppercase"
+		},
+		"titleStyle": {
+			"fontName": "ITCFranklinGothicW01-DmCm",
+			"fontSize": 54,
+			"lineHeight": 52,
+			"textAlignment": "left",
+			"textTransform": "uppercase"
+		}
+	},
+	"componentLayouts": {
+		"adLayout": {
+		},
+		"authorLayout": {
+			"contentInset": {
+				"left": true,
+				"right": true
+			},
+			"margin": {
+				"top": 10,
+				"bottom": 30
+			}
+		},
+		"blackStrokeLayout1": {
+			"margin": {
+				"top":0,
+				"bottom":0
+			}
+		},
+		"blackStrokeLayout2": {
+			"margin": {
+				"top":0,
+				"bottom":0
+			}
+		},
+		"blackStrokeLayout3": {
+			"margin": {
+				"top":10,
+				"bottom":35
+			}
+		},
+		"blackStrokeLayout4": {
+			"margin": {
+				"top":0,
+				"bottom":25
+			}
+		},
+		"blockQuoteLayout": {
+			"contentInset": {
+				"left": true,
+				"right": true
+			},
+			"margin": 15
+		},
+		"bodyContainerLayout": {
+			"ignoreDocumentMargin": false,
+			"contentInset": {
+				"left": true,
+				"right": true
+			},
+			"margin": {
+				"top": 0,
+				"bottom": 25
+			}
+		},
+		"bodyLayout": {
+			"contentInset": {
+				"left": true,
+				"right": true
+			},
+			"margin": {
+				"top": 10,
+				"bottom": 15
+			}
+		},
+		"captionLayout": {
+			"margin": {
+				"top": 10,
+				"bottom": 25
+			}
+		},
+		"creditLayout": {
+			"margin": {
+				"top": 4,
+				"bottom": 0
+			}
+		},
+		"dateLayout": {
+			"contentInset": {
+				"left": true,
+				"right": true
+			},
+			"margin": {
+				"top": 0,
+				"bottom": 10
+			}
+		},
+		"headerImageLayout": {
+			"ignoreDocumentMargin": true,
+			"minimumHeight": "60vmin"
+		},
+		"heading1Layout": {
+			"contentInset": {
+				"left": true,
+				"right": true
+			},
+			"margin": {
+				"top": 15,
+				"bottom": 10
+			}
+		},
+		"introLayout": {
+			"contentInset": {
+				"left": true,
+				"right": true
+			},
+			"margin": {
+				"top": 5,
+				"bottom": 0
+			}
+		},
+		"photoLayout": {
+			"maximumContentWidth": "100cw"
+		},
+		"pullQuoteLayout": {
+			"contentInset": {
+				"left": true,
+				"right": true
+			}
+		},
+		"slideLayout": {
+			"ignoreDocumentMargin": true,
+			"margin": 15
+		},
+		"spacerLayout": {
+			"margin": {
+				"top": 5,
+				"bottom": 0
+			}
+		},
+		"tabLayout": {
+			"ignoreDocumentMargin": false,
+			"minimumHeight": 50,
+			"contentInset": {
+				"left": true,
+				"right": true
+			}
+		},
+		"embedLayout": {
+			"contentInset": {
+				"left": true,
+				"right": true
+			},
+			"margin": 10
+		},
+		"titleLayout": {
+			"contentInset": {
+				"left": true,
+				"right": true
+			}
+		}
+	}
 }

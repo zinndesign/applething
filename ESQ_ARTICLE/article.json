@@ -159,6 +159,17 @@
 	"componentStyles": {
 		"baseStrokeStyle": {
 		},
+		"blockQuoteContainerStyle": {
+			"border": {
+				"all": {
+					"width": 4,
+					"color": "#ddd"
+				},
+				"top": false,
+				"right": false,
+				"bottom": false
+			}
+		},
 		"bodyContainerStyle": {
 			"backgroundColor": "#FFF"
 		},
@@ -193,6 +204,16 @@
 			"textTransform":"uppercase",
 			"textColor": "#AAA"
 		},
+		"blockQuoteStyle": {
+			"fontName": "Georgia",
+			"fontSize": 19,
+			"lineHeight": 26,
+			"textAlignment": "left",
+			"textColor": "#777",
+			"linkStyle": {
+				"textColor": "#00a3da"
+			}
+		},
 		"bodyStyle": {
 			"fontName": "Georgia",
 			"fontSize": 21,
@@ -200,8 +221,7 @@
 			"textAlignment": "left",
 			"textColor": "#333",
 			"linkStyle": {
-				"textColor": "#00AAE3",
-				"underline": true
+				"textColor": "#00a3da"
 			}
 		},
 		"bodyStyleFirst": {
@@ -210,7 +230,11 @@
 			"lineHeight": 30,
 			"textAlignment": "left",
 			"textColor": "#333",
+			"linkStyle": {
+				"textColor": "#00a3da"
+			},
 			"dropCapStyle": {
+
 				"fontName": "AktivGrotesk-Black",
 				"numberOfLines": 3,
 				"numberOfCharacters": 1,
@@ -223,7 +247,7 @@
 			"lineHeight": 32,
 			"textAlignment": "left",
 			"linkStyle": {
-				"underline": true
+				"textColor": "#00a3da"
 			}
 		},
 		"creditStyle": {
@@ -254,7 +278,10 @@
 			"fontSize": 21,
 			"lineHeight": 28,
 			"textAlignment": "left",
-			"textColor": "#666"
+			"textColor": "#666",
+			"linkStyle": {
+				"textColor": "#00a3da"
+			}
 		},
 		"lowerListStyle": {
 			"fontName": "Helvetica",
@@ -269,7 +296,7 @@
 			"textAlignment": "left",
 			"textTransform": "uppercase"
 		},
-		"spacerWord":{
+		"spacerWord": {
 			"fontName": "Helvetica",
 			"fontSize": 48,
 			"lineHeight": 48,
@@ -295,15 +322,22 @@
 				"bottom": 15
 			}
 		},
-		"blackStrokeLayout1":{
+		"blackStrokeLayout1": {
 			"margin": 0
 		},
-		"blackStrokeLayout2":{
-			"margin": 5
+		"blackStrokeLayout2": {
+			"margin": 0
 		},
-		"blackStrokeLayout3":{
+		"blackStrokeLayout3": {
 		},
-		"blackStrokeLayout4":{
+		"blackStrokeLayout4": {
+		},
+		"blockQuoteLayout": {
+			"contentInset": {
+				"left": true,
+				"right": true
+			},
+			"margin": 15
 		},
 		"bodyContainerLayout": {
 			"margin": {
@@ -321,13 +355,13 @@
 			"margin": {
 				"top": 10,
 				"bottom": 25
-			}	 
+			}
 		},
 		"creditLayout": {
 			"margin": {
 				"top": 4,
 				"bottom": 0
-			}	 
+			}
 		},
 		"dateLayout": {
 			"margin": {
@@ -343,7 +377,7 @@
 		},
 		"headerImageLayout": {
 			"ignoreDocumentMargin": true,
-			"minimumHeight": "55vh"
+			"minimumHeight": "60vmin"
 		},
 		"heading1Layout": {
 			"margin": {
@@ -358,7 +392,7 @@
 			}
 		},
 		"photoLayout": {
-			"minimumHeight": "100vmax"
+			"maximumContentWidth": "100cw"
 		},
 		"pullQuoteLayout": {
 			"margin": {
@@ -368,7 +402,7 @@
 		},
 		"slideLayout": {
 			"ignoreDocumentMargin": true,
-			"minimumHeight": "100cw"
+			"margin": 15
 		},
 		"spacerLayout": {
 			"margin": {
@@ -378,7 +412,7 @@
 		},
 		"tabLayout": {
 			"ignoreDocumentMargin": true,
-			"minimumHeight": 124
+			"minimumHeight": "20vmin"
 		},
 		"titleLayout": {
 			"margin": {

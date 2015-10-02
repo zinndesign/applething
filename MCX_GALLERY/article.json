@@ -1,419 +1,453 @@
 {
-  "version": "0.10",
-  "identifier": "!!!DYNAMIC",
-  "title": "8 Chic Outfits to Try with What Remains of the Summer",
-  "language": "en",
-  "blueprint": "basic",
-  "layout": {
-    "columns": 6,
-    "width": 1024
-  },
-  "components": [
-    {
-      "role": "header",
-      "layout": "headerImageLayout",
-      "style": {
-        "fill": {
-          "type": "image",
-          "URL": "http://mac.h-cdn.co/assets/15/32/980x490/landscape-1438895067-mcx-summer2.jpg",
-          "fillMode": "cover",
-          "verticalAlignment": "bottom"
-        }
-      },
-      "behavior": {
-        "type": "parallax",
-        "factor": 0.5
-      },
-      "components": [
-        {
-          "role": "container",
-          "layout": "tabLayout",
-          "style": "tabLayoutStyle",
-          "anchor": {
-            "targetAnchorPosition": "bottom"
-          }
-        }
-      ]
-    },
-    {
-      "role": "section",
-      "layout": "bodyContainerLayout",
-      "style": "bodyContainerStyle",
-      "anchor": {
-        "targetAnchorPosition": "top"
-      },
-      "components": [
-        {
-          "role": "title",
-          "text": "8 Chic Outfits to Try with What Remains of the Summer",
-          "layout": "titleLayout",
-          "textStyle": "titleStyle",
-          "format": "markdown"
-        },
-        {
-          "role": "intro",
-          "text": "We couldn't agree on the [Song of the Summer 2015](http://www.marieclaire.com/culture/news/a15035/song-of-the-summer-debate/) (#TeamUmlaut), but when it comes to outfits to cross off before Labor Day, Team MC is on the same page: \"Noootttt another sundressssss.\" Here, see eight just-as-easy ideas, none requiring more than three pieces of clothing. Because if wearing less isn't a great selling point, I don't know what is.",
-          "layout": "introLayout",
-          "textStyle": "introStyle",
-          "format": "markdown"
-        },
-        {
-          "role": "divider",
-          "stroke": {
-            "color": "#FFF0"
-          },
-         "layout": "blackStrokeLayout1",
-         "style": "baseStrokeStyle"
-        },
-        {
-          "role": "author",
-          "layout": "authorLayout",
-          "text": "By Chelsea Peng",
-          "textStyle": "authorStyle"
-        },
-        {
-          "role": "divider",
-          "stroke": {
-           "color": "#FFF0"
-          },
-         "layout": "blackStrokeLayout2",
-         "style": "baseStrokeStyle"
-        },
-        {
-          "role": "section",
-          "layout": "slideLayout",
-          "components": [
-            {
-              "role": "heading",
-              "text": "MOD cut-offs",
-              "layout": "heading1Layout",
-              "textStyle": "heading1Style",
-              "format": "markdown"
-            },
-            {
-              "role": "container",
-              "style": "photoContainerStyle",
-              "layout": "photoLayout",
-              "components": [
-                {
-                  "role": "container",
-                  "style": {
-                    "fill": {
-                      "type": "image",
-                      "URL": "http://mac.h-cdn.co/assets/15/32/1024x1536/gettyimages-483126336_master.jpg",
-                      "verticalAlignment": "top"
-                    }
-                  },
-                  "layout": "photoLayout",
-                  "animation": {
-                    "type": "fade_in",
-                    "userControllable": true,
-                    "initialAlpha": 0.1
-                  }
-                }
-              ]
-            },
-            {
-              "role": "photographer",
-              "text": "Getty",
-              "layout": "creditLayout",
-              "textStyle": "creditStyle"
-            },      
-            {
-              "role": "caption",
-              "text": "I lied--Anja Rubik is actually the best selling point. Here, she's made a denim diaper look nonchalant and even kind of grown-up by pairing them with a loose shirt, vest, and the accessory of the moment: the skinny scarf.",
-              "layout": "captionLayout",
-              "textStyle": "captionStyle",
-              "format": "markdown"
-            }
-          ]
-        },
-        {
-          "role": "section",
-          "components": [
-            {
-              "role": "heading",
-              "text": "The SFW bandeau",
-              "layout": "heading1Layout",
-              "textStyle": "heading1Style",
-              "format": "markdown"
-            },
-            {
-              "role": "container",
-              "style": "photoContainerStyle",
-              "layout": "photoLayout",
-              "components": [
-                {
-                  "role": "container",
-                  "style": {
-                    "fill": {
-                      "type": "image",
-                      "URL": "http://mac.h-cdn.co/assets/15/32/1024x1532/gettyimages-481036544_master.jpg",
-                      "verticalAlignment": "top"
-                    }
-                  },
-                  "layout": "photoLayout",
-                  "animation": {
-                    "type": "fade_in",
-                    "userControllable": true,
-                    "initialAlpha": 0.1
-                  }
-                }
-              ]
-            },
-            {
-              "role": "photographer",
-              "text": "Getty",
-              "layout": "creditLayout",
-              "textStyle": "creditStyle"
-            },      
-            {
-              "role": "caption",
-              "text": "Even though my office is the sort that doesn't bat an eye when [you wear \"Bad Blood\" bondage to work](http://www.marieclaire.com/fashion/news/a15194/bondage-workwear/), I still try to maintain some semblance of professionalism sometimes. Popping a leather jacket over an ultra-cropped top and covered-up bottom allows for ventilation--while wearing leather! in the summer!--and, you know, wearing leather in the summer.",
-              "layout": "captionLayout",
-              "textStyle": "captionStyle",
-              "format": "markdown"
-            }
-          ]
-        },
-        { 
-          "role": "medium_rectangle_advertisement",
-          "layout": "adLayout",
-          "bannerType": "standard"
-        }
-      ]
-    },
-    
-    {
-      "role": "banner_advertisement",
-      "bannerType": "standard"
-    }
-  ],
-  "documentStyle": {
-    "backgroundColor": "#FFF"
-  },
-  "componentStyles": {
-    "bodyContainerStyle": {
-      "backgroundColor": "#FFF",
-      "border": {
-        "all": {
-          "width": 18
-        }
-      }
-    },
-    "dateLayoutStyle": {
-    },
-    "baseStrokeStyle": {
-    },
-    "photoContainerStyle": {
-      "backgroundColor": "#000"
-    },
-    "tabLayoutStyle": {
-    }
-  },
-  "componentTextStyles": {
-    "authorStyle": {
-      "fontName": "ModernTwoSxtnITCStd-Medium",
-      "fontSize": 15,
-      "lineHeight": 15,
-      "textAlignment": "center",
-      "textTransform": "uppercase"
-    },
-    "bodyStyle": {
-      "fontName": "Georgia",
-      "fontSize": 22,
-      "lineHeight": 34,
-      "textAlignment": "left",
-      "linkStyle": {
-        "textColor": "#00AAE3",
-        "underline": true
-      }
-    },
-    "bodyStyleFirst": {
-      "fontName": "Georgia",
-      "fontSize": 22,
-      "lineHeight": 34,
-      "textAlignment": "left",
-      "dropCapStyle": {
-        "fontName": "Georgia",
-        "numberOfLines": 2,
-        "numberOfCharacters": 1,
-        "textColor": "#CCC"
-      }
-    },
-    "captionStyle": {
-      "fontName": "Georgia",
-      "fontSize": 18,
-      "lineHeight": 30,
-      "textAlignment": "left",
-      "linkStyle": {
-        "textColor": "#00AAE3",
-        "underline": true
-      }
-    },
-    "creditStyle": {
-      "fontName": "ITCFranklinGothicW01-DmCm",
-      "fontSize": 14,
-      "lineHeight": 14,
-      "textAlignment": "right",
-      "textColor": "#898989",
-      "textTransform":"uppercase"
-    },
-    "dateStyle": {
-      "fontName": "ITCFranklinGothicW01-DmCm",
-      "fontSize": 16,
-      "textAlignment": "center",
-      "textColor": "#CCC",
-      "textTransform": "uppercase",
-      "tracking": 0.05
-    },
-    "heading1Style": {
-      "fontName": "ITCFranklinGothicW01-DmCm",
-      "fontSize": 40,
-      "lineHeight": 48,
-      "textAlignment": "left",
-      "textTransform":"uppercase"
-    },
-    "introStyle": {
-      "fontName": "ModernTwoSxtnITCStd-LightItalic",
-      "fontSize": 22,
-      "lineHeight": 28,
-      "textAlignment": "center"
-    },
-    "lowerListStyle": {
-      "fontName": "Georgia",
-      "fontSize": 18,
-      "lineHeight": 20,
-      "textAlignment": "center"
-    },
-    "pullQuoteStyle": {
-      "fontName": "Georgia",
-      "fontSize": 22,
-      "lineHeight": 28,
-      "textAlignment": "center",
-      "textTransform":"uppercase"
-    },
-    "spacerWord":{
-      "fontName": "Georgia",
-      "fontSize": 48,
-      "lineHeight": 48,
-      "textAlignment": "center",
-      "textTransform": "uppercase"
-    },
-    "titleStyle": {
-      "fontName": "ITCFranklinGothicW01-DmCm",
-      "fontSize": 62,
-      "lineHeight": 58,
-      "textAlignment": "center",
-      "textTransform": "uppercase"
-    }
-  },
-  "componentLayouts": {
-    "adLayout": {
-    },
-    "authorLayout": {
-      "margin": {
-        "top": 0,
-        "bottom": 0
-      }
-    },
-    "blackStrokeLayout1": {
-      "margin": {
-        "top": 0,
-        "bottom": 0
-      }
-    },
-    "blackStrokeLayout2": {
-      "margin":{
-        "top": 0,
-        "bottom": 0
-      }
-    },
-    "blackStrokeLayout3": {
-      "margin":{
-        "top": 0,
-        "bottom": 0
-      }
-    },
-    "blackStrokeLayout4": {
-      "margin":{
-        "top": 0,
-        "bottom": 0
-      }
-    },
-    "bodyContainerLayout": {
-      "ignoreDocumentMargin": true,
-      "margin": 0
-    },
-    "bodyLayout": {
-      "margin": {
-        "top": 35,
-        "bottom": 25
-      }
-    },
-    "captionLayout": {
-      "margin": {
-        "top": 10,
-        "bottom": 25
-      }   
-    },
-    "creditLayout": {
-      "margin": {
-        "top": 4,
-        "bottom": 0
-      }   
-    },
-    "dateLayout": {
-      "margin": {
-        "top": 30,
-        "bottom": 0
-      }
-    },
-    "embedLayout": {
-    },
-    "headerImageLayout": {
-      "ignoreDocumentMargin": true,
-      "minimumHeight": "40vh"
-    },
-    "heading1Layout": {
-      "margin": {
-        "top": 15,
-        "bottom": 10
-      }
-    },
-    "introLayout": {
-      "margin": {
-        "top": 0,
-        "bottom": 0
-      }
-    },
-    "photoLayout": {
-      "minimumHeight": "100vmax"
-    },
-    "pullQuoteLayout": {
-      "margin": {
-        "top": 25,
-        "bottom": 25
-      }
-    },
-    "slideLayout": {
-      "ignoreDocumentMargin": true
-    },
-    "spacerLayout": {
-      "margin": {
-        "top": 5,
-        "bottom": 0
-      }
-    },
-    "tabLayout": {
-      "ignoreDocumentMargin": true,
-      "minimumHeight": "40vw"
-    },
-    "titleLayout": {
-      "margin": {
-        "top": 30,
-        "bottom": 0
-      }
-    }
-  }
+	"version": "0.10",
+	"identifier": "!!!DYNAMIC",
+	"title": "8 Chic Outfits to Try with What Remains of the Summer",
+	"language": "en",
+	"blueprint": "basic",
+	"layout": {
+		"columns": 6,
+		"width": 1024
+	},
+	"components": [
+		{
+			"role": "header",
+			"layout": "headerImageLayout",
+			"style": {
+				"fill": {
+					"type": "image",
+					"URL": "http://mac.h-cdn.co/assets/15/32/980x490/landscape-1438895067-mcx-summer2.jpg",
+					"fillMode": "cover",
+					"verticalAlignment": "bottom"
+				}
+			},
+			"behavior": {
+				"type": "parallax",
+				"factor": 0.5
+			},
+			"components": [
+				{
+					"role": "container",
+					"layout": "tabLayout",
+					"style": "tabLayoutStyle",
+					"anchor": {
+						"targetAnchorPosition": "bottom"
+					}
+				}
+			]
+		},
+		{
+			"role": "section",
+			"layout": "bodyContainerLayout",
+			"style": "bodyContainerStyle",
+			"anchor": {
+				"targetAnchorPosition": "top"
+			},
+			"components": [
+				{
+					"role": "title",
+					"text": "8 Chic Outfits to Try with What Remains of the Summer",
+					"layout": "titleLayout",
+					"textStyle": "titleStyle",
+					"format": "markdown"
+				},
+				{
+					"role": "intro",
+					"text": "We couldn't agree on the [Song of the Summer 2015](http://www.marieclaire.com/culture/news/a15035/song-of-the-summer-debate/) (#TeamUmlaut), but when it comes to outfits to cross off before Labor Day, Team MC is on the same page: \"Noootttt another sundressssss.\" Here, see eight just-as-easy ideas, none requiring more than three pieces of clothing. Because if wearing less isn't a great selling point, I don't know what is.",
+					"layout": "introLayout",
+					"textStyle": "introStyle",
+					"format": "markdown"
+				},
+				{
+					"role": "divider",
+					"stroke": {
+						"color": "#FFF0"
+					},
+				 "layout": "blackStrokeLayout1",
+				 "style": "baseStrokeStyle"
+				},
+				{
+					"role": "author",
+					"layout": "authorLayout",
+					"text": "By Chelsea Peng",
+					"textStyle": "authorStyle"
+				},
+				{
+					"role": "divider",
+					"stroke": {
+					 "color": "#FFF0"
+					},
+				 "layout": "blackStrokeLayout2",
+				 "style": "baseStrokeStyle"
+				},
+				{
+					"role": "section",
+					"layout": "slideLayout",
+					"components": [
+						{
+							"role": "heading",
+							"text": "MOD cut-offs",
+							"layout": "heading1Layout",
+							"textStyle": "heading1Style",
+							"format": "markdown"
+						},
+						{
+							"role": "container",
+							"style": "photoContainerStyle",
+							"layout": "photoLayout",
+							"components": [
+								{
+									"role": "container",
+									"style": {
+										"fill": {
+											"type": "image",
+											"URL": "http://mac.h-cdn.co/assets/15/32/1024x1536/gettyimages-483126336_master.jpg",
+											"verticalAlignment": "top"
+										}
+									},
+									"layout": "photoLayout",
+									"animation": {
+										"type": "fade_in",
+										"userControllable": true,
+										"initialAlpha": 0.1
+									}
+								}
+							]
+						},
+						{
+							"role": "photographer",
+							"text": "Getty",
+							"layout": "creditLayout",
+							"textStyle": "creditStyle"
+						},			
+						{
+							"role": "caption",
+							"text": "I lied--Anja Rubik is actually the best selling point. Here, she's made a denim diaper look nonchalant and even kind of grown-up by pairing them with a loose shirt, vest, and the accessory of the moment: the skinny scarf.",
+							"layout": "captionLayout",
+							"textStyle": "captionStyle",
+							"format": "markdown"
+						}
+					]
+				},
+				{
+					"role": "section",
+					"components": [
+						{
+							"role": "heading",
+							"text": "The SFW bandeau",
+							"layout": "heading1Layout",
+							"textStyle": "heading1Style",
+							"format": "markdown"
+						},
+						{
+							"role": "container",
+							"style": "photoContainerStyle",
+							"layout": "photoLayout",
+							"components": [
+								{
+									"role": "container",
+									"style": {
+										"fill": {
+											"type": "image",
+											"URL": "http://mac.h-cdn.co/assets/15/32/1024x1532/gettyimages-481036544_master.jpg",
+											"verticalAlignment": "top"
+										}
+									},
+									"layout": "photoLayout",
+									"animation": {
+										"type": "fade_in",
+										"userControllable": true,
+										"initialAlpha": 0.1
+									}
+								}
+							]
+						},
+						{
+							"role": "photographer",
+							"text": "Getty",
+							"layout": "creditLayout",
+							"textStyle": "creditStyle"
+						},			
+						{
+							"role": "caption",
+							"text": "Even though my office is the sort that doesn't bat an eye when [you wear \"Bad Blood\" bondage to work](http://www.marieclaire.com/fashion/news/a15194/bondage-workwear/), I still try to maintain some semblance of professionalism sometimes. Popping a leather jacket over an ultra-cropped top and covered-up bottom allows for ventilation--while wearing leather! in the summer!--and, you know, wearing leather in the summer.",
+							"layout": "captionLayout",
+							"textStyle": "captionStyle",
+							"format": "markdown"
+						}
+					]
+				},
+				{ 
+					"role": "medium_rectangle_advertisement",
+					"layout": "adLayout",
+					"bannerType": "standard"
+				}
+			]
+		},
+		
+		{
+			"role": "banner_advertisement",
+			"bannerType": "standard"
+		}
+	],
+	"documentStyle": {
+		"backgroundColor": "#FFF"
+	},
+	"componentStyles": {
+		"blockQuoteContainerStyle": {
+			"border": {
+				"all": {
+					"width": 4,
+					"color": "#ddd"
+				},
+				"top": false,
+				"right": false,
+				"bottom": false
+			}
+		},
+		"bodyContainerStyle": {
+			"backgroundColor": "#FFF",
+			"border": {
+				"all": {
+					"width": 18
+				}
+			}
+		},
+		"dateLayoutStyle": {
+		},
+		"baseStrokeStyle": {
+		},
+		"photoContainerStyle": {
+			"backgroundColor": "#000"
+		},
+		"tabLayoutStyle": {
+		}
+	},
+	"componentTextStyles": {
+		"authorStyle": {
+			"fontName": "ModernTwoSxtnITCStd-Medium",
+			"fontSize": 15,
+			"lineHeight": 15,
+			"textAlignment": "center",
+			"textTransform": "uppercase"
+		},
+		"blockQuoteStyle": {
+			"fontName": "Georgia",
+			"textColor": "#777",
+			"fontSize": 18,
+			"lineHeight": 26,
+			"textAlignment": "left",
+			"linkStyle": {
+				"textColor": "#666"
+			}
+		},
+		"bodyStyle": {
+			"fontName": "Georgia",
+			"fontSize": 22,
+			"lineHeight": 34,
+			"textAlignment": "left",
+			"linkStyle": {
+				"textColor": "#666"
+			}
+		},
+		"bodyStyleFirst": {
+			"fontName": "Georgia",
+			"fontSize": 22,
+			"lineHeight": 34,
+			"textAlignment": "left",
+			"linkStyle": {
+				"textColor": "#666"
+			},
+			"dropCapStyle": {
+
+				"fontName": "Georgia",
+				"numberOfLines": 2,
+				"numberOfCharacters": 1,
+				"textColor": "#CCC"
+			}
+		},
+		"captionStyle": {
+			"fontName": "Georgia",
+			"fontSize": 18,
+			"lineHeight": 30,
+			"textAlignment": "left",
+			"linkStyle": {
+				"textColor": "#666"
+			}
+		},
+		"creditStyle": {
+			"fontName": "ITCFranklinGothicW01-DmCm",
+			"fontSize": 14,
+			"lineHeight": 14,
+			"textAlignment": "right",
+			"textColor": "#898989",
+			"textTransform":"uppercase"
+		},
+		"dateStyle": {
+			"fontName": "ITCFranklinGothicW01-DmCm",
+			"fontSize": 16,
+			"textAlignment": "center",
+			"textColor": "#CCC",
+			"textTransform": "uppercase",
+			"tracking": 0.05
+		},
+		"heading1Style": {
+			"fontName": "ITCFranklinGothicW01-DmCm",
+			"fontSize": 40,
+			"lineHeight": 48,
+			"textAlignment": "left",
+			"textTransform":"uppercase"
+		},
+		"introStyle": {
+			"fontName": "ModernTwoSxtnITCStd-LightItalic",
+			"fontSize": 22,
+			"lineHeight": 28,
+			"textAlignment": "center",
+			"linkStyle": {
+				"textColor": "#666"
+			}
+		},
+		"lowerListStyle": {
+			"fontName": "Georgia",
+			"fontSize": 18,
+			"lineHeight": 20,
+			"textAlignment": "center"
+		},
+		"pullQuoteStyle": {
+			"fontName": "Georgia",
+			"fontSize": 22,
+			"lineHeight": 28,
+			"textAlignment": "center",
+			"textTransform":"uppercase"
+		},
+		"spacerWord": {
+			"fontName": "Georgia",
+			"fontSize": 48,
+			"lineHeight": 48,
+			"textAlignment": "center",
+			"textTransform": "uppercase"
+		},
+		"titleStyle": {
+			"fontName": "ITCFranklinGothicW01-DmCm",
+			"fontSize": 62,
+			"lineHeight": 58,
+			"textAlignment": "center",
+			"textTransform": "uppercase"
+		}
+	},
+	"componentLayouts": {
+		"adLayout": {
+		},
+		"authorLayout": {
+			"margin": {
+				"top": 0,
+				"bottom": 0
+			}
+		},
+		"blackStrokeLayout1": {
+			"margin": {
+				"top": 0,
+				"bottom": 0
+			}
+		},
+		"blackStrokeLayout2": {
+			"margin": {
+				"top":0,
+				"bottom":0
+			}
+		},
+		"blackStrokeLayout3": {
+			"margin": {
+				"top":10,
+				"bottom":35
+			}
+		},
+		"blackStrokeLayout4": {
+			"margin": {
+				"top":0,
+				"bottom":25
+			}
+		},
+		"blockQuoteLayout": {
+			"contentInset": {
+				"left": true,
+				"right": true
+			},
+			"margin": 15
+		},
+		"bodyContainerLayout": {
+			"ignoreDocumentMargin": true,
+			"margin": 0
+		},
+		"bodyLayout": {
+			"margin": {
+				"top": 35,
+				"bottom": 25
+			}
+		},
+		"captionLayout": {
+			"margin": {
+				"top": 10,
+				"bottom": 25
+			}
+		},
+		"creditLayout": {
+			"margin": {
+				"top": 4,
+				"bottom": 0
+			}
+		},
+		"dateLayout": {
+			"margin": {
+				"top": 30,
+				"bottom": 0
+			}
+		},
+		"embedLayout": {
+		},
+		"headerImageLayout": {
+			"ignoreDocumentMargin": true,
+			"minimumHeight": "60vmin"
+		},
+		"heading1Layout": {
+			"margin": {
+				"top": 15,
+				"bottom": 10
+			}
+		},
+		"introLayout": {
+			"margin": {
+				"top": 0,
+				"bottom": 0
+			}
+		},
+		"photoLayout": {
+			"maximumContentWidth": "100cw"
+		},
+		"pullQuoteLayout": {
+			"margin": {
+				"top": 25,
+				"bottom": 25
+			}
+		},
+		"slideLayout": {
+			"ignoreDocumentMargin": true,
+			"margin": 15
+		},
+		"spacerLayout": {
+			"margin": {
+				"top": 5,
+				"bottom": 0
+			}
+		},
+		"tabLayout": {
+			"ignoreDocumentMargin": true,
+			"minimumHeight": "40vw"
+		},
+		"titleLayout": {
+			"margin": {
+				"top": 30,
+				"bottom": 0
+			}
+		}
+	}
 }

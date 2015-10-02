@@ -171,6 +171,17 @@
 				"right": false
 			}
 		},
+		"blockQuoteContainerStyle": {
+			"border": {
+				"all": {
+					"width": 4,
+					"color": "#ddd"
+				},
+				"top": false,
+				"right": false,
+				"bottom": false
+			}
+		},
 		"bodyContainerStyle": {
 			"backgroundColor": "#FFF"
 		},
@@ -194,18 +205,35 @@
 			"textAlignment": "left",
 			"textTransform": "uppercase"
 		},
+		"blockQuoteStyle": {
+			"textAlignment": "left",
+			"fontName": "MTBaskervilleETW01-Roman",
+			"fontSize": 16,
+			"lineHeight": 26,
+			"textColor": "#777",
+			"linkStyle": {
+				"textColor": "#0082b3"
+			}
+		},
 		"bodyStyle": {
 			"fontName": "MTBaskervilleETW01-Roman",
 			"fontSize": 16,
 			"lineHeight": 26,
-			"textAlignment": "left"
+			"textAlignment": "left",
+			"linkStyle": {
+				"textColor": "#0082b3"
+			}
 		},
 		"bodyStyleFirst": {
 			"fontName": "MTBaskervilleETW01-Roman",
 			"fontSize": 16,
 			"lineHeight": 26,
 			"textAlignment": "left",
+			"linkStyle": {
+				"textColor": "#0082b3"
+			},
 			"dropCapStyle": {
+
 				"fontName": "ITCAvantGardeStd-XLt",
 				"numberOfLines": 3,
 				"numberOfCharacters": 1
@@ -215,7 +243,10 @@
 			"fontName": "MTBaskervilleETW01-BoldIt",
 			"fontSize": 18,
 			"lineHeight": 26,
-			"textAlignment": "left"
+			"textAlignment": "left",
+			"linkStyle": {
+				"textColor": "#0082b3"
+			}
 		},
 		"creditStyle": {
 			"fontName": "ITCAvantGardeStd-XLt",
@@ -223,7 +254,7 @@
 			"lineHeight": 12,
 			"textAlignment": "right",
 			"textColor": "#444",
-			"textTransform":"uppercase"
+			"textTransform": "uppercase"
 		},
 		"dateStyle": {
 			"fontName": "MTBaskervilleETW01-Roman",
@@ -236,13 +267,16 @@
 			"fontSize": 42,
 			"lineHeight": 46,
 			"textAlignment": "left",
-			"textTransform":"uppercase"
+			"textTransform": "uppercase"
 		},
 		"introStyle": {
 			"fontName": "ITCAvantGardeStd-XLt",
 			"fontSize": 24,
 			"lineHeight": 32,
-			"textAlignment": "left"
+			"textAlignment": "left",
+			"linkStyle": {
+				"textColor": "#0082b3"
+			}
 		},
 		"lowerListStyle": {
 			"fontName": "MTBaskervilleETW01-Roman",
@@ -255,9 +289,9 @@
 			"fontSize": 24,
 			"lineHeight": 30,
 			"textAlignment": "center",
-			"textTransform":"uppercase"
+			"textTransform": "uppercase"
 		},
-		"spacerWord":{
+		"spacerWord": {
 			"fontName": "ITCAvantGardeStd-XLt",
 			"fontSize": 48,
 			"lineHeight": 48,
@@ -283,29 +317,36 @@
 				"bottom": 4
 			}
 		},
-		"blackStrokeLayout1":{
-			"margin":{
-				"top":0,
-				"bottom":0
+		"blackStrokeLayout1": {
+			"margin": {
+				"top": 0,
+				"bottom": 0
 			}
 		},
-		"blackStrokeLayout2":{
-			"margin":{
-				"top":0,
-				"bottom":15
+		"blackStrokeLayout2": {
+			"margin": {
+				"top": 0,
+				"bottom": 15
 			}
 		},
-		"blackStrokeLayout3":{
-			"margin":{
-				"top":35,
-				"bottom":0
+		"blackStrokeLayout3": {
+			"margin": {
+				"top": 35,
+				"bottom": 0
 			}
 		},
-		"blackStrokeLayout4":{
-			"margin":{
-				"top":0,
-				"bottom":15
+		"blackStrokeLayout4": {
+			"margin": {
+				"top": 0,
+				"bottom": 15
 			}
+		},
+		"blockQuoteLayout": {
+			"contentInset": {
+				"left": true,
+				"right": true
+			},
+			"margin": 15
 		},
 		"bodyContainerLayout": {
 			"ignoreDocumentMargin": false,
@@ -365,7 +406,7 @@
 			}
 		},
 		"photoLayout": {
-			"minimumHeight": "100vmax"
+			"maximumContentWidth": "100cw"
 		},
 		"pullQuoteLayout": {
 			"margin": {
