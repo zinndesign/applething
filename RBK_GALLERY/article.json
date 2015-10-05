@@ -297,6 +297,17 @@
 	"componentStyles": {
 		"baseStrokeStyle": {
 		},
+		"blockQuoteContainerStyle": {
+			"border": {
+				"all": {
+					"width": 4,
+					"color": "#ddd"
+				},
+				"top": false,
+				"right": false,
+				"bottom": false
+			}
+		},
 		"bodyContainerStyle": {
 			"backgroundColor": "#FFF"
 		},
@@ -316,7 +327,7 @@
 		"tabLayoutStyle": {
 			"fill": {
 				"type": "image",
-				"URL": "bundle://rbk_header_gallery.png",
+				"URL": "https://s3.amazonaws.com/sallyhdm/rbk_header_gallery.png",
 				"fillMode": "fit",
 				"verticalAlignment": "bottom",
 				"horizontalAlignment": "right"
@@ -329,6 +340,16 @@
 			"fontSize": 18,
 			"textAlignment": "left",
 			"textColor": "#999"
+		},
+		"blockQuoteStyle": {
+			"fontName": "PraxisLTPro-Light",
+			"textColor": "#777",
+			"fontSize": 20,
+			"lineHeight": 30,
+			"textAlignment": "left",
+			"linkStyle": {
+				"textColor": "#d20c50"
+			}
 		},
 		"bodyStyle": {
 			"fontName": "PraxisLTPro-Light",
@@ -403,7 +424,7 @@
 			"lineHeight": 62,
 			"textAlignment": "center"
 		},
-		"spacerWord":{
+		"spacerWord": {
 			"fontName": "Georgia",
 			"fontSize": 48,
 			"lineHeight": 48,
@@ -426,17 +447,24 @@
 				"bottom": 20
 			}
 		},
-		"blackStrokeLayout1":{
+		"blackStrokeLayout1": {
 			"margin": 0
 		},
-		"blackStrokeLayout2":{
+		"blackStrokeLayout2": {
 			"margin": 0
 		},
-		"blackStrokeLayout3":{
+		"blackStrokeLayout3": {
 			"margin": 0
 		},
-		"blackStrokeLayout4":{
+		"blackStrokeLayout4": {
 			"margin": 0
+		},
+		"blockQuoteLayout": {
+			"contentInset": {
+				"left": true,
+				"right": true
+			},
+			"margin": 15
 		},
 		"bodyContainerLayout": {
 			"margin": {

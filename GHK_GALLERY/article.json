@@ -272,6 +272,17 @@
 	"componentStyles": {
 		"baseStrokeStyle": {
 		},
+		"blockQuoteContainerStyle": {
+			"border": {
+				"all": {
+					"width": 4,
+					"color": "#ddd"
+				},
+				"top": false,
+				"right": false,
+				"bottom": false
+			}
+		},
 		"bodyContainerStyle": {
 			"backgroundColor": "#FFF"
 		},
@@ -307,14 +318,23 @@
 			"textAlignment": "left",
 			"textColor": "#959595"
 		},
+		"blockQuoteStyle": {
+			"fontName": "AvenirNextLTPro-Medium",
+			"textColor": "#777",
+			"fontSize": 20,
+			"lineHeight": 28,
+			"textAlignment": "left",
+			"linkStyle": {
+				"textColor": "#f50082"
+			}
+		},
 		"bodyStyle": {
 			"fontName": "AvenirNextLTPro-Medium",
 			"fontSize": 20,
 			"lineHeight": 28,
 			"textAlignment": "left",
 			"linkStyle": {
-				"textColor": "#f50082",
-				"underline": true
+				"textColor": "#f50082"
 			}
 		},
 		"bodyStyleFirst": {
@@ -323,8 +343,7 @@
 			"lineHeight": 28,
 			"textAlignment": "left",
 			"linkStyle": {
-				"textColor": "#f50082",
-				"underline": true
+				"textColor": "#f50082"
 			}
 		},
 		"captionStyle": {
@@ -333,8 +352,7 @@
 			"lineHeight": 28,
 			"textAlignment": "left",
 			"linkStyle": {
-				"textColor": "#f50082",
-				"underline": true
+				"textColor": "#f50082"
 			}
 		},
 		"creditStyle": {
@@ -382,7 +400,7 @@
 			"lineHeight": 60,
 			"textAlignment": "left"
 		},
-		"spacerWord":{
+		"spacerWord": {
 			"fontName": "Helvetica",
 			"fontSize": 48,
 			"lineHeight": 48,
@@ -405,15 +423,22 @@
 				"bottom": 30
 			}
 		},
-		"blackStrokeLayout1":{
+		"blackStrokeLayout1": {
 			"margin": 0
 		},
-		"blackStrokeLayout2":{
+		"blackStrokeLayout2": {
 			"margin": 0
 		},
-		"blackStrokeLayout3":{
+		"blackStrokeLayout3": {
 		},
-		"blackStrokeLayout4":{
+		"blackStrokeLayout4": {
+		},
+		"blockQuoteLayout": {
+			"contentInset": {
+				"left": true,
+				"right": true
+			},
+			"margin": 15
 		},
 		"bodyContainerLayout": {
 			"margin": {
@@ -481,7 +506,8 @@
 			}
 		},
 		"slideLayout": {
-			"ignoreDocumentMargin": true
+			"ignoreDocumentMargin": true,
+			"margin": 15
 		},
 		"spacerLayout": {
 			"margin": {

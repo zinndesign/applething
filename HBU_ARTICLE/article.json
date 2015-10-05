@@ -408,7 +408,8 @@
 			}
 		},
 		"slideLayout": {
-			"ignoreDocumentMargin": true
+			"ignoreDocumentMargin": true,
+			"margin": 10
 		},
 		"spacerLayout": {
 			"margin": {

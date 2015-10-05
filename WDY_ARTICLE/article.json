@@ -243,7 +243,6 @@
 			"fontSize": 18,
 			"lineHeight": 24,
 			"textAlignment": "left",
-			"tracking": -0.02,
 			"linkStyle": {
 				"textColor": "#684489"
 			}

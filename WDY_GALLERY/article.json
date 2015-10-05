@@ -339,10 +339,9 @@
 		"blockQuoteStyle": {
 			"fontName": "Georgia",
 			"textColor": "#777",
-			"fontSize": 20,
-			"lineHeight": 30,
+			"fontSize": 18,
+			"lineHeight": 26,
 			"textAlignment": "left",
-			"tracking": -0.02,
 			"linkStyle": {
 				"textColor": "#684489"
 			}

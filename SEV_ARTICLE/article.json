@@ -163,6 +163,17 @@
 	"componentStyles": {
 		"baseStrokeStyle": {
 		},
+		"blockQuoteContainerStyle": {
+			"border": {
+				"all": {
+					"width": 4,
+					"color": "#ddd"
+				},
+				"top": false,
+				"right": false,
+				"bottom": false
+			}
+		},
 		"bodyContainerStyle": {
 			"backgroundColor": "#FFF"
 		},
@@ -197,6 +208,16 @@
 			"textAlignment": "left",
 			"textColor": "#999",
 			"textTransform":"uppercase"
+		},
+		"blockQuoteStyle": {
+			"fontName": "Georgia",
+			"textColor": "#777",
+			"fontSize": 18,
+			"lineHeight": 26,
+			"textAlignment": "left",
+			"linkStyle": {
+				"textColor": "#ff3593"
+			}
 		},
 		"bodyStyle": {
 			"fontName": "Georgia",
@@ -275,7 +296,7 @@
 			"textAlignment": "center",
 			"tracking": 0.02
 		},
-		"spacerWord":{
+		"spacerWord": {
 			"fontName": "Georgia",
 			"fontSize": 48,
 			"lineHeight": 48,
@@ -300,17 +321,24 @@
 				"bottom": 30
 			}
 		},
-		"blackStrokeLayout1":{
+		"blackStrokeLayout1": {
 			"margin": 0
 		},
-		"blackStrokeLayout2":{
+		"blackStrokeLayout2": {
 			"margin": 0
 		},
-		"blackStrokeLayout3":{
+		"blackStrokeLayout3": {
 			"margin": 0
 		},
-		"blackStrokeLayout4":{
+		"blackStrokeLayout4": {
 			"margin": 0
+		},
+		"blockQuoteLayout": {
+			"contentInset": {
+				"left": true,
+				"right": true
+			},
+			"margin": 15
 		},
 		"bodyContainerLayout": {
 			"margin": {
@@ -382,7 +410,8 @@
 			}
 		},
 		"slideLayout": {
-			"ignoreDocumentMargin": true
+			"ignoreDocumentMargin": true,
+			"margin": 15
 		},
 		"spacerLayout": {
 			"margin": {

@@ -236,6 +236,17 @@
 				"right": false
 			}
 		},
+		"blockQuoteContainerStyle": {
+			"border": {
+				"all": {
+					"width": 4,
+					"color": "#ddd"
+				},
+				"top": false,
+				"right": false,
+				"bottom": false
+			}
+		},
 		"bodyContainerStyle": {
 			"backgroundColor": "#FFF"
 		},
@@ -255,7 +266,7 @@
 		"tabLayoutStyle": {
 			"fill": {
 				"type": "image",
-				"URL": "bundle://clv_header_gallery.png",
+				"URL": "https://s3.amazonaws.com/sallyhdm/clv_header_gallery.png",
 				"fillMode": "fit",
 				"verticalAlignment": "bottom",
 				"horizontalAlignment": "right"
@@ -268,14 +279,23 @@
 			"fontSize": 16,
 			"textAlignment": "left"
 		},
+		"blockQuoteStyle": {
+			"fontName": "Avenir-Roman",
+			"textColor": "#777",
+			"fontSize": 20,
+			"lineHeight": 30,
+			"textAlignment": "left",
+			"linkStyle": {
+				"textColor": "#05d7d6"
+			}
+		},
 		"bodyStyle": {
 			"fontName": "Avenir-Roman",
 			"fontSize": 20,
 			"lineHeight": 30,
 			"textAlignment": "left",
 			"linkStyle": {
-				"textColor": "#05d7d6",
-				"underline": true
+				"textColor": "#05d7d6"
 			}
 		},
 		"bodyStyleFirst": {
@@ -289,8 +309,7 @@
 				"numberOfCharacters": 1
 			},
 			"linkStyle": {
-				"textColor": "#05d7d6",
-				"underline": true
+				"textColor": "#05d7d6"
 			}
 		},
 		"captionStyle": {
@@ -299,8 +318,7 @@
 			"lineHeight": 30,
 			"textAlignment": "left",
 			"linkStyle": {
-				"textColor": "#05d7d6",
-				"underline": true
+				"textColor": "#05d7d6"
 			}
 		},
 		"creditStyle": {
@@ -330,8 +348,7 @@
 			"lineHeight": 28,
 			"textAlignment": "left",
 			"linkStyle": {
-				"textColor": "#05d7d6",
-				"underline": true
+				"textColor": "#05d7d6"
 			}
 		},
 		"lowerListStyle": {
@@ -347,7 +364,7 @@
 			"textAlignment": "center",
 			"textColor": "#ff663a"
 		},
-		"spacerWord":{
+		"spacerWord": {
 			"fontName": "Georgia",
 			"fontSize": 48,
 			"lineHeight": 48,
@@ -371,29 +388,36 @@
 				"bottom": 0
 			}
 		},
-		"blackStrokeLayout1":{
+		"blackStrokeLayout1": {
 			"margin": {
 				"top": 10,
 				"bottom": 10
 			}
 		},
-		"blackStrokeLayout2":{
+		"blackStrokeLayout2": {
 			"margin": {
 				"top": 13,
 				"bottom": 25
 			}
 		},
-		"blackStrokeLayout3":{
+		"blackStrokeLayout3": {
 			"margin": {
 				"top": 10,
 				"bottom": 25
 			}
 		},
-		"blackStrokeLayout4":{
+		"blackStrokeLayout4": {
 			"margin": {
 				"top": 30,
 				"bottom": 15
 			}
+		},
+		"blockQuoteLayout": {
+			"contentInset": {
+				"left": true,
+				"right": true
+			},
+			"margin": 15
 		},
 		"bodyContainerLayout": {
 			"margin": {

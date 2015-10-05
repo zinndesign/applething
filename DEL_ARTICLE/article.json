@@ -176,6 +176,17 @@
 	"componentStyles": {
 		"baseStrokeStyle": {
 		},
+		"blockQuoteContainerStyle": {
+			"border": {
+				"all": {
+					"width": 4,
+					"color": "#ddd"
+				},
+				"top": false,
+				"right": false,
+				"bottom": false
+			}
+		},
 		"bodyContainerStyle": {
 			"backgroundColor": "#FFF"
 		},
@@ -195,7 +206,7 @@
 		"tabLayoutStyle": {
 			"fill": {
 				"type": "image",
-				"URL": "bundle://del_header_article.png",
+				"URL": "https://s3.amazonaws.com/sallyhdm/del_header_article.png",
 				"fillMode": "fit",
 				"verticalAlignment": "bottom",
 				"horizontalAlignment": "right"
@@ -210,6 +221,16 @@
 			"textColor": "#959595",
 			"textTransform":"uppercase"
 		},
+		"blockQuoteStyle": {
+			"fontName": "DINNextLTPro-LightCondensed",
+			"textColor": "#777",
+			"fontSize": 28,
+			"lineHeight": 36,
+			"textAlignment": "left",
+			"linkStyle": {
+				"textColor": "#f26f26"
+			}
+		},
 		"bodyStyle": {
 			"fontName": "ArialMT",
 			"fontSize": 18,
@@ -217,8 +238,7 @@
 			"textAlignment": "left",
 			"textColor": "#333",
 			"linkStyle": {
-				"textColor": "#f26f26",
-				"underline": true
+				"textColor": "#f26f26"
 			}
 		},
 		"bodyStyleFirst": {
@@ -228,8 +248,7 @@
 			"textAlignment": "left",
 			"textColor": "#333",
 			"linkStyle": {
-				"textColor": "#f26f26",
-				"underline": true
+				"textColor": "#f26f26"
 			}
 		},
 		"captionStyle": {
@@ -238,8 +257,7 @@
 			"lineHeight": 36,
 			"textAlignment": "left",
 			"linkStyle": {
-				"textColor": "#f26f26",
-				"underline": true
+				"textColor": "#f26f26"
 			}
 		},
 		"creditStyle": {
@@ -287,7 +305,7 @@
 			"textColor": "#f37026",
 			"textTransform":"uppercase"
 		},
-		"spacerWord":{
+		"spacerWord": {
 			"fontName": "Helvetica",
 			"fontSize": 48,
 			"lineHeight": 48,
@@ -311,15 +329,22 @@
 				"bottom": 15
 			}
 		},
-		"blackStrokeLayout1":{
+		"blackStrokeLayout1": {
 			"margin": 0
 		},
-		"blackStrokeLayout2":{
+		"blackStrokeLayout2": {
 			"margin": 5
 		},
-		"blackStrokeLayout3":{
+		"blackStrokeLayout3": {
 		},
-		"blackStrokeLayout4":{
+		"blackStrokeLayout4": {
+		},
+		"blockQuoteLayout": {
+			"contentInset": {
+				"left": true,
+				"right": true
+			},
+			"margin": 15
 		},
 		"bodyContainerLayout": {
 			"margin": {
@@ -387,7 +412,8 @@
 			}
 		},
 		"slideLayout": {
-			"ignoreDocumentMargin": true
+			"ignoreDocumentMargin": true,
+			"margin": 15
 		},
 		"spacerLayout": {
 			"margin": {
