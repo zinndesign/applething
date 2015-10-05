@@ -233,6 +233,17 @@
 				"right": false
 			}
 		},
+		"blockQuoteContainerStyle": {
+			"border": {
+				"all": {
+					"width": 4,
+					"color": "#ddd"
+				},
+				"top": false,
+				"right": false,
+				"bottom": false
+			}
+		},
 		"bodyContainerStyle": {
 			"backgroundColor": "#FFF"
 		},
@@ -259,19 +270,36 @@
 			"textTransform": "uppercase",
 			"textAlignment": "left"
 		},
+		"blockQuoteStyle": {
+			"textAlignment": "left",
+			"fontName": "MTBaskervilleETW01-Roman",
+			"fontSize": 16,
+			"lineHeight": 26,
+			"textColor": "#777",
+			"linkStyle": {
+				"textColor": "#0082b3"
+			}
+		},
 		"bodyStyle": {
 			"textAlignment": "left",
 			"fontName": "MTBaskervilleETW01-Roman",
 			"fontSize": 16,
 			"lineHeight": 26,
-			"textColor": "#000"
+			"textColor": "#000",
+			"linkStyle": {
+				"textColor": "#0082b3"
+			}
 		},
 		"bodyStyleFirst": {
 			"fontName": "MTBaskervilleETW01-Roman",
 			"fontSize": 16,
 			"lineHeight": 26,
 			"textAlignment": "left",
+			"linkStyle": {
+				"textColor": "#0082b3"
+			},
 			"dropCapStyle": {
+
 				"fontName": "ITCAvantGardeStd-XLt",
 				"numberOfLines": 3,
 				"numberOfCharacters": 1
@@ -282,7 +310,10 @@
 			"fontName": "MTBaskervilleETW01-Roman",
 			"fontSize": 16,
 			"lineHeight": 20,
-			"textColor": "#000"
+			"textColor": "#000",
+			"linkStyle": {
+				"textColor": "#0082b3"
+			}
 		},
 		"creditStyle": {
 			"textAlignment": "right",
@@ -312,7 +343,10 @@
 			"fontName": "ITCAvantGardeStd-XLt",
 			"fontSize": 24,
 			"lineHeight":30,
-			"textColor": "#000"
+			"textColor": "#000",
+			"linkStyle": {
+				"textColor": "#0082b3"
+			}
 		},
 		"lowerListStyle": {
 			"textAlignment": "center",
@@ -329,7 +363,7 @@
 			"textTransform":"uppercase",
 			"textColor": "#000"
 		},
-		"spacerWord":{
+		"spacerWord": {
 			"textAlignment": "center",
 			"fontSize": 48,
 			"lineHeight": 48,
@@ -355,29 +389,36 @@
 				"bottom": 4
 			}
 		},
-		"blackStrokeLayout1":{
-			"margin":{
+		"blackStrokeLayout1": {
+			"margin": {
 				"top":0,
 				"bottom":0
 			}
 		},
-		"blackStrokeLayout2":{
-			"margin":{
+		"blackStrokeLayout2": {
+			"margin": {
 				"top":0,
 				"bottom":15
 			}
-		},
-		"blackStrokeLayout3":{
-			"margin":{
+					 },
+		"blackStrokeLayout3": {
+			"margin": {
 				"top":10,
 				"bottom":35
 			}
 		},
-		"blackStrokeLayout4":{
-			"margin":{
+		"blackStrokeLayout4": {
+			"margin": {
 				"top":10,
 				"bottom":35
 			}
+		},
+		"blockQuoteLayout": {
+			"contentInset": {
+				"left": true,
+				"right": true
+			},
+			"margin": 15
 		},
 		"bodyContainerLayout": {
 			"ignoreDocumentMargin": true,
@@ -411,6 +452,10 @@
 			}
 		},
 		"embedLayout": {
+			"margin": {
+				"top": 5,
+				"bottom": 20
+			}
 		},
 		"headerImageLayout": {
 			"ignoreDocumentMargin": true,
@@ -442,7 +487,8 @@
 			}
 		},
 		"slideLayout": {
-			"ignoreDocumentMargin": true
+			"ignoreDocumentMargin": true,
+			"margin": 15
 		},
 		"tabLayout": {
 			"ignoreDocumentMargin": true,
