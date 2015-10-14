@@ -412,8 +412,8 @@
 		},
 		"spacerLayout": {
 			"margin": {
-				"top": 5,
-				"bottom": 0
+				"top": 0,
+				"bottom": 25
 			}
 		},
 		"tabLayout": {

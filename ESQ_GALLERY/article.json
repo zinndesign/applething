@@ -1018,6 +1018,12 @@
 			"ignoreDocumentMargin": true,
 			"margin": 15
 		},
+		"spacerLayout": {
+			"margin": {
+				"top": 0,
+				"bottom": 25
+			}
+		},
 		"tabLayout": {
 			"ignoreDocumentMargin": true,
 			"minimumHeight": "20vmin"
