@@ -38,101 +38,91 @@
 			]
 		},
 		{
-			"role": "section",
-			"layout": "bodyContainerLayout",
-			"style": "bodyContainerStyle",
-			"anchor": {
-				"targetAnchorPosition": "top"
+			"role": "title",
+			"layout": "titleLayout",
+			"text": "Christian Louboutin Created the Most Glamorous Lipstick Ever",
+			"textStyle": "titleStyle"
+		},
+		{
+			"role": "intro",
+			"layout": "introLayout",
+			"text": "Get ready to make room [on your vanity](http://google.com).",
+			"textStyle": "introStyle",
+			"format": "markdown"
+		},
+		{
+			"role": "divider",
+			"stroke": {
+				"color": "#FFF0"
 			},
-			"components": [
-				{
-					"role": "title",
-					"layout": "titleLayout",
-					"text": "Christian Louboutin Created the Most Glamorous Lipstick Ever",
-					"textStyle": "titleStyle"
-				},
-				{
-					"role": "intro",
-					"layout": "introLayout",
-					"text": "Get ready to make room [on your vanity](http://google.com).",
-					"textStyle": "introStyle",
-					"format": "markdown"
-				},
-				{
-					"role": "divider",
-					"stroke": {
-						"color": "#FFF0"
-					},
-					"layout": "blackStrokeLayout1",
-					"style": "baseStrokeStyle"
-				},
-				{
-					"role": "author",
-					"layout": "authorLayout",
-					"text": "By Alexandra Tunell",
-					"textStyle": "authorStyle"
-				},
-				{
-					"role": "divider",
-					"stroke": {
-						"color": "#FFF0"
-					},
-					"layout": "blackStrokeLayout1",
-					"style": "baseStrokeStyle"
-				},
-				{ 
-					"role": "medium_rectangle_advertisement",
-					"layout": "adLayout",
-					"bannerType": "standard"
-				},
-				{
-					"role": "body",
-					"text": "There's nothing sexy about the word 'products;' call them \"objets d'art,\" [on the other hand](http://google.com), and we must have them immediately. Louboutin knows this\u2014after all, he's made women lust after his creations for decades: First, with his red soles, then with nail polish and now, with 38 shades of lipstick in the most dramatic metal bullets (that double as necklaces) we've ever seen. There are three textures to choose from\u2014Silky Satin, Velvet Matte and Sheer Voile\u2014and all the shades are inspired by the brand's iconic shoes and bags. At $90 each, they don't come cheap, but the best things rarely do. ",
-					"layout": "bodyLayout",
-					"textStyle": "bodyStyleFirst",
-					"format": "markdown"
-				},
-				{
-					"role": "divider",
-					"stroke": {
-						"color": "#FFF0"
-					},
-					"layout": "blackStrokeLayout3",
-					"style": "baseStrokeStyle"
-				},
-				{
-					"role": "pullquote",
-					"layout": "pullQuoteLayout",
-					"text": "\u201CHe\u2019s made women lust after his creations for decades: First, with his red soles, then with nail polish and now, with 38 shades of lipstick in the most dramatic metal bullets.\u201D",
-					"textStyle": "pullQuoteStyle",
-					"format": "markdown"
-				},
-				{
-					"role": "divider",
-					"stroke": {
-						"color": "#FFF0"
-					},
-					"layout": "blackStrokeLayout4",
-					"style": "baseStrokeStyle"
-				},
-				{
-					"role": "heading1",
-					"layout": "heading1Layout",
-					"text": "Call them \u201Cobjects d'art\u201D",
-					"textStyle": "heading1Style"
-				},
-				{
-					"role": "body",
-					"text": "Louboutin knows this\u2014after all, he's made women lust after his creations for decades: First, with his red soles, then with nail polish and now, with 38 shades of lipstick in the most dramatic metal bullets (that double as necklaces) we've ever seen. There are three textures to choose from\u2014Silky Satin, Velvet Matte and Sheer Voile\u2014and all the shades are inspired by the brand's iconic shoes and bags. At $90 each, they don't come cheap, but the best things rarely do. Louboutin knows this\u2014after all, he's made women lust after his creations for decades: First, with his red soles...",
-					"layout": "bodyLayout",
-					"textStyle": "bodyStyle",
-					"format": "markdown"
-				},
-				{
-					"role": "banner_advertisement",
-					"bannerType": "standard"
-				}
-			]
+			"layout": "blackStrokeLayout1",
+			"style": "baseStrokeStyle"
+		},
+		{
+			"role": "author",
+			"layout": "authorLayout",
+			"text": "By Alexandra Tunell",
+			"textStyle": "authorStyle"
+		},
+		{
+			"role": "divider",
+			"stroke": {
+				"color": "#FFF0"
+			},
+			"layout": "blackStrokeLayout1",
+			"style": "baseStrokeStyle"
+		},
+		{ 
+			"role": "medium_rectangle_advertisement",
+			"layout": "adLayout",
+			"bannerType": "standard"
+		},
+		{
+			"role": "body",
+			"text": "There's nothing sexy about the word 'products;' call them \"objets d'art,\" [on the other hand](http://google.com), and we must have them immediately. Louboutin knows this\u2014after all, he's made women lust after his creations for decades: First, with his red soles, then with nail polish and now, with 38 shades of lipstick in the most dramatic metal bullets (that double as necklaces) we've ever seen. There are three textures to choose from\u2014Silky Satin, Velvet Matte and Sheer Voile\u2014and all the shades are inspired by the brand's iconic shoes and bags. At $90 each, they don't come cheap, but the best things rarely do. ",
+			"layout": "bodyLayout",
+			"textStyle": "bodyStyleFirst",
+			"format": "markdown"
+		},
+		{
+			"role": "divider",
+			"stroke": {
+				"color": "#FFF0"
+			},
+			"layout": "blackStrokeLayout3",
+			"style": "baseStrokeStyle"
+		},
+		{
+			"role": "pullquote",
+			"layout": "pullQuoteLayout",
+			"text": "\u201CHe\u2019s made women lust after his creations for decades: First, with his red soles, then with nail polish and now, with 38 shades of lipstick in the most dramatic metal bullets.\u201D",
+			"textStyle": "pullQuoteStyle",
+			"format": "markdown"
+		},
+		{
+			"role": "divider",
+			"stroke": {
+				"color": "#FFF0"
+			},
+			"layout": "blackStrokeLayout4",
+			"style": "baseStrokeStyle"
+		},
+		{
+			"role": "heading1",
+			"layout": "heading1Layout",
+			"text": "Call them \u201Cobjects d'art\u201D",
+			"textStyle": "heading1Style"
+		},
+		{
+			"role": "body",
+			"text": "Louboutin knows this\u2014after all, he's made women lust after his creations for decades: First, with his red soles, then with nail polish and now, with 38 shades of lipstick in the most dramatic metal bullets (that double as necklaces) we've ever seen. There are three textures to choose from\u2014Silky Satin, Velvet Matte and Sheer Voile\u2014and all the shades are inspired by the brand's iconic shoes and bags. At $90 each, they don't come cheap, but the best things rarely do. Louboutin knows this\u2014after all, he's made women lust after his creations for decades: First, with his red soles...",
+			"layout": "bodyLayout",
+			"textStyle": "bodyStyle",
+			"format": "markdown"
+		},
+		{
+			"role": "container",
+			"layout": "spacerLayout"
 		}
 	],
 	"documentStyle": {

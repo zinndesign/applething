@@ -6,7 +6,9 @@
 	"blueprint": "basic",
 	"layout": {
 		"columns": 6,
-		"width": 1024
+		"width": 1024,
+		"margin": 80,
+		"gutter": 40
 	},
 	"components": [
 		{
@@ -35,14 +37,6 @@
 				}
 			]
 		},
-		{
-			"role": "section",
-			"layout": "bodyContainerLayout",
-			"style": "bodyContainerStyle",
-			"anchor": {
-				"targetAnchorPosition": "top"
-			},
-			"components": [
 				{
 					"role": "title",
 					"text": "8 Chic Outfits to Try with What Remains of the Summer",
@@ -177,17 +171,9 @@
 					]
 				},
 				{ 
-					"role": "medium_rectangle_advertisement",
-					"layout": "adLayout",
-					"bannerType": "standard"
+					"role": "container",
+					"layout": "spacerLayout"
 				}
-			]
-		},
-		
-		{
-			"role": "banner_advertisement",
-			"bannerType": "standard"
-		}
 	],
 	"documentStyle": {
 		"backgroundColor": "#FFF"
@@ -220,6 +206,15 @@
 			"backgroundColor": "#000"
 		},
 		"tabLayoutStyle": {
+			"border": {
+				"all": {
+					"width": 18,
+					"color": "#000"
+				},
+				"top": false,
+				"left": false,
+				"right": false
+			}
 		}
 	},
 	"componentTextStyles": {
@@ -417,7 +412,7 @@
 		"introLayout": {
 			"margin": {
 				"top": 0,
-				"bottom": 0
+				"bottom": 20
 			}
 		},
 		"photoLayout": {
