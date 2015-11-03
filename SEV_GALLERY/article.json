@@ -558,8 +558,7 @@
 			}
 		},
 		"tabLayout": {
-			"ignoreDocumentMargin": true,
-			"minimumHeight": "5vmin"
+			"ignoreDocumentMargin": true
 		},
 		"titleLayout": {
 			"margin": {

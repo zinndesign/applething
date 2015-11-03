@@ -1826,13 +1826,7 @@
 			"backgroundColor": "#000"
 		},
 		"tabLayoutStyle": {
-			"fill": {
-				"type": "image",
-				"URL": "https://s3.amazonaws.com/sallyhdm/cos_header_gallery.png",
-				"fillMode": "fit",
-				"verticalAlignment": "bottom",
-				"horizontalAlignment": "right"
-			}
+			"backgroundColor": "#fff33e"
 		}
 	},
 	"componentTextStyles": {
@@ -2052,7 +2046,7 @@
 		},
 		"tabLayout": {
 			"ignoreDocumentMargin": true,
-			"minimumHeight": "5vmin"
+			"minimumHeight": 24
 		},
 		"titleLayout": {
 			"margin": {
