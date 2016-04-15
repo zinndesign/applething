@@ -1,0 +1,446 @@
+{
+	"version": "0.10",
+	"identifier": "!!!DYNAMIC",
+	"title": "The Best Wi-Fi Security Cameras to Buy Today",
+	"language": "en",
+	"blueprint": "basic",
+	"layout": {
+		"columns": 6,
+		"width": 1024,
+		"margin": 90,
+		"gutter": 20
+	},
+	"components": [
+		{
+			"role": "header",
+			"layout": "headerImageLayout",
+			"style": {
+				"fill": {
+					"type": "image",
+					"URL": "http://bpc.h-cdn.co/assets/15/46/1447368635-wi-fi-security-camera.jpg",
+					"fillMode": "cover",
+					"verticalAlignment": "top"
+				}
+			},
+			"behavior": {
+				"type": "parallax",
+				"factor": 0.5
+			},
+			"components": [
+				{
+					"role": "container",
+					"layout": "tabLayout",
+					"style": "tabLayoutStyle",
+					"anchor": {
+						"targetAnchorPosition": "bottom"
+					}
+				}
+			]
+		},
+		{
+			"role": "section",
+			"layout": "bodyContainerLayout",
+			"style": "bodyContainerStyle",
+			"anchor": {
+				"targetAnchorPosition": "top"
+			},
+			"components": [
+				{
+					"role": "title",
+					"layout": "titleLayout",
+					"text": "The Best Wi-Fi Security Cameras to Buy Today",
+					"textStyle": "titleStyle"
+				},
+				{
+					"role": "intro",
+					"layout": "introLayout",
+					"text": "Wi-Fi security cameras are no longer a gimmick, but essential accessories for every modern household. Take a look at the best connected cameras available to buy right now from the likes of Google's Nest, Logitech, Belkin, and Samsung.",
+					"textStyle": "introStyle",
+					"format": "markdown"
+				},
+				{
+					"role": "divider",
+					"stroke": {
+						"color": "#FFF0"
+					},
+					"layout": "blackStrokeLayout1",
+					"style": "baseStrokeStyle"
+				},
+				{
+					"role": "author",
+					"layout": "authorLayout",
+					"text": "By Stefan Vazharov",
+					"textStyle": "authorStyle"
+				},
+				{
+					"role": "divider",
+					"stroke": {
+						"color": "#FFF0"
+					},
+					"layout": "blackStrokeLayout2",
+					"style": "baseStrokeStyle"
+				},
+				{
+					"role": "body",
+					"text": "As the race for the [2016 presidency](http://www.elledecor.com/life-culture/news/g2624/2016-presidential-candidates-hometowns/) heats up, so does the debate over how to create a more [energy-efficient America](http://www.thefiscaltimes.com/2015/08/05/Where-2016-Candidates-Stand-Energy). For years, the focus has remained on increasing the nation's use of solar and wind power, but what if the real solution is already at work around us?",
+					"layout": "bodyLayout",
+					"textStyle": "bodyStyleFirst",
+					"format": "markdown"
+				},
+				{
+					"role": "body",
+					"text": "That's the question [\"Living Things,\"](http://www.livingthings.us/) a new installation at Pittsburgh's [Mattress Factory](http://www.mattress.org/), is trying to answer. And it's doing so by using micro-algae to fuel common household appliances.",
+					"layout": "bodyLayout",
+					"textStyle": "bodyStyle",
+					"format": "markdown"
+				},
+				{
+					"role": "heading1",
+					"layout": "heading1Layout",
+					"text": "Micro-Algae Fueling Household Appliances",
+					"textStyle": "heading1Style",
+					"format": "markdown"
+				},
+				{
+					"role": "body",
+					"text": "Micro-algae can be found everywhere, built into the environment, though we rarely give it a second thought. However, the nutrient-rich material, with its ability to recycle light, heat, and carbon could prove a powerful untapped resource \u2014 one that can be converted into biofuel.",
+					"layout": "bodyLayout",
+					"textStyle": "bodyStyle",
+					"format": "markdown"
+				},
+				{
+					"role": "body",
+					"text": "The installation itself focuses in on how micro-algae, specifically Spirulina algae, can be harnessed for everyday use in our homes. Broken into three sections \u2014 a living room, dining room, and kitchen (which doubles as a \"control center\") \u2014 the exhibit features hand-blown glass vessels that function to light and heat the space.",
+					"layout": "bodyLayout",
+					"textStyle": "bodyStyle",
+					"format": "markdown"
+				},
+				{
+					"role": "photo",
+					"URL": "http://edc.h-cdn.co/assets/15/36/1441047511-micro-algae-lighting-heating-01.jpg",
+					"caption": "The kitchen area of the installation doubles as a control center for the vessels.",
+					"layout": "embedLayout"
+				},
+				{
+					"role": "body",
+					"text": "Each vessel can be managed separately using knobs found in the kitchen area, and all are powered with living micro-algae and connected through nearly a half-mile of hidden wiring and plumbing.",
+					"layout": "bodyLayout",
+					"textStyle": "bodyStyle",
+					"format": "markdown"
+				},
+				{
+					"role": "divider",
+					"stroke": {
+						"color": "#FFF0"
+					},
+					"layout": "blackStrokeLayout3",
+					"style": "baseStrokeStyle"
+				},
+				{
+					"role": "pullquote",
+					"layout": "pullQuoteLayout",
+					"text": "\u201CThe artists have even called in local bartenders and chefs to create specialty Spirulina concoctions during the course of the installation.\u201D",
+					"textStyle": "pullQuoteStyle",
+					"format": "markdown"
+				},
+				{
+					"role": "divider",
+					"stroke": {
+						"color": "#FFF0"
+					},
+					"layout": "blackStrokeLayout4",
+					"style": "baseStrokeStyle"
+				},
+				{
+					"role": "body",
+					"text": "What's more, when the Spirulina algae have run their course, they can be dried and used in drinks and dishes. The artists behind \"Living Things,\" architectural designer Jacov Douenias and industrial designer Ethan Frier, have even called in local bartenders and chefs to create specialty Spirulina concoctions during the course of the installation.",
+					"layout": "bodyLayout",
+					"textStyle": "bodyStyle",
+					"format": "markdown"
+				},
+				{
+					"role": "body",
+					"text": "Though there's no word on whether these micro-algae-powered designs will actually go into production at the close of the exhibition in March of 2016, it certainly provides some food for thought. Literally and figuratively.",
+					"layout": "bodyLayout",
+					"textStyle": "bodyStyle",
+					"format": "markdown"
+				},
+				{
+					"role": "banner_advertisement",
+					"bannerType": "standard"
+				}
+			]
+		}
+	],
+	"documentStyle": {
+		"backgroundColor": "#FFF"
+	},
+	"componentStyles": {
+		"baseStrokeStyle": {
+		},
+		"blockQuoteContainerStyle": {
+			"border": {
+				"all": {
+					"width": 4,
+					"color": "#ddd"
+				},
+				"top": false,
+				"right": false,
+				"bottom": false
+			}
+		},
+		"bodyContainerStyle": {
+			"backgroundColor": "#FFF"
+		},
+		"dateLayoutStyle": {
+			"border": {
+				"all": {
+					"width": 2
+				},
+				"top": false,
+				"left": false,
+				"right": false
+			}
+		},
+		"photoContainerStyle": {
+			"backgroundColor": "#000"
+		},
+		"tabLayoutStyle": {
+			"border": {
+				"all": {
+					"width": 9
+				},
+				"top": false,
+				"left": false,
+				"right": false
+			}
+		}
+	},
+	"componentTextStyles": {
+		"authorStyle": {
+			"fontName": "Georgia",
+			"fontSize": 14,
+			"textAlignment": "left",
+			"textColor": "#999"
+		},
+		"blockQuoteStyle": {
+			"fontName": "DINNextLTPro-MediumCond",
+			"textColor": "#777",
+			"fontSize": 18,
+			"lineHeight": 24,
+			"textAlignment": "left",
+			"linkStyle": {
+				"textColor": "#4b89cc"
+			}
+		},
+		"bodyStyle": {
+			"fontName": "Georgia",
+			"fontSize": 18,
+			"lineHeight": 26,
+			"textAlignment": "left",
+			"textColor": "#333",
+			"linkStyle": {
+				"textColor": "#4b89cc"
+			}
+		},
+		"bodyStyleFirst": {
+			"fontName": "Georgia",
+			"fontSize": 18,
+			"lineHeight": 26,
+			"textAlignment": "left",
+			"textColor": "#333",
+			"dropCapStyle": {
+				"fontName": "DINNextLTPro-MediumCond",
+				"textColor":"#f8d96f",
+				"numberOfLines": 3,
+				"numberOfCharacters": 1
+			},
+			"linkStyle": {
+				"textColor": "#4b89cc"
+			}
+		},
+		"captionStyle": {
+			"fontName": "DINNextLTPro-MediumCond",
+			"fontSize": 20,
+			"lineHeight": 28,
+			"textAlignment": "left",
+			"textColor": "#333",
+			"linkStyle": {
+				"textColor": "#4b89cc"
+			}
+		},
+		"creditStyle": {
+			"fontName": "DINNextLTPro-MediumCond",
+			"fontSize": 18,
+			"lineHeight": 24,
+			"textAlignment": "right",
+			"textColor": "#898989",
+			"textTransform":"uppercase"
+		},
+		"dateStyle": {
+			"fontName": "DINNextLTPro-MediumCond",
+			"fontSize": 12,
+			"textAlignment": "left",
+			"textColor": "#AAA",
+			"textTransform":"uppercase"
+		},
+		"heading1Style": {
+			"fontName": "DINNextLTPro-MediumCond",
+			"fontSize": 36,
+			"lineHeight": 42,
+			"textAlignment": "left",
+			"tracking": -0.02
+		},
+		"introStyle": {
+			"fontName": "DINNextLTPro-MediumCond",
+			"fontSize": 25,
+			"lineHeight": 28,
+			"textAlignment": "left",
+			"textColor": "#999",
+			"linkStyle": {
+				"textColor": "#4b89cc"
+			}
+		},
+		"lowerListStyle": {
+			"fontName": "DINNextLTPro-MediumCond",
+			"fontSize": 18,
+			"lineHeight": 20,
+			"textAlignment": "left"
+		},
+		"pullQuoteStyle": {
+			"fontName": "Georgia",
+			"fontSize": 36,
+			"lineHeight": 42,
+			"textAlignment": "left",
+			"textColor": "#000",
+			"textTransform":"uppercase"
+		},
+		"spacerWord":{
+			"fontName": "DINNextLTPro-MediumCond",
+			"fontSize": 48,
+			"lineHeight": 48,
+			"textAlignment": "left",
+			"textTransform": "uppercase"
+		},
+		"titleStyle": {
+			"fontName": "DINNextLTPro-MediumCond",
+			"fontSize": 56,
+			"lineHeight": 58,
+			"textAlignment": "left",
+			"tracking": -0.02
+		}
+	},
+	"componentLayouts": {
+		"adLayout": {
+		},
+		"authorLayout": {
+			"margin": {
+				"top": 0,
+				"bottom": 20
+			}
+		},
+		"blackStrokeLayout1":{
+			"margin": 0
+		},
+		"blackStrokeLayout2":{
+			"margin": 0
+		},
+		"blackStrokeLayout3":{
+			"margin": 0
+		},
+		"blackStrokeLayout4":{
+			"margin": 0
+		},
+		"blockQuoteLayout": {
+			"contentInset": {
+				"left": true,
+				"right": true
+			},
+			"margin": 15
+		},
+		"bodyContainerLayout": {
+			"margin": {
+				"top": 0,
+				"bottom": 25
+			}
+		},
+		"bodyLayout": {
+			"margin": {
+				"top": 5,
+				"bottom": 15
+			}
+		},
+		"captionLayout": {
+			"margin": {
+				"top": 10,
+				"bottom": 25
+			}	 
+		},
+		"creditLayout": {
+			"margin": {
+				"top": 4,
+				"bottom": 0
+			}	 
+		},
+		"dateLayout": {
+			"margin": {
+				"top": 40,
+				"bottom": 15
+			}
+		},
+		"embedLayout": {
+			"margin": {
+				"top": 10,
+				"bottom": 25
+			}
+		},
+		"headerImageLayout": {
+			"ignoreDocumentMargin": true,
+			"minimumHeight": "55vmin",
+			"margin": {
+				"top": 0,
+				"bottom": 30
+			}
+		},
+		"heading1Layout": {
+			"margin": {
+				"top": 15,
+				"bottom": 0
+			}
+		},
+		"introLayout": {
+			"margin": {
+				"top": 5,
+				"bottom": 10
+			}
+		},
+		"photoLayout": {
+			"maximumContentWidth": "100cw"
+		},
+		"pullQuoteLayout": {
+			"margin": {
+				"top": 25,
+				"bottom": 25
+			},
+			"contentInset": {
+				"left": false,
+				"right": false
+			}
+		},
+		"slideLayout": {
+			"ignoreDocumentMargin": true
+		},
+		"spacerLayout": {
+			"margin": {
+				"top": 0,
+				"bottom": 25
+			}
+		},
+		"tabLayout": {
+			"ignoreDocumentMargin": true
+		},
+		"titleLayout": {
+			"margin": 0
+		}
+	}
+}

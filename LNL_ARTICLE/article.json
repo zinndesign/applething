@@ -1,0 +1,835 @@
+{
+	"version":"0.10",
+	"identifier":"lnl.article.285",
+	"title":"NARAL President Ilyse Hogue: The War Against Abortion Is a War Against Female Autonomy",
+	"subtitle":"​Documentary director Dawn Porter talks with Ilyse Hogue about protecting women's right to choose. ",
+	"language":"en",
+	"layout":{
+		"columns":6,
+		"width":1024,
+		"margin":90,
+		"gutter":20
+	},
+	"documentStyle":{
+		"backgroundColor":"#FFF"
+	},
+	"metadata":{
+		"dateCreated":"2016-02-29T06:20:20Z",
+		"datePublished":"2016-03-02T11:00:00Z",
+		"dateModified":"2016-03-02T14:36:02Z",
+		"canonicalURL":"http://www.lennyletter.com/politics/interviews/a285/naral-president-illyse-hogue-the-war-against-abortion/",
+		"excerpt":"​​Documentary director Dawn Porter talks with Ilyse Hogue about protecting women's right to choose. ​",
+		"authors":[
+			"Dawn Porter"
+		],
+		"thumbnailURL":"bundle://1456512605-jess-rotter-ilyse-lenny.jpg",
+		"keywords":[
+
+		]
+	},
+	"components":[
+		{
+			"role":"header",
+			"layout":"headerImageLayout",
+			"style":{
+				"fill":{
+					"type":"image",
+					"URL":"bundle://1456512605-jess-rotter-ilyse-lenny.jpg",
+					"fillMode":"cover",
+					"verticalAlignment":"top"
+				}
+			},
+			"behavior":{
+				"type":"parallax",
+				"factor":0.5
+			},
+			"components":[
+				{
+					"role":"container",
+					"layout":"tabLayout",
+					"style":"tabLayoutStyle",
+					"anchor":{
+						"targetAnchorPosition":"bottom"
+					}
+				}
+			]
+		},
+		{
+			"role":"title",
+			"text":"NARAL President Ilyse Hogue: The War Against Abortion Is a War Against Female Autonomy",
+			"format":"markdown",
+			"layout":"titleLayout",
+			"textStyle":"titleStyle"
+		},
+		{
+			"role":"intro",
+			"text":"​Documentary director Dawn Porter talks with Ilyse Hogue about protecting women's right to choose. ",
+			"format":"markdown",
+			"layout":"introLayout",
+			"textStyle":"introStyle"
+		},
+		{
+			"role":"divider",
+			"stroke":{
+				"color":"#FFF0"
+			},
+			"layout":"blackStrokeLayout1",
+			"style":"baseStrokeStyle"
+		},
+		{
+			"role":"author",
+			"text":"By Dawn Porter",
+			"layout":"authorLayout",
+			"textStyle":"authorStyle"
+		},
+		{
+			"role":"divider",
+			"stroke":{
+				"color":"#FFF0"
+			},
+			"layout":"blackStrokeLayout2",
+			"style":"baseStrokeStyle"
+		},
+	  {
+			"format":"markdown",
+			"role":"body",
+			"text":"All those evil things that are a convenient narrative point for them. If you look at, for example, Americans United for Life, the group that wrote the model legislation that became the case that's now going to the Supreme Court — first of all, this is in their minds, not about women's health.",
+			"layout":"bodyLayout",
+			"textStyle":"bodyStyleFirst"
+		},
+		{
+			"format":"markdown",
+			"role":"body",
+			"text":"*On March 2, [the Supreme Court will hear arguments challenging](http://www.nytimes.com/2016/02/25/us/whole-womans-health-v-hellerstedt-supreme-court.html?_r=0) a Texas law that has left the state with [fewer than 20 abortion clinics](http://www.nytimes.com/2016/02/25/us/whole-womans-health-v-hellerstedt-supreme-court.html?_r=0) to serve over 12 million women. The case involves what are colloquially [known as TRAP laws](http://www.prochoiceamerica.org/get-involved/issue-campaigns/scotus-wwh-v-hellerstedt.html); TRAP stands for Targeted Regulation of Abortion Providers. These laws place superfluous regulatory burdens on abortion clinics and doctors as a way to prevent women from getting the procedure. Anti-choice activists claim these kinds of regulations, like requiring abortion doctors to have admitting privileges at local hospitals, are for women's health, but abortion is a procedure so safe that the [rate of major complication](http://www.guttmacher.org/pubs/fb_induced_abortion.html) from a first-trimester abortion is 0.05 percent. If the Supreme Court upholds the Texas law, the state will likely have fewer than ten clinics to serve its large population.*",
+			"layout":"bodyLayout",
+			"textStyle":"bodyStyle"
+		},
+		{
+			"format":"markdown",
+			"role":"body",
+			"text":"*Lenny asked Dawn Porter, the director of [the documentary Trapped](http://www.trappeddocumentary.com/) (in select theaters March 4), which is about the women working to keep abortion legal in states like Texas and Alabama, to interview NARAL Pro-Choice America President Ilyse Hogue about what it's like being on the front lines of the fight against abortion opponents and what this Supreme Court decision (known as [Whole Woman's Health v. Hellerstedt](http://www.scotusblog.com/case-files/cases/whole-womans-health-v-cole/)) means for American women.*",
+			"layout":"bodyLayout",
+			"textStyle":"bodyStyle"
+		},
+	  {
+			"format":"markdown",
+			"role":"heading1",
+			"text":"All These Evil Things",
+			"layout":"heading1Layout",
+			"textStyle":"heading1Style"
+		},
+		{
+			"format":"markdown",
+			"role":"body",
+			"text":"**Dawn Porter:** Can you talk about what it's like for you to be doing reproductive-rights work at this time in history?",
+			"layout":"bodyLayout",
+			"textStyle":"bodyStyle"
+		},
+		{
+			"format":"markdown",
+			"role":"body",
+			"text":"**Ilyse Hogue:** I came to the movement because it felt like a historic time to be engaged, for a couple of reasons. One is that I saw an extreme minority quite successfully imposing their ideology and worldview on a majority that they were really not aligned with. Any time there is that sort of discrepancy between how real people are living their lives and what elected officials and politicians are doing, there is not only a potential crisis (which is obviously what we are experiencing and what you documented in the movie), but there is a huge opportunity. When a crisis awakens the majority of people to what the reality is, the pendulum doesn't really stop where it was last at rest. It actually swings in the other direction.",
+			"layout":"bodyLayout",
+			"textStyle":"bodyStyle"
+		},
+		{
+			"format":"markdown",
+			"role":"body",
+			"text":"The other thing is that abortion is a medical procedure. What's going on in this country is not really about abortion. It's about a clash of worldviews. The opportunity for us to air those worldviews, talk about the values that we want to embrace as a nation and what we are going to do about it, is pivotal. I couldn't have imagined when I took the job how pivotal it would be in this moment, but I feel like we stand on a precipice as a nation.",
+			"layout":"bodyLayout",
+			"textStyle":"bodyStyle"
+		},
+		{
+			"format":"markdown",
+			"role":"body",
+			"text":"There are two real paths we can take, and I want to choose the one that's forward into the future, where women have agency and are treated with the dignity that we deserve, so we can become equal partners in society. The folks you were documenting in the film have a really different idea of the direction that we should go in. They have largely been successful because they have been so sneaky about how they have pursued their ideology. I think the moment is now to shed a light on what's real. I think your film is pivotal in doing that.",
+			"layout":"bodyLayout",
+			"textStyle":"bodyStyle"
+		},
+		{
+			"role":"divider",
+			"stroke":{
+				"color":"#FFF0"
+			},
+			"layout":"blackStrokeLayout3",
+			"style":"baseStrokeStyle"
+		},
+		{
+			"role":"pullquote",
+			"text":"What's going on in this country is not really about abortion. It's about a clash of worldviews.",
+			"layout":"pullQuoteLayout",
+			"textStyle":"pullQuoteStyle"
+		},
+		{
+			"role":"divider",
+			"stroke":{
+				"color":"#FFF0"
+			},
+			"layout":"blackStrokeLayout4",
+			"style":"baseStrokeStyle"
+		},
+		{
+			"format":"markdown",
+			"role":"body",
+			"text":"**DP:** I really appreciate you saying that. I was attracted to this topic for the same reason. The film for me is not just about abortion, it's about how people approach politics. Do you feel like young women are aware of what's going on? About what clinic closures could mean for their lives?",
+			"layout":"bodyLayout",
+			"textStyle":"bodyStyle"
+		},
+		{
+			"format":"markdown",
+			"role":"body",
+			"text":"**IH:** I think that any individual awareness of the TRAP laws and the clinic closures that they've forced is directly dependent on a person's life experience. I think that the Supreme Court case and your film help to bring visibility to these issues. But we know that your likelihood to have experience with a clinic crisis has everything to do with where you live in this country and what kind of financial resources you have at your disposal.",
+			"layout":"bodyLayout",
+			"textStyle":"bodyStyle"
+		},
+		{
+			"role":"banner_advertisement",
+			"layout":"adLayout"
+		},
+		{
+			"format":"markdown",
+			"role":"body",
+			"text":"I travel this country and I speak to young women all the time. When I speak to young women about the issues, about the idea that there really is a war being waged over women's autonomy, and the idea that our socioeconomic and professional prospects are integrally linked with our ability to plan our families and have our families supported when we decide to have them, if we decide to have them, that resonates deeply.",
+			"layout":"bodyLayout",
+			"textStyle":"bodyStyle"
+		},
+		{
+			"format":"markdown",
+			"role":"body",
+			"text":"**DP:** At an event where I heard you speak, I remember so distinctly that you said the anti-choice people couldn't seem to wrap their minds around the fact that you were pregnant, like it was inconsistent with being pro-choice. I wonder if you could just talk a little bit about that. Did you think that was funny? Did you think it was weird? Were you worried? What was that like for you?",
+			"layout":"bodyLayout",
+			"textStyle":"bodyStyle"
+		},
+		{
+			"format":"markdown",
+			"role":"body",
+			"text":"**IH:** There are so many things wrapped up in that question. Was I worried? I'm not particularly worried, but my husband and I do take safeguards. None of which come anywhere close to the safeguards that the health-care providers need to take. But we don't post pictures of our children on social media. We don't want them exposed to the vitriolic hate that is a regular occurrence in my life.",
+			"layout":"bodyLayout",
+			"textStyle":"bodyStyle"
+		},
+		{
+			"format":"markdown",
+			"role":"body",
+			"text":"I think what was really interesting to me and what was really telling was that it is the state of pregnancy that is really threatening to them. Because their whole narrative is that once you've experienced being pregnant [you'll be anti-choice], and if you have a pro-choice advocate who is visibly pregnant, you can no longer actually deny their worldview. It is really threatening to them that I could hold both of those things. I can hold the blessing of my own pregnancy and my own children alongside the idea that that was right for me, which does not make it right for everyone.",
+			"layout":"bodyLayout",
+			"textStyle":"bodyStyle"
+		},
+		{
+			"role":"divider",
+			"stroke":{
+				"color":"#FFF0"
+			},
+			"layout":"blackStrokeLayout3",
+			"style":"baseStrokeStyle"
+		},
+		{
+			"role":"pullquote",
+			"text":"I can hold the blessing of my own pregnancy and my own children alongside the idea that that was right for me, which does not make it right for everyone.",
+			"layout":"pullQuoteLayout",
+			"textStyle":"pullQuoteStyle"
+		},
+		{
+			"role":"divider",
+			"stroke":{
+				"color":"#FFF0"
+			},
+			"layout":"blackStrokeLayout4",
+			"style":"baseStrokeStyle"
+		},
+		{
+			"format":"markdown",
+			"role":"body",
+			"text":"**DP:** I'm a mother as well, and you're right, it does take away something that the anti-choice believe is powerful if they deny our motherhood. They can paint us as the wicked Jezebel feminist.",
+			"layout":"bodyLayout",
+			"textStyle":"bodyStyle"
+		},
+		{
+			"format":"markdown",
+			"role":"body",
+			"text":"**IH:** Exactly. Or cold and unfeeling, or career-driven.",
+			"layout":"bodyLayout",
+			"textStyle":"bodyStyle"
+		},
+		{
+			"format":"markdown",
+			"role":"body",
+			"text":"**DP:** All those evil things.",
+			"layout":"bodyLayout",
+			"textStyle":"bodyStyle"
+		},
+		{
+			"format":"markdown",
+			"role":"body",
+			"text":"**IH:** All those evil things that are a convenient narrative point for them. If you look at, for example, Americans United for Life, the group that wrote the model legislation that became the case that's now going to the Supreme Court — first of all, this is in their minds, not about women's health. It's about an end run around the Constitution to end legal access to abortion, but it doesn't even stop there.",
+			"layout":"bodyLayout",
+			"textStyle":"bodyStyle"
+		},
+		{
+			"format":"markdown",
+			"role":"body",
+			"text":"Americans United for Life, in their whole agenda and their public statements, they have said that they are dedicated to \"the natural family,\" and the natural family is one man, one woman, with a high emphasis on procreation. Some of them are anti-adoption. They are definitely anti-LGBT adoptions. They are anti-contraception. I come back to the notion that this is a worldview. In so many ways, I think the symbol of me being a woman who at one point in my life chose to not carry a pregnancy to term for various reasons, and then went on to decide to become a mom, flies in the face of their core ideology.",
+			"layout":"bodyLayout",
+			"textStyle":"bodyStyle"
+		},
+		{
+			"format":"markdown",
+			"role":"body",
+			"text":"My experience is so much more common than their experience. Which is why I say: Let's actually have that conversation. Because it's terribly difficult when you are having the honest conversation to legislate people to behave the way you want them to behave, rather than to use policies to support people in their real lives.",
+			"layout":"bodyLayout",
+			"textStyle":"bodyStyle"
+		},
+		{
+			"format":"markdown",
+			"role":"body",
+			"text":"[newsletter type=\"lennyletter\"][/newsletter]",
+			"layout":"bodyLayout",
+			"textStyle":"bodyStyle"
+		},
+		{
+			"format":"markdown",
+			"role":"body",
+			"text":"**DP:** I remember seeing you interviewed with Charmaine Yoest, the president of Americans United for Life. How do you debate people like that? Did you ever feel like you wanted to hit her?",
+			"layout":"bodyLayout",
+			"textStyle":"bodyStyle"
+		},
+		{
+			"format":"markdown",
+			"role":"body",
+			"text":"**IH:** I don't. I will tell you I share nothing in common with most of those folks. I want them to have a platform again to state their ideology and for me to state the ideology that I stand for. Because I think that is a debate that the American people deserve to hear. They are individuals, so I actually get along fine with some of them and not others. Charmaine, quite honestly, is a lovely human being to chat with. But again, I share nothing in common with her in terms of her ideology, which I find extraordinarily destructive for so, so many people.",
+			"layout":"bodyLayout",
+			"textStyle":"bodyStyle"
+		},
+		{
+			"role":"banner_advertisement",
+			"layout":"adLayout"
+		},
+		{
+			"format":"markdown",
+			"role":"body",
+			"text":"I found others of them to not be so lovely, but I think my desire and ability to debate them stems from this idea that if we actually come out of the shadows and into the light and demand to have the debate on values, everybody benefits and we usually win. It's when they are allowed to operate in the dark and obscure their ultimate goals that people are really unaware of what's going on, and it essentially results in the sneak attack that we have seen manifest, like the TRAP laws.",
+			"layout":"bodyLayout",
+			"textStyle":"bodyStyle"
+		},
+		{
+			"format":"markdown",
+			"role":"body",
+			"text":"They also know that they can't win on this idea of natural family, because this is a country that embraces pluralism, recognizes that there are all sorts of different family structures, and believes that public policy should actually exist to serve that diversity. What do they do? Well, they have been successful in co-opting the idea of women's health.",
+			"layout":"bodyLayout",
+			"textStyle":"bodyStyle"
+		},
+		{
+			"format":"markdown",
+			"role":"body",
+			"text":"I want to have that conversation, but I don't want to stop at women's health. Because I think women's health is critically important, but I think women's health is actually an offshoot of freedom, empowerment, and justice. Those are the values that they are not forced to speak to. When I go up against them, that's what I keep in mind. I keep in mind it's really about letting people hear the whole story and not actually beating down my opponent. Because I feel like when I state my truth and I actually really ask them to state their truth, then we win.",
+			"layout":"bodyLayout",
+			"textStyle":"bodyStyle"
+		},
+		{
+			"format":"markdown",
+			"role":"body",
+			"text":"**DP:** I get really angry, because they seem to have no regard for the truth. Because the people who are often frightened the most are the people who aren't getting a lot of health-care access, and they are just terrifying to people.",
+			"layout":"bodyLayout",
+			"textStyle":"bodyStyle"
+		},
+		{
+			"format":"markdown",
+			"role":"body",
+			"text":"**IH:** Yeah. Their lack of fidelity to the truth is pretty infuriating for sure. What I find more infuriating than that, and actually far more detrimental to the public discourse, is the fact that they bully. One way that they have been able to impose their extreme agenda on the American people is these sneak attacks that we have been talking about. But another way is getting back to what we do and don't do with our kids. They are bullies. They are also violent and dangerous. I used to say they generally save that for clinic workers, which is horrific, but it had not actually spread to the general population. But [Colorado Springs](http://www.nytimes.com/2015/12/02/us/robert-dear-planned-parenthood-shooting.html) put a wrench in that. Anyone and everyone has stepped inside a women's-health clinic at some point in their life. That sort of universalized the violence.",
+			"layout":"bodyLayout",
+			"textStyle":"bodyStyle"
+		},
+		{
+			"format":"markdown",
+			"role":"body",
+			"text":"In addition to the violence, there are far more of them picking up pens, picking up keyboards to bully anyone who they see who steps out and says \"I am actually for abortion access.\" So few people want to actually subject themselves to that bullying. They have effectively silenced the minority that way. I think that's what we actually have to call out.",
+			"layout":"bodyLayout",
+			"textStyle":"bodyStyle"
+		},
+		{
+			"format":"markdown",
+			"role":"body",
+			"text":"**DP:** What do you think the *Whole Woman's Health* case could mean?",
+			"layout":"bodyLayout",
+			"textStyle":"bodyStyle"
+		},
+		{
+			"format":"markdown",
+			"role":"body",
+			"text":"**IH:** The Supreme Court is reverent for those of us who value justice and believe in democracy and the rule of law. It is a spiritual place, and I don't use that word lightly. I think that is much of why NARAL, along with so many other groups, have really decided to use the backdrop of the *Whole Woman's Health* case to lift up these issues. You combine the gravity of the court and everything it stands for with the issues that they are going to be hearing on March 2\\. I don't want to say regardless of the decision — obviously it matters dearly for millions of women which way the court decides — but transcendent of that is that the Supreme Court creates an enormously dramatic and important backdrop for us to have the conversations about values and worldview.",
+			"layout":"bodyLayout",
+			"textStyle":"bodyStyle"
+		},
+		{
+			"role":"banner_advertisement",
+			"layout":"adLayout"
+		},
+		{
+			"format":"markdown",
+			"role":"body",
+			"text":"It's incumbent on us to maximize that moment. To have the real conversation surface what the opposition's real agenda is. Lay it there in the sunlight. Also create a moment that we can authentically say to people, \"Hey, it's time to throw down. It's time to stop letting the shame fester in the silence and come forward and state your own truth about why you are pro-choice, why you stand for legal access to abortion.\"",
+			"layout":"bodyLayout",
+			"textStyle":"bodyStyle"
+		},
+		{
+			"format":"markdown",
+			"role":"body",
+			"text":"*This interview has been condensed and edited.*",
+			"layout":"bodyLayout",
+			"textStyle":"bodyStyle"
+		},
+		{
+			"format":"markdown",
+			"role":"body",
+			"text":"[*Dawn Porter*](http://www.trappeddocumentary.com/dawn-porter) *is an award-winning filmmaker. Her documentary,* [Trapped](http://www.trappeddocumentary.com/)*, is in theaters March 4.*",
+			"layout":"bodyLayout",
+			"textStyle":"bodyStyle"
+		},
+		{
+			"role":"container",
+			"components":[
+
+			],
+			"layout":"spacerLayout"
+		}
+	],
+	"componentLayouts":{
+		"adLayout":{
+			"ignoreDocumentMargin":true
+		},
+		"authorLayout":{
+			"margin":{
+				"top":10,
+				"bottom":25
+			}
+		},
+		"blackStrokeLayout1":{
+			"margin":0
+		},
+		"blackStrokeLayout2":{
+			"margin":0
+		},
+		"blackStrokeLayout3":{
+			"margin":0
+		},
+		"blackStrokeLayout4":{
+			"margin":0
+		},
+		"blockQuoteLayout":{
+			"contentInset":{
+				"left":true,
+				"right":true
+			},
+			"margin":15
+		},
+		"bodyContainerLayout":{
+			"margin":{
+				"top":0,
+				"bottom":25
+			}
+		},
+		"bodyLayout":{
+			"margin":{
+				"top":10,
+				"bottom":20
+			}
+		},
+		"captionLayout":{
+			"margin":{
+				"top":10,
+				"bottom":25
+			}
+		},
+		"creditLayout":{
+			"margin":{
+				"top":4,
+				"bottom":0
+			}
+		},
+		"embedLayout":{
+			"margin":{
+				"top":10,
+				"bottom":25
+			}
+		},
+		"headerImageLayout":{
+			"ignoreDocumentMargin":true,
+			"minimumHeight":"65vmin",
+			"margin":{
+				"top":0,
+				"bottom":35
+			}
+		},
+		"heading1Layout":{
+			"margin":{
+				"top":15,
+				"bottom":0
+			}
+		},
+		"introLayout":{
+			"margin":{
+				"top":10,
+				"bottom":10
+			}
+		},
+		"photoLayout":{
+			"maximumContentWidth":"100cw"
+		},
+		"pullQuoteLayout":{
+			"margin":{
+				"top":25,
+				"bottom":25
+			},
+			"contentInset":{
+				"left":false,
+				"right":false
+			}
+		},
+		"slideLayout":{
+			"ignoreDocumentMargin":true
+		},
+		"spacerLayout":{
+			"margin":{
+				"top":0,
+				"bottom":25
+			}
+		},
+		"tabLayout":{
+			"ignoreDocumentMargin":true
+		},
+		"titleLayout":{
+			"margin":{
+				"top":0,
+				"bottom":0
+			}
+		}
+	},
+	"componentStyles":{
+		"baseStrokeStyle":{
+
+		},
+		"blockQuoteContainerStyle":{
+			"border":{
+				"all":{
+					"width":4,
+					"color":"#ddd"
+				},
+				"top":false,
+				"right":false,
+				"bottom":false
+			}
+		},
+		"bodyContainerStyle":{
+			"backgroundColor":"#FFF"
+		},
+		"photoContainerStyle":{
+			"backgroundColor":"#000"
+		},
+		"tabLayoutStyle":{
+
+		}
+	},
+	"componentTextStyles":{
+		"default-title":{
+			"fontName":"Avenir-Heavy",
+			"fontSize":42,
+			"lineHeight":42,
+			"textAlignment":"left",
+			"textColor":"#000"
+		},
+		"default-subtitle":{
+			"fontName":"Helvetica-Light",
+			"fontSize":18,
+			"lineHeight":24,
+			"textAlignment":"left",
+			"textColor":"#5b5958"
+		},
+		"authorStyle":{
+			"fontName":"Helvetica-Light",
+			"fontSize":13,
+			"textAlignment":"left",
+			"textColor":"#777777",
+			"textTransform":"uppercase"
+		},
+		"blockQuoteStyle":{
+			"fontName":"Helvetica-Light",
+			"textColor":"#777",
+			"fontSize":18,
+			"lineHeight":24,
+			"textAlignment":"left",
+			"linkStyle":{
+				"textColor":"#17B46A"
+			}
+		},
+		"bodyStyle":{
+			"fontName":"Helvetica-Light",
+			"fontSize":18,
+			"lineHeight":32,
+			"textAlignment":"left",
+			"textColor":"#333",
+			"linkStyle":{
+				"textColor":"#17B46A"
+			}
+		},
+		"bodyStyleFirst":{
+			"fontName":"Helvetica-Light",
+			"fontSize":18,
+			"lineHeight":32,
+			"textAlignment":"left",
+			"textColor":"#333",
+			"dropCapStyle":{
+				"fontName":"Avenir-Heavy",
+				"textColor":"#17b46a",
+				"numberOfLines":3,
+				"numberOfCharacters":1,
+			"numberOfRaisedLines":1
+			},
+			"linkStyle":{
+				"textColor":"#17B46A"
+			}
+		},
+		"captionStyle":{
+			"fontName":"Helvetica-Light",
+			"fontSize":20,
+			"lineHeight":28,
+			"textAlignment":"left",
+			"textColor":"#333",
+			"linkStyle":{
+				"textColor":"#17B46A"
+			}
+		},
+		"creditStyle":{
+			"fontName":"Helvetica-Light",
+			"fontSize":18,
+			"lineHeight":24,
+			"textAlignment":"right",
+			"textColor":"#898989",
+			"textTransform":"uppercase"
+		},
+		"dateStyle":{
+			"fontName":"Helvetica-Light",
+			"fontSize":12,
+			"textAlignment":"left",
+			"textColor":"#AAA",
+			"textTransform":"uppercase"
+		},
+		"heading1Style":{
+			"fontName":"Avenir-Heavy",
+			"fontSize":28,
+			"lineHeight":34,
+			"textAlignment":"left"
+		},
+		"introStyle":{
+			"fontName":"Helvetica-Light",
+			"fontSize":21,
+			"lineHeight":28,
+			"textAlignment":"left",
+			"textColor":"#5b5958",
+			"linkStyle":{
+				"textColor":"#17B46A"
+			}
+		},
+		"lowerListStyle":{
+			"fontName":"Helvetica-Light",
+			"fontSize":18,
+			"lineHeight":20,
+			"textAlignment":"left"
+		},
+		"pullQuoteStyle":{
+			"fontName":"Avenir-Heavy",
+			"fontSize":36,
+			"lineHeight":42,
+			"textAlignment":"center",
+		 "tracking":0.02,
+			"textColor":"#000"
+		},
+		"spacerWord":{
+			"fontName":"Helvetica-Light",
+			"fontSize":48,
+			"lineHeight":48,
+			"textAlignment":"left",
+			"textTransform":"uppercase"
+		},
+		"titleStyle":{
+			"fontName":"Avenir-Heavy",
+			"fontSize":44,
+			"lineHeight":52,
+			"textAlignment":"left"
+		}
+	},
+	"id":null,
+	"raw":{
+		"identifier":"lnl.article.285",
+		"title":"NARAL President Ilyse Hogue: The War Against Abortion Is a War Against Female Autonomy",
+		"subtitle":"​Documentary director Dawn Porter talks with Ilyse Hogue about protecting women's right to choose. ",
+		"metadata":{
+			"dateCreated":"2016-02-29T06:20:20Z",
+			"datePublished":"2016-03-02T11:00:00Z",
+			"dateModified":"2016-03-02T14:36:02Z",
+			"canonicalURL":"http://www.lennyletter.com/politics/interviews/a285/naral-president-illyse-hogue-the-war-against-abortion/",
+			"excerpt":"​​Documentary director Dawn Porter talks with Ilyse Hogue about protecting women's right to choose. ​",
+			"authors":[
+				"Dawn Porter"
+			],
+			"tags":[
+
+			],
+			"thumbnailURL":"http://lnl.h-cdn.co/assets/16/08/1456512605-jess-rotter-ilyse-lenny.jpg"
+		},
+		"components":[
+			{
+				"role":"image",
+				"url":"http://lnl.h-cdn.co/assets/16/08/1456512605-jess-rotter-ilyse-lenny.jpg",
+				"caption":"NARAL President Ilyse Hogue: The War Against Abortion Is a War Against Female Autonomy",
+				"title":"",
+				"copyright":"(JESS ROTTER)",
+				"provider":"",
+				"width":"2400",
+				"height":"2400"
+			},
+			{
+				"role":"body",
+				"text":"*On March 2, [the Supreme Court will hear arguments challenging](http://www.nytimes.com/2016/02/25/us/whole-womans-health-v-hellerstedt-supreme-court.html?_r=0) a Texas law that has left the state with [fewer than 20 abortion clinics](http://www.nytimes.com/2016/02/25/us/whole-womans-health-v-hellerstedt-supreme-court.html?_r=0) to serve over 12 million women. The case involves what are colloquially [known as TRAP laws](http://www.prochoiceamerica.org/get-involved/issue-campaigns/scotus-wwh-v-hellerstedt.html); TRAP stands for Targeted Regulation of Abortion Providers. These laws place superfluous regulatory burdens on abortion clinics and doctors as a way to prevent women from getting the procedure. Anti-choice activists claim these kinds of regulations, like requiring abortion doctors to have admitting privileges at local hospitals, are for women's health, but abortion is a procedure so safe that the [rate of major complication](http://www.guttmacher.org/pubs/fb_induced_abortion.html) from a first-trimester abortion is 0.05 percent. If the Supreme Court upholds the Texas law, the state will likely have fewer than ten clinics to serve its large population.*"
+			},
+			{
+				"role":"body",
+				"text":"*Lenny asked Dawn Porter, the director of [the documentary Trapped](http://www.trappeddocumentary.com/) (in select theaters March 4), which is about the women working to keep abortion legal in states like Texas and Alabama, to interview NARAL Pro-Choice America President Ilyse Hogue about what it's like being on the front lines of the fight against abortion opponents and what this Supreme Court decision (known as [Whole Woman's Health v. Hellerstedt](http://www.scotusblog.com/case-files/cases/whole-womans-health-v-cole/)) means for American women.*"
+			},
+			{
+				"role":"body",
+				"text":"**Dawn Porter:** Can you talk about what it's like for you to be doing reproductive-rights work at this time in history?"
+			},
+			{
+				"role":"body",
+				"text":"**Ilyse Hogue:** I came to the movement because it felt like a historic time to be engaged, for a couple of reasons. One is that I saw an extreme minority quite successfully imposing their ideology and worldview on a majority that they were really not aligned with. Any time there is that sort of discrepancy between how real people are living their lives and what elected officials and politicians are doing, there is not only a potential crisis (which is obviously what we are experiencing and what you documented in the movie), but there is a huge opportunity. When a crisis awakens the majority of people to what the reality is, the pendulum doesn't really stop where it was last at rest. It actually swings in the other direction."
+			},
+			{
+				"role":"body",
+				"text":"The other thing is that abortion is a medical procedure. What's going on in this country is not really about abortion. It's about a clash of worldviews. The opportunity for us to air those worldviews, talk about the values that we want to embrace as a nation and what we are going to do about it, is pivotal. I couldn't have imagined when I took the job how pivotal it would be in this moment, but I feel like we stand on a precipice as a nation."
+			},
+			{
+				"role":"body",
+				"text":"There are two real paths we can take, and I want to choose the one that's forward into the future, where women have agency and are treated with the dignity that we deserve, so we can become equal partners in society. The folks you were documenting in the film have a really different idea of the direction that we should go in. They have largely been successful because they have been so sneaky about how they have pursued their ideology. I think the moment is now to shed a light on what's real. I think your film is pivotal in doing that."
+			},
+			{
+				"role":"pullQuote",
+				"text":"What's going on in this country is not really about abortion. It's about a clash of worldviews."
+			},
+			{
+				"role":"body",
+				"text":"**DP:** I really appreciate you saying that. I was attracted to this topic for the same reason. The film for me is not just about abortion, it's about how people approach politics. Do you feel like young women are aware of what's going on? About what clinic closures could mean for their lives?"
+			},
+			{
+				"role":"body",
+				"text":"**IH:** I think that any individual awareness of the TRAP laws and the clinic closures that they've forced is directly dependent on a person's life experience. I think that the Supreme Court case and your film help to bring visibility to these issues. But we know that your likelihood to have experience with a clinic crisis has everything to do with where you live in this country and what kind of financial resources you have at your disposal."
+			},
+			{
+				"role":"body",
+				"text":"I travel this country and I speak to young women all the time. When I speak to young women about the issues, about the idea that there really is a war being waged over women's autonomy, and the idea that our socioeconomic and professional prospects are integrally linked with our ability to plan our families and have our families supported when we decide to have them, if we decide to have them, that resonates deeply."
+			},
+			{
+				"role":"body",
+				"text":"**DP:** At an event where I heard you speak, I remember so distinctly that you said the anti-choice people couldn't seem to wrap their minds around the fact that you were pregnant, like it was inconsistent with being pro-choice. I wonder if you could just talk a little bit about that. Did you think that was funny? Did you think it was weird? Were you worried? What was that like for you?"
+			},
+			{
+				"role":"body",
+				"text":"**IH:** There are so many things wrapped up in that question. Was I worried? I'm not particularly worried, but my husband and I do take safeguards. None of which come anywhere close to the safeguards that the health-care providers need to take. But we don't post pictures of our children on social media. We don't want them exposed to the vitriolic hate that is a regular occurrence in my life."
+			},
+			{
+				"role":"body",
+				"text":"I think what was really interesting to me and what was really telling was that it is the state of pregnancy that is really threatening to them. Because their whole narrative is that once you've experienced being pregnant [you'll be anti-choice], and if you have a pro-choice advocate who is visibly pregnant, you can no longer actually deny their worldview. It is really threatening to them that I could hold both of those things. I can hold the blessing of my own pregnancy and my own children alongside the idea that that was right for me, which does not make it right for everyone."
+			},
+			{
+				"role":"pullQuote",
+				"text":"I can hold the blessing of my own pregnancy and my own children alongside the idea that that was right for me, which does not make it right for everyone."
+			},
+			{
+				"role":"body",
+				"text":"**DP:** I'm a mother as well, and you're right, it does take away something that the anti-choice believe is powerful if they deny our motherhood. They can paint us as the wicked Jezebel feminist."
+			},
+			{
+				"role":"body",
+				"text":"**IH:** Exactly. Or cold and unfeeling, or career-driven."
+			},
+			{
+				"role":"body",
+				"text":"**DP:** All those evil things."
+			},
+			{
+				"role":"body",
+				"text":"**IH:** All those evil things that are a convenient narrative point for them. If you look at, for example, Americans United for Life, the group that wrote the model legislation that became the case that's now going to the Supreme Court — first of all, this is in their minds, not about women's health. It's about an end run around the Constitution to end legal access to abortion, but it doesn't even stop there."
+			},
+			{
+				"role":"body",
+				"text":"Americans United for Life, in their whole agenda and their public statements, they have said that they are dedicated to \"the natural family,\" and the natural family is one man, one woman, with a high emphasis on procreation. Some of them are anti-adoption. They are definitely anti-LGBT adoptions. They are anti-contraception. I come back to the notion that this is a worldview. In so many ways, I think the symbol of me being a woman who at one point in my life chose to not carry a pregnancy to term for various reasons, and then went on to decide to become a mom, flies in the face of their core ideology."
+			},
+			{
+				"role":"body",
+				"text":"My experience is so much more common than their experience. Which is why I say: Let's actually have that conversation. Because it's terribly difficult when you are having the honest conversation to legislate people to behave the way you want them to behave, rather than to use policies to support people in their real lives."
+			},
+			{
+				"role":"body",
+				"text":"[newsletter type=\"lennyletter\"][/newsletter]"
+			},
+			{
+				"role":"body",
+				"text":"**DP:** I remember seeing you interviewed with Charmaine Yoest, the president of Americans United for Life. How do you debate people like that? Did you ever feel like you wanted to hit her?"
+			},
+			{
+				"role":"body",
+				"text":"**IH:** I don't. I will tell you I share nothing in common with most of those folks. I want them to have a platform again to state their ideology and for me to state the ideology that I stand for. Because I think that is a debate that the American people deserve to hear. They are individuals, so I actually get along fine with some of them and not others. Charmaine, quite honestly, is a lovely human being to chat with. But again, I share nothing in common with her in terms of her ideology, which I find extraordinarily destructive for so, so many people."
+			},
+			{
+				"role":"body",
+				"text":"I found others of them to not be so lovely, but I think my desire and ability to debate them stems from this idea that if we actually come out of the shadows and into the light and demand to have the debate on values, everybody benefits and we usually win. It's when they are allowed to operate in the dark and obscure their ultimate goals that people are really unaware of what's going on, and it essentially results in the sneak attack that we have seen manifest, like the TRAP laws."
+			},
+			{
+				"role":"body",
+				"text":"They also know that they can't win on this idea of natural family, because this is a country that embraces pluralism, recognizes that there are all sorts of different family structures, and believes that public policy should actually exist to serve that diversity. What do they do? Well, they have been successful in co-opting the idea of women's health."
+			},
+			{
+				"role":"body",
+				"text":"I want to have that conversation, but I don't want to stop at women's health. Because I think women's health is critically important, but I think women's health is actually an offshoot of freedom, empowerment, and justice. Those are the values that they are not forced to speak to. When I go up against them, that's what I keep in mind. I keep in mind it's really about letting people hear the whole story and not actually beating down my opponent. Because I feel like when I state my truth and I actually really ask them to state their truth, then we win."
+			},
+			{
+				"role":"body",
+				"text":"**DP:** I get really angry, because they seem to have no regard for the truth. Because the people who are often frightened the most are the people who aren't getting a lot of health-care access, and they are just terrifying to people."
+			},
+			{
+				"role":"body",
+				"text":"**IH:** Yeah. Their lack of fidelity to the truth is pretty infuriating for sure. What I find more infuriating than that, and actually far more detrimental to the public discourse, is the fact that they bully. One way that they have been able to impose their extreme agenda on the American people is these sneak attacks that we have been talking about. But another way is getting back to what we do and don't do with our kids. They are bullies. They are also violent and dangerous. I used to say they generally save that for clinic workers, which is horrific, but it had not actually spread to the general population. But [Colorado Springs](http://www.nytimes.com/2015/12/02/us/robert-dear-planned-parenthood-shooting.html) put a wrench in that. Anyone and everyone has stepped inside a women's-health clinic at some point in their life. That sort of universalized the violence."
+			},
+			{
+				"role":"body",
+				"text":"In addition to the violence, there are far more of them picking up pens, picking up keyboards to bully anyone who they see who steps out and says \"I am actually for abortion access.\" So few people want to actually subject themselves to that bullying. They have effectively silenced the minority that way. I think that's what we actually have to call out."
+			},
+			{
+				"role":"body",
+				"text":"**DP:** What do you think the *Whole Woman's Health* case could mean?"
+			},
+			{
+				"role":"body",
+				"text":"**IH:** The Supreme Court is reverent for those of us who value justice and believe in democracy and the rule of law. It is a spiritual place, and I don't use that word lightly. I think that is much of why NARAL, along with so many other groups, have really decided to use the backdrop of the *Whole Woman's Health* case to lift up these issues. You combine the gravity of the court and everything it stands for with the issues that they are going to be hearing on March 2\\. I don't want to say regardless of the decision — obviously it matters dearly for millions of women which way the court decides — but transcendent of that is that the Supreme Court creates an enormously dramatic and important backdrop for us to have the conversations about values and worldview."
+			},
+			{
+				"role":"body",
+				"text":"It's incumbent on us to maximize that moment. To have the real conversation surface what the opposition's real agenda is. Lay it there in the sunlight. Also create a moment that we can authentically say to people, \"Hey, it's time to throw down. It's time to stop letting the shame fester in the silence and come forward and state your own truth about why you are pro-choice, why you stand for legal access to abortion.\""
+			},
+			{
+				"role":"body",
+				"text":"*This interview has been condensed and edited.*"
+			},
+			{
+				"role":"body",
+				"text":"[*Dawn Porter*](http://www.trappeddocumentary.com/dawn-porter) *is an award-winning filmmaker. Her documentary,* [Trapped](http://www.trappeddocumentary.com/)*, is in theaters March 4.*"
+			}
+		],
+		"siteCode":"lnl",
+		"hasGallery":false,
+		"isSponsored":false,
+		"issues":[
+			"removed dupe for lead image",
+			"component # 22 (text): detected short code. match: [newsletter type=\"lennyletter\"]",
+			"component # 35 (text): character preceding start of markdown. match: )*, is in theaters March 4.*"
+		]
+	}
+}

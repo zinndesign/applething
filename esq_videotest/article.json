@@ -1,0 +1,1290 @@
+{
+    "version":"0.10",
+    "identifier":"esq.article.39499",
+    "title":"Caged: What Drives Ronda Rousey to Wake Up and Fight",
+    "subtitle":"",
+    "language":"en",
+    "layout":{
+        "columns":6,
+        "width":1024,
+        "margin":80,
+        "gutter":20
+    },
+    "documentStyle":{
+        "backgroundColor":"#FFF"
+    },
+    "metadata":{
+        "dateCreated":"2015-11-06T00:06:14Z",
+        "datePublished":"2015-11-10T20:03:00Z",
+        "dateModified":"2015-11-13T14:53:25Z",
+        "canonicalURL":"http://www.esquire.com/sports/a39499/ronda-rousey-esquire-1115/",
+        "excerpt":"At 28, she's already the most successful UFC fighter of all time. But she's only getting started.",
+        "authors":[
+            "Mary Pilon"
+        ],
+        "thumbnailURL":"bundle://1446768257-ronda-6547.jpg",
+        "keywords":[
+            "ronda rousey",
+            "dana white",
+            "ufc",
+            "MMA"
+        ]
+    },
+    "components":[
+	    {
+            "role":"header",
+            "layout":{
+				"ignoreDocumentMargin":true,
+				"minimumHeight":"65vw"
+			},
+			"style":{
+                "fill":{
+                    "type":"video",
+                    "URL":"http://esq.h-cdn.co/assets/header/videos/rousey-header-v03.mp4",
+					"stillURL":"bundle://16_9_video_placeholder.png",
+					"caption":"Caged: What Drives Ronda Rousey to Wake Up and Fight",
+                    "fillMode":"cover"
+                }
+            },
+			"behavior":{
+                "type":"parallax",
+                "factor":0.5
+            },
+            "components":[
+				{
+                    "role":"container",
+                    "layout":"tabLayout",
+                    "style":"tabLayoutStyle",
+                    "anchor":{
+                        "targetAnchorPosition":"bottom"
+                    }
+                }
+            ]
+        },
+        {
+            "role":"title",
+            "text":"Caged: What Drives Ronda Rousey to Wake Up and Fight",
+            "format":"markdown",
+            "layout":"titleLayout",
+            "textStyle":"titleStyle"
+        },
+        {
+            "role":"divider",
+            "stroke":{
+                "color":"#FFF0"
+            },
+            "layout":"blackStrokeLayout1",
+            "style":"baseStrokeStyle"
+        },
+        {
+            "role":"author",
+            "text":"By Mary Pilon",
+            "layout":"authorLayout",
+            "textStyle":"authorStyle"
+        },
+        {
+            "role":"divider",
+            "stroke":{
+                "color":"#FFF0"
+            },
+            "layout":"blackStrokeLayout2",
+            "style":"baseStrokeStyle"
+        },
+        {
+            "format":"markdown",
+            "role":"body",
+            "text":"*\"When are we going to see women in the UFC, dude?\"* – TMZ cameraman",
+            "layout":"bodyLayout",
+            "textStyle":"bodyStyle"
+        },
+        {
+            "format":"markdown",
+            "role":"body",
+            "text":"*\"Never.\"* – Dana White, president of Ultimate Fighting Championship, 2011",
+            "layout":"bodyLayout",
+            "textStyle":"bodyStyle"
+        },
+        {
+            "format":"markdown",
+            "role":"body",
+            "text":"***",
+            "layout":"bodyLayout",
+            "textStyle":"bodyStyle"
+        },
+        {
+            "format":"markdown",
+            "role":"body",
+            "text":"On a recent fall afternoon at New York's London Hotel, Ultimate Fighting Championship's first and current Women's Bantamweight champion, Ronda Rousey, sat in a makeup chair considering sex and violence. She wondered whether the elderly enjoy the former more than young people (the conclusion was that they did) and, closer to her personal experience, how women in her profession were fighting stereotypes about female anger as much as they fought each other.",
+            "layout":"bodyLayout",
+            "textStyle":"bodyStyle"
+        },
+        {
+            "format":"markdown",
+            "role":"body",
+            "text":"\"Women in combat sports challenge conventional ideas of what a real woman should be,\" she said as two hair-and-makeup specialists orbited around her, weaving her long hair into braids, painting her eyelids a smoky hue. No fewer than ten black bags of makeup were splayed around her as she sat in a plush cotton bathrobe, not the silk favored by fighters before a bout.",
+            "layout":"bodyLayout",
+            "textStyle":"bodyStyle"
+        },
+        {
+            "role":"photo",
+            "URL":"bundle://1446834503-rousey-2.jpg",
+            "caption":"",
+            "layout":"embedLayout"
+        },
+        {
+            "format":"markdown",
+            "role":"body",
+            "text":"\"There's been a real resistance accepting the fact that there are no man roles or woman roles,\" she said. \"There's what people can do. It's not divided into who can do it. I think fighting is one of those final frontiers, you know? The combat-sports world represents the end of that resistance.\"",
+            "layout":"bodyLayout",
+            "textStyle":"bodyStyle"
+        },
+        {
+            "role":"photo",
+            "URL":"bundle://1447181974-gallery-1446846993-rr-weight-cut-ii-18b.jpg",
+            "caption":"RONDA ROUSEY",
+            "layout":"embedLayout"
+        },
+        {
+            "format":"markdown",
+            "role":"body",
+            "text":"Rousey beats people up for a living and is very, very good at it. In a sport where women's involvement typically begins and ends with bikinis and scorecards, Rousey is now the highest-earning fighter–male or female–in the UFC. She is 12-0 and, out of the cage, maintains a growing acting career, including roles in The Expendables 3, Furious 7, and the film version of Entourage. Her November 14 fight against Holly Holm in Australia is expected to set mixed-martial-arts viewing records. She makes no apologies for appearing in the public eye without makeup, trash-talking her opponents, and not looking like \"the other girls,\" in her words. She's dealt with opponents talking shit about her father's suicide, and has used the furor it instilled to fight better. She is completely comfortable with being cast in the role of the communicator of rage and has become a positive icon of female anger, a hero for a temperament too often ridiculed as \"bitter\" or \"complainy.\"",
+            "layout":"bodyLayout",
+            "textStyle":"bodyStyle"
+        },
+        {
+            "format":"markdown",
+            "role":"body",
+            "text":"She paused as other handlers shuttled to and fro in the hotel room, glued to smartphones. A stylist had chosen a sleek black dress with a plunging neckline for her appearance that night on Jimmy Fallon, which she approved with a nod. She plays along with the charade, including days like today that are filled with photo shoots in four different designer dresses, smatterings of shoes, and concerns about flyaway hairs and sweat stains (though by her own admission, she's more comfortable in sweatpants than stilettos).",
+            "layout":"bodyLayout",
+            "textStyle":"bodyStyle"
+        },
+        {
+            "format":"markdown",
+            "role":"body",
+            "text":"\"Being able to break into that world and to succeed represents real equality that we've all been pursuing for decades,\" she said.",
+            "layout":"bodyLayout",
+            "textStyle":"bodyStyle"
+        },
+        {
+            "format":"markdown",
+            "role":"body",
+            "text":"But perhaps what is more surprising isn't that she's now being embraced—it's that it took this long to happen.",
+            "layout":"bodyLayout",
+            "textStyle":"bodyStyle"
+        },
+        {
+            "format":"markdown",
+            "role":"body",
+            "text":"***",
+            "layout":"bodyLayout",
+            "textStyle":"bodyStyle"
+        },
+        {
+            "format":"markdown",
+            "role":"body",
+            "text":"The ethics of MMA have always been called into question; Senator John McCain famously referred to it as \"human cockfighting,\" and while some states have safety protocols and standards in play, the legal landscape is patchwork. (Boxing has had its critics as well, but that sport is often thought of with a sepia filter.) For women—given that their involvement in the UFC is a very recent development—the ethics conversation has been even newer. And, in spite of the tremendous strides women athletes have made in recent generations, female anger like Rousey's, depicted in her fight-poster snarls and her short, violent fights, is still considered by some to be discomforting. That, according to Rousey, is precisely the point.",
+            "layout":"bodyLayout",
+            "textStyle":"bodyStyle"
+        },
+        {
+            "format":"markdown",
+            "role":"body",
+            "text":"\"We\"—women—\"have no outlet,\" Rousey said. \"I feel very fortunate in that I got to make my outlet my profession.\"",
+            "layout":"bodyLayout",
+            "textStyle":"bodyStyle"
+        },
+        {
+            "format":"markdown",
+            "role":"body",
+            "text":"Dana White, president of the UFC, has a reputation that is often more lively than those of the fighters he oversees. He recently told me that he and others who initially resisted female combat sports don't dispute that women—like men—get angry. But seeing them express it, he said, is, on some level, still upsetting.",
+            "layout":"bodyLayout",
+            "textStyle":"bodyStyle"
+        },
+        {
+            "role":"medium_rectangle_advertisement",
+            "layout":"adLayout"
+        },
+        {
+            "role":"photo",
+            "URL":"bundle://1446846993-rr-weight-cut-ii-18.jpg",
+            "caption":"",
+            "layout":"embedLayout"
+        },
+        {
+            "format":"markdown",
+            "role":"body",
+            "text":"\"I know this is sexist,\" White, now an emphatic supporter of Rousey's, said to me recently. \"But I have to admit it: I look at women and they're beautiful. I didn't want to see a woman getting punched in the face. I never thought in my wildest dreams that women would get to the level of skill and talent they're at today. I never saw something like Ronda Rousey coming.\"",
+            "layout":"bodyLayout",
+            "textStyle":"bodyStyle"
+        },
+        {
+            "format":"markdown",
+            "role":"body",
+            "text":"Rousey doesn't lean in. She jabs, kicks, and punches in, making no apologies along the way. While countless women have competed in elite-level sports over the decades, only a handful like Rousey have popped into the mainstream, developing a fan base that is both male and female. Granted, 2015 has been a banner year for women in sports: In addition to Rousey's much-viewed win over Bethe Correia in August this year, Serena Williams helped the women's singles final at the U.S. Open gain more attention than the men's, even as her quest for a record-setting twenty-second Grand Slam was shut down in a stunning upset. The Women's World Cup game between the U.S. and Japan this summer [was the most-watched soccer game in U.S. history](http://www.foxsports.com/soccer/fifa-womens-world-cup/story/women-s-world-cup-final-seen-by-record-26-7-million-in-united-states-070615).",
+            "layout":"bodyLayout",
+            "textStyle":"bodyStyle"
+        },
+        {
+            "format":"markdown",
+            "role":"body",
+            "text":"It's an effective backdrop for Rousey's rise, the fame coming a little later than many thought deserved, given that she's already an Olympic bronze medalist in judo. \"When I went from amateur to professional sports,\" Rousey said, \"I wasn't representing my country anymore. I was representing myself. And that ended up being the best thing I possibly could have done.\"",
+            "layout":"bodyLayout",
+            "textStyle":"bodyStyle"
+        },
+        {
+            "format":"markdown",
+            "role":"body",
+            "text":"I ask Rousey why she thinks her fame is exploding in 2015, especially since she's been a competitive athlete on the international stage for years. She had mentioned that after her defeat over Correia in August, \"everything doubled,\"—her social media following, sponsorship inquiries, her fame—overnight. Rousey had big wins in the past, but this time the stakes were higher, not only because of Rousey's fight record but also because of Correia's comments about her father's suicide. Rousey replied with a knockout, a fighter who wasn't just out for the win, but for domination and a clear message of revenge.",
+            "layout":"bodyLayout",
+            "textStyle":"bodyStyle"
+        },
+        {
+            "role":"divider",
+            "stroke":{
+                "color":"#FFF0"
+            },
+            "layout":"blackStrokeLayout3",
+            "style":"baseStrokeStyle"
+        },
+        {
+            "role":"pullquote",
+            "text":"Rousey doesn't lean in. She jabs, kicks, and punches in, making no apologies along the way.",
+            "layout":"pullQuoteLayout",
+            "textStyle":"pullQuoteStyle"
+        },
+        {
+            "role":"divider",
+            "stroke":{
+                "color":"#FFF0"
+            },
+            "layout":"blackStrokeLayout4",
+            "style":"baseStrokeStyle"
+        },
+        {
+            "format":"markdown",
+            "role":"body",
+            "text":"\"It's inexplicable to me, you know?\" she said. \"Sometimes I wonder, What did I do any different? I think it was a combination of factors. I think it was reaching more people who weren't the stereotypical MMA fans. It's gotten to the point where it's about more than fighting. I feel like I started doing this because I wanted to find a way to pay my bills doing something that I loved, and it's gotten bigger than that. It's gotten bigger than me.\"",
+            "layout":"bodyLayout",
+            "textStyle":"bodyStyle"
+        },
+        {
+            "format":"markdown",
+            "role":"body",
+            "text":"***",
+            "layout":"bodyLayout",
+            "textStyle":"bodyStyle"
+        },
+        {
+            "format":"markdown",
+            "role":"body",
+            "text":"In the last decade, MMA has become one of the nation's most popular pastimes, fueled in part by increased coverage on Spike TV and now a reportedly $700 million, seven-year deal with Fox Sports.",
+            "layout":"bodyLayout",
+            "textStyle":"bodyStyle"
+        },
+        {
+            "format":"markdown",
+            "role":"body",
+            "text":"There's an Internet-y element to its popularity. While Rousey's fights boast strong pay-per-view numbers, a mainstay metric for MMA, Rousey is an ideal YouTube athlete, her fights so short ([the 14-second defeat over Cat Zingano, in particular](http://www.youtube.com)) that they often need to be watched repeatedly and in slow motion in order to appreciate their mechanics (or even understand what the hell just happened).",
+            "layout":"bodyLayout",
+            "textStyle":"bodyStyle"
+        },
+        {
+            "format":"markdown",
+            "role":"body",
+            "text":"The shift to digital spectatorship, however, has also come with the inevitable tax of online trolldom.",
+            "layout":"bodyLayout",
+            "textStyle":"bodyStyle"
+        },
+        {
+            "format":"markdown",
+            "role":"body",
+            "text":"Rousey sits in her chair, pondering this.",
+            "layout":"bodyLayout",
+            "textStyle":"bodyStyle"
+        },
+        {
+            "format":"markdown",
+            "role":"body",
+            "text":"\"I get some negative comments, you know, 'You're ugly' and 'You look like a man' and all that shit,\" she said. \"But I realized that just because they post on social media a lot more doesn't mean there's more of them. For every asshole, there's twenty cool people.\"",
+            "layout":"bodyLayout",
+            "textStyle":"bodyStyle"
+        },
+        {
+            "role":"photo",
+            "URL":"bundle://1446847204-rr-open-workout-746.jpg",
+            "caption":"",
+            "layout":"embedLayout"
+        },
+        {
+            "format":"markdown",
+            "role":"body",
+            "text":"Body image, long something Rousey said she has struggled with, has become a centerpiece of her mantra as an athlete.",
+            "layout":"bodyLayout",
+            "textStyle":"bodyStyle"
+        },
+        {
+            "format":"markdown",
+            "role":"body",
+            "text":"\"Somehow, self-deprecation is considered modesty,\" Rousey said, \"and my confidence was considered arrogance, and it's considered a bad thing to compliment yourself. We're always told to compliment everyone around you and talk yourself down. I don't know how we're expected to look at ourselves healthily if we're told to talk about ourselves negatively.\"",
+            "layout":"bodyLayout",
+            "textStyle":"bodyStyle"
+        },
+        {
+            "role":"medium_rectangle_advertisement",
+            "layout":"adLayout"
+        },
+        {
+            "format":"markdown",
+            "role":"body",
+            "text":"An entire section of her website is devoted to body image, and Rousey has spoken extensively about her battles with bulimia through the years, often in the name of making weight for competitions.",
+            "layout":"bodyLayout",
+            "textStyle":"bodyStyle"
+        },
+        {
+            "format":"markdown",
+            "role":"body",
+            "text":"\"The boys that I liked read magazines with girls on them that looked nothing like me,\" she said to me. \"And I thought that I was undesirable for them. When I was a kid, the standard I held myself to was what I've perceived the boys I liked personally wanted.\"",
+            "layout":"bodyLayout",
+            "textStyle":"bodyStyle"
+        },
+        {
+            "format":"markdown",
+            "role":"body",
+            "text":"She added, \"Spite was my greatest motivator in the beginning. I was so angry at everyone.\"",
+            "layout":"bodyLayout",
+            "textStyle":"bodyStyle"
+        },
+        {
+            "format":"markdown",
+            "role":"body",
+            "text":"***",
+            "layout":"bodyLayout",
+            "textStyle":"bodyStyle"
+        },
+        {
+            "format":"markdown",
+            "role":"body",
+            "text":"Rousey, named after her father, Ron, was born in Riverside, California, in 1987, the youngest of three girls. Her mother, who worked toward her Ph.D. as the Rousey girls were growing up, was an elite judo athlete herself. The household was full of roughhousing, tough love and sports, according to Rousey's book, *My Fight/Your Fight*, which she cowrote with her sister Maria Burns Ortiz this year.",
+            "layout":"bodyLayout",
+            "textStyle":"bodyStyle"
+        },
+        {
+            "format":"markdown",
+            "role":"body",
+            "text":"When Rousey was still in elementary school, the family moved from California to rural North Dakota so her mother could pursue a job at Minot State University. Her father retired from his job as a plant manager at an aerospace factory.",
+            "layout":"bodyLayout",
+            "textStyle":"bodyStyle"
+        },
+        {
+            "role":"photo",
+            "URL":"bundle://1446845012-ronda-family1987-1.jpg",
+            "caption":"",
+            "layout":"embedLayout"
+        },
+        {
+            "format":"markdown",
+            "role":"body",
+            "text":"The beginning of the worst chapter of Rousey's childhood came in the early nineties. What should have been a pleasant family sledding outing turned into her father colliding with a log covered in snow. \"My mom thought he was joking,\" wrote Rousey and her sister of seeing her father lying on the ground. His accident led to more than five months in the hospital, blood infusions, surgeries and hours of Rousey watching cartoons and coloring in hospital waiting rooms. Doctors told her father that his spine was disintegrating and soon he would not be able to walk. On August 11, 1995, Rousey and her sister, Jennifer, were at home with their father watching Nickelodeon. He stood up, hugged them, then left the house. Rousey was eight years old.",
+            "layout":"bodyLayout",
+            "textStyle":"bodyStyle"
+        },
+        {
+            "format":"markdown",
+            "role":"body",
+            "text":"\"My dad had walked down the four steps that led to the driveway,\" Rousey and her sister wrote. \"He got into the Bronco. He drove to the spot next to the pond where we skipped rocks. It was peaceful there. He parked the car, then took out a hose and put one end in the tailpipe, then brought the other end around to the driver's side window. He got in the car. He rolled up the window. He sat back in his seat. He closed his eyes. He went to sleep.\"",
+            "layout":"bodyLayout",
+            "textStyle":"bodyStyle"
+        },
+        {
+            "format":"markdown",
+            "role":"body",
+            "text":"The loss of her father has become a part of her public biography, brought up in interviews and by opponents, most recently by Correia. Prior to their fight, Correia said, \"I hope [Rousey] does not kill herself later on.\"",
+            "layout":"bodyLayout",
+            "textStyle":"bodyStyle"
+        },
+        {
+            "format":"markdown",
+            "role":"body",
+            "text":"Rousey was quick to incorporate her anger about Correia's comments into her training.",
+            "layout":"bodyLayout",
+            "textStyle":"bodyStyle"
+        },
+        {
+            "role":"divider",
+            "stroke":{
+                "color":"#FFF0"
+            },
+            "layout":"blackStrokeLayout3",
+            "style":"baseStrokeStyle"
+        },
+        {
+            "role":"pullquote",
+            "text":"\"Spite was my greatest motivator in the beginning,\" Rousey says. \"I was so angry at everyone.\"",
+            "layout":"pullQuoteLayout",
+            "textStyle":"pullQuoteStyle"
+        },
+        {
+            "role":"divider",
+            "stroke":{
+                "color":"#FFF0"
+            },
+            "layout":"blackStrokeLayout4",
+            "style":"baseStrokeStyle"
+        },
+        {
+            "format":"markdown",
+            "role":"body",
+            "text":"\"It wasn't the first time an opponent had taken jabs at my personal life,\" Rousey said. \"But it was definitely the farthest that anyone had ever gone. I'm just happy that being a professional, I can do something about it.\"",
+            "layout":"bodyLayout",
+            "textStyle":"bodyStyle"
+        },
+        {
+            "format":"markdown",
+            "role":"body",
+            "text":"She added, \"You're not just putting your body at risk, you're putting your ego at risk. This person disrespected you and your family and could go beat you up and take everything that you cared and worked for and you'll just be the biggest loser ever. Or, they can disrespect you and your family and you can beat them in such a devastating way that no one would ever dare to mention your family again.",
+            "layout":"bodyLayout",
+            "textStyle":"bodyStyle"
+        },
+        {
+            "format":"markdown",
+            "role":"body",
+            "text":"\"Fortunately that's the way it worked out, because I knocked her out flat on her face and ate some hot wings afterwards and laughed about it.\"",
+            "layout":"bodyLayout",
+            "textStyle":"bodyStyle"
+        },
+        {
+            "format":"markdown",
+            "role":"body",
+            "text":"***",
+            "layout":"bodyLayout",
+            "textStyle":"bodyStyle"
+        },
+        {
+            "role":"embedwebvideo",
+            "URL":"https://www.youtube.com/watch?v=7G2wtiUFG7Y&amp;feature=youtu.be",
+            "layout":"embedLayout"
+        },
+        {
+            "format":"markdown",
+            "role":"body",
+            "text":"After her father's death, Rousey and her family moved back to California, where she found comfort in her mother's passion: judo. At sixteen, she moved away from her family to pursue Olympic training in Massachusetts. She made the Athens team in 2004, the youngest judo competitor there, and finished ninth, a surprising result considering the lack of American Olympic champions in the sport.",
+            "layout":"bodyLayout",
+            "textStyle":"bodyStyle"
+        },
+        {
+            "role":"medium_rectangle_advertisement",
+            "layout":"adLayout"
+        },
+        {
+            "format":"markdown",
+            "role":"body",
+            "text":"She continued training and qualified for the Beijing Games in 2008\\. There she won bronze. For Rousey, winning an Olympic medal was the beginning of her career rather than its peak.",
+            "layout":"bodyLayout",
+            "textStyle":"bodyStyle"
+        },
+        {
+            "format":"markdown",
+            "role":"body",
+            "text":"But it didn't seem that way at first. Upon returning home to California, she crashed with her mother and worked part-time as a waitress at a pirate-themed bar called Redwood Bar and Grill. She added two more food-service jobs to her schedule, one as a cocktail waitress and another morning bartender shift at a nearby restaurant.",
+            "layout":"bodyLayout",
+            "textStyle":"bodyStyle"
+        },
+        {
+            "format":"markdown",
+            "role":"body",
+            "text":"She smoked Camel menthols and marijuana, the latter of which she often received from customers as a tip. Against her mother's initial wishes, she began training for MMA while teaching judo and working at the front desk of a 24-Hour Fitness. Some friends from the judo community were transitioning into MMA and had invited Rousey to grapple with them, a path many male fighters had followed. Her training and competition schedule began to shift accordingly.",
+            "layout":"bodyLayout",
+            "textStyle":"bodyStyle"
+        },
+        {
+            "format":"markdown",
+            "role":"body",
+            "text":"\"Even if nobody believed me, I believed it,\" she said. \"I felt so happy every day, even though I was hustling and driving in the Honda with no AC and going to three or four workouts a day and working three different jobs, and I was so happy and alive and so convinced that everything that I was doing was right. Every single day that I lay down and collapsed in the bed, I was so convinced that that sleep was really earned and every spare moment that I had, every spare thought that I had was for fighting. I was shadowboxing with the droplets in the shower, just trying to get better every single second.\"",
+            "layout":"bodyLayout",
+            "textStyle":"bodyStyle"
+        },
+        {
+            "format":"markdown",
+            "role":"body",
+            "text":"This era also included a series of poor dating choices. There was the man who cheated on Rousey and prompted an STD false alarm. The heroin addict who stole her car. The creep who, unbeknownst to Rousey, took nude photos of her. The several who demanded more femininity out of her, including one who wanted her to wear her hair down more often. \"I was like, 'You know what? You're dating the wrong girl,' \" she said.",
+            "layout":"bodyLayout",
+            "textStyle":"bodyStyle"
+        },
+        {
+            "role":"divider",
+            "stroke":{
+                "color":"#FFF0"
+            },
+            "layout":"blackStrokeLayout3",
+            "style":"baseStrokeStyle"
+        },
+        {
+            "role":"pullquote",
+            "text":"\"I get negative comments: 'You're ugly' and all that shit,\" Rousey said. \"But for every asshole, there's twenty cool people.\"",
+            "layout":"pullQuoteLayout",
+            "textStyle":"pullQuoteStyle"
+        },
+        {
+            "role":"divider",
+            "stroke":{
+                "color":"#FFF0"
+            },
+            "layout":"blackStrokeLayout4",
+            "style":"baseStrokeStyle"
+        },
+        {
+            "format":"markdown",
+            "role":"body",
+            "text":"Then came the hurdle of convincing her coaches, friends, and family—most notably her mother—that she wanted to leave the world of judo permanently for cage fighting, even though no professional women's division existed at the time.",
+            "layout":"bodyLayout",
+            "textStyle":"bodyStyle"
+        },
+        {
+            "format":"markdown",
+            "role":"body",
+            "text":"\"Everyone was furious with me,\" Rousey said. \"I knew that they would be. But I couldn't follow the lifestyle that just made other people happy.\"",
+            "layout":"bodyLayout",
+            "textStyle":"bodyStyle"
+        },
+        {
+            "format":"markdown",
+            "role":"body",
+            "text":"Rousey said that her mother ultimately came on board, but some of her old coaches didn't want to talk to her anymore, even as they supported other judo athletes who went into MMA.",
+            "layout":"bodyLayout",
+            "textStyle":"bodyStyle"
+        },
+        {
+            "format":"markdown",
+            "role":"body",
+            "text":"\"It hurt my feelings a lot,\" she said, \"But I'm so happy that everything went down the way it did, otherwise I would have had these really superficial relationships without ever knowing it. Sometimes testing the people around you is a very uncomfortable thing, but it isn't necessarily a bad thing. Adversity tears everything that's loose and leaves everything that's strongly tied to you.\"",
+            "layout":"bodyLayout",
+            "textStyle":"bodyStyle"
+        },
+        {
+            "role":"photo",
+            "URL":"bundle://1446834997-dsc-5420.jpg",
+            "caption":"",
+            "layout":"embedLayout"
+        },
+        {
+            "format":"markdown",
+            "role":"body",
+            "text":"She smiled, \"In hindsight, now that everything has become so successful and great, I enjoy the hell out of it. That they can't go anywhere without seeing my face and knowing that they screwed up.\"",
+            "layout":"bodyLayout",
+            "textStyle":"bodyStyle"
+        },
+        {
+            "format":"markdown",
+            "role":"body",
+            "text":"***",
+            "layout":"bodyLayout",
+            "textStyle":"bodyStyle"
+        },
+        {
+            "format":"markdown",
+            "role":"body",
+            "text":"Like many athletes, Rousey's fear is what most Americans crave: retirement. She doesn't take vacations, and though she has no idea how long her current competition window will remain open, she's trying to enjoy it while it lasts, even if it means paying the price of becoming a public figure.",
+            "layout":"bodyLayout",
+            "textStyle":"bodyStyle"
+        },
+        {
+            "role":"photo",
+            "URL":"bundle://1446853211-20151029-ronda-rousey-411-vertical.jpg",
+            "caption":"",
+            "layout":"embedLayout"
+        },
+        {
+            "format":"markdown",
+            "role":"body",
+            "text":"\"Rust is a real thing,\" she said. \"Staying active makes me feel good, and as an athlete, it challenges me and really keeps me focused. The reason why I stay the champ is because I don't ever go flying off on vacation and sitting around and doing nothing for very long. I just don't know what else to do with myself.\"",
+            "layout":"bodyLayout",
+            "textStyle":"bodyStyle"
+        },
+        {
+            "format":"markdown",
+            "role":"body",
+            "text":"She sits back in her chair, the makeup applied, the hair perfectly coiffed.",
+            "layout":"bodyLayout",
+            "textStyle":"bodyStyle"
+        },
+        {
+            "format":"markdown",
+            "role":"body",
+            "text":"\"It's kind of funny how people interact with you for the first time,\" she said. \"I went to get coffee the other day and the guy is like, 'So, you gonna fight Mayweather?' I'm like, 'No, but I'd like a tall iced coffee with some sweetener.' There are just some days where you just don't have energy for anyone. I used to love people-watching in Venice. Now people watch me.\"",
+            "layout":"bodyLayout",
+            "textStyle":"bodyStyle"
+        },
+        {
+            "role":"medium_rectangle_advertisement",
+            "layout":"adLayout"
+        },
+        {
+            "format":"markdown",
+            "role":"body",
+            "text":"That will certainly be the case on November 14 when she faces Holm. After leaving her round of press in New York, she will spend the weeks leading up to it in near-isolation with her coach.",
+            "layout":"bodyLayout",
+            "textStyle":"bodyStyle"
+        },
+        {
+            "format":"markdown",
+            "role":"body",
+            "text":"For now, the cage is where Rousey feels most comfortable.",
+            "layout":"bodyLayout",
+            "textStyle":"bodyStyle"
+        },
+        {
+            "format":"markdown",
+            "role":"body",
+            "text":"\"Right before a fight, all I'm thinking is that I deserve to win, I belong there,\" she said. \"I really feel like I'm a fish and something got dropped beside me in the water and I remember that, 'Oh yes, this is where I'm supposed to be and this is the way it's supposed to be.' It's a strange sense of coming home and belonging in my place.\"",
+            "layout":"bodyLayout",
+            "textStyle":"bodyStyle"
+        },
+        {
+            "role":"container",
+            "components":[
+
+            ],
+            "layout":"spacerLayout"
+        }
+    ],
+    "componentLayouts":{
+        "adLayout":{
+            "margin":{
+
+            }
+        },
+        "authorLayout":{
+            "margin":{
+                "top":0,
+                "bottom":15
+            }
+        },
+        "blackStrokeLayout1":{
+            "margin":0
+        },
+        "blackStrokeLayout2":{
+            "margin":0
+        },
+        "blackStrokeLayout3":{
+
+        },
+        "blackStrokeLayout4":{
+
+        },
+        "blockQuoteLayout":{
+            "contentInset":{
+                "left":true,
+                "right":true
+            },
+            "margin":15
+        },
+        "bodyContainerLayout":{
+            "margin":{
+                "top":0,
+                "bottom":35
+            }
+        },
+        "bodyLayout":{
+            "margin":{
+                "top":10,
+                "bottom":10
+            }
+        },
+        "captionLayout":{
+            "margin":{
+                "top":10,
+                "bottom":25
+            }
+        },
+        "creditLayout":{
+            "margin":{
+                "top":4,
+                "bottom":0
+            }
+        },
+        "dateLayout":{
+            "margin":{
+                "top":20,
+                "bottom":0
+            }
+        },
+        "embedLayout":{
+            "margin":{
+                "top":5,
+                "bottom":20
+            }
+        },
+        "headerImageLayout":{
+            "ignoreDocumentMargin":true,
+            "minimumHeight":"60vmin"
+        },
+        "heading1Layout":{
+            "margin":{
+                "top":15,
+                "bottom":5
+            }
+        },
+        "introLayout":{
+            "margin":{
+                "top":5,
+                "bottom":15
+            }
+        },
+        "photoLayout":{
+            "maximumContentWidth":"100cw"
+        },
+        "pullQuoteLayout":{
+            "margin":{
+                "top":15,
+                "bottom":15
+            }
+        },
+        "slideLayout":{
+            "ignoreDocumentMargin":true,
+            "margin":15
+        },
+        "spacerLayout":{
+            "margin":{
+                "top":0,
+                "bottom":25
+            }
+        },
+        "tabLayout":{
+            "ignoreDocumentMargin":true,
+            "minimumHeight":"20vmin"
+        },
+        "titleLayout":{
+            "margin":{
+                "top":12,
+                "bottom":0
+            }
+        }
+    },
+    "componentStyles":{
+        "baseStrokeStyle":{
+
+        },
+        "blockQuoteContainerStyle":{
+            "border":{
+                "all":{
+                    "width":4,
+                    "color":"#ddd"
+                },
+                "top":false,
+                "right":false,
+                "bottom":false
+            }
+        },
+        "bodyContainerStyle":{
+            "backgroundColor":"#FFF"
+        },
+        "dateLayoutStyle":{
+            "border":{
+                "all":{
+                    "width":2
+                },
+                "top":false,
+                "left":false,
+                "right":false
+            }
+        },
+        "photoContainerStyle":{
+            "backgroundColor":"#000"
+        },
+        "tabLayoutStyle":{
+            "fill":{
+                "type":"image",
+                "URL":"bundle://esq_header_article.png",
+                "fillMode":"fit",
+                "verticalAlignment":"bottom",
+                "horizontalAlignment":"right"
+            }
+        }
+    },
+    "componentTextStyles":{
+        "authorStyle":{
+            "fontName":"TradeGothicNextLTPro-HvCn",
+            "fontSize":16,
+            "textAlignment":"left",
+            "textTransform":"uppercase",
+            "textColor":"#AAA"
+        },
+        "blockQuoteStyle":{
+            "fontName":"Georgia",
+            "fontSize":19,
+            "lineHeight":26,
+            "textAlignment":"left",
+            "textColor":"#777",
+            "linkStyle":{
+                "textColor":"#00a3da"
+            }
+        },
+        "bodyStyle":{
+            "fontName":"Georgia",
+            "fontSize":21,
+            "lineHeight":30,
+            "textAlignment":"left",
+            "textColor":"#333",
+            "linkStyle":{
+                "textColor":"#00a3da"
+            }
+        },
+        "bodyStyleFirst":{
+            "fontName":"Georgia",
+            "fontSize":21,
+            "lineHeight":30,
+            "textAlignment":"left",
+            "textColor":"#333",
+            "linkStyle":{
+                "textColor":"#00a3da"
+            },
+            "dropCapStyle":{
+                "fontName":"AktivGrotesk-Black",
+                "numberOfLines":3,
+                "numberOfCharacters":1,
+                "textColor":"#000"
+            }
+        },
+        "captionStyle":{
+            "fontName":"Helvetica",
+            "fontSize":20,
+            "lineHeight":32,
+            "textAlignment":"left",
+            "linkStyle":{
+                "textColor":"#00a3da"
+            }
+        },
+        "creditStyle":{
+            "fontName":"Helvetica",
+            "fontSize":18,
+            "lineHeight":24,
+            "textAlignment":"right",
+            "textColor":"#898989",
+            "textTransform":"uppercase"
+        },
+        "dateStyle":{
+            "fontName":"TradeGothicNextLTPro-HvCn",
+            "fontSize":16,
+            "textAlignment":"left",
+            "textTransform":"uppercase",
+            "textColor":"#AAA"
+        },
+        "heading1Style":{
+            "fontName":"TradeGothicNextLTPro-HvCn",
+            "fontSize":32,
+            "lineHeight":36,
+            "textTransform":"uppercase",
+            "textAlignment":"left",
+            "tracking":0.01
+        },
+        "introStyle":{
+            "fontName":"Helvetica",
+            "fontSize":21,
+            "lineHeight":28,
+            "textAlignment":"left",
+            "textColor":"#666",
+            "linkStyle":{
+                "textColor":"#00a3da"
+            }
+        },
+        "lowerListStyle":{
+            "fontName":"Helvetica",
+            "fontSize":18,
+            "lineHeight":20,
+            "textAlignment":"left"
+        },
+        "pullQuoteStyle":{
+            "fontName":"AktivGrotesk-Black",
+            "fontSize":36,
+            "lineHeight":38,
+            "textAlignment":"left",
+            "textTransform":"uppercase"
+        },
+        "spacerWord":{
+            "fontName":"Helvetica",
+            "fontSize":48,
+            "lineHeight":48,
+            "textAlignment":"left",
+            "textTransform":"uppercase"
+        },
+        "titleStyle":{
+            "fontName":"AktivGrotesk-Black",
+            "fontSize":42,
+            "lineHeight":42,
+            "textAlignment":"left",
+            "textColor":"#333"
+        }
+    },
+    "id":null,
+    "raw":{
+        "identifier":"esq.article.39499",
+        "title":"Caged: What Drives Ronda Rousey to Wake Up and Fight",
+        "subtitle":"",
+        "metadata":{
+            "dateCreated":"2015-11-06T00:06:14Z",
+            "datePublished":"2015-11-10T20:03:00Z",
+            "dateModified":"2015-11-13T14:53:25Z",
+            "canonicalURL":"http://www.esquire.com/sports/a39499/ronda-rousey-esquire-1115/",
+            "excerpt":"At 28, she's already the most successful UFC fighter of all time. But she's only getting started.",
+            "authors":[
+                "Mary Pilon"
+            ],
+            "tags":[
+                {
+                    "type":"person",
+                    "value":"ronda rousey"
+                },
+                {
+                    "type":"person",
+                    "value":"dana white"
+                },
+                {
+                    "type":"brand",
+                    "value":"ufc"
+                },
+                {
+                    "type":"brand",
+                    "value":"MMA"
+                }
+            ],
+            "thumbnailURL":"http://esq.h-cdn.co/assets/15/45/1446768257-ronda-6547.jpg"
+        },
+        "components":[
+            {
+                "role":"image",
+                "url":"http://esq.h-cdn.co/assets/15/45/1446768257-ronda-6547.jpg",
+                "caption":"",
+                "title":"",
+                "copyright":"",
+                "provider":"",
+                "isProhibited":true
+            },
+            {
+                "role":"body",
+                "text":"*\"When are we going to see women in the UFC, dude?\"* – TMZ cameraman"
+            },
+            {
+                "role":"body",
+                "text":"*\"Never.\"* – Dana White, president of Ultimate Fighting Championship, 2011"
+            },
+            {
+                "role":"body",
+                "text":"***"
+            },
+            {
+                "role":"body",
+                "text":"On a recent fall afternoon at New York's London Hotel, Ultimate Fighting Championship's first and current Women's Bantamweight champion, Ronda Rousey, sat in a makeup chair considering sex and violence. She wondered whether the elderly enjoy the former more than young people (the conclusion was that they did) and, closer to her personal experience, how women in her profession were fighting stereotypes about female anger as much as they fought each other."
+            },
+            {
+                "role":"body",
+                "text":"\"Women in combat sports challenge conventional ideas of what a real woman should be,\" she said as two hair-and-makeup specialists orbited around her, weaving her long hair into braids, painting her eyelids a smoky hue. No fewer than ten black bags of makeup were splayed around her as she sat in a plush cotton bathrobe, not the silk favored by fighters before a bout."
+            },
+            {
+                "role":"image",
+                "url":"http://esq.h-cdn.co/assets/15/45/1446834503-rousey-2.jpg",
+                "caption":"",
+                "title":"",
+                "copyright":"Buda Mendes",
+                "provider":"",
+                "isProhibited":true
+            },
+            {
+                "role":"body",
+                "text":"\"There's been a real resistance accepting the fact that there are no man roles or woman roles,\" she said. \"There's what people can do. It's not divided into who can do it. I think fighting is one of those final frontiers, you know? The combat-sports world represents the end of that resistance.\""
+            },
+            {
+                "role":"image",
+                "url":"http://esq.h-cdn.co/assets/15/46/1447181974-gallery-1446846993-rr-weight-cut-ii-18b.jpg",
+                "caption":"RONDA ROUSEY",
+                "title":"",
+                "copyright":"Elizabeth Griffin",
+                "provider":"",
+                "isProhibited":true
+            },
+            {
+                "role":"body",
+                "text":"Rousey beats people up for a living and is very, very good at it. In a sport where women's involvement typically begins and ends with bikinis and scorecards, Rousey is now the highest-earning fighter–male or female–in the UFC. She is 12-0 and, out of the cage, maintains a growing acting career, including roles in The Expendables 3, Furious 7, and the film version of Entourage. Her November 14 fight against Holly Holm in Australia is expected to set mixed-martial-arts viewing records. She makes no apologies for appearing in the public eye without makeup, trash-talking her opponents, and not looking like \"the other girls,\" in her words. She's dealt with opponents talking shit about her father's suicide, and has used the furor it instilled to fight better. She is completely comfortable with being cast in the role of the communicator of rage and has become a positive icon of female anger, a hero for a temperament too often ridiculed as \"bitter\" or \"complainy.\""
+            },
+            {
+                "role":"body",
+                "text":"She paused as other handlers shuttled to and fro in the hotel room, glued to smartphones. A stylist had chosen a sleek black dress with a plunging neckline for her appearance that night on Jimmy Fallon, which she approved with a nod. She plays along with the charade, including days like today that are filled with photo shoots in four different designer dresses, smatterings of shoes, and concerns about flyaway hairs and sweat stains (though by her own admission, she's more comfortable in sweatpants than stilettos)."
+            },
+            {
+                "role":"body",
+                "text":"\"Being able to break into that world and to succeed represents real equality that we've all been pursuing for decades,\" she said."
+            },
+            {
+                "role":"body",
+                "text":"But perhaps what is more surprising isn't that she's now being embraced—it's that it took this long to happen."
+            },
+            {
+                "role":"body",
+                "text":"***"
+            },
+            {
+                "role":"body",
+                "text":"The ethics of MMA have always been called into question; Senator John McCain famously referred to it as \"human cockfighting,\" and while some states have safety protocols and standards in play, the legal landscape is patchwork. (Boxing has had its critics as well, but that sport is often thought of with a sepia filter.) For women—given that their involvement in the UFC is a very recent development—the ethics conversation has been even newer. And, in spite of the tremendous strides women athletes have made in recent generations, female anger like Rousey's, depicted in her fight-poster snarls and her short, violent fights, is still considered by some to be discomforting. That, according to Rousey, is precisely the point."
+            },
+            {
+                "role":"body",
+                "text":"\"We\"—women—\"have no outlet,\" Rousey said. \"I feel very fortunate in that I got to make my outlet my profession.\""
+            },
+            {
+                "role":"body",
+                "text":"Dana White, president of the UFC, has a reputation that is often more lively than those of the fighters he oversees. He recently told me that he and others who initially resisted female combat sports don't dispute that women—like men—get angry. But seeing them express it, he said, is, on some level, still upsetting."
+            },
+            {
+                "role":"image",
+                "url":"http://esq.h-cdn.co/assets/15/45/1446846993-rr-weight-cut-ii-18.jpg",
+                "caption":"",
+                "title":"",
+                "copyright":"Eric Williams/ewillphoto.com",
+                "provider":"",
+                "isProhibited":true
+            },
+            {
+                "role":"body",
+                "text":"\"I know this is sexist,\" White, now an emphatic supporter of Rousey's, said to me recently. \"But I have to admit it: I look at women and they're beautiful. I didn't want to see a woman getting punched in the face. I never thought in my wildest dreams that women would get to the level of skill and talent they're at today. I never saw something like Ronda Rousey coming.\""
+            },
+            {
+                "role":"body",
+                "text":"Rousey doesn't lean in. She jabs, kicks, and punches in, making no apologies along the way. While countless women have competed in elite-level sports over the decades, only a handful like Rousey have popped into the mainstream, developing a fan base that is both male and female. Granted, 2015 has been a banner year for women in sports: In addition to Rousey's much-viewed win over Bethe Correia in August this year, Serena Williams helped the women's singles final at the U.S. Open gain more attention than the men's, even as her quest for a record-setting twenty-second Grand Slam was shut down in a stunning upset. The Women's World Cup game between the U.S. and Japan this summer [was the most-watched soccer game in U.S. history](http://www.foxsports.com/soccer/fifa-womens-world-cup/story/women-s-world-cup-final-seen-by-record-26-7-million-in-united-states-070615)."
+            },
+            {
+                "role":"body",
+                "text":"It's an effective backdrop for Rousey's rise, the fame coming a little later than many thought deserved, given that she's already an Olympic bronze medalist in judo. \"When I went from amateur to professional sports,\" Rousey said, \"I wasn't representing my country anymore. I was representing myself. And that ended up being the best thing I possibly could have done.\""
+            },
+            {
+                "role":"body",
+                "text":"I ask Rousey why she thinks her fame is exploding in 2015, especially since she's been a competitive athlete on the international stage for years. She had mentioned that after her defeat over Correia in August, \"everything doubled,\"—her social media following, sponsorship inquiries, her fame—overnight. Rousey had big wins in the past, but this time the stakes were higher, not only because of Rousey's fight record but also because of Correia's comments about her father's suicide. Rousey replied with a knockout, a fighter who wasn't just out for the win, but for domination and a clear message of revenge."
+            },
+            {
+                "role":"pullQuote",
+                "text":"Rousey doesn't lean in. She jabs, kicks, and punches in, making no apologies along the way."
+            },
+            {
+                "role":"body",
+                "text":"\"It's inexplicable to me, you know?\" she said. \"Sometimes I wonder, What did I do any different? I think it was a combination of factors. I think it was reaching more people who weren't the stereotypical MMA fans. It's gotten to the point where it's about more than fighting. I feel like I started doing this because I wanted to find a way to pay my bills doing something that I loved, and it's gotten bigger than that. It's gotten bigger than me.\""
+            },
+            {
+                "role":"body",
+                "text":"***"
+            },
+            {
+                "role":"body",
+                "text":"In the last decade, MMA has become one of the nation's most popular pastimes, fueled in part by increased coverage on Spike TV and now a reportedly $700 million, seven-year deal with Fox Sports."
+            },
+            {
+                "role":"body",
+                "text":"There's an Internet-y element to its popularity. While Rousey's fights boast strong pay-per-view numbers, a mainstay metric for MMA, Rousey is an ideal YouTube athlete, her fights so short ([the 14-second defeat over Cat Zingano, in particular](http://www.youtube.com)) that they often need to be watched repeatedly and in slow motion in order to appreciate their mechanics (or even understand what the hell just happened)."
+            },
+            {
+                "role":"body",
+                "text":"The shift to digital spectatorship, however, has also come with the inevitable tax of online trolldom."
+            },
+            {
+                "role":"body",
+                "text":"Rousey sits in her chair, pondering this."
+            },
+            {
+                "role":"body",
+                "text":"\"I get some negative comments, you know, 'You're ugly' and 'You look like a man' and all that shit,\" she said. \"But I realized that just because they post on social media a lot more doesn't mean there's more of them. For every asshole, there's twenty cool people.\""
+            },
+            {
+                "role":"image",
+                "url":"http://esq.h-cdn.co/assets/15/45/1446847204-rr-open-workout-746.jpg",
+                "caption":"",
+                "title":"",
+                "copyright":"Eric Williams/ewillphoto.com",
+                "provider":"",
+                "isProhibited":true
+            },
+            {
+                "role":"body",
+                "text":"Body image, long something Rousey said she has struggled with, has become a centerpiece of her mantra as an athlete."
+            },
+            {
+                "role":"body",
+                "text":"\"Somehow, self-deprecation is considered modesty,\" Rousey said, \"and my confidence was considered arrogance, and it's considered a bad thing to compliment yourself. We're always told to compliment everyone around you and talk yourself down. I don't know how we're expected to look at ourselves healthily if we're told to talk about ourselves negatively.\""
+            },
+            {
+                "role":"body",
+                "text":"An entire section of her website is devoted to body image, and Rousey has spoken extensively about her battles with bulimia through the years, often in the name of making weight for competitions."
+            },
+            {
+                "role":"body",
+                "text":"\"The boys that I liked read magazines with girls on them that looked nothing like me,\" she said to me. \"And I thought that I was undesirable for them. When I was a kid, the standard I held myself to was what I've perceived the boys I liked personally wanted.\""
+            },
+            {
+                "role":"body",
+                "text":"She added, \"Spite was my greatest motivator in the beginning. I was so angry at everyone.\""
+            },
+            {
+                "role":"body",
+                "text":"***"
+            },
+            {
+                "role":"body",
+                "text":"Rousey, named after her father, Ron, was born in Riverside, California, in 1987, the youngest of three girls. Her mother, who worked toward her Ph.D. as the Rousey girls were growing up, was an elite judo athlete herself. The household was full of roughhousing, tough love and sports, according to Rousey's book, *My Fight/Your Fight*, which she cowrote with her sister Maria Burns Ortiz this year."
+            },
+            {
+                "role":"body",
+                "text":"When Rousey was still in elementary school, the family moved from California to rural North Dakota so her mother could pursue a job at Minot State University. Her father retired from his job as a plant manager at an aerospace factory."
+            },
+            {
+                "role":"image",
+                "url":"http://esq.h-cdn.co/assets/15/45/1446845012-ronda-family1987-1.jpg",
+                "caption":"",
+                "title":"",
+                "copyright":"Courtesy of Ronda Rousey",
+                "provider":"",
+                "isProhibited":true
+            },
+            {
+                "role":"body",
+                "text":"The beginning of the worst chapter of Rousey's childhood came in the early nineties. What should have been a pleasant family sledding outing turned into her father colliding with a log covered in snow. \"My mom thought he was joking,\" wrote Rousey and her sister of seeing her father lying on the ground. His accident led to more than five months in the hospital, blood infusions, surgeries and hours of Rousey watching cartoons and coloring in hospital waiting rooms. Doctors told her father that his spine was disintegrating and soon he would not be able to walk. On August 11, 1995, Rousey and her sister, Jennifer, were at home with their father watching Nickelodeon. He stood up, hugged them, then left the house. Rousey was eight years old."
+            },
+            {
+                "role":"body",
+                "text":"\"My dad had walked down the four steps that led to the driveway,\" Rousey and her sister wrote. \"He got into the Bronco. He drove to the spot next to the pond where we skipped rocks. It was peaceful there. He parked the car, then took out a hose and put one end in the tailpipe, then brought the other end around to the driver's side window. He got in the car. He rolled up the window. He sat back in his seat. He closed his eyes. He went to sleep.\""
+            },
+            {
+                "role":"body",
+                "text":"The loss of her father has become a part of her public biography, brought up in interviews and by opponents, most recently by Correia. Prior to their fight, Correia said, \"I hope [Rousey] does not kill herself later on.\""
+            },
+            {
+                "role":"body",
+                "text":"Rousey was quick to incorporate her anger about Correia's comments into her training."
+            },
+            {
+                "role":"pullQuote",
+                "text":"\"Spite was my greatest motivator in the beginning,\" Rousey says. \"I was so angry at everyone.\""
+            },
+            {
+                "role":"body",
+                "text":"\"It wasn't the first time an opponent had taken jabs at my personal life,\" Rousey said. \"But it was definitely the farthest that anyone had ever gone. I'm just happy that being a professional, I can do something about it.\""
+            },
+            {
+                "role":"body",
+                "text":"She added, \"You're not just putting your body at risk, you're putting your ego at risk. This person disrespected you and your family and could go beat you up and take everything that you cared and worked for and you'll just be the biggest loser ever. Or, they can disrespect you and your family and you can beat them in such a devastating way that no one would ever dare to mention your family again."
+            },
+            {
+                "role":"body",
+                "text":"\"Fortunately that's the way it worked out, because I knocked her out flat on her face and ate some hot wings afterwards and laughed about it.\""
+            },
+            {
+                "role":"body",
+                "text":"***"
+            },
+            {
+                "role":"video",
+                "type":"youtube",
+                "url":"https://www.youtube.com/watch?v=7G2wtiUFG7Y&amp;feature=youtu.be"
+            },
+            {
+                "role":"body",
+                "text":"After her father's death, Rousey and her family moved back to California, where she found comfort in her mother's passion: judo. At sixteen, she moved away from her family to pursue Olympic training in Massachusetts. She made the Athens team in 2004, the youngest judo competitor there, and finished ninth, a surprising result considering the lack of American Olympic champions in the sport."
+            },
+            {
+                "role":"body",
+                "text":"She continued training and qualified for the Beijing Games in 2008\\. There she won bronze. For Rousey, winning an Olympic medal was the beginning of her career rather than its peak."
+            },
+            {
+                "role":"body",
+                "text":"But it didn't seem that way at first. Upon returning home to California, she crashed with her mother and worked part-time as a waitress at a pirate-themed bar called Redwood Bar and Grill. She added two more food-service jobs to her schedule, one as a cocktail waitress and another morning bartender shift at a nearby restaurant."
+            },
+            {
+                "role":"body",
+                "text":"She smoked Camel menthols and marijuana, the latter of which she often received from customers as a tip. Against her mother's initial wishes, she began training for MMA while teaching judo and working at the front desk of a 24-Hour Fitness. Some friends from the judo community were transitioning into MMA and had invited Rousey to grapple with them, a path many male fighters had followed. Her training and competition schedule began to shift accordingly."
+            },
+            {
+                "role":"body",
+                "text":"\"Even if nobody believed me, I believed it,\" she said. \"I felt so happy every day, even though I was hustling and driving in the Honda with no AC and going to three or four workouts a day and working three different jobs, and I was so happy and alive and so convinced that everything that I was doing was right. Every single day that I lay down and collapsed in the bed, I was so convinced that that sleep was really earned and every spare moment that I had, every spare thought that I had was for fighting. I was shadowboxing with the droplets in the shower, just trying to get better every single second.\""
+            },
+            {
+                "role":"body",
+                "text":"This era also included a series of poor dating choices. There was the man who cheated on Rousey and prompted an STD false alarm. The heroin addict who stole her car. The creep who, unbeknownst to Rousey, took nude photos of her. The several who demanded more femininity out of her, including one who wanted her to wear her hair down more often. \"I was like, 'You know what? You're dating the wrong girl,' \" she said."
+            },
+            {
+                "role":"pullQuote",
+                "text":"\"I get negative comments: 'You're ugly' and all that shit,\" Rousey said. \"But for every asshole, there's twenty cool people.\""
+            },
+            {
+                "role":"body",
+                "text":"Then came the hurdle of convincing her coaches, friends, and family—most notably her mother—that she wanted to leave the world of judo permanently for cage fighting, even though no professional women's division existed at the time."
+            },
+            {
+                "role":"body",
+                "text":"\"Everyone was furious with me,\" Rousey said. \"I knew that they would be. But I couldn't follow the lifestyle that just made other people happy.\""
+            },
+            {
+                "role":"body",
+                "text":"Rousey said that her mother ultimately came on board, but some of her old coaches didn't want to talk to her anymore, even as they supported other judo athletes who went into MMA."
+            },
+            {
+                "role":"body",
+                "text":"\"It hurt my feelings a lot,\" she said, \"But I'm so happy that everything went down the way it did, otherwise I would have had these really superficial relationships without ever knowing it. Sometimes testing the people around you is a very uncomfortable thing, but it isn't necessarily a bad thing. Adversity tears everything that's loose and leaves everything that's strongly tied to you.\""
+            },
+            {
+                "role":"image",
+                "url":"http://esq.h-cdn.co/assets/15/45/1446834997-dsc-5420.jpg",
+                "caption":"",
+                "title":"",
+                "copyright":"Eric Williams/ewillphoto.com",
+                "provider":"",
+                "isProhibited":true
+            },
+            {
+                "role":"body",
+                "text":"She smiled, \"In hindsight, now that everything has become so successful and great, I enjoy the hell out of it. That they can't go anywhere without seeing my face and knowing that they screwed up.\""
+            },
+            {
+                "role":"body",
+                "text":"***"
+            },
+            {
+                "role":"body",
+                "text":"Like many athletes, Rousey's fear is what most Americans crave: retirement. She doesn't take vacations, and though she has no idea how long her current competition window will remain open, she's trying to enjoy it while it lasts, even if it means paying the price of becoming a public figure."
+            },
+            {
+                "role":"image",
+                "url":"http://esq.h-cdn.co/assets/15/45/1446853211-20151029-ronda-rousey-411-vertical.jpg",
+                "caption":"",
+                "title":"",
+                "copyright":"Eric Williams/ewillphoto.com",
+                "provider":"",
+                "isProhibited":true
+            },
+            {
+                "role":"body",
+                "text":"\"Rust is a real thing,\" she said. \"Staying active makes me feel good, and as an athlete, it challenges me and really keeps me focused. The reason why I stay the champ is because I don't ever go flying off on vacation and sitting around and doing nothing for very long. I just don't know what else to do with myself.\""
+            },
+            {
+                "role":"body",
+                "text":"She sits back in her chair, the makeup applied, the hair perfectly coiffed."
+            },
+            {
+                "role":"body",
+                "text":"\"It's kind of funny how people interact with you for the first time,\" she said. \"I went to get coffee the other day and the guy is like, 'So, you gonna fight Mayweather?' I'm like, 'No, but I'd like a tall iced coffee with some sweetener.' There are just some days where you just don't have energy for anyone. I used to love people-watching in Venice. Now people watch me.\""
+            },
+            {
+                "role":"body",
+                "text":"That will certainly be the case on November 14 when she faces Holm. After leaving her round of press in New York, she will spend the weeks leading up to it in near-isolation with her coach."
+            },
+            {
+                "role":"body",
+                "text":"For now, the cage is where Rousey feels most comfortable."
+            },
+            {
+                "role":"body",
+                "text":"\"Right before a fight, all I'm thinking is that I deserve to win, I belong there,\" she said. \"I really feel like I'm a fish and something got dropped beside me in the water and I remember that, 'Oh yes, this is where I'm supposed to be and this is the way it's supposed to be.' It's a strange sense of coming home and belonging in my place.\""
+            }
+        ],
+        "siteCode":"esq",
+        "hasGallery":false,
+        "isSponsored":false,
+        "issues":[
+
+        ]
+    }
+}

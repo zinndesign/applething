@@ -1,0 +1,567 @@
+{
+	"version": "0.10",
+	"identifier": "!!!DYNAMIC",
+	"title": "11 Tastemaker-Approved Trends To Get You Ready For Fall",
+	"language": "en",
+	"blueprint": "basic",
+	"layout": {
+		"columns": 6,
+		"width": 1024,
+		"margin": 80,
+		"gutter": 20
+	},
+	"components": [
+		{
+			"role": "header",
+			"layout": "headerImageLayout",
+			"style": {
+				"fill": {
+					"type": "image",
+					"URL": "http://edc.h-cdn.co/assets/15/38/1600x800/landscape-1442526649-eyre-livingroomoverall-lr.jpg",
+					"fillMode": "cover",
+					"verticalAlignment": "top"
+				}
+			},
+			"behavior": {
+				"type": "parallax",
+				"factor": 0.5
+			},
+			"components": [
+				{
+					"role": "container",
+					"layout": "tabLayout",
+					"style": "tabLayoutStyle",
+					"anchor": {
+						"targetAnchorPosition": "bottom"
+					}
+				}
+			]
+		},
+		{
+			"role": "section",
+			"layout": "bodyContainerLayout",
+			"style": "bodyContainerStyle",
+			"anchor": {
+				"targetAnchorPosition": "top"
+			},
+			"components": [
+				{
+					"role": "title",
+					"layout": "titleLayout",
+					"text": "11 Tastemaker-Approved Trends To Get You Ready For Fall",
+					"textStyle": "titleStyle"
+				},
+				{
+					"role": "intro",
+					"layout": "introLayout",
+					"text": "From sumptuous colors and fabrics to inspiring decor styles, there are so many stylish ways to refresh your home for fall.",
+					"textStyle": "introStyle",
+					"format": "markdown"
+				},
+				{
+					"role": "divider",
+					"stroke": {
+						"color": "#FFF0"
+					},
+					"layout": "blackStrokeLayout1",
+					"style": "baseStrokeStyle"
+				},
+				{
+					"role": "author",
+					"layout": "authorLayout",
+					"text": "By Bridget Mallon",
+					"textStyle": "authorStyle"
+				},
+				{
+					"role": "divider",
+					"stroke": {
+						"color": "#FFF0"
+					},
+					"layout": "blackStrokeLayout2",
+					"style": "baseStrokeStyle"
+				},
+				{
+					"role": "body",
+					"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tempus lacus id lectus tempus facilisis.",
+					"layout": "bodyLayout",
+					"textStyle": "bodyStyleFirst",
+					"format": "markdown"
+				},
+								{
+					"role": "section",
+					"layout": "slideLayout",
+					"components": [
+						{
+							"role": "heading",
+							"text": "Rich textures, saturated hues",
+							"layout": "heading1Layout",
+							"textStyle": "heading1Style",
+							"format": "markdown"
+						},
+						{
+							"role": "container",
+							"style": "photoContainerStyle",
+							"components": [
+								{
+									"role": "image",
+									"URL": "http://edc.h-cdn.co/assets/15/38/1442526649-eyre-livingroomoverall-lr.jpg",
+									"layout": "photoLayout",
+									"animation": {
+										"type": "fade_in",
+										"userControllable": true,
+										"initialAlpha": 0.1
+									}
+								}
+							]
+						},
+						{
+							"role": "photographer",
+							"text": "Photo via Wendy Labrum",
+							"layout": "creditLayout",
+							"textStyle": "creditStyle"
+						},
+						{
+							"role": "caption",
+							"text": "\"Come fall, I love seeing **rich textures in deep, saturated hues** like eggplant, olive, navy and ruby. After lightening things up for the summer season, it always feels luxurious and timely to bring deeper colors back.\"\n*-Wendy Labrum, [Interior Designer](http://google.com)*",
+							"layout": "captionLayout",
+							"textStyle": "captionStyle",
+							"format": "markdown"
+						}
+					]
+				},
+				{
+					"role": "section",
+					"layout": "slideLayout",
+					"components": [
+						{
+							"role": "heading",
+							"text": "Mixed Metals",
+							"layout": "heading1Layout",
+							"textStyle": "heading1Style",
+							"format": "markdown"
+						},
+						{
+							"role": "container",
+							"style": "photoContainerStyle",
+							"components": [
+								{
+									"role": "image",
+									"URL": "http://edc.h-cdn.co/assets/cm/15/04/54c16271ad077_-_diaz-edc-09-13-07-xln.jpg",
+									"layout": "photoLayout",
+									"animation": {
+										"type": "fade_in",
+										"userControllable": true,
+										"initialAlpha": 0.1
+									}
+								}
+							]
+						},
+						{
+							"role": "photographer",
+							"text": "Produced by Anita Sarsidi / Photography by William Abranowicz",
+							"layout": "creditLayout",
+							"textStyle": "creditStyle"
+						},
+						{
+							"role": "caption",
+							"text": "\"I can't get enough of **mixed metals and materials** this fall! Gleaming or distressed golds, silvers and coppers, paired with wood, steel, matte black or glass on one piece of... anything!\"\n*-Elaine Griffin, [Interior Designer](http://google.com)*",
+							"layout": "captionLayout",
+							"textStyle": "captionStyle",
+							"format": "markdown"
+						}
+					]
+				},
+				{
+					"role": "section",
+					"layout": "slideLayout",
+					"components": [
+						{
+							"role": "heading",
+							"text": "The return of modernism",
+							"layout": "heading1Layout",
+							"textStyle": "heading1Style",
+							"format": "markdown"
+						},
+						{
+							"role": "container",
+							"style": "photoContainerStyle",
+							"components": [
+								{
+									"role": "image",
+									"URL": "http://edc.h-cdn.co/assets/cm/15/04/54bfa4f486376_-_04-nm.jpg",
+									"layout": "photoLayout",
+									"animation": {
+										"type": "fade_in",
+										"userControllable": true,
+										"initialAlpha": 0.1
+									}
+								}
+							]
+						},
+						{
+							"role": "photographer",
+							"text": "Kelly Stuart",
+							"layout": "creditLayout",
+							"textStyle": "creditStyle"
+						},
+						{
+							"role": "caption",
+							"text": "\"What I am most excited about is the **return of modernism layered in luxurious color**. Bold, fresh furniture profiles rendered in pure hues.\"\n*-Jon Call, [Interior Designer](http://google.com)*",
+							"layout": "captionLayout",
+							"textStyle": "captionStyle",
+							"format": "markdown"
+						}
+					]
+				},
+				{
+					"role": "section",
+					"layout": "slideLayout",
+					"components": [
+						{
+							"role": "heading",
+							"text": "Geometrics mixed with organics",
+							"layout": "heading1Layout",
+							"textStyle": "heading1Style",
+							"format": "markdown"
+						},
+						{
+							"role": "container",
+							"style": "photoContainerStyle",
+							"components": [
+								{
+									"role": "image",
+									"URL": "http://edc.h-cdn.co/assets/15/38/1442526541-09-dining-room.JPG",
+									"layout": "photoLayout",
+									"animation": {
+										"type": "fade_in",
+										"userControllable": true,
+										"initialAlpha": 0.1
+									}
+								}
+							]
+						},
+						{
+							"role": "photographer",
+							"text": "Grey Crawford",
+							"layout": "creditLayout",
+							"textStyle": "creditStyle"
+						},
+						{
+							"role": "caption",
+							"text": "\"Right now, I am loving **bold geometric shapes mixed with organic materials**. From oversized chevron to diamond shapes and everything in between, geometric patterns are popping up everywhere. Combining the strength of these patterns with well-worn materials like reclaimed wood, aged metals and textural fabrics is something that has really inspired me this season.\"\n*-Jeff Andrews, [Interior Designer](http://google.com)*",
+							"layout": "captionLayout",
+							"textStyle": "captionStyle",
+							"format": "markdown"
+						}
+					]
+				},
+				{
+					"role": "section",
+					"layout": "slideLayout",
+					"components": [
+						{
+							"role": "heading",
+							"text": "Wallpaper",
+							"layout": "heading1Layout",
+							"textStyle": "heading1Style",
+							"format": "markdown"
+						},
+						{
+							"role": "container",
+							"style": "photoContainerStyle",
+							"components": [
+								{
+									"role": "image",
+									"URL": "http://edc.h-cdn.co/assets/cm/15/05/54c91046768ef_-_05-bilhuber-ceiling-design-lgn.jpg",
+									"layout": "photoLayout",
+									"animation": {
+										"type": "fade_in",
+										"userControllable": true,
+										"initialAlpha": 0.1
+									}
+								}
+							]
+						},
+						{
+							"role": "photographer",
+							"text": "Photographer: William Waldron",
+							"layout": "creditLayout",
+							"textStyle": "creditStyle"
+						},
+						{
+							"role": "caption",
+							"text": "\"There are so many amazing wallpaper designs out, that it seems timely to start finding places other than walls to use them. **Grasscloth and lacquer-like solids on ceilings**, cabinet interiors that surprise and delight with large scale vibrant block prints, bookshelves fitted out with endpapers of their own. Wallpaper or **wallpaper-inspired prints to line our envelopes** or add a whimsical touch to the back of a hand-engraved note card.\"\n*-Leo Mascotte, Creative Director of [Dempsey & Carroll](http://google.com)*",
+							"layout": "captionLayout",
+							"textStyle": "captionStyle",
+							"format": "markdown"
+						}
+					]
+				},
+				{
+					"role": "banner_advertisement",
+					"bannerType": "standard"
+				}
+			]
+		}
+	],
+	"documentStyle": {
+		"backgroundColor": "#FFF"
+	},
+	"componentStyles": {
+		"baseStrokeStyle": {
+		},
+		"blockQuoteContainerStyle": {
+			"border": {
+				"all": {
+					"width": 4,
+					"color": "#ddd"
+				},
+				"top": false,
+				"right": false,
+				"bottom": false
+			}
+		},
+		"bodyContainerStyle": {
+			"backgroundColor": "#FFF"
+		},
+		"dateLayoutStyle": {
+			"border": {
+				"all": {
+					"width": 2
+				},
+				"top": false,
+				"left": false,
+				"right": false
+			}
+		},
+		"photoContainerStyle": {
+			"backgroundColor": "#000"
+		},
+		"tabLayoutStyle": {
+		}
+	},
+	"componentTextStyles": {
+		"authorStyle": {
+			"fontName": "CentraleSans-Medium",
+			"fontSize": 12,
+			"textAlignment": "left",
+			"textColor": "#AAA",
+			"textTransform":"uppercase"
+		},
+		"blockQuoteStyle": {
+			"fontName": "SabonNextLTPro-Regular",
+			"textColor": "#777",
+			"fontSize": 18,
+			"lineHeight": 24,
+			"textAlignment": "left",
+			"linkStyle": {
+				"textColor": "#3777bc"
+			}
+		},
+		"bodyStyle": {
+			"fontName": "SabonNextLTPro-Regular",
+			"fontSize": 21,
+			"lineHeight": 30,
+			"textAlignment": "left",
+			"textColor": "#333",
+			"linkStyle": {
+				"textColor": "#3777bc"
+			}
+		},
+		"bodyStyleFirst": {
+			"fontName": "SabonNextLTPro-Regular",
+			"fontSize": 21,
+			"lineHeight": 30,
+			"textAlignment": "left",
+			"textColor": "#333",
+			"linkStyle": {
+				"textColor": "#3777bc"
+			}
+		},
+		"captionStyle": {
+			"fontName": "SabonNextLTPro-Regular",
+			"fontSize": 18,
+			"lineHeight": 28,
+			"textAlignment": "left",
+			"textColor": "#333",
+			"linkStyle": {
+				"textColor": "#3777bc"
+			}
+		},
+		"creditStyle": {
+			"fontName": "CentraleSans-Medium",
+			"fontSize": 12,
+			"lineHeight": 18,
+			"textAlignment": "left",
+			"textColor": "#AAA"
+		},
+		"dateStyle": {
+			"fontName": "CentraleSans-Medium",
+			"fontSize": 12,
+			"textAlignment": "left",
+			"textColor": "#AAA",
+			"textTransform":"uppercase"
+		},
+		"heading1Style": {
+			"fontName": "CentraleSans-Bold",
+			"fontSize": 28,
+			"lineHeight": 34,
+			"textAlignment": "left",
+			"textTransform":"uppercase"
+		},
+		"introStyle": {
+			"fontName": "SabonNextLTPro-Italic",
+			"fontSize": 18,
+			"lineHeight": 24,
+			"textAlignment": "left",
+			"textColor": "#666",
+			"linkStyle": {
+				"textColor": "#3777bc"
+			}
+		},
+		"lowerListStyle": {
+			"fontName": "CentraleSans-Medium",
+			"fontSize": 18,
+			"lineHeight": 20,
+			"textAlignment": "left"
+		},
+		"pullQuoteStyle": {
+			"fontName": "SabonNextLTPro-Italic",
+			"fontSize": 42,
+			"lineHeight": 50,
+			"textAlignment": "left",
+			"textColor": "#3777bc"
+		},
+		"spacerWord":{
+			"fontName": "SabonNextLTPro-Regular",
+			"fontSize": 48,
+			"lineHeight": 48,
+			"textAlignment": "left",
+			"textTransform": "uppercase"
+		},
+		"titleStyle": {
+			"fontName": "CentraleSans-Bold",
+			"fontSize": 42,
+			"lineHeight": 42,
+			"textAlignment": "left",
+			"textTransform":"uppercase"
+		}
+	},
+	"componentLayouts": {
+		"adLayout": {
+		},
+		"authorLayout": {
+			"margin": {
+				"top": 10,
+				"bottom": 20
+			}
+		},
+		"blackStrokeLayout1":{
+			"margin": 0
+		},
+		"blackStrokeLayout2":{
+			"margin": 0
+		},
+		"blackStrokeLayout3":{
+			"margin": 0
+		},
+		"blackStrokeLayout4":{
+			"margin": 0
+		},
+		"blockQuoteLayout": {
+			"contentInset": {
+				"left": true,
+				"right": true
+			},
+			"margin": 15
+		},
+		"bodyContainerLayout": {
+			"margin": {
+				"top": 0,
+				"bottom": 25
+			}
+		},
+		"bodyLayout": {
+			"margin": {
+				"top": 5,
+				"bottom": 15
+			}
+		},
+		"captionLayout": {
+			"margin": {
+				"top": 5,
+				"bottom": 10
+			}	 
+		},
+		"creditLayout": {
+			"margin": {
+				"top": 5,
+				"bottom": 5
+			}	 
+		},
+		"dateLayout": {
+			"margin": {
+				"top": 40,
+				"bottom": 15
+			}
+		},
+		"embedLayout": {
+			"margin": {
+				"top": 10,
+				"bottom": 25
+			}
+		},
+		"headerImageLayout": {
+			"ignoreDocumentMargin": true,
+			"minimumHeight": "55vmin",
+			"margin": {
+				"top": 0,
+				"bottom": 45
+			}
+		},
+		"heading1Layout": {
+			"margin": {
+				"top": 10,
+				"bottom": 10
+			}
+		},
+		"introLayout": {
+			"margin": {
+				"top": 5,
+				"bottom": 10
+			}
+		},
+		"photoLayout": {
+			"maximumContentWidth": "100cw"
+		},
+		"pullQuoteLayout": {
+			"margin": {
+				"top": 25,
+				"bottom": 25
+			},
+			"contentInset": {
+				"left": false,
+				"right": false
+			}
+		},
+		"slideLayout": {
+			"ignoreDocumentMargin": true,
+			"margin": 15
+		},
+		"spacerLayout": {
+			"margin": {
+				"top": 0,
+				"bottom": 25
+			}
+		},
+		"tabLayout": {
+			"ignoreDocumentMargin": true
+		},
+		"titleLayout": {
+			"margin": {
+				"top": 0,
+				"bottom": 0
+			}
+		}
+	}
+}
